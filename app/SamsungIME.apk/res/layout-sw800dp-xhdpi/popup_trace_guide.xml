@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip">
+        <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="@color/hwr_popup_guide_text_color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trace_summary" android:paddingStart="26.0dip" style="@style/popupGetstureGuideSubTextView" />
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="25.0dip">
+            <ImageView android:layout_width="320.0dip" android:layout_height="240.0dip" android:src="@drawable/tutorial" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#fff0f0f0" android:layout_width="570.0px" android:layout_height="1.0dip" android:layout_marginStart="14.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="55.0dip">
+        <CheckBox android:textSize="20.0dip" android:textColor="@color/hwr_popup_guide_sub_text_color" android:layout_gravity="center_vertical" android:id="@id/trace_popup_chk_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/btn_check_holo_light" android:text="@string/hwr_gesture_guide_dont_show" android:soundEffectsEnabled="true" android:layout_marginStart="26.0dip" />
+    </LinearLayout>
+</LinearLayout>

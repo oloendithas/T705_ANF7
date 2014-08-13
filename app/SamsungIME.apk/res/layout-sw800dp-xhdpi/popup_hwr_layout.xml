@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.diotek.ime.implement.view.KeyboardView android:id="@id/popup_keyboardview" android:layout_width="@dimen/hwr_popup_symbol_keyboard_width" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/popup_keyboard_cancel" android:background="@drawable/handwriting_key_bg_option_xml" android:layout_width="@dimen/hwr_popup_symbol_cancel_button_width" android:layout_height="@dimen/hwr_popup_symbol_cancel_button_height" android:layout_marginTop="@dimen/hwr_popup_symbol_cancel_button_top_margin" android:src="@drawable/handwrighting_popup_panel_btn_cancel_xml" android:layout_marginStart="@dimen/hwr_popup_symbol_margin" android:layout_marginEnd="@dimen/hwr_popup_symbol_margin" />
+        <Button android:textColor="@color/popup_keyboard_page_button_text_color_xml" android:id="@id/popup_keyboard_page_toggle" android:background="@drawable/handwriting_key_bg_option_xml" android:layout_width="@dimen/hwr_popup_symbol_page_button_width" android:layout_height="@dimen/hwr_popup_symbol_page_button_height" android:layout_marginTop="@dimen/hwr_popup_symbol_page_button_top_margin" android:layout_marginBottom="@dimen/hwr_popup_symbol_button_bottom_margin" android:shadowColor="@color/functionkey_shadowcolor" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_marginStart="@dimen/hwr_popup_symbol_margin" android:layout_marginEnd="@dimen/hwr_popup_symbol_margin" />
+    </LinearLayout>
+</LinearLayout>

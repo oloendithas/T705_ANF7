@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="qwerty_emoticon_icon_count_in_row">12</integer>
+    <integer name="preference_setting_layout_weight_middle">1</integer>
+    <integer name="preference_setting_layout_weight_side">0</integer>
+    <item type="integer" name="APKTOOL_DUMMY_0023">false</item>
+</resources>

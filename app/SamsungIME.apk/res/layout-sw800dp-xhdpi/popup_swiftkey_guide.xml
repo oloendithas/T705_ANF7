@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="false" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0px" android:layout_marginBottom="0.0px" android:paddingStart="38.0dip" android:paddingEnd="38.0dip">
+            <TextView android:textAppearance="?android:textAppearanceLargePopupMenu" android:textSize="@dimen/notification_popup_text_size" android:textStyle="normal" android:textColor="@color/hwr_popup_guide_text_color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginBottom="29.0dip" android:text="@string/swiftkey_first_dialog_msg" />
+            <CheckBox android:textAppearance="?android:textAppearanceLargePopupMenu" android:textSize="@dimen/notification_popup_text_size" android:textStyle="normal" android:textColor="@color/hwr_popup_guide_text_color_white" android:layout_gravity="center_vertical" android:id="@id/use_standard_data_chk_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/btn_check_holo_light" android:text="@string/swiftkey_enable_personalised_data" android:paddingStart="8.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceLargePopupMenu" android:textSize="@dimen/notification_popup_text_size" android:textStyle="normal" android:textColor="@color/hwr_popup_guide_text_color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="29.0dip" android:layout_marginBottom="29.0dip" android:text="@string/swiftkey_second_dialog_msg" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

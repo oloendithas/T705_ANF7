@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:paddingTop="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="14.0dip" android:paddingEnd="14.0dip">
+                <TextView android:textSize="@dimen/tutorial_title_text_size" android:textStyle="bold" android:gravity="center_vertical" android:paddingTop="0.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/tutorial_title_open" android:paddingStart="16.0dip" style="@style/settingsTutorialTitleTextView" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="16.0dip">
+                    <TextView android:textSize="@dimen/tutorial_helptext_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tutorial_helptext_open" style="@style/settingsTutorialHelpTextView" />
+                    <EditText android:id="@id/tutorial_edittext" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:singleLine="true" android:maxLength="1000" android:soundEffectsEnabled="false" android:imeOptions="normal|actionUnspecified" android:paddingStart="15.0dip" android:layout_marginStart="16.0dip" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/tutorial_title_text_size" android:textStyle="bold" android:gravity="center_vertical" android:paddingTop="0.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/tutorial_title_close" android:paddingStart="16.0dip" style="@style/settingsTutorialTitleTextView" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="16.0dip">
+                    <TextView android:textSize="@dimen/tutorial_helptext_size" android:id="@id/tutorial_helptext_close" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/tutorial_helptext_close" style="@style/settingsTutorialHelpTextView" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" style="@style/settingsTutorialHideImageView" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/tutorial_title_text_size" android:textStyle="bold" android:gravity="center_vertical" android:paddingTop="0.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/tutorial_title_change_input_mode" android:paddingStart="16.0dip" style="@style/settingsTutorialTitleTextView" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="16.0dip">
+                    <TextView android:textSize="@dimen/tutorial_helptext_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/tutorial_helptext_change_input_mode" style="@style/settingsTutorialHelpTextView" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" style="@style/settingsTutorialMode01ImageView" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/tutorial_title_text_size" android:textStyle="bold" android:gravity="center_vertical" android:paddingTop="0.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/tutorial_title_chage_input_method" android:paddingStart="16.0dip" style="@style/settingsTutorialTitleTextView" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="16.0dip">
+                    <TextView android:textSize="@dimen/tutorial_helptext_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/tutorial_helptext_chage_input_method" style="@style/settingsTutorialHelpTextView" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" style="@style/settingsTutorialKeypadImageView" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/tutorial_title_text_size" android:textStyle="bold" android:gravity="center_vertical" android:paddingTop="0.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/tutorial_title_change_lang" android:paddingStart="16.0dip" style="@style/settingsTutorialTitleTextView" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="16.0dip">
+                    <TextView android:textSize="@dimen/tutorial_helptext_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/tutorial_helptext_change_lang" style="@style/settingsTutorialHelpTextView" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" style="@style/settingsTutorialLanguageImageView" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/tutorial_title_text_size" android:textStyle="bold" android:gravity="center_vertical" android:paddingTop="0.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/tutorial_title_keypad_guide" android:paddingStart="16.0dip" style="@style/settingsTutorialTitleTextView" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="16.0dip">
+                    <TextView android:textSize="@dimen/tutorial_helptext_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/tutorial_helptext_move" style="@style/settingsTutorialHelpTextView" />
+                    <TextView android:textSize="@dimen/tutorial_helptext_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/tutorial_helptext_move2" style="@style/settingsTutorialHelpTextView" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" style="@style/settingsTutorialMoveCursor01ImageView" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/tutorial_title_text_size" android:textStyle="bold" android:gravity="center_vertical" android:paddingTop="0.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/tutorial_title_move_select" android:paddingStart="16.0dip" style="@style/settingsTutorialTitleTextView" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="16.0dip">
+                    <TextView android:textSize="@dimen/tutorial_helptext_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/tutorial_helptext_select" style="@style/settingsTutorialHelpTextView" />
+                    <TextView android:textSize="@dimen/tutorial_helptext_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/tutorial_helptext_select1" style="@style/settingsTutorialHelpTextView" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/settingsTutorialMoveCursor02ImageView" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" style="@style/settingsTutorialSelectTextImageView" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:textSize="@dimen/tutorial_title_text_size" android:textStyle="bold" android:gravity="center_vertical" android:paddingTop="0.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/tutorial_title_multi_mode" android:paddingStart="16.0dip" style="@style/settingsTutorialTitleTextView" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="16.0dip">
+                    <TextView android:textSize="@dimen/tutorial_helptext_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/tutorial_helptext_multi_mode_without_hwr" style="@style/settingsTutorialHelpTextView" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/settingsTutorialVoiceImageView" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" style="@style/settingsTutorialInputMethodImageView" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/settingsTutoriaKeyboardImageView" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" style="@style/settingsTutoriaSplitImageView" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" style="@style/settingsTutorialFloatingImageView" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:textSize="@dimen/tutorial_title_text_size" android:textStyle="bold" android:gravity="center_vertical" android:paddingTop="0.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/tutorial_title_voice_input" android:paddingStart="16.0dip" style="@style/settingsTutorialTitleTextView" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="16.0dip">
+                    <TextView android:textSize="@dimen/tutorial_helptext_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/tutorial_helptext_voice_input" style="@style/settingsTutorialHelpTextView" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" style="@style/settingsTutorialVoiceImageView" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/tutorial_title_text_size" android:textStyle="bold" android:gravity="center_vertical" android:paddingTop="0.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/tutorial_title_keypad_settings" android:paddingStart="16.0dip" style="@style/settingsTutorialTitleTextView" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="16.0dip">
+                    <TextView android:textSize="@dimen/tutorial_helptext_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/tutorial_helptext_keypad_settings" style="@style/settingsTutorialHelpTextView" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" style="@style/settingsTutorialInputMethodImageView" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/tutorial_title_text_size" android:textStyle="bold" android:gravity="center_vertical" android:paddingTop="0.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/tutorial_title_clipboard" android:paddingStart="16.0dip" style="@style/settingsTutorialTitleTextView" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="16.0dip">
+                    <TextView android:textSize="@dimen/tutorial_helptext_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/tutorial_helptext_clipboard" style="@style/settingsTutorialHelpTextView" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" style="@style/settingsTutorialClipboardImageView" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/tutorial_title_text_size" android:textStyle="bold" android:gravity="center_vertical" android:paddingTop="0.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/tutorial_title_change_keyboard_type" android:paddingStart="16.0dip" style="@style/settingsTutorialTitleTextView" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="16.0dip">
+                    <TextView android:textSize="@dimen/tutorial_helptext_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/tutorial_helptext_change_keyboard_type_tablet" style="@style/settingsTutorialHelpTextView" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/settingsTutoriaKeyboardImageView" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" style="@style/settingsTutoriaSplitImageView" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" style="@style/settingsTutorialFloatingImageView" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:layout_width="fill_parent" android:layout_height="10.0dip" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>

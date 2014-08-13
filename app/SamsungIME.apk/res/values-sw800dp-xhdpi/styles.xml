@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="customTheme" parent="@android:style/Theme.DeviceDefault" />
+    <style name="PersonalizerTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar" />
+    <style name="xT9WordListTextView">
+        <item name="android:textColor">@color/hwr_tutorial_text_color_white</item>
+    </style>
+    <style name="settingsButtonTextView">
+        <item name="android:textColor">@color/settings_button_text_color_white_xml</item>
+    </style>
+    <style name="settingsGetstureGuideTextView">
+        <item name="android:textColor">@color/hwr_tutorial_guide_text_color_white</item>
+    </style>
+    <style name="settingsGetstureGuideSubTextView">
+        <item name="android:textColor">@color/hwr_popup_guide_sub_text_color</item>
+    </style>
+    <style name="popupGetstureGuideTextView">
+        <item name="android:textColor">@color/hwr_popup_guide_text_color_white</item>
+    </style>
+    <style name="popupGetstureGuideSubTextView">
+        <item name="android:textColor">@color/hwr_popup_guide_sub_text_color</item>
+    </style>
+    <style name="settingsTutorialTitleTextView">
+        <item name="android:textColor">@color/tutorial_title_color_white</item>
+        <item name="android:background">@drawable/list_section_divider_holo_light</item>
+    </style>
+    <style name="settingsTutorialHelpTextView">
+        <item name="android:textColor">@color/tutorial_helptext_color_white</item>
+    </style>
+    <style name="settingsTutorialHelpSubTextView">
+        <item name="android:textColor">@color/tutorial_helptext_icon_color_white</item>
+    </style>
+    <style name="settingsTutorialHideImageView">
+        <item name="android:background">@drawable/tutorial_icon_hide_light</item>
+    </style>
+    <style name="settingsTutorialLanguageImageView">
+        <item name="android:background">@drawable/tutorial_icon_language_light</item>
+    </style>
+    <style name="settingsTutorialMode01ImageView">
+        <item name="android:background">@drawable/tutorial_icon_mode01_light</item>
+    </style>
+    <style name="settingsTutorialMode02ImageView">
+        <item name="android:background">@drawable/tutorial_icon_mode02_light</item>
+    </style>
+    <style name="settingsPreferenceMoreBtn">
+        <item name="android:src">@drawable/settings_preference_icon_more_xml</item>
+    </style>
+    <style name="settingsGestureGuideImageView01">
+        <item name="android:background">@drawable/textinput_gesture_guide01_light</item>
+    </style>
+    <style name="settingsGestureGuideImageView02">
+        <item name="android:background">@drawable/textinput_gesture_guide02_light</item>
+    </style>
+    <style name="settingsGestureGuideImageView03">
+        <item name="android:background">@drawable/textinput_gesture_guide03_light</item>
+    </style>
+    <style name="settingsGestureGuideImageView04">
+        <item name="android:background">@drawable/textinput_gesture_guide04_light</item>
+    </style>
+    <style name="settingsGestureGuideImageView05">
+        <item name="android:background">@drawable/textinput_gesture_guide05_light</item>
+    </style>
+    <style name="settingsGestureGuideImageView06">
+        <item name="android:background">@drawable/textinput_gesture_guide06_light</item>
+    </style>
+    <style name="settingsGestureGuideImageView07">
+        <item name="android:background">@drawable/textinput_gesture_guide07_light</item>
+    </style>
+    <style name="popupGestureGuideImageView01">
+        <item name="android:background">@drawable/textinput_gesture_guide_popup_01_light</item>
+    </style>
+    <style name="popupGestureGuideImageView02">
+        <item name="android:background">@drawable/textinput_gesture_guide_popup_02_light</item>
+    </style>
+    <style name="popupGestureGuideImageView03">
+        <item name="android:background">@drawable/textinput_gesture_guide_popup_03_light</item>
+    </style>
+    <style name="popupGestureGuideImageView04">
+        <item name="android:background">@drawable/textinput_gesture_guide_popup_04_light</item>
+    </style>
+    <style name="popupGestureGuideImageView05">
+        <item name="android:background">@drawable/textinput_gesture_guide_popup_05_light</item>
+    </style>
+    <style name="popupGestureGuideImageView06">
+        <item name="android:background">@drawable/textinput_gesture_guide_popup_06_light</item>
+    </style>
+    <style name="popupGestureGuideImageView07">
+        <item name="android:background">@drawable/textinput_gesture_guide_popup_07_light</item>
+    </style>
+    <style name="popupPinchZoomGuideImageView">
+        <item name="android:background">@drawable/pinch_zoom_animation_light</item>
+    </style>
+    <style name="movingGuideImageView">
+        <item name="android:background">@drawable/moving_animation_light</item>
+    </style>
+    <style name="notSplitMovingGuideImageView">
+        <item name="android:background">@drawable/not_split_moving_animation_light</item>
+    </style>
+    <style name="settingsTutorialInputMethodImageView">
+        <item name="android:background">@drawable/tutorial_icon_setting_light</item>
+    </style>
+    <style name="settingsTutorialKeypadImageView">
+        <item name="android:background">@drawable/tutorial_change_input_method_light</item>
+    </style>
+    <style name="settingsTutorialMoveCursor01ImageView">
+        <item name="android:background">@drawable/tutorial_icon_cursor_01_light</item>
+    </style>
+    <style name="settingsTutorialMoveCursor02ImageView">
+        <item name="android:background">@drawable/tutorial_icon_cursor_02_light</item>
+    </style>
+    <style name="settingsTutorialSelectTextImageView">
+        <item name="android:background">@drawable/tutorial_icon_select_text_light</item>
+    </style>
+    <style name="settingsTutorialHandwritingImageView">
+        <item name="android:background">@drawable/tutorial_icon_handrwiting_light</item>
+    </style>
+    <style name="settingsTutoriaKeyboardImageView">
+        <item name="android:background">@drawable/tutorial_icon_keyboard_light</item>
+    </style>
+    <style name="settingsTutoriaSplitImageView">
+        <item name="android:background">@drawable/tutorial_icon_split_light</item>
+    </style>
+    <style name="settingsTutorialFloatingImageView">
+        <item name="android:background">@drawable/tutorial_icon_floating_light</item>
+    </style>
+    <style name="settingsTutorialVoiceImageView">
+        <item name="android:background">@drawable/tutorial_icon_voice_light</item>
+    </style>
+    <style name="settingsTutorialClipboardImageView">
+        <item name="android:background">@drawable/tutorial_icon_clipboard_light</item>
+    </style>
+    <style name="settingsTutorialMode03ImageView">
+        <item name="android:background">@drawable/tutorial_icon_mode03_light</item>
+    </style>
+    <item type="style" name="APKTOOL_DUMMY_0030">false</item>
+    <item type="style" name="APKTOOL_DUMMY_0031">false</item>
+</resources>

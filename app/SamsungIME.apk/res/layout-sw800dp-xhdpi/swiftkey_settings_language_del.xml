@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/leftside" android:background="@color/settings_fullscreen_blank_background_color" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="@integer/preference_setting_layout_weight_side" />
+    <LinearLayout android:orientation="vertical" android:id="@id/middle" android:background="@drawable/tw_fullscreen_background" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="@integer/preference_setting_layout_weight_middle" android:paddingStart="@dimen/preference_setting_layout_padding_side" android:paddingEnd="@dimen/preference_setting_layout_padding_side">
+        <ListView android:textSize="@dimen/xt9_words_list_text_size" android:id="@id/mywords_selectall" android:layout_width="fill_parent" android:layout_height="@dimen/xt9_words_list_height" android:cacheColorHint="#00000000" />
+        <View android:background="@drawable/tw_preference_list_divider_holo" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <ListView android:id="@id/mywords_table_output" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" />
+        <View android:background="@drawable/tw_preference_list_divider_holo" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/rightside" android:background="@color/settings_fullscreen_blank_background_color" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="@integer/preference_setting_layout_weight_side" />
+</LinearLayout>

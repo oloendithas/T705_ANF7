@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="1000" android:drawable="@drawable/sip_popup_moving_01_light" />
+    <item android:duration="1000" android:drawable="@drawable/sip_popup_moving_02_light" />
+    <item android:duration="1000" android:drawable="@drawable/sip_popup_moving_03_light" />
+    <item android:duration="1000" android:drawable="@drawable/sip_popup_moving_04_light" />
+    <item android:duration="1000" android:drawable="@drawable/sip_popup_moving_05_light" />
+</animation-list>

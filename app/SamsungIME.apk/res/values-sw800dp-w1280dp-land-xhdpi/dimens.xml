@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vertical_correction">0.0dip</dimen>
+    <dimen name="suggestion_font_size">11.0dip</dimen>
+    <dimen name="candidate_view_width">1280.0dip</dimen>
+    <dimen name="candidate_view_expand_width">1280.0dip</dimen>
+    <dimen name="candidate_view_padding_left">156.0dip</dimen>
+    <dimen name="candidate_expand_button_left_padding">100.0dip</dimen>
+    <dimen name="qwerty_default_key_width">94.0dip</dimen>
+    <dimen name="qwerty_default_key_height">73.0dip</dimen>
+    <dimen name="qwerty_default_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="qwerty_default_key_vertical_gap">3.0dip</dimen>
+    <dimen name="qwerty_first_col_horizontal_gap">24.0dip</dimen>
+    <dimen name="qwerty_first_col_horizontal_gap_second_line">57.0dip</dimen>
+    <dimen name="qwerty_horizontal_gap_right_of_shift">28.0dip</dimen>
+    <dimen name="qwerty_horizontal_gap_left_of_backspace">28.0dip</dimen>
+    <dimen name="qwerty_default_key_secondary_label_size">15.0dip</dimen>
+    <dimen name="qwerty_backspace_key_width">105.0dip</dimen>
+    <dimen name="qwerty_enter_key_width">170.0dip</dimen>
+    <dimen name="qwerty_l_shift_key_width">109.0dip</dimen>
+    <dimen name="qwerty_input_mode_key_width">108.0dip</dimen>
+    <dimen name="qwerty_www_dot_key_width">94.0dip</dimen>
+    <dimen name="qwerty_dot_com_key_width">94.0dip</dimen>
+    <dimen name="qwerty_space_key_width">526.0dip</dimen>
+    <dimen name="qwerty_space_key_width_no_voice">634.0dip</dimen>
+    <dimen name="qwerty_space_key_width_email">310.0dip</dimen>
+    <dimen name="qwerty_space_key_width_uri">310.0dip</dimen>
+    <dimen name="qwerty_space_key_width_multi_language">450.0dip</dimen>
+    <dimen name="qwerty_space_key_width_email_multi_language">202.0dip</dimen>
+    <dimen name="qwerty_space_key_width_uri_multi_language">202.0dip</dimen>
+    <dimen name="qwerty_bottom_function_key_width">78.0dip</dimen>
+    <dimen name="qwerty_del_key_width">105.0dip</dimen>
+    <dimen name="qwerty_direction_left_key_width">108.0dip</dimen>
+    <dimen name="qwerty_direction_right_key_width">109.0dip</dimen>
+    <dimen name="keypad_under_object_horizontal_gap">9.0dip</dimen>
+    <dimen name="keypad_under_object_horizontal_gap_pressed">11.0dip</dimen>
+    <dimen name="qwerty_space_key_arrow_top_margin">11.0dip</dimen>
+    <dimen name="qwerty_space_key_label_top_margin">17.0dip</dimen>
+    <dimen name="qwerty_extralabel_horizontal_right_gap">20.5dip</dimen>
+    <dimen name="qwerty_extralabel_vertical_gap">30.0dip</dimen>
+    <dimen name="qwerty_rect_vertical_gap">1.0dip</dimen>
+    <dimen name="arabic_default_key_width">89.0dip</dimen>
+    <dimen name="arabic_default_key_horizontal_gap">8.0dip</dimen>
+    <dimen name="arabic_backspace_key_width">138.0dip</dimen>
+    <dimen name="azerty_horizontal_gap_right_of_shift">28.0dip</dimen>
+    <dimen name="azerty_horizontal_gap_left_of_backspace">28.0dip</dimen>
+    <dimen name="azerty_2nd_row_side_horizontal_gap">100.0dip</dimen>
+    <dimen name="azerty_backspace_key_width">145.0dip</dimen>
+    <dimen name="azerty_default_key_width">90.0dip</dimen>
+    <dimen name="azerty_default_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="azerty_first_col_horizontal_gap">57.0dip</dimen>
+    <dimen name="handwriting_default_key_width">82.0dip</dimen>
+    <dimen name="handwriting_default_key_height">73.0dip</dimen>
+    <dimen name="handwriting_default_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="handwriting_default_key_vertical_gap">0.0dip</dimen>
+    <dimen name="handwriting_first_col_horizontal_gap">24.0dip</dimen>
+    <dimen name="handwriting_panel_width">1280.0dip</dimen>
+    <dimen name="handwriting_panel_height">283.0dip</dimen>
+    <dimen name="handwriting_vopanel_height">371.0dip</dimen>
+    <dimen name="handwriting_vopanel_keypad_height">88.0dip</dimen>
+    <dimen name="handwriting_space_key_width">543.0dip</dimen>
+    <dimen name="handwriting_single_language_space_key_width">639.0dip</dimen>
+    <dimen name="handwriting_symbols_key_width">136.0dip</dimen>
+    <dimen name="handwriting_enter_key_width">87.0dip</dimen>
+    <dimen name="handwriting_symbol_first_vertical_gap">13.0dip</dimen>
+    <dimen name="handwriting_symbol_2nd_row_horizontal_gap">69.0dip</dimen>
+    <dimen name="handwriting_symbol_3rd_row_horizontal_gap">125.0dip</dimen>
+    <dimen name="handwriting_symbol_last_vertical_gap">4.0dip</dimen>
+    <dimen name="handwriting_top_number6_horizontal_gap">15.0dip</dimen>
+    <dimen name="handwriting_top_number7_horizontal_gap">14.0dip</dimen>
+    <dimen name="handwriting_symbol_next_page_key_width">115.0dip</dimen>
+    <dimen name="voice_input_view_height">240.0dip</dimen>
+    <dimen name="voice_input_button_height">86.0dip</dimen>
+    <dimen name="voice_input_text_top_margin">13.0dip</dimen>
+    <dimen name="voice_input_image_top_margin">20.0dip</dimen>
+    <dimen name="voice_input_progressbar_width">120.0dip</dimen>
+    <dimen name="voice_input_progressbar_height">100.0dip</dimen>
+    <dimen name="phonepad_first_col_horizontal_gap">368.0dip</dimen>
+    <dimen name="phonepad_first_line_vertical_gap">10.0dip</dimen>
+    <dimen name="phonepad_last_line_vertical_gap">10.0dip</dimen>
+    <dimen name="phonepad_left_arrow_key_width">106.0dip</dimen>
+    <dimen name="phonepad_right_arrow_key_width">106.0dip</dimen>
+    <dimen name="phonepad_half_key_width">150.0dip</dimen>
+    <dimen name="phonepad_half_key_horizontal_gap">10.0dip</dimen>
+    <dimen name="phonepad_space_key_label_top_margin">32.0dip</dimen>
+    <dimen name="japanese_qwerty_space_key_width">405.0dip</dimen>
+    <dimen name="japanese_qwerty_default_key_width">100.0dip</dimen>
+    <dimen name="japanese_qwerty_default_key_horizontal_gap">13.0dip</dimen>
+    <dimen name="japanese_qwerty_y_key_horizontal_gap">13.0dip</dimen>
+    <dimen name="japanese_qwerty_first_col_horizontal_gap_2nd_line">62.0dip</dimen>
+    <dimen name="japanese_qwerty_first_col_horizontal_gap_3rd_line">10.0dip</dimen>
+    <dimen name="japanese_qwerty_enter_key_horizontal_gap">13.0dip</dimen>
+    <dimen name="qwerty_default_upper_key_label_size">36.0dip</dimen>
+    <dimen name="qwerty_default_normal_key_label_size">36.0dip</dimen>
+    <dimen name="qwerty_default_symbol_key_label_size">35.0dip</dimen>
+    <dimen name="qwerty_default_key_extra_label_size">25.0dip</dimen>
+    <dimen name="qwerty_default_number_key_label_size">28.0dip</dimen>
+    <dimen name="qwerty_range_key_label_size">23.0dip</dimen>
+    <dimen name="qwerty_enter_key_label_size">23.0dip</dimen>
+    <dimen name="qwerty_www_dot_key_label_size">23.0dip</dimen>
+    <dimen name="qwerty_dot_com_key_label_size">23.0dip</dimen>
+    <dimen name="qwerty_www_dot_key_label_small_size">23.0dip</dimen>
+    <dimen name="qwerty_dot_com_key_label_small_size">23.0dip</dimen>
+    <dimen name="phonepad_www_dot_key_label_size">40.0dip</dimen>
+    <dimen name="phonepad_dot_com_key_label_size">40.0dip</dimen>
+    <dimen name="qwerty_key_preview_range_width">162.0dip</dimen>
+    <dimen name="qwerty_key_preview_dot_com_width">145.0dip</dimen>
+    <dimen name="qwerty_key_preview_www_dot_width">145.0dip</dimen>
+    <dimen name="qwerty_key_preview_emoticon_width">145.0dip</dimen>
+    <dimen name="month_first_verticalgap">8.0dip</dimen>
+    <dimen name="month_horizontal_gap">10.0dip</dimen>
+    <dimen name="month_vertical_gap">9.0dip</dimen>
+    <dimen name="month_side_horizontalgap">44.0dip</dimen>
+    <dimen name="month_key_width">187.0dip</dimen>
+    <dimen name="month_key_height">81.0dip</dimen>
+    <dimen name="month_last_verticalgap">10.0dip</dimen>
+    <dimen name="cyrill_default_key_width">86.0dip</dimen>
+    <dimen name="cyrill_default_key_horizontal_gap">8.0dip</dimen>
+    <dimen name="cyrill_l_shift_key_width">94.0dip</dimen>
+    <dimen name="cyrill_r_shift_key_width">124.0dip</dimen>
+    <dimen name="ukrainian_backspace_key_width">101.0dip</dimen>
+    <dimen name="danish_default_key_width">81.0dip</dimen>
+    <dimen name="danish_default_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="danish_3th_row_side_horizontal_gap">100.0dip</dimen>
+    <dimen name="danish_4th_row_side_horizontal_gap">28.0dip</dimen>
+    <dimen name="danish_4th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="latvian_enter_key_width">99.0dip</dimen>
+    <dimen name="latvian_l_shift_key_width">92.0dip</dimen>
+    <dimen name="bulgarian_default_key_width">78.0dip</dimen>
+    <dimen name="bulgarian_default_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="bulgarian_backspace_key_width">168.0dip</dimen>
+    <dimen name="bulgarian_phonetic_3th_row_side_horizontal_gap">138.0dip</dimen>
+    <dimen name="bulgarian_phonetic_4th_row_side_horizontal_gap">54.0dip</dimen>
+    <dimen name="macedonian_l_shift_key_width">100.0dip</dimen>
+    <dimen name="macedonian_r_shift_key_width">130.0dip</dimen>
+    <dimen name="icelandic_default_key_width">83.0dip</dimen>
+    <dimen name="icelandic_default_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="armenian_2th_row_side_horizontal_gap2">8.0dip</dimen>
+    <dimen name="lithuanian_default_key_width">87.0dip</dimen>
+    <dimen name="lithuanian_default_key_height">69.0dip</dimen>
+    <dimen name="lithuanian_l_shift_key_width">109.0dip</dimen>
+    <dimen name="lithuanian_r_shift_key_width">172.0dip</dimen>
+    <dimen name="lithuanian_del_key_width">107.0dip</dimen>
+    <dimen name="lithuanian_backspace_key_width">163.0dip</dimen>
+    <dimen name="lithuanian_enter_key_width">118.0dip</dimen>
+    <dimen name="khmer_default_key_height">69.0dip</dimen>
+    <dimen name="khmer_default_key_vertical_gap">3.0dip</dimen>
+    <dimen name="khmer_first_line_vertical_gap">6.0dip</dimen>
+    <dimen name="khmer_default_key_width">80.0dip</dimen>
+    <dimen name="khmer_horizontal_gap_left_of_backspace">28.0dip</dimen>
+    <dimen name="khmer_qwerty_backspace_key_width">168.0dip</dimen>
+    <dimen name="thai_default_key_height">68.0dip</dimen>
+    <dimen name="thai_default_key_width">75.0dip</dimen>
+    <dimen name="thai_default_key_vertical_gap">3.0dip</dimen>
+    <dimen name="thai_default_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="thai_first_line_vertical_gap">11.0dip</dimen>
+    <dimen name="thai_first_col_horizontal_gap">24.0dip</dimen>
+    <dimen name="thai_first_col_horizontal_gap_second_line">69.0dip</dimen>
+    <dimen name="thai_first_col_horizontal_gap_third_line">114.0dip</dimen>
+    <dimen name="thai_first_col_horizontal_gap_forth_line">24.0dip</dimen>
+    <dimen name="thai_l_shift_key_width">109.0dip</dimen>
+    <dimen name="thai_r_shift_key_width">102.0dip</dimen>
+    <dimen name="thai_del_key_width">150.0dip</dimen>
+    <dimen name="thai_2th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="thai_3th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="thai_4th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="estonian_2th_row_side_horizontal_gap">34.0dip</dimen>
+    <dimen name="estonian_4th_row_side_horizontal_gap">28.0dip</dimen>
+    <dimen name="qwerty_default_key_width_zhuyin">97.0dip</dimen>
+    <dimen name="qwerty_default_key_height_zhuyin">70.0dip</dimen>
+    <dimen name="qwerty_default_key_horizontal_gap_zhuyin">9.0dip</dimen>
+    <dimen name="qwerty_default_key_vertical_gap_zhuyin">2.0dip</dimen>
+    <dimen name="qwerty_first_col_horizontal_gap_zhuyin">10.0dip</dimen>
+    <dimen name="qwerty_first_col_horizontal_gap_second_line_zhuyin">10.0dip</dimen>
+    <dimen name="qwerty_first_col_horizontal_gap_fourth_line_zhuyin">10.0dip</dimen>
+    <dimen name="qwerty_horizontal_gap_left_of_backspace_zhuyin">8.0dip</dimen>
+    <dimen name="qwerty_first_line_vertical_gap_zhuyin">6.0dip</dimen>
+    <dimen name="qwerty_last_line_vertical_gap_zhuyin">2.0dip</dimen>
+    <dimen name="qwerty_backspace_key_width_zhuyin">202.0dip</dimen>
+    <dimen name="qwerty_forth_key_vertical_gap_zhuyin">2.0dip</dimen>
+    <dimen name="qwerty_enter_key_width_zhuyin">202.0dip</dimen>
+    <dimen name="qwerty_default_key_width_tiwan">80.0dip</dimen>
+    <dimen name="qwerty_default_key_height_tiwan">69.0dip</dimen>
+    <dimen name="qwerty_default_key_horizontal_gap_tiwan">14.0dip</dimen>
+    <dimen name="qwerty_default_key_vertical_gap_tiwan">3.0dip</dimen>
+    <dimen name="qwerty_first_line_vertical_gap_tiwan">6.0dip</dimen>
+    <dimen name="qwerty_first_col_horizontal_gap_tiwan">24.0dip</dimen>
+    <dimen name="qwerty_first_col_horizontal_gap_second_line_tiwan">67.0dip</dimen>
+    <dimen name="qwerty_horizontal_gap_left_of_backspace_tiwan">28.0dip</dimen>
+    <dimen name="qwerty_backspace_key_width_tiwan">141.0dip</dimen>
+    <dimen name="popup_keyboard_side_gap">-15.0dip</dimen>
+    <dimen name="popup_keyboard_side_gap_emoticon">-9.0dip</dimen>
+    <dimen name="cji_top_vertical_gap">10.0dip</dimen>
+    <dimen name="cji_bottom_vertical_gap">10.0dip</dimen>
+    <dimen name="cji_default_key_width">123.0dip</dimen>
+    <dimen name="cji_function_key_width">123.0dip</dimen>
+    <dimen name="cji_default_key_height">81.0dip</dimen>
+    <dimen name="cji_default_key_horizontal_gap">10.0dip</dimen>
+    <dimen name="cji_default_key_vertical_gap">9.0dip</dimen>
+    <dimen name="cji_half_key_width">57.0dip</dimen>
+    <dimen name="cji_half_key_gap">10.0dip</dimen>
+    <dimen name="cji_half_key_middle_gap">9.0dip</dimen>
+    <dimen name="cji_half_function_key_width">101.0dip</dimen>
+    <dimen name="cji_left_gap">24.0dip</dimen>
+    <dimen name="cji_normal_function_gap">10.0dip</dimen>
+    <dimen name="cji_center_gap">319.0dip</dimen>
+    <dimen name="cji_left_arrow_key_width">128.0dip</dimen>
+    <dimen name="cji_right_arrow_key_width">128.0dip</dimen>
+    <dimen name="cji_space_key_width_single_language">129.0dip</dimen>
+    <dimen name="qwerty_default_indian_key_width">97.0dip</dimen>
+    <dimen name="qwerty_default_indian_key_height">57.0dip</dimen>
+    <dimen name="qwerty_default_indian_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="qwerty_default_indian_key_vertical_gap">3.0dip</dimen>
+    <dimen name="qwerty_indian_first_col_key_width">98.0dip</dimen>
+    <dimen name="qwerty_indian_first_col_horizontal_gap">24.0dip</dimen>
+    <dimen name="qwerty_indian_last_col_key_width">98.0dip</dimen>
+    <dimen name="qwerty_indian_first_column_fifth_line_horizontal_gap">76.0dip</dimen>
+    <dimen name="qwerty_indian_last_line_default_key_width">94.0dip</dimen>
+    <dimen name="qwerty_indian_last_line_default_key_height">65.0dip</dimen>
+    <dimen name="qwerty_indian_last_line_horizontal_gap">9.0dip</dimen>
+    <dimen name="qwerty_indian_last_line_vertical_gap">7.0dip</dimen>
+    <dimen name="qwerty_indian_horizontal_gap_left_of_backspace">26.0dip</dimen>
+    <dimen name="qwerty_indian_symbol_horizontal_gap_left_of_backspace">32.0dip</dimen>
+    <dimen name="qwerty_indian_top_vertical_gap">6.0dip</dimen>
+    <dimen name="qwerty_indian_bottom_vertical_gap">8.0dip</dimen>
+    <dimen name="qwerty_indian_backspace_key_width">108.0dip</dimen>
+    <dimen name="qwerty_indian_input_mode_key_width">127.0dip</dimen>
+    <dimen name="qwerty_indian_space_key_width">506.0dip</dimen>
+    <dimen name="qwerty_indian_space_key_width_single_language">609.0dip</dimen>
+    <dimen name="qwerty_indian_space_key_width_email">300.0dip</dimen>
+    <dimen name="qwerty_indian_space_key_width_email_single_language">403.0dip</dimen>
+    <dimen name="qwerty_indian_enter_key_width">108.0dip</dimen>
+    <dimen name="qwerty_default_indian_tamil_key_width">109.0dip</dimen>
+    <dimen name="qwerty_default_indian_tamil_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="qwerty_indian_tamil_first_column_fourth_line_horizontal_gap">147.0dip</dimen>
+    <dimen name="qwerty_indian_tamil_second_column_horizontal_gap">10.0dip</dimen>
+    <dimen name="qwerty_indian_kannada_symbol_key_width">148.0dip</dimen>
+    <dimen name="qwerty_indian_kannada_symbol_third_row_horizontal_gap">92.0dip</dimen>
+    <dimen name="turkish_f_default_key_width">84.0dip</dimen>
+    <dimen name="turkish_f_default_key_horizontal_gap">8.0dip</dimen>
+    <dimen name="turkish_f_2nd_row_side_horizontal_gap">24.0dip</dimen>
+    <dimen name="turkish_f_2nd_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="turkish_f_enter_key_width">108.0dip</dimen>
+    <dimen name="turkish_f_4th_row_side_horizontal_gap">28.0dip</dimen>
+    <dimen name="turkish_f_4th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="turkish_f_l_shift_key_width">132.0dip</dimen>
+    <dimen name="turkish_f_r_shift_key_width">132.0dip</dimen>
+    <dimen name="albanian_backspace_key_width">107.0dip</dimen>
+    <dimen name="albanian_enter_key_width">162.0dip</dimen>
+    <dimen name="albanian_l_shift_key_width">109.0dip</dimen>
+    <dimen name="albanian_r_shift_key_width">199.0dip</dimen>
+    <dimen name="urdu_2nd_row_side_horizontal_gap">40.0dip</dimen>
+    <dimen name="urdu_2nd_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="urdu_3rd_row_side_horizontal_gap">83.0dip</dimen>
+    <dimen name="urdu_3rd_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="urdu_4th_row_side_horizontal_gap">28.0dip</dimen>
+    <dimen name="urdu_4th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="urdu_l_shift_key_width">92.0dip</dimen>
+    <dimen name="urdu_enter_key_width">99.0dip</dimen>
+    <dimen name="urdu_default_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="urdu_r_shift_key_width">144.0dip</dimen>
+    <dimen name="urdu_backspace_key_width">142.0dip</dimen>
+    <dimen name="qwerty_top_vertical_gap">8.0dip</dimen>
+    <dimen name="qwerty_top_number_key_width">100.0dip</dimen>
+    <dimen name="qwerty_top_number_key_height">48.0dip</dimen>
+    <dimen name="qwerty_top_number_key_horizontal_gap">11.0dip</dimen>
+    <dimen name="qwerty_clipboard_key_width">94.0dip</dimen>
+    <dimen name="qwerty_clipboard_key_width_single_language">273.0dip</dimen>
+    <dimen name="qwerty_bottom_vertical_gap">8.0dip</dimen>
+    <dimen name="qwerty_top_number6_horizontal_gap">15.0dip</dimen>
+    <dimen name="qwerty_top_number7_horizontal_gap">14.0dip</dimen>
+    <dimen name="ukrainian_default_key_width">78.0dip</dimen>
+    <dimen name="ukrainian_default_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="ukrainian_2th_row_side_horizontal_gap">37.0dip</dimen>
+    <dimen name="ukrainian_2th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="ukrainian_3th_row_side_horizontal_gap">80.0dip</dimen>
+    <dimen name="ukrainian_3th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="ukrainian_enter_key_width">150.0dip</dimen>
+    <dimen name="ukrainian_4th_row_side_horizontal_gap">28.0dip</dimen>
+    <dimen name="ukrainian_4th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="ukrainian_l_shift_key_width">89.0dip</dimen>
+    <dimen name="ukrainian_r_shift_key_width">89.0dip</dimen>
+    <dimen name="default_emoticon_item_left_margin">18.0dip</dimen>
+    <dimen name="default_emoticon_item_top_margin">12.0dip</dimen>
+    <dimen name="default_emoticon_item_right_margin">18.0dip</dimen>
+    <dimen name="default_emoticon_item_bottom_margin">13.0dip</dimen>
+    <dimen name="qwerty_emoticon_layout_height">283.0dip</dimen>
+    <dimen name="qwerty_emoticon_layout_left_padding">39.0dip</dimen>
+    <dimen name="qwerty_emoticon_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="qwerty_emoticon_key_width">124.0dip</dimen>
+    <dimen name="qwerty_emoticon_key_height">73.0dip</dimen>
+    <dimen name="qwerty_emoticon_abc_key_width">126.0dip</dimen>
+    <dimen name="qwerty_emoticon_backspace_key_width">126.0dip</dimen>
+    <dimen name="qwerty_emoticon_horizontal_gap_right_of_abc">14.0dip</dimen>
+    <dimen name="qwerty_emoticon_horizontal_gap_right_of_sym">14.0dip</dimen>
+    <dimen name="qwerty_emoticon_horizontal_gap_left_of_backspace">15.0dip</dimen>
+    <dimen name="handwriting_emoticon_horizontal_gap_right_of_abc">9.0dip</dimen>
+    <dimen name="handwriting_emoticon_horizontal_gap_right_of_sym">9.0dip</dimen>
+    <dimen name="handwriting_emoticon_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="handwriting_emoticon_first_line_vertical_gap">7.0dip</dimen>
+    <dimen name="handwriting_emoticon_last_line_vertical_gap">8.0dip</dimen>
+    <dimen name="handwriting_emoticon_key_width">124.0dip</dimen>
+    <dimen name="handwriting_emoticon_first_col_horizontal_gap">24.0dip</dimen>
+    <dimen name="qwerty_colon_key_width">94.0dip</dimen>
+    <dimen name="russia_backspace_key_width">113.0dip</dimen>
+    <dimen name="qwerty_number_key_extralabel_vertical_gap">24.5dip</dimen>
+    <dimen name="kazakh_default_key_width">79.0dip</dimen>
+    <dimen name="kazakh_default_key_height">69.0dip</dimen>
+    <dimen name="kazakh_top_vertical_gap">6.0dip</dimen>
+    <dimen name="kazakh_2th_row_side_horizontal_gap">47.0dip</dimen>
+    <dimen name="kazakh_2th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="kazakh_3th_row_side_horizontal_gap">90.0dip</dimen>
+    <dimen name="kazakh_3th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="kazakh_4th_row_side_horizontal_gap">28.0dip</dimen>
+    <dimen name="kazakh_4th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="kazakh_shift_l_key_width">99.0dip</dimen>
+    <dimen name="kazakh_shift_r_key_width">161.0dip</dimen>
+    <dimen name="kazakh_del_key_width">102.0dip</dimen>
+    <dimen name="kazakh_backspace_key_width">79.0dip</dimen>
+    <dimen name="kazakh_enter_key_width">129.0dip</dimen>
+    <dimen name="qwerty_myanmar_default_key_width">84.0dip</dimen>
+    <dimen name="qwerty_myanmar_first_col_horizontal_gap">75.0dip</dimen>
+    <dimen name="qwerty_laos_default_key_width">75.0dip</dimen>
+    <dimen name="qwerty_laos_default_key_height">68.0dip</dimen>
+    <dimen name="qwerty_laos_l_shift_key_width">109.0dip</dimen>
+    <dimen name="qwerty_laos_backspace_key_width">105.0dip</dimen>
+    <dimen name="qwerty_laos_default_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="qwerty_laos_default_key_vertical_gap">3.0dip</dimen>
+    <dimen name="qwerty_laos_first_line_default_horizontal_gap">24.0dip</dimen>
+    <dimen name="qwerty_laos_second_line_default_horizontal_gap">69.0dip</dimen>
+    <dimen name="qwerty_laos_third_line_default_horizontal_gap">114.0dip</dimen>
+    <dimen name="qwerty_laos_four_line_default_horizontal_gap">24.0dip</dimen>
+    <dimen name="qwerty_laos_first_line_vertical_gap">11.0dip</dimen>
+    <dimen name="qwerty_laos_r_shift_key_width">102.0dip</dimen>
+    <dimen name="qwerty_laos_four_line_left_horizontal_gap">28.0dip</dimen>
+    <dimen name="qwerty_laos_3rd_line_left_horizontal_gap">28.0dip</dimen>
+    <dimen name="qwerty_laos_2nd_line_left_horizontal_gap">28.0dip</dimen>
+    <dimen name="qwerty_laos_first_line_left_horizontal_gap">28.0dip</dimen>
+    <dimen name="qwerty_laos_del_key_with">150.0dip</dimen>
+    <dimen name="handwriting_top_vertical_gap">7.0dip</dimen>
+    <dimen name="handwriting_top_number_horizontal_gap">13.0dip</dimen>
+    <dimen name="qwerty_left_of_A_width">100.0dip</dimen>
+    <dimen name="qwerty_r_shift_key_width">109.0dip</dimen>
+    <dimen name="phonepad_dial_extension_first_col_horizontal_gap">14.0dip</dimen>
+    <dimen name="phonepad_center_col_horizontal_gap">309.0dip</dimen>
+    <dimen name="phonepad_number_space_key_width">389.0dip</dimen>
+    <dimen name="khmer_first_col_horizontal_gap_first_row">91.0dip</dimen>
+    <dimen name="khmer_first_col_horizontal_gap_second_row">134.0dip</dimen>
+    <dimen name="khmer_first_col_horizontal_gap_third_row">177.0dip</dimen>
+    <dimen name="khmer_qwerty_l_shift_key_width">170.0dip</dimen>
+    <dimen name="qwerty_indian_symbol_horizontal_gap_right_of_shift">31.0dip</dimen>
+    <dimen name="qwerty_indian_symbol_backspace_key_width">159.0dip</dimen>
+    <dimen name="qwerty_default_indian_tamil_key_height">57.0dip</dimen>
+    <dimen name="qwerty_indian_kannada_symbol_second_row_horizontal_gap">10.0dip</dimen>
+    <dimen name="handwriting_top_number_key_width">114.0dip</dimen>
+    <dimen name="handwriting_top_number_key_height">55.0dip</dimen>
+    <dimen name="handwriting_symbol_normal_key_width">100.0dip</dimen>
+    <dimen name="handwriting_symbol_normal_key_height">74.0dip</dimen>
+    <dimen name="handwriting_symbol_key_horizontal_gap">13.0dip</dimen>
+    <dimen name="handwriting_symbol_key_vertical_gap">2.0dip</dimen>
+    <dimen name="armenian_l_shift_key_width">127.0dip</dimen>
+    <dimen name="armenian_backspace_key_width">126.0dip</dimen>
+    <dimen name="qwerty_indian_symbol_shift_key_width">159.0dip</dimen>
+    <dimen name="qwerty_emoticon_sym_key_width">124.0dip</dimen>
+    <dimen name="macedonian_default_key_width">86.0dip</dimen>
+    <dimen name="macedonian_default_key_horizontal_gap">8.0dip</dimen>
+    <dimen name="handwriting_dotcom_popup_gap">20.0px</dimen>
+    <dimen name="danish_l_shift_key_width">109.0dip</dimen>
+    <dimen name="danish_backspace_key_width">140.0dip</dimen>
+    <dimen name="icelandic_l_shift_key_width">109.0dip</dimen>
+    <dimen name="icelandic_backspace_key_width">118.0dip</dimen>
+    <dimen name="qwerty_indian_malayalam_horizontal_gap">65.0dip</dimen>
+    <dimen name="candidate_view_min_width">100.0dip</dimen>
+    <dimen name="qwerty_space_key_width_single_language_no_voice">834.0dip</dimen>
+    <dimen name="qwerty_space_key_width_single_language_no_voice_no_hwr">834.0dip</dimen>
+    <dimen name="qwerty_space_key_width_email_single_language">495.0dip</dimen>
+    <dimen name="qwerty_space_key_width_uri_single_language">495.0dip</dimen>
+    <dimen name="qwerty_space_key_width_email_single_language_no_hwr">495.0dip</dimen>
+    <dimen name="qwerty_space_key_width_uri_single_language_no_hwr">495.0dip</dimen>
+    <dimen name="azerty_horizontal_gap_left_of_shift">68.0dip</dimen>
+    <dimen name="handwriting_panel_horizontal_gap">0.0dip</dimen>
+    <dimen name="handwriting_panel_vertical_gap">8.0dip</dimen>
+    <dimen name="handwriting_single_language_voice_off_space_key_width">546.0dip</dimen>
+    <dimen name="phonepad_date_time_first_col_horizontal_gap">437.0dip</dimen>
+    <dimen name="cyrill_enter_key_width">130.0dip</dimen>
+    <dimen name="cyrill_2rd_row_side_horizontal_gap">12.0dip</dimen>
+    <dimen name="cyrill_2rd_row_side_horizontal_gap2">8.0dip</dimen>
+    <dimen name="cyrill_3rd_row_side_horizontal_gap">57.0dip</dimen>
+    <dimen name="cyrill_3rd_row_side_horizontal_gap2">57.0dip</dimen>
+    <dimen name="cyrill_small_key_width">78.0dip</dimen>
+    <dimen name="cyrill_func_r_horizontal_gap">8.0dip</dimen>
+    <dimen name="cyrill_func_l_horizontal_gap">8.0dip</dimen>
+    <dimen name="russia_default_key_width">75.0dip</dimen>
+    <dimen name="russia_default_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="russia_2th_row_side_horizontal_gap">61.0dip</dimen>
+    <dimen name="russia_2th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="russia_3th_row_side_horizontal_gap">102.0dip</dimen>
+    <dimen name="russia_3th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="russia_4th_row_side_horizontal_gap">28.0dip</dimen>
+    <dimen name="russia_4th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="russia_shift_l_key_width">87.0dip</dimen>
+    <dimen name="russia_shift_r_key_width">124.0dip</dimen>
+    <dimen name="russia_enter_key_width">161.0dip</dimen>
+    <dimen name="danish_enter_key_width">97.0dip</dimen>
+    <dimen name="danish_r_shift_key_width">226.0dip</dimen>
+    <dimen name="danish_func_l_horizontal_gap">28.0dip</dimen>
+    <dimen name="bulgarian_2th_row_side_horizontal_gap">62.0dip</dimen>
+    <dimen name="bulgarian_2th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="bulgarian_3th_row_side_horizontal_gap">100.0dip</dimen>
+    <dimen name="bulgarian_3th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="bulgarian_enter_key_width">130.0dip</dimen>
+    <dimen name="bulgarian_4th_row_side_horizontal_gap">28.0dip</dimen>
+    <dimen name="bulgarian_4th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="bulgarian_l_shift_key_width">87.0dip</dimen>
+    <dimen name="bulgarian_r_shift_key_width">91.0dip</dimen>
+    <dimen name="macedonian_enter_key_width">130.0dip</dimen>
+    <dimen name="macedonian_2rd_row_side_horizontal_gap2">10.0dip</dimen>
+    <dimen name="macedonian_3rd_row_side_horizontal_gap">57.0dip</dimen>
+    <dimen name="macedonian_3rd_row_side_horizontal_gap2">57.0dip</dimen>
+    <dimen name="macedonian_4rd_row_side_horizontal_gap">49.0dip</dimen>
+    <dimen name="macedonian_4rd_row_side_horizontal_gap2">49.0dip</dimen>
+    <dimen name="greek_horizontal_gap_left_of_backspace">126.0dip</dimen>
+    <dimen name="cji_number_key_label_size">36.0dip</dimen>
+    <dimen name="cji_normal_key_label_size">36.0dip</dimen>
+    <dimen name="cji_turbo_normal_key_label_size">36.0dip</dimen>
+    <dimen name="hebrew_default_key_width">90.0dip</dimen>
+    <dimen name="hebrew_small_key_width">84.0dip</dimen>
+    <dimen name="hebrew_default_key_height">73.0dip</dimen>
+    <dimen name="hebrew_default_key_vertical_gap">3.0dip</dimen>
+    <dimen name="hebrew_default_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="hebrew_2th_row_side_horizontal_gap">57.0dip</dimen>
+    <dimen name="hebrew_2th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="hebrew_backspace_key_width">145.0dip</dimen>
+    <dimen name="hebrew_3th_row_side_horizontal_gap">100.0dip</dimen>
+    <dimen name="hebrew_3th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="hebrew_enter_key_width">102.0dip</dimen>
+    <dimen name="hebrew_4th_row_side_horizontal_gap">28.0dip</dimen>
+    <dimen name="hebrew_4th_row_side_horizontal_gap2">14.0dip</dimen>
+    <dimen name="hebrew_l_shift_key_width">109.0dip</dimen>
+    <dimen name="hebrew_r_shift_key_width">90.0dip</dimen>
+    <dimen name="armenian_default_key_width">95.0dip</dimen>
+    <dimen name="armenian_default_key_height">70.0dip</dimen>
+    <dimen name="armenian_default_key_vertical_gap">2.0dip</dimen>
+    <dimen name="armenian_default_key_horizontal_gap">8.0dip</dimen>
+    <dimen name="armenian_top_vertical_gap">5.0dip</dimen>
+    <dimen name="armenian_1th_row_side_horizontal_gap">10.0dip</dimen>
+    <dimen name="armenian_2th_row_side_horizontal_gap">10.0dip</dimen>
+    <dimen name="armenian_3th_row_side_horizontal_gap">10.0dip</dimen>
+    <dimen name="armenian_3th_row_side_horizontal_gap2">8.0dip</dimen>
+    <dimen name="armenian_enter_key_width">126.0dip</dimen>
+    <dimen name="armenian_4th_row_side_horizontal_gap">42.0dip</dimen>
+    <dimen name="armenian_4th_row_side_horizontal_gap2">42.0dip</dimen>
+    <dimen name="armenian_r_shift_key_width">130.0dip</dimen>
+    <dimen name="thai_4th_row_side_horizontal_gap">28.0dip</dimen>
+    <dimen name="thai_backspace_key_width">105.0dip</dimen>
+    <dimen name="thai_enter_key_width">149.0dip</dimen>
+    <dimen name="icelandic_2th_row_side_horizontal_gap">57.0dip</dimen>
+    <dimen name="icelandic_2th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="icelandic_3th_row_side_horizontal_gap">102.0dip</dimen>
+    <dimen name="icelandic_3th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="icelandic_enter_key_width">170.0dip</dimen>
+    <dimen name="icelandic_4th_row_side_horizontal_gap">28.0dip</dimen>
+    <dimen name="icelandic_4th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="icelandic_r_shift_key_width">111.0dip</dimen>
+    <dimen name="lithuanian_default_key_vertical_gap">3.0dip</dimen>
+    <dimen name="lithuanian_default_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="lithuanian_sub_key_width">87.0dip</dimen>
+    <dimen name="lithuanian_sub_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="lithuanian_top_vertical_gap">6.0dip</dimen>
+    <dimen name="lithuanian_1th_row_side_horizontal_gap">24.0dip</dimen>
+    <dimen name="lithuanian_2th_row_side_horizontal_gap">69.0dip</dimen>
+    <dimen name="lithuanian_2th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="lithuanian_3th_row_side_horizontal_gap">114.0dip</dimen>
+    <dimen name="lithuanian_3th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="lithuanian_4th_row_side_horizontal_gap">28.0dip</dimen>
+    <dimen name="lithuanian_4th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="estonian_default_key_width">80.0dip</dimen>
+    <dimen name="estonian_default_key_horizontal_gap">14.0dip</dimen>
+    <dimen name="estonian_2th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="estonian_3th_row_side_horizontal_gap">77.0dip</dimen>
+    <dimen name="estonian_3th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="estonian_backspace_key_width">80.0dip</dimen>
+    <dimen name="estonian_enter_key_width">131.0dip</dimen>
+    <dimen name="estonian_4th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="estonian_l_shift_key_width">86.0dip</dimen>
+    <dimen name="estonian_r_shift_key_width">164.0dip</dimen>
+    <dimen name="bulgarian_phonetic_4th_row_side_horizontal_gap2">54.0dip</dimen>
+    <dimen name="japanese_top_number_horizontal_gap">13.0dip</dimen>
+    <dimen name="qwerty_indian_horizontal_gap_left_of_backspace_tamil">89.0dip</dimen>
+    <dimen name="qwerty_indian_horizontal_gap_left_of_enter_tamil">151.0dip</dimen>
+    <dimen name="qwerty_indian_horizontal_gap_left_of_shift_tamil">28.0dip</dimen>
+    <dimen name="qwerty_indian_horizontal_gap_left_of_shift_telugu">198.0dip</dimen>
+    <dimen name="qwerty_indian_top_tamil_vertical_gap">6.0dip</dimen>
+    <dimen name="qwerty_indian_first_col_tamil_horizontal_gap">86.0dip</dimen>
+    <dimen name="qwerty_indian_tamil_enter_key_width">111.0dip</dimen>
+    <dimen name="qwerty_indian_tamil_3rd_row_key_side_horizontal_gap2">76.0dip</dimen>
+    <dimen name="qwerty_indian_tamil_4throw_horizontal_gap">121.0dip</dimen>
+    <dimen name="qwerty_indian_tamil_5throw_horizontal_gap">30.0dip</dimen>
+    <dimen name="qwerty_horizontal_gap_left_of_shift">28.0dip</dimen>
+    <dimen name="qwerty_horizontal_gap_left_of_enter">28.0dip</dimen>
+    <dimen name="qwerty_horizontal_gap_left_of_del">28.0dip</dimen>
+    <dimen name="qwerty_vertial_gap_second_line">6.0dip</dimen>
+    <dimen name="qwerty_slash_key_width">94.0dip</dimen>
+    <dimen name="qwerty_ctrl_key_width">109.0dip</dimen>
+    <dimen name="qwerty_direction_left_key_width_single_language">108.0dip</dimen>
+    <dimen name="qwerty_direction_right_key_width_single_language">109.0dip</dimen>
+    <dimen name="azerty_enter_key_width">102.0dip</dimen>
+    <dimen name="azerty_horizontal_gap_left_of_enter">28.0dip</dimen>
+    <dimen name="handwriting_top_number_key_first_col_horizontal_gap">24.0dip</dimen>
+    <dimen name="handwriting_top_number_key_first_col_horizontal_gap2">29.0dip</dimen>
+    <dimen name="handwriting_symbol_1st_row_horizontal_gap">30.0dip</dimen>
+    <dimen name="handwriting_symbol_4th_row_horizontal_gap">69.0dip</dimen>
+    <dimen name="handwriting_symbol_4th_row_horizontal_gap2">70.0dip</dimen>
+    <dimen name="handwriting_symbol_next_page_left_key_width">100.0dip</dimen>
+    <dimen name="handwriting_symbol_next_page_right_key_width">101.0dip</dimen>
+    <dimen name="handwriting_symbol_delete_key_width">98.0dip</dimen>
+    <dimen name="danish_2nd_row_side_horizontal_gap">57.0dip</dimen>
+    <dimen name="thai_first_col_horizontal_gap2">28.0dip</dimen>
+    <dimen name="albanian_default_key_width">84.0dip</dimen>
+    <dimen name="albanian_2rd_row_side_horizontal_gap">57.0dip</dimen>
+    <dimen name="albanian_2rd_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="albanian_3rd_row_side_horizontal_gap">100.0dip</dimen>
+    <dimen name="albanian_3rd_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="albanian_4rd_row_side_horizontal_gap">28.0dip</dimen>
+    <dimen name="albanian_4rd_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="latvian_default_key_width">92.0dip</dimen>
+    <dimen name="latvian_2th_row_side_horizontal_gap">40.0dip</dimen>
+    <dimen name="latvian_2th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="latvian_backspace_key_width">142.0dip</dimen>
+    <dimen name="latvian_3th_row_side_horizontal_gap">83.0dip</dimen>
+    <dimen name="latvian_3th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="latvian_4th_row_side_horizontal_gap">28.0dip</dimen>
+    <dimen name="latvian_4th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="latvian_r_alt_key_width">144.0dip</dimen>
+    <dimen name="lithuanian_1th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="qwerty_first_col_horizontal_gap_third_line_tiwan">110.0dip</dimen>
+    <dimen name="qwerty_r_shift_key_width_tiwan">147.0dip</dimen>
+    <dimen name="qwerty_l_shift_key_width_tiwan">103.0dip</dimen>
+    <dimen name="qwerty_enter_key_width_tiwan">98.0dip</dimen>
+    <dimen name="qwerty_del_key_width_tiwan">184.0dip</dimen>
+    <dimen name="qwerty_myanmar_horizontal_gap_left_of_backspace">28.0dip</dimen>
+    <dimen name="qwerty_myanmar_l_shift_key_width">84.0dip</dimen>
+    <dimen name="qwerty_myanmar_r_shift_key_width">126.0dip</dimen>
+    <dimen name="urdu_default_key_width">92.0dip</dimen>
+    <dimen name="kazakh_1th_row_side_horizontal_gap">24.0dip</dimen>
+    <dimen name="kazakh_1th_row_side_horizontal_gap2">28.0dip</dimen>
+    <dimen name="arabic_2th_row_side_horizontal_gap">48.0dip</dimen>
+    <dimen name="arabic_2th_row_side_horizontal_gap2">8.0dip</dimen>
+    <dimen name="arabic_3th_row_side_horizontal_gap">68.0dip</dimen>
+    <dimen name="arabic_3th_row_side_horizontal_gap2">8.0dip</dimen>
+    <dimen name="arabic_4th_row_side_horizontal_gap">8.0dip</dimen>
+    <dimen name="arabic_4th_row_side_horizontal_gap2">8.0dip</dimen>
+    <dimen name="arabic_shift_l_key_width">66.0dip</dimen>
+    <dimen name="arabic_shift_r_key_width">56.0dip</dimen>
+    <dimen name="arabic_enter_key_width">120.0dip</dimen>
+    <dimen name="khmer_qwerty_del_key_width">211.0dip</dimen>
+    <dimen name="khmer_qwerty_enter_key_width">125.0dip</dimen>
+    <dimen name="khmer_qwerty_r_shift_key_width">80.0dip</dimen>
+    <dimen name="qwerty_first_col_horizontal_gap_forth_line_pinyin">53.0dip</dimen>
+    <dimen name="qwerty_r_shift_key_width_pinyin">109.0dip</dimen>
+    <dimen name="qwerty_myanmar_default_key_height">69.0dip</dimen>
+    <dimen name="qwerty_myanmar_top_vertical_gap">6.0dip</dimen>
+    <dimen name="qwerty_myanmar_first_col_horizontal_gap_second_line">32.0dip</dimen>
+    <dimen name="qwerty_myanmar_del_key_width">187.0dip</dimen>
+    <dimen name="qwerty_myanmar_backspace_key_width">132.0dip</dimen>
+    <dimen name="qwerty_myanmar_enter_key_width">89.0dip</dimen>
+    <dimen name="kyrgyz_default_key_width">75.0dip</dimen>
+    <dimen name="kyrgyz_backspace_key_width">120.0dip</dimen>
+    <dimen name="kyrgyz_enter_key_width">75.0dip</dimen>
+    <dimen name="kyrgyz_l_shift_key_width">94.0dip</dimen>
+    <dimen name="kyrgyz_r_shift_key_width">116.0dip</dimen>
+    <dimen name="kyrgyz_2th_row_side_horizontal_gap">54.0dip</dimen>
+    <dimen name="kyrgyz_3rd_row_side_horizontal_gap">99.0dip</dimen>
+    <dimen name="qwerty_input_mode_key_width_milti_language">108.0dip</dimen>
+    <dimen name="qwerty_indian_mm_key_width">87.0dip</dimen>
+    <dimen name="qwerty_indian_tamil_first_row_horizontal_gap">288.0dip</dimen>
+    <dimen name="qwerty_indian_tamil_2nd_row_key_side_horizontal_gap2">76.0dip</dimen>
+    <dimen name="qwerty_indian_tamil_4throw_horizontal_gap2">127.0dip</dimen>
+    <dimen name="qwerty_indian_tamil_5throw_horizontal_gap2">29.0dip</dimen>
+    <dimen name="qwerty_direction_up_key_width">84.0dip</dimen>
+    <dimen name="qwerty_direction_down_key_width">84.0dip</dimen>
+    <dimen name="qwerty_mode_key_width">86.0dip</dimen>
+    <dimen name="qwerty_tab_key_width">118.0dip</dimen>
+    <dimen name="qwerty_indian_first_row_horizontal_gap">241.0dip</dimen>
+    <dimen name="qwerty_indian_second_column_horizontal_gap">28.0dip</dimen>
+    <dimen name="qwerty_indian_last_column_horizontal_gap">28.0dip</dimen>
+    <dimen name="qwerty_indian_del_key_width">178.0dip</dimen>
+    <dimen name="qwerty_indian_mode_key_width">86.0dip</dimen>
+    <dimen name="qwerty_indian_tab_key_width">189.0dip</dimen>
+    <dimen name="qwerty_indian_capslock_key_width">189.0dip</dimen>
+    <dimen name="qwerty_indian_ctrl_key_width">136.0dip</dimen>
+    <dimen name="qwerty_indian_last_row_horizontal_gap">14.0dip</dimen>
+    <dimen name="qwerty_indian_arrow_up_key_side_horizontal_gap">28.0dip</dimen>
+    <dimen name="russia_small_key_width">67.0dip</dimen>
+    <dimen name="qwerty_1_col_key_left_gap">24.0dip</dimen>
+    <dimen name="qwerty_1_col_key_right_gap">22.0dip</dimen>
+    <dimen name="qwerty_2_col_key_left_gap">24.0dip</dimen>
+    <dimen name="qwerty_2_col_key_right_gap">22.0dip</dimen>
+    <dimen name="qwerty_3_col_key_left_gap">23.0dip</dimen>
+    <dimen name="qwerty_3_col_key_right_gap">24.0dip</dimen>
+    <dimen name="qwerty_3_col_key_left_of_r_shift_gap">18.0dip</dimen>
+    <dimen name="qwerty_4_col_key_right_gap">18.0dip</dimen>
+    <dimen name="qwerty_default_symbol_enter_key_width">234.0dip</dimen>
+    <item type="dimen" name="APKTOOL_DUMMY_07ac">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07ad">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07ae">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07af">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07b0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07b1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07b2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07b3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07b4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07b5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07b6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07b7">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07b8">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07b9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07ba">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07bd">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07be">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07bf">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07c2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07c4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07c6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07c7">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07c8">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07c9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07d0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07d1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07d2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07d3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07d4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07d5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07d9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07da">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07db">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07dc">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07dd">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07de">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07df">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07e0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07e1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07e2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07e3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07e4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07e5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07e6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07e7">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07e8">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07e9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07ea">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07eb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07ec">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07ed">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07ee">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07f0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07f1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07f2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07f8">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07f9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07fa">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07fb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_07fc">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_081e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_081f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0820">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0821">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0822">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0823">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0824">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0826">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0827">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0828">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0829">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_082a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_082b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_082c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_082d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_082f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0830">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0831">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0832">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0833">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0834">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0835">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0836">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0837">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0838">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0839">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_083a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_083b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_083c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_083d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_083e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_083f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0840">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0841">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0842">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0843">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0844">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0845">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0846">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_084e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_084f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0850">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0851">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0852">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0853">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0854">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0855">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0856">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0857">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0858">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0859">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_085a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_085b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_085c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_085d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_085e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_085f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0860">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0861">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0863">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0864">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0865">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0866">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0867">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0868">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_086a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_086b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_086c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_086d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_086e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_086f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0870">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0871">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0872">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0873">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0876">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0877">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0878">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_087f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0880">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0881">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0882">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0883">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0884">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0885">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0886">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0887">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_088c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_088d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_088e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_088f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0890">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0891">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0892">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0893">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0894">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0895">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0896">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0897">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0898">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0899">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_089a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_089b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_089c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_089d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_089e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_089f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08a0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08a1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08a2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08a3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08a4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08a5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08a6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08a7">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08a8">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08a9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08aa">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08ab">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08ac">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08ad">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08ae">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08af">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08b0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08b1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08b2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08b3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08b4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08b5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08b6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08b7">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08b8">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08b9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08ba">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08bb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08bc">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08bd">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08be">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08bf">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08c0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08c1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08c2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08c3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08c4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08c5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08c6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08c7">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08cb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08cc">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08cd">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08ce">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08cf">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08d0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08d1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08d2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08d3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08d4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08d5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08d6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08d7">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08dd">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08de">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08df">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08e0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08e1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08e2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08e3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08e4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08e5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08e6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08e7">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08e8">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08e9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08ea">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08eb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08ec">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08ed">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08ee">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08ef">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08f0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08f1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08f2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08f3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08f4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08f5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08f9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08fa">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08fb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08fc">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08fd">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08fe">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_08ff">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0902">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0904">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0905">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0906">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0907">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0909">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_090a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_090b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_090c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_090d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_090e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0911">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0912">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0913">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0914">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0915">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0916">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0917">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0918">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0919">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_091a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_091b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_091c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_091d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_091e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_091f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0920">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0921">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0922">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0923">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0924">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0925">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0926">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0927">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0928">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0929">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_092a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_092b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_092c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_092d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_092e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_092f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0930">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0931">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0932">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0933">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0934">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0935">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0936">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0937">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0938">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0939">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_093a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_093b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_093c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_093d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_093e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_093f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0940">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0941">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0942">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0943">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0944">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0945">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0946">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0947">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0948">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0949">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_094a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_094b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_094c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_094d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_094e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_094f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0950">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0951">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0952">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0953">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0954">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0955">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0956">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0958">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_095c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0968">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0972">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0a0c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0a0d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0a21">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0a46">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0a49">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0a74">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0a75">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0a7b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0a7f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0a81">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ab2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ab3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ab4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ab5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ab6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0aff">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b6a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b8b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b8c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b8d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b8f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b90">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b91">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b92">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b93">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b94">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b95">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b96">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b97">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b98">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b99">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b9a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b9b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b9c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b9d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b9e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0b9f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ba0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ba1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ba4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ba5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ba6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ba8">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ba9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0baa">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bab">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bac">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bad">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bae">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0baf">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bb0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bb1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bb2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bb3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bb4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bb5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bb7">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bb8">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bb9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bbb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bbc">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bbd">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bbe">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bbf">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bc0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bc1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bc3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bc4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bc5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bc6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bc7">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bc9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bca">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bcb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bcc">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bcd">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bce">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bcf">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bd0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bd1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bd2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bd3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bd4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bd5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bd6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bd7">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bd8">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bd9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bda">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bdb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bdc">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bdd">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bde">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bdf">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0be0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0be1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0be2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0be3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0be4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0be5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0be6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0be7">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bee">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bf2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bf5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bf6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bf7">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bf8">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bfa">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bfb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bfc">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bfd">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bfe">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0bff">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c00">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c01">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c02">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c04">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c05">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c06">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c07">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c08">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c09">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c0a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c0b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c0c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c0d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c0e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c0f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c10">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c11">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c12">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c13">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c14">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c15">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c16">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c17">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c18">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c19">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c1a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c1b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c1c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c1d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c51">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c52">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0c53">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ce4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ceb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0cec">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0cf5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0d08">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0d0e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0d0f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0d10">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0d11">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0d12">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0d13">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0d29">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0d2c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0d2d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0d2e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0d2f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0d77">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0db4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0db5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0dba">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0dc4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0dc5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0dc6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0dc7">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0dc8">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0dc9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0dca">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0dcb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0dcc">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0dcd">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0dce">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0dcf">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0dd0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0dda">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ddb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ddc">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ddd">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0dde">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0ddf">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0de0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0de1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0de2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0de3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0de4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0df8">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e03">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e04">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e05">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e06">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e07">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e08">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e09">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e0a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e0b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e0c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e0d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e0e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e0f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e10">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e11">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e12">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e13">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e14">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e15">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e16">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e17">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e18">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e19">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e1a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e1b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e1c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e1d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e1e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e1f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e20">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e21">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e22">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e23">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e24">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e25">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e26">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0e5e">false</item>
+</resources>

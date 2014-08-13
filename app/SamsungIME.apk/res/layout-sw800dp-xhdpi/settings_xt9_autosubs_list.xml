@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="@dimen/xt9_words_list_text_size" android:gravity="center_vertical" android:id="@id/delete_shortcut" android:layout_width="@dimen/xt9_autosubstitution_width" android:layout_height="@dimen/xt9_words_list_height" android:paddingStart="@dimen/xt9_words_list_padding" style="@style/xT9WordListTextView" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="@dimen/xt9_words_list_text_size" android:gravity="center_vertical" android:id="@id/delete_substitution" android:layout_width="@dimen/xt9_autosubstitution_width" android:layout_height="@dimen/xt9_words_list_height" android:layout_alignParentLeft="true" style="@style/xT9WordListTextView" />
+        <CheckBox android:id="@id/delete_checkbox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_marginEnd="4.0dip" />
+    </RelativeLayout>
+</LinearLayout>

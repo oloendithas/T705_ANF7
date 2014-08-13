@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="28.0dip" android:paddingEnd="28.0dip">
+                <TextView android:textSize="22.0dip" android:id="@id/hwr_tutorial_category_one" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/hwr_tutorial_one" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+                    <ImageView android:background="@drawable/handwriting_tutoria_bg_01" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:background="@drawable/handwriting_tutorial_arrow01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="34.0dip" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_bg_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="34.0dip" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="34.0dip" />
+                </LinearLayout>
+                <View android:background="@color/hwr_tutorial_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="14.0dip" />
+                <TextView android:textSize="22.0dip" android:id="@id/hwr_tutorial_category_two" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/hwr_tutorial_two" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+                    <ImageView android:background="@drawable/handwriting_tutoria_bg_03" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="34.0dip" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_bg_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="50.0dip" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="34.0dip" />
+                </LinearLayout>
+                <View android:background="@color/hwr_tutorial_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="14.0dip" />
+                <TextView android:textSize="22.0dip" android:id="@id/hwr_tutorial_category_three" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/hwr_tutorial_three" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+                    <ImageView android:background="@drawable/handwriting_tutoria_bg_03" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="34.0dip" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_bg_05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="50.0dip" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="34.0dip" />
+                </LinearLayout>
+                <TextView android:textSize="22.0dip" android:id="@id/hwr_tutorial_category_three_2nd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/hwr_tutorial_three_2nd" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+                    <ImageView android:background="@drawable/handwriting_tutoria_bg_06" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginStart="34.0dip" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_bg_07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="50.0dip" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginStart="34.0dip" />
+                </LinearLayout>
+                <View android:background="@color/hwr_tutorial_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="36.0px" />
+                <TextView android:textSize="22.0dip" android:id="@id/hwr_tutorial_category_four" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/hwr_tutorial_four" />
+                <TextView android:textSize="22.0dip" android:id="@id/hwr_tutorial_category_four_2nd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0px" android:text="@string/hwr_tutorial_four_2nd" />
+                <TextView android:textSize="18.0dip" android:textColor="@color/hwr_tutorial_sub_text_color" android:id="@id/hwr_tutorial_category_four_3rd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/hwr_tutorial_four_3rd" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                    <TextView android:textSize="22.0dip" android:id="@id/hwr_tutorial_category_four_ex" android:layout_width="244.0dip" android:layout_height="wrap_content" android:text="@string/hwr_tutorial_four_ex" android:layout_marginStart="14.0dip" />
+                    <TextView android:textSize="22.0dip" android:id="@id/hwr_tutorial_category_four_ex_sec" android:layout_width="244.0dip" android:layout_height="wrap_content" android:text="@string/hwr_tutorial_four_ex_sec" android:layout_marginStart="30.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="20.0dip">
+                    <ImageView android:background="@drawable/handwriting_tutoria_bg_08" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_bg_03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="144.0dip" />
+                </LinearLayout>
+                <View android:background="@color/hwr_tutorial_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="36.0px" />
+                <TextView android:textSize="22.0dip" android:id="@id/hwr_tutorial_category_five" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/hwr_tutorial_five" />
+                <TextView android:textSize="22.0dip" android:id="@id/hwr_tutorial_category_five_2nd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/hwr_tutorial_five_2nd" />
+                <TextView android:textSize="22.0dip" android:id="@id/hwr_tutorial_category_five_3rd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/hwr_tutorial_five_3rd" />
+                <TextView android:textSize="22.0dip" android:id="@id/hwr_tutorial_category_five_4th" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/hwr_tutorial_five_4th" />
+                <TextView android:textSize="18.0dip" android:id="@id/hwr_tutorial_category_five_6th" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/hwr_tutorial_five_6th" />
+                <TextView android:textSize="18.0dip" android:id="@id/hwr_tutorial_category_five_7th" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/hwr_tutorial_five_7th" />
+                <TextView android:textSize="22.0dip" android:id="@id/hwr_tutorial_category_five_ex" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/hwr_tutorial_five_ex" android:layout_marginStart="14.0dip" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0px" android:layout_marginStart="20.0dip">
+                    <ImageView android:background="@drawable/handwriting_tutoria_bg_03" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="34.0dip" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_bg_09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="98.0px" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="34.0dip" />
+                </LinearLayout>
+                <TextView android:textSize="22.0dip" android:id="@id/hwr_tutorial_category_five_ex_sec" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/hwr_tutorial_five_ex_2nd" android:layout_marginStart="14.0dip" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0px" android:layout_marginStart="20.0dip">
+                    <ImageView android:background="@drawable/handwriting_tutoria_bg_10" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="34.0dip" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_bg_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="98.0px" />
+                    <ImageView android:background="@drawable/handwriting_tutoria_x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="34.0dip" />
+                </LinearLayout>
+                <View android:layout_width="fill_parent" android:layout_height="26.0px" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>

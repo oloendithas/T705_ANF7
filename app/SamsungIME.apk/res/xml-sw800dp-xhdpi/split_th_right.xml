@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:screenOrientation="portrait" android:keyWidth="@dimen/split_thai_default_key_width" android:keyHeight="@dimen/split_thai_default_key_height" android:horizontalGap="@dimen/split_thai_default_key_horizontal_gap" android:verticalGap="@dimen/split_thai_default_key_vertical_gap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:keyHeight="0.0px" android:horizontalGap="0.0px" android:verticalGap="@dimen/split_thai_top_vertical_gap">
+        <Key android:keyWidth="100.0%p" android:codes="-257" android:keyLabel="StrEmpty" />
+    </Row>
+    <Row android:rowEdgeFlags="top">
+        <Key android:horizontalGap="@dimen/split_thai_right_1st_row_side_horizontal_gap" android:codes="3638" android:keyLabel="ึ" />
+        <Key android:codes="3588" android:keyLabel="ค" />
+        <Key android:codes="3605" android:keyLabel="ต" />
+        <Key android:codes="3592" android:keyLabel="จ" />
+        <Key android:codes="3586" android:keyLabel="ข" />
+        <Key android:codes="3594" android:keyEdgeFlags="right" android:keyLabel="ช" />
+        <Key android:keyWidth="@dimen/split_thai_del_key_width" android:codes="-1003" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyLabel="Del" />
+    </Row>
+    <Row android:verticalGap="@dimen/split_thai_default_key_vertical_gap">
+        <Key android:horizontalGap="@dimen/split_thai_right_2rd_row_side_horizontal_gap" android:codes="3637" android:keyLabel="ี" />
+        <Key android:codes="3619" android:keyLabel="ร" />
+        <Key android:codes="3609" android:keyLabel="น" />
+        <Key android:codes="3618" android:keyLabel="ย" />
+        <Key android:codes="3610" android:keyLabel="บ" />
+        <Key android:codes="3621" android:keyLabel="ล" />
+        <Key android:keyWidth="@dimen/split_thai_backspace_key_width" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyIcon="@drawable/floating_qwerty_key_icon_backspace_xml" />
+    </Row>
+    <Row>
+        <Key android:horizontalGap="@dimen/split_thai_right_3th_row_side_horizontal_gap" android:codes="3656" android:keyLabel="่" />
+        <Key android:codes="3634" android:keyLabel="า" />
+        <Key android:codes="3626" android:keyLabel="ส" />
+        <Key android:codes="3623" android:keyLabel="ว" />
+        <Key android:codes="3591" android:keyLabel="ง" />
+        <Key android:keyWidth="@dimen/split_thai_enter_key_width" android:codes="10" android:keyEdgeFlags="right" android:keyLabel="StrEmpty" />
+    </Row>
+    <Row android:keyHeight="@dimen/split_thai_4th_line_key_height">
+        <Key android:horizontalGap="@dimen/split_thai_right_4th_row_side_horizontal_gap" android:codes="3639" android:keyLabel="ื" />
+        <Key android:codes="3607" android:keyLabel="ท" />
+        <Key android:codes="3617" android:keyLabel="ม" />
+        <Key android:codes="3651" android:keyLabel="ใ" />
+        <Key android:codes="3613" android:keyLabel="ฝ" />
+        <Key android:codes="-122" android:keyIcon="@drawable/sip_key_icon_question_xml" />
+        <Key android:keyWidth="@dimen/split_thai_r_shift_key_width" android:codes="-410" android:keyEdgeFlags="right" android:keyLabel="StrEmpty" />
+    </Row>
+    <Row android:keyWidth="@dimen/split_bottom_function_key_width" android:horizontalGap="@dimen/split_bottom_function_key_horizontalgap" android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_normal">
+        <Key android:keyWidth="@dimen/split_space_key_width_right" android:horizontalGap="@dimen/split_right_first_col_horizontal_gap" android:codes="32" />
+        <Key android:keyWidth="@dimen/split_language_key_width" android:codes="-108" android:keyIcon="@drawable/floating_qwerty_key_icon_language_change_xml" />
+        <Key android:keyWidth="@dimen/split_direction_key_width" android:codes="-1001" android:isRepeatable="true" android:keyIcon="@drawable/sip_icon_arrow_l_xml" />
+        <Key android:keyWidth="@dimen/split_direction_key_width" android:codes="-1002" android:isRepeatable="true" android:keyIcon="@drawable/sip_icon_arrow_r_xml" />
+    </Row>
+    <Row android:keyWidth="@dimen/split_bottom_function_key_width" android:horizontalGap="@dimen/split_bottom_function_key_horizontalgap" android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_normal_voice_off">
+        <Key android:keyWidth="@dimen/split_space_key_width_right" android:horizontalGap="@dimen/split_right_first_col_horizontal_gap" android:codes="32" />
+        <Key android:keyWidth="@dimen/split_language_key_width" android:codes="-108" android:keyIcon="@drawable/floating_qwerty_key_icon_language_change_xml" />
+        <Key android:keyWidth="@dimen/split_direction_key_width" android:codes="-1001" android:isRepeatable="true" android:keyIcon="@drawable/sip_icon_arrow_l_xml" />
+        <Key android:keyWidth="@dimen/split_direction_key_width" android:codes="-1002" android:isRepeatable="true" android:keyIcon="@drawable/sip_icon_arrow_r_xml" />
+    </Row>
+    <Row android:keyWidth="@dimen/split_bottom_function_key_width" android:horizontalGap="@dimen/split_bottom_function_key_horizontalgap" android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_single_language">
+        <Key android:keyWidth="@dimen/split_space_key_width_single_language_right" android:horizontalGap="@dimen/split_right_first_col_horizontal_gap" android:codes="32" />
+        <Key android:keyWidth="@dimen/split_direction_key_width" android:codes="-1001" android:isRepeatable="true" android:keyIcon="@drawable/sip_icon_arrow_l_xml" />
+        <Key android:keyWidth="@dimen/split_direction_key_width" android:codes="-1002" android:isRepeatable="true" android:keyIcon="@drawable/sip_icon_arrow_r_xml" />
+    </Row>
+    <Row android:keyWidth="@dimen/split_bottom_function_key_width" android:horizontalGap="@dimen/split_bottom_function_key_horizontalgap" android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_single_language_voice_off">
+        <Key android:keyWidth="@dimen/split_space_key_width_single_language_right" android:horizontalGap="@dimen/split_right_first_col_horizontal_gap" android:codes="32" />
+        <Key android:keyWidth="@dimen/split_direction_key_width" android:codes="-1001" android:isRepeatable="true" android:keyIcon="@drawable/sip_icon_arrow_l_xml" />
+        <Key android:keyWidth="@dimen/split_direction_key_width" android:codes="-1002" android:isRepeatable="true" android:keyIcon="@drawable/sip_icon_arrow_r_xml" />
+    </Row>
+    <Row android:keyWidth="@dimen/split_bottom_function_key_width" android:horizontalGap="@dimen/split_default_key_horizontal_gap" android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_url">
+        <Key android:keyWidth="@dimen/split_www_dot_key_width" android:horizontalGap="@dimen/split_right_first_col_horizontal_gap" android:codes="47" android:keyLabel="/" />
+        <Key android:keyWidth="@dimen/split_www_dot_key_width" android:codes="0x3a" android:keyLabel=":" />
+        <Key android:keyWidth="@dimen/split_www_dot_key_width" android:codes="-113" android:keyOutputText="@string/key_label_www_dot" android:keyLabel="@string/key_label_www_dot" />
+        <Key android:keyWidth="@dimen/split_language_key_width" android:codes="-108" android:keyIcon="@drawable/floating_qwerty_key_icon_language_change_xml" />
+        <Key android:keyWidth="@dimen/split_direction_key_width" android:codes="-1001" android:isRepeatable="true" android:keyIcon="@drawable/sip_icon_arrow_l_xml" />
+        <Key android:keyWidth="@dimen/split_direction_key_width" android:codes="-1002" android:isRepeatable="true" android:keyIcon="@drawable/sip_icon_arrow_r_xml" />
+    </Row>
+    <Row android:keyWidth="@dimen/split_bottom_function_key_width" android:horizontalGap="@dimen/split_default_key_horizontal_gap" android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_url_single_language">
+        <Key android:keyWidth="@dimen/split_space_key_width_uri_single_language_right" android:codes="32" />
+        <Key android:keyWidth="@dimen/split_www_dot_key_width" android:codes="0x3a" android:keyLabel=":" />
+        <Key android:keyWidth="@dimen/split_www_dot_key_width" android:codes="-113" android:keyOutputText="@string/key_label_www_dot" android:keyLabel="@string/key_label_www_dot" />
+        <Key android:keyWidth="@dimen/split_direction_key_width" android:codes="-1001" android:isRepeatable="true" android:keyIcon="@drawable/sip_icon_arrow_l_xml" />
+        <Key android:keyWidth="@dimen/split_direction_key_width" android:codes="-1002" android:isRepeatable="true" android:keyIcon="@drawable/sip_icon_arrow_r_xml" />
+    </Row>
+    <Row android:keyWidth="@dimen/split_bottom_function_key_width" android:horizontalGap="@dimen/split_default_key_horizontal_gap" android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_email">
+        <Key android:keyWidth="@dimen/split_www_dot_key_width" android:horizontalGap="@dimen/split_right_first_col_horizontal_gap" android:codes="64" android:keyLabel="\@" />
+        <Key android:keyWidth="@dimen/split_www_dot_key_width" android:codes="0x3b" android:keyLabel=";" />
+        <Key android:keyWidth="@dimen/split_www_dot_key_width" android:codes="-114" android:popupKeyboard="@xml/popup_domain_keyboard" android:keyOutputText="@string/key_label_dot_com" android:keyLabel="@string/key_label_dot_com" />
+        <Key android:keyWidth="@dimen/split_language_key_width" android:codes="-108" android:keyIcon="@drawable/floating_qwerty_key_icon_language_change_xml" />
+        <Key android:keyWidth="@dimen/split_direction_key_width" android:codes="-1001" android:isRepeatable="true" android:keyIcon="@drawable/sip_icon_arrow_l_xml" />
+        <Key android:keyWidth="@dimen/split_direction_key_width" android:codes="-1002" android:isRepeatable="true" android:keyIcon="@drawable/sip_icon_arrow_r_xml" />
+    </Row>
+    <Row android:keyWidth="@dimen/split_bottom_function_key_width" android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_email_single_language">
+        <Key android:keyWidth="@dimen/split_space_key_width_uri_single_language_right" android:codes="32" />
+        <Key android:codes="0x3b" android:keyLabel=";" />
+        <Key android:codes="-114" android:popupKeyboard="@xml/popup_domain_keyboard" android:keyOutputText="@string/key_label_dot_com" android:keyLabel="@string/key_label_dot_com" />
+        <Key android:keyWidth="@dimen/split_direction_key_width" android:codes="-1001" android:isRepeatable="true" android:keyIcon="@drawable/sip_icon_arrow_l_xml" />
+        <Key android:keyWidth="@dimen/split_direction_key_width" android:codes="-1002" android:isRepeatable="true" android:keyIcon="@drawable/sip_icon_arrow_r_xml" />
+    </Row>
+    <Row android:keyHeight="0.0px" android:horizontalGap="0.0px" android:verticalGap="@dimen/split_bottom_vertical_gap">
+        <Key android:keyWidth="100.0%p" android:codes="-257" android:keyLabel="StrEmpty" />
+    </Row>
+</Keyboard>
