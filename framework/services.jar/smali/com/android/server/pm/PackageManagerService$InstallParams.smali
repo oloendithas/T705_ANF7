@@ -211,7 +211,7 @@
 
     iget v8, v3, Landroid/content/pm/PackageParser$Package;->mVersionCode:I
 
-    if-ge v7, v8, :cond_1
+    if-ge v8, v8, :cond_1
 
     .line 10266
     const-string v4, "PackageManager"

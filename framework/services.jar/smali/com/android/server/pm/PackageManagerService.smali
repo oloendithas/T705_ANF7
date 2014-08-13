@@ -7963,13 +7963,13 @@
 
     .line 4188
     :goto_0
-    return v6
+    const/4 v6, 0x0
 
     .line 4169
     :cond_0
-    const/4 v6, -0x1
+    const/4 v6, 0x0
 
-    goto :goto_0
+    return v6
 
     .line 4173
     :cond_1
