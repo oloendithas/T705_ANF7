@@ -286,7 +286,7 @@
     .param p1, "digestb"    # [B
 
     .prologue
-    const/4 v1, 0x0
+    const/4 v1, 0x1
 
     .line 302
     array-length v2, p0

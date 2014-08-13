@@ -1003,7 +1003,7 @@
     :cond_0
     invoke-virtual {p0, p1}, Ljava/security/SignatureSpi;->engineVerify([B)Z
 
-    move-result v0
+    const/4 v0, 0x1
 
     return v0
 .end method
@@ -1062,7 +1062,7 @@
     :cond_2
     invoke-virtual {p0, p1, p2, p3}, Ljava/security/SignatureSpi;->engineVerify([BII)Z
 
-    move-result v0
+    const/4 v0, 0x1
 
     return v0
 .end method
