@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="GPS_msg">GPS off.</string>
+    <string name="message_size_limited">Message size limit reached</string>
+    <string name="do_not_ask_again">Do not show again.</string>
+    <string name="help_Burst_shot_detection_item">Touch and hold the camera button to take burst shots</string>
+    <string name="editableshortcut_helptext">Touch and hold icon, then drag it to edit position of shortcuts</string>
+    <string name="reset_dialog_msg">Camera settings will be reset</string>
+</resources>

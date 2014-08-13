@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_recents_thumbnail_height">124.0dip</dimen>
+    <dimen name="tw_status_bar_recents_panel_bg_width">131.0dip</dimen>
+    <dimen name="tw_status_bar_recents_panel_height">230.0dip</dimen>
+    <dimen name="tw_status_bar_recents_app_icon_left_margin">15.0dip</dimen>
+    <dimen name="tw_status_bar_recents_app_label_top_margin">44.0dip</dimen>
+    <dimen name="tw_status_bar_recents_panel_bg_left_margin">12.0dip</dimen>
+    <dimen name="tw_status_bar_recents_thumbnail_top_padding">15.0dip</dimen>
+    <dimen name="tw_status_bar_recents_thumbnail_bottom_padding">15.0dip</dimen>
+</resources>

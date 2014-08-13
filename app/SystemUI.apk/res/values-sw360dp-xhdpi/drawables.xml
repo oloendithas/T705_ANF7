@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="notification_background_color">#ff001d27</item>
+    <item type="drawable" name="notification_title_background">#ff005565</item>
+    <item type="drawable" name="tw_notification_background_null">#ff001d27</item>
+    <item type="drawable" name="notification_header_bg">#ff006578</item>
+</resources>

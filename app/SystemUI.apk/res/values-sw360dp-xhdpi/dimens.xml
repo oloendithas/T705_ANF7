@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tw_status_bar_recents_launch_button_with_shortcut_margin">122.0dip</dimen>
+    <dimen name="animated_brightness_icon_default_image_width">70.0dip</dimen>
+    <dimen name="animated_brightness_icon_default_image_height">70.0dip</dimen>
+    <dimen name="animated_brightness_icon_default_circle_radius">16.0dip</dimen>
+    <dimen name="animated_brightness_icon_default_circle_x">26.0dip</dimen>
+    <dimen name="animated_brightness_icon_default_circle_y">26.0dip</dimen>
+</resources>
