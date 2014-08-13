@@ -254,12 +254,12 @@
             does not capture audio
       -->
       <Audio codec="aac"
-             bitRate="128000"
+             bitRate="256000"
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
 
-    <ImageEncoding quality="90" />
+    <ImageEncoding quality="100" />
     <ImageEncoding quality="80" />
     <ImageEncoding quality="70" />
     <ImageDecoding memCap="20000000" />
@@ -444,12 +444,12 @@
              does not capture audio
        -->
       <Audio codec="aac"
-             bitRate="128000"
+             bitRate="256000"
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
 
-        <ImageEncoding quality="90" />
+        <ImageEncoding quality="100" />
         <ImageEncoding quality="80" />
         <ImageEncoding quality="70" />
         <ImageDecoding memCap="20000000" />
@@ -513,8 +513,8 @@
         for TEST applications. For other applications, we do
         not perform any checks at all.
     -->
-    <VideoDecoderCap name="wmv" enabled="false"/>
-    <AudioDecoderCap name="wma" enabled="false"/>
+    <VideoDecoderCap name="wmv" enabled="true"/>
+    <AudioDecoderCap name="wma" enabled="true"/>
 
     <!--
         The VideoEditor Capability configuration:

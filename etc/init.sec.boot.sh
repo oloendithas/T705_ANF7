@@ -1,6 +1,6 @@
 #!/system/bin/sh
 
-echo "init.sec.boot.sh: start" > /dev/kmsg
+#echo "init.sec.boot.sh: start" > /dev/kmsg
 
 # start deferred initcalls
 cat /proc/deferred_initcalls

@@ -1,0 +1,46 @@
+#!/system/bin/sh
+
+echo "512" > /proc/sys/fs/nr_open
+echo "1024" > /sys/block/mmcblk0/queue/nr_requests
+echo "1024" > /sys/block/mmcblk1/queue/nr_requests
+echo "0" > /sys/block/mmcblk0/queue/iostats
+echo "0" > /sys/block/mmcblk1/queue/iostats
+
+echo 0 > /sys/block/mmcblk0/queue/add_random
+echo 0 > /sys/block/mmcblk1/queue/add_random
+
+echo 0 > /sys/block/mmcblk0/queue/nomerges
+echo 0 > /sys/block/mmcblk1/queue/nomerges
+
+echo 0 > /sys/block/mmcblk0/queue/rq_affinity
+echo 0 > /sys/block/mmcblk1/queue/rq_affinity
+
+#echo "128" > /sys/devices/virtual/bdi/default/read_ahead_kb
+
+chmod 777 /sys/block/mmcblk0/queue/scheduler
+echo "noop" > /sys/block/mmcblk0/queue/scheduler
+chmod 777 /sys/block/mmcblk1/queue/scheduler
+echo "noop" > /sys/block/mmcblk1/queue/scheduler
+
+#chmod 777 /sys/block/mmcblk0/queue/read_ahead_kb
+#echo "256" > /sys/block/mmcblk0/queue/read_ahead_kb
+chmod 777 /sys/block/mmcblk1/queue/read_ahead_kb
+echo "256" > /sys/block/mmcblk1/queue/read_ahead_kb
+#chmod 777 /sys/devices/virtual/bdi/179:0/read_ahead_kb
+#echo "128" > /sys/devices/virtual/bdi/179:0/read_ahead_kb
+
+sleep 1
+sync;
+
+#mount -o remount,noauto_da_alloc,nodev,noatime,nodiratime,nosuid,barrier=1,commit=15 /dev/block/mmcblk0p10 /data
+#mount -o remount,nodev,noatime,nodiratime,noauto_da_alloc,nosuid,barrier=0,commit=15,norecovery /dev/block/mmcblk0p7 /cache
+#mount -o remount,ro,nodev,noatime,nodiratime,barrier=1,commit=15 /dev/block/mmcblk0p9 /system
+
+
+#echo 0 > /sys/devices/virtual/android_usb/android0/enable
+#echo "mass_storage,adb" > /sys/class/android_usb/android0/functions
+#chmod 777 /sys/devices/virtual/android_usb/android0/f_mass_storage/lun1/file
+#echo "/dev/block/vold/179:25" > /sys/devices/virtual/android_usb/android0/f_mass_storage/lun1/file
+#chmod 444 /sys/devices/virtual/android_usb/android0/f_mass_storage/lun1/file
+#echo 1 > /sys/devices/virtual/android_usb/android0/enable
+
