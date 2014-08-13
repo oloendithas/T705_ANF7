@@ -148,38 +148,38 @@ Importuj/eksportuj, aby zaimportować kontakty z karty SIM lub z karty pamięci
 "</string>
     <string name="noContactsHelpTextWithSync">"Nie masz żadnych kontaktów do wyświetlenia. (Jeśli przed chwilą dodano konto, synchronizacja kontaktów może potrwać kilka minut).
 
-Aby dodać kontakty, naciśnij przycisk "<b><font fgcolor="#ffffffff">Menu</font></b>" i dotknij opcji:
+Aby dodać kontakty, naciśnij przycisk "<font fgcolor="#ffffffff"><b>Menu</b></font>" i dotknij opcji:
  
-"<b><font fgcolor="#ffffffff"><li>"Konta, aby dodać lub skonfigurować konto zawierające kontakty, które można synchronizować z tabletem;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Opcje wyświetlania, aby zmienić widoczne typy kontaktów;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nowy kontakt, aby utworzyć nowy kontakt od początku;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importuj/eksportuj, aby zaimportować kontakty z karty SIM lub SD.
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Konta, aby dodać lub skonfigurować konto zawierające kontakty, które można synchronizować z tabletem;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Opcje wyświetlania, aby zmienić widoczne typy kontaktów;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nowy kontakt, aby utworzyć nowy kontakt od początku;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importuj/eksportuj, aby zaimportować kontakty z karty SIM lub SD.
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Nie masz żadnych kontaktów do wyświetlenia.
 
-Aby dodać kontakty, naciśnij przycisk "<b><font fgcolor="#ffffffff">Menu</font></b>" i dotknij opcji:
+Aby dodać kontakty, naciśnij przycisk "<font fgcolor="#ffffffff"><b>Menu</b></font>" i dotknij opcji:
  
-"<b><font fgcolor="#ffffffff"><li>"Konta, aby dodać lub skonfigurować konto zawierające kontakty, które można synchronizować z tabletem;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nowy kontakt, aby utworzyć nowy kontakt od początku;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importuj/eksportuj, aby zaimportować kontakty z karty SD.
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Konta, aby dodać lub skonfigurować konto zawierające kontakty, które można synchronizować z tabletem;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nowy kontakt, aby utworzyć nowy kontakt od początku;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importuj/eksportuj, aby zaimportować kontakty z karty SD.
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Nie masz żadnych kontaktów do wyświetlenia. (Jeśli przed chwilą dodano konto, synchronizacja kontaktów może potrwać kilka minut).
 
-Aby dodać kontakty, naciśnij przycisk "<b><font fgcolor="#ffffffff">Menu</font></b>" i dotknij opcji:
+Aby dodać kontakty, naciśnij przycisk "<font fgcolor="#ffffffff"><b>Menu</b></font>" i dotknij opcji:
  
-"<b><font fgcolor="#ffffffff"><li>"Konta, aby dodać lub skonfigurować konto zawierające kontakty, które można synchronizować z tabletem;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Opcje wyświetlania, aby zmienić widoczne typy kontaktów;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nowy kontakt, aby utworzyć nowy kontakt od początku;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importuj/eksportuj, aby zaimportować kontakty z karty SD.
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Konta, aby dodać lub skonfigurować konto zawierające kontakty, które można synchronizować z tabletem;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Opcje wyświetlania, aby zmienić widoczne typy kontaktów;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nowy kontakt, aby utworzyć nowy kontakt od początku;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importuj/eksportuj, aby zaimportować kontakty z karty SD.
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Nie masz żadnych ulubionych kontaktów.
 
 Aby dodać kontakt do listy ulubionych:

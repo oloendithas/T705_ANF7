@@ -112,6 +112,8 @@
         <item name="android:windowActionBar">false</item>
         <item name="android:windowActionBarOverlay">true</item>
     </style>
+    <item type="style" name="APKTOOL_DUMMY_008b">false</item>
+    <item type="style" name="APKTOOL_DUMMY_008e">false</item>
     <style name="PreferencePanelSinglePaneStyle" parent="@android:style/PreferencePanel.DeviceDefault">
         <item name="android:background">@drawable/tw_preference_contents_bg_holo_dark</item>
         <item name="android:layout_marginLeft">0.0dip</item>
@@ -119,6 +121,4 @@
         <item name="android:layout_marginStart">0.0dip</item>
         <item name="android:layout_marginEnd">0.0dip</item>
     </style>
-    <item type="style" name="APKTOOL_DUMMY_008b">false</item>
-    <item type="style" name="APKTOOL_DUMMY_008e">false</item>
 </resources>

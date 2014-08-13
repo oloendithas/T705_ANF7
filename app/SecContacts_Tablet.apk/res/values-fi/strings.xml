@@ -148,38 +148,38 @@ Tuo/vie, jos haluat tuoda yhteystietoja SIM- tai SD-kortilta
 "</string>
     <string name="noContactsHelpTextWithSync">"Ei näytettäviä yhteystietoja. (Jos lisäsit tilin äskettäin, yhteystietojen synkronointi voi kestää muutaman minuutin.)
 
-Lisää yhteystietoja painamalla "<b><font fgcolor="#ffffffff">Valikko</font></b>" ja koskettamalla 
+Lisää yhteystietoja painamalla "<font fgcolor="#ffffffff"><b>Valikko</b></font>" ja koskettamalla 
  
-"<b><font fgcolor="#ffffffff"><li>"Tilit lisätäksesi tilin tai muokataksesi tiliä, jonka yhteystiedot voit synkronoida tablet-laitteen kanssa
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Näyttövalinnat muuttaaksesi sitä, mitkä yhteystiedot ovat näkyvissä
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Uudet yhteystiedot luodaksesi uudet yhteystiedot alusta alkaen
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Tuo/vie tuodaksesi yhteystietoja SIM- tai SD-kortiltasi
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Tilit lisätäksesi tilin tai muokataksesi tiliä, jonka yhteystiedot voit synkronoida tablet-laitteen kanssa
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Näyttövalinnat muuttaaksesi sitä, mitkä yhteystiedot ovat näkyvissä
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Uudet yhteystiedot luodaksesi uudet yhteystiedot alusta alkaen
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Tuo/vie tuodaksesi yhteystietoja SIM- tai SD-kortiltasi
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Ei näytettäviä yhteystietoja.
 
-Lisää yhteystietoja painamalla "<b><font fgcolor="#ffffffff">Valikko</font></b>" ja koskettamalla 
+Lisää yhteystietoja painamalla "<font fgcolor="#ffffffff"><b>Valikko</b></font>" ja koskettamalla 
  
-"<b><font fgcolor="#ffffffff"><li>"Tilit lisätäksesi tilin tai muokataksesi tiliä, jonka yhteystiedot voit synkronoida puhelimen kanssa
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Uudet yhteystiedot luodaksesi uudet yhteystiedot alusta alkaen
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Tuo/vie tuodaksesi yhteystietoja SD-kortiltasi
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Tilit lisätäksesi tilin tai muokataksesi tiliä, jonka yhteystiedot voit synkronoida puhelimen kanssa
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Uudet yhteystiedot luodaksesi uudet yhteystiedot alusta alkaen
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Tuo/vie tuodaksesi yhteystietoja SD-kortiltasi
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Ei näytettäviä yhteystietoja. (Jos lisäsit tilin äskettäin, yhteystietojen synkronointi voi kestää muutaman minuutin.)
 
-Lisää yhteystietoja painamalla "<b><font fgcolor="#ffffffff">Valikko</font></b>" ja koskettamalla 
+Lisää yhteystietoja painamalla "<font fgcolor="#ffffffff"><b>Valikko</b></font>" ja koskettamalla 
  
-"<b><font fgcolor="#ffffffff"><li>"Tilit lisätäksesi tilin tai muokataksesi tiliä, jonka yhteystiedot voit synkronoida tablet-laitteen kanssa
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Näyttövalinnat muuttaaksesi sitä, mitkä yhteystiedot ovat näkyvissä
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Uudet yhteystiedot luodaksesi uudet yhteystiedot alusta alkaen
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Tuo/vie tuodaksesi yhteystietoja SD-kortiltasi
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Tilit lisätäksesi tilin tai muokataksesi tiliä, jonka yhteystiedot voit synkronoida tablet-laitteen kanssa
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Näyttövalinnat muuttaaksesi sitä, mitkä yhteystiedot ovat näkyvissä
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Uudet yhteystiedot luodaksesi uudet yhteystiedot alusta alkaen
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Tuo/vie tuodaksesi yhteystietoja SD-kortiltasi
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Sinulla ei ole suosikkeja.
 
 Yhteystiedon lisääminen suosikkeihin:

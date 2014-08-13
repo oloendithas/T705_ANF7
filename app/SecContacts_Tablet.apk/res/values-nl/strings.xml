@@ -146,38 +146,38 @@ Importeren/exporteren om contacten van uw SIM- of SD-kaart te importeren
 "</string>
     <string name="noContactsHelpTextWithSync">"U heeft geen contacten om weer te geven. (Als u net een account heeft toegevoegd, kan het enkele minuten duren voordat de contacten zijn gesynchroniseerd.)
 
-Als u contacten wilt toevoegen, drukt u op "<b><font fgcolor="#ffffffff">Menu</font></b>" en raakt u de volgende opties aan:
+Als u contacten wilt toevoegen, drukt u op "<font fgcolor="#ffffffff"><b>Menu</b></font>" en raakt u de volgende opties aan:
  
-"<b><font fgcolor="#ffffffff"><li>"Accounts om een account toe te voegen of te configureren met contacten die u kunt synchroniseren met de tablet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Weergaveopties om de zichtbaarheid van contacten te wijzigen
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nieuw contact om een geheel nieuw contact toe te voegen
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importeren/exporteren om contacten van uw SIM- of SD-kaart te importeren
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Accounts om een account toe te voegen of te configureren met contacten die u kunt synchroniseren met de tablet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Weergaveopties om de zichtbaarheid van contacten te wijzigen
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nieuw contact om een geheel nieuw contact toe te voegen
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importeren/exporteren om contacten van uw SIM- of SD-kaart te importeren
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"U heeft geen contacten om weer te geven.
 
-Als u contacten wilt toevoegen, drukt u op "<b><font fgcolor="#ffffffff">Menu</font></b>" en raakt u de volgende opties aan:
+Als u contacten wilt toevoegen, drukt u op "<font fgcolor="#ffffffff"><b>Menu</b></font>" en raakt u de volgende opties aan:
  
-"<b><font fgcolor="#ffffffff"><li>"Accounts om een account toe te voegen of te configureren met contacten die u kunt synchroniseren met de tablet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nieuw contact om een geheel nieuw contact te maken
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importeren/exporteren om contacten van uw SD-kaart te importeren
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Accounts om een account toe te voegen of te configureren met contacten die u kunt synchroniseren met de tablet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nieuw contact om een geheel nieuw contact te maken
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importeren/exporteren om contacten van uw SD-kaart te importeren
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"U heeft geen contacten om weer te geven. (Als u net een account heeft toegevoegd, kan het enkele minuten duren voordat de contacten zijn gesynchroniseerd.)
 
-Als u contacten wilt toevoegen, drukt u op "<b><font fgcolor="#ffffffff">Menu</font></b>" en raakt u de volgende opties aan:
+Als u contacten wilt toevoegen, drukt u op "<font fgcolor="#ffffffff"><b>Menu</b></font>" en raakt u de volgende opties aan:
  
-"<b><font fgcolor="#ffffffff"><li>"Accounts om een account toe te voegen of te configureren met contacten die u kunt synchroniseren met de tablet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Weergaveopties om de zichtbaarheid van contacten te wijzigen
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nieuw contact om een geheel nieuw contact te maken
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importeren/exporteren om contacten van uw SD-kaart te importeren
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Accounts om een account toe te voegen of te configureren met contacten die u kunt synchroniseren met de tablet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Weergaveopties om de zichtbaarheid van contacten te wijzigen
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nieuw contact om een geheel nieuw contact te maken
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importeren/exporteren om contacten van uw SD-kaart te importeren
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"U heeft geen favorieten.
 
 U kunt als volgt een contact toevoegen aan uw lijst met favorieten:

@@ -146,38 +146,38 @@ Import/Export för att importera kontakter från ditt SIM- eller SD-kort
 "</string>
     <string name="noContactsHelpTextWithSync">"Det finns inga kontakter att visa (om du nyss har lagt till ett konto kan det ta några minuter att synkronisera kontakter).
 
-Om du vill lägga till kontakter trycker du på "<b><font fgcolor="#ffffffff">Meny</font></b>" och sedan på:
+Om du vill lägga till kontakter trycker du på "<font fgcolor="#ffffffff"><b>Meny</b></font>" och sedan på:
  
-"<b><font fgcolor="#ffffffff"><li>"Konton om du vill lägga till eller konfigurera ett konto med kontakter som kan synkroniseras till pekdatorn
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Visningsalternativ om du vill ändra vilka kontakter som är synliga
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Ny kontakt om du vill skapa en ny kontakt från grunden
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importera/exportera om du vill importera kontakter från SIM-kortet eller SD-kortet
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Konton om du vill lägga till eller konfigurera ett konto med kontakter som kan synkroniseras till pekdatorn
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Visningsalternativ om du vill ändra vilka kontakter som är synliga
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Ny kontakt om du vill skapa en ny kontakt från grunden
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importera/exportera om du vill importera kontakter från SIM-kortet eller SD-kortet
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Det finns inga kontakter att visa.
 
-Om du vill lägga till kontakter trycker du på "<b><font fgcolor="#ffffffff">Meny</font></b>" och sedan på:
+Om du vill lägga till kontakter trycker du på "<font fgcolor="#ffffffff"><b>Meny</b></font>" och sedan på:
  
-"<b><font fgcolor="#ffffffff"><li>"Konton om du vill lägga till eller konfigurera ett konto med kontakter som kan synkroniseras till pekdatorn
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Ny kontakt om du vill skapa en ny kontakt från grunden
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importera/exportera om du vill importera kontakter från SD-kortet
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Konton om du vill lägga till eller konfigurera ett konto med kontakter som kan synkroniseras till pekdatorn
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Ny kontakt om du vill skapa en ny kontakt från grunden
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importera/exportera om du vill importera kontakter från SD-kortet
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Det finns inga kontakter att visa (om du nyss har lagt till ett konto kan det ta några minuter att synkronisera kontakter).
 
-Om du vill lägga till kontakter trycker du på "<b><font fgcolor="#ffffffff">Meny</font></b>" och sedan på:
+Om du vill lägga till kontakter trycker du på "<font fgcolor="#ffffffff"><b>Meny</b></font>" och sedan på:
  
-"<b><font fgcolor="#ffffffff"><li>"Konton om du vill lägga till eller konfigurera ett konto med kontakter som kan synkroniseras till pekdatorn
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Visningsalternativ om du vill ändra vilka kontakter som är synliga
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Ny kontakt om du vill skapa en ny kontakt från grunden
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importera/exportera om du vill importera kontakter från SD-kortet
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Konton om du vill lägga till eller konfigurera ett konto med kontakter som kan synkroniseras till pekdatorn
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Visningsalternativ om du vill ändra vilka kontakter som är synliga
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Ny kontakt om du vill skapa en ny kontakt från grunden
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importera/exportera om du vill importera kontakter från SD-kortet
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Du har inte några favoriter.
 
 Så här lägger du till kontakter i favoritlistan:

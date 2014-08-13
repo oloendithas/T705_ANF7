@@ -146,38 +146,38 @@ Uvoz/izvoz za uvoz kontakata sa SIM ili SD kartice
 "</string>
     <string name="noContactsHelpTextWithSync">"Nemate kontakata za prikaz. (Ako ste upravo dodali račun, sinkronizacija kontakata može potrajati nekoliko minuta.)
 
-Za dodavanje kontakata pritisnite "<b><font fgcolor="#ffffffff">Izbornik</font></b>" i dodirnite:
+Za dodavanje kontakata pritisnite "<font fgcolor="#ffffffff"><b>Izbornik</b></font>" i dodirnite:
  
-"<b><font fgcolor="#ffffffff"><li>"Računi kako biste dodali ili konfigurirali račun s kontaktima koje možete sinkronizirati s tabletnim uređajem
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Opcije prikaza kako biste promijenili koji su kontakti vidljivi
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Novi kontakti kako biste stvorili posve novi kontakt
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Uvoz/Izvoz kako biste uvezli kontakte sa svoje SIM ili SD kartice
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Računi kako biste dodali ili konfigurirali račun s kontaktima koje možete sinkronizirati s tabletnim uređajem
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Opcije prikaza kako biste promijenili koji su kontakti vidljivi
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Novi kontakti kako biste stvorili posve novi kontakt
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Uvoz/Izvoz kako biste uvezli kontakte sa svoje SIM ili SD kartice
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Nemate kontakata za prikaz.
 
-Za dodavanje kontakata pritisnite "<b><font fgcolor="#ffffffff">Izbornik</font></b>" i dodirnite:
+Za dodavanje kontakata pritisnite "<font fgcolor="#ffffffff"><b>Izbornik</b></font>" i dodirnite:
  
-"<b><font fgcolor="#ffffffff"><li>"Računi kako biste dodali ili konfigurirali račun s kontaktima koje možete sinkronizirati s tabletnim uređajem
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Novi kontakt kako biste stvorili posve novi kontakt
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Uvoz/Izvoz kako biste uvezli kontakte sa svoje SD kartice
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Računi kako biste dodali ili konfigurirali račun s kontaktima koje možete sinkronizirati s tabletnim uređajem
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Novi kontakt kako biste stvorili posve novi kontakt
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Uvoz/Izvoz kako biste uvezli kontakte sa svoje SD kartice
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Nemate kontakata za prikaz. (Ako ste upravo dodali račun, sinkronizacija kontakata može potrajati nekoliko minuta.)
 
-Za dodavanje kontakata pritisnite "<b><font fgcolor="#ffffffff">Izbornik</font></b>" i dodirnite:
+Za dodavanje kontakata pritisnite "<font fgcolor="#ffffffff"><b>Izbornik</b></font>" i dodirnite:
  
-"<b><font fgcolor="#ffffffff"><li>"Računi kako biste dodali ili konfigurirali račun s kontaktima koje možete sinkronizirati s tabletnim uređajem
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Opcije prikaza kako biste promijenili koji su kontakti vidljivi
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Novi kontakt kako biste stvorili posve novi kontakt
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Uvoz/Izvoz kako biste uvezli kontakte sa svoje SD kartice
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Računi kako biste dodali ili konfigurirali račun s kontaktima koje možete sinkronizirati s tabletnim uređajem
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Opcije prikaza kako biste promijenili koji su kontakti vidljivi
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Novi kontakt kako biste stvorili posve novi kontakt
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Uvoz/Izvoz kako biste uvezli kontakte sa svoje SD kartice
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Nemate favorita.
 
 Da biste dodali kontakt svojem popisu favorita:

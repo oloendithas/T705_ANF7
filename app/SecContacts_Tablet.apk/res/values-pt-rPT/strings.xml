@@ -146,38 +146,38 @@ Importar/Exportar para importar contactos do cartão SIM ou SD
 "</string>
     <string name="noContactsHelpTextWithSync">"Não tem contactos para apresentar (se acabou de adicionar uma conta, a sincronização dos contactos pode demorar alguns minutos).
 
-Para adicionar contactos, prima "<b><font fgcolor="#ffffffff">Menu</font></b>" e toque em:
+Para adicionar contactos, prima "<font fgcolor="#ffffffff"><b>Menu</b></font>" e toque em:
  
-"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contactos que pode sincronizar com o tablet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Opções de visualização para alterar os contactos visíveis
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Novo contacto para criar um novo contacto de raiz
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importar/Exportar para importar contactos do SIM ou do cartão SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Contas para adicionar ou configurar uma conta com contactos que pode sincronizar com o tablet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Opções de visualização para alterar os contactos visíveis
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Novo contacto para criar um novo contacto de raiz
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importar/Exportar para importar contactos do SIM ou do cartão SD
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Não tem contactos para apresentar.
 
-Para adicionar contactos, prima "<b><font fgcolor="#ffffffff">Menu</font></b>" e toque em:
+Para adicionar contactos, prima "<font fgcolor="#ffffffff"><b>Menu</b></font>" e toque em:
  
-"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contactos que pode sincronizar com o tablet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Novo contacto para criar um novo contacto de raiz
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importar/Exportar para importar contactos do cartão SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Contas para adicionar ou configurar uma conta com contactos que pode sincronizar com o tablet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Novo contacto para criar um novo contacto de raiz
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importar/Exportar para importar contactos do cartão SD
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Não tem contactos para apresentar (se acabou de adicionar uma conta, a sincronização dos contactos pode demorar alguns minutos).
 
-Para adicionar contactos, prima "<b><font fgcolor="#ffffffff">Menu</font></b>" e toque em:
+Para adicionar contactos, prima "<font fgcolor="#ffffffff"><b>Menu</b></font>" e toque em:
  
-"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contactos que pode sincronizar com o tablet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Opções de visualização para alterar os contactos visíveis
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Novo contacto para criar um novo contacto de raiz
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importar/Exportar para importar contactos do cartão SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Contas para adicionar ou configurar uma conta com contactos que pode sincronizar com o tablet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Opções de visualização para alterar os contactos visíveis
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Novo contacto para criar um novo contacto de raiz
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importar/Exportar para importar contactos do cartão SD
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Não tem favoritos.
 
 Para adicionar um contacto à sua lista de favoritos:

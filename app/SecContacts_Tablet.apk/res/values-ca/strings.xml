@@ -146,38 +146,38 @@ Importar/exportar per importar contactes de la targeta SIM o SD
 "</string>
     <string name="noContactsHelpTextWithSync">"No tens contactes per mostrar. (Si acabes d'afegir un compte, és possible que la sincronització dels contactes trigui una mica.)
 
-Per afegir contactes, prem "<b><font fgcolor="#ffffffff">Menú</font></b>" i toca:
+Per afegir contactes, prem "<font fgcolor="#ffffffff"><b>Menú</b></font>" i toca:
  
-"<b><font fgcolor="#ffffffff"><li>"Comptes per afegir o configurar un compte amb contactes que pots sincronitzar a la tauleta
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Opcions de visualització per modificar quins contactes són visibles
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nou contacte per crear un contacte nou des de zero
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importa/Exporta per importar contactes de la teva targeta SIM o SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Comptes per afegir o configurar un compte amb contactes que pots sincronitzar a la tauleta
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Opcions de visualització per modificar quins contactes són visibles
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nou contacte per crear un contacte nou des de zero
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importa/Exporta per importar contactes de la teva targeta SIM o SD
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"No tens contactes per mostrar.
 
-Per afegir contactes, prem "<b><font fgcolor="#ffffffff">Menú</font></b>" i toca:
+Per afegir contactes, prem "<font fgcolor="#ffffffff"><b>Menú</b></font>" i toca:
  
-"<b><font fgcolor="#ffffffff"><li>"Comptes per afegir o configurar un compte amb contactes que puguis sincronitzar a la tauleta
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nou contacte per crear un contacte nou des de zero
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importa/Exporta per importar contactes de la teva targeta SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Comptes per afegir o configurar un compte amb contactes que puguis sincronitzar a la tauleta
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nou contacte per crear un contacte nou des de zero
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importa/Exporta per importar contactes de la teva targeta SD
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"No tens contactes per mostrar. (Si acabes d'afegir un compte, és possible que la sincronització dels contactes trigui una mica.)
 
-Per afegir contactes, prem "<b><font fgcolor="#ffffffff">Menú</font></b>" i toca:
+Per afegir contactes, prem "<font fgcolor="#ffffffff"><b>Menú</b></font>" i toca:
  
-"<b><font fgcolor="#ffffffff"><li>"Comptes per afegir o configurar un compte amb contactes que pots sincronitzar a la tauleta
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Opcions de visualització per modificar quins contactes són visibles
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nou contacte per crear un contacte nou des de zero
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importa/Exporta per importar contactes de la teva targeta SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Comptes per afegir o configurar un compte amb contactes que pots sincronitzar a la tauleta
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Opcions de visualització per modificar quins contactes són visibles
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nou contacte per crear un contacte nou des de zero
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importa/Exporta per importar contactes de la teva targeta SD
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"No teniu preferits.
 
 Per afegir un contacte a la llista de preferits:

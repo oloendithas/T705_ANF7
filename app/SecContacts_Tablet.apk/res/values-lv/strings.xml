@@ -146,38 +146,38 @@ Importēt/eksportēt, lai importētu kontaktus no SIM vai SD kartes
 "</string>
     <string name="noContactsHelpTextWithSync">"Nav parādāmu kontaktpersonu. (Ja tikko pievienojāt kontu, kontaktpersonu sinhronizēšana var ilgt dažas minūtes.)
 
-Lai pievienotu kontaktpersonas, nospiediet "<b><font fgcolor="#ffffffff">Izvēlne</font></b>" un pieskarieties:
+Lai pievienotu kontaktpersonas, nospiediet "<font fgcolor="#ffffffff"><b>Izvēlne</b></font>" un pieskarieties:
  
-"<b><font fgcolor="#ffffffff"><li>"Konti, lai pievienotu vai konfigurētu kontu ar kontaktpersonām, ko var sinhronizēt ar tālruni;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Attēlošanas opcijas, lai mainītu redzamās kontaktpersonas;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Jauna kontaktpersona, lai izveidotu jaunu kontaktpersonu;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importēt/eksportēt, lai importētu kontaktpersonas no SIM vai SD kartes.
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Konti, lai pievienotu vai konfigurētu kontu ar kontaktpersonām, ko var sinhronizēt ar tālruni;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Attēlošanas opcijas, lai mainītu redzamās kontaktpersonas;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Jauna kontaktpersona, lai izveidotu jaunu kontaktpersonu;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importēt/eksportēt, lai importētu kontaktpersonas no SIM vai SD kartes.
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Nav parādāmu kontaktpersonu.
 
-Lai pievienotu kontaktpersonas, nospiediet "<b><font fgcolor="#ffffffff">Izvēlne</font></b>" un pieskarieties:
+Lai pievienotu kontaktpersonas, nospiediet "<font fgcolor="#ffffffff"><b>Izvēlne</b></font>" un pieskarieties:
  
-"<b><font fgcolor="#ffffffff"><li>"Konti, lai pievienotu vai konfigurētu kontu ar kontaktpersonām, ko var sinhronizēt ar planšetdatoru;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Jauna kontaktpersona, lai izveidotu jaunu kontaktpersonu;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importēt/eksportēt, lai importētu kontaktpersonas no SD kartes.
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Konti, lai pievienotu vai konfigurētu kontu ar kontaktpersonām, ko var sinhronizēt ar planšetdatoru;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Jauna kontaktpersona, lai izveidotu jaunu kontaktpersonu;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importēt/eksportēt, lai importētu kontaktpersonas no SD kartes.
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Nav parādāmu kontaktpersonu. (Ja tikko pievienojāt kontu, kontaktpersonu sinhronizēšana var ilgt dažas minūtes.)
 
-Lai pievienotu kontaktpersonas, nospiediet "<b><font fgcolor="#ffffffff">Izvēlne</font></b>" un pieskarieties:
+Lai pievienotu kontaktpersonas, nospiediet "<font fgcolor="#ffffffff"><b>Izvēlne</b></font>" un pieskarieties:
  
-"<b><font fgcolor="#ffffffff"><li>"Konti, lai pievienotu vai konfigurētu kontu ar kontaktpersonām, ko var sinhronizēt ar planšetdatoru;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Attēlošanas opcijas, lai mainītu redzamās kontaktpersonas;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Jauna kontaktpersona, lai izveidotu jaunu kontaktpersonu;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importēt/eksportēt, lai importētu kontaktpersonas no SD kartes.
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Konti, lai pievienotu vai konfigurētu kontu ar kontaktpersonām, ko var sinhronizēt ar planšetdatoru;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Attēlošanas opcijas, lai mainītu redzamās kontaktpersonas;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Jauna kontaktpersona, lai izveidotu jaunu kontaktpersonu;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importēt/eksportēt, lai importētu kontaktpersonas no SD kartes.
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Jūs neesat izveidojis izlasi.
 
 Lai pievienotu kontaktpersonu izlasei, rīkojieties šādi:

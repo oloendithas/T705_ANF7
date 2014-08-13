@@ -146,38 +146,38 @@ Importálás/exportálás – névjegyek importálása a SIM vagy SD-kártyáró
 "</string>
     <string name="noContactsHelpTextWithSync">"Nincsenek megjeleníthető névjegyei. (Ha most adott hozzá egy fiókot, a szinkronizálás eltarthat pár percig.)
 
-Névjegyek hozzáadásához nyomja meg a "<b><font fgcolor="#ffffffff">Menü</font></b>" gombot, majd érintse meg a
+Névjegyek hozzáadásához nyomja meg a "<font fgcolor="#ffffffff"><b>Menü</b></font>" gombot, majd érintse meg a
  
-"<b><font fgcolor="#ffffffff"><li>"Fiókok lehetőséget olyan, névjegyekkel rendelkező fiók hozzáadásához vagy konfigurálásához, amelyet szinkronizálhat a táblagépen
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Megjelenítési beállítások annak beállításához, hogy mely névjegyek láthatók
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Új névjegy teljesen új névjegy létrehozásához
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importálás/Exportálás SIM- vagy SD-kártyáról történő importáláshoz
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Fiókok lehetőséget olyan, névjegyekkel rendelkező fiók hozzáadásához vagy konfigurálásához, amelyet szinkronizálhat a táblagépen
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Megjelenítési beállítások annak beállításához, hogy mely névjegyek láthatók
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Új névjegy teljesen új névjegy létrehozásához
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importálás/Exportálás SIM- vagy SD-kártyáról történő importáláshoz
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Nincsenek megjeleníthető névjegyei.
 
 Névjegyek hozzáadásához nyomja meg a "<font fgcolor="#ffffffff"> <b>Menü</b></font>" gombot, majd érintse meg a
  
-"<b><font fgcolor="#ffffffff"><li>"Fiókok lehetőséget olyan, névjegyekkel rendelkező fiók hozzáadásához vagy konfigurálásához, amelyet szinkronizálhat a táblagépen
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Új névjegy teljesen új névjegy létrehozásához
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importálás/Exportálás SIM- vagy SD-kártyáról történő importáláshoz
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Fiókok lehetőséget olyan, névjegyekkel rendelkező fiók hozzáadásához vagy konfigurálásához, amelyet szinkronizálhat a táblagépen
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Új névjegy teljesen új névjegy létrehozásához
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importálás/Exportálás SIM- vagy SD-kártyáról történő importáláshoz
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Nincsenek megjeleníthető névjegyei. (Ha most adott hozzá egy fiókot, a szinkronizálás eltarthat pár percig.)
 
-Névjegyek hozzáadásához nyomja meg a "<b><font fgcolor="#ffffffff">Menü</font></b>" gombot, majd érintse meg a
+Névjegyek hozzáadásához nyomja meg a "<font fgcolor="#ffffffff"><b>Menü</b></font>" gombot, majd érintse meg a
  
-"<b><font fgcolor="#ffffffff"><li>"Fiókok lehetőséget olyan, névjegyekkel rendelkező fiók hozzáadásához vagy konfigurálásához, amelyet szinkronizálhat a táblagépen
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Megjelenítési beállítások annak beállításához, hogy mely névjegyek láthatók
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Új névjegy teljesen új névjegy létrehozásához
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importálás/Exportálás SIM- vagy SD-kártyáról történő importáláshoz
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Fiókok lehetőséget olyan, névjegyekkel rendelkező fiók hozzáadásához vagy konfigurálásához, amelyet szinkronizálhat a táblagépen
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Megjelenítési beállítások annak beállításához, hogy mely névjegyek láthatók
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Új névjegy teljesen új névjegy létrehozásához
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importálás/Exportálás SIM- vagy SD-kártyáról történő importáláshoz
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Nincsenek kedvencei.
 
 Így adhat hozzá névjegyet a kedvencek listájához:

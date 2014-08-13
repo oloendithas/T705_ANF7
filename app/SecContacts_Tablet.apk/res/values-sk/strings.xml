@@ -146,38 +146,38 @@ Importovať/Exportovať na importovanie kontaktov z karty SIM alebo SD
 "</string>
     <string name="noContactsHelpTextWithSync">"Nemáte žiadne kontakty, ktoré by bolo možné zobraziť. (Ak ste práve pridali účet, môže synchronizácia kontaktov trvať niekoľko minút.)
 
-Ak chcete pridať kontakty, stlačte tlačidlo "<b><font fgcolor="#ffffffff">Menu</font></b>" a dotknite sa jednej z nasledujúcich položiek:
+Ak chcete pridať kontakty, stlačte tlačidlo "<font fgcolor="#ffffffff"><b>Menu</b></font>" a dotknite sa jednej z nasledujúcich položiek:
  
-"<b><font fgcolor="#ffffffff"><li>"Účty, ak chcete pridať alebo nakonfigurovať účet a kontakty v ňom synchronizovať s tabletom;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Možnosti zobrazenia, ak chcete zmeniť, ktoré kontakty budú zobrazené;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nový kontakt, ak chcete vytvoriť úplne nový kontakt;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importovať alebo exportovať, ak chcete importovať kontakty z karty SIM alebo SD.
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Účty, ak chcete pridať alebo nakonfigurovať účet a kontakty v ňom synchronizovať s tabletom;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Možnosti zobrazenia, ak chcete zmeniť, ktoré kontakty budú zobrazené;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nový kontakt, ak chcete vytvoriť úplne nový kontakt;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importovať alebo exportovať, ak chcete importovať kontakty z karty SIM alebo SD.
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Nemáte žiadne kontakty, ktoré by bolo možné zobraziť.
 
-Ak chcete pridať kontakty, stlačte tlačidlo "<b><font fgcolor="#ffffffff">Menu</font></b>" a dotknite sa jednej z nasledujúcich položiek:
+Ak chcete pridať kontakty, stlačte tlačidlo "<font fgcolor="#ffffffff"><b>Menu</b></font>" a dotknite sa jednej z nasledujúcich položiek:
  
-"<b><font fgcolor="#ffffffff"><li>"Účty, ak chcete pridať alebo nakonfigurovať účet a kontakty v ňom synchronizovať s tabletom;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nový kontakt, ak chcete vytvoriť úplne nový kontakt;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importovať alebo exportovať, ak chcete importovať kontakty z karty SD.
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Účty, ak chcete pridať alebo nakonfigurovať účet a kontakty v ňom synchronizovať s tabletom;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nový kontakt, ak chcete vytvoriť úplne nový kontakt;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importovať alebo exportovať, ak chcete importovať kontakty z karty SD.
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Nemáte žiadne kontakty, ktoré by bolo možné zobraziť. (Ak ste práve pridali účet, môže synchronizácia kontaktov trvať niekoľko minút.)
 
-Ak chcete pridať kontakty, stlačte tlačidlo "<b><font fgcolor="#ffffffff">Menu</font></b>" a dotknite sa jednej z nasledujúcich položiek:
+Ak chcete pridať kontakty, stlačte tlačidlo "<font fgcolor="#ffffffff"><b>Menu</b></font>" a dotknite sa jednej z nasledujúcich položiek:
  
-"<b><font fgcolor="#ffffffff"><li>"Účty, ak chcete pridať alebo nakonfigurovať účet a kontakty v ňom synchronizovať s tabletom;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Možnosti zobrazenia, ak chcete zmeniť, ktoré kontakty budú zobrazené;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nový kontakt, ak chcete vytvoriť úplne nový kontakt;
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importovať alebo exportovať, ak chcete importovať kontakty zo svojej karty SD.
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Účty, ak chcete pridať alebo nakonfigurovať účet a kontakty v ňom synchronizovať s tabletom;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Možnosti zobrazenia, ak chcete zmeniť, ktoré kontakty budú zobrazené;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nový kontakt, ak chcete vytvoriť úplne nový kontakt;
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importovať alebo exportovať, ak chcete importovať kontakty zo svojej karty SD.
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Nemáte žiadne obľúbené kontakty.
 
 Pridanie kontaktu do zoznamu obľúbených:

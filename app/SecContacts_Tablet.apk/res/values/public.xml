@@ -3069,6 +3069,14 @@
     <public type="layout" name="verizon_backup_assistant_fragment" id="0x7f040227" />
     <public type="layout" name="video_view" id="0x7f040228" />
     <public type="layout" name="video_view_container" id="0x7f040229" />
+    <public type="layout" name="dialpad_additional_buttons_land_tmo_easy" id="0x7f04022a" />
+    <public type="layout" name="dialpad_additional_buttons_tmo_easy" id="0x7f04022b" />
+    <public type="layout" name="dialpad_easy" id="0x7f04022c" />
+    <public type="layout" name="dialpad_easymode" id="0x7f04022d" />
+    <public type="layout" name="dialpad_land_easy" id="0x7f04022e" />
+    <public type="layout" name="dialpad_onehand" id="0x7f04022f" />
+    <public type="layout" name="dialpad_searchview_easy" id="0x7f040230" />
+    <public type="layout" name="dialpad_searchview_land_easy" id="0x7f040231" />
     <public type="layout" name="split_view_contact_detail_photo_container" id="0x7f0401fe" />
     <public type="layout" name="split_view_contact_detail_photo_container_chn_pimsync" id="0x7f0401ff" />
     <public type="layout" name="call_detail_delete_history_item_in_action_mode" id="0x7f040014" />
@@ -7163,9 +7171,9 @@
     <public type="style" name="PeopleActionBarTabTextStyle" id="0x7f11008d" />
     <public type="style" name="PopupStyleAnimation" id="0x7f11008f" />
     <public type="style" name="PopupStyleActivityAnimation" id="0x7f110090" />
-    <public type="style" name="PreferencePanelSinglePaneStyle" id="0x7f110091" />
     <public type="style" name="APKTOOL_DUMMY_008b" id="0x7f11008b" />
     <public type="style" name="APKTOOL_DUMMY_008e" id="0x7f11008e" />
+    <public type="style" name="PreferencePanelSinglePaneStyle" id="0x7f110091" />
     <public type="menu" name="actions" id="0x7f120000" />
     <public type="menu" name="call_details_cab" id="0x7f120001" />
     <public type="menu" name="call_details_options" id="0x7f120002" />

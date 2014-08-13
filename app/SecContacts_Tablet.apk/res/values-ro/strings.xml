@@ -146,38 +146,38 @@ Import/Export pentru a importa contacte de pe cartela SIM sau SD
 "</string>
     <string name="noContactsHelpTextWithSync">"Nu există persoane din agendă de afişat. (Dacă aţi adăugat recent un cont, poate dura câteva minute până la finalizarea sincronizării persoanelor din agendă.)
 
-Dacă doriţi să adăugaţi persoane în agendă, apăsaţi pe "<b><font fgcolor="#ffffffff">Meniu</font></b>" şi atingeţi:
+Dacă doriţi să adăugaţi persoane în agendă, apăsaţi pe "<font fgcolor="#ffffffff"><b>Meniu</b></font>" şi atingeţi:
  
-"<b><font fgcolor="#ffffffff"><li>"Conturi pentru a adăuga sau a configura un cont cu persoane din agendă, pe care le puteţi sincroniza cu cele de pe tabletă
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Opţiuni de afişare pentru a modifica persoanele din agendă care sunt vizibile
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Persoană nouă în agendă pentru a crea de la zero o intrare nouă în agendă
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importaţi/Exportaţi pentru a importa persoane din agendă de pe cardul SIM sau SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Conturi pentru a adăuga sau a configura un cont cu persoane din agendă, pe care le puteţi sincroniza cu cele de pe tabletă
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Opţiuni de afişare pentru a modifica persoanele din agendă care sunt vizibile
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Persoană nouă în agendă pentru a crea de la zero o intrare nouă în agendă
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importaţi/Exportaţi pentru a importa persoane din agendă de pe cardul SIM sau SD
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Nu există persoane din agendă de afişat.
 
-Dacă doriţi să adăugaţi persoane în agendă, apăsaţi pe "<b><font fgcolor="#ffffffff">Meniu</font></b>" şi atingeţi:
+Dacă doriţi să adăugaţi persoane în agendă, apăsaţi pe "<font fgcolor="#ffffffff"><b>Meniu</b></font>" şi atingeţi:
  
-"<b><font fgcolor="#ffffffff"><li>"Conturi pentru a adăuga sau a configura un cont cu persoane din agendă, pe care le puteţi sincroniza cu cele de pe tabletă
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Persoană nouă în agendă pentru a crea de la zero o intrare nouă în agendă
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importaţi/Exportaţi pentru a importa persoane din agendă de pe cardul SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Conturi pentru a adăuga sau a configura un cont cu persoane din agendă, pe care le puteţi sincroniza cu cele de pe tabletă
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Persoană nouă în agendă pentru a crea de la zero o intrare nouă în agendă
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importaţi/Exportaţi pentru a importa persoane din agendă de pe cardul SD
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Nu există persoane din agendă de afişat. (Dacă aţi adăugat recent un cont, poate dura câteva minute până la finalizarea sincronizării persoanelor din agendă.)
 
-Dacă doriţi să adăugaţi persoane în agendă, apăsaţi pe "<b><font fgcolor="#ffffffff">Meniu</font></b>" şi atingeţi:
+Dacă doriţi să adăugaţi persoane în agendă, apăsaţi pe "<font fgcolor="#ffffffff"><b>Meniu</b></font>" şi atingeţi:
  
-"<b><font fgcolor="#ffffffff"><li>"Conturi pentru a adăuga sau a configura un cont cu persoane din agendă, pe care le puteţi sincroniza cu cele de pe tabletă
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Opţiuni de afişare pentru a modifica persoanele din agendă care sunt vizibile
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Persoană nouă în agendă pentru a crea de la zero o intrare nouă în agendă
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importaţi/Exportaţi pentru a importa persoane din agendă de pe cardul SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Conturi pentru a adăuga sau a configura un cont cu persoane din agendă, pe care le puteţi sincroniza cu cele de pe tabletă
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Opţiuni de afişare pentru a modifica persoanele din agendă care sunt vizibile
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Persoană nouă în agendă pentru a crea de la zero o intrare nouă în agendă
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importaţi/Exportaţi pentru a importa persoane din agendă de pe cardul SD
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Nu aveţi favorite.
 
  Pentru a adăuga o persoană în lista de favorite:

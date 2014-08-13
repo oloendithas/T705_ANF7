@@ -148,38 +148,38 @@ Importa/Esporta per importare i contatti dalla carta SIM o SD
 "</string>
     <string name="noContactsHelpTextWithSync">"Non sono presenti contatti da visualizzare (se hai appena aggiunto un account, la sincronizzazione dei contatti potrebbe richiedere alcuni minuti).
 
-Per aggiungere contatti, premi "<b><font fgcolor="#ffffffff">Menu</font></b>" e tocca:
+Per aggiungere contatti, premi "<font fgcolor="#ffffffff"><b>Menu</b></font>" e tocca:
  
-"<b><font fgcolor="#ffffffff"><li>"Account per aggiungere o configurare un account con contatti sincronizzabili con il tablet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Opzioni di visualizzazione per modificare i contatti visibili
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nuovo contatto per creare da zero un nuovo contatto
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importa/esporta per importare contatti dalla SIM o dalla scheda SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Account per aggiungere o configurare un account con contatti sincronizzabili con il tablet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Opzioni di visualizzazione per modificare i contatti visibili
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nuovo contatto per creare da zero un nuovo contatto
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importa/esporta per importare contatti dalla SIM o dalla scheda SD
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Non sono presenti contatti da visualizzare.
 
-Per aggiungere contatti, premi "<b><font fgcolor="#ffffffff">Menu</font></b>" e tocca:
+Per aggiungere contatti, premi "<font fgcolor="#ffffffff"><b>Menu</b></font>" e tocca:
  
-"<b><font fgcolor="#ffffffff"><li>"Account per aggiungere o configurare un account con contatti sincronizzabili con il tablet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nuovo contatto per creare da zero un nuovo contatto
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importa/esporta per importare contatti dalla scheda SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Account per aggiungere o configurare un account con contatti sincronizzabili con il tablet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nuovo contatto per creare da zero un nuovo contatto
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importa/esporta per importare contatti dalla scheda SD
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Non sono presenti contatti da visualizzare (se hai appena aggiunto un account, la sincronizzazione dei contatti potrebbe richiedere alcuni minuti).
 
-Per aggiungere contatti, premi "<b><font fgcolor="#ffffffff">Menu</font></b>" e tocca:
+Per aggiungere contatti, premi "<font fgcolor="#ffffffff"><b>Menu</b></font>" e tocca:
  
-"<b><font fgcolor="#ffffffff"><li>"Account per aggiungere o configurare un account con contatti sincronizzabili con il tablet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Opzioni di visualizzazione per modificare i contatti visibili
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nuovo contatto per creare da zero un nuovo contatto
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importa/esporta per importare contatti dalla scheda SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Account per aggiungere o configurare un account con contatti sincronizzabili con il tablet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Opzioni di visualizzazione per modificare i contatti visibili
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nuovo contatto per creare da zero un nuovo contatto
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importa/esporta per importare contatti dalla scheda SD
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Non sono presenti preferiti.
 
 Per aggiungere un contatto al tuo elenco di preferiti:

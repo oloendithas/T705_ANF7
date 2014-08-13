@@ -146,38 +146,38 @@ Nhập/Xuất để chép danh bạ vào từ thẻ SIM hoặc SD
 "</string>
     <string name="noContactsHelpTextWithSync">"Bạn chưa có địa chỉ liên hệ nào để hiển thị. (Nếu bạn vừa thêm tài khoản, có thể mất vài phút để đồng bộ hóa địa chỉ liên hệ.)
 
-Để thêm địa chỉ liên hệ, nhấn "<b><font fgcolor="#ffffffff">Trình đơn</font></b>" và chạm:
+Để thêm địa chỉ liên hệ, nhấn "<font fgcolor="#ffffffff"><b>Trình đơn</b></font>" và chạm:
  
-"<b><font fgcolor="#ffffffff"><li>"Tài khoản để thêm hoặc cấu hình tài khoản có địa chỉ liên hệ bạn có thể đồng bộ hóa với máy tính bảng
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Tùy chọn hiển thị để thay đổi địa chỉ liên hệ nào được hiển thị
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Địa chỉ liên hệ mới để tạo địa chỉ liên hệ mới từ đầu
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nhập/Xuất để nhập địa chỉ liên hệ từ SIM hoặc thẻ SD của bạn
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Tài khoản để thêm hoặc cấu hình tài khoản có địa chỉ liên hệ bạn có thể đồng bộ hóa với máy tính bảng
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Tùy chọn hiển thị để thay đổi địa chỉ liên hệ nào được hiển thị
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Địa chỉ liên hệ mới để tạo địa chỉ liên hệ mới từ đầu
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nhập/Xuất để nhập địa chỉ liên hệ từ SIM hoặc thẻ SD của bạn
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Bạn chưa có địa chỉ liên hệ nào để hiển thị.
 
-Để thêm địa chỉ liên hệ, nhấn "<b><font fgcolor="#ffffffff">Trình đơn</font></b>" và chạm:
+Để thêm địa chỉ liên hệ, nhấn "<font fgcolor="#ffffffff"><b>Trình đơn</b></font>" và chạm:
  
-"<b><font fgcolor="#ffffffff"><li>"Tài khoản để thêm hoặc cấu hình tài khoản có địa chỉ liên hệ bạn có thể đồng bộ hóa với máy tính bảng
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Địa chỉ liên hệ mới để tạo địa chỉ liên hệ mới từ đầu
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nhập/Xuất để nhập địa chỉ liên hệ từ thẻ SD của bạn
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Tài khoản để thêm hoặc cấu hình tài khoản có địa chỉ liên hệ bạn có thể đồng bộ hóa với máy tính bảng
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Địa chỉ liên hệ mới để tạo địa chỉ liên hệ mới từ đầu
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nhập/Xuất để nhập địa chỉ liên hệ từ thẻ SD của bạn
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Bạn chưa có địa chỉ liên hệ nào để hiển thị. (Nếu bạn đã thêm tài khoản, có thể mất vài phút để đồng bộ hóa địa chỉ liên hệ.)
 
-Để thêm địa chỉ liên hệ, nhấn "<b><font fgcolor="#ffffffff">Trình đơn</font></b>" và chạm:
+Để thêm địa chỉ liên hệ, nhấn "<font fgcolor="#ffffffff"><b>Trình đơn</b></font>" và chạm:
  
-"<b><font fgcolor="#ffffffff"><li>"Tài khoản để thêm hoặc cấu hình tài khoản có địa chỉ liên hệ bạn có thể đồng bộ hóa với máy tính bảng
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Tùy chọn hiển thị để thay đổi tài khoản nào được hiển thị
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Địa chỉ liên hệ mới để tạo địa chỉ liên hệ mới từ đầu
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nhập/Xuất để nhập địa chỉ liên hệ từ thẻ SD của bạn
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Tài khoản để thêm hoặc cấu hình tài khoản có địa chỉ liên hệ bạn có thể đồng bộ hóa với máy tính bảng
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Tùy chọn hiển thị để thay đổi tài khoản nào được hiển thị
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Địa chỉ liên hệ mới để tạo địa chỉ liên hệ mới từ đầu
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nhập/Xuất để nhập địa chỉ liên hệ từ thẻ SD của bạn
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Bạn không có mục ưa thích nào.
 
 Để thêm liên hệ vào danh sách mục ưa thích của bạn:

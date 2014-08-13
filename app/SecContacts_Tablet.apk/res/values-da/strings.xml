@@ -146,38 +146,38 @@ Importér/Eksportér for at importere kontakter fra SIM- eller SD-kortet
 "</string>
     <string name="noContactsHelpTextWithSync">"Du har ingen kontaktpersoner. (Hvis du lige har tilføjet en konto, kan det tage et par minutter at synkronisere kontaktpersoner).
 
-Hvis du vil tilføje kontaktpersoner, skal du trykke på "<b><font fgcolor="#ffffffff">Menu</font></b>" og 
+Hvis du vil tilføje kontaktpersoner, skal du trykke på "<font fgcolor="#ffffffff"><b>Menu</b></font>" og 
  
-"<b><font fgcolor="#ffffffff"><li>"Konti for at tilføje eller konfigurere en konto med kontaktpersoner, som du kan synkronisere til tabletcomputeren
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Visningsindstillinger for at ændre, hvilke kontaktpersoner der er synlige
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Ny kontaktperson for at oprette en helt ny kontaktperson
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importer/eksporter for at importere kontaktpersoner fra dit SIM-kort eller SD-kort
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Konti for at tilføje eller konfigurere en konto med kontaktpersoner, som du kan synkronisere til tabletcomputeren
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Visningsindstillinger for at ændre, hvilke kontaktpersoner der er synlige
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Ny kontaktperson for at oprette en helt ny kontaktperson
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importer/eksporter for at importere kontaktpersoner fra dit SIM-kort eller SD-kort
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Du har ingen kontaktpersoner.
 
-Hvis du vil tilføje kontaktpersoner, skal du trykke på "<b><font fgcolor="#ffffffff">Menu</font></b>" og derefter på:
+Hvis du vil tilføje kontaktpersoner, skal du trykke på "<font fgcolor="#ffffffff"><b>Menu</b></font>" og derefter på:
  
-"<b><font fgcolor="#ffffffff"><li>"Konti for at tilføje eller konfigurere en konto med kontaktpersoner, som du kan synkronisere med tabletcomputeren
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Ny kontaktperson for at oprette en helt ny kontaktperson 
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importer/eksporter for at importere kontaktpersoner fra dit SD-kort
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Konti for at tilføje eller konfigurere en konto med kontaktpersoner, som du kan synkronisere med tabletcomputeren
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Ny kontaktperson for at oprette en helt ny kontaktperson 
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importer/eksporter for at importere kontaktpersoner fra dit SD-kort
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Du har ingen kontaktpersoner. (Hvis du lige har tilføjet en konto, kan det tage et par minutter at synkronisere kontaktpersoner).
 
-Hvis du vil tilføje kontaktpersoner, skal du trykke på "<b><font fgcolor="#ffffffff">Menu</font></b>" og 
+Hvis du vil tilføje kontaktpersoner, skal du trykke på "<font fgcolor="#ffffffff"><b>Menu</b></font>" og 
  
-"<b><font fgcolor="#ffffffff"><li>"Konti for at tilføje eller konfigurere en konto med kontaktpersoner, som du kan synkronisere til tabletcomputeren
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Visningsindstillinger for at ændre, hvilke kontaktpersoner der er synlige
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Ny kontaktperson for at oprette en helt ny kontaktperson
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importer/eksporter for at importere kontaktpersoner fra dit SD-kort
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Konti for at tilføje eller konfigurere en konto med kontaktpersoner, som du kan synkronisere til tabletcomputeren
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Visningsindstillinger for at ændre, hvilke kontaktpersoner der er synlige
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Ny kontaktperson for at oprette en helt ny kontaktperson
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importer/eksporter for at importere kontaktpersoner fra dit SD-kort
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Du har ingen favoritter.
 
 Sådan føjer du en kontaktperson til din liste over favoritter:

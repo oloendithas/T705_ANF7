@@ -146,38 +146,38 @@ Uvoz/izvoz, da uvozite stike iz kartice SIM ali SD
 "</string>
     <string name="noContactsHelpTextWithSync">"Nimate stikov za prikaz. (Če ste ravno dodali račun, lahko sinhronizacija stikov traja nekaj minut.)
 
-Če želite dodati stike, pritisnite "<b><font fgcolor="#ffffffff">Meni</font></b>" in se dotaknite možnosti:
+Če želite dodati stike, pritisnite "<font fgcolor="#ffffffff"><b>Meni</b></font>" in se dotaknite možnosti:
  
-"<b><font fgcolor="#ffffffff"><li>"Računu, če želite dodati ali konfigurirati račun s stiki, ki jih lahko sinhronizirate s telefonom
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Možnosti prikaza, če želite določiti, kateri stiki so vidni
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nov stik, če želite ustvariti nov stik
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Uvoz/izvoz, če želite uvoziti stike s kartice SIM ali SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Računu, če želite dodati ali konfigurirati račun s stiki, ki jih lahko sinhronizirate s telefonom
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Možnosti prikaza, če želite določiti, kateri stiki so vidni
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nov stik, če želite ustvariti nov stik
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Uvoz/izvoz, če želite uvoziti stike s kartice SIM ali SD
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Nimate stikov za prikaz.
 
-Če jih želite dodati, pritisnite "<b><font fgcolor="#ffffffff">Meni</font></b>" in se dotaknite možnosti:
+Če jih želite dodati, pritisnite "<font fgcolor="#ffffffff"><b>Meni</b></font>" in se dotaknite možnosti:
  
-"<b><font fgcolor="#ffffffff"><li>"Računi, če želite dodati ali konfigurirati račun s stiki, ki jih lahko sinhronizirate s telefonom
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nov stik, če želite ustvariti nov stik
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Uvoz/izvoz, če želite uvoziti stike s kartice SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Računi, če želite dodati ali konfigurirati račun s stiki, ki jih lahko sinhronizirate s telefonom
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nov stik, če želite ustvariti nov stik
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Uvoz/izvoz, če želite uvoziti stike s kartice SD
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Nimate stikov za prikaz. (Če ste ravno dodali račun, lahko sinhronizacija stikov traja nekaj minut.)
 
-Če želite dodati stike, pritisnite "<b><font fgcolor="#ffffffff">Meni</font></b>" in se dotaknite možnosti:
+Če želite dodati stike, pritisnite "<font fgcolor="#ffffffff"><b>Meni</b></font>" in se dotaknite možnosti:
  
-"<b><font fgcolor="#ffffffff"><li>"Računu, če želite dodati ali konfigurirati račun s stiki, ki jih lahko sinhronizirate s telefonom
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Možnosti prikaza, če želite določiti, kateri stiki so vidni
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Nov stik, če želite ustvariti nov stik
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Uvoz/izvoz, če želite uvoziti stike s kartice SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Računu, če želite dodati ali konfigurirati račun s stiki, ki jih lahko sinhronizirate s telefonom
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Možnosti prikaza, če želite določiti, kateri stiki so vidni
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Nov stik, če želite ustvariti nov stik
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Uvoz/izvoz, če želite uvoziti stike s kartice SD
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Nimate priljubljenih.
 
 Če želite dodati stik na seznam priljubljenih:

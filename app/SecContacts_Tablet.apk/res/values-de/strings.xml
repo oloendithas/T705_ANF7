@@ -148,38 +148,38 @@ Drücken Sie “Menü” und tippen Sie dann auf:
 "</string>
     <string name="noContactsHelpTextWithSync">"Es können keine Kontakte angezeigt werden. Wenn Sie gerade ein Konto hinzugefügt haben, kann die Kontaktsynchronisierung etwas dauern.
 
-Zum Hinzufügen von Kontakten drücken Sie "<b><font fgcolor="#ffffffff">Menü</font></b>" und tippen dann auf 
+Zum Hinzufügen von Kontakten drücken Sie "<font fgcolor="#ffffffff"><b>Menü</b></font>" und tippen dann auf 
  
-"<b><font fgcolor="#ffffffff"><li>"Konten, um ein Konto hinzuzufügen oder mit Kontakten für die Synchronisierung mit dem Tablet zu konfigurieren
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Anzeigeoptionen, um zu ändern, welche Kontakte angezeigt werden
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Neuer Kontakt, um einen Kontakt neu zu erstellen
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Import/Export, um Kontakte von Ihrer SIM- oder SD-Karte zu importieren
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Konten, um ein Konto hinzuzufügen oder mit Kontakten für die Synchronisierung mit dem Tablet zu konfigurieren
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Anzeigeoptionen, um zu ändern, welche Kontakte angezeigt werden
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Neuer Kontakt, um einen Kontakt neu zu erstellen
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Import/Export, um Kontakte von Ihrer SIM- oder SD-Karte zu importieren
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Es können keine Kontakte angezeigt werden.
 
-Tippen Sie zum Hinzufügen von Kontakten auf "<b><font fgcolor="#ffffffff">Menü</font></b>" und dann auf 
+Tippen Sie zum Hinzufügen von Kontakten auf "<font fgcolor="#ffffffff"><b>Menü</b></font>" und dann auf 
  
-"<b><font fgcolor="#ffffffff"><li>"Konten, um ein Konto hinzuzufügen oder mit Kontakten für die Synchronisierung mit dem Tablet zu konfigurieren
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Neuer Kontakt, um einen Kontakt neu zu erstellen
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Import/Export, um Kontakte von Ihrer SD-Karte zu importieren
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Konten, um ein Konto hinzuzufügen oder mit Kontakten für die Synchronisierung mit dem Tablet zu konfigurieren
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Neuer Kontakt, um einen Kontakt neu zu erstellen
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Import/Export, um Kontakte von Ihrer SD-Karte zu importieren
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Es können keine Kontakte angezeigt werden. Wenn Sie gerade ein Konto hinzugefügt haben, kann die Kontaktsynchronisierung etwas dauern.
 
-Zum Hinzufügen von Kontakten drücken Sie auf "<b><font fgcolor="#ffffffff">Menü</font></b>" und tippen dann auf 
+Zum Hinzufügen von Kontakten drücken Sie auf "<font fgcolor="#ffffffff"><b>Menü</b></font>" und tippen dann auf 
  
-"<b><font fgcolor="#ffffffff"><li>"Konten, um ein Konto hinzuzufügen oder mit Kontakten für die Synchronisierung mit dem Tablet zu konfigurieren
- "</li></font></b>"
-"<b><font fgcolor="#ffffffff"><li>"Anzeigeoptionen, um zu ändern, welche Kontakte angezeigt werden
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Neuer Kontakt, um einen Kontakt neu zu erstellen
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Import/Export, um Kontakte von Ihrer SD-Karte zu importieren
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Konten, um ein Konto hinzuzufügen oder mit Kontakten für die Synchronisierung mit dem Tablet zu konfigurieren
+ "</b></font></li>"
+"<li><font fgcolor="#ffffffff"><b>"Anzeigeoptionen, um zu ändern, welche Kontakte angezeigt werden
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Neuer Kontakt, um einen Kontakt neu zu erstellen
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Import/Export, um Kontakte von Ihrer SD-Karte zu importieren
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Es sind keine Favoriten vorhanden.
 
 So fügen Sie einen Kontakt zu Ihrer Favoritenliste hinzu:

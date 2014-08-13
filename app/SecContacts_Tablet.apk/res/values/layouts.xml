@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="dialpad_additional_buttons_land_tmo_easy">false</item>
+    <item type="layout" name="dialpad_additional_buttons_tmo_easy">false</item>
+    <item type="layout" name="dialpad_easy">false</item>
+    <item type="layout" name="dialpad_easymode">false</item>
+    <item type="layout" name="dialpad_land_easy">false</item>
+    <item type="layout" name="dialpad_onehand">false</item>
+    <item type="layout" name="dialpad_searchview_easy">false</item>
+    <item type="layout" name="dialpad_searchview_land_easy">false</item>
+</resources>

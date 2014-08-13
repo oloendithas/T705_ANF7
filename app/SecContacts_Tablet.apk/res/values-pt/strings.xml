@@ -107,48 +107,48 @@
     <string name="noContactsHelpTextForCreateShortcut">Você não tem contatos para exibir.</string>
     <string name="noContactsHelpText">"Você não tem contatos para exibir.
 
-Para adicionar contatos, pressione "<b><font fgcolor="#ffffffff">Menu</font></b>" e toque em:
+Para adicionar contatos, pressione "<font fgcolor="#ffffffff"><b>Menu</b></font>" e toque em:
  
-"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o tablet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Novo contato para criar um novo contato do início
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importar/Exportar para importar contatos do chip ou cartão SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o tablet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Novo contato para criar um novo contato do início
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importar/Exportar para importar contatos do chip ou cartão SD
+"</b></font></li></string>
     <string name="noContactsHelpTextWithSync">"Você não tem contatos para exibir. Caso tenha acabado de adicionar uma conta, pode levar alguns minutos para sincronizar os contatos.
 
-Para adicionar contatos, pressione "<b><font fgcolor="#ffffffff">Menu</font></b>" e toque em:
+Para adicionar contatos, pressione "<font fgcolor="#ffffffff"><b>Menu</b></font>" e toque em:
  
-"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o tablet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Opções de exibição para alterar quais contatos ficam visíveis
-"</li></font></b>" 
-"<font fgcolor="#ffffffff"><li>Novo <b>contato</b>" para criar um novo contato do início
-"</li></font>" 
-"<b><font fgcolor="#ffffffff"><li>"Importar/Exportar para importar contatos do chip ou cartão SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o tablet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Opções de exibição para alterar quais contatos ficam visíveis
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff">Novo <b>contato</b>" para criar um novo contato do início
+"</font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importar/Exportar para importar contatos do chip ou cartão SD
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Você não tem contatos para exibir.
 
-Para adicionar contatos, pressione "<b><font fgcolor="#ffffffff">Menu</font></b>" e toque em:
+Para adicionar contatos, pressione "<font fgcolor="#ffffffff"><b>Menu</b></font>" e toque em:
  
-"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o tablet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Novo contato para criar um novo contato do início
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importar/Exportar para importar contatos do cartão SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o tablet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Novo contato para criar um novo contato do início
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importar/Exportar para importar contatos do cartão SD
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Você não tem contatos para exibir. Sse acabou de adicionar uma conta, pode levar alguns minutos para sincronizar os contatos.
 
-Para adicionar contatos, pressione "<b><font fgcolor="#ffffffff">Menu</font></b>" e toque em:
+Para adicionar contatos, pressione "<font fgcolor="#ffffffff"><b>Menu</b></font>" e toque em:
  
-"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o tablet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Opções de exibição para alterar quais contatos ficam visíveis
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Novo contato para criar um novo contato do início
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importar/Exportar para importar contatos do cartão SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o tablet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Opções de exibição para alterar quais contatos ficam visíveis
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Novo contato para criar um novo contato do início
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importar/Exportar para importar contatos do cartão SD
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Você não tem nenhum favorito.
 
 Para adicionar um contato à sua lista de favoritos:

@@ -146,38 +146,38 @@
 "</string>
     <string name="noContactsHelpTextWithSync">"ليست لديك أية جهات اتصال لعرضها. (إذا أضفت حسابًا لتوك، فيمكن أن تستغرق مزامنة جهات الاتصال بضع دقائق.)
 
-لإضافة جهات اتصال، اضغط على "<b><font fgcolor="#ffffffff">القائمة</font></b>" والمس:
+لإضافة جهات اتصال، اضغط على "<font fgcolor="#ffffffff"><b>القائمة</b></font>" والمس:
  
-"<b><font fgcolor="#ffffffff"><li>"الحسابات لإضافة أو تهيئة حساب ما به جهات الاتصال التي يمكنك مزامنتها إلى الجهاز اللوحي
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"خيارات العرض لتغيير جهات الاتصال التي يمكن رؤيتها
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"جهة اتصال جديدة لإنشاء جهة اتصال جديدة من البداية
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"استيراد/تصدير لاستيراد جهات اتصال من بطاقةSIM أو بطاقة SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"الحسابات لإضافة أو تهيئة حساب ما به جهات الاتصال التي يمكنك مزامنتها إلى الجهاز اللوحي
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"خيارات العرض لتغيير جهات الاتصال التي يمكن رؤيتها
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"جهة اتصال جديدة لإنشاء جهة اتصال جديدة من البداية
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"استيراد/تصدير لاستيراد جهات اتصال من بطاقةSIM أو بطاقة SD
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"ليس لديك أية جهات اتصال لعرضها.
 
-لإضافة جهات اتصال، اضغط على "<b><font fgcolor="#ffffffff">القائمة</font></b>" والمس:
+لإضافة جهات اتصال، اضغط على "<font fgcolor="#ffffffff"><b>القائمة</b></font>" والمس:
  
-"<b><font fgcolor="#ffffffff"><li>"الحسابات لإضافة أو تهيئة حساب ما به جهات الاتصال التي يمكنك مزامنتها إلى الجهاز اللوحي
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"جهة اتصال جديدة لإنشاء جهة اتصال جديدة من البداية
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"استيراد/تصدير لاستيراد جهات الاتصال من بطاقة SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"الحسابات لإضافة أو تهيئة حساب ما به جهات الاتصال التي يمكنك مزامنتها إلى الجهاز اللوحي
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"جهة اتصال جديدة لإنشاء جهة اتصال جديدة من البداية
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"استيراد/تصدير لاستيراد جهات الاتصال من بطاقة SD
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"ليست لديك أية جهات اتصال لعرضها. (إذا أضفت حسابًا لتوك، فيمكن أن تستغرق مزامنة جهات الاتصال بضع دقائق.)
 
-لإضافة جهات اتصال، اضغط على "<b><font fgcolor="#ffffffff">القائمة</font></b>" والمس:
+لإضافة جهات اتصال، اضغط على "<font fgcolor="#ffffffff"><b>القائمة</b></font>" والمس:
  
-"<b><font fgcolor="#ffffffff"><li>"الحسابات لإضافة أو تهيئة حساب ما به جهات الاتصال التي يمكنك مزامنتها إلى الجهاز اللوحي
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"خيارات العرض لتغيير جهات الاتصال التي يمكن رؤيتها
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"جهة اتصال جديدة لإنشاء جهة اتصال جديدة من البداية
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"استيراد/تصدير لاستيراد جهات اتصال من بطاقة SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"الحسابات لإضافة أو تهيئة حساب ما به جهات الاتصال التي يمكنك مزامنتها إلى الجهاز اللوحي
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"خيارات العرض لتغيير جهات الاتصال التي يمكن رؤيتها
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"جهة اتصال جديدة لإنشاء جهة اتصال جديدة من البداية
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"استيراد/تصدير لاستيراد جهات اتصال من بطاقة SD
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"ليس لديك أي عناصر في المفضلة.
 
 لإضافة جهة اتصال إلى قائمة المفضلة:

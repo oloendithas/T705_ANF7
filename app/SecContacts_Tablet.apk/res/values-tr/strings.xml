@@ -146,44 +146,44 @@ SIM veya SD kartınızdaki kişileri almak için Al/Ver öğesine dokunun
 "</string>
     <string name="noContactsHelpTextWithSync">"Görüntülenecek kişiniz yok. (Kısa bir süre önce hesap eklediyseniz, kişileri senkronize etmek birkaç dakika sürebilir.)
 
-Kişi eklemek için, "<b><font fgcolor="#ffffffff">Menü</font></b>"'ye basın ve şunlara dokunun:
+Kişi eklemek için, "<font fgcolor="#ffffffff"><b>Menü</b></font>"'ye basın ve şunlara dokunun:
  
-"<b><font fgcolor="#ffffffff"><li>"Hesaplar (tabletle senkronize edebileceğiniz kişilere sahip bir hesap eklemek veya yapılandırmak için)
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Görüntüleme seçenekleri (görülebilir kişileri değiştirmek için)
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Yeni kişi (en baştan yeni bir kişi oluşturmak için)
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"İçe/Dışa Aktar (SIM veya SD kartınızdaki kişileri aktarmak için)
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Hesaplar (tabletle senkronize edebileceğiniz kişilere sahip bir hesap eklemek veya yapılandırmak için)
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Görüntüleme seçenekleri (görülebilir kişileri değiştirmek için)
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Yeni kişi (en baştan yeni bir kişi oluşturmak için)
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"İçe/Dışa Aktar (SIM veya SD kartınızdaki kişileri aktarmak için)
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Görüntülenecek kişiniz yok.
 
-Kişi eklemek için "<b><font fgcolor="#ffffffff">Menü</font></b>"'ye basın ve şunlara dokunun:
+Kişi eklemek için "<font fgcolor="#ffffffff"><b>Menü</b></font>"'ye basın ve şunlara dokunun:
  
-"<b><font fgcolor="#ffffffff"><li>"Hesaplar (tabletle senkronize edebileceğiniz kişilere sahip bir hesap eklemek veya yapılandırmak için)
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Yeni kişi (en baştan yeni kişi oluşturmak için)
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"İçe/Dışa Aktar (kişileri SD kartınızdan içe aktarmak için)
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Hesaplar (tabletle senkronize edebileceğiniz kişilere sahip bir hesap eklemek veya yapılandırmak için)
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Yeni kişi (en baştan yeni kişi oluşturmak için)
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"İçe/Dışa Aktar (kişileri SD kartınızdan içe aktarmak için)
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Görüntülenecek kişiniz yok. (Kısa süre önce bir hesap eklediyseniz kişileri senkronize etmek birkaç dakika sürebilir.)
 
-Kişi eklemek için, "<b><font fgcolor="#ffffffff">Menü</font></b>"'ye basın ve şunlara dokunun:
+Kişi eklemek için, "<font fgcolor="#ffffffff"><b>Menü</b></font>"'ye basın ve şunlara dokunun:
  
-"<b><font fgcolor="#ffffffff"><li>"Hesaplar (tabletle senkronize edebileceğiniz kişilere sahip bir hesap eklemek veya yapılandırmak için)
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Görüntüleme seçenekleri (görülebilir kişileri değiştirmek için)
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Yeni kişi (en baştan yeni bir kişi oluşturmak için)
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"İçe/Dışa Aktar
-"</li></font></b>(SIM veya SD kartınızdaki kişileri içe aktarmak için)</string>
+"<li><font fgcolor="#ffffffff"><b>"Hesaplar (tabletle senkronize edebileceğiniz kişilere sahip bir hesap eklemek veya yapılandırmak için)
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Görüntüleme seçenekleri (görülebilir kişileri değiştirmek için)
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Yeni kişi (en baştan yeni bir kişi oluşturmak için)
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"İçe/Dışa Aktar
+"</b></font></li>(SIM veya SD kartınızdaki kişileri içe aktarmak için)</string>
     <string name="noFavoritesHelpText">"Favoriniz bulunmuyor.
 
 Favoriler listenize kişi eklemek için:
 
-        "<b><li>"Kişiler sekmesine dokunun
-"</li></b>" 
+        "<li><b>"Kişiler sekmesine dokunun
+"</b></li>" 
 "<li>"Favorilerinize eklemek istediğiniz kişiye dokunun
 "</li>" 
 "<li>"Kişi adının yanındaki yıldız simgesine dokunun

@@ -146,38 +146,38 @@ Import/Eksport untuk mengimport kenalan daripada Kad SIM atau SD anda
 "</string>
     <string name="noContactsHelpTextWithSync">"Anda tiada sebarang kenalan untuk dipaparkan. (Jika anda baru sahaja menambah akaun, ia boleh mengambil masa beberapa minit untuk menyegerak kenalan.)
 
-Untuk menambah kenalan, tekan "<b><font fgcolor="#ffffffff">Menu</font></b>" dan sentuh:
+Untuk menambah kenalan, tekan "<font fgcolor="#ffffffff"><b>Menu</b></font>" dan sentuh:
  
-"<b><font fgcolor="#ffffffff"><li>"Akaun untuk menambah atau mengkonfigurasikan akaun yang mempunyai kenalan yang anda boleh segerakkan ke tablet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Pilihan paparan untuk menukar kenalan mana yang boleh dilihat
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Kenalan baru untuk membuat kenalan baru dari mula
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Import/Eksport untuk mengimport kenalan dari kad SIM atau kad SD anda
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Akaun untuk menambah atau mengkonfigurasikan akaun yang mempunyai kenalan yang anda boleh segerakkan ke tablet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Pilihan paparan untuk menukar kenalan mana yang boleh dilihat
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Kenalan baru untuk membuat kenalan baru dari mula
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Import/Eksport untuk mengimport kenalan dari kad SIM atau kad SD anda
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"Anda tiada sebarang kenalan untuk dipaparkan.
 
-Untuk menambah kenalan, tekan "<b><font fgcolor="#ffffffff">Menu</font></b>" dan sentuh:
+Untuk menambah kenalan, tekan "<font fgcolor="#ffffffff"><b>Menu</b></font>" dan sentuh:
  
-"<b><font fgcolor="#ffffffff"><li>"Akaun untuk menambah atau mengkonfigurasikan akaun yang mempunyai kenalan yang anda boleh segerakkan ke tablet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Kenalan baru untuk membuat kenalan baru dari mula
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Import/Eksport untuk mengimport kenalan dari kad SD anda
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Akaun untuk menambah atau mengkonfigurasikan akaun yang mempunyai kenalan yang anda boleh segerakkan ke tablet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Kenalan baru untuk membuat kenalan baru dari mula
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Import/Eksport untuk mengimport kenalan dari kad SD anda
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Anda tiada sebarang kenalan untuk dipaparkan. (Jika anda baru sahaja menambah akaun, ia boleh mengambil masa beberapa minit untuk menyegerakkan kenalan.)
 
-Untuk menambah kenalan, tekan "<b><font fgcolor="#ffffffff">Menu</font></b>" dan sentuh:
+Untuk menambah kenalan, tekan "<font fgcolor="#ffffffff"><b>Menu</b></font>" dan sentuh:
  
-"<b><font fgcolor="#ffffffff"><li>"Akaun untuk menambah atau mengkonfigurasikan akaun yang mempunyai kenalan yang anda boleh segerakkan ke tablet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Pilihan paparan untuk menukar kenalan mana yang boleh dilihat
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Kenalan baru untuk membuat kenalan baru dari mula
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Import/Eksport untuk mengimport kenalan dari kad SD anda
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Akaun untuk menambah atau mengkonfigurasikan akaun yang mempunyai kenalan yang anda boleh segerakkan ke tablet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Pilihan paparan untuk menukar kenalan mana yang boleh dilihat
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Kenalan baru untuk membuat kenalan baru dari mula
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Import/Eksport untuk mengimport kenalan dari kad SD anda
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Anda tiada sebarang kegemaran.
 
 Untuk menambah kenalan ke senarai kegemaran anda:

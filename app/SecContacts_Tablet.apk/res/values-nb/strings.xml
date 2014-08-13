@@ -146,28 +146,28 @@ Importer/Eksporter for å importere kontakter fra ditt SIM-kort eller SD-kort
 "</string>
     <string name="noContactsHelpTextWithSync">"Du har ingen kontakter å vise. (Hvis du nylig la til en konto, kan det ta noen minutter å synkronisere kontaktene.)
 
-Slik legger du til kontakter: Trykk på "<b><font fgcolor="#ffffffff">Meny</font></b>", og trykk deretter på:
+Slik legger du til kontakter: Trykk på "<font fgcolor="#ffffffff"><b>Meny</b></font>", og trykk deretter på:
  
-"<b><font fgcolor="#ffffffff"><li>"Kontoer for å legge til eller konfigurere en konto med kontakter som kan synkroniseres til nettbrettet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Visningsalternativer for å endre hvilke kontakter som vises
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Ny kontakt for å opprette en ny kontakt fra grunnen av
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importer/Eksporter for å importere kontakter fra SIM- eller SD-kort
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Kontoer for å legge til eller konfigurere en konto med kontakter som kan synkroniseres til nettbrettet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Visningsalternativer for å endre hvilke kontakter som vises
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Ny kontakt for å opprette en ny kontakt fra grunnen av
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importer/Eksporter for å importere kontakter fra SIM- eller SD-kort
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"Du har ingen kontakter å vise. (Hvis du nylig la til en konto, kan det ta noen minutter å synkronisere kontaktene.)
 
-Slik legger du til kontakter: Trykk på "<b><font fgcolor="#ffffffff">Meny</font></b>", og trykk deretter på: 
+Slik legger du til kontakter: Trykk på "<font fgcolor="#ffffffff"><b>Meny</b></font>", og trykk deretter på: 
  
-"<b><font fgcolor="#ffffffff"><li>"Kontoer for å legge til eller konfigurere en konto med kontakter som kan synkroniseres til nettbrettet
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Visningsalternativer for å endre hvilke kontakter som vises
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Ny kontakt for å opprette en ny kontakt fra grunnen av
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"Importer/eksporter for å importere kontakter fra SD-kortet
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"Kontoer for å legge til eller konfigurere en konto med kontakter som kan synkroniseres til nettbrettet
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Visningsalternativer for å endre hvilke kontakter som vises
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Ny kontakt for å opprette en ny kontakt fra grunnen av
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"Importer/eksporter for å importere kontakter fra SD-kortet
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"Du har ingen favoritter.
 
 Slik legger du til en kontakt i favorittlisten:

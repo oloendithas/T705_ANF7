@@ -146,38 +146,38 @@
 "</string>
     <string name="noContactsHelpTextWithSync">"אין לך אנשי קשר לתצוגה. (אם בדיוק הוספת חשבון, ייתכן שיידרשו מספר דקות לסינכרון אנשי הקשר.)
 
-כדי להוסיף אנשי קשר, הקש על "<b><font fgcolor="#ffffffff">תפריט</font></b>" וגע באפשרות:
+כדי להוסיף אנשי קשר, הקש על "<font fgcolor="#ffffffff"><b>תפריט</b></font>" וגע באפשרות:
  
-"<b><font fgcolor="#ffffffff"><li>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שתוכל לסנכרן לטבלט
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"אפשרויות תצוגה כדי לשנות את אנשי הקשר הגלויים
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"ייבוא/ייצוא כדי לייבא אנשי קשר מכרטיס SIM או מכרטיס SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שתוכל לסנכרן לטבלט
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"אפשרויות תצוגה כדי לשנות את אנשי הקשר הגלויים
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"ייבוא/ייצוא כדי לייבא אנשי קשר מכרטיס SIM או מכרטיס SD
+"</b></font></li></string>
     <string name="noContactsNoSimHelpText">"אין לך אנשי קשר להצגה.
 
-כדי להוסיף אנשי קשר, הקש על "<b><font fgcolor="#ffffffff">תפריט</font></b>" וגע באפשרות:
+כדי להוסיף אנשי קשר, הקש על "<font fgcolor="#ffffffff"><b>תפריט</b></font>" וגע באפשרות:
  
-"<b><font fgcolor="#ffffffff"><li>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שאותם תוכל לסנכרן לטבלט
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"ייבוא/ייצוא כדי לייבא אנשי קשר מכרטיס SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שאותם תוכל לסנכרן לטבלט
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"ייבוא/ייצוא כדי לייבא אנשי קשר מכרטיס SD
+"</b></font></li></string>
     <string name="noContactsNoSimHelpTextWithSync">"אין לך אנשי קשר להצגה. (אם בדיוק הוספת חשבון, ייתכן שידרשו מספר דקות לסינכרון אנשי הקשר.)
 
-כדי להוסיף אנשי קשר, הקש על "<b><font fgcolor="#ffffffff">תפריט</font></b>" וגע באפשרות:
+כדי להוסיף אנשי קשר, הקש על "<font fgcolor="#ffffffff"><b>תפריט</b></font>" וגע באפשרות:
  
-"<b><font fgcolor="#ffffffff"><li>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שתוכל לסנכרן לטבלט
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"אפשרויות תצוגה כדי לשנות את אנשי הקשר הגלויים
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
-"</li></font></b>" 
-"<b><font fgcolor="#ffffffff"><li>"ייבוא/ייצוא כדי לייבא אנשי קשר מכרטיס SD
-"</li></font></b></string>
+"<li><font fgcolor="#ffffffff"><b>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שתוכל לסנכרן לטבלט
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"אפשרויות תצוגה כדי לשנות את אנשי הקשר הגלויים
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
+"</b></font></li>" 
+"<li><font fgcolor="#ffffffff"><b>"ייבוא/ייצוא כדי לייבא אנשי קשר מכרטיס SD
+"</b></font></li></string>
     <string name="noFavoritesHelpText">"אין לך מועדפים.
 
 כדי להוסיף איש קשר לרשימת המועדפים:

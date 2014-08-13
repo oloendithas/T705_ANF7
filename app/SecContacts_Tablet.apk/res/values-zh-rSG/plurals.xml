@@ -41,7 +41,7 @@
         <item quantity="one">显示有手机号码的1个联系人</item>
     </plurals>
     <plurals name="copied_N">
-        <item quantity="other">已复制&amp;lt;%d>个联系人</item>
+        <item quantity="other">已复制&amp;amp;lt;%d>个联系人</item>
         <item quantity="one">已复制%d个联系人</item>
     </plurals>
     <plurals name="max_available">
