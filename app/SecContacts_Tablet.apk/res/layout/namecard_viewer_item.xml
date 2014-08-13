@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:gravity="right" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/information" android:background="@drawable/contacts_name_full_screen" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <LinearLayout android:gravity="left" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/text_area" android:layout_width="400.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="3.0dip">
+            <TextView android:textSize="15.0dip" android:textColor="@color/whitecolor" android:gravity="center_vertical" android:id="@id/name" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="20.0dip" android:singleLine="true" />
+            <TextView android:textSize="11.0dip" android:textColor="#ff8d9ca3" android:gravity="center_vertical" android:id="@id/company" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="15.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:layout_gravity="right|center" android:orientation="horizontal" android:paddingRight="4.0dip" android:layout_width="140.0dip" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/call_button" android:duplicateParentState="false" android:layout_width="@dimen/namecard_btn_width" android:layout_height="@dimen/namecard_btn_width" android:layout_marginLeft="@dimen/namecard_btn_gap" android:src="@drawable/ic_call" />
+            <View android:layout_gravity="left|center" android:id="@id/divider1" android:background="?android:actionBarDivider" android:layout_width="@dimen/namecard_btn_divider_width" android:layout_height="@dimen/namecard_btn_width" />
+            <ImageView android:layout_gravity="center" android:id="@id/mms_button" android:background="@drawable/ic_text" android:duplicateParentState="false" android:layout_width="@dimen/namecard_btn_width" android:layout_height="@dimen/namecard_btn_width" android:layout_marginLeft="@dimen/namecard_btn_gap" />
+            <View android:layout_gravity="left|center" android:id="@id/divider2" android:background="?android:actionBarDivider" android:layout_width="@dimen/namecard_btn_divider_width" android:layout_height="@dimen/namecard_btn_width" />
+            <ImageView android:layout_gravity="center" android:id="@id/email_button" android:background="@drawable/ic_email" android:duplicateParentState="false" android:layout_width="@dimen/namecard_btn_width" android:layout_height="@dimen/namecard_btn_width" android:layout_marginLeft="@dimen/namecard_btn_gap" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

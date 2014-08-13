@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>Llamar</item>
+        <item>Env. mensaje</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>Teléfono</item>
+        <item>SIM</item>
+        <item>Google</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>Todo</item>
+        <item>Teléfono</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>Nombre Apellidos</item>
+        <item>Apellidos Nombre</item>
+    </string-array>
+    <string-array name="delete_group_menu">
+        <item>Only group</item>
+        <item>Grupo y todos los contactos del grupo</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>Lunes</item>
+        <item>Mar.</item>
+        <item>Mié.</item>
+        <item>Jue.</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+        <item>Dom.</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNÑOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>ABCDEFGHIJKLMNÑOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Organización</item>
+        <item>Nota</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="46.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/allitem" android:background="@drawable/select_all_bg" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <TextView android:textAppearance="@style/TwTextAppearanceListOneLine" android:textStyle="bold" android:textColor="@color/tw_list_index_preference" android:gravity="center_vertical" android:id="@id/allitemtext" android:paddingLeft="@dimen/detail_sub_title_left_padding" android:paddingRight="@dimen/detail_sub_title_left_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select_all" android:layout_weight="0.8" />
+        <com.sec.android.touchwiz.widget.TwCheckBox android:id="@id/allitemcheck" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

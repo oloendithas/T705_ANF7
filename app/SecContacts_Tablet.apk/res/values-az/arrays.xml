@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>Zəng</item>
+        <item>Mesaj göndər</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>Telefon</item>
+        <item>SIM</item>
+        <item>Google</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>Hamısını</item>
+        <item>Telefon</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>Ad Soyad</item>
+        <item>Soyad Ad</item>
+    </string-array>
+    <string-array name="delete_group_menu">
+        <item>Only group</item>
+        <item>Qrup və qrupdakı bütün kontaktlar</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>B.e</item>
+        <item>Ç.A.</item>
+        <item>Çərş.</item>
+        <item>C.A.</item>
+        <item>Cümə</item>
+        <item>Şən</item>
+        <item>Baz</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>ABCÇDEƏFGĞHXIİJKQLMNOÖPRSŞTUÜVYZ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Təşkilat</item>
+        <item>Qeyd</item>
+    </string-array>
+</resources>

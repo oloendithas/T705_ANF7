@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>কল কৰক</item>
+        <item>Msg প্ৰেৰণ কৰক</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>ফোন</item>
+        <item>SIM</item>
+        <item>Google</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>সকলো</item>
+        <item>ফোন</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>প্ৰথম নাম শেষ নাম</item>
+        <item>শেষ নাম প্ৰথম নাম</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>সোম</item>
+        <item>মংগল</item>
+        <item>বুধ</item>
+        <item>বৃহ</item>
+        <item>শুক্ৰ</item>
+        <item>শনি</item>
+        <item>ৰবি</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>অআইঈউঊঋএঐওঔকখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযৰলৱশষসহ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>அஆஇஈஉஊஎஏஐஒஓஔஃகஙசஞடணதநபமயரலவழளறனABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>সংগঠন</item>
+        <item>টোকা</item>
+    </string-array>
+</resources>

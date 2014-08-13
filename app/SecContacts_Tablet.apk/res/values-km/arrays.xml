@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>ហៅ</item>
+        <item>ផ្ញើ​សារ</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>ទូរសព្ទ</item>
+        <item>SIM</item>
+        <item>Google</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>ទាំង​អស់</item>
+        <item>ទូរសព្ទ</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>នាម​ខ្លួន នាម​ត្រកូល</item>
+        <item>នាម​ត្រកូល នាម​ខ្លួន</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>ចន្ទ</item>
+        <item>អង្គារ</item>
+        <item>ពុធ</item>
+        <item>ព្រហ</item>
+        <item>សុក្រ</item>
+        <item>សៅរ៍</item>
+        <item>អាទិ</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវសហឡឣ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>អង្គការ</item>
+        <item>កំណត់សម្គាល់</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/center_button" android:background="@drawable/magazine_icon_phone_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="21.0dip" android:textColor="#ffffffff" android:paddingLeft="20.0dip" android:paddingTop="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/launcherDialer" android:shadowColor="#ff666666" android:shadowDy="2.0" android:shadowRadius="0.4" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="57.0dip">
+        <TextView android:textAppearance="@style/MagazineDisplayNameAppearance" android:ellipsize="marquee" android:id="@id/name_first" android:paddingLeft="20.0dip" android:fadingEdgeLength="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="24.0dip" android:singleLine="true" />
+        <TextView android:textAppearance="@style/MagazineDisplayNameAppearance" android:ellipsize="marquee" android:id="@id/name_second" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:fadingEdgeLength="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="24.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/phone_icon" android:paddingLeft="18.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mg_phone" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/contact_icon" android:paddingLeft="66.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mg_contact" android:layout_alignParentBottom="true" />
+</RelativeLayout>

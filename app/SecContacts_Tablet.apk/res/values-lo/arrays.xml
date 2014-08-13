@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>ໂທ</item>
+        <item>ສົ່ງຂໍ້ຄວາມ</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>ໂທລະສັບ</item>
+        <item>SIM</item>
+        <item>ກຸກເກິລ</item>
+        <item>ຢາຮູ</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>ທັງໝົດ</item>
+        <item>ໂທລະສັບ</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>ຊື່ຕົ້ນ ນາມສະກຸນ</item>
+        <item>ນາມສະກຸນ ຊື່ຕົ້ນ</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>ຈ</item>
+        <item>ອ.ຄ</item>
+        <item>ພ</item>
+        <item>ພ.ຫ</item>
+        <item>ສ</item>
+        <item>ສ</item>
+        <item>ອ.ທ</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+        <item>ກຂຄງຈສຊຍດຕຖທນບປຜຝພຟມຢຣລວຫອຮ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>ກຂຄງຈສຊຍດຕຖທນບປຜຝພຟມຢຣລວຫອຮ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>ອົງການຈັດຕັ້ງ</item>
+        <item>ໝາຍເຫດ</item>
+    </string-array>
+</resources>

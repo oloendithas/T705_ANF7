@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>કૉલ</item>
+        <item>સંદેશ મોકલો</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>ફોન</item>
+        <item>SIM</item>
+        <item>ગુગલ</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>બધા</item>
+        <item>ફોન</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>પહેલું નામ છેલ્લું નામ</item>
+        <item>છેલ્લું નામ પહેલું નામ</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>સોમ</item>
+        <item>મંગળ</item>
+        <item>બુધ</item>
+        <item>ગુરુ</item>
+        <item>શુ.</item>
+        <item>શનિ</item>
+        <item>રવિ</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>અઆઇઈઉઊૠએઍઐઓઑઔકખગઘચછજઝટઠડઢણતથદધનપફબભમયરલવશષસહ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>અઆઇઈઉઊઋએઍઐઓઑઔઅંઅ:કખગઘઙચછજઝઞટઠડઢણતથદધનપફબભમયરલવશષસહળક્ષજ્ઞABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>સંગઠન</item>
+        <item>નોંધ</item>
+    </string-array>
+</resources>

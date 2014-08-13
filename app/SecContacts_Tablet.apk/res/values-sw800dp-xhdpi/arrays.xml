@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="guide_call_ui_05">
+        <item>7800</item>
+        <item>7959</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>3</item>
+    </integer-array>
+    <integer-array name="guide_call_ui_09">
+        <item>7800</item>
+        <item>7959</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>7</item>
+    </integer-array>
+    <integer-array name="guide_call_touchloc_050">
+        <item>6525</item>
+        <item>7434</item>
+        <item>9075</item>
+        <item>8484</item>
+        <item>7</item>
+    </integer-array>
+    <integer-array name="guide_call_touchloc_090">
+        <item>6525</item>
+        <item>7434</item>
+        <item>9075</item>
+        <item>8484</item>
+        <item>10</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView android:id="@android:id/list" android:paddingLeft="@dimen/detail_contact_about_update_horizontal_margin" android:paddingTop="@dimen/detail_contact_about_update_vertical_margin" android:paddingRight="@dimen/detail_contact_about_update_horizontal_margin" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

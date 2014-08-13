@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/guide_dialer_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/guide_vitual_keypad" android:background="#ff000000" android:paddingLeft="@dimen/dialpad_horizontal_margin" android:paddingRight="@dimen/dialpad_horizontal_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMY_0625" android:scaleType="fitXY" android:adjustViewBounds="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/guide_digits_container" android:layout_width="360.0dip" android:layout_height="wrap_content">
+            <TextView android:textSize="43.0sp" android:typeface="sans" android:textColor="#ffffffff" android:gravity="center" android:id="@id/guide_digits" android:background="@android:color/transparent" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="110.0dip" android:cursorVisible="false" android:singleLine="true" android:maxLength="100" />
+        </LinearLayout>
+        <include layout="@layout/guide_dialpad_searchview" />
+        <include layout="@layout/guide_dialpad" />
+    </LinearLayout>
+    <ImageView android:id="@id/GuideDialerBack" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/APKTOOL_DUMMY_061d" android:scaleType="fitXY" />
+    <include layout="@layout/guide_tab_text" />
+    <include layout="@layout/guide_create_contact" />
+    <include layout="@layout/guide_voicecall_animation_chn_ds" />
+    <include layout="@layout/guide_videocall_animation" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/GuideLayoutMsg" android:background="@drawable/help_popup_picker_bg_w_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:id="@id/GuideDialerMsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="13.0dip" android:layout_marginBottom="10.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/GuidePopupPicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/help_popup_picker_b_c" android:layout_alignBottom="@id/GuideDialerPointer" />
+    <ImageView android:id="@id/GuideDialerPointer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/help_tap" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>அழை</item>
+        <item>தகவல் அனுப்பு</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>ஃபோன்</item>
+        <item>SIM</item>
+        <item>கூகுள்</item>
+        <item>யாஹூ</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>எல்லாம்</item>
+        <item>ஃபோன்</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>முதல் பெயர் கடைசி பெயர்</item>
+        <item>கடைசி பெயர் முதல் பெயர்</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>தி.</item>
+        <item>செ.</item>
+        <item>புத.</item>
+        <item>வி.</item>
+        <item>வெ.</item>
+        <item>ச.</item>
+        <item>ஞா.</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>அஆஇஈஉஊஎஏஐஒஓஔஃகஙசஞடணதநபமயரலவழளறன</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>நிறுவனம்</item>
+        <item>குறிப்பு</item>
+    </string-array>
+</resources>

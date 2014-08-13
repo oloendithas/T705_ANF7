@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>Panggilan</item>
+        <item>Kirim pesan</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>Telepon</item>
+        <item>SIM</item>
+        <item>Google</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>Semua</item>
+        <item>Telepon</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>Nama awal Nama akhir</item>
+        <item>Nama akhir Nama awal</item>
+    </string-array>
+    <string-array name="delete_group_menu">
+        <item>Only group</item>
+        <item>Grup dan semua kontak di grup</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>Sen.</item>
+        <item>Sel.</item>
+        <item>Rab.</item>
+        <item>Kam.</item>
+        <item>Jum.</item>
+        <item>Sab.</item>
+        <item>Mgu.</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Penataan</item>
+        <item>Catatan</item>
+    </string-array>
+</resources>

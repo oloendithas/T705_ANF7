@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="tab_width_screen_width_percentage">71.0%</fraction>
+    <fraction name="tab_height_screen_width_percentage">66.0%</fraction>
+    <fraction name="detail_fakedrag_horizontal_ratio">139.99939%</fraction>
+</resources>

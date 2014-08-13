@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>కాల్</item>
+        <item>సందేశం పంపు</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>ఫోన్</item>
+        <item>SIM</item>
+        <item>గూగుల్</item>
+        <item>యాహూ</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>అన్ని</item>
+        <item>ఫోన్</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>మొదటి పేరు చివరి పేరు</item>
+        <item>చివరి పేరు మొదటి పేరు</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>సోమ</item>
+        <item>మంగ.</item>
+        <item>బుధ</item>
+        <item>గురు</item>
+        <item>శుక్ర</item>
+        <item>శని</item>
+        <item>ఆది</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>కఖగఘఙచఛజఝఞటఠడఢణతథదధనపఫబభమయరలళవశషసహఱ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>కఖగఘఙచఛజఝఞటఠడఢణతథదధనపఫబభమయరలళవశషసహక్షఱABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>ఆర్గనైజేషన్</item>
+        <item>గమనిక</item>
+    </string-array>
+</resources>

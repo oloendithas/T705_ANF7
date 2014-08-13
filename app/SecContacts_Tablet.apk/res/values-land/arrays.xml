@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="guide_call_ui_01">
+        <item>2505</item>
+        <item>3800</item>
+        <item>589</item>
+        <item>7407</item>
+        <item>0</item>
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="guide_call_ui_02">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>100</item>
+        <item>0</item>
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="guide_call_ui_03">
+        <item>7422</item>
+        <item>8846</item>
+        <item>5300</item>
+        <item>9500</item>
+        <item>0</item>
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="guide_call_ui_04">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>100</item>
+        <item>0</item>
+        <item>3</item>
+    </integer-array>
+    <integer-array name="guide_call_ui_05">
+        <item>9114</item>
+        <item>5025</item>
+        <item>6500</item>
+        <item>8750</item>
+        <item>0</item>
+        <item>3</item>
+    </integer-array>
+    <integer-array name="guide_call_ui_07">
+        <item>5796</item>
+        <item>8846</item>
+        <item>3500</item>
+        <item>9800</item>
+        <item>0</item>
+        <item>5</item>
+    </integer-array>
+    <integer-array name="guide_call_ui_08">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>100</item>
+        <item>0</item>
+        <item>7</item>
+    </integer-array>
+    <integer-array name="guide_call_ui_09">
+        <item>9109</item>
+        <item>8726</item>
+        <item>6500</item>
+        <item>5370</item>
+        <item>0</item>
+        <item>7</item>
+    </integer-array>
+    <integer-array name="guide_create_contact_ui_01">
+        <item>2505</item>
+        <item>3800</item>
+        <item>589</item>
+        <item>7407</item>
+        <item>0</item>
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="guide_create_contact_ui_02">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>100</item>
+        <item>0</item>
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="guide_create_contact_ui_03">
+        <item>7463</item>
+        <item>6895</item>
+        <item>5500</item>
+        <item>9500</item>
+        <item>0</item>
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="guide_create_contact_ui_06">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>100</item>
+        <item>0</item>
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="guide_speed_dial_tip_ui_01">
+        <item>2504</item>
+        <item>3025</item>
+        <item>1508</item>
+        <item>5000</item>
+        <item>0</item>
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="guide_speed_dial_tip_ui_02">
+        <item>5000</item>
+        <item>4211</item>
+        <item>3500</item>
+        <item>6100</item>
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <integer-array name="guide_call_touchloc_030">
+        <item>6667</item>
+        <item>8010</item>
+        <item>8214</item>
+        <item>9751</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="guide_call_touchloc_050">
+        <item>8464</item>
+        <item>3512</item>
+        <item>9844</item>
+        <item>6219</item>
+        <item>7</item>
+    </integer-array>
+    <integer-array name="guide_call_touchloc_070">
+        <item>4984</item>
+        <item>8010</item>
+        <item>6526</item>
+        <item>9761</item>
+        <item>8</item>
+    </integer-array>
+    <integer-array name="guide_call_touchloc_090">
+        <item>8568</item>
+        <item>7463</item>
+        <item>9635</item>
+        <item>9801</item>
+        <item>10</item>
+    </integer-array>
+    <integer-array name="guide_create_contact_touchloc_030">
+        <item>5057</item>
+        <item>5542</item>
+        <item>9896</item>
+        <item>7632</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="guide_create_contact_touchloc_060">
+        <item>0</item>
+        <item>0</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>7</item>
+    </integer-array>
+    <integer-array name="guide_speed_dial_tip_touchloc_010">
+        <item>3454</item>
+        <item>4081</item>
+        <item>6528</item>
+        <item>5122</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="guide_speed_dial_tip_touchloc_020">
+        <item>0</item>
+        <item>0</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>3</item>
+    </integer-array>
+    <integer-array name="guide_call_ui_03_chn">
+        <item>7525</item>
+        <item>8920</item>
+        <item>5300</item>
+        <item>9500</item>
+        <item>0</item>
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="guide_create_contact_ui_03_chn">
+        <item>7463</item>
+        <item>6895</item>
+        <item>5500</item>
+        <item>9500</item>
+        <item>0</item>
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="guide_call_ui_03_kor">
+        <item>7525</item>
+        <item>8920</item>
+        <item>5300</item>
+        <item>9500</item>
+        <item>0</item>
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="guide_call_ui_07_kor">
+        <item>5770</item>
+        <item>6955</item>
+        <item>3500</item>
+        <item>9800</item>
+        <item>0</item>
+        <item>5</item>
+    </integer-array>
+    <integer-array name="guide_call_touchloc_030_kor">
+        <item>5667</item>
+        <item>8010</item>
+        <item>9214</item>
+        <item>9751</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="guide_call_touchloc_070_kor">
+        <item>4984</item>
+        <item>6259</item>
+        <item>6526</item>
+        <item>8010</item>
+        <item>8</item>
+    </integer-array>
+    <integer-array name="guide_create_contact_ui_03_kor">
+        <item>7463</item>
+        <item>4830</item>
+        <item>5500</item>
+        <item>9500</item>
+        <item>0</item>
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="guide_create_contact_touchloc_030_kor">
+        <item>5057</item>
+        <item>3550</item>
+        <item>9896</item>
+        <item>5520</item>
+        <item>4</item>
+    </integer-array>
+</resources>

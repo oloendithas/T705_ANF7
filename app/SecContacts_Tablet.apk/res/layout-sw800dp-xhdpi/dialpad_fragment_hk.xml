@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/dialpad_allorientation" android:background="@color/dial_bg" android:paddingLeft="14.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ex="http://schemas.android.com/apk/res/com.android.contacts">
+    <com.android.contacts.widget.InterpolatingLayout android:id="@id/test" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/dialpad_searchview_land" />
+        <LinearLayout android:orientation="vertical" android:id="@id/top" android:layout_width="fill_parent" android:layout_height="fill_parent" ex:layout_narrowParentWidth="800.0dip" ex:layout_wideParentWidth="701.0dip">
+            <LinearLayout android:orientation="horizontal" android:id="@id/digits_container" android:layout_width="fill_parent" android:layout_height="90.0dip">
+                <com.sec.android.app.dialertab.dialpad.EllipsisTextView android:textSize="50.0dip" android:typeface="sans" android:textColor="#ffffffff" android:gravity="right|center" android:id="@id/digits" android:background="@drawable/tw_textfield_default_holo_dark" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:nextFocusRight="@id/add_contacts_btn" android:layout_width="583.0dip" android:layout_height="76.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="14.0dip" android:cursorVisible="false" android:singleLine="true" android:maxLength="100" android:layout_weight="1.0" ex:layout_narrowWidth="316.0dip" ex:layout_wideWidth="688.0dip" />
+                <ImageButton android:gravity="center" android:id="@id/add_contacts_btn" android:background="@drawable/call_add_bg" android:layout_width="73.0dip" android:layout_height="76.0dip" android:layout_marginTop="14.0dip" android:src="@drawable/call_add_normal" />
+                <ImageButton android:id="@id/overflow_menu" android:background="@android:color/transparent" android:visibility="gone" android:nextFocusLeft="@id/digits" android:layout_width="43.0dip" android:layout_height="43.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="37.0dip" android:src="@drawable/call_icon_more" android:scaleType="fitXY" android:contentDescription="@android:string/action_menu_overflow_description" />
+            </LinearLayout>
+            <include layout="@layout/dialpad_searchview" />
+            <View android:id="@id/searchview_qwerty" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+            <include layout="@layout/dialpad_hk" />
+            <include layout="@layout/dialpad_land_hk" />
+            <View android:id="@id/dialpadAdditionalButtons_qwerty" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+            <View android:id="@id/dialpad_land_bg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+            <ListView android:id="@id/dialpadChooser" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </com.android.contacts.widget.InterpolatingLayout>
+</LinearLayout>

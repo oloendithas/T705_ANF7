@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/stub_dialpad_land" android:layout="@layout/dialpad_land" android:inflatedId="@id/override_dialpad_land" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <ViewStub android:id="@id/stub_dialpad_searchview_land" android:layout="@layout/dialpad_searchview_land" android:inflatedId="@id/override_dialpad_searchview_land" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <ViewStub android:id="@id/stub_dialpad_additional_buttons_land" android:layout="@layout/dialpad_additional_buttons_land" android:inflatedId="@id/override_dialpad_additional_buttons_land" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/searchview_calllog_land_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/calllog_land" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/divide_line_land" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/divide_line_port" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/add_contacts_btn_land_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/call_add_image_land" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/call_add_text_land" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/searchview_calllog_port_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <LinearLayout android:id="@id/calllog_port" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</LinearLayout>

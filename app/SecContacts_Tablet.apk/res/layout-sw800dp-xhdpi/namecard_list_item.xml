@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/namecard_item_width" android:layout_height="@dimen/namecard_item_height">
+        <ImageView android:id="@id/image" android:background="#ffe0e0e0" android:padding="1.0px" android:layout_width="fill_parent" android:layout_height="@dimen/namecard_image_height" android:scaleType="fitXY" />
+        <View android:id="@id/push_state" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.sec.android.touchwiz.widget.TwCheckBox android:layout_gravity="top|left|center" android:id="@id/select_list_row_checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/businesscard_checkbox_marginRight" android:layout_marginTop="@dimen/businesscard_checkbox_marginTop" android:button="@drawable/contact_btn_check_selector" android:layout_weight="0.0" />
+        <LinearLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/namecard_textarea_height">
+            <LinearLayout android:gravity="left" android:layout_gravity="left|center" android:orientation="vertical" android:id="@id/text_area" android:background="@drawable/tw_list_selector_holo" android:paddingTop="@dimen/namecard_text_top_padding" android:paddingBottom="@dimen/namecard_text_bottom_padding" android:duplicateParentState="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/namecard_text_name" android:textColor="@color/businesscard_name_color" android:gravity="center_vertical" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="@dimen/namecard_height_name" android:singleLine="true" />
+                <TextView android:textSize="@dimen/namecard_text_company" android:textColor="@color/businesscard_organization_color" android:gravity="center_vertical" android:id="@id/company" android:layout_width="fill_parent" android:layout_height="@dimen/namecard_height_company" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:layout_gravity="top|right|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/namecard_btn_width">
+                <ImageView android:id="@id/call_button" android:background="@drawable/favorites_list_item_background" android:padding="@dimen/namecard_btn_gap" android:duplicateParentState="false" android:layout_width="@dimen/namecard_btn_width" android:layout_height="@dimen/namecard_btn_width" android:src="@drawable/contacts_icon_favourites_voice_call" android:contentDescription="@string/call" />
+                <View android:layout_gravity="left|center" android:id="@id/divider1" android:background="@drawable/favorites_divider" android:layout_width="@dimen/namecard_btn_divider_width" android:layout_height="@dimen/businesscard_btn_divider_height" />
+                <ImageView android:id="@id/mms_button" android:background="@drawable/favorites_list_item_background" android:padding="@dimen/namecard_btn_gap" android:duplicateParentState="false" android:layout_width="@dimen/namecard_btn_width" android:layout_height="@dimen/namecard_btn_width" android:src="@drawable/contacts_icon_favourites_message" android:contentDescription="@string/send_message" />
+                <View android:layout_gravity="left|center" android:id="@id/divider2" android:background="@drawable/favorites_divider" android:layout_width="@dimen/namecard_btn_divider_width" android:layout_height="@dimen/businesscard_btn_divider_height" />
+                <ImageView android:id="@id/email_button" android:background="@drawable/favorites_list_item_background" android:padding="@dimen/namecard_btn_gap" android:duplicateParentState="false" android:layout_width="@dimen/namecard_btn_width" android:layout_height="@dimen/namecard_btn_width" android:src="@drawable/contacts_icon_favourites_email" android:contentDescription="@string/email" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>ඇමතුම</item>
+        <item>පණිවිඩ යවන්න</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>දුරකථනය</item>
+        <item>SIM</item>
+        <item>ගූගල්</item>
+        <item>යාහූ</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>සියල්ල</item>
+        <item>දුරකථනය</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>මුල් නම සහ අග නම</item>
+        <item>අවසන් නම මුල් නම</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>සඳු</item>
+        <item>අඟ</item>
+        <item>බදා</item>
+        <item>බ්‍ර.</item>
+        <item>සිකු</item>
+        <item>සෙන</item>
+        <item>ඉරි</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>අආඇඈඉඊඋඌසෘඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤඥටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහළෆ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>අආඇඈඉඊඋඌසෘඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤඥටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහළෆABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>සංවිධානය</item>
+        <item>සටහන</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/center_button" android:background="#ff92d050" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0dip" android:textColor="#ffffffff" android:paddingLeft="20.0dip" android:paddingTop="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/launcherDialer" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true">
+        <TextView android:textAppearance="@style/MagazineDisplayNameAppearance" android:ellipsize="marquee" android:id="@id/name_first" android:paddingLeft="20.0dip" android:fadingEdgeLength="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="24.0dip" android:singleLine="true" />
+        <TextView android:textAppearance="@style/MagazineDisplayNameAppearance" android:ellipsize="marquee" android:id="@id/name_second" android:paddingLeft="20.0dip" android:fadingEdgeLength="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="24.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/phone_icon" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mg_phone" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="16.0dip" android:layout_marginBottom="12.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/missedcall_badge" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mg_fav_badge" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <TextView android:textAppearance="@style/MagazineTitleTextAppearance" android:layout_gravity="center_vertical" android:id="@id/missedcall_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" />"
+</RelativeLayout>
+</RelativeLayout>

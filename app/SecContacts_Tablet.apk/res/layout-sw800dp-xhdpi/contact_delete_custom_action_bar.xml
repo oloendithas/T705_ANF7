@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/button_layout" android:layout_width="wrap_content" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/delete_menu_item" android:background="@drawable/tw_common_actionbar_item_background_light" android:focusable="true" android:layout_width="124.0dip" android:layout_height="fill_parent" android:contentDescription="@string/delete">
+        <ImageView android:description="@string/delete" android:id="@id/delete_menu_icon" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/contacts_action_bar_menu_delete" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="22.0dip" android:textColor="?android:actionMenuTextColor" android:id="@id/save_menu_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/revert_menu_item" android:background="@drawable/tw_common_actionbar_item_background_light" android:focusable="true" android:layout_width="124.0dip" android:layout_height="fill_parent" android:contentDescription="@string/menu_doNotSave">
+        <ImageView android:description="@string/menu_doNotSave" android:id="@id/revert_menu_icon" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/header_btn_icon_cancel" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="22.0dip" android:textColor="?android:actionMenuTextColor" android:id="@id/revert_menu_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">전화번호가 있는 연락처 %d개</item>
+        <item quantity="one">전화번호가 있는 연락처 1개</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d개의 연락처</item>
+        <item quantity="one">1개의 연락처</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d개 검색됨</item>
+        <item quantity="one">1개 검색됨</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d개 검색됨</item>
+        <item quantity="one">1개 검색됨</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">%0$d개 출처에서 통합했습니다.</item>
+        <item quantity="one">통합되지 않았습니다.</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d개 그룹</item>
+        <item quantity="one">1개 그룹</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">그룹 %2$s에 %1$d명 있음</item>
+        <item quantity="one">그룹 %2$s에 %1$d명 있음</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d명</item>
+        <item quantity="one">%d명</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">음성 메시지 %d개</item>
+        <item quantity="one">음성 메시지</item>
+    </plurals>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d개의 연락처 표시</item>
+        <item quantity="one">%d개의 연락처 표시</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">전화번호가 있는 %d개의 연락처를 표시</item>
+        <item quantity="one">전화번호가 있는 1개의 연락처를 표시</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">연락처 %d개가 복사되었습니다.</item>
+        <item quantity="one">연락처 %d개가 복사되었습니다.</item>
+    </plurals>
+    <plurals name="max_available">
+        <item quantity="other">연락처는 %d개만 사용할 수 있습니다.</item>
+        <item quantity="one">1개의 연락처만 선택할 수 있습니다.</item>
+    </plurals>
+</resources>

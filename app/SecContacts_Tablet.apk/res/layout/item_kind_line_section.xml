@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.KindSectionView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="65.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="12.0dip">
+        <include android:id="@id/kind_title_layout" layout="@layout/edit_kind_line_title" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/kind_editors" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="95.0dip" android:layout_toRightOf="@id/kind_title_layout" />
+    </RelativeLayout>
+</com.android.contacts.editor.KindSectionView>

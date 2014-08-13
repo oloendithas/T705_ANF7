@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>โทร</item>
+        <item>ส่ง​ข้อ​ความ</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>โทรศัพท์</item>
+        <item>SIM</item>
+        <item>Google</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>ทั้ง​หมด</item>
+        <item>โทรศัพท์</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>ชื่อ นาม​สกุล</item>
+        <item>นาม​สกุล ชื่อ</item>
+    </string-array>
+    <string-array name="delete_group_menu">
+        <item>Only group</item>
+        <item>กลุ่ม​และ​ราย​ชื่อ​ทั้ง​หมด​ใน​กลุ่ม</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>จ.</item>
+        <item>อ.</item>
+        <item>พ.</item>
+        <item>พฤ.</item>
+        <item>ศ.</item>
+        <item>ส.</item>
+        <item>อา.</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนปผฝพฟภมยรฤลวศษสหฬอฮ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>องค์กร</item>
+        <item>บันทึก</item>
+    </string-array>
+</resources>

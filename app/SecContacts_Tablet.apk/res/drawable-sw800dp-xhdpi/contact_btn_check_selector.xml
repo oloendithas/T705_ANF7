@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="true" android:state_selected="true" android:drawable="@drawable/contacts_checkbox_on_disabled_focus" />
+    <item android:state_enabled="false" android:state_checked="false" android:state_selected="true" android:drawable="@drawable/contacts_checkbox_off_disabled_focus" />
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/contacts_checkbox_on_dim" />
+    <item android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/contacts_checkbox_off_dim" />
+    <item android:state_checked="true" android:state_pressed="true" android:drawable="@drawable/contacts_checkbox_on_press" />
+    <item android:state_checked="false" android:state_pressed="true" android:drawable="@drawable/contacts_checkbox_off_press" />
+    <item android:state_checked="true" android:state_selected="true" android:drawable="@drawable/contacts_checkbox_on_focus" />
+    <item android:state_checked="false" android:state_selected="true" android:drawable="@drawable/contacts_checkbox_off_focus" />
+    <item android:state_checked="true" android:drawable="@drawable/contacts_checkbox_on_normal" />
+    <item android:state_checked="false" android:drawable="@drawable/contacts_checkbox_off_normal" />
+</selector>

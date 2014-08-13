@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>חיוג</item>
+        <item>שלח הודעה</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>טלפון</item>
+        <item>SIM</item>
+        <item>Google</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>הכל</item>
+        <item>טלפון</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>שם פרטי שם משפחה</item>
+        <item>שם משפחה שם פרטי</item>
+    </string-array>
+    <string-array name="delete_group_menu">
+        <item>Only group</item>
+        <item>הקבוצה וכל אנשי הקשר בקבוצה</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>"ב'"</item>
+        <item>"ג'"</item>
+        <item>"ד'"</item>
+        <item>"ה'"</item>
+        <item>"ו'"</item>
+        <item>"ש'"</item>
+        <item>"א'"</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>אבגדהוזחטיכלמנסעפצקרשת</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>אבגדהזחטיכךלמםנןסעפףצץקרשת</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>ארגון</item>
+        <item>הערה</item>
+    </string-array>
+</resources>

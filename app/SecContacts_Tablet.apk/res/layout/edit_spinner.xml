@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spinner android:id="@id/spinner" android:paddingLeft="@dimen/editor_type_spinner_left_padding" android:paddingRight="@dimen/editor_type_spinner_right_padding" android:layout_width="@dimen/editor_type_label_width" android:layout_height="@dimen/editor_type_label_height" android:layout_marginLeft="@dimen/editor_type_spinner_left_margin" android:layout_marginTop="@dimen/editor_type_spinner_top_margin" android:layout_marginRight="@dimen/editor_type_spinner_right_margin" android:layout_marginBottom="@dimen/editor_type_spinner_bottom_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

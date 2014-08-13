@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>Gesprek</item>
+        <item>Bericht verz</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>Telefoon</item>
+        <item>SIM</item>
+        <item>Google</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>Alles</item>
+        <item>Telefoon</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>Voornaam Achternaam</item>
+        <item>Achternaam Voornaam</item>
+    </string-array>
+    <string-array name="delete_group_menu">
+        <item>Only group</item>
+        <item>Groep en alle contacten in groep</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>Maa</item>
+        <item>Din</item>
+        <item>Woe</item>
+        <item>Don</item>
+        <item>Vri</item>
+        <item>Zat</item>
+        <item>Zon</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Organisatie</item>
+        <item>Notitie</item>
+    </string-array>
+</resources>

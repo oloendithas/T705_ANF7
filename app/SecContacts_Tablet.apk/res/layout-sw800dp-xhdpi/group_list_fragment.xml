@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="@dimen/list_item_left_padding" android:paddingRight="@dimen/list_item_right_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/tw_preference_contents_list_divider_holo_light" />
+    <include android:id="@id/empty_view" android:visibility="gone" layout="@layout/tw_common_empty_item_layout" />
+</LinearLayout>

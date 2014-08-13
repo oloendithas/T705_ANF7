@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="56.0dip" style="DirectoryHeader"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="@style/TwMainListNoContactsTextAppearance" android:id="@id/totalContactsText" android:paddingLeft="?list_item_margin_right_for_fast_scroll" android:paddingRight="?list_item_margin_right_for_fast_scroll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <ProgressBar android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toRightOf="@id/totalContactsText" android:layout_centerVertical="true" style="?android:attr/progressBarStyleSmall" />
+    </LinearLayout>
+</RelativeLayout>

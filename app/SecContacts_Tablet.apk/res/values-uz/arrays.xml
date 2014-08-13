@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>Qo‘ng‘iroq</item>
+        <item>Xabar yubor</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>Telefon</item>
+        <item>SIM-karta</item>
+        <item>Google</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>Barchasi</item>
+        <item>Telefon</item>
+        <item>SIM-karta</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>Ism Familiya</item>
+        <item>Familiya Ism</item>
+    </string-array>
+    <string-array name="delete_group_menu">
+        <item>Only group</item>
+        <item>Guruh va guruhdagi barcha kontaktlar</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>Du</item>
+        <item>Se</item>
+        <item>Chor</item>
+        <item>Pay</item>
+        <item>Ju</item>
+        <item>Shan</item>
+        <item>Yak</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>ABDEFGHIJKLMNOPQRSTUVXYZO‘G‘ChShNg</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Tashkilot</item>
+        <item>Eslatma</item>
+    </string-array>
+</resources>

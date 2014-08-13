@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/call_detail_base" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ex="http://schemas.android.com/apk/res/com.android.contacts">
+    <LinearLayout android:orientation="vertical" android:id="@id/call_detail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:ex="http://schemas.android.com/apk/res/com.android.contacts">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="37.0dip" android:layout_marginRight="37.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@id/controls" android:layout_width="74.0dip" android:layout_height="74.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="20.0dip">
+                    <view android:id="@id/contact_background_sizer" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" ex:direction="widthToHeight" ex:ratio="1.0" class="com.android.contacts.widget.ProportionalLayout">
+                        <ImageView android:id="@id/contact_background" android:layout_width="74.0dip" android:layout_height="74.0dip" android:adjustViewBounds="false" />
+                    </view>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="337.0dip" android:layout_height="wrap_content" android:minHeight="106.0dip" android:layout_weight="1.0">
+                    <LinearLayout android:id="@id/margin_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="35.0sp" android:textStyle="normal" android:textColor="@color/calllog_name_text_white" android:gravity="left" android:layout_gravity="center_horizontal" android:id="@id/header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.0dip" android:minHeight="40.0dip" android:singleLine="true" android:shadowDy="-1.0" android:fontFamily="sec-roboto-light" />
+                    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="22.0sp" android:textColor="@color/calllog_number_text_white" android:gravity="left" android:layout_gravity="center_horizontal" android:id="@id/number_text" android:layout_width="225.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:minHeight="24.0dip" android:singleLine="true" android:shadowDy="-1.0" />
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="20.0sp" android:textColor="@color/calllog_number_text_white" android:gravity="right" android:layout_gravity="center_horizontal" android:id="@id/detail_location" android:visibility="gone" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:singleLine="true" android:shadowDy="-1.0" android:layout_alignParentRight="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/buttonAndList" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:id="@id/margin_2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+                <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/call_and_sms_container" android:layout_width="wrap_content" android:layout_height="31.0dip" android:layout_marginLeft="37.0dip" android:layout_marginRight="37.0dip" android:minWidth="480.0dip" android:layout_weight="1.0">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/call_and_sms" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="480.0dip">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="5.0">
+                            <LinearLayout android:orientation="horizontal" android:id="@id/detail_button_voicemail" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <Button android:id="@id/detail_button_make_voicemail_button" android:background="@drawable/group_child_row_background" android:paddingTop="0.0dip" android:nextFocusRight="@id/detail_button_make_vcall_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawableTop="@drawable/call_log_detail_view_voicemail_vzw" android:layout_weight="1.0" android:contentDescription="@string/voicemail" />
+                                <View android:id="@id/detail_button_make_voicemail_separator" android:background="@drawable/call_log_detail_line" android:layout_width="1.0px" android:layout_height="31.0dip" />
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:id="@id/detail_button_make_vcall" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <Button android:id="@id/detail_button_make_vcall_button" android:background="@drawable/group_child_row_background" android:paddingTop="0.0dip" android:nextFocusRight="@id/detail_button_make_call" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawableTop="@drawable/call_log_detail_view_videocall" android:layout_weight="1.0" android:contentDescription="@string/video_call" />
+                                <View android:id="@id/detail_button_make_vcall_separator" android:background="@drawable/call_log_detail_line" android:layout_width="1.0px" android:layout_height="31.0dip" />
+                            </LinearLayout>
+                            <Button android:id="@id/detail_button_make_call" android:background="@drawable/group_child_row_background" android:paddingTop="0.0dip" android:nextFocusLeft="@id/detail_button_make_vcall_button" android:nextFocusRight="@id/detail_button_send_msg_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawableTop="@drawable/call_log_detail_view_call" android:layout_weight="1.0" android:contentDescription="@string/call" />
+                            <LinearLayout android:orientation="horizontal" android:id="@id/detail_button_make_sim2_call" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <View android:background="@drawable/call_log_detail_line" android:layout_width="1.0px" android:layout_height="31.0dip" />
+                                <Button android:id="@id/detail_button_make_sim2_call_button" android:background="@drawable/listview_item_bg" android:paddingTop="0.0dip" android:nextFocusLeft="@id/detail_button_make_call" android:nextFocusRight="@id/detail_button_make_ipcall_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawableTop="@drawable/call_log_detail_view_gsm_call" android:layout_weight="1.0" android:contentDescription="@string/call" />
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:id="@id/detail_button_make_ipcall" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <View android:background="@drawable/call_log_detail_line" android:layout_width="1.0px" android:layout_height="31.0dip" />
+                                <Button android:id="@id/detail_button_make_ipcall_button" android:background="@drawable/group_child_row_background" android:paddingTop="0.0dip" android:nextFocusLeft="@id/detail_button_make_sim2_call_button" android:nextFocusRight="@id/detail_button_make_vcall_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawableTop="@drawable/call_log_detail_view_ipcall" android:layout_weight="1.0" android:contentDescription="@string/ip_call" />
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:id="@id/detail_button_send_msg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <View android:background="@drawable/call_log_detail_line" android:layout_width="1.0px" android:layout_height="31.0dip" />
+                                <Button android:id="@id/detail_button_send_msg_button" android:background="@drawable/group_child_row_background" android:paddingTop="0.0dip" android:nextFocusLeft="@id/detail_button_make_call" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawableTop="@drawable/call_log_detail_view_message" android:layout_weight="1.0" android:contentDescription="@string/send_message" />
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:id="@id/chaton_only_msg" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <View android:background="@drawable/call_log_detail_line" android:layout_width="1.0px" android:layout_height="31.0dip" />
+                                <Button android:id="@id/detail_button_chaton_only_msg" android:background="@drawable/group_child_row_background" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawableTop="@drawable/call_log_detail_view_chaton_msg" android:contentDescription="@string/call" />
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:id="@id/detail_button_chaton_msg_container" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <View android:background="@drawable/call_log_detail_line" android:layout_width="1.0px" android:layout_height="31.0dip" />
+                                <Button android:id="@id/detail_button_chaton_msg" android:background="@drawable/group_child_row_background" android:paddingTop="0.0dip" android:nextFocusRight="@id/detail_button_chaton_call_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/call" />
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:id="@id/detail_button_chaton_call" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <View android:background="@drawable/call_log_detail_line" android:layout_width="1.0px" android:layout_height="31.0dip" />
+                                <Button android:id="@id/detail_button_chaton_call_button" android:background="@drawable/group_child_row_background" android:paddingTop="0.0dip" android:nextFocusLeft="@id/detail_button_chaton_msg" android:nextFocusRight="@id/detail_button_chaton_vcall_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/video_call" />
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:id="@id/detail_button_chaton_vcall" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <View android:background="@drawable/call_log_detail_line" android:layout_width="1.0px" android:layout_height="31.0dip" />
+                                <Button android:id="@id/detail_button_chaton_vcall_button" android:background="@drawable/group_child_row_background" android:paddingTop="0.0dip" android:nextFocusLeft="@id/detail_button_chaton_call_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/message" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/contact_button_layout" android:layout_width="wrap_content" android:layout_height="66.0dip" android:layout_marginLeft="37.0dip" android:layout_marginRight="37.0dip" android:minWidth="480.0dip">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/create_and_update_contact" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="480.0dip">
+                        <LinearLayout android:orientation="horizontal" android:id="@id/create_account" android:clickable="true" android:layout_width="wrap_content" android:layout_height="47.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="6.0dip" android:minWidth="244.0dip" android:layout_weight="1.0">
+                            <Button android:textSize="22.0dip" android:textColor="@color/calllog_name_text_white" android:ellipsize="end" android:id="@id/create_contact_button" android:background="@drawable/btn_default_holo_dark" android:layout_width="wrap_content" android:layout_height="46.0dip" android:minWidth="244.0dip" android:text="@string/create_contact_abb" android:singleLine="true" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@id/update_existing" android:clickable="true" android:layout_width="wrap_content" android:layout_height="47.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="20.0dip" android:minWidth="244.0dip" android:layout_weight="1.0">
+                            <Button android:textSize="22.0dip" android:textColor="@color/calllog_name_text_white" android:ellipsize="end" android:id="@id/update_existing_button" android:background="@drawable/btn_default_holo_dark" android:layout_width="wrap_content" android:layout_height="46.0dip" android:minWidth="244.0dip" android:text="@string/update_existing_abb" android:singleLine="true" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/view_contact_layout" android:layout_width="wrap_content" android:layout_height="66.0dip" android:layout_marginLeft="37.0dip" android:layout_marginRight="37.0dip" android:minWidth="480.0dip">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/view_contact" android:clickable="true" android:layout_width="wrap_content" android:layout_height="47.0dip" android:layout_marginTop="20.0dip" android:minWidth="574.0dip">
+                        <Button android:textSize="22.0dip" android:textColor="@color/calllog_name_text_white" android:ellipsize="end" android:id="@id/view_contact_button" android:background="@drawable/btn_default_holo_dark" android:layout_width="wrap_content" android:layout_height="46.0dip" android:minWidth="574.0dip" android:text="@string/view_contact" android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginRight="30.0dip">
+                <ListView android:id="@id/history" android:paddingLeft="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="#00000000" />
+                <LinearLayout android:orientation="vertical" android:id="@id/vvm_playback" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="280.0dip">
+                    <include layout="@layout/playback_layout" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/call_detail_alllogs" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="37.0dip" android:layout_marginRight="37.0dip" android:layout_marginBottom="29.0dip">
+            <Button android:textSize="22.0dip" android:textColor="@color/calllog_name_text_white" android:id="@id/alllogs_btn" android:background="@drawable/btn_default_holo_dark" android:layout_width="fill_parent" android:layout_height="46.0dip" android:text="@string/view_more" android:singleLine="true" />
+        </LinearLayout>
+        <View android:id="@id/blank" android:background="#ff000000" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </LinearLayout>
+</FrameLayout>

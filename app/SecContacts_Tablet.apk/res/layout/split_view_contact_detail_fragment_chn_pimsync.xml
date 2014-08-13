@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/contact_detail" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ex="http://schemas.android.com/apk/res/com.android.contacts"
+  xmlns:av="http://schemas.android.com/apk/res/com.android.contacts">
+    <include android:id="@android:id/empty" android:visibility="gone" layout="@layout/contact_detail_empty" />
+    <include android:id="@id/tw_empty" android:visibility="gone" layout="@layout/tw_common_empty_item_layout" />
+    <include layout="@layout/split_view_contact_detail_tw_header" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/contacts_default_bg" android:layout_width="fill_parent" android:layout_height="108.0dip">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@dimen/detail_tab_width_to_height_ratio">
+            <com.sec.android.app.contacts.widget.AnimatableImageView android:id="@id/photo" android:layout_width="108.0dip" android:layout_height="fill_parent" av:scaleType="fitXY" />
+            <ImageView android:layout_gravity="bottom|left|center" android:id="@id/no_sync_icon" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="0.6700001dip" android:layout_marginBottom="0.6700001dip" android:src="@drawable/pbook_no_sync" android:scaleType="fitXY" />
+            <View android:id="@id/photo_touch_intercept_overlay" android:background="?android:selectableItemBackground" android:focusable="true" android:visibility="gone" android:layout_width="108.0dip" android:layout_height="fill_parent" android:contentDescription="@string/label_photo" />
+        </FrameLayout>
+    </LinearLayout>
+    <ListView android:id="@android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:layout_weight="1.0" />
+    <Button android:layout_gravity="center" android:id="@id/contact_quick_fix" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="quick_contact_top_position">0.0dip</dimen>
+    <dimen name="tutorial_popup_circle_dimension">50.0dip</dimen>
+    <dimen name="tutorial_popup_indicator_vertical_margin">-28.0px</dimen>
+    <dimen name="editor_type_label_width">115.0dip</dimen>
+    <dimen name="detail_view_full_padding">10.0dip</dimen>
+    <dimen name="detail_contact_photo_margin">16.0dip</dimen>
+    <dimen name="detail_contact_popup_left_margin">14.0dip</dimen>
+    <dimen name="detail_contact_popup_right_margin">14.0dip</dimen>
+    <dimen name="detail_contact_between_photo_and_body_margin">36.0dip</dimen>
+    <dimen name="group_editor_createname_left_padding">25.0dip</dimen>
+    <dimen name="group_editor_createname_top_padding">10.0dip</dimen>
+    <dimen name="group_editor_createname_right_padding">25.0dip</dimen>
+    <dimen name="group_editor_createname_bottom_padding">10.0dip</dimen>
+    <dimen name="group_detail_border_padding">32.0dip</dimen>
+    <dimen name="tw_expandableListPrimaryTextSize">25.0sp</dimen>
+    <dimen name="tw_expandableListSecondaryTextSize">22.0sp</dimen>
+    <dimen name="add_a_contact_tutorial_people_top">3.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_people_left">1089.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_people_touch_left">1087.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_people_touch_top">0.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_people_touch_right">1159.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_people_touch_bottom">72.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_no_contact_people_top">3.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_no_contact_people_left">1223.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_no_contact_people_touch_left">1221.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_no_contact_people_touch_top">0.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_no_contact_people_touch_right">1293.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_no_contact_people_touch_bottom">72.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_save_top">3.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_save_left">981.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_save_touch_left">979.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_save_touch_top">0.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_save_touch_right">1081.0dip</dimen>
+    <dimen name="add_a_contact_tutorial_save_touch_bottom">72.0dip</dimen>
+    <dimen name="speeddial_tutorial_people_top">342.0dip</dimen>
+    <dimen name="speeddial_tutorial_people_top_empty">294.0dip</dimen>
+    <dimen name="speeddial_tutorial_people_left">680.0dip</dimen>
+    <dimen name="speeddial_tutorial_start_top">620.0dip</dimen>
+    <dimen name="speeddial_tutorial_start_left">392.5dip</dimen>
+    <dimen name="speeddial_tutorial_portrate_start_top">1140.0dip</dimen>
+    <dimen name="speeddial_tutorial_list_top">138.0dip</dimen>
+    <dimen name="speeddial_tutorial_list_left">260.0dip</dimen>
+    <dimen name="speeddial_tutorial_people_touch_left">683.0dip</dimen>
+    <dimen name="speeddial_tutorial_people_touch_top">45.0dip</dimen>
+    <dimen name="speeddial_tutorial_people_touch_right">723.0dip</dimen>
+    <dimen name="speeddial_tutorial_people_touch_bottom">85.0dip</dimen>
+    <dimen name="create_speeddial_tutorial_top">248.0dip</dimen>
+    <dimen name="send_contact_explain_button_margin">274.0dip</dimen>
+    <dimen name="writing_buddy_tutorial_start_top">79.0dip</dimen>
+    <dimen name="writing_buddy_tutorial_start_left">440.0dip</dimen>
+    <dimen name="writing_buddy_tutorial_hover_left">360.0dip</dimen>
+    <dimen name="writing_buddy_tutorial_hover_arrow_left">412.0dip</dimen>
+    <dimen name="writing_buddy_tutorial_writingbuddy_top">650.0dip</dimen>
+    <dimen name="writing_buddy_tutorial_start_top_sim">92.0dip</dimen>
+    <dimen name="writing_buddy_tutorial_hover_left_sim">235.0dip</dimen>
+    <dimen name="writing_buddy_tutorial_margin_left_sim">-10.0dip</dimen>
+    <dimen name="businesscard_gridview_horizontalSpacing">40.0dip</dimen>
+    <dimen name="create_dialog_activity_width">484.0dip</dimen>
+    <dimen name="create_dialog_activity_height">800.0dip</dimen>
+    <item type="dimen" name="left_pane_default_width_ratio">0.3</item>
+    <dimen name="contact_tile_full_width">1080.0dip</dimen>
+    <dimen name="actionbar_text_padding">0.0dip</dimen>
+    <dimen name="left_pane_max_width_land">845.0dip</dimen>
+    <dimen name="left_pane_default_width_land">512.0dip</dimen>
+    <dimen name="left_pane_default_width">357.0dip</dimen>
+    <dimen name="detail_contact_about_update_vertical_margin">10.0dip</dimen>
+    <dimen name="detail_contact_about_update_horizontal_margin">25.0dip</dimen>
+    <dimen name="contact_detail_list_top_padding">32.0dip</dimen>
+    <dimen name="create_contact_land_width">900.0dip</dimen>
+    <dimen name="speed_dial_grid_padding_left">87.0dip</dimen>
+    <dimen name="speed_dial_grid_padding_top">36.0dip</dimen>
+    <dimen name="businesscard_gridview_padding">67.5dip</dimen>
+    <item type="dimen" name="APKTOOL_DUMMY_020e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_020f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0210">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0211">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0212">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_021d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0223">false</item>
+</resources>

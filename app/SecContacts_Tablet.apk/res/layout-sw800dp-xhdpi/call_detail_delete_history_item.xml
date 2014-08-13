@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.sec.android.app.dialertab.calllog.CallDetailDeleteActivity$ItemView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/call_detail_date_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/detail_sub_title_text_size" android:textColor="@color/tw_list_index_section" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/call_detail_date" android:background="@drawable/tw_list_section_divider_holo_light" android:paddingLeft="@dimen/detail_sub_title_left_padding" android:paddingRight="@dimen/detail_sub_title_left_padding" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/detail_sub_title_height" android:listSelector="#00000000" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/itemlayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="56.5dip" android:layout_centerVertical="true">
+                <view android:id="@id/call_type_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="6.0dip" class="com.sec.android.app.dialertab.calllog.CallTypeIconsView" />
+                <TextView android:textAppearance="@style/calldetail_time_text" android:id="@id/call_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/log_type_icon" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/detail_remind_me" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_toLeftOf="@id/checkbox1">
+                    <View android:background="#ff2a3d4d" android:layout_width="1.0px" android:layout_height="28.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" />
+                    <Button android:id="@id/detail_remind_me_button_off" android:background="@drawable/group_child_row_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawableTop="@drawable/alarm_icon_off" />
+                    <Button android:id="@id/detail_remind_me_button_on" android:background="@drawable/group_child_row_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawableTop="@drawable/alarm_icon_on" />
+                </LinearLayout>
+                <ImageView android:id="@id/log_type_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="8.0dip" android:layout_below="@id/call_type_icon" android:layout_alignLeft="@id/call_type_icon" />
+                <ImageView android:id="@id/detail_simcard_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip" android:layout_toLeftOf="@id/log_type_icon" android:layout_alignTop="@id/call_type_icon" />
+                <TextView android:textSize="16.0sp" android:textColor="#ff2b9cbc" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/checkbox1" android:layout_centerVertical="true" />
+                <com.sec.android.touchwiz.widget.TwCheckBox android:id="@id/checkbox1" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_alignTop="@id/call_type_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="clickHandler" />
+            </RelativeLayout>
+            <View android:id="@id/call_detail_log_divider" android:background="#ff969696" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </LinearLayout>
+    </LinearLayout>
+</view>

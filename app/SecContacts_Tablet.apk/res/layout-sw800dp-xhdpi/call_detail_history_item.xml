@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/detail_sub_title_text_size" android:textColor="@color/tw_list_index_section" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/call_detail_date" android:background="@drawable/tw_list_section_divider_holo_light" android:paddingLeft="@dimen/detail_sub_title_left_padding" android:paddingRight="@dimen/detail_sub_title_left_padding" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/detail_sub_title_height" android:layout_marginLeft="7.0dip" android:layout_marginRight="8.0dip" android:singleLine="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/call_detail_item" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/itemlayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="56.5dip" android:layout_centerVertical="true">
+            <view android:id="@id/call_type_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="6.0dip" class="com.sec.android.app.dialertab.calllog.CallTypeIconsView" />
+            <TextView android:textAppearance="@style/call_time_text" android:id="@id/call_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/log_type_icon" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/log_type_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="8.0dip" android:layout_below="@id/call_type_icon" android:layout_alignLeft="@id/call_type_icon" />
+            <ImageView android:id="@id/detail_simcard_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip" android:layout_toLeftOf="@id/log_type_icon" android:layout_alignTop="@id/call_type_icon" />
+            <TextView android:textAppearance="@style/duration_text" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <TextView android:textAppearance="@style/calllog_number_text" android:id="@id/cdnip_number" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/call_time" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <View android:id="@id/call_detail_log_divider" android:background="@drawable/tw_preference_list_divider_holo_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="8.0dip" /> />
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/tw_action_bar_icon_thumbnail_holo_dark" android:id="@id/menu_selectmode" android:visible="false" android:title="@string/select" />
+    <item android:icon="@drawable/ic_menu_bua" android:id="@id/menu_backup" android:visible="false" android:title="@string/menu_backup" />
+    <item android:icon="@drawable/ic_more_option_search_n" android:id="@id/menu_search" android:title="@string/menu_search" />
+    <item android:icon="@drawable/tw_action_bar_icon_delete_holo_dark" android:id="@id/menu_delete_contacts" android:title="@string/menu_multiple_delete_for_tablet" />
+    <item android:icon="@drawable/contacts_action_bar_menu_add" android:id="@id/menu_add_contact" android:title="@string/menu_create" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_delete" android:id="@id/menu_multiple_delete" android:title="@string/menu_multiple_delete" />
+    <item android:icon="@drawable/tw_action_bar_icon_namecard_holo_light" android:id="@id/menu_show_namecard_list" android:title="@string/menu_namecard_list" />
+    <item android:icon="@drawable/ic_menu_delete" android:id="@id/menu_delete_groups" android:title="@string/menu_delete_groups" />
+    <item android:icon="@drawable/tw_action_bar_icon_sim_holo_dark" android:id="@id/menu_sim_management" android:visible="false" android:title="@string/sim_management" />
+    <item android:icon="@drawable/tw_action_bar_icon_merge_holo_dark" android:id="@id/menu_merge" android:title="@string/menu_merge" />
+    <item android:icon="@drawable/tw_action_bar_icon_refresh_holo_dark" android:id="@id/menu_au_server" android:title="@string/menu_au_server" />
+    <item android:icon="@drawable/action_bar_tab_icon_yellowpage" android:id="@id/menu_yellowpages" android:visible="false" android:title="@string/ContactsYellowpage" />
+    <item android:icon="@drawable/ic_menu_dial_setting" android:id="@id/menu_speed_dial_setting" android:title="@string/menu_speed_dial_setting" />
+    <item android:icon="@drawable/ic_menu_edit_dark" android:id="@id/menu_edit_group" android:title="@string/editGroupDescription" />
+    <item android:icon="@drawable/tw_action_bar_icon_send_holo_dark" android:id="@id/menu_send" android:title="@string/menu_send" />
+    <item android:icon="@drawable/tw_action_bar_icon_sendemail_holo_dark" android:id="@id/menu_send_email" android:title="@string/menu_send_email" />
+    <item android:icon="@drawable/tw_action_bar_icon_sendmsg_holo_dark" android:id="@id/menu_send_message" android:title="@string/menu_send_message" />
+    <item android:icon="@drawable/tw_action_bar_icon_contact_counter" android:id="@id/menu_contact_counter" android:title="@string/menu_contact_counter" />
+    <item android:icon="@drawable/tw_action_bar_icon_personal_connections_holo_dark" android:id="@id/menu_my_network" android:title="@string/menu_my_network" />
+    <item android:icon="@drawable/tw_action_bar_icon_fingerprint_setcontact_holo_light" android:id="@id/menu_add_private" android:title="@string/menu_add_to_private" />
+    <item android:icon="@drawable/tw_action_bar_icon_fingerprint_removecontact_holo_light" android:id="@id/menu_remove_from_private" android:title="@string/menu_remove_from_private" />
+    <item android:icon="@drawable/tw_action_bar_icon_share_holo_dark" android:id="@id/menu_share_namecard_via" android:orderInCategory="1" android:title="@string/menu_share_namecard_via" />
+    <item android:icon="@drawable/ic_menu_setting" android:id="@id/menu_settings" android:orderInCategory="6" android:title="@string/menu_settings" />
+    <item android:icon="@drawable/tw_action_bar_icon_swipe" android:id="@id/menu_swipe" android:title="@string/swipe_to_call_or_message" android:checkable="true" />
+    <item android:icon="@drawable/ic_menu_add" android:id="@id/menu_add_group" android:title="@string/menu_create" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_add" android:id="@id/menu_add_member" android:title="@string/add_member" />
+    <item android:icon="@drawable/tw_action_bar_icon_remove_group" android:id="@id/menu_remove_member" android:title="@string/remove_member" />
+    <item android:icon="@drawable/ic_menu_send_msg" android:id="@id/menu_send_message_in_group" android:title="@string/menu_send_message" />
+    <item android:icon="@drawable/tw_action_bar_icon_sendemail_holo_dark" android:id="@id/menu_send_email_in_group" android:title="@string/menu_send_email" />
+    <item android:icon="@drawable/tw_action_bar_icon_changeorder_holo_dark" android:id="@id/menu_change_order" android:title="@string/change_order" />
+    <item android:icon="@drawable/ic_menu_add" android:id="@id/menu_add_favorite" android:title="@string/menu_addStar" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_remove_favorites" android:id="@id/menu_delete_favorite" android:title="@string/menu_removeStar" />
+    <item android:icon="@drawable/tw_action_bar_icon_thumbnail_holo_dark" android:id="@id/menu_change_view" android:title="View change" />
+    <item android:icon="@drawable/tw_action_bar_icon_help_holo" android:id="@id/menu_help" android:orderInCategory="7" android:title="@string/txt_RAD_info_button" />
+    <item android:id="@id/menu_move_to_knox" android:visible="false" android:orderInCategory="4" android:title="@string/menu_knox_move" />
+    <item android:id="@id/menu_move_to_personal" android:visible="false" android:orderInCategory="5" android:title="@string/menu_knox_personal_move" />
+</menu>

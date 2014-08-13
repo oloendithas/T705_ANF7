@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="66.0dip" style="?android:attr/buttonBarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/contact_list_btn_text_size" android:textColor="@color/button_text_color_light_theme" android:layout_gravity="center" android:id="@id/soft_cancel" android:background="@drawable/btn_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@android:string/cancel" style="?android:attr/buttonBarButtonStyle" />
+</LinearLayout>

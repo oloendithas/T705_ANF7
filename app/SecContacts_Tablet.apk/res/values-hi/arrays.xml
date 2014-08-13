@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>कॉल करें</item>
+        <item>सन्देश भेजें</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>फोन</item>
+        <item>SIM</item>
+        <item>गूगल</item>
+        <item>याहू</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>सभी</item>
+        <item>फोन</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>पहला नाम अंतिम नाम</item>
+        <item>अंतिम नाम पहला नाम</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>सोम</item>
+        <item>मंगल</item>
+        <item>बुध</item>
+        <item>गुरु</item>
+        <item>शुक्र</item>
+        <item>शनि</item>
+        <item>रवि</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>अआइईउऊएऐओऔकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>कखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>संगठन</item>
+        <item>टिप्पणी</item>
+    </string-array>
+</resources>

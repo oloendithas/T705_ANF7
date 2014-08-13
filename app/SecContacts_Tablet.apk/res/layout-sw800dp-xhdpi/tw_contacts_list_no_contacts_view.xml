@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/setup_profile_container" android:paddingLeft="30.0dip" android:paddingTop="25.0dip" android:paddingRight="30.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/user_profile_header" />
+        <LinearLayout android:id="@id/setup_profile_button" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/user_profile_button" />
+        </LinearLayout>
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/tw_no_contacts_layout" />
+        <LinearLayout android:gravity="top" android:orientation="vertical" android:visibility="gone" android:layout_width="460.0dip" android:layout_height="fill_parent" android:layout_marginTop="212.0dip">
+            <TextView android:textAppearance="@style/TwMainListNoContactsHelpTextAppearance" android:id="@id/no_contacts_help_text_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/twNoContactsHelpText" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

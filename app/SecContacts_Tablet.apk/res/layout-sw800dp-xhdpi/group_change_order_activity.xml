@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.android.contacts.widget.FullHeightLinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <fragment android:id="@id/list_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.sec.android.app.contacts.group.GroupChangeOrderListFragment" />
+    </LinearLayout>
+</view>

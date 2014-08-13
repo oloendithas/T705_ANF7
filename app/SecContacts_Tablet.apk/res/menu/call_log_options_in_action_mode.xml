@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_done" android:title="@string/done" android:showAsAction="always" />
+    <item android:icon="@drawable/tw_action_bar_icon_delete_holo_dark" android:id="@id/delete_in_action_mode" android:orderInCategory="2" android:title="@string/delete" android:showAsAction="ifRoom" />
+    <item android:id="@id/copy_to_dialing_screen_in_action_mode" android:orderInCategory="1" android:title="@string/menu_copy_to_dialing" android:showAsAction="withText" />
+    <item android:id="@id/send_number_in_action_mode" android:orderInCategory="1" android:title="@string/send_number" android:showAsAction="withText" />
+    <item android:id="@id/view_contact_in_action_mode" android:orderInCategory="1" android:title="@string/view_contact" android:showAsAction="withText" />
+    <item android:icon="@drawable/ic_menu_add" android:id="@id/add_to_contact_in_action_mode" android:orderInCategory="1" android:title="@string/add_2_contacts" android:showAsAction="ifRoom" />
+    <item android:id="@id/block_settings_call_msg" android:orderInCategory="1" android:title="@string/block_settings" android:showAsAction="withText" />
+    <item android:id="@id/add_to_reject_list_in_action_mode" android:orderInCategory="1" android:title="@string/add_2_block_list" android:showAsAction="withText" />
+    <item android:id="@id/remove_from_reject_list_action_mode" android:orderInCategory="1" android:title="@string/delete_from_block_list" android:showAsAction="withText" />
+</menu>

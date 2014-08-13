@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>കോള്‍</item>
+        <item>സന്ദേ. അയ‌ക്കു.</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>ഫോണ്‍</item>
+        <item>SIM</item>
+        <item>ഗൂഗിള്‍</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>എല്ലാം</item>
+        <item>ഫോണ്‍</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>ആദ്യ നാമം അന്ത്യ നാമം</item>
+        <item>അവസാന നാമം അദ്യ നാമം</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>തിങ്ക</item>
+        <item>ചൊ</item>
+        <item>ബു.</item>
+        <item>വ്യാ.</item>
+        <item>വെ.</item>
+        <item>ശ.</item>
+        <item>ഞാ</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>അആഇഈഉഊഋഎഏഐഒഓഔകഖഗഘങചഛജഝഞടഠഡഢണതഥദധനപഫബഭമയരലവശഷസഹളഴറ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>അആഇഈഉഊഋഎഏഐഒഓഔകഖഗഘങചഛജഝഞടഠഡഢണതഥദധനപഫബഭമയരലവശഷസഹളഴറ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>ഓര്‍ഗനൈസേഷന്‍</item>
+        <item>കുറിപ്പ്</item>
+    </string-array>
+</resources>

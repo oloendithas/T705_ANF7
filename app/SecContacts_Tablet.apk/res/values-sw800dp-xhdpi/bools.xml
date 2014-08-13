@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="preferences_prefer_dual_pane">false</bool>
+    <bool name="preferences_prefer_dual_pane_contacts">true</bool>
+    <bool name="remove_shortcut">true</bool>
+    <item type="bool" name="config_message_capable">@android:bool/config_voice_capable</item>
+    <bool name="remove_widget">false</bool>
+    <bool name="always_tab_mode">true</bool>
+    <bool name="support_search_feature">false</bool>
+    <bool name="add_logs_shortcut">false</bool>
+    <bool name="config_use_two_panes">true</bool>
+    <bool name="show_home_icon">true</bool>
+    <bool name="config_show_group_action_in_action_bar">false</bool>
+</resources>

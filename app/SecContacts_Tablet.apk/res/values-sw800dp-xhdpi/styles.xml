@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialtactsTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:textColorSecondary">@color/dialtacts_secondary_text_color</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
+        <item name="android:actionBarTabStyle">@style/PeopleActionBarTabStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/PeopleActionBarTabTextStyle</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionbarSelectionModeTheme</item>
+        <item name="contact_browser_list_padding_left">16.0dip</item>
+        <item name="contact_browser_list_padding_right">0.0dip</item>
+        <item name="contact_browser_background">@android:color/transparent</item>
+        <item name="list_section_header_height">32.0dip</item>
+        <item name="list_item_divider">@drawable/tw_preference_contents_list_divider_holo_light</item>
+        <item name="list_item_padding_top">0.0dip</item>
+        <item name="list_item_padding_right">0.0dip</item>
+        <item name="list_item_padding_bottom">0.0dip</item>
+        <item name="list_item_padding_left">0.0dip</item>
+        <item name="list_item_gap_between_image_and_text">8.0dip</item>
+        <item name="list_item_gap_between_label_and_data">5.0dip</item>
+        <item name="list_item_call_button_padding">14.0dip</item>
+        <item name="list_item_vertical_divider_margin">5.0dip</item>
+        <item name="list_item_presence_icon_margin">4.0dip</item>
+        <item name="list_item_presence_icon_size">16.0dip</item>
+        <item name="list_item_photo_size">@dimen/contact_browser_list_item_photo_size</item>
+        <item name="list_item_profile_photo_size">70.0dip</item>
+        <item name="list_item_prefix_highlight_color">#ff729a27</item>
+        <item name="list_item_header_text_indent">8.0dip</item>
+        <item name="list_item_header_text_color">@color/people_app_theme_color</item>
+        <item name="list_item_header_text_size">12.0sp</item>
+        <item name="list_item_header_height">24.0dip</item>
+        <item name="list_item_header_underline_height">1.0dip</item>
+        <item name="list_item_header_underline_color">@color/people_app_theme_color</item>
+        <item name="list_item_text_indent">@dimen/contact_browser_list_item_text_indent</item>
+        <item name="call_log_primary_text_color">#ffffffff</item>
+        <item name="call_log_primary_background_color">#ff000000</item>
+        <item name="call_log_secondary_text_color">#ff888888</item>
+        <item name="call_log_secondary_background_color">#ff333333</item>
+        <item name="call_log_header_color">#ff33b5e5</item>
+        <item name="call_log_voicemail_status_height">40.0dip</item>
+        <item name="call_log_voicemail_status_background_color">#ffffffe0</item>
+        <item name="call_log_voicemail_status_text_color">#ff000000</item>
+        <item name="favorites_padding_bottom">?android:actionBarSize</item>
+    </style>
+    <style name="CallDetailActivityTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@drawable/tw_create_bg_holo_dark</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/PopupStyleAnimation</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionbarSelectionModeTheme</item>
+        <item name="call_log_voicemail_status_height">40.0dip</item>
+        <item name="call_log_voicemail_status_background_color">#ffffffe0</item>
+        <item name="call_log_voicemail_status_text_color">#ff000000</item>
+    </style>
+    <style name="CallDurationActivityTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@drawable/tw_create_bg_holo_dark</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/PopupStyleAnimation</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="DetailActivityTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="EditorActivityTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@layout/custom_popup_layer_background</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/PopupStyleEditorActivityAnimation</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="VcardPreviewTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@layout/custom_popup_layer_background</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/PopupStyleActivityAnimation</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="GroupActivityTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:windowBackground">@layout/custom_popup_layer_background</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/PopupStyleActivityAnimation</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowMinWidthMajor">@dimen/common_dialog_activity_width_land</item>
+        <item name="android:windowMinWidthMinor">@dimen/common_dialog_activity_width_port</item>
+        <item name="contact_browser_list_padding_left">20.0dip</item>
+        <item name="contact_browser_list_padding_right">20.0dip</item>
+        <item name="contact_browser_background">@android:color/transparent</item>
+        <item name="list_item_height">@dimen/contact_browser_list_item_photo_size</item>
+        <item name="list_section_header_height">24.0dip</item>
+        <item name="activated_background">@drawable/list_item_activated_background</item>
+        <item name="section_header_background">@drawable/list_title_holo</item>
+        <item name="list_item_divider">@drawable/tw_preference_contents_list_divider_holo_dark</item>
+        <item name="list_item_padding_top">0.0dip</item>
+        <item name="list_item_padding_right">0.0dip</item>
+        <item name="list_item_padding_bottom">0.0dip</item>
+        <item name="list_item_padding_left">0.0dip</item>
+        <item name="list_item_gap_between_image_and_text">8.0dip</item>
+        <item name="list_item_gap_between_label_and_data">5.0dip</item>
+        <item name="list_item_call_button_padding">14.0dip</item>
+        <item name="list_item_vertical_divider_margin">5.0dip</item>
+        <item name="list_item_presence_icon_margin">4.0dip</item>
+        <item name="list_item_presence_icon_size">@dimen/list_item_account_icon_size</item>
+        <item name="list_item_photo_size">@dimen/contact_browser_list_item_photo_size</item>
+        <item name="list_item_profile_photo_size">70.0dip</item>
+        <item name="list_item_prefix_highlight_color">#ff2fa6c9</item>
+        <item name="list_item_header_text_indent">10.0dip</item>
+        <item name="list_item_header_text_color">@color/list_item_header_text_color</item>
+        <item name="list_item_header_text_size">23.0sp</item>
+        <item name="list_item_header_height">36.0dip</item>
+        <item name="list_item_header_underline_height">0.0dip</item>
+        <item name="list_item_header_underline_color">@color/list_item_header_underline_color</item>
+        <item name="list_item_contacts_count_text_color">@color/contact_count_text_color</item>
+        <item name="list_item_text_indent">@dimen/contact_browser_list_item_text_indent</item>
+        <item name="list_item_contacts_count_text_size">12.0sp</item>
+        <item name="list_item_account_icon_left_padding">0.0dip</item>
+        <item name="list_item_photo_margin_left">0.0dip</item>
+        <item name="list_item_max_number_of_account_icon">3</item>
+        <item name="list_item_account_icon_size">@dimen/list_item_account_icon_size</item>
+        <item name="list_item_presence_icon_marginTop">7.0dip</item>
+        <item name="list_item_gap_between_presence_icon_and_account_icons">7.0dip</item>
+        <item name="list_item_check_box_width_for_delete_mode_animation">38.0dip</item>
+        <item name="list_item_check_box_margin_left">10.0dip</item>
+        <item name="list_item_check_box_margin_right">10.0dip</item>
+        <item name="list_item_header_text_view_background">@drawable/list_item_header_text_view_background</item>
+        <item name="contact_browser_list_header_right_margin">0.0dip</item>
+        <item name="contact_browser_list_header_left_margin">0.0dip</item>
+        <item name="list_item_margin_right_for_fast_scroll">4.0dip</item>
+    </style>
+    <style name="BackgroundOnlyTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">false</item>
+    </style>
+    <style name="Theme.QuickContact" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="PeopleTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:actionBarStyle">@style/ContactsActionBarStyleWithoutDisplayOptions</item>
+        <item name="android:actionBarTabStyle">@style/PeopleActionBarTabStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/PeopleActionBarTabTextStyle</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionbarSelectionModeTheme</item>
+        <item name="android:searchViewTextField">@drawable/tw_searchview_background</item>
+        <item name="contact_browser_list_padding_left">20.0dip</item>
+        <item name="contact_browser_list_padding_right">20.0dip</item>
+        <item name="contact_browser_background">@android:color/transparent</item>
+        <item name="list_item_height">@dimen/contact_browser_list_item_photo_size</item>
+        <item name="activated_background">@drawable/list_item_activated_background</item>
+        <item name="section_header_background">@drawable/list_title_holo</item>
+        <item name="list_item_divider">@drawable/tw_preference_list_divider_holo_dark</item>
+        <item name="list_item_padding_top">0.0dip</item>
+        <item name="list_item_padding_right">0.0dip</item>
+        <item name="list_item_padding_bottom">0.0dip</item>
+        <item name="list_item_padding_left">0.0dip</item>
+        <item name="list_item_gap_between_image_and_text">8.0dip</item>
+        <item name="list_item_gap_between_label_and_data">5.0dip</item>
+        <item name="list_item_call_button_padding">14.0dip</item>
+        <item name="list_item_vertical_divider_margin">5.0dip</item>
+        <item name="list_item_presence_icon_margin">4.0dip</item>
+        <item name="list_item_presence_icon_size">@dimen/list_item_account_icon_size</item>
+        <item name="list_item_photo_size">@dimen/contact_browser_list_item_photo_size</item>
+        <item name="list_item_profile_photo_size">80.0dip</item>
+        <item name="list_item_prefix_highlight_color">#ff0cd4e6</item>
+        <item name="list_item_header_text_indent">8.0dip</item>
+        <item name="list_item_header_text_color">@color/list_item_header_text_color</item>
+        <item name="list_item_header_text_size">23.0sp</item>
+        <item name="list_item_header_height">36.0dip</item>
+        <item name="list_item_header_underline_height">0.0dip</item>
+        <item name="list_item_header_underline_color">@color/people_app_theme_color</item>
+        <item name="list_item_contacts_count_text_color">@color/contact_count_text_color</item>
+        <item name="list_item_text_indent">@dimen/contact_browser_list_item_text_indent</item>
+        <item name="list_item_contacts_count_text_size">12.0sp</item>
+        <item name="list_item_account_icon_left_padding">0.0dip</item>
+        <item name="list_item_photo_margin_left">0.0dip</item>
+        <item name="list_item_max_number_of_account_icon">3</item>
+        <item name="list_item_account_icon_size">@dimen/list_item_account_icon_size</item>
+        <item name="list_item_presence_icon_marginTop">7.0dip</item>
+        <item name="list_item_gap_between_presence_icon_and_account_icons">7.0dip</item>
+        <item name="list_item_check_box_width_for_delete_mode_animation">38.0dip</item>
+        <item name="list_item_check_box_margin_left">8.0dip</item>
+        <item name="list_item_check_box_margin_right">8.0dip</item>
+        <item name="list_item_margin_right_for_activated_background">4.0dip</item>
+        <item name="list_item_header_text_view_background_for_changing_split_ratio_mode">@drawable/list_item_header_text_view_background_for_changing_split_ratio</item>
+        <item name="list_item_divider_for_changing_split_ratio_mode">@drawable/tw_preference_list_divider_holo_light</item>
+        <item name="activated_background_for_changing_split_ratio_mode">@drawable/tw_list_pressed_holo_light</item>
+        <item name="list_item_header_text_view_background">@drawable/list_item_header_text_view_background</item>
+        <item name="contact_browser_list_header_right_margin">0.0dip</item>
+        <item name="contact_browser_list_header_left_margin">@dimen/list_visible_scrollbar_padding</item>
+        <item name="list_item_margin_right_for_fast_scroll">4.0dip</item>
+        <item name="favorites_padding_bottom">0.0dip</item>
+    </style>
+    <style name="ContactsDialogActivityTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar">
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="contact_browser_list_padding_left">0.0dip</item>
+        <item name="contact_browser_list_padding_right">0.0dip</item>
+        <item name="contact_browser_background">@android:color/transparent</item>
+        <item name="list_item_height">65.0dip</item>
+        <item name="list_section_header_height">24.0dip</item>
+        <item name="activated_background">@drawable/list_item_activated_background</item>
+        <item name="section_header_background">@drawable/list_title_holo</item>
+        <item name="list_item_divider">@drawable/tw_preference_contents_list_divider_holo_light</item>
+        <item name="list_item_padding_top">0.0dip</item>
+        <item name="list_item_padding_right">0.0dip</item>
+        <item name="list_item_padding_bottom">0.0dip</item>
+        <item name="list_item_padding_left">0.0dip</item>
+        <item name="list_item_gap_between_image_and_text">8.0dip</item>
+        <item name="list_item_gap_between_label_and_data">5.0dip</item>
+        <item name="list_item_call_button_padding">14.0dip</item>
+        <item name="list_item_vertical_divider_margin">5.0dip</item>
+        <item name="list_item_presence_icon_margin">4.0dip</item>
+        <item name="list_item_presence_icon_size">24.0dip</item>
+        <item name="list_item_photo_size">@dimen/contact_browser_list_item_photo_size</item>
+        <item name="list_item_profile_photo_size">70.0dip</item>
+        <item name="list_item_prefix_highlight_color">#ff2fa6c9</item>
+        <item name="list_item_header_text_indent">10.0dip</item>
+        <item name="list_item_header_text_color">@color/list_item_header_text_color</item>
+        <item name="list_item_header_text_size">18.0sp</item>
+        <item name="list_item_header_height">33.0dip</item>
+        <item name="list_item_header_underline_height">2.0dip</item>
+        <item name="list_item_header_underline_color">@color/list_item_header_underline_color</item>
+        <item name="list_item_contacts_count_text_color">@color/contact_count_text_color</item>
+        <item name="list_item_text_indent">@dimen/contact_browser_list_item_text_indent</item>
+        <item name="list_item_contacts_count_text_size">12.0sp</item>
+        <item name="list_item_photo_margin_left">5.0dip</item>
+        <item name="list_item_max_number_of_account_icon">3</item>
+        <item name="list_item_account_icon_size">24.0dip</item>
+        <item name="list_item_presence_icon_marginTop">8.0dip</item>
+        <item name="list_item_gap_between_presence_icon_and_account_icons">2.0dip</item>
+        <item name="list_item_check_box_width_for_delete_mode_animation">38.0dip</item>
+        <item name="list_item_check_box_margin_left">10.0dip</item>
+        <item name="list_item_check_box_margin_right">10.0dip</item>
+        <item name="list_item_header_text_view_background">@drawable/tw_list_section_divider_holo_light</item>
+        <item name="contact_browser_list_header_right_margin">0.0dip</item>
+        <item name="contact_browser_list_header_left_margin">0.0dip</item>
+        <item name="list_item_margin_right_for_fast_scroll">30.0dip</item>
+    </style>
+    <style name="ContactsActionBarStyleWithoutDisplayOptions" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:displayOptions">none</item>
+    </style>
+    <style name="ContactPickerTheme" parent="@style/PeopleTheme">
+        <item name="android:windowBackground">@drawable/tw_preference_contents_bg_holo_light</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/PopupStyleActivityAnimation</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarNonEmbeded">true</item>
+        <item name="list_item_photo_margin_left">0.0dip</item>
+        <item name="list_item_header_text_view_background">@drawable/tw_list_section_divider_holo_light</item>
+    </style>
+    <style name="ContactPickerLayout" parent="@style/ContactPickerTheme">
+        <item name="android:layout_width">@dimen/common_dialog_activity_width_port</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="JoinContactDialogActivityTheme" parent="@style/ContactDetailActivityTheme">
+        <item name="contact_browser_list_padding_left">30.0dip</item>
+        <item name="contact_browser_list_padding_right">20.0dip</item>
+        <item name="contact_browser_background">@android:color/transparent</item>
+        <item name="list_item_height">68.0dip</item>
+        <item name="list_section_header_height">24.0dip</item>
+        <item name="activated_background">@drawable/list_item_activated_background</item>
+        <item name="section_header_background">@drawable/list_title_holo</item>
+        <item name="list_item_divider">?android:listDivider</item>
+        <item name="list_item_padding_top">0.0dip</item>
+        <item name="list_item_padding_right">0.0dip</item>
+        <item name="list_item_padding_bottom">0.0dip</item>
+        <item name="list_item_padding_left">0.0dip</item>
+        <item name="list_item_gap_between_image_and_text">12.0dip</item>
+        <item name="list_item_gap_between_label_and_data">5.0dip</item>
+        <item name="list_item_call_button_padding">14.0dip</item>
+        <item name="list_item_vertical_divider_margin">5.0dip</item>
+        <item name="list_item_presence_icon_margin">4.0dip</item>
+        <item name="list_item_presence_icon_size">@dimen/list_item_account_icon_size</item>
+        <item name="list_item_photo_size">68.0dip</item>
+        <item name="list_item_profile_photo_size">70.0dip</item>
+        <item name="list_item_prefix_highlight_color">#ff2fa6c9</item>
+        <item name="list_item_header_text_indent">8.0dip</item>
+        <item name="list_item_header_text_color">@color/list_item_header_text_color</item>
+        <item name="list_item_header_text_size">23.0sp</item>
+        <item name="list_item_header_height">36.0dip</item>
+        <item name="list_item_header_underline_height">0.0dip</item>
+        <item name="list_item_header_underline_color">@color/list_item_header_underline_color</item>
+        <item name="list_item_contacts_count_text_color">@color/contact_count_text_color</item>
+        <item name="list_item_text_indent">@dimen/contact_browser_list_item_text_indent</item>
+        <item name="list_item_contacts_count_text_size">12.0sp</item>
+        <item name="list_item_photo_margin_left">0.0dip</item>
+        <item name="list_item_max_number_of_account_icon">3</item>
+        <item name="list_item_account_icon_size">@dimen/list_item_account_icon_size</item>
+        <item name="list_item_presence_icon_marginTop">7.0dip</item>
+        <item name="list_item_gap_between_presence_icon_and_account_icons">7.0dip</item>
+        <item name="list_item_margin_right_for_fast_scroll">4.0dip</item>
+    </style>
+    <style name="JoinContactActivityTheme" parent="@style/JoinContactDialogActivityTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionbarSelectionModeTheme</item>
+        <item name="list_item_header_text_indent">@dimen/detail_sub_title_left_padding</item>
+        <item name="list_item_account_icon_size">@dimen/list_item_account_icon_size</item>
+        <item name="list_item_presence_icon_marginTop">7.0dip</item>
+        <item name="list_item_header_text_view_background">@drawable/tw_list_section_divider_holo_light</item>
+    </style>
+    <style name="JoinedContactActivityTheme" parent="@style/ContactDetailActivityTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="ContactsPreferencesTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="ContactListFilterTheme" parent="@android:style/Theme.DeviceDefault.Dialog" />
+    <style name="CustomContactListFilterView" parent="@style/ContactListFilterTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">400.0dip</item>
+    </style>
+    <style name="DirectoryHeader" parent="@style/PeopleTheme">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+    </style>
+    <style name="NonPhoneDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="ContactEditorAccountsChangedActivityTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth">
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <style name="ShowOrCreateActivityTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowIsFloating">true</item>
+        <item name="list_item_header_text_color">@color/people_app_theme_color</item>
+    </style>
+    <style name="ContactDetailActivityTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:windowBackground">@layout/custom_popup_layer_background</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/PopupStyleActivityAnimation</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="TwContactDetailTextAppearanceListTwoLinePrimary">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textColor">@color/contact_editor_list_text_primary</item>
+    </style>
+    <style name="TwContactDetailTextAppearanceListTwoLineSecondary">
+        <item name="android:textSize">21.0dip</item>
+        <item name="android:textColor">@color/contact_editor_list_text_secondary</item>
+    </style>
+    <style name="TwContactDetailHeaderTextPrimary">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textColor">@color/contact_detail_tw_header_primary</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TwContactDetailHeaderTextSecondary">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:textColor">@color/contact_detail_tw_header_secondary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="DetailTabLabelSelectedStyle">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/contact_detail_tab_label_selected</item>
+    </style>
+    <style name="DetailTabLabelUnselectedStyle">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/contact_detail_tab_label_unselected</item>
+    </style>
+    <style name="ContactDetailCarouselTabStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.TabView" />
+    <style name="TwContactDropDownTextAppearanceListTwoLinePrimary">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_contact_dropdown_text_primary</item>
+    </style>
+    <style name="ConfirmAddDetailViewStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ConfirmAddDetailHeaderViewStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">200.0dip</item>
+    </style>
+    <style name="DialtactsActionBarStyle" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:displayOptions">none</item>
+        <item name="android:itemPadding">0.0dip</item>
+    </style>
+    <style name="QuickContactListItemStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/tw_list_selector_holo</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/quick_contact_list_item_min_height</item>
+    </style>
+    <style name="TwTextAppearanceListOneLine">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_color002</item>
+    </style>
+    <style name="TwTextAppearanceListTwoLinePrimary">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_color002</item>
+    </style>
+    <style name="TwTextAppearanceListTwoLineSecondary1">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_color005</item>
+    </style>
+    <style name="TwTextAppearanceListTwoLineSecondary2">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_color005</item>
+    </style>
+    <style name="TwTextAppearanceListTwoLineSecondary3">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_color005</item>
+    </style>
+    <style name="SelectAllTextAppearance">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">@color/list_header_text_color</item>
+    </style>
+    <style name="CommonGroupTitleAppearance">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">#ff007f97</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="EditLabelTextAppearance">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/edit_label_color</item>
+    </style>
+    <style name="ActionBarTitleAppearance">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.3</item>
+    </style>
+    <style name="TwMainListNoContactsHelpTextAppearance">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#fff5f5f5</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TwMainListNoContactsTextAppearance">
+        <item name="android:textSize">29.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffb9b9b9</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="TwMainListPrimaryTextAppearance">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_main_list_primary_text_color</item>
+    </style>
+    <style name="TwMainListLargePrimaryTextAppearanceForCallLog">
+        <item name="android:textSize">29.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_color002</item>
+    </style>
+    <style name="TwMainListLargePrimaryTextAppearanceForCallLogHeaderText">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">34.0sp</item>
+        <item name="android:textColor">@color/tw_list_primary</item>
+    </style>
+    <style name="TwMainListLargePrimaryTextAppearanceForCallLogDuration">
+        <item name="android:textSize">29.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+    <style name="TwMainListHugePrimaryTextAppearanceForCallLog">
+        <item name="android:textSize">36.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_color002</item>
+    </style>
+    <style name="TwMainListHugePrimaryTextAppearanceForCallLogHeaderText">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">43.0sp</item>
+        <item name="android:textColor">@color/tw_list_primary</item>
+    </style>
+    <style name="TwMainListHugePrimaryTextAppearanceForCallLogDuration">
+        <item name="android:textSize">36.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+    <style name="TwMainListFontSize7PrimaryTextAppearanceForCallLog">
+        <item name="android:textSize">38.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_main_list_primary_text_color</item>
+    </style>
+    <style name="TwMainListFontSize7TextAppearanceForCallLogHeaderText">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">45.0dip</item>
+        <item name="android:textColor">@color/tw_list_primary</item>
+    </style>
+    <style name="TwMainListFontSize7TextAppearanceForCallLogDuration">
+        <item name="android:textSize">36.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+    <style name="TwMainListAccountFilterHeaderTextAppearance">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/account_filter_header_text_color</item>
+    </style>
+    <style name="TwMainListDirectoryHeaderTextAppearance">
+        <item name="android:textSize">23.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff0193ae</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">roboto-regular</item>
+    </style>
+    <style name="TwMainListDirectoryHeaderCountTextAppearance">
+        <item name="android:textSize">23.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff0193ae</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">roboto-regular</item>
+    </style>
+    <style name="TwMainListContactTipsDialogTextAppearance">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="ActionBarTabTextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:selectFontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TwNextBtn">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">@color/next_button_text_color</item>
+        <item name="android:background">@drawable/btn_next</item>
+        <item name="android:layout_width">245.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:layout_marginBottom">40.0dip</item>
+    </style>
+    <style name="SpeedDialActivityTheme" parent="@style/ContactDetailActivityTheme" />
+    <style name="PeopleTabTheme" parent="@style/PeopleTheme" />
+    <style name="ContactHistoryActivityTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/PopupStyleActivityAnimation</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="DialEasyModeStyle" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="calllog_name_text">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textColor">@color/calllog_name_text_white</item>
+    </style>
+    <style name="calllog_number_text">
+        <item name="android:textSize">21.0dip</item>
+        <item name="android:textColor">@color/calllog_number_text_white</item>
+    </style>
+    <style name="calllog_group_count">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:textColor">@color/calllog_group_count_text_white</item>
+    </style>
+    <style name="calllog_time_text">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:textColor">@color/calllog_time_text_white</item>
+    </style>
+    <style name="calldetail_time_text">
+        <item name="android:textSize">25.0dip</item>
+        <item name="android:textColor">@color/calldetail_time_text_white</item>
+    </style>
+    <style name="call_add_2_text">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textColor">@color/call_add_text_color</item>
+    </style>
+    <style name="call_time_text">
+        <item name="android:textSize">25.0dip</item>
+        <item name="android:textColor">@color/calllog_name_text_white</item>
+    </style>
+    <style name="duration_text">
+        <item name="android:textSize">21.0sp</item>
+        <item name="android:textColor">#ff2b9cbc</item>
+    </style>
+    <style name="duration_touchable_text">
+        <item name="android:textSize">21.0sp</item>
+        <item name="android:textColor">@color/calldetail_duration_text_white</item>
+    </style>
+    <style name="view_contacts_text">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textColor">@color/calllog_name_text_white</item>
+    </style>
+    <style name="SamsungAccountValidationCheckActivityTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="TabWidgetStyle" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:layout_margin">0.0dip</item>
+    </style>
+    <style name="PopupItemDropDownStyle" parent="@android:attr/dropDownItemStyle">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textColor">#fff5f5f5</item>
+        <item name="android:minWidth">123.0dip</item>
+        <item name="android:minHeight">80.0dip</item>
+    </style>
+    <style name="PopupStyleEditorActivityAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/activity_slide_in_from_right</item>
+    </style>
+    <style name="NamecardListTheme" parent="@style/JoinContactActivityTheme">
+        <item name="android:windowBackground">@drawable/tw_preference_contents_bg_holo_dark</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Activity</item>
+    </style>
+    <style name="PeopleActionBarTabStyle" parent="@android:style/Widget.DeviceDefault.ActionBar.TabView">
+        <item name="android:padding">0.0dip</item>
+        <item name="android:layout_margin">0.0dip</item>
+        <item name="android:maxWidth">129.0dip</item>
+        <item name="android:minWidth">129.0dip</item>
+    </style>
+    <style name="PeopleActionBarTabTextStyle" parent="@android:style/Widget.DeviceDefault.ActionBar.TabText">
+        <item name="android:textSize">26.0sp</item>
+        <item name="android:textColor">@color/color_tab_text</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#80000000</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+        <item name="android:selectFontFamily">sec-roboto-light</item>
+    </style>
+    <style name="PopupStyleAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/activity_slide_in_from_right_duration_200ms</item>
+        <item name="android:windowExitAnimation">@anim/activity_slide_out_to_right_duration_200ms</item>
+    </style>
+    <style name="PopupStyleActivityAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/activity_slide_in_from_right</item>
+        <item name="android:windowExitAnimation">@anim/activity_slide_out_to_right</item>
+    </style>
+</resources>

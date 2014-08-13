@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>बोलाउनुहोस्</item>
+        <item>संदेश पठाउ</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>फोन</item>
+        <item>SIM</item>
+        <item>गूगल</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>सबै</item>
+        <item>फोन</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>पहिलो नाम अन्तिम नाम</item>
+        <item>अन्तिम नाम पहिलो नाम</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>सोम</item>
+        <item>मंगल</item>
+        <item>बुध</item>
+        <item>बिहि</item>
+        <item>शुक्र</item>
+        <item>शनि</item>
+        <item>आइ</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>अआइईउऊऋएऐओऔकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>कखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहक्षत्रज्ञ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>संगठन</item>
+        <item>नोट</item>
+    </string-array>
+</resources>

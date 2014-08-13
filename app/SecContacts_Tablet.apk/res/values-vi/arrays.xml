@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>Gọi</item>
+        <item>Gửi tin nhắn</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>Điện thoại</item>
+        <item>SIM</item>
+        <item>Google</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>Tất cả</item>
+        <item>Điện thoại</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>Tên Họ</item>
+        <item>Họ Tên</item>
+    </string-array>
+    <string-array name="delete_group_menu">
+        <item>Only group</item>
+        <item>Nhóm và các danh bạ trong nhóm</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>T.2</item>
+        <item>T.3</item>
+        <item>T.4</item>
+        <item>T.5</item>
+        <item>T.6</item>
+        <item>T.7</item>
+        <item>CN</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Tổ chức</item>
+        <item>Ghi chú</item>
+    </string-array>
+</resources>

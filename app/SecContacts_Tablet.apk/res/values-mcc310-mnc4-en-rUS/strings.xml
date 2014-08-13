@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ghostData_description">Description</string>
+    <string name="menu_share_namecard_via">Share namecard via</string>
+    <string name="contact_tips_naver_show_again">Do not show again.</string>
+    <string name="history_no_data">No history</string>
+    <string name="history_delete_show_never_again">Do not show again.</string>
+    <string name="no_list_result">No results found.</string>
+    <string name="never_show_again">Do not show again.</string>
+    <string name="do_not_ask_again">Do not show again.</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/GuideLLVoiceCallAni" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="162.0dip" android:layout_marginTop="560.0dip">
+        <TextView android:textSize="50.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="54.0dip" android:text="@string/guide_dummy_contact_name" />
+        <TextView android:textSize="30.0dip" android:textColor="#ff666666" android:layout_gravity="center_horizontal" android:id="@id/guideVoiceCallNumber" android:layout_width="wrap_content" android:layout_height="33.0dip" android:layout_marginTop="4.0dip" />
+        <TextView android:textSize="40.0dip" android:textColor="#ff000000" android:layout_gravity="center_horizontal" android:id="@id/guideVoiceCallRunTime" android:layout_width="wrap_content" android:layout_height="65.0dip" android:layout_marginTop="14.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="26.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_width="151.0dip" android:layout_height="wrap_content" android:layout_marginLeft="73.0dip" android:layout_marginTop="124.0dip" android:text="@string/guide_voicecall_swap" android:singleLine="true" />
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="0.0dip">
+        <TextView android:textSize="24.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/guideBtnCallOnHold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/guide_call_on_hold" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="65.0dip" android:layout_marginTop="136.0dip" android:layout_marginRight="65.0dip">
+        <TextView android:textSize="26.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/guideBtnAddCall" android:layout_width="222.0dip" android:layout_height="wrap_content" android:text="@string/guide_call_addcall" android:singleLine="true" />
+        <TextView android:textSize="26.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_width="222.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/tab_dialer" android:singleLine="true" />
+        <TextView android:textSize="26.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_width="222.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/guide_call_endcall" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="65.0dip" android:layout_marginTop="100.0dip" android:layout_marginRight="65.0dip">
+        <TextView android:textSize="26.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_width="222.0dip" android:layout_height="wrap_content" android:text="@string/guide_call_speaker" android:singleLine="true" />
+        <TextView android:textSize="26.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/guideBtnMute" android:layout_width="222.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/guide_call_mute" android:singleLine="true" />
+        <TextView android:textSize="26.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_width="222.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/guide_call_headset" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/GuideImvVoiceCallAniSmall" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <ImageView android:id="@id/GuideImvVoiceCallAni" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</LinearLayout>

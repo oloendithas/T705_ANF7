@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_layout" android:background="@drawable/mg_contact_bg" android:paddingLeft="20.0dip" android:paddingTop="25.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/MagazineTitleTextAppearance" android:ellipsize="marquee" android:id="@id/app_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="30.0dip" android:text="@string/contacts" android:singleLine="true" android:layout_alignParentTop="true" android:contentDescription="@string/contactsList" />
+    <RelativeLayout android:id="@id/sub_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/app_title">
+        <TextView android:textAppearance="@style/MagazineDisplayNameAppearance" android:id="@id/single_birthday" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" />
+        <LinearLayout android:orientation="vertical" android:id="@id/multiple_birthday" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="@style/MagazineSubTitleAppearance" android:ellipsize="marquee" android:id="@id/sub_title" android:fadingEdgeLength="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="24.0dip" android:singleLine="true" />
+            <TextView android:textAppearance="@style/MagazineDisplayNameAppearance" android:ellipsize="marquee" android:id="@id/display_name" android:fadingEdgeLength="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="24.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/app_image1" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/magazine_contacts" android:scaleType="centerCrop" android:layout_alignParentBottom="true" />
+</RelativeLayout>

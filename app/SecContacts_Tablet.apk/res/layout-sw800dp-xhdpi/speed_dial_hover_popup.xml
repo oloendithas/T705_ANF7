@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/searchresult_list" android:background="@drawable/phone_dialer_popup_bg_c" android:layout_width="267.0dip" android:layout_height="69.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/searchresult_picture" android:duplicateParentState="true" android:layout_width="69.0dip" android:layout_height="69.0dip" android:layout_marginLeft="1.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/searchresult_list_sub" android:duplicateParentState="true" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip">
+        <TextView android:textSize="18.0dip" android:textColor="@color/dialer_hover_name" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/searchresult_name" android:duplicateParentState="true" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:singleLine="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/dialer_hover_number" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/searchresult_number" android:duplicateParentState="true" android:layout_width="180.0dip" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/secondary_action_view_container" android:focusable="true" android:nextFocusLeft="@id/actions_view_container" android:duplicateParentState="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/quick_contact_list_icon_padding_easymode" android:layout_weight="1.0">
+        <ImageButton android:id="@id/secondary_action_button" android:padding="@dimen/quick_contact_list_action_icon_padding_easymode" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:onClick="@null" />
+    </LinearLayout>
+</merge>

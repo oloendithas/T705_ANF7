@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assistant-list>
+    <button name="@string/contactsContactsLabel" resource="@drawable/assistant_menu_icon_phone_contacts" action="com.android.contacts.activities.PeopleActivity.All" />
+    <button name="@string/strequentList" resource="@drawable/assistant_menu_icon_general_favorite" action="com.android.contacts.activities.PeopleActivity.Favourites" />
+    <button name="@string/launcherDialer" resource="@drawable/assistant_menu_icon_phone_logs" action="com.android.contacts.activities.PeopleActivity.Phone" />
+    <button name="@string/menu_deleteContact" resource="@drawable/assistant_menu_icon_general_delete" action="com.android.contacts.activities.PeopleActivity.Delete" />
+    <button name="@string/menu_editContact" resource="@drawable/assistant_menu_icon_general_edit" action="com.android.contacts.activities.PeopleActivity.Edit" />
+</assistant-list>

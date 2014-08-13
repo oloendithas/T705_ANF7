@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>କଲ୍</item>
+        <item>ସନ୍ଦେଶ ପ୍ରେ.</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>ଫୋନ୍</item>
+        <item>SIM</item>
+        <item>ଗୁଗଲ</item>
+        <item>ୟାହୁ</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>ସମସ୍ତ</item>
+        <item>ଫୋନ୍</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>ପ୍ରଥମ ନାମ ଶେଷ ନାମ</item>
+        <item>ଶେଷ ନାମ ପ୍ରଥମ ନାମ</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>ସୋମ</item>
+        <item>ମ.</item>
+        <item>ବୁଧ</item>
+        <item>ଗୁରୁ</item>
+        <item>ଶୁ.</item>
+        <item>ଶନି</item>
+        <item>ରବି</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ଅଆଇଈଉଊଋୠଏଐଓଔକଖଗଘଙଚଛଜଝଞଟଠଡଢଡ଼ଢ଼ଣତଥଦଧନପଫବଭମଯୟରଲଳୱଶଷସହ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>ଅଆଇଈଉଊଋୠଏଐଓଔକଖଗଘଙଚଛଜଝଞଟଠଡଢଡ଼ଢ଼ଣତଥଦଧନପଫବଭମଯୟରଲଳୱଶଷସହABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>ସଂସ୍ଥା</item>
+        <item>ଟିପ୍ପଣୀ।</item>
+    </string-array>
+</resources>

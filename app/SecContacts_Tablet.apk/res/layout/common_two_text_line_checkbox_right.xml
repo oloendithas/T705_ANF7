@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:paddingLeft="@dimen/group_member_item_left_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_two_line_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/ListPrimaryTextAppearance" android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" />
+        <TextView android:textAppearance="@style/ListSecondaryTextAppearance" android:id="@id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_width="54.0dip" android:layout_height="54.0dip">
+        <com.sec.android.touchwiz.widget.TwCheckBox android:id="@id/checkbox" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

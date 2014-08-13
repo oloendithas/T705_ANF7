@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dialer_part_onehand" android:visibility="gone" android:layout_width="360.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/Linewrapper" android:layout_width="360.0dip" android:layout_height="327.0dip">
+        <ImageButton android:id="@id/leftarrowbutton" android:background="@null" android:visibility="visible" android:nextFocusRight="@id/videocallbutton" android:clickable="true" android:layout_width="46.0dip" android:layout_height="49.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="120.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/APKTOOL_DUMMY_0081" android:scaleType="center" android:contentDescription="@string/left_handed" />
+        <LinearLayout android:id="@id/leftarrowbuttondummy1" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="24.0dip" />
+        <LinearLayout android:id="@id/leftarrowbuttondummy" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="24.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/keypadani" android:layout_width="267.0dip" android:layout_height="270.0dip" android:layout_marginTop="10.0dip">
+            <include layout="@layout/dialpad_onehand" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/dialbuttonset" android:layout_width="267.0dip" android:layout_height="54.0dip">
+                <ImageButton android:id="@id/callbutton" android:background="@drawable/vzw_outgoing_call_bg_call" android:layout_width="65.0dip" android:layout_height="54.0dip" android:src="@drawable/call_outgoing_call_icon_vzw" android:scaleType="fitXY" android:soundEffectsEnabled="false" android:contentDescription="@string/call" />
+                <ImageButton android:id="@id/videocallbutton" android:background="@drawable/vzw_outgoing_call_bg_call" android:layout_width="65.0dip" android:layout_height="54.0dip" android:src="@drawable/call_videocall_icon_vzw" android:scaleType="fitXY" android:soundEffectsEnabled="false" android:contentDescription="@string/video_call" />
+                <ImageButton android:id="@id/messagebutton" android:background="@drawable/call_dial_onehand_btn_bg" android:visibility="gone" android:layout_width="89.0dip" android:layout_height="54.0dip" android:src="@drawable/APKTOOL_DUMMY_0310" android:scaleType="fitXY" android:soundEffectsEnabled="false" android:contentDescription="@string/message" />
+                <ImageButton android:id="@id/voicedialerbutton" android:background="@drawable/vzw_videodialer_bg_call" android:layout_width="65.0dip" android:layout_height="54.0dip" android:src="@drawable/call_voice_dialer_icon_vzw" android:scaleType="fitXY" android:soundEffectsEnabled="false" android:contentDescription="@string/description_voice_dialer_button" />
+                <ImageButton android:id="@id/deleteButton" android:background="@drawable/vzw_back_bg_call" android:layout_width="65.0dip" android:layout_height="54.0dip" android:src="@drawable/call_back_icon_vzw" android:scaleType="fitXY" android:soundEffectsEnabled="false" android:contentDescription="@string/description_delete_button" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageButton android:id="@id/rightarrowbutton" android:background="@null" android:visibility="visible" android:nextFocusLeft="@id/deleteButton" android:clickable="true" android:layout_width="46.0dip" android:layout_height="49.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="120.0dip" android:src="@drawable/APKTOOL_DUMMY_0082" android:scaleType="center" android:contentDescription="@string/right_handed" />
+    </LinearLayout>
+</LinearLayout>

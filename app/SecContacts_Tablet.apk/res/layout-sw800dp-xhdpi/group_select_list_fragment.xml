@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/list_primary_text_color" android:layout_gravity="center" android:id="@id/button_create_field" android:background="@drawable/btn_default_holo_light" android:layout_width="404.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/insertGroupDescription" />
+    <View android:id="@id/group_select_list_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/popup_list_left_right_padding" android:layout_marginRight="@dimen/popup_list_left_right_padding" />
+    <ListView android:id="@android:id/list" android:paddingLeft="@dimen/popup_list_left_right_padding" android:paddingRight="@dimen/popup_list_left_right_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+</LinearLayout>

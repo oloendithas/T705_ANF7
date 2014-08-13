@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>通話</item>
+        <item>傳送訊息</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>電話</item>
+        <item>SIM 卡</item>
+        <item>Google</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>全部</item>
+        <item>電話</item>
+        <item>SIM 卡</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>名字姓氏</item>
+        <item>先姓後名</item>
+    </string-array>
+    <string-array name="delete_group_menu">
+        <item>Only group</item>
+        <item>群組及群組中所有的聯絡人</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>週一</item>
+        <item>週二</item>
+        <item>週三</item>
+        <item>週四</item>
+        <item>週五</item>
+        <item>週六</item>
+        <item>週日</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>組織</item>
+        <item>備註</item>
+    </string-array>
+</resources>

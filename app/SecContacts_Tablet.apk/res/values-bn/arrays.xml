@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>কল</item>
+        <item>বার্তা পাঠান</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>ফোন</item>
+        <item>SIM</item>
+        <item>গুগল</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>সমস্ত</item>
+        <item>ফোন</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>প্রথম নাম শেষের নাম</item>
+        <item>শেষের নাম প্রথম নাম</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>সোম</item>
+        <item>মঙ্গল</item>
+        <item>বুধ</item>
+        <item>বৃহস্</item>
+        <item>শুক্র</item>
+        <item>শনি</item>
+        <item>রবি</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>অআইঈউঊঋএঐওঔকখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>প্রতিষ্ঠান</item>
+        <item>নোট</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="contact_tile_name_textsize_max">12</integer>
+    <integer name="contact_tile_name_textsize_max_with_callbutton">9</integer>
+    <integer name="contact_tile_column_count">3</integer>
+    <integer name="call_log_list_max_display">10</integer>
+    <integer name="log_split_view_inner_margin">16</integer>
+</resources>

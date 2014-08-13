@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.shared" package="com.android.contacts">
+    <original-package android:name="com.android.contacts"/>
+    <permission android:name="com.sec.android.app.permission.NFC_IMPORT" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.STATUS_BAR"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.WRITE_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_SOCIAL_STREAM"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.mail"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="com.sec.android.provider.logsprovider.permission.READ_LOGS"/>
+    <uses-permission android:name="com.sec.android.provider.logsprovider.permission.WRITE_LOGS"/>
+    <uses-permission android:name="com.android.voicemail.permission.ADD_VOICEMAIL"/>
+    <uses-permission android:name="com.android.voicemail.permission.READ_WRITE_ALL_VOICEMAIL"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="com.samsung.android.app.assistantmenu.permission.ADVERTISE_ASSISTANTMENU"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER"/>
+    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT"/>
+    <uses-permission android:name="com.sec.permission.preconfig"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="com.sec.android.app.twdvfs.DVFS_BOOSTER_PERMISSION"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="com.sec.android.provider.logsprovider.permission.RESET"/>
+    <uses-permission android:name="com.sec.android.provider.contactsprovider.permission.RESET"/>
+    <uses-permission android:name="com.sec.android.phone.permission.READ_CALL_SETTINGS"/>
+    <uses-permission android:name="com.sec.android.phone.permission.WRITE_CALL_SETTINGS"/>
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+    <uses-permission android:name="com.sec.android.app.factorymode.permission.KEYSTRING"/>
+    <uses-permission android:name="com.samsung.helphub.permission.HELP"/>
+    <uses-permission android:name="com.sec.android.app.sns3.permission.READ_SNS_DB"/>
+    <uses-permission android:name="com.sec.android.app.sns3.permission.RECEIVE_SNS_BROADCAST"/>
+    <uses-permission android:name="com.samsung.rcs.settings.READ_PERMISSION"/>
+    <uses-permission android:name="com.samsung.rcs.settings.WRITE_PERMISSION"/>
+    <uses-permission android:name="com.samsung.rcs.presence.READ_PERMISSION"/>
+    <uses-permission android:name="com.samsung.rcs.presence.WRITE_PERMISSION"/>
+    <uses-permission android:name="com.samsung.rcs.serviceprovider.READ_PERMISSION"/>
+    <uses-permission android:name="com.samsung.rcs.serviceprovider.WRITE_PERMISSION"/>
+    <uses-permission android:name="com.samsung.rcs.permission.RCS_APP_PERMISSION"/>
+    <uses-permission android:name="com.sec.ims.android.rcs.READ_PERMISSION"/>
+    <uses-permission android:name="com.samsung.commonimsinterface.PERMISSION"/>
+    <uses-permission android:name="com.sec.ims.android.volteenabled.READ_PERMISSION"/>
+    <uses-permission android:name="com.sec.ims.android.volteenabled.WRITE_PERMISSION"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="com.sec.android.util.HiddenMenuContent.READ_PERMISSION"/>
+    <uses-permission android:name="com.sec.android.util.HiddenMenuContent.WRITE_PERMISSION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+    <uses-permission android:name="com.samsung.android.permission.SSRM_NOTIFICATION_PERMISSION"/>
+    <uses-permission android:name="sstream.app.StoryProvider.WRITE.PERMISSION"/>
+    <uses-permission android:name="com.sec.android.app.parser.permission.SERVICE"/>
+    <application android:hardwareAccelerated="false" android:icon="@drawable/mainmenu_icon_contacts" android:label="@string/contactsList" android:largeHeap="true" android:name="com.android.contacts.ContactsApplication" android:restrictedAccountType="com.google" android:taskAffinity="android.task.contacts">
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:resource="@dimen/app_defaultsize_w"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H" android:resource="@dimen/app_defaultsize_h"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W" android:resource="@dimen/app_minimumsize_w"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:resource="@dimen/app_minimumsize_h"/>
+        <meta-data android:name="android.nfc.disable_beam_default" android:value="true"/>
+        <meta-data android:name="sstream.app.SSTREAM_IS_SUPPORTED" android:value="true"/>
+        <meta-data android:name="sstream.app.SSTREAM_ID" android:value="samsung.personal"/>
+        <meta-data android:name="sstream.app.SSTREAM_ICON_SELECTED" android:resource="@drawable/mux_settings_personal_phone"/>
+        <meta-data android:name="sstream.app.SSTREAM_ICON_UNSELECTED" android:resource="@drawable/mux_settings_personal_phone_dim"/>
+        <meta-data android:name="sstream.app.SSTREAM_TITLE" android:resource="@string/launcherDialer"/>
+        <meta-data android:name="sstream.app.SSTREAM_SOURCE_ICON" android:resource="@drawable/mux_settings_ic_phone"/>
+        <meta-data android:name="rcpFileCopier" android:value=""/>
+        <uses-library android:name="touchwiz"/>
+        <uses-library android:name="sec_feature"/>
+        <uses-library android:name="com.sec.android.app.multiwindow" android:required="false"/>
+        <uses-library android:name="smatlib" android:required="false"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/recentCallsIconLabel" android:name="com.sec.android.app.dialertab.calllog.CallLogActivity" android:theme="@style/DialtactsTheme">
+            <intent-filter>
+                <action android:name="contacts.com.sec.android.app.dialertab.calllog.CallLogActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.NonPhoneActivity" android:theme="@style/Theme.QuickContact">
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.item/phone"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="voicemail"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.dir/calls"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.CALL_BUTTON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|uiMode|screenSize" android:enabled="@android:bool/config_voice_capable" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_phone" android:label="@string/launcherDialer" android:launchMode="singleTask" android:name=".activities.DialtactsActivity" android:taskAffinity="android.task.contacts.phone" android:theme="@style/DialtactsTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustNothing">
+            <meta-data android:name="com.samsung.android.multiuser.install_only_owner" android:value="true"/>
+            <intent-filter android:label="@string/recentCallsIconLabel">
+                <action android:name="com.android.phone.action.RECENT_CALLS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.item/phone"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="voicemail"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="nametel"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.dir/calls"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_BUTTON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.phone.action.TOUCH_DIALER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.minimode.icon.portrait.normal" android:resource="@drawable/mainmenu_icon_phone"/>
+            <meta-data android:name="com.sec.minimode.icon.landscape.normal" android:resource="@drawable/mainmenu_icon_phone"/>
+            <intent-filter>
+                <action android:name="android.intent.action.SPELL"/>
+            </intent-filter>
+            <meta-data android:name="android.app.spellscroll" android:resource="@xml/spellscroll"/>
+            <intent-filter>
+                <action android:name="com.sec.android.airview.HOVER"/>
+            </intent-filter>
+            <meta-data android:name="favoriteAppsWidget.LINK" android:value="com.sec.android.app.dialertab.calllog.PhoneWidget"/>
+            <meta-data android:name="assistant_menu" android:resource="@xml/assistant_menu"/>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:label="@string/swipe_tips_title" android:name="com.sec.android.app.dialertab.calllog.CalllogTipsActivity" android:theme="@style/ContactTipsActivityTheme"/>
+        <activity android:clearTaskOnLaunch="true" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_contacts" android:label="@string/contacts" android:launchMode="singleTop" android:name=".activities.PeopleActivity" android:theme="@style/PeopleTabTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+                <category android:name="android.intent.category.APP_CONTACTS"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LIST_DEFAULT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LIST_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LIST_ALL_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LIST_CONTACTS_WITH_PHONES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter android:label="@string/starredList">
+                <action android:name="com.android.contacts.action.LIST_STARRED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter android:label="@string/frequentList">
+                <action android:name="com.android.contacts.action.LIST_FREQUENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter android:label="@string/strequentList">
+                <action android:name="com.android.contacts.action.LIST_STREQUENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.FILTER_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/person"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.action.ADD_A_CONTACT_TUTORIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.action.SPEEDDIAL_TUTORIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+            <meta-data android:name="com.sec.minimode.icon.portrait.normal" android:resource="@drawable/mainmenu_icon_contacts"/>
+            <meta-data android:name="com.sec.minimode.icon.landscape.normal" android:resource="@drawable/mainmenu_icon_contacts"/>
+            <meta-data android:name="favoriteAppsWidget.LINK" android:value="com.sec.android.app.contacts.magazine.MagazineContactIconWidgetProvider"/>
+            <meta-data android:name="com.samsung.android.support.lotus" android:value="true"/>
+            <meta-data android:name="assistant_menu" android:resource="@xml/assistant_menu"/>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:hardwareAccelerated="true" android:label="@string/contactsList" android:launchMode="singleTop" android:name=".activities.ContactSelectionActivity" android:theme="@style/ContactPickerTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT_OR_EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+                <data android:mimeType="vnd.android.cursor.dir/person"/>
+                <data android:mimeType="vnd.android.cursor.dir/phone_v2"/>
+                <data android:mimeType="vnd.android.cursor.dir/phone"/>
+                <data android:mimeType="vnd.android.cursor.dir/postal-address_v2"/>
+                <data android:mimeType="vnd.android.cursor.dir/postal-address"/>
+                <data android:mimeType="vnd.android.cursor.dir/email_v2"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/phone_v2"/>
+                <data android:mimeType="vnd.android.cursor.item/phone"/>
+                <data android:mimeType="vnd.android.cursor.item/postal-address_v2"/>
+                <data android:mimeType="vnd.android.cursor.item/postal-address"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:hardwareAccelerated="true" android:name="com.sec.android.app.contacts.interaction.InteractionTabActivity" android:targetActivity="InteractionTabActivity" android:theme="@style/ContactPickerTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="intent.action.INTERACTION_TAB"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="intent.action.INTERACTION_LIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="intent.action.INTERACTION_TOPMENU"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="com.android.contacts" android:mimeType="text/x-vcard"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name="com.sec.android.app.contacts.interaction.InteractionGroupSelectionActivity" android:taskAffinity="" android:theme="@style/ContactPickerTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.action.INTERACTION_GROUP_SELECT_MEMBER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="intent.action.INTERACTION_ICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:label="@string/emergency_contacts_title" android:name="com.sec.android.app.contacts.emergency.InteractionEmergencyMessageActivity" android:taskAffinity="" android:theme="@style/ContactPickerTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.action.INTERACTION_EMERGENCY_MESSAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.sec.android.app.contacts.emergency.InteractionEmergencyMessageDeleteActivity" android:taskAffinity="" android:theme="@style/ContactPickerTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.action.INTERACTION_EMERGENCY_MESSAGE_DELETE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:name="ContactsListActivity" android:targetActivity=".activities.PeopleActivity"/>
+        <activity-alias android:exported="true" android:name=".activities.ContactsFrontDoor" android:targetActivity=".activities.PeopleActivity"/>
+        <activity-alias android:exported="true" android:name="DialtactsContactsEntryActivity" android:targetActivity=".activities.PeopleActivity"/>
+        <activity-alias android:exported="true" android:name="DialtactsActivity" android:targetActivity=".activities.DialtactsActivity"/>
+        <activity-alias android:enabled="@bool/add_logs_shortcut" android:exported="true" android:icon="@drawable/ic_launcher_log" android:label="@string/tab_logs" android:name="com.sec.android.app.contacts.RecntcallEntryActivity" android:targetActivity=".activities.DialtactsActivity">
+            <meta-data android:name="com.samsung.android.multiuser.install_only_owner" android:value="true"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:clearTaskOnLaunch="true" android:hardwareAccelerated="true" android:name=".activities.JoinContactActivity" android:theme="@style/JoinContactActivityTheme">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.JOIN_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name=".activities.NamecardListActivity" android:theme="@style/NamecardListTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.SHOW_NAMECARD_LIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name=".activities.NamecardViewer" android:screenOrientation="landscape" android:theme="@style/JoinContactActivityTheme">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.SHOW_NAMECARD_VIEWER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:hardwareAccelerated="true" android:name="com.sec.android.app.contacts.activities.JoinedContactActivity" android:theme="@style/JoinedContactActivityTheme">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.JOINED_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:label="@string/activity_title_settings" android:name=".preference.ContactsPreferenceActivity" android:theme="@style/ContactsPreferencesTheme"/>
+        <activity android:name="com.sec.android.app.contacts.activities.ServiceNumbers" android:theme="@style/ContactsPreferencesTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.SERVICE_NUMBER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sec.android.app.contacts.activities.SendContactOption" android:theme="@style/ContactsPreferencesTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/activity_title_contacts_filter" android:name=".list.AccountFilterActivity" android:theme="@style/ContactListFilterTheme"/>
+        <activity android:label="@string/custom_list_filter" android:name=".list.CustomContactListFilterActivity" android:theme="@style/ContactListFilterTheme"/>
+        <activity android:configChanges="orientation|screenSize" android:name=".activities.ShowOrCreateActivity" android:theme="@style/ShowOrCreateActivityTheme">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.SHOW_OR_CREATE_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="mailto"/>
+                <data android:scheme="tel"/>
+                <data android:scheme="name"/>
+                <data android:scheme="sip"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:label="@string/contactsGroupsLabel" android:launchMode="singleTop" android:name=".activities.GroupBrowserActivity" android:theme="@style/PeopleTheme" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:excludeFromRecents="true" android:hardwareAccelerated="true" android:label="" android:name=".activities.GroupDetailActivity" android:taskAffinity="" android:theme="@style/PeopleTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.SHOW_EMERGENCY_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name=".activities.GroupEditorActivity" android:theme="@style/GroupActivityTheme" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.sec.android.app.contacts.activities.ContactMultiSelectionActivity" android:theme="@style/GroupActivityTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.action.GROUP_EDIT_MEMBER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.action.GROUP_DELETE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.action.PICK_ACCOUNT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:hardwareAccelerated="false" android:launchMode="singleTop" android:name=".quickcontact.QuickContactActivity" android:noHistory="true" android:taskAffinity="android.task.quickcontact" android:theme="@style/Theme.QuickContact" android:windowSoftInputMode="stateUnchanged">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.QUICK_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name=".quickcontact.PackageIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <activity-alias android:enabled="@bool/remove_shortcut" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_shortcut_contact" android:label="@string/shortcutContact" android:name="ContactShortcut" android:targetActivity=".activities.ContactSelectionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="@android:bool/config_voice_capable" android:icon="@mipmap/ic_launcher_shortcut_directdial" android:label="@string/shortcutDialContact" android:name="alias.DialShortcut" android:targetActivity=".activities.ContactSelectionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.CAR_MODE"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.multiuser.install_only_owner" android:value="true"/>
+        </activity-alias>
+        <activity-alias android:enabled="@bool/config_message_capable" android:icon="@mipmap/ic_launcher_shortcut_directmessage" android:label="@string/shortcutMessageContact" android:name="alias.MessageShortcut" android:targetActivity=".activities.ContactSelectionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.multiuser.install_only_owner" android:value="true"/>
+        </activity-alias>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@mipmap/ic_launcher_phone" android:label="@string/callDetailTitle" android:name="com.sec.android.app.dialertab.calllog.CallDetailActivity" android:taskAffinity="android.task.contacts.phone" android:theme="@style/CallDetailActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/calls"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.app.dialertab.calllog.MISSED_CALL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:hardwareAccelerated="true" android:label="@string/viewContactTitle" android:name=".activities.ContactDetailActivity" android:taskAffinity="" android:theme="@style/ContactDetailActivityTheme">
+            <intent-filter android:label="@string/viewContactDesription">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:name="com.sec.android.app.contacts.activities.SetDefaultActivity" android:theme="@style/ContactDetailActivityTheme">
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.action.SET_DEFAULT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:exported="false" android:label="@string/activity_title_confirm_add_detail" android:name=".activities.ConfirmAddDetailActivity" android:theme="@style/ConfirmAddDetailDialogTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name=".activities.ContactEditorAccountsChangedActivity" android:theme="@style/BackgroundOnlyTheme" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:hardwareAccelerated="true" android:name=".activities.ContactEditorActivity" android:theme="@style/EditorActivityTheme" android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter android:label="@string/editContactDescription">
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+            <intent-filter android:label="@string/insertContactDescription">
+                <action android:name="android.intent.action.INSERT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/person"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+                <data android:mimeType="vnd.android.cursor.dir/raw_contact"/>
+                <data android:mimeType="vnd.android.cursor.dir/QRperson"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:name=".test.FragmentTestActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.TEST"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name=".util.EmptyService"/>
+        <service android:exported="false" android:name=".ContactSaveService"/>
+        <activity android:label="@string/attach_photo_dialog_title" android:name=".activities.AttachPhotoActivity" android:taskAffinity="" android:theme="@style/BackgroundOnlyTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.ATTACH_DATA"/>
+                <data android:mimeType="image/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter> /&gt;
+</activity>
+        <activity android:exported="true" android:name="CallContactActivity" android:theme="@style/BackgroundOnlyTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".vcard.ImportVCardActivity" android:theme="@style/BackgroundOnlyTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:mimeType="text/directory"/>
+                <data android:mimeType="text/vcard"/>
+                <data android:mimeType="text/x-vcard"/>
+                <data android:mimeType="text/x-vCard"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".vcard.ImportVCardPreviewActivity" android:theme="@style/VcardPreviewTheme">
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.action.VCARD_PREVIEW"/>
+                <data android:mimeType="text/directory"/>
+                <data android:mimeType="text/vcard"/>
+                <data android:mimeType="text/x-vcard"/>
+                <data android:mimeType="text/x-vCard"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".vcard.NfcImportVCardActivity" android:permission="com.sec.android.app.permission.NFC_IMPORT" android:theme="@style/BackgroundOnlyTheme">
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <data android:mimeType="text/vcard"/>
+                <data android:mimeType="text/x-vcard"/>
+                <data android:mimeType="text/x-vCard"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name=".vcard.CancelActivity" android:taskAffinity="" android:theme="@style/BackgroundOnlyTheme"/>
+        <activity android:name=".vcard.SelectAccountActivity" android:theme="@style/BackgroundOnlyTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".vcard.ExportVCardActivity" android:theme="@style/BackgroundOnlyTheme"/>
+        <activity android:excludeFromRecents="true" android:name="com.sec.android.app.contacts.vcard.ImportFinishActivity" android:taskAffinity="" android:theme="@style/BackgroundOnlyTheme"/>
+        <service android:exported="false" android:name=".vcard.VCardService"/>
+        <activity android:name=".widget.PinnedHeaderListDemoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:enabled="false" android:label="@string/social_widget_label" android:name=".socialwidget.SocialWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/social_widget_info"/>
+        </receiver>
+        <activity android:clearTaskOnLaunch="true" android:hardwareAccelerated="true" android:label="@string/menu_add_to_private" android:name="com.sec.android.app.contacts.activities.PrivateContactsActivity" android:theme="@style/ContactPickerTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:clearTaskOnLaunch="true" android:hardwareAccelerated="true" android:label="@string/menu_multiple_delete" android:name="com.sec.android.app.contacts.activities.DeleteContactsActivity" android:theme="@style/ContactPickerTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.action.CONTACTS_DELETE_IN_GROUP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:label="@string/menu_multiple_delete_for_tablet" android:name="com.sec.android.app.contacts.activities.ContactTipsActivity" android:theme="@style/ContactTipsActivityTheme"/>
+        <activity android:icon="@drawable/title_icon_backup_assistant_plus" android:label="@string/contact_vzw_backup_assistant_title" android:name="com.sec.android.app.contacts.activities.VerizonBackupAssistantActivity" android:theme="@style/ContactHistoryActivityTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.sec.android.app.contacts.activities.ContactHistoryActivity" android:theme="@style/ContactHistoryActivityTheme">
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.action.HISTORY_LIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="com.sec.android.app.contacts.activities.SIMContactSelectionActivity" android:theme="@style/GroupActivityTheme">
+            <intent-filter>
+                <action android:name="intent.action.EXPORT_SIM_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="intent.action.IMPORT_SIM_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/sim-contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_IMPORT_START"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="intent.action.EXPORT_SIM2_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="intent.action.IMPORT_SIM2_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/sim-contact"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <receiver android:name="com.sec.android.app.dialertab.calllog.CallLogReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_VOICEMAIL"/>
+                <data android:host="com.android.voicemail" android:mimeType="vnd.android.cursor.item/voicemail" android:scheme="content"/>
+            </intent-filter>
+            <intent-filter android:priority="100">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BCS_REQUEST"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name=".socialwidget.SocialWidgetConfigureActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.APPWIDGET_PICK"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sec.android.app.contacts.activities.SelectContactInfoActivity" android:theme="@style/ContactDetailActivityTheme">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.SEND_INFO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="com.sec.android.app.contacts.activities.GroupSelectionActivity" android:theme="@style/EditorActivityTheme">
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.action.SELECT_GROUP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.sec.android.app.contacts.activities.SpeedDialActivity" android:theme="@style/SpeedDialActivityTheme">
+            <intent-filter>
+                <action android:name="com.sec.android.contacts.activities.action.SPEED_DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.sec.android.app.contacts.list.SpeedDialListActivity" android:theme="@style/SpeedDialActivityTheme">
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.list.action.SPEED_DIAL_LIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:multiprocess="true" android:name="com.sec.android.app.contacts.activities.VibrationPickerActivity" android:process=":ui" android:theme="@android:style/Theme.DeviceDefault.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.intent.action.VIBRATION_PICKER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.sec.android.app.contacts.ContactsReceiver">
+            <intent-filter>
+                <action android:name="android.settings.FONT_SIZE_CHANGED"/>
+                <action android:name="com.sec.android.gate.GATE"/>
+                <action android:name="com.sec.knox.containeragent.bridge.2wayflag"/>
+                <action android:name="com.sec.knox.containeragent.bridge.device_personal"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.android.app.contacts.interaction.CscReceiver">
+            <intent-filter>
+                <action android:name="com.android.mms.transaction.CscReceiver"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.sec.android.app.dialertab.calllog.CallDurationTabActivity" android:theme="@style/CallDurationActivityTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.sec.android.app.dialertab.calllog.CallDurationActivity" android:theme="@style/CallDurationActivityTheme"/>
+        <activity android:name="com.sec.android.app.dialertab.calllog.InteractionRecentActivity" android:theme="@style/CallDetailActivityTheme">
+            <intent-filter>
+                <action android:name="intent.action.INTERACTION_LOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.sec.android.app.dialertab.calllog.LogsDeleteActivity" android:theme="@style/CallDetailActivityTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.sec.android.app.dialertab.calllog.LogsSelectActivity" android:theme="@style/CallDetailActivityTheme">
+            <intent-filter>
+                <action android:name="contacts.com.sec.android.app.dialertab.calllog.LogsSelectActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@mipmap/ic_launcher_phone" android:label="@string/callDetailTitle" android:name="com.sec.android.app.dialertab.calllog.CallDetailDeleteActivity" android:taskAffinity="android.task.contacts.phone" android:theme="@style/CallDetailActivityTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.sec.android.app.dialertab.calllog.CallDetailAllCallsActivity" android:theme="@style/CallDetailActivityTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sec.android.app.dialertab.dialpad.VVM"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.android.app.contacts.activities.ContactHistoryViewByActivity" android:theme="@style/ContactHistoryActivityTheme"/>
+        <receiver android:name="com.sec.android.app.contacts.util.FaceTagBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.SAVE_CROPPED_PHOTO"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.android.app.contacts.activities.GroupChangeOrderActivity" android:theme="@style/GroupActivityTheme">
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <provider android:authorities="com.sec.android.app.contacts.magazine.RotationProvider" android:exported="true" android:name="com.sec.android.app.contacts.magazine.MagazineWidgetRotationProvider">
+            <meta-data android:name="contentprovider.FOR_MAGAZINE" android:value="true"/>
+        </provider>
+        <activity android:label="@string/menu_contact_counter" android:name="com.sec.android.app.contacts.activities.ContactCounterActivity" android:theme="@style/ContactListFilterTheme"/>
+        <service android:exported="false" android:name="com.sec.android.app.dialertab.calllog.CallLogNotificationsService"/>
+        <receiver android:name="com.sec.android.app.contacts.sim.ContactBroadCastReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.intent.action.SIM_DB_INIT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.intent.action.PB_SYNC"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.FDN_MODE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.intent.action.SIM2_DB_INIT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.intent.action.PB2_SYNC"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.FDN2_MODE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.bluetooth.sap.intent.action.SAP_STATE_NOTIFY_ACTION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.android.app.contacts.util.ClearContactDatabaseReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_DATA_CLEARED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.android.app.dialertab.calllog.ClearLogsDatabaseReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_DATA_CLEARED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:name="com.sec.android.app.contacts.sim.MakeSimDBService"/>
+        <service android:enabled="true" android:name="com.sec.android.app.contacts.sim.MakeSim2DBService"/>
+        <receiver android:name="com.sec.android.app.contacts.sim.PhoneBookSimManagementBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.settings.SIMCARD_MGT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ACTION_REGCARD_CARDNAME_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ACTION_REGCARD_ICON_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="com.sec.android.app.contacts.activities.FavoriteInterfaceActivity" android:theme="@style/ContactPickerTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.action.FAVORITE_DELETE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.action.FAVORITE_ADD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="forceTitleBar"/>
+        </activity>
+        <activity android:label="@string/contacts" android:name="com.sec.android.app.contacts.activities.DoubleTapTutorialActivity" android:theme="@style/PeopleTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/contacts" android:name="com.sec.android.app.contacts.activities.TiltToScrollListTutorialActivity" android:theme="@style/PeopleTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.sec.android.app.contacts.util.ATCommandReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BCS_REQUEST"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/service_numbers" android:name="com.sec.android.app.contacts.activities.ServiceNumbersTabActivity" android:theme="@style/ContactHistoryActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="com.sec.android.app.contacts.activities.ContactResolverActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.android.app.contacts.activities.RingtoneRecommendationHelperActivity" android:theme="@style/ContactTipsActivityTheme">
+            <intent-filter>
+                <action android:name="com.sec.android.contacts.action.ringtonerecommendation"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.sec.android.app.contacts.emergency.EmergencyMessageContactCreateActivity" android:theme="@style/EditorActivityTheme" android:windowSoftInputMode="stateVisible|adjustResize">
+            <intent-filter>
+                <action android:name="com.sec.android.contacts.action.emergencymessagecontactcreateactivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.android.app.contacts.activities.SamsungAccountValidationCheckActivity" android:theme="@style/ContactTipsActivityTheme">
+            <intent-filter>
+                <action android:name="com.sec.android.contacts.action.samsungaccountvalidationcheck"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|screenSize" android:icon="@mipmap/ic_launcher_phone" android:name="com.sec.android.app.dialertab.dialerguide.DialerGuideActivity" android:theme="@style/DialtactsTheme" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.DialerHelpActivity"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:enabled="@bool/support_search_feature" android:exported="true" android:icon="@drawable/ic_launcher_log" android:label="@string/tab_logs" android:name="com.sec.android.app.dialertab.calllog.LogsSearchResultsActivity" android:theme="@style/CallDetailActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/logs_searchable"/>
+        </activity>
+        <provider android:authorities="com.sec.android.app.dialertab.calllog.LogsSuggestionsProvider" android:enabled="@bool/support_search_feature" android:exported="true" android:name="com.sec.android.app.dialertab.calllog.LogsSuggestionsProvider">
+            <path-permission android:pathPrefix="com.sec.android.app.dialertab.calllog.LogsSuggestionsProvider/search_suggest_query" android:readPermission="android.permission.GLOBAL_SEARCH"/>
+            <path-permission android:pathPrefix="/search_suggest_shortcut" android:readPermission="android.permission.GLOBAL_SEARCH"/>
+        </provider>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="com.sec.android.app.dialertab.calllog.DirectCallTutorialActivity" android:theme="@android:style/Theme.DeviceDefault.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="com.sec.android.app.dialertab.calllog.FakeCallActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.DeviceDefault"/>
+        <receiver android:name="com.sec.android.app.dialertab.calllog.DirectCallTutorialReceiver">
+            <intent-filter>
+                <action android:name="com.android.contacts.ui.DirectCallTutorial"/>
+            </intent-filter>
+        </receiver>
+        <activity android:enabled="@android:bool/config_voice_capable" android:excludeFromRecents="true" android:label="@string/tab_logs" android:name="com.sec.android.app.dialertab.calllog.LogsFindoSearchResultsActivity" android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.INSIGHT_SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/findo_searchable"/>
+        </activity>
+        <provider android:authorities="com.sec.android.app.dialertab.calllog.LogsFindoSuggestionsProvider" android:enabled="@android:bool/config_voice_capable" android:exported="true" android:name="com.sec.android.app.dialertab.calllog.LogsFindoSuggestionsProvider">
+            <path-permission android:pathPrefix="/search_suggest_regex_query" android:readPermission="android.permission.GLOBAL_SEARCH"/>
+        </provider>
+        <activity android:label="@string/service_numbers" android:name="com.sec.android.app.contacts.yellowpage.activities.YellowPageSelectCity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/service_numbers" android:name="com.sec.android.app.contacts.yellowpage.activities.YellowPageSubShopActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/service_numbers" android:name="com.sec.android.app.contacts.yellowpage.activities.YellowPageSubShopDetailActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/service_numbers" android:name="com.sec.android.app.contacts.yellowpage.activities.SelectMapActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@drawable/APKTOOL_DUMMY_09c0" android:name="com.sec.android.app.dialertab.calllog.VipmodeTabActivity">
+            <intent-filter>
+                <action android:name="contacts.com.sec.android.app.dialertab.calllog.VipmodeTabActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/recentCallsIconLabel" android:name="com.sec.android.app.dialertab.calllog.VipmodeActivity" android:theme="@style/DialtactsTheme">
+            <intent-filter>
+                <action android:name="contacts.com.sec.android.app.dialertab.calllog.VipmodeActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sec.android.app.dialertab.calllog.LogsSstreamActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="sstream"/>
+                <data android:host="storyitem"/>
+            </intent-filter>
+        </activity>
+        <receiver android:enabled="@bool/enable_phone_widget" android:icon="@drawable/mg_phone" android:label="@string/launcherDialer" android:name="com.sec.android.app.dialertab.calllog.PhoneWidget">
+            <meta-data android:name="com.samsung.android.multiuser.install_only_owner" android:value="true"/>
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED"/>
+                <action android:name="com.sec.android.widgetapp.APPWIDGET_RESIZE"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+                <action android:name="android.appwidget.action.FAVORITEAPPS_WIDGET"/>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/phone_widgets"/>
+        </receiver>
+        <activity android:name="com.sec.android.app.contacts.preference.ImportExportActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="com.sec.android.app.contacts.import_export"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="rcpFileCopier" android:value=""/>
+    </application>
+</manifest>

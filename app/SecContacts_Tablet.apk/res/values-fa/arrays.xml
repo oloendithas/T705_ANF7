@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>تماس</item>
+        <item>ارسال پیام</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>دستگاه</item>
+        <item>سیم کارت</item>
+        <item>Google</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>همه</item>
+        <item>دستگاه</item>
+        <item>سیم کارت</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>نام نام خانوادگی</item>
+        <item>نام خانوادگی نام</item>
+    </string-array>
+    <string-array name="delete_group_menu">
+        <item>Only group</item>
+        <item>گروه و تمام مخاطبین موجود در گروه</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>2ش</item>
+        <item>3ش</item>
+        <item>4ش</item>
+        <item>5ش</item>
+        <item>ج</item>
+        <item>ش</item>
+        <item>1ش</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>أبپتثجچحخدذرزژسشصضطظعغفقكگلمنهوي</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>ابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>سازمان</item>
+        <item>یادداشت</item>
+    </string-array>
+</resources>

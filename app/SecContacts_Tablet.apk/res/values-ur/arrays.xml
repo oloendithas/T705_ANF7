@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>کال</item>
+        <item>پیغام بھیجیں</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>فون</item>
+        <item>سم</item>
+        <item>Google</item>
+        <item>Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>تمام</item>
+        <item>فون</item>
+        <item>سم</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>پہلا نام آخری نام</item>
+        <item>آخری نام پہلا نام</item>
+    </string-array>
+    <string-array name="delete_group_menu">
+        <item>Only group</item>
+        <item>گروپ اور گروپ میں موجود تمام رابطہ افراد</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>پیر</item>
+        <item>منگل</item>
+        <item>بدھ</item>
+        <item>جمعرات</item>
+        <item>جمعہ</item>
+        <item>ہفتہ</item>
+        <item>اتوار</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>أبپتٹثجچحخدڈذرڑزژسشصضطظعغفقكگلمنهوئيے</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>ابپتٹثجچحخدڈذرڑژسشصضطظعغفقکگلمنوہھءیے</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>تنظیم</item>
+        <item>نوٹ</item>
+    </string-array>
+</resources>

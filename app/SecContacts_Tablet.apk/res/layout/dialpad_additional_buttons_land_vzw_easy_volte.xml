@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/dialpadAdditionalButtons_land" android:visibility="gone" android:layout_width="312.0dip" android:layout_height="65.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/videocallbutton" android:background="@drawable/vzw_outgoing_call_bg_call" android:layout_width="104.0dip" android:layout_height="65.0dip" android:src="@drawable/call_videocall_icon_vzw" android:scaleType="fitXY" android:soundEffectsEnabled="false" android:contentDescription="@string/description_voice_dialer_button" />
+    <ImageButton android:id="@id/messagebutton" android:background="@drawable/vzw_outgoing_call_bg_call" android:visibility="gone" android:layout_width="104.0dip" android:layout_height="65.0dip" android:src="@drawable/call_message_icon" android:scaleType="fitXY" android:soundEffectsEnabled="false" android:contentDescription="@string/send_message" />
+    <ImageButton android:id="@id/callbutton" android:background="@drawable/vzw_outgoing_call_bg_call" android:layout_width="208.0dip" android:layout_height="65.0dip" android:src="@drawable/APKTOOL_DUMMY_05d4" android:scaleType="fitXY" android:soundEffectsEnabled="false" android:contentDescription="@string/call" />
+</LinearLayout>

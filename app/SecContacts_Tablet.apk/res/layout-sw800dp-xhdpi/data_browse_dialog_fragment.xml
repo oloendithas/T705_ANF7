@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="?android:listDivider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/setPrimary_layout" android:paddingLeft="38.0dip" android:paddingRight="@dimen/contact_single_choice_horizontal_margin" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="29.0dip" android:minHeight="32.0dip">
+        <com.sec.android.touchwiz.widget.TwCheckBox android:layout_gravity="center" android:id="@id/setPrimary" android:background="@drawable/list_item_background" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/quick_contact_primary_text_size" android:textColor="@color/tw_contact_detail_list_primary" android:ellipsize="marquee" android:gravity="center_vertical" android:paddingLeft="8.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/make_primary" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

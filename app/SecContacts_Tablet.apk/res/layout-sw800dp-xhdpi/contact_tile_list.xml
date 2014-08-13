@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/contact_tile_list_layout" android:background="@drawable/tw_preference_contents_bg_holo_dark" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.contacts.widget.AutoScrollListView android:id="@id/contact_tile_list" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="14.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/contact_tile_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/port_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/noitem_image_view01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/noitems_text_based" />
+                <TextView android:textAppearance="@style/TwMainListNoContactsTextAppearance" android:gravity="center" android:id="@id/contact_tile_list_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/listTotalAllContactsZeroStarred" />
+                <TextView android:textAppearance="@style/TwMainListNoContactsTextAppearance" android:gravity="center" android:id="@id/contact_tile_list_empty1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/no_favourites_text" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/land_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/land_empty2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="472.0">
+                    <ImageView android:gravity="center" android:id="@id/noitem_image_view02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/noitems_text_based" />
+                    <TextView android:textAppearance="@style/TwMainListNoContactsTextAppearance" android:gravity="center" android:id="@id/contact_tile_list_empty2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/listTotalAllContactsZeroStarred" />
+                </LinearLayout>
+                <TextView android:textAppearance="@style/TwMainListNoContactsTextAppearance" android:gravity="center" android:id="@id/contact_tile_list_empty3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/no_favourites_text" android:layout_weight="528.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/custom_bottom_action_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/search_button" android:background="@drawable/contacts_list_create_contact_button_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_ab_search_holo_dark" android:scaleType="center" />
+    </LinearLayout>
+    <View android:id="@id/action_bar_divider" android:background="@color/list_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/custom_bottom_action_bar" />
+</RelativeLayout>

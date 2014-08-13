@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_items">
+        <item>Telefono</item>
+        <item>Dërgo mesazh</item>
+    </string-array>
+    <string-array name="save_new_contacts_to_array">
+        <item>Telefon</item>
+        <item>SIM</item>
+        <item>Google</item>
+        <item>Rezultatet e Yahoo</item>
+        <item>MSN</item>
+    </string-array>
+    <string-array name="view_contacts_from_array">
+        <item>Të gjitha</item>
+        <item>Telefon</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="order_of_display_name_array">
+        <item>Emri Mbiemri</item>
+        <item>Mbiemri Emri</item>
+    </string-array>
+    <string-array name="delete_group_menu">
+        <item>Only group</item>
+        <item>Grupi dhe të gjithë kontaktet në grup</item>
+    </string-array>
+    <string-array name="day_of_week">
+        <item>Hën</item>
+        <item>Mar</item>
+        <item>Mër</item>
+        <item>En</item>
+        <item>Pre</item>
+        <item>Sht</item>
+        <item>Die</item>
+    </string-array>
+    <string-array name="index_string_array_compare">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Organizata</item>
+        <item>Shënim</item>
+    </string-array>
+</resources>

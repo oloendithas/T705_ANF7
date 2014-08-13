@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/dialpadAdditionalButtons" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@color/dial_bg_2" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <ImageButton android:id="@id/videocallbutton" android:background="@drawable/call_dial_btn_bg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/call_contacts_icon" android:layout_weight="1.0" android:soundEffectsEnabled="false" android:contentDescription="@string/video_call" />
+    <LinearLayout android:background="@color/dial_bg_2" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <ImageButton android:id="@id/callbutton" android:background="@drawable/call_dial_btn_bg" android:nextFocusRight="@id/ipcallbutton" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/call_outgoingcall_icon" android:layout_weight="1.0" android:soundEffectsEnabled="false" android:contentDescription="@string/call" />
+    <LinearLayout android:background="@color/dial_bg_2" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <ImageButton android:id="@id/ipcallbutton" android:background="@drawable/call_dial_btn_bg" android:nextFocusLeft="@id/callbutton" android:nextFocusRight="@id/messagebutton" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/call_ipcall_icon" android:layout_weight="1.0" android:soundEffectsEnabled="false" android:contentDescription="@string/ip_call" />
+    <LinearLayout android:background="@color/dial_bg_2" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <ImageButton android:id="@id/messagebutton" android:background="@drawable/call_dial_btn_bg" android:nextFocusLeft="@id/ipcallbutton" android:nextFocusRight="@id/deleteButton" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/call_message_icon" android:layout_weight="1.0" android:soundEffectsEnabled="false" android:contentDescription="@string/message" />
+    <LinearLayout android:background="@color/dial_bg_2" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <ImageButton android:id="@id/deleteButton" android:background="@drawable/call_dial_btn_bg" android:nextFocusLeft="@id/messagebutton" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/call_clear_btn" android:layout_weight="1.0" android:soundEffectsEnabled="false" android:contentDescription="@string/description_delete_button" />
+    <LinearLayout android:background="@color/dial_bg_2" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+</LinearLayout>

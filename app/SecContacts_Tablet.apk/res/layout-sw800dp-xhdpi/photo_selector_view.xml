@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/photo_selector_view_layout" android:paddingLeft="@dimen/detail_contact_about_update_horizontal_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:av="http://schemas.android.com/apk/res/com.android.contacts">
+    <FrameLayout android:id="@id/photo_selector_view" android:layout_width="@dimen/detail_contact_photo_size" android:layout_height="@dimen/detail_contact_photo_size">
+        <com.sec.android.app.contacts.widget.AnimatableImageView android:id="@id/photo" android:background="@color/detail_photo_stroke_color" android:paddingLeft="1.0dip" android:paddingTop="1.0dip" android:paddingRight="1.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" av:scaleType="fitXY" />
+        <View android:id="@id/photo_touch_intercept_overlay" android:background="?android:selectableItemBackground" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/label_photo" />
+    </FrameLayout>
+    <include android:id="@id/photo_update" android:visibility="gone" layout="@layout/photo_updates_header" />
+</LinearLayout>
