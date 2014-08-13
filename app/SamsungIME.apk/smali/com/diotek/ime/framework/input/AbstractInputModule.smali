@@ -9496,8 +9496,6 @@
 
     .line 1378
     :cond_0
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->increaseDeleteCount()V
-
     goto :goto_0
 .end method
 

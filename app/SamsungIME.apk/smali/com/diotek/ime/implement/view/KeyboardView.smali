@@ -654,7 +654,7 @@
 
     aput-object v1, v0, v5
 
-    const-string v1, "-"
+    const-string v1, "!"
 
     aput-object v1, v0, v6
 
@@ -8354,7 +8354,7 @@
 
     const/16 v1, 0x1c
 
-    const-string v2, "~"
+    const-string v2, ","
 
     aput-object v2, v0, v1
 
@@ -17641,7 +17641,7 @@
 
     const/16 v1, 0x1c
 
-    const-string v2, "~"
+    const-string v2, ","
 
     aput-object v2, v0, v1
 

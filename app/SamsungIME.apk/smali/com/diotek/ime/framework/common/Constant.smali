@@ -344,7 +344,7 @@
 
 .field public static final RECOGNIZE_DELAY:I = 0x1f4
 
-.field public static final REPEAT_INTERVAL:I = 0x32
+.field public static final REPEAT_INTERVAL:I = 0x3c
 
 .field public static final REPEAT_START_DELAY:I = 0x190
 
