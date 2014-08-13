@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="airbutton_drawable_list_item_height">110</integer>
+    <integer name="airbutton_string_list_item_height">73</integer>
+    <integer name="airbutton_combination_list_item_height">73</integer>
+    <integer name="tw_popup_menu_max_line_count">10</integer>
+    <integer name="tw_clipboard_appear_time">1000</integer>
+    <integer name="tw_clipboard_appear_delay">50</integer>
+    <integer name="tw_clipboard_animation_time">300</integer>
+    <integer name="tw_clipboard_animation_delay">0</integer>
+    <integer name="tw_clipboard_item_count_in_screen">6</integer>
+    <integer name="tw_clipboard_outside_count">14</integer>
+    <integer name="tw_clipboard_item_count_in_screen_land">10</integer>
+    <integer name="tw_clipboard_outside_count_land">10</integer>
+    <integer name="config_maxPenWindowCount">3</integer>
+    <integer name="multiwindow_floating_minimum_size_ratio">60</integer>
+    <integer name="multiwindow_defaultScaleFactor">80</integer>
+</resources>

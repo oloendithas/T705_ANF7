@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="config_prefDialogWidth">580.0dip</dimen>
+    <dimen name="tw_week_day_view_text_size">18.0dip</dimen>
+    <dimen name="tw_date_text_size">19.0dip</dimen>
+    <dimen name="multiwindow_minimized_width">72.0dip</dimen>
+    <dimen name="multiwindow_minimized_height">72.0dip</dimen>
+    <dimen name="multiwindow_gap">30.0dip</dimen>
+    <dimen name="multiwindow_def_width">632.0dip</dimen>
+    <dimen name="multiwindow_def_height">450.0dip</dimen>
+    <dimen name="multiwindow_minimize_inner_icon_radius">72.0dip</dimen>
+    <dimen name="multiwindow_app_icon">50.399994dip</dimen>
+    <dimen name="mw_window_iconic_square_size">72.0dip</dimen>
+    <dimen name="multiwindow_floating_resize_area">20.0dip</dimen>
+</resources>

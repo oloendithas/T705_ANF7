@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/timePickerLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginBottom="25.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:paddingStart="0.0dip" android:paddingEnd="0.0dip">
+        <NumberPicker android:id="@id/hour" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="95.0dip" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+        <TextView android:textSize="34.0dip" android:layout_gravity="center_vertical" android:id="@id/divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" />
+        <NumberPicker android:id="@id/minute" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="95.0dip" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+    </LinearLayout>
+    <Button android:textSize="39.0dip" android:gravity="center" android:id="@id/amPm" android:layout_width="104.0dip" android:layout_height="60.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:singleLine="true" android:fontFamily="sans-serif-light" style="?android:attr/buttonStyle" />
+</LinearLayout>

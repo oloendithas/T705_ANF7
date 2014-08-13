@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/tw_preference_header_item_background_holo_light" android:paddingLeft="8.0dip" android:paddingRight="?scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="8.0dip" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="11.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="?textAppearanceLarge" android:textSize="?twTextSizePrimary" android:textColor="@color/tw_preference_header_item_primary_text_holo_light" android:ellipsize="marquee" android:id="@id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?textAppearanceMedium" android:textSize="?twTextSizeSecondary" android:textColor="?twTextColorSecondary" android:ellipsize="end" android:id="@id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@id/title" android:layout_alignLeft="@id/title" />
+        <Switch android:layout_gravity="center" android:id="@id/switchWidget" android:paddingLeft="0.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/summary" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/widget_frame" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</LinearLayout>

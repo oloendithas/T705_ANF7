@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hover_popup_leaderline">#ff7991a9</color>
+    <color name="hover_popup_leaderline_light">#ff66a0d0</color>
+    <color name="hover_tooltip_text_color">#fffefefe</color>
+    <color name="hover_tooltip_text_color_light">#ff262626</color>
+    <color name="hover_fulltext_text_color">#ffffffff</color>
+    <color name="hover_fulltext_text_color_light">#ff262626</color>
+    <color name="hover_picker_line_color">#ff6793a7</color>
+    <color name="hover_picker_space_color">#ff456c7d</color>
+    <color name="hover_picker_line_color_light">#ff7babc8</color>
+    <color name="hover_picker_space_color_light">#ffffffff</color>
+    <item type="color" name="APKTOOL_DUMMY_00da">false</item>
+</resources>

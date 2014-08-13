@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_pen_window_applist">
+        <item>com.diotek.diodict4.EDictionary</item>
+        <item>com.diotek.diodict3.hc.samsung.p5</item>
+        <item>com.sec.android.app.popupcalculator</item>
+        <item>com.sec.android.app.clockpackage</item>
+        <item>com.google.android.youtube</item>
+        <item>com.android.contacts</item>
+        <item>com.android.mms</item>
+        <item>com.sec.chaton</item>
+        <item>com.google.android.talk</item>
+        <item>com.kakao.talk</item>
+        <item>com.sec.android.app.sbrowser</item>
+        <item>com.sec.android.gallery3d</item>
+        <item>com.sec.android.app.myfiles</item>
+        <item>com.sec.android.app.music</item>
+        <item>com.samsung.android.app.pinboard</item>
+        <item>com.facebook.katana</item>
+    </string-array>
+</resources>

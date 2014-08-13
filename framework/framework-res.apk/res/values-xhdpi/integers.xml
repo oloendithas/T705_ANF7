@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="tw_clipboard_appear_time">1000</integer>
+    <integer name="tw_clipboard_appear_delay">50</integer>
+    <integer name="tw_clipboard_animation_time">300</integer>
+    <integer name="tw_clipboard_animation_delay">0</integer>
+    <integer name="tw_clipboard_item_count_in_screen">6</integer>
+    <integer name="tw_clipboard_outside_count">14</integer>
+    <integer name="tw_clipboard_item_count_in_screen_land">10</integer>
+    <integer name="tw_clipboard_outside_count_land">10</integer>
+</resources>
