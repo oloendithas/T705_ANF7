@@ -2572,7 +2572,7 @@ Name: res/drawable-xhdpi/tw_recent_app_bg_press.9.png
 SHA1-Digest: /ZntHiIXI+5rxWeZ1MdGw9Bv9KA=
 
 Name: AndroidManifest.xml
-SHA1-Digest: gf0oD2nU13RdGJVIQZZO14l/v6U=
+SHA1-Digest: XOx3AoEFuoboMFSLg+25v7CNgKA=
 
 Name: res/drawable-sw800dp-xhdpi/tw_quick_panel_quick_setting_button_r
  ound_bg_focussed.png
@@ -3479,7 +3479,7 @@ Name: res/drawable-sw800dp-xhdpi/stat_sys_data_connected_lte_tmo.png
 SHA1-Digest: 3LsLF+sLTA2zffKGqgDd+qLLz6s=
 
 Name: resources.arsc
-SHA1-Digest: 74l1pQ8vA5OafEs/ZOcx7Gb+9Ts=
+SHA1-Digest: igxLbK8DPO2T3nYizfhVqyYGxAo=
 
 Name: res/drawable-sw800dp-xhdpi/tw_quick_panel_icon_allshre_cast_roun
  d.png
@@ -3714,7 +3714,7 @@ Name: res/drawable-sw800dp-xhdpi/tw_quick_panel_icon_ultra_powersave_o
 SHA1-Digest: +wKsFEp7+lGV43gSAJGkASubGjk=
 
 Name: res/layout-sw800dp-xhdpi/battery_low.xml
-SHA1-Digest: 8GLBFUALvcWCDmGx8XdyCdgC6D4=
+SHA1-Digest: 8YTc54PtV0wUKvnp+e5WktJpbJQ=
 
 Name: res/drawable-sw800dp-xhdpi/stat_sys_uwifi_signal_4.png
 SHA1-Digest: OnjpcnflbtM5hmE+We7EtielIvk=

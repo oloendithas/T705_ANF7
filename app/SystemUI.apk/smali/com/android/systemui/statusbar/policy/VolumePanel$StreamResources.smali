@@ -62,7 +62,7 @@
 
     const/4 v2, 0x0
 
-    .line 40
+    .line 44
     new-instance v0, Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;
 
     const-string v1, "BluetoothSCOStream"
@@ -79,7 +79,7 @@
 
     sput-object v0, Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;->BluetoothSCOStream:Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;
 
-    .line 44
+    .line 48
     new-instance v3, Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;
 
     const-string v4, "VoiceStream"
@@ -96,7 +96,7 @@
 
     sput-object v3, Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;->VoiceStream:Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;
 
-    .line 48
+    .line 52
     new-instance v3, Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;
 
     const-string v4, "NotificationStream"
@@ -115,7 +115,7 @@
 
     sput-object v3, Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;->NotificationStream:Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;
 
-    .line 52
+    .line 56
     new-instance v3, Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;
 
     const-string v4, "SystemStream"
@@ -134,7 +134,7 @@
 
     sput-object v3, Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;->SystemStream:Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;
 
-    .line 56
+    .line 60
     new-instance v3, Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;
 
     const-string v4, "RingerStream"
@@ -153,7 +153,7 @@
 
     sput-object v3, Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;->RingerStream:Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;
 
-    .line 39
+    .line 43
     const/4 v0, 0x5
 
     new-array v0, v0, [Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;
@@ -198,22 +198,22 @@
     .end annotation
 
     .prologue
-    .line 66
+    .line 70
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 67
+    .line 71
     iput p3, p0, Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;->streamType:I
 
-    .line 68
+    .line 72
     iput p4, p0, Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;->iconRes:I
 
-    .line 69
+    .line 73
     iput p5, p0, Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;->iconMuteRes:I
 
-    .line 70
+    .line 74
     iput p6, p0, Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;->iconVibrateRes:I
 
-    .line 71
+    .line 75
     return-void
 .end method
 
@@ -222,7 +222,7 @@
     .param p0, "name"    # Ljava/lang/String;
 
     .prologue
-    .line 39
+    .line 43
     const-class v0, Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -238,7 +238,7 @@
     .locals 1
 
     .prologue
-    .line 39
+    .line 43
     sget-object v0, Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;->$VALUES:[Lcom/android/systemui/statusbar/policy/VolumePanel$StreamResources;
 
     invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;

@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 83
+    .line 87
     iput-object p1, p0, Lcom/android/systemui/statusbar/policy/VolumePanel$2;->this$0:Lcom/android/systemui/statusbar/policy/VolumePanel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,7 +41,7 @@
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
-    .line 87
+    .line 91
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/VolumePanel$2;->this$0:Lcom/android/systemui/statusbar/policy/VolumePanel;
 
     # getter for: Lcom/android/systemui/statusbar/policy/VolumePanel;->mAudioManager:Landroid/media/AudioManager;
@@ -55,6 +55,6 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/media/AudioManager;->adjustVolume(II)V
 
-    .line 89
+    .line 93
     return-void
 .end method

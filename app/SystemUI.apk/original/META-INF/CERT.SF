@@ -1,6 +1,6 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android SignApk)
-SHA1-Digest-Manifest: 1kdEhI+q8FZfXjv+Jl21098ShPQ=
+SHA1-Digest-Manifest: bUuzZ3no/8wFOBKcbLFKIIK9Rr0=
 
 Name: res/drawable-sw800dp-xhdpi/stat_sys_data_connected_cdma_roam.png
 SHA1-Digest: 0sDbXkvY6y8T/ed1LwaPPXR3RFw=
@@ -2580,7 +2580,7 @@ Name: res/drawable-sw800dp-xhdpi/tw_quick_panel_quick_setting_button_r
 SHA1-Digest: ofIhqy8dA0ugmwd+DuLFYfIO73Q=
 
 Name: AndroidManifest.xml
-SHA1-Digest: gCt7LqI3GBXzOzFypJJcW591NHg=
+SHA1-Digest: wSwq1py+tvfB0abD4ClwV4rMgRg=
 
 Name: res/drawable-sw360dp-xhdpi/tw_quick_panel_icon_smartscroll_on.pn
  g
@@ -3480,7 +3480,7 @@ Name: res/drawable-xhdpi/stat_sys_wifi_signal_3_hideinout.png
 SHA1-Digest: jMIws5G8z/rxU2WENxtMJ8sdgp8=
 
 Name: resources.arsc
-SHA1-Digest: JxnWEUhwoAqXTylbvLmuvrep0mc=
+SHA1-Digest: HPfM0dn3VJ8js7CkjRj0a9SRCpY=
 
 Name: res/drawable-sw800dp-xhdpi/stat_sys_wifi_signal_2.png
 SHA1-Digest: cyBJiJXvbCcV8BYJmRIecDRWUu8=
@@ -3718,7 +3718,7 @@ Name: res/drawable-sw800dp-xhdpi/stat_sys_uwifi_signal_4.png
 SHA1-Digest: W3KglcQzWBr8HyxBjlJYZfypklM=
 
 Name: res/layout-sw800dp-xhdpi/battery_low.xml
-SHA1-Digest: SnRpopzhut3efhgyG62fwjy11/8=
+SHA1-Digest: 0CZm7outzqiSiVJMUaxYAGFgdFM=
 
 Name: res/drawable-xhdpi/stat_sys_battery_43.png
 SHA1-Digest: snc0wxP6UovD6EAKFWuEmUZidNs=

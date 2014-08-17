@@ -265,8 +265,8 @@ gesture"</string>
 σύνδεση"</string>
     <string name="quickpanel_touch_sensitivity_text">"Ευαισθ.
 αφής"</string>
-    <string name="quickpanel_adaptive_mode_text">"Ρύθμιση
-οθόνης"</string>
+    <string name="quickpanel_adaptive_mode_text">"Προσαρμ.
+οθόνη"</string>
     <string name="quickpanel_wifi_content_description">Wi-Fi</string>
     <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
     <string name="quickpanel_gps_content_description">Τοποθεσία</string>
