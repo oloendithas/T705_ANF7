@@ -20,7 +20,7 @@
 
 # direct methods
 .method constructor <init>(Lcom/android/systemui/usb/StorageNotification;)V
-    .locals 0
+    .registers 2
 
     .prologue
     .line 121
@@ -34,7 +34,7 @@
 
 # virtual methods
 .method public declared-synchronized onReceive(Landroid/content/Context;Landroid/content/Intent;)V
-    .locals 20
+    .registers 23
     .param p1, "context"    # Landroid/content/Context;
     .param p2, "intent"    # Landroid/content/Intent;
 
@@ -42,7 +42,7 @@
     .line 123
     monitor-enter p0
 
-    :try_start_0
+    :try_start_1
     invoke-virtual/range {p2 .. p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v3
@@ -57,7 +57,7 @@
 
     move-result v16
 
-    if-eqz v16, :cond_4
+    if-eqz v16, :cond_15b
 
     .line 125
     move-object/from16 v0, p0
@@ -79,25 +79,25 @@
     move-result-object v10
 
     check-cast v10, Landroid/app/NotificationManager;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+    :try_end_23
+    .catchall {:try_start_1 .. :try_end_23} :catchall_ed
 
     .line 127
     .local v10, "notificationManager":Landroid/app/NotificationManager;
-    if-nez v10, :cond_1
+    if-nez v10, :cond_27
 
     .line 157
     .end local v10    # "notificationManager":Landroid/app/NotificationManager;
-    :cond_0
-    :goto_0
+    :cond_25
+    :goto_25
     monitor-exit p0
 
     return-void
 
     .line 129
     .restart local v10    # "notificationManager":Landroid/app/NotificationManager;
-    :cond_1
-    :try_start_1
+    :cond_27
+    :try_start_27
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/systemui/usb/StorageNotification$1;->this$0:Lcom/android/systemui/usb/StorageNotification;
@@ -118,12 +118,12 @@
     move-result-object v7
 
     .local v7, "i$":Ljava/util/Iterator;
-    :goto_1
+    :goto_39
     invoke-interface {v7}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v16
 
-    if-eqz v16, :cond_2
+    if-eqz v16, :cond_f0
 
     invoke-interface {v7}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -315,10 +315,10 @@
     move-object/from16 v1, v17
 
     invoke-virtual {v10, v0, v1}, Landroid/app/NotificationManager;->notify(ILandroid/app/Notification;)V
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+    :try_end_eb
+    .catchall {:try_start_27 .. :try_end_eb} :catchall_ed
 
-    goto/16 :goto_1
+    goto/16 :goto_39
 
     .line 123
     .end local v3    # "action":Ljava/lang/String;
@@ -330,7 +330,7 @@
     .end local v10    # "notificationManager":Landroid/app/NotificationManager;
     .end local v13    # "r":Landroid/content/res/Resources;
     .end local v15    # "title":Ljava/lang/CharSequence;
-    :catchall_0
+    :catchall_ed
     move-exception v16
 
     monitor-exit p0
@@ -341,8 +341,8 @@
     .restart local v3    # "action":Ljava/lang/String;
     .restart local v7    # "i$":Ljava/util/Iterator;
     .restart local v10    # "notificationManager":Landroid/app/NotificationManager;
-    :cond_2
-    :try_start_2
+    :cond_f0
+    :try_start_f0
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/systemui/usb/StorageNotification$1;->this$0:Lcom/android/systemui/usb/StorageNotification;
@@ -363,7 +363,7 @@
     const/4 v6, 0x0
 
     .local v6, "i":I
-    :goto_2
+    :goto_ff
     array-length v0, v12
 
     move/from16 v16, v0
@@ -372,7 +372,7 @@
 
     move/from16 v0, v16
 
-    if-gt v6, v0, :cond_0
+    if-gt v6, v0, :cond_25
 
     .line 145
     aget-object v11, v12, v6
@@ -410,7 +410,7 @@
 
     move/from16 v1, v17
 
-    if-ne v0, v1, :cond_3
+    if-ne v0, v1, :cond_158
 
     move-object/from16 v0, p0
 
@@ -425,7 +425,7 @@
 
     move-result v16
 
-    if-eqz v16, :cond_3
+    if-eqz v16, :cond_158
 
     const-string v16, "mounted"
 
@@ -435,7 +435,7 @@
 
     move-result v16
 
-    if-eqz v16, :cond_3
+    if-eqz v16, :cond_158
 
     .line 148
     const-string v16, "StorageNotification"
@@ -458,15 +458,15 @@
     move/from16 v1, v17
 
     # invokes: Lcom/android/systemui/usb/StorageNotification;->setComplexStorageNotification(ZLjava/lang/String;)V
-    invoke-static {v0, v1, v11}, Lcom/android/systemui/usb/StorageNotification;->access$1000(Lcom/android/systemui/usb/StorageNotification;ZLjava/lang/String;)V
+#    invoke-static {v0, v1, v11}, Lcom/android/systemui/usb/StorageNotification;->access$1000(Lcom/android/systemui/usb/StorageNotification;ZLjava/lang/String;)V
 
-    goto/16 :goto_0
+    goto/16 :goto_25
 
     .line 144
-    :cond_3
+    :cond_158
     add-int/lit8 v6, v6, 0x1
 
-    goto :goto_2
+    goto :goto_ff
 
     .line 154
     .end local v6    # "i":I
@@ -475,7 +475,7 @@
     .end local v11    # "path":Ljava/lang/String;
     .end local v12    # "paths":[Ljava/lang/String;
     .end local v14    # "state":Ljava/lang/String;
-    :cond_4
+    :cond_15b
     const-string v16, "android.systemui.usb.STORAGE_NOTIFICATION_CANCEL"
 
     move-object/from16 v0, v16
@@ -484,7 +484,7 @@
 
     move-result v16
 
-    if-eqz v16, :cond_0
+    if-eqz v16, :cond_25
 
     .line 155
     move-object/from16 v0, p0
@@ -517,8 +517,8 @@
     move-result-object v17
 
     invoke-virtual/range {v16 .. v17}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
-    :try_end_2
-    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+    :try_end_184
+    .catchall {:try_start_f0 .. :try_end_184} :catchall_ed
 
-    goto/16 :goto_0
+    goto/16 :goto_25
 .end method
