@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/attachment_information" android:layout_width="fill_parent" android:layout_height="39.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/slideview_attachment_list" android:layout_width="fill_parent" android:layout_height="39.0dip">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/selector_attachment_save_button" android:layout_width="0.0dip" android:layout_height="39.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/attach_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="7.0dip" />
+            <TextView android:textSize="18.0dip" android:textColor="@drawable/text_color" android:gravity="center_vertical" android:id="@id/attach_file_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right|center" android:id="@id/attach_seperator" android:background="@drawable/mms_file_textfield_line" android:layout_width="1.0dip" android:layout_height="27.0dip" />
+        <ImageButton android:layout_gravity="right|center" android:id="@id/attachment_save_button" android:background="@drawable/selector_attachment_save_button" android:layout_width="@dimen/attachment_save_button_width" android:layout_height="fill_parent" android:src="@drawable/selector_attach_icon" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/attachment_list_divider" android:background="@drawable/mms_file_textfield_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

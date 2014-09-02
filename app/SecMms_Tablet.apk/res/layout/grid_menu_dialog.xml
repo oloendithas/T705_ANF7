@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:gravity="center" android:layout_gravity="center" android:id="@id/gridDialog" android:padding="26.0dip" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:horizontalSpacing="0.0dip" android:verticalSpacing="26.0dip" android:columnWidth="124.0dip" android:numColumns="4" />
+</LinearLayout>

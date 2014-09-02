@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="slide_duration">
+        <item quantity="other">%s sekundės</item>
+        <item quantity="one">%s sek.</item>
+        <item quantity="few">%s sekundės</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s rezultat. iš %2$s</item>
+        <item quantity="one">1 rezultatas skirtas %s</item>
+    </plurals>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s gijos (-ų)</item>
+        <item quantity="one">1 gija</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s žinutės (-ių)</item>
+        <item quantity="one">1 message</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d pokalbiai (-ių)</item>
+        <item quantity="one">%d pokalbis</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s ir dar %2$d</item>
+        <item quantity="one">%s ir dar 1</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s ir dar %2$d</item>
+        <item quantity="one">%s ir dar 1</item>
+    </plurals>
+    <plurals name="successful_copy_to_sdcard">
+        <item quantity="other">Priedai nukopijuoti į SD kortelę.</item>
+        <item quantity="one">Priedas nukopijuotas į SD kortelę.</item>
+    </plurals>
+    <plurals name="failed_copy_to_sdcard">
+        <item quantity="other">Nepavyko nukopijuoti priedų į SD kortelę.</item>
+        <item quantity="one">Nepavyko nukopijuoti priedo į SD kortelę.</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Žinutės ištrintos iš SIM kortelės.</item>
+        <item quantity="one">Iš SIM kortelės žinutė ištrinta.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">Žinutės nukopijuotos į SIM kortelę.</item>
+        <item quantity="one">Iš SIM kortelės nukopijuota žinutė.</item>
+    </plurals>
+    <plurals name="uim_copy_to_phone_completed">
+        <item quantity="other">Messages copied from UIM card.</item>
+        <item quantity="one">Message copied from UIM card.</item>
+    </plurals>
+    <plurals name="uim_delete_completed">
+        <item quantity="other">%d messages deleted from UIM card.</item>
+        <item quantity="one">1 message deleted from UIM card.</item>
+    </plurals>
+</resources>

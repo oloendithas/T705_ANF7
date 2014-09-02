@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/map_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/search_location_layout_panel_height">
+        <TextView android:textSize="@dimen/subject_location_text_size" android:textColor="@drawable/text_color" android:id="@id/subject_location" android:layout_width="wrap_content" android:layout_height="@dimen/subject_location_height" android:layout_marginLeft="20.0dip" android:layout_marginTop="@dimen/subject_location_marginTop" android:layout_marginBottom="@dimen/subject_location_marginBottom" android:text="@string/menu_location" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/location_layout_height" android:layout_marginBottom="@dimen/location_marginBottom">
+            <EditText android:textSize="22.0dip" android:id="@id/location" android:paddingLeft="14.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/current_location_edit_text_height" android:layout_marginLeft="20.0dip" android:hint="@string/tap_to_enter_location" android:singleLine="true" android:maxLength="400" android:capitalize="sentences" android:layout_weight="1.0" android:imeOptions="actionDone|flagNoEnterAction" />
+            <ImageButton android:id="@id/search" android:background="@drawable/search_icon_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/search_button_leftmargin" android:layout_marginRight="@dimen/search_button_rightmargin" android:contentDescription="@string/search_location_option" />
+            <ImageButton android:id="@id/current_location" android:background="@drawable/mylocation_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:contentDescription="@string/my_location_option" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.google.android.maps.MapView android:enabled="true" android:id="@id/mapview_select" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:apiKey="0e2-_R-TfJvIB8nm1t1KMmwf6TNLj_ZrpJ2H5TQ" />
+    </FrameLayout>
+</LinearLayout>

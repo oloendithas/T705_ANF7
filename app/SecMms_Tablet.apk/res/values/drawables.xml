@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="class_zero_background">#7f040000</item>
+    <item type="drawable" name="mms_rich_text_color">#ff000000</item>
+    <item type="drawable" name="light_blue_background">#ffecfbff</item>
+    <item type="drawable" name="text_color">#ff000000</item>
+    <item type="drawable" name="text_color_red">#ffff0000</item>
+    <item type="drawable" name="text_color_black">#ff000000</item>
+    <item type="drawable" name="text_color_offwhite">#55ffffff</item>
+    <item type="drawable" name="push_message_dialog_background">#7f040000</item>
+    <item type="drawable" name="black_background">#ff000000</item>
+</resources>

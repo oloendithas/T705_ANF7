@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.MmsView android:orientation="vertical" android:id="@id/mms_one_page_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/message_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/main_Layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/image_attached" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/video_Layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/video_view" android:background="@drawable/mms_attach_thumbnail_box" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="178.0dip" android:maxHeight="178.0dip" />
+            <ImageButton android:layout_gravity="center" android:id="@id/play_slideshow_button" android:background="@drawable/msg_play_button_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/message_text_down" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/audio_Layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/audio_attached" android:background="@drawable/ic_launcher_musicplayer_2_small" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/audio_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.android.mms.ui.MmsView>

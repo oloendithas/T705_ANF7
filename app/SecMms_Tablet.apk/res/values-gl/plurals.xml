@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="slide_duration">
+        <item quantity="other">%s secs</item>
+        <item quantity="one">%s seg.</item>
+        <item quantity="few">%s secs</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s resultados para %2$s</item>
+        <item quantity="one">1 resultado para %s</item>
+    </plurals>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s conversas</item>
+        <item quantity="one">1 conversa</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s mensaxes</item>
+        <item quantity="one">1 mensaxe</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d conversas</item>
+        <item quantity="one">%d conversa</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s e %2$d máis</item>
+        <item quantity="one">%s e 1 máis</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s e %2$d máis</item>
+        <item quantity="one">%s e 1 máis</item>
+    </plurals>
+    <plurals name="successful_copy_to_sdcard">
+        <item quantity="other">Adxuntos copiados na tarxeta SD</item>
+        <item quantity="one">Adxunto copiado á tarxeta SD</item>
+    </plurals>
+    <plurals name="failed_copy_to_sdcard">
+        <item quantity="other">Non se puideron copiar os adxuntos na tarxeta SD</item>
+        <item quantity="one">Non se puido copiar o adxunto na tarxeta SD</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Elimináronse mensaxes da tarxeta SIM</item>
+        <item quantity="one">Mensaxe eliminada da tarxeta SIM</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">Copiáronse mensaxes da tarxeta SIM</item>
+        <item quantity="one">Mensaxe copiada da tarxeta SIM</item>
+    </plurals>
+    <plurals name="uim_copy_to_phone_completed">
+        <item quantity="other">Messages copied from UIM card.</item>
+        <item quantity="one">Message copied from UIM card.</item>
+    </plurals>
+    <plurals name="uim_delete_completed">
+        <item quantity="other">%d messages deleted from UIM card.</item>
+        <item quantity="one">1 message deleted from UIM card.</item>
+    </plurals>
+</resources>

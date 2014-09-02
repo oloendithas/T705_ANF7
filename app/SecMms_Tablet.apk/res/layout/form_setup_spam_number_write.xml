@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/create_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spam_number_edittext_margin_left" android:layout_marginRight="@dimen/setup_spam_search_button_margin_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/autoreject_item" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spam_number_list_create_margin_top" android:layout_marginBottom="@dimen/spam_number_list_create_margin_bottom">
+        <TextView android:textSize="20.0sp" android:layout_gravity="left|center" android:id="@id/autoreject_item_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="100.0dip" android:text="@string/spam_msg_number_menu" />
+        <LinearLayout android:gravity="center" android:id="@id/list_create" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="@dimen/spam_number_edittext_text_size" android:id="@id/edit_text" android:layout_width="0.0dip" android:layout_height="@dimen/spam_number_edittext_height" android:hint="@string/enter_number" android:maxLength="100" android:layout_weight="1.0" android:inputType="phone" android:imeOptions="flagNoExtractUi" />
+            <ImageButton android:id="@id/search_button" android:background="@drawable/spam_contact_icon_selector" android:focusable="true" android:clickable="true" android:layout_width="@dimen/spam_number_image_width" android:layout_height="@dimen/spam_number_image_height" android:layout_marginLeft="@dimen/setup_spam_search_button_margin_left" android:contentDescription="@string/recipient_button_phonebook" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider1" android:background="@drawable/tw_preference_contents_list_divider_holo_light" android:layout_width="fill_parent" android:layout_height="1.0dip" /> android:focusable="false" />
+<LinearLayout android:orientation="horizontal" android:id="@id/match_criteria_layout" android:background="@drawable/msg_list_background_selector" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/add_spam_number_match_criteria_height">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="75.0dip" android:layout_weight="0.9">
+            <TextView android:textSize="22.0sp" android:textColor="@drawable/setup_spam_number_write_text_main_color" android:id="@id/text_main" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/spam_msg_match_criteria_menu" android:singleLine="true" />
+            <TextView android:textSize="18.0dip" android:textColor="@drawable/setup_spam_number_write_text_sub_color" android:id="@id/text_sub" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider1" android:background="@drawable/tw_preference_contents_list_divider_holo_light" android:layout_width="fill_parent" android:layout_height="1.0dip" /> android:focusable="false" />
+</LinearLayout>

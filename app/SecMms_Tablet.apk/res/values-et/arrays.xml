@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Rõõmus</item>
+        <item>Kurb</item>
+        <item>Pilgutav</item>
+        <item>Keelt näitav</item>
+        <item>Üllatunud</item>
+        <item>Suudlev</item>
+        <item>Karjuv</item>
+        <item>Lahe</item>
+        <item>Mis su jutt ka maksab?</item>
+        <item>Oih</item>
+        <item>Hämmeldunud</item>
+        <item>Ingel</item>
+        <item>Kõhklev</item>
+        <item>Nuttev</item>
+        <item>Suu lukus</item>
+        <item>Naerev</item>
+        <item>Segaduses</item>
+        <item>Süda</item>
+        <item>Vihane naerunägu</item>
+        <item>Muigav naerunägu</item>
+        <item>Pokkerinägu</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 sekund</item>
+        <item>2 sekundit</item>
+        <item>3 sekundit</item>
+        <item>4 sekundit</item>
+        <item>5 sekundit</item>
+        <item>6 sekundit</item>
+        <item>7 sekundit</item>
+        <item>8 sekundit</item>
+        <item>9 sekundit</item>
+        <item>10 sekundit</item>
+        <item>Muud…</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Kas. seadme fondi suurusi</item>
+        <item>Tiny</item>
+        <item>Väike</item>
+        <item>Tavaline</item>
+        <item>Suur</item>
+        <item>Ülisuur</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Pisike</item>
+        <item>Väike</item>
+        <item>Tavaline</item>
+        <item>Suur</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Kas. seadme fondi suurusi</item>
+        <item>Pisike</item>
+        <item>Üliväike</item>
+        <item>Väike</item>
+        <item>Keskmine</item>
+        <item>Suur</item>
+        <item>Eriti suur</item>
+        <item>Ülisuur</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Kõik kanalid</item>
+        <item>Minu kanalid</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-tähestik</item>
+        <item>Unicode</item>
+        <item>Automaatne</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 päeva</item>
+        <item>1 päev</item>
+        <item>2 päev</item>
+        <item>3 päeva</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Piiratud</item>
+        <item>Hoiatus</item>
+        <item>Vaba</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Alati</item>
+        <item>Küsi</item>
+        <item>Mitte kunagi</item>
+    </string-array>
+    <string-array name="pref_entries_message_skin">
+        <item>Sinine</item>
+        <item>Pruun</item>
+        <item>Igihaljas</item>
+        <item>Mono</item>
+        <item>Lõbusad mullid</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origami</item>
+        <item>Silt</item>
+        <item>Pop</item>
+        <item>Modernne</item>
+        <item>Roosa</item>
+        <item>Vaikimisi</item>
+    </string-array>
+    <string-array name="pref_entries_background_style">
+        <item>Taust 1</item>
+        <item>Taust 2</item>
+        <item>Taust 3</item>
+        <item>Taust 4</item>
+        <item>Taust 5</item>
+        <item>Taust 6</item>
+    </string-array>
+    <string-array name="pref_entries_text_field_color">
+        <item>Must</item>
+        <item>Valge</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Üks kord</item>
+        <item>Iga 2 minuti järel</item>
+        <item>Iga 15 minuti järel</item>
+        <item>Väljas</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Mitte kunagi</item>
+        <item>Iga 2 minuti järel</item>
+        <item>Iga 10 minuti järel</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array_values">
+        <item>1</item>
+        <item>2</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Kodulinnad</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 tund</item>
+        <item>6 tundi</item>
+        <item>24 tundi</item>
+        <item>2 päev</item>
+        <item>Võrgu vaikevalik</item>
+        <item>Maksimum</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Kõrge</item>
+        <item>Tavaline</item>
+        <item>Madal</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Kohe</item>
+        <item>1 tund</item>
+        <item>6 tundi</item>
+        <item>24 tundi</item>
+        <item>1 nädal</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 sekundit</item>
+        <item>5 sekundit</item>
+        <item>10 sekundit</item>
+        <item>20 sekundit</item>
+        <item>30 sekundit</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Väljas</item>
+        <item>Blokeeri kõik sõnumid</item>
+        <item>Blokeeri registreeritud numbrid ja fraasid</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Täpselt sama kui</item>
+        <item>Algab</item>
+        <item>Lõppeb</item>
+        <item>Sisaldab</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Logid</item>
+        <item>Kontaktid</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Kõne blokeerimine</item>
+        <item>Sõnumi blokeerimine</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Häälkõne blokeerimine</item>
+        <item>Videokõne blokeerimine</item>
+        <item>Sõnumi blokeerimine</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Vabandust, ma ei saanud vastata.</item>
+        <item>Jään hiljaks, kuid olen varsti kohal.</item>
+        <item>Kuidas läheb?</item>
+        <item>Mis toimub?</item>
+        <item>Kus sa oled?</item>
+        <item>Helista, kui saad selle sonumi.</item>
+        <item>Millal saame kohtuda?</item>
+        <item>Raagime varsti.</item>
+        <item>Kus on koosolek?</item>
+        <item>Mis number on?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Brasiilia portugali keel</item>
+        <item>Inglise keel (Ühendkuningriik)</item>
+        <item>English (US)</item>
+        <item>Prantsuse keel</item>
+        <item>Saksa keel</item>
+        <item>Itaalia keel</item>
+        <item>Jaapani keel</item>
+        <item>Korea</item>
+        <item>Lihtsustatud hiina keel</item>
+        <item>Vene</item>
+        <item>Hispaania keel</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Kõik</item>
+        <item>Saatja</item>
+        <item>Sisu</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Alati</item>
+        <item>Ainult vaiks. rež.-s</item>
+        <item>Mitte kunagi</item>
+    </string-array>
+</resources>

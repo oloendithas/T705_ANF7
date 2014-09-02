@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/tutorial_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/help_direct_call_01_h_dark" />
+    <TextView android:textSize="23.0dip" android:textColor="@color/black" android:gravity="center_vertical" android:layout_gravity="bottom|center" android:id="@id/tutorial_text" android:background="@drawable/help_popup_picker_bg_w_01" android:paddingLeft="22.0dip" android:paddingTop="14.0dip" android:paddingRight="22.0dip" android:paddingBottom="23.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:maxWidth="345.0dip" android:text="@string/direct_call_message" />
+</FrameLayout>

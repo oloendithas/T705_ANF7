@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_register_as_spam_number" android:id="@id/add_to_spam" android:visible="false" android:title="@string/menu_register_as_spamnumber" />
+    <item android:icon="@drawable/header_button_icon_delete" android:id="@id/item_delete" android:title="@string/message_delete" />
+    <item android:id="@id/done" android:title="@string/done" android:showAsAction="always" />
+</menu>

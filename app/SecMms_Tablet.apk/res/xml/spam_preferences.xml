@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="pref_key_spam_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/spam_list" android:key="pref_key_spam_option_enable" android:defaultValue="false" />
+    <Preference android:title="@string/pref_title_register_number" android:key="pref_key_spam_num_add" android:summary="@string/spam_blocknumber_summary" android:dependency="pref_key_spam_option_enable" android:fragment="com.android.mms.spam.SetupSpamNumberListFragment" />
+    <Preference android:title="@string/spam_keyword_blockphrases" android:key="pref_key_spam_text_add" android:summary="@string/spam_blockstring_summary" android:dependency="pref_key_spam_option_enable" android:fragment="com.android.mms.spam.SetupSpamKeywordListFragment" />
+    <CheckBoxPreference android:title="@string/pref_title_spam_filter_unknown_senders" android:key="pref_key_spam_filter_unknown_enable" android:summary="@string/spam_blocksender_summary" android:dependency="pref_key_spam_option_enable" android:defaultValue="false" />
+    <Preference android:title="@string/expain_report_as_spam" android:key="pref_key_explain_spamreport" />
+</PreferenceScreen>

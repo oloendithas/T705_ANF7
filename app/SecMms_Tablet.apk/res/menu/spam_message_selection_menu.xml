@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/header_button_icon_restore" android:id="@id/restore" android:visible="false" android:title="@string/spam_restore_menu" />
+    <item android:icon="@drawable/header_button_icon_delete" android:id="@id/delete" android:title="@string/delete" />
+    <item android:id="@id/remove_from_spam" android:title="@string/menu_unregister_as_spamnumber" android:showAsAction="collapseActionView" />
+    <item android:id="@id/done" android:title="@string/done" android:showAsAction="always" />
+    <item android:id="@id/restore_done" android:title="@string/done" android:showAsAction="always" />
+</menu>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Жаргалтай</item>
+        <item>Гунигтай</item>
+        <item>Нүд ирмэх</item>
+        <item>Хэлээ гаргасан</item>
+        <item>Гайхсан</item>
+        <item>Үнсэх</item>
+        <item>Орилох</item>
+        <item>Янзтай</item>
+        <item>Мөнгөний ам</item>
+        <item>Хөлөө амандаа хийсэн</item>
+        <item>Ичсэн</item>
+        <item>Сахиусан тэнгэр</item>
+        <item>Шийдээгүй</item>
+        <item>Уйлж байна</item>
+        <item>Уруулаа жимийсэн</item>
+        <item>Инээж байна</item>
+        <item>Гайхсан</item>
+        <item>Зүрх</item>
+        <item>Уурласан</item>
+        <item>Мушийсан</item>
+        <item>Гөлийсөн</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 секунд</item>
+        <item>2 секунд</item>
+        <item>3 секунд</item>
+        <item>4 секунд</item>
+        <item>5 секунд</item>
+        <item>6 секунд</item>
+        <item>7 seconds</item>
+        <item>8 секунд</item>
+        <item>9 seconds</item>
+        <item>10 секунд</item>
+        <item>Бусад…</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Төхөөр үсгийн хэмж хэрэгл</item>
+        <item>Жижигхэн</item>
+        <item>Бага</item>
+        <item>Хэвийн</item>
+        <item>Том</item>
+        <item>Маш том</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Жижиг</item>
+        <item>Бага</item>
+        <item>Хэвийн</item>
+        <item>Том</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Төхөөр үсгийн хэмж хэрэгл</item>
+        <item>Бяцхан</item>
+        <item>Хэт бага</item>
+        <item>Жижиг</item>
+        <item>Дунд</item>
+        <item>Том</item>
+        <item>Хэт том</item>
+        <item>Маш том</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Бүх суваг</item>
+        <item>Миний сувгууд</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM цагаан толгой</item>
+        <item>Unicode</item>
+        <item>Автомат</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 хоног</item>
+        <item>1 хоног</item>
+        <item>2 хоног</item>
+        <item>3 хоног</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Хязгаарлагдсан</item>
+        <item>Анхааруулга</item>
+        <item>Үнэ төлбөргүй</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Үргэлж</item>
+        <item>Шуурхай</item>
+        <item>Хэзээ ч үгүй</item>
+    </string-array>
+    <string-array name="pref_entries_message_skin">
+        <item>Хөх</item>
+        <item>Хүрэн</item>
+        <item>Мөнх ногоон</item>
+        <item>Моно</item>
+        <item>Joypop</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Оригами</item>
+        <item>Шошго</item>
+        <item>Үлээх</item>
+        <item>Орчин үеийн</item>
+        <item>Ягаан</item>
+        <item>Өгөгдмөл</item>
+    </string-array>
+    <string-array name="pref_entries_background_style">
+        <item>Дэвсгэр 1</item>
+        <item>Дэвсгэр 2</item>
+        <item>Дэвсгэр 3</item>
+        <item>Дэвсгэр 4</item>
+        <item>Дэвсгэр 5</item>
+        <item>Дэвсгэр 6</item>
+    </string-array>
+    <string-array name="pref_entries_text_field_color">
+        <item>Хар</item>
+        <item>Цагаан</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Нэг удаа</item>
+        <item>2 минут тутамд</item>
+        <item>15 минут тутамд</item>
+        <item>Унтраах</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Хэзээ ч үгүй</item>
+        <item>2 минут тутамд</item>
+        <item>10 минут тутамд</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array_values">
+        <item>1</item>
+        <item>2</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Дотоодын</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 цаг</item>
+        <item>6 цаг</item>
+        <item>24 цаг</item>
+        <item>2 хоног</item>
+        <item>Сүлжээний өгөгдмөл тохиргоо</item>
+        <item>Дээд хэмжээ</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Өндөр</item>
+        <item>Ердийн</item>
+        <item>Бага</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Даруй</item>
+        <item>1 цаг</item>
+        <item>6 цаг</item>
+        <item>24 цаг</item>
+        <item>1 долоо хоног</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 секунд</item>
+        <item>5 секунд</item>
+        <item>10 секунд</item>
+        <item>20 секунд</item>
+        <item>30 секунд</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Идэвхгүй</item>
+        <item>Бүх зурвас хаах</item>
+        <item>Бүртгэгдсэн дугаарууд ба хэлцүүдийг хаа</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Яг адилхан</item>
+        <item>Эхэлнэ</item>
+        <item>Дуусна</item>
+        <item>Агуулна</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Бүртгэл</item>
+        <item>Харилцагчид</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Дуудлага хаах</item>
+        <item>Зурвас хаах</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Дуут дуудлага хаах</item>
+        <item>Видео дуудлага хаах</item>
+        <item>Зурвас хаах</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Уучлаарай, би таны дуудлагыг аваагүй байна.</item>
+        <item>Би хоцорно, гэхдээ удахгүй очно.</item>
+        <item>Сонин сайхан юу байна вэ?</item>
+        <item>Юу болов?</item>
+        <item>Та хаана байна вэ?</item>
+        <item>Энэ зурвасыг аваад над руу залгаарай.</item>
+        <item>Хэзээ уулзаж болох вэ?</item>
+        <item>Би тантай удахгүй ярина.</item>
+        <item>Хурал хаана болох вэ?</item>
+        <item>Дугаар нь хэд вэ?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Бразилын португал хэл</item>
+        <item>Англи (Британи)</item>
+        <item>English (US)</item>
+        <item>Франц</item>
+        <item>Герман</item>
+        <item>Итали</item>
+        <item>Япон</item>
+        <item>Солонгос</item>
+        <item>Хялбаршуулсан хятад</item>
+        <item>Орос</item>
+        <item>Испани</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Бүгд</item>
+        <item>Илгээгч</item>
+        <item>Агуулга</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Үргэлж</item>
+        <item>Зөвх Чимээгүй горимд</item>
+        <item>Хэзээ ч үгүй</item>
+    </string-array>
+</resources>

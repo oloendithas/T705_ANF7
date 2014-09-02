@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.mms.ui.SlideView android:layout_gravity="center" android:orientation="vertical" android:id="@id/slide_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/page_header" android:layout_width="fill_parent" android:layout_height="80.0dip">
+            <ViewStub android:id="@id/sender_title_area" android:layout="@layout/view_title_header" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/slideshow_subject_color" android:gravity="center_vertical" android:id="@id/title_subject" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="20.0dip" android:textColor="@color/slideshow_subject_color" android:gravity="center_vertical" android:id="@id/pagenumber" android:paddingRight="30.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/mms_contents_line" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+        <ScrollView android:id="@id/MainScrollView" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/MainLinear" android:paddingLeft="12.0dip" android:paddingTop="17.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/textViewPortTop" android:paddingLeft="30.0dip" android:paddingTop="@dimen/slideshow_porttop_padding_top" android:paddingRight="30.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mediaViewPort" android:paddingTop="@dimen/slideshow_porttop_padding_top" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/textViewPortBottom" android:paddingLeft="30.0dip" android:paddingTop="6.0dip" android:paddingRight="30.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="vertical" android:id="@id/slideview_attach_list" android:background="@drawable/mms_file_textfield_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/slideview_attach_list_margin_left" android:layout_marginRight="@dimen/slideview_attach_list_margin_left" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/audio_area" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.android.mms.ui.SlideView>
+</LinearLayout>

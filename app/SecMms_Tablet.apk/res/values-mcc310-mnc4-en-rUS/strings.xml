@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_notification_settings_title">Notification settings</string>
+    <string name="map_no_result">No results found.</string>
+    <string name="reserved_message_canceled">Scheduled message canceled.</string>
+    <string name="add_recipients">Add recipients</string>
+    <string name="do_not_ask_again">Do not show again.</string>
+    <string name="network_warning_flight_mode">Unable to connect to mobile networks while Airplane mode is enabled. This message will be sent when Airplane mode is disabled</string>
+</resources>

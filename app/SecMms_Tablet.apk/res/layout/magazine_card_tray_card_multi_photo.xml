@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/avatar" android:paddingBottom="@dimen/magazinecard_image_padding_bottom" android:layout_width="@dimen/magazinecard_photo_width" android:layout_height="@dimen/magazinecard_root_layout_height" android:layout_marginLeft="5.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/root_layout" android:paddingLeft="@dimen/magazinecard_photo_root_padding_left" android:paddingRight="@dimen/magazinecard_root_padding_right" android:layout_width="@dimen/magazinecard_photo_root_layout_width" android:layout_height="@dimen/magazinecard_root_layout_height">
+        <RelativeLayout android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/magazinecard_margin_top">
+            <TextView android:textSize="@dimen/magazinecard_title_text_size" android:textColor="#ff444444" android:gravity="center_vertical" android:id="@id/title" android:layout_width="@dimen/magazinecard_photo_title_layout_width" android:layout_height="@dimen/magazinecard_time_layout_height" android:includeFontPadding="false" android:layout_toRightOf="@id/avatar" android:fontFamily="sans-serif-light" />
+            <ImageView android:id="@id/app_image" android:layout_width="@dimen/magazinecard_app_image_layout_width" android:layout_height="@dimen/magazinecard_app_image_layout_height" android:src="@drawable/magazinecard_icon" android:layout_toRightOf="@id/title" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/magazinecard_content1_text_size" android:textColor="#ff444444" android:ellipsize="end" android:id="@id/content1" android:layout_width="fill_parent" android:layout_height="@dimen/magazinecard_content1_layout_height_multi" android:layout_marginTop="@dimen/magazinecard_content1_margin_top" android:maxLines="2" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/magazinecard_time_text_size" android:textColor="#ff444444" android:layout_gravity="right" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="@dimen/magazinecard_time_layout_height" android:layout_marginTop="@dimen/magazinecard_time_margin_top" android:layout_marginBottom="@dimen/magazinecard_time_margin_bottom" android:includeFontPadding="false" android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+</LinearLayout>

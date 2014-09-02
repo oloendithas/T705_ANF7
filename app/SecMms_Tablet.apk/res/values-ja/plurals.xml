@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="slide_duration">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">%s秒</item>
+        <item quantity="few">%d秒</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%2$sの結果%1$s件</item>
+        <item quantity="one">%sの結果1件</item>
+    </plurals>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s件のスレッド</item>
+        <item quantity="one">1件のスレッド</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s件のメッセージ</item>
+        <item quantity="one">1件のメッセージ</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d件のスレッド</item>
+        <item quantity="one">%d件のスレッド</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s 他 %2$d名</item>
+        <item quantity="one">%sとその他1件</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$sと他%2$d件</item>
+        <item quantity="one">%sと他1件</item>
+    </plurals>
+    <plurals name="successful_copy_to_sdcard">
+        <item quantity="other">添付ファイルを外部SDカードにコピーしました。</item>
+        <item quantity="one">添付ファイルが外部SDカードにコピーされました。</item>
+    </plurals>
+    <plurals name="failed_copy_to_sdcard">
+        <item quantity="other">添付ファイルを外部SDカードにコピーできませんでした。</item>
+        <item quantity="one">添付ファイルを外部SDカードにコピーできませんでした。</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">メッセージをSIMカードから削除しました。</item>
+        <item quantity="one">メッセージをSIMカードから削除しました。</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">メッセージがSIMカードからコピーされました。</item>
+        <item quantity="one">メッセージをSIMカードからコピーしました。</item>
+    </plurals>
+    <plurals name="uim_copy_to_phone_completed">
+        <item quantity="other">Messages copied from UIM card.</item>
+        <item quantity="one">Message copied from UIM card.</item>
+    </plurals>
+    <plurals name="uim_delete_completed">
+        <item quantity="other">%d messages deleted from UIM card.</item>
+        <item quantity="one">1 message deleted from UIM card.</item>
+    </plurals>
+</resources>

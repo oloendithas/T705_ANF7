@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="slide_duration">
+        <item quantity="other">%s secs</item>
+        <item quantity="one">%s שניות</item>
+        <item quantity="few">%s secs</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s תוצאות עבור %2$s</item>
+        <item quantity="one">תוצאה אחת עבור ‎%s</item>
+    </plurals>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s הליכי משנה</item>
+        <item quantity="one">הליך משנה אחד</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s הודעות</item>
+        <item quantity="one">הודעה אחת</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d שירשורים</item>
+        <item quantity="one">%d שירשור</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s ועוד %2$d</item>
+        <item quantity="one">%s ואחד נוסף</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s ועוד %2$d</item>
+        <item quantity="one">%s ואחד נוסף</item>
+    </plurals>
+    <plurals name="successful_copy_to_sdcard">
+        <item quantity="other">קבצים מצורפים הועתקו אל כרטיס ה-SD.</item>
+        <item quantity="one">קובץ מצורף הועתק לכרטיס SD.</item>
+    </plurals>
+    <plurals name="failed_copy_to_sdcard">
+        <item quantity="other">העתקת קבצים מצורפים אל כרטיס ה-SD נכשלה.</item>
+        <item quantity="one">העתקת קובץ מצורף אל כרטיס ה-SD נכשלה.</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">הודעות נמחקו מכרטיס SIM.</item>
+        <item quantity="one">ההודעה נמחקה מכרטיס SIM.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">הודעות הועתקו מכרטיס SIM.</item>
+        <item quantity="one">ההודעה הועתקה מכרטיס SIM.</item>
+    </plurals>
+    <plurals name="uim_copy_to_phone_completed">
+        <item quantity="other">Messages copied from UIM card.</item>
+        <item quantity="one">Message copied from UIM card.</item>
+    </plurals>
+    <plurals name="uim_delete_completed">
+        <item quantity="other">%d messages deleted from UIM card.</item>
+        <item quantity="one">1 message deleted from UIM card.</item>
+    </plurals>
+</resources>

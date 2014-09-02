@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/noti_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/quickpanel_icon_message" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="22.0dip" android:ellipsize="marquee" android:id="@id/noti_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/NotificationTitle" />
+        <TextView android:textSize="17.0dip" android:ellipsize="marquee" android:id="@id/noti_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/NotificationText" />
+    </LinearLayout>
+    <ImageButton android:id="@id/noti_reply_button" android:background="@android:color/transparent" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/noti_reply_button_selector" />
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="slide_duration">
+        <item quantity="other">%s сек</item>
+        <item quantity="one">%s с</item>
+        <item quantity="few">%s сек</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s результ. для “%2$s”</item>
+        <item quantity="one">1 результат для %s</item>
+    </plurals>
+    <plurals name="threads_results_title">
+        <item quantity="other">Бесед: %1$s</item>
+        <item quantity="one">1 беседа</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">Сообщений: %1$s</item>
+        <item quantity="one">1 сообщение</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">Бесед: %d</item>
+        <item quantity="one">%d беседа</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s и еще %2$d</item>
+        <item quantity="one">%s и еще 1</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s и еще %2$d</item>
+        <item quantity="one">%s и еще 1</item>
+    </plurals>
+    <plurals name="successful_copy_to_sdcard">
+        <item quantity="other">Вложения скопированы на карту памяти SD.</item>
+        <item quantity="one">Вложение скопировано на карту памяти.</item>
+    </plurals>
+    <plurals name="failed_copy_to_sdcard">
+        <item quantity="other">Не удалось скопировать вложения на карту памяти SD.</item>
+        <item quantity="one">Не удалось скопировать вложение на карту памяти SD.</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Сообщения удалены с SIM-карты.</item>
+        <item quantity="one">Сообщение удалено с SIM-карты.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">Сообщения скопированы с SIM-карты.</item>
+        <item quantity="one">Сообщение скопировано с SIM-карты.</item>
+    </plurals>
+    <plurals name="message_count_notification_overflow">
+        <item quantity="other">Inne wiadomości +%1$s</item>
+        <item quantity="one">Inny komunikat +%1$s</item>
+    </plurals>
+    <plurals name="uim_copy_to_phone_completed">
+        <item quantity="other">Messages copied from UIM card.</item>
+        <item quantity="one">Message copied from UIM card.</item>
+    </plurals>
+    <plurals name="uim_delete_completed">
+        <item quantity="other">%d messages deleted from UIM card.</item>
+        <item quantity="one">1 message deleted from UIM card.</item>
+    </plurals>
+</resources>

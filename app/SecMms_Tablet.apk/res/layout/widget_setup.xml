@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/empty_screen" android:paddingRight="@dimen/empty_view_popup_right_padding" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="22.0dip" android:textColor="@color/conversation_item_no_item_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/noItems" android:includeFontPadding="false" android:drawableTop="@drawable/no_text_templates" android:drawablePadding="8.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.sec.android.touchwiz.widget.TwDndListView android:id="@id/widget_edit_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="3.0dip" android:divider="#ffb8b8b8" android:dividerHeight="1.0dip" />
+</LinearLayout>

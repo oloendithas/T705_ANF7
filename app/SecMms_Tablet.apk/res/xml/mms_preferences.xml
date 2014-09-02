@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="pref_key_mms_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref_title_mms_group_mms" android:key="pref_key_mms_group_mms" android:summary="@string/pref_summary_mms_group_mms" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/pref_title_mms_delivery_reports" android:key="pref_key_mms_delivery_reports" android:summary="@string/pref_summary_mms_delivery_reports" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/pref_title_mms_read_reports" android:key="pref_key_mms_read_reports" android:summary="@string/pref_summary_mms_read_reports" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/pref_title_mms_add_subject_field" android:key="pref_key_mms_add_subject_field" android:summary="@string/pref_summary_mms_add_subject_field" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_title_mms_auto_retrieval" android:key="pref_key_mms_auto_retrieval" android:summary="@string/pref_summary_mms_auto_retrieval" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_title_mms_retrieval_during_roaming" android:key="pref_key_mms_retrieval_during_roaming" android:summary="@string/pref_summary_mms_retrieval_during_roaming" android:dependency="pref_key_mms_auto_retrieval" android:defaultValue="false" />
+    <ListPreference android:entries="@array/pref_entries_mms_creation_mode" android:title="@string/pref_title_mms_creation_mode" android:key="pref_key_mms_creation_mode" android:summary="@string/pref_summary_mms_creation_mode" android:defaultValue="free" android:dialogTitle="@string/pref_dialog_title_mms_creation_mode" android:entryValues="@array/pref_entry_values_mms_creation_mode" />
+    <CheckBoxPreference android:title="@string/pref_mms_change_over_alarm_title" android:key="pref_key_mms_change_over_alarm" android:summary="@string/pref_mms_change_over_alarm" android:defaultValue="false" />
+</PreferenceScreen>

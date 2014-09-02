@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textColor="@color/actionbar_title_color_normal" android:gravity="center_vertical" android:id="@id/actionbar_sim_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/pref_title_manage_sim_messages" android:singleLine="true" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/sim_commandbar" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/actionbar_sim_message_delete_list_separator_1" android:focusable="false" android:layout_width="1.0dip" android:layout_height="28.0dip" />
+        <TextView android:textSize="16.0dip" android:textStyle="normal" android:gravity="center_vertical" android:id="@id/actionbar_sim_message_delete_cancel_btn" android:background="@drawable/selector_actionbar_button_background" android:paddingLeft="16.5dip" android:paddingRight="16.5dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/no" android:drawableLeft="@drawable/ic_menu_cancel" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/actionbar_sim_message_delete_list_separator_2" android:background="@color/actionbar_separator_bar_color" android:focusable="false" android:layout_width="1.0dip" android:layout_height="28.0dip" />
+        <TextView android:textSize="16.0dip" android:textStyle="normal" android:gravity="center_vertical" android:id="@id/actionbar_sim_message_delete_done_btn" android:background="@drawable/selector_actionbar_button_background" android:paddingLeft="16.5dip" android:paddingRight="16.5dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/done" android:drawableLeft="@drawable/selector_actionbar_delete_done_button" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="slide_duration">
+        <item quantity="other">%s secs</item>
+        <item quantity="one">%s စကၠန္႔</item>
+        <item quantity="few">%s secs</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s ရလဒ္မွာ %2$s</item>
+        <item quantity="one">%s အတြက္ ရလဒ္ ၁ ခု</item>
+    </plurals>
+    <plurals name="threads_results_title">
+        <item quantity="other">အမဥိ %1$s ခု</item>
+        <item quantity="one">အမွ်ဥ္ ၁ ခု</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">မက္ေဆ့ခ်္ %1$s ခု</item>
+        <item quantity="one">မက္ေဆ့ခ်္ ၁ ခု</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d စကားအျပန္အလွန္ေျပာဆိုမႈမ်ား</item>
+        <item quantity="one">%d ေျပာဆိုျခင္း</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s ႏွင့္ %2$d အထက္</item>
+        <item quantity="one">%s ႏွင့္ ေနာက္ထပ္ ၁ ခု</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s ႏွင့္ %2$d ထက္မ်ားေသာ</item>
+        <item quantity="one">%s ႏွင့္ ေနာက္ထပ္ ၁ ခု</item>
+    </plurals>
+    <plurals name="successful_copy_to_sdcard">
+        <item quantity="other">SD ကတ္ သို႔ ကူးျပီးသည့္ ပူးတြဲခ်က္မ်ား။</item>
+        <item quantity="one">ပူးတြဲပါကို SD ကဒ္သို႕ ကူးျပီးပါျပီ။</item>
+    </plurals>
+    <plurals name="failed_copy_to_sdcard">
+        <item quantity="other">SD ကတ္ သို႔ ပူးတြဲခ်က္မ်ား ကူးရန္ မေအာင္ျမင္ပါ။</item>
+        <item quantity="one">SD ကတ္ သို႔ ပူးတြဲခ်က္ ကူးရန္ မေအာင္ျမင္ပါ။</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">SIM ကဒ္မွ ဖ်က္ထားသည့္မက္ေဆ့ခ်္မ်ား။</item>
+        <item quantity="one">SIM ကတ္ မွ မက္ေဆ့ခ်္ကို ဖ်က္ျပီးၿပီ။</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">SIM ကဒ္မွ ကူးယူထားသည့္ မက္ေဆ့ခ်္မ်ား။</item>
+        <item quantity="one">SIM ကတ္ မွ မက္ေဆ့ခ်္အား ကူးယူျပီးၿပီ။</item>
+    </plurals>
+    <plurals name="uim_copy_to_phone_completed">
+        <item quantity="other">UIM ကတ္ မွ မက္ေဆ့ခ်္မ်ားအား ကူးျပီး။</item>
+        <item quantity="one">UIM ကတ္ မွ မက္ေဆ့ခ်္အား ကူးျပီး။</item>
+    </plurals>
+    <plurals name="uim_delete_completed">
+        <item quantity="other">UIM ကတ္မွ မက္ေဆ့ခ်္ %d ခု ဖ်က္ျပီး။</item>
+        <item quantity="one">UIM ကတ္မွ မက္ေဆ့ခ်္ ၁ ခုဖ်က္ျပီး။</item>
+    </plurals>
+</resources>

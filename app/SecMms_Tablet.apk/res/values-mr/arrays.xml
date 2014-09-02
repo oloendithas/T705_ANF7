@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>आनंदी</item>
+        <item>दुःखी</item>
+        <item>डोळे मिचकावणे</item>
+        <item>चिडवणे</item>
+        <item>आश्चर्यचकित झालेले</item>
+        <item>चुंबन घेणे</item>
+        <item>ओरडणे</item>
+        <item>छान</item>
+        <item>पैसे लावायची का</item>
+        <item>घोडचूक</item>
+        <item>गोंधळलेला</item>
+        <item>देवदूत</item>
+        <item>अनिश्चित</item>
+        <item>रडत</item>
+        <item>तोंड बंद आहे.</item>
+        <item>हसणारा</item>
+        <item>गोंधळले</item>
+        <item>हृदय</item>
+        <item>वेडा</item>
+        <item>स्मर्क</item>
+        <item>पोकर चेहरा</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 सेकंद</item>
+        <item>2 सेकंद</item>
+        <item>3 सेकंद</item>
+        <item>4 सेकंद</item>
+        <item>5 सेकंद</item>
+        <item>6 सेकंद</item>
+        <item>7 seconds</item>
+        <item>8 सेकंद</item>
+        <item>9 seconds</item>
+        <item>10 सेकंद</item>
+        <item>इतर…</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>उपकरण फोन्ट आकार वापरा</item>
+        <item>सूक्ष्म</item>
+        <item>लहान</item>
+        <item>सामान्य</item>
+        <item>मोठे</item>
+        <item>प्रचंड</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>सूक्ष्म</item>
+        <item>लहान</item>
+        <item>सामान्य</item>
+        <item>मोठे</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>उपकरण फोन्ट आकार वापरा</item>
+        <item>सूक्ष्म</item>
+        <item>जास्‍त लहान</item>
+        <item>लहान</item>
+        <item>मध्यम</item>
+        <item>मोठे</item>
+        <item>अधिक मोठे</item>
+        <item>प्रचंड</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>सर्व चॅनल्स</item>
+        <item>माझे चॅनल</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-अक्षरमाला</item>
+        <item>यूनिकोड</item>
+        <item>स्वयंचलित</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 दिवस</item>
+        <item>1 दिवस</item>
+        <item>2 दिवस</item>
+        <item>3 दिवस</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>प्रतिबंधित</item>
+        <item>धोक्याचा इशारा</item>
+        <item>मोफत</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>नेहमी</item>
+        <item>तत्पर</item>
+        <item>कधी नाही</item>
+    </string-array>
+    <string-array name="pref_entries_message_skin">
+        <item>निळा</item>
+        <item>बादामी</item>
+        <item>एव्हरग्रीन</item>
+        <item>मोनो</item>
+        <item>जॉयपॉप</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>ओरिगामि</item>
+        <item>लेबल</item>
+        <item>पॉप</item>
+        <item>मॉडर्न</item>
+        <item>गुलाबी</item>
+        <item>डिफॉल्ट</item>
+    </string-array>
+    <string-array name="pref_entries_background_style">
+        <item>पार्श्वभूमी 1</item>
+        <item>पार्श्वभूमी 2</item>
+        <item>पार्श्वभूमी 3</item>
+        <item>पार्श्वभूमी 4</item>
+        <item>पार्श्वभूमी 5</item>
+        <item>पार्श्वभूमी 6</item>
+    </string-array>
+    <string-array name="pref_entries_text_field_color">
+        <item>काळा</item>
+        <item>पांढरा</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>एकदा</item>
+        <item>दर 2 मिनिटांनी</item>
+        <item>दर 15 मिनिटांनी</item>
+        <item>बंद</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>कधी नाही</item>
+        <item>दर 2 मिनिटांनी</item>
+        <item>दर 10 मिनिटांनी</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array_values">
+        <item>1</item>
+        <item>2</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>देशांतर्गत</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 तास</item>
+        <item>6 तास</item>
+        <item>24 तास</item>
+        <item>2 दिवस</item>
+        <item>नेटवर्क डिफॉल्ट</item>
+        <item>अधिकतम</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>उंच</item>
+        <item>सामान्य</item>
+        <item>कमी</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>तत्काळ</item>
+        <item>1 तास</item>
+        <item>6 तास</item>
+        <item>24 तास</item>
+        <item>1 आठवडा</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 सेकंद</item>
+        <item>5 सेकंद</item>
+        <item>10 सेकंद</item>
+        <item>20 सेकंद</item>
+        <item>30 सेकंद</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>बंद</item>
+        <item>सर्व संदेश ब्लॉक करा</item>
+        <item>नोंदणीकृत नंबर्स आणि फ्रेजेस ब्लॉक करा</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>अगदी त्याचप्रमाणे</item>
+        <item>याने प्रारंभ होते</item>
+        <item>याने समाप्त होते</item>
+        <item>समाविष्ट आहे</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>नोंदी</item>
+        <item>संपर्क</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>कॉल ब्लॉक</item>
+        <item>मेसेज ब्लॉक</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>व्हॉईस कॉल ब्लॉक</item>
+        <item>व्हिडिओ कॉल ब्लॉक</item>
+        <item>मेसेज ब्लॉक</item>
+    </string-array>
+    <string-array name="templates">
+        <item>माफ करा, मी तुमचा कॉल घेऊ शकलो नाही.</item>
+        <item>मला उशीर होत आहे, परंतु मी तिथे लवकरच पोहोचेन.</item>
+        <item>कसे चालू आहे?</item>
+        <item>कसे आहात?</item>
+        <item>आपण कोठे आहात?</item>
+        <item>हा संदेश मिळाल्या नंतर कृपया मला कॉल करा.</item>
+        <item>आपण कधी भेटायचे आहे?</item>
+        <item>लवकरच आपल्याशी बोलेन.</item>
+        <item>बैठक कुठे आहे?</item>
+        <item>नंबर कोणता आहे?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>ब्राझिलियन पोर्तुगीज</item>
+        <item>इंग्लिश (UK)</item>
+        <item>इंग्लिश (US)</item>
+        <item>फ्रेंच</item>
+        <item>जर्मन</item>
+        <item>इटालियन</item>
+        <item>जपानी</item>
+        <item>कोरियन</item>
+        <item>सिंपलीफाइड चायनीझ</item>
+        <item>रशियन</item>
+        <item>स्पॅनिश</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>सर्व</item>
+        <item>पाठवणारा</item>
+        <item>सामग्री</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>नेहमी</item>
+        <item>केवळ सायलेंट मोडमध्ये</item>
+        <item>कधी नाही</item>
+    </string-array>
+</resources>

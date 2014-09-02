@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget_conversation" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/loading_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="47.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="#ff555555" android:id="@id/loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="roboto-regular" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/conversation_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="14.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <TextView android:textSize="@dimen/magazine_widget_contact_text_size" android:textColor="#ff007ad2" android:id="@id/from" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="roboto-light" />
+            <TextView android:textSize="@dimen/magazine_widget_subject_text_size" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/unread_count" android:background="@drawable/widget_mms_numberbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="27.0dip" />
+            <TextView android:textSize="@dimen/magazine_widget_subject_text_size" android:textColor="#ffed9f14" android:id="@id/thread_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="27.0dip">
+            <TextView android:textSize="@dimen/magazine_widget_subject_text_size" android:textColor="#ff4b505b" android:ellipsize="end" android:id="@id/subject" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="roboto-light" />
+            <TextView android:textSize="@dimen/magazine_widget_date_text_size" android:textColor="#ff333333" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="roboto-regular" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

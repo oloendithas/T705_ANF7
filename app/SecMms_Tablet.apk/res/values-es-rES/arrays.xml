@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Contento</item>
+        <item>Triste</item>
+        <item>Guiñando</item>
+        <item>Sacando la lengua</item>
+        <item>Sorprendido</item>
+        <item>Besucón</item>
+        <item>Gritando</item>
+        <item>Guay</item>
+        <item>Avaricioso</item>
+        <item>Zapato en la boca</item>
+        <item>Avergonzado</item>
+        <item>Ángel</item>
+        <item>Indeciso</item>
+        <item>Llorón</item>
+        <item>No se lo digas a nadie</item>
+        <item>Riendo</item>
+        <item>Confuso</item>
+        <item>Corazón</item>
+        <item>Loco</item>
+        <item>Sonrisa de satisfacción</item>
+        <item>Cara de póker</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 segundo</item>
+        <item>2 segundos</item>
+        <item>3 segundos</item>
+        <item>4 segundos</item>
+        <item>5 segundos</item>
+        <item>6 segundos</item>
+        <item>7 seconds</item>
+        <item>8 segundos</item>
+        <item>9 seconds</item>
+        <item>10 segundos</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Usar tamaño fuentes disp</item>
+        <item>Diminuto</item>
+        <item>Pequeño</item>
+        <item>Normal</item>
+        <item>Grande</item>
+        <item>Enorme</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Diminuto</item>
+        <item>Pequeño</item>
+        <item>Normal</item>
+        <item>Grande</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Usar tamaño fuentes disp</item>
+        <item>Diminuto</item>
+        <item>Extrapequeño</item>
+        <item>Pequeño</item>
+        <item>Medio</item>
+        <item>Grande</item>
+        <item>Extragrande</item>
+        <item>Enorme</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Todas las emisoras</item>
+        <item>Mis canales</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Alfabeto GSM</item>
+        <item>Unicode</item>
+        <item>Automática</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 días</item>
+        <item>1 día</item>
+        <item>2 días</item>
+        <item>3 días</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Restringido</item>
+        <item>Aviso</item>
+        <item>Libre</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Siempre</item>
+        <item>Solicitud</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="pref_entries_message_skin">
+        <item>Azul</item>
+        <item>Brown</item>
+        <item>Evergreen</item>
+        <item>Mono</item>
+        <item>Joypop</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origami</item>
+        <item>Etiqueta</item>
+        <item>Pop</item>
+        <item>Moderno</item>
+        <item>Rosa</item>
+        <item>Predeterminado</item>
+    </string-array>
+    <string-array name="pref_entries_background_style">
+        <item>Fondo 1</item>
+        <item>Fondo 2</item>
+        <item>Fondo 3</item>
+        <item>Fondo 4</item>
+        <item>Fondo 5</item>
+        <item>Fondo 6</item>
+    </string-array>
+    <string-array name="pref_entries_text_field_color">
+        <item>Negro</item>
+        <item>Blanco</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Una vez</item>
+        <item>Cada 2 minutos</item>
+        <item>Cada 15 minutos</item>
+        <item>Desactivar</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Nunca</item>
+        <item>Cada 2 minutos</item>
+        <item>Cada 10 minutos</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array_values">
+        <item>1</item>
+        <item>2</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Nacional</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 hora</item>
+        <item>6 horas</item>
+        <item>24 horas</item>
+        <item>2 días</item>
+        <item>Valores predeterminados de red</item>
+        <item>Máximo</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Alta</item>
+        <item>Normal</item>
+        <item>Baja</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Inmediatamente</item>
+        <item>1 hora</item>
+        <item>6 horas</item>
+        <item>24 horas</item>
+        <item>1 semana</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 segundos</item>
+        <item>5 segundos</item>
+        <item>10 segundos</item>
+        <item>20 segundos</item>
+        <item>30 segundos</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Desactivado</item>
+        <item>Bloquear todos los mensajes</item>
+        <item>Bloquear las frases y los números registrados</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Exactamente igual a</item>
+        <item>Empieza por</item>
+        <item>Termina en</item>
+        <item>Incluye</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Registros</item>
+        <item>Contactos</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Bloqueo de llamadas</item>
+        <item>Bloqueo de mensajes</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Bloqueo llamadas de voz</item>
+        <item>Bloqueo de videollamadas</item>
+        <item>Bloqueo de mensajes</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Lo siento, no me dio tiempo a coger tu llamada</item>
+        <item>Voy tarde, pero llegaré en seguida.</item>
+        <item>¿Qué tal?</item>
+        <item>¿Qué hay?</item>
+        <item>¿Dónde estás?</item>
+        <item>Llámame cuando recibas este mensaje</item>
+        <item>¿Dónde nos vemos?</item>
+        <item>Hablamos pronto</item>
+        <item>¿Dónde es la reunión?</item>
+        <item>¿Qué número es?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Portugués brasileño</item>
+        <item>Inglés (GB)</item>
+        <item>Inglés (EE. UU)</item>
+        <item>Francés</item>
+        <item>Alemán</item>
+        <item>Italiano</item>
+        <item>Japonés</item>
+        <item>Coreano</item>
+        <item>Chino simplificado</item>
+        <item>Ruso</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Todas</item>
+        <item>Remitente</item>
+        <item>Contenido</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Siempre</item>
+        <item>Sólo en modo Silencio</item>
+        <item>Nunca</item>
+    </string-array>
+</resources>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>שמח</item>
+        <item>עצוב</item>
+        <item>קריצה</item>
+        <item>מוציא לשון</item>
+        <item>מופתע</item>
+        <item>מנשק</item>
+        <item>צועק</item>
+        <item>מגניב</item>
+        <item>פה בצורת דולר</item>
+        <item>רגל בפה</item>
+        <item>נבוך</item>
+        <item>מלאך</item>
+        <item>מהסס</item>
+        <item>בוכה</item>
+        <item>שפתיים חתומות</item>
+        <item>צחוק</item>
+        <item>מבולבל</item>
+        <item>לב</item>
+        <item>כועס</item>
+        <item>זחוח</item>
+        <item>פרצוף פוקר</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>שנייה אחת</item>
+        <item>2 שניות</item>
+        <item>3 שניות</item>
+        <item>4 שניות</item>
+        <item>5 שניות</item>
+        <item>6 שניות</item>
+        <item>7 seconds</item>
+        <item>8 שניות</item>
+        <item>9 seconds</item>
+        <item>10 שניות</item>
+        <item>אחר…</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>השתמש בגדלי גופן של המכשיר</item>
+        <item>קטן מאוד</item>
+        <item>קטן</item>
+        <item>רגיל</item>
+        <item>גדול</item>
+        <item>גדול מאוד</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>קטן מאוד</item>
+        <item>קטן</item>
+        <item>רגיל</item>
+        <item>גדול</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>השתמש בגדלי גופן של המכשיר</item>
+        <item>קטן מאוד</item>
+        <item>קטן מאוד</item>
+        <item>קטן</item>
+        <item>בינוני</item>
+        <item>גדול</item>
+        <item>ענק</item>
+        <item>גדול מאוד</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>כל הערוצים</item>
+        <item>הערוץ שלי</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM אלפבית של</item>
+        <item>יוניקוד</item>
+        <item>אוטומטי</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 ימים</item>
+        <item>יום</item>
+        <item>יומיים</item>
+        <item>3 ימים</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>מוגבל</item>
+        <item>אזהרה</item>
+        <item>חופשי</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>תמיד</item>
+        <item>שאל</item>
+        <item>אף פעם</item>
+    </string-array>
+    <string-array name="pref_entries_message_skin">
+        <item>כחול</item>
+        <item>חום</item>
+        <item>ירוק עד</item>
+        <item>מונו</item>
+        <item>"ג'וי פופ"</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>אוריגמי</item>
+        <item>תווית</item>
+        <item>פופ</item>
+        <item>מודרני</item>
+        <item>ורוד</item>
+        <item>ברירת מחדל</item>
+    </string-array>
+    <string-array name="pref_entries_background_style">
+        <item>רקע 1</item>
+        <item>רקע 2</item>
+        <item>רקע 3</item>
+        <item>רקע 4</item>
+        <item>רקע 5</item>
+        <item>רקע 6</item>
+    </string-array>
+    <string-array name="pref_entries_text_field_color">
+        <item>שחור</item>
+        <item>לבן</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>חד-פעמי</item>
+        <item>כל 2 דקות</item>
+        <item>כל 15 דקות</item>
+        <item>כבוי</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>אף פעם</item>
+        <item>כל 2 דקות</item>
+        <item>כל 10 דקות</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array_values">
+        <item>1</item>
+        <item>2</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>מקומי</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>שעה אחת</item>
+        <item>6 שעות</item>
+        <item>24 שעות</item>
+        <item>יומיים</item>
+        <item>לפי רשת</item>
+        <item>מקסימום</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>גבוהה</item>
+        <item>רגילה</item>
+        <item>נמוכה</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>מידי</item>
+        <item>שעה אחת</item>
+        <item>6 שעות</item>
+        <item>24 שעות</item>
+        <item>שבוע</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 שניות</item>
+        <item>5 שניות</item>
+        <item>10 שניות</item>
+        <item>20 שניות</item>
+        <item>30 שניות</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>כבוי</item>
+        <item>חסום את כל ההודעות</item>
+        <item>חסום מספרים רשומים וביטויים</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>בדיוק כמו</item>
+        <item>מתחיל עם</item>
+        <item>מסתיים עם</item>
+        <item>כולל</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>יומן שיחות</item>
+        <item>אנשי קשר</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>חסימת שיחות</item>
+        <item>חסימת הודעות</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>חסימת שיחות קוליות</item>
+        <item>חסימת שיחות וידאו</item>
+        <item>חסימת הודעות</item>
+    </string-array>
+    <string-array name="templates">
+        <item>מצטער, פספסתי את השיחה שלך.</item>
+        <item>אני מאחר מעט אבל אגיע בקרוב.</item>
+        <item>מה העניינים?</item>
+        <item>מה נשמע?</item>
+        <item>איפה אתה?</item>
+        <item>תתקשר אליי כשתקבל את ההודעה.</item>
+        <item>מתי נוכל להיפגש?</item>
+        <item>אדבר איתך בקרוב.</item>
+        <item>היכן הפגישה?</item>
+        <item>מה המספר?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>פורטוגזית ברזילאית</item>
+        <item>אנגלית (בריטניה)</item>
+        <item>באנגלית (ארה”ב)</item>
+        <item>צרפתית</item>
+        <item>גרמני</item>
+        <item>איטלקית</item>
+        <item>יפנית</item>
+        <item>קוריאנית</item>
+        <item>סינית פשוטה</item>
+        <item>רוסית</item>
+        <item>ספרדית</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>הכל</item>
+        <item>שולח</item>
+        <item>תוכן</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>תמיד</item>
+        <item>רק במצב שקט</item>
+        <item>אף פעם</item>
+    </string-array>
+</resources>

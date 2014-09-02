@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/chirag" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/button_on_template" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="@dimen/spam_keyword_text_hint_size" android:gravity="center_vertical" android:id="@id/text_template_editor" android:paddingLeft="12.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="@dimen/text_template_editor_marginTop" android:layout_marginRight="20.0dip" android:minHeight="40.0dip" android:hint="@string/enter_text" android:singleLine="false" android:capitalize="sentences" android:autoText="true" />
+    </RelativeLayout>
+</LinearLayout>

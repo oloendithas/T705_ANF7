@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/help_airbutton_03_v" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/recipients_subject_linear" android:background="@drawable/mms_textfield_common_bg_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contact_airbutton_recipient_filed_margin_top_port" android:layout_marginRight="@dimen/contact_airbutton_recipient_field_margin_right">
+        <LinearLayout android:orientation="vertical" android:id="@id/recipients_field" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="66.0dip">
+                <LinearLayout android:id="@id/to_text_container" android:layout_width="79.0dip" android:layout_height="@dimen/to_text_container_layout_height">
+                    <TextView android:textSize="20.0dip" android:textColor="@color/to_text_leftof_editor_textColor" android:gravity="center" android:id="@id/to_text_leftof_editor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/to_text_leftof_editor_marginLeft" android:layout_marginRight="@dimen/to_text_leftof_editor_marginRight" android:text="@string/to_hint" />
+                </LinearLayout>
+                <com.android.mms.ui.RecipientsEditor android:textSize="20.0dip" android:id="@id/recipients_editor_to" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="@dimen/recipients_editor_to_layout_height" android:hint="@string/help_enter_recipient" android:layout_weight="1.0" android:inputType="textFilter" />
+                <ImageView android:id="@id/btn_add_recipient" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/btn_add_recipient_layout_height" android:layout_marginLeft="8.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/selector_message_add_button" android:contentDescription="@string/phone_book_button_description" />
+                <ImageView android:id="@id/add_recipient_button" android:focusable="true" android:layout_width="wrap_content" android:layout_height="@dimen/add_recipient_button_layout_height" android:layout_marginLeft="8.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/selector_message_contact_button" android:contentDescription="@string/phone_book_button_description" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

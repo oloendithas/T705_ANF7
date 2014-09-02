@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>سعيد</item>
+        <item>حزين</item>
+        <item>مطرف عينه</item>
+        <item>اللسان خارج الفم</item>
+        <item>مندهش</item>
+        <item>تقبيل</item>
+        <item>صراخ</item>
+        <item>هادئ</item>
+        <item>الفم والمال</item>
+        <item>لا ينطق بكلمة</item>
+        <item>محرج</item>
+        <item>ملاك</item>
+        <item>غير مقرر</item>
+        <item>يبكي</item>
+        <item>لا ينطق بكلمة</item>
+        <item>يضحك</item>
+        <item>مشوش</item>
+        <item>قلب</item>
+        <item>مخبول</item>
+        <item>ابتسامة متكلفة</item>
+        <item>وجه غامض</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>ثانية واحدة</item>
+        <item>ثانيتان</item>
+        <item>٣ ثوان</item>
+        <item>٤ ثوان</item>
+        <item>٥ ثوان</item>
+        <item>٦ ثواني</item>
+        <item>7 seconds</item>
+        <item>8 ثواني</item>
+        <item>9 seconds</item>
+        <item>١٠ ثوان</item>
+        <item>أخرى…</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>استخدام أحجام خط الجهاز</item>
+        <item>Tiny</item>
+        <item>صغير</item>
+        <item>عادي</item>
+        <item>كبير</item>
+        <item>ضخم</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>صغير جدا</item>
+        <item>صغير</item>
+        <item>عادي</item>
+        <item>كبير</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>استخدام أحجام خط الجهاز</item>
+        <item>ضئيل</item>
+        <item>صغير جدا</item>
+        <item>صغير</item>
+        <item>متوسط</item>
+        <item>كبير</item>
+        <item>كبير جدا</item>
+        <item>ضخم</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>كل القنوات</item>
+        <item>قنواتي</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>أبجدية GSM</item>
+        <item>الرمز الموحد</item>
+        <item>تلقائي</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 أيام</item>
+        <item>يوم واحد</item>
+        <item>يومين</item>
+        <item>۳ أيام</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>مقيد</item>
+        <item>تحذير</item>
+        <item>حر</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>دائما</item>
+        <item>إسأل أولا</item>
+        <item>أبدا</item>
+    </string-array>
+    <string-array name="pref_entries_message_skin">
+        <item>أزرق</item>
+        <item>بني</item>
+        <item>دائم الخضرة</item>
+        <item>أحادي</item>
+        <item>متعة</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>طي الورق</item>
+        <item>الاسم</item>
+        <item>بوب</item>
+        <item>حديث</item>
+        <item>وردي</item>
+        <item>افتراضي</item>
+    </string-array>
+    <string-array name="pref_entries_background_style">
+        <item>الخلفية 1</item>
+        <item>الخلفية 2</item>
+        <item>الخلفية 3</item>
+        <item>الخلفية 4</item>
+        <item>الخلفية 5</item>
+        <item>الخلفية 6</item>
+    </string-array>
+    <string-array name="pref_entries_text_field_color">
+        <item>أسود</item>
+        <item>أبيض</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>مرة واحدة</item>
+        <item>كل دقيقتان</item>
+        <item>كل ٢٠ دقيقة</item>
+        <item>غير فعال</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>أبدا</item>
+        <item>كل دقيقتان</item>
+        <item>كل ١٠ دقائق</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array_values">
+        <item>1</item>
+        <item>2</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>داخلية</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>ساعة واحدة</item>
+        <item>٦ ساعات</item>
+        <item>24 ساعة</item>
+        <item>يومين</item>
+        <item>افتراضيات الشبكة</item>
+        <item>الحد الأقصى</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>مرتفعة</item>
+        <item>عادي</item>
+        <item>غير هامة</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>في الحال</item>
+        <item>ساعة واحدة</item>
+        <item>٦ ساعات</item>
+        <item>24 ساعة</item>
+        <item>أسبوع واحد</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>٣ ثوان</item>
+        <item>٥ ثوان</item>
+        <item>١٠ ثوان</item>
+        <item>٢٠ ثانية</item>
+        <item>٣٠ ثانية</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>غير فعال</item>
+        <item>حظر جميع الرسائل</item>
+        <item>حظر الأرقام والعبارات المسجلة</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>مطابق تماما</item>
+        <item>يبدأ بـ</item>
+        <item>ينتهي بـ</item>
+        <item>يتضمن</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>السجلات</item>
+        <item>جهات الاتصال</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>حظر المكالمة</item>
+        <item>حظر الرسائل</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>حظر المكالمات الصوتية</item>
+        <item>حظر مكالمات الفيديو</item>
+        <item>حظر الرسائل</item>
+    </string-array>
+    <string-array name="templates">
+        <item>‏‫معذرة، ولكن فاتتني مكالمتك.</item>
+        <item>إنني متأخر، لكنني سأصل هناك قريبًا.</item>
+        <item>كيف تسير الأمور؟</item>
+        <item>ما الأمر؟</item>
+        <item>أين أنت؟</item>
+        <item>الرجاء الاتصال بي عند استلام هذه الرسالة.</item>
+        <item>متى يمكننا اللقاء؟</item>
+        <item>سأتحدث معك قريبا.</item>
+        <item>أين سينعقد الاجتماع؟</item>
+        <item>ما الرقم؟</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>البرتغالية البرازيلية</item>
+        <item>الإنجليزية (المملكة المتحدة)‏</item>
+        <item>الإنجليزية (الولايات المتحدة)</item>
+        <item>الفرنسية</item>
+        <item>الألمانية</item>
+        <item>الإيطالية</item>
+        <item>اليابانية</item>
+        <item>الكورية (كوريا الشمالية)</item>
+        <item>الصينية المبسطة</item>
+        <item>الروسية</item>
+        <item>الإسبانية</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>الكل</item>
+        <item>المرسل</item>
+        <item>محتوى</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>دائما</item>
+        <item>في الوضع صامت فقط</item>
+        <item>أبدا</item>
+    </string-array>
+</resources>

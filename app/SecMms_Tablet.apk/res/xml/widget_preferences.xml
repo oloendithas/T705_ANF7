@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:title="@string/font_size" android:fragment="com.android.mms.widget.FontSizePreference" />
+    <header android:title="@string/delete" android:fragment="com.android.mms.widget.NoticeListDeleteFragment" />
+    <header android:title="@string/change_order" android:fragment="com.android.mms.widget.NoticeListEditFragment" />
+</preference-headers>

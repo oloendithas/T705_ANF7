@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/mms_view" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/image_view" android:background="@drawable/mms_attach_thumbnail_box" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:adjustViewBounds="true" android:maxWidth="178.0dip" android:maxHeight="178.0dip" />
+        <ImageView android:layout_gravity="bottom|left|center" android:id="@id/video_play_button" android:paddingLeft="4.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mms_slideshow_video" />
+    </FrameLayout>
+</FrameLayout>

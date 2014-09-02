@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="pref_key_display_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.mms.ui.FontSizePreference android:entries="@array/pref_entries_font_size" android:title="@string/pref_title_font_size" android:key="pref_key_font_size" android:defaultValue="Follow system font size" android:dialogTitle="@string/pref_title_font_size" android:entryValues="@array/pref_entry_values_font_size" />
+    <PreferenceScreen android:title="@string/pref_title_bubble_style" android:key="pref_key_bubble_style" android:summary="@string/set_skin">
+        <intent android:targetPackage="com.android.mms" android:action="android.intent.action.MAIN" android:targetClass="com.android.mms.ui.BubbleTypePicker" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_title_background_style" android:key="pref_key_background_color" android:summary="@string/set_skin">
+        <intent android:targetPackage="com.android.mms" android:action="android.intent.action.MAIN" android:targetClass="com.android.mms.ui.BackgroundColorPicker" />
+    </PreferenceScreen>
+    <CheckBoxPreference android:title="@string/pref_title_split_view" android:key="pref_key_split_view" android:summary="@string/pref_summary_split_view" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_truncate_long_messages_title" android:key="pref_key_truncate_long_messages" android:summary="@string/pref_truncate_long_messages_summary" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" android:defaultValue="false" />
+</PreferenceScreen>

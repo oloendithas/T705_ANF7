@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Mutlu</item>
+        <item>Üzgün yüz</item>
+        <item>Göz kırpan yüz</item>
+        <item>Dil çıkarma</item>
+        <item>Şaşkın</item>
+        <item>Öpüyorum</item>
+        <item>Şaşkın yüz</item>
+        <item>Cool</item>
+        <item>Paragöz</item>
+        <item>Suratına tekme</item>
+        <item>Utanmış</item>
+        <item>Melek</item>
+        <item>Kararsız</item>
+        <item>Ağlayan yüz</item>
+        <item>Mühürlü dudaklar</item>
+        <item>Gülen yüz</item>
+        <item>Kafası karışık</item>
+        <item>Kalp</item>
+        <item>Deli</item>
+        <item>Sırıtma</item>
+        <item>Poker suratı</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 saniye</item>
+        <item>2 saniye</item>
+        <item>3 saniye</item>
+        <item>4 saniye</item>
+        <item>5 saniye</item>
+        <item>6 saniye</item>
+        <item>7 saniye</item>
+        <item>8 saniye</item>
+        <item>9 saniye</item>
+        <item>10 saniye</item>
+        <item>Diğer…</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Cihaz boyutlarını kullan</item>
+        <item>Tiny</item>
+        <item>Küçük</item>
+        <item>Normal</item>
+        <item>Büyük</item>
+        <item>Çok büyük</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Çok küçük</item>
+        <item>Küçük</item>
+        <item>Normal</item>
+        <item>Büyük</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Cihaz boyutlarını kullan</item>
+        <item>Çok küçük</item>
+        <item>Ekstra küçük</item>
+        <item>Küçük</item>
+        <item>Orta</item>
+        <item>Büyük</item>
+        <item>Ekstra büyük</item>
+        <item>Çok büyük</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Tüm kanallar</item>
+        <item>Kanallarım</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM Alfabesi</item>
+        <item>Çoklu dil</item>
+        <item>Otomatik</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 gün</item>
+        <item>1 gün</item>
+        <item>2 gün</item>
+        <item>3 gün</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Kısıtlı</item>
+        <item>Uyarı</item>
+        <item>Serbest</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Her zaman</item>
+        <item>Hemen</item>
+        <item>Hiçbir zaman</item>
+    </string-array>
+    <string-array name="pref_entries_message_skin">
+        <item>Mavi</item>
+        <item>Kahverengi</item>
+        <item>Evergreen</item>
+        <item>Mono</item>
+        <item>Joypop</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origami</item>
+        <item>Etiket</item>
+        <item>Pop</item>
+        <item>Modern</item>
+        <item>Pembe</item>
+        <item>Varsayılan</item>
+    </string-array>
+    <string-array name="pref_entries_background_style">
+        <item>Arkaplan 1</item>
+        <item>Arkaplan 2</item>
+        <item>Arkaplan 3</item>
+        <item>Arkaplan 4</item>
+        <item>Arkaplan 5</item>
+        <item>Arkaplan 6</item>
+    </string-array>
+    <string-array name="pref_entries_text_field_color">
+        <item>Siyah</item>
+        <item>Beyaz</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Bir defa</item>
+        <item>Her 2 dakikada bir</item>
+        <item>15 dakikada bir</item>
+        <item>Kapalı</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Hiçbir zaman</item>
+        <item>Her 2 dakikada bir</item>
+        <item>Her 10 dakikada bir</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array_values">
+        <item>1</item>
+        <item>2</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Yurtiçi</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 saat</item>
+        <item>6 saat</item>
+        <item>24 saat</item>
+        <item>2 gün</item>
+        <item>Varsayılan ağ</item>
+        <item>Maksimum</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Yüksek</item>
+        <item>Normal</item>
+        <item>Düşük</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Hemen</item>
+        <item>1 saat</item>
+        <item>6 saat</item>
+        <item>24 saat</item>
+        <item>1 hafta</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 saniye</item>
+        <item>5 saniye</item>
+        <item>10 saniye</item>
+        <item>20 saniye</item>
+        <item>30 saniye</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Kapalı</item>
+        <item>Tüm mesajları engelle</item>
+        <item>Sadece kayıtlı numaraları ve sözleri engelle</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Aynısı</item>
+        <item>İlk rakamı</item>
+        <item>Son rakamı</item>
+        <item>İçerir</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Kayıtlar</item>
+        <item>Rehber</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Arama engelleme</item>
+        <item>Mesaj engelle</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Sesli arama engelleme</item>
+        <item>Görüntülü arama engelle</item>
+        <item>Mesaj engelle</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Üzgünüm aramanı kaçırdım.</item>
+        <item>Geç kalacağım ama en kısa zamanda oradayım.</item>
+        <item>Nasıl gidiyor?</item>
+        <item>Nasılsın?</item>
+        <item>Neredesin?</item>
+        <item>Lütfen bu mesajı aldığında beni ara.</item>
+        <item>Ne zaman buluşabiliriz?</item>
+        <item>Yakında görüşürüz.</item>
+        <item>Toplantı nerde?</item>
+        <item>Numarası nedir?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Brezilya Portekizcesi</item>
+        <item>İngilizce (BK)</item>
+        <item>İngilizce (ABD)</item>
+        <item>Fransızca</item>
+        <item>Almanca</item>
+        <item>İtalyanca</item>
+        <item>Japonca</item>
+        <item>Korece</item>
+        <item>Basitleştirilmiş Çince</item>
+        <item>Rusça</item>
+        <item>İspanyolca</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Hepsi</item>
+        <item>Gönderen</item>
+        <item>İçerik</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Her zaman</item>
+        <item>Sadece Sessiz modda</item>
+        <item>Hiçbir zaman</item>
+    </string-array>
+</resources>

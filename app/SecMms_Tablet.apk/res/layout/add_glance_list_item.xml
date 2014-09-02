@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/avatar" android:layout_width="@dimen/conversation_item_contact_badge_width" android:layout_height="@dimen/conversation_item_contact_badge_height" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/list_item_from_textSzie_normal" android:textColor="@drawable/conversation_list_item_from_color" android:ellipsize="marquee" android:id="@id/from" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/list_item_subject_textSzie" android:textColor="@drawable/conversation_list_item_subject_color" android:ellipsize="end" android:id="@id/address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/add" android:layout_width="@dimen/priority_create_size" android:layout_height="@dimen/priority_create_size">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/priority_sender_create" />
+    </LinearLayout>
+</LinearLayout>

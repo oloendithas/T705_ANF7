@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>I lumtur</item>
+        <item>I trishtuar</item>
+        <item>Duke shkelur syrin</item>
+        <item>Me gjuhën përjashta</item>
+        <item>I habitur</item>
+        <item>Duke puthur</item>
+        <item>Duke bërtitur</item>
+        <item>Cool</item>
+        <item>Gojë dollar</item>
+        <item>Gafë</item>
+        <item>I turpëruar</item>
+        <item>Ëngjëll</item>
+        <item>I pavendosur</item>
+        <item>Duke qarë</item>
+        <item>Nuk ia tregoj njeriu</item>
+        <item>Duke qeshur</item>
+        <item>I përshtjelluar</item>
+        <item>Zemër</item>
+        <item>Inatosur</item>
+        <item>Nënqeshje</item>
+        <item>Fytyrë pokeri</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 sekondë</item>
+        <item>2 sekonda</item>
+        <item>3 sekonda</item>
+        <item>4 sekonda</item>
+        <item>5 sekonda</item>
+        <item>6 sekonda</item>
+        <item>7 seconds</item>
+        <item>8 sekonda</item>
+        <item>9 seconds</item>
+        <item>10 sekonda</item>
+        <item>Tjetër…</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Përd. madh. font. pajisj.</item>
+        <item>E madhe</item>
+        <item>E vogël</item>
+        <item>Normale</item>
+        <item>E madhe</item>
+        <item>E stërmadhe</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>E imët</item>
+        <item>E vogël</item>
+        <item>Normale</item>
+        <item>E madhe</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Përd. madh. font. pajisj.</item>
+        <item>Shumë i vogël</item>
+        <item>Tejet i vogël</item>
+        <item>I vogël</item>
+        <item>Mesatar</item>
+        <item>I madh</item>
+        <item>Tejet i madh</item>
+        <item>Shumë i madh</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Të gjitha kanalet</item>
+        <item>Kanalet e mia</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Alfabeti GSM</item>
+        <item>Unicode</item>
+        <item>Automatik</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 ditë</item>
+        <item>1 ditë</item>
+        <item>2 ditë</item>
+        <item>3 ditë</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Kufizuar</item>
+        <item>Lajmërim</item>
+        <item>E lirë</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Gjithnjë</item>
+        <item>Më pyet</item>
+        <item>Kurrë</item>
+    </string-array>
+    <string-array name="pref_entries_message_skin">
+        <item>I kaltër</item>
+        <item>Kafe</item>
+        <item>E gjelbër</item>
+        <item>Mono</item>
+        <item>Gëzim</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origami</item>
+        <item>Etiketa</item>
+        <item>Pop</item>
+        <item>Moderne</item>
+        <item>Rozë</item>
+        <item>E parazgjedhur</item>
+    </string-array>
+    <string-array name="pref_entries_background_style">
+        <item>Sfondi 1</item>
+        <item>Sfondi 2</item>
+        <item>Sfondi 3</item>
+        <item>Sfondi 4</item>
+        <item>Sfondi 5</item>
+        <item>Sfondi 6</item>
+    </string-array>
+    <string-array name="pref_entries_text_field_color">
+        <item>I zi</item>
+        <item>I bardhë</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Një herë</item>
+        <item>Çdo 2 minuta</item>
+        <item>Çdo 15 minuta</item>
+        <item>Fikur</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Kurrë</item>
+        <item>Çdo 2 minuta</item>
+        <item>Çdo 10 minuta</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array_values">
+        <item>1</item>
+        <item>2</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Të brendshme</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 orë</item>
+        <item>6 orë</item>
+        <item>24 orë</item>
+        <item>2 ditë</item>
+        <item>Default i rrjetit</item>
+        <item>Maksimumi</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>E lartë</item>
+        <item>Normal</item>
+        <item>E ulët</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Menjëherë</item>
+        <item>1 orë</item>
+        <item>6 orë</item>
+        <item>24 orë</item>
+        <item>1 javë</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 sekonda</item>
+        <item>5 sekonda</item>
+        <item>10 sekonda</item>
+        <item>20 sekonda</item>
+        <item>30 sekonda</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Fikur</item>
+        <item>Blloko të gjithë mesazhet</item>
+        <item>Blloko shprehjet dhe numrat e regjistruar</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Saktësisht i njëjti emër me</item>
+        <item>Nis me</item>
+        <item>Mbaron me</item>
+        <item>Përfshin</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Ditaret</item>
+        <item>Kontaktet</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Bllokimi i telefonatave</item>
+        <item>Bllokimi i mesazheve</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Bllok. i telefon. zanore</item>
+        <item>Bllokimi i videotelefon.</item>
+        <item>Bllokimi i mesazheve</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Më fal, e humba thirrjen tënde.</item>
+        <item>Jam pak vonë, por do të jem atje për pak minuta.</item>
+        <item>Si po ia kalon?</item>
+        <item>"Ç'kemi?"</item>
+        <item>Ku je?</item>
+        <item>Të lutem, më thirr kur ta marrësh këtë mesazh.</item>
+        <item>Kur mund të takohemi?</item>
+        <item>Flasim më vonë.</item>
+        <item>Ku është takimi?</item>
+        <item>Cili është numri?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Portugalishte e Brazilit</item>
+        <item>Anglisht (UK)</item>
+        <item>Anglisht (SHBA)</item>
+        <item>Frëngjisht</item>
+        <item>Gjermanisht</item>
+        <item>Italisht</item>
+        <item>Japonisht</item>
+        <item>Koreanisht</item>
+        <item>Kinezisht, thj.</item>
+        <item>Rusisht</item>
+        <item>Spanjisht</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Të gjitha</item>
+        <item>Dërguesi</item>
+        <item>Përmbajtja</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Gjithnjë</item>
+        <item>Vetëm në regj. Pa zë</item>
+        <item>Kurrë</item>
+    </string-array>
+</resources>

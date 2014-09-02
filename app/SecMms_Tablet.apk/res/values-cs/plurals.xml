@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="slide_duration">
+        <item quantity="other">Počet sekund: %s</item>
+        <item quantity="one">%s s</item>
+        <item quantity="few">Počet sekund: %s</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s výsledků pro %2$s</item>
+        <item quantity="one">1 výsledek pro %s</item>
+    </plurals>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s vláken</item>
+        <item quantity="one">1 vlákno</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s zpráv</item>
+        <item quantity="one">1 zpráva</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d konverzací</item>
+        <item quantity="one">%d konverzace</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s a %2$d dalších</item>
+        <item quantity="one">%s a 1 další</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s a %2$d dalších</item>
+        <item quantity="one">%s a 1 další</item>
+    </plurals>
+    <plurals name="successful_copy_to_sdcard">
+        <item quantity="other">Přílohy byly zkopírovány na SD kartu.</item>
+        <item quantity="one">Příloha byla zkopírována na kartu SD card.</item>
+    </plurals>
+    <plurals name="failed_copy_to_sdcard">
+        <item quantity="other">Nepodařilo se zkopírovat přílohy na SD kartu.</item>
+        <item quantity="one">Nepodařilo se zkopírovat přílohu na SD kartu.</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Zprávy byly odstraněny ze SIM karty.</item>
+        <item quantity="one">Zpráva byla odstraněna ze SIM karty.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">Zprávy byly zkopírovány ze SIM karty.</item>
+        <item quantity="one">Zpráva byla zkopírována ze SIM karty.</item>
+    </plurals>
+    <plurals name="uim_copy_to_phone_completed">
+        <item quantity="other">Messages copied from UIM card.</item>
+        <item quantity="one">Message copied from UIM card.</item>
+    </plurals>
+    <plurals name="uim_delete_completed">
+        <item quantity="other">%d messages deleted from UIM card.</item>
+        <item quantity="one">1 message deleted from UIM card.</item>
+    </plurals>
+</resources>

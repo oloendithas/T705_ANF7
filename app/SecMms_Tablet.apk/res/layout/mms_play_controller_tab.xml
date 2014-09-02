@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/mms_play_bg" android:layout_width="fill_parent" android:layout_height="@dimen/mms_play_controller_height_tab"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/mediacontroller_progress" android:background="@drawable/mms_control_bar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/mediacontroller_progress_height" android:layout_marginLeft="@dimen/mediacontroller_progress_marginLeft" android:layout_marginTop="24.0dip" android:layout_marginRight="@dimen/mediacontroller_progress_marginRight" android:progressDrawable="@drawable/customized_progressbar" style="?android:attr/progressBarStyleHorizontal" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/mms_play_controller_time_text_size" android:textColor="@color/progressbar_fg_color" android:id="@id/time_current" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mediacontroller_progress_marginLeft" android:layout_marginBottom="20.0dip" />
+        <TextView android:textSize="@dimen/mms_play_controller_time_text_size" android:textColor="@color/progressbar_text_color" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mediacontroller_progress_marginRight" android:layout_marginBottom="20.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-22.0dip" android:layout_marginBottom="19.0dip">
+        <ImageButton android:id="@id/prev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="35.0dip" android:src="@drawable/msg_slideshow_rew_button_selector" android:contentDescription="@string/previous" />
+        <ImageButton android:id="@id/pause" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mediacontroller_button_margin_left" android:layout_marginRight="35.0dip" android:src="@drawable/msg_slideshow_pause_button_selector" android:contentDescription="@string/pause" />
+        <ImageButton android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mediacontroller_button_margin_left" android:src="@drawable/msg_slideshow_ff_button_selector" android:contentDescription="@string/next" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="pref_key_delaysending_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref_delay_settings_title" android:key="pref_key_enable_delaysending" android:summary="@string/pref_delay_settings_explain" android:defaultValue="false" />
+    <ListPreference android:entries="@array/msg_delay_alert_Array" android:title="@string/pref_msg_delay_alert" android:key="pref_key_msg_delay_sending" android:dependency="pref_key_enable_delaysending" android:defaultValue="3" android:entryValues="@array/msg_delay_alert_Array_values" />
+</PreferenceScreen>

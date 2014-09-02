@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="pref_key_storage_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/pref_title_sms_disabled" android:key="pref_key_sms_disabled" android:summary="@string/pref_summary_sms_disabled">
+        <intent android:targetPackage="com.android.settings" android:action="android.provider.Telephony.ACTION_CHANGE_DEFAULT">
+            <extra android:name="package" android:value="com.android.mms" />
+        </intent>
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/pref_title_sms_enabled" android:key="pref_key_sms_enabled" android:summary="@string/pref_summary_sms_enabled">
+        <intent android:targetPackage="com.android.settings" android:action="android.settings.WIRELESS_SETTINGS" />
+    </Preference>
+    <CheckBoxPreference android:title="@string/pref_title_auto_delete" android:key="pref_key_auto_delete" android:summary="@string/pref_summary_auto_delete" android:defaultValue="true" />
+    <Preference android:persistent="false" android:title="@string/pref_title_sms_delete" android:key="pref_key_sms_delete_limit" android:summary="@string/pref_summary_delete_limit" android:dependency="pref_key_auto_delete" />
+    <Preference android:persistent="false" android:title="@string/pref_title_mms_delete" android:key="pref_key_mms_delete_limit" android:summary="@string/pref_summary_delete_limit" android:dependency="pref_key_auto_delete" />
+    <CheckBoxPreference android:title="@string/priority_sender" android:key="pref_key_priority_sender" android:defaultValue="true" />
+    <PreferenceScreen android:title="@string/menu_templates" android:key="pref_key_text_templates" android:fragment="com.android.mms.template.TextTemplateListFragment" />
+</PreferenceScreen>

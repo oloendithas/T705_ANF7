@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/recipient_dropdown_root_layout" android:background="@drawable/mms_popup_bg_bottom" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="140.0dip" android:layout_marginRight="45.0dip">
+        <LinearLayout android:layout_gravity="center_vertical" android:id="@id/recipient_dropdown_title" android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="36.0dip">
+            <TextView android:textSize="@dimen/recipient_dropdown_title_text_size" android:textStyle="bold" android:textColor="@color/recipient_dropdown_list_title_color" android:layout_gravity="center_vertical" android:id="@id/recipient_dropdown_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recipient_label" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/recipient_dropdown_bottom_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/recipient_dropdown_bottom_margin_top" android:layout_marginBottom="@dimen/recipient_dropdown_bottom_margin_bottom" android:layout_below="@id/recipient_dropdown_title">
+            <ListView android:id="@id/recipient_dropdown_list" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:id="@id/recipient_dropdown_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="42.0dip" android:layout_below="@id/recipient_dropdown_bottom_layout">
+            <Button android:textSize="20.0dip" android:id="@id/recipient_dropdown_edit_btn" android:visibility="gone" android:layout_width="216.0dip" android:layout_height="40.0dip" android:layout_marginBottom="10.0dip" android:text="@string/edit" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

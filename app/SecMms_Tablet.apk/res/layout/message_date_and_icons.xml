@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/msg_list_item_lock_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mms_bubble_icon_locked" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/mms_indicator_color" android:id="@id/msg_mms_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:maxWidth="100.0dip" android:text="@string/mms" android:singleLine="true" />
+        <ImageView android:id="@id/msg_list_item_lock_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mms_bubble_icon_locked" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/listitem_reserved_color" android:layout_gravity="right" android:id="@id/msg_list_item_reserved" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+        <ProgressBar android:id="@id/msg_list_item_progressbar" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="3.0dip" android:indeterminateDrawable="@drawable/listitem_progressbar" />
+        <TextView android:textSize="18.0dip" android:textColor="#ff6e6e6e" android:id="@id/msg_list_item_date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="slide_duration">
+        <item quantity="other">%s secs</item>
+        <item quantity="one">%s সেকেন্ড</item>
+        <item quantity="few">%s secs</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%2$s এর %1$s ফলাফল</item>
+        <item quantity="one">%sএর 1টি ফলাফল</item>
+    </plurals>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$sটি থ্রেড</item>
+        <item quantity="one">1টি থ্রেড</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$sটি বার্তা</item>
+        <item quantity="one">1টি বার্তা</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%dটি কথোপকথন</item>
+        <item quantity="one">%dটি কথোপকথন</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s এবং আরও %2$d</item>
+        <item quantity="one">%s এবং আরও 1টি</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s এবং আরও %2$dটি</item>
+        <item quantity="one">%s এবং আরও 1টি</item>
+    </plurals>
+    <plurals name="successful_copy_to_sdcard">
+        <item quantity="other">SD কার্ডে সংযুক্তিগুলির প্রতিলিপি গঠন করা হয়েছে।</item>
+        <item quantity="one">SD কার্ডে সংযুক্তির অনুলিপি করা হয়েছে।</item>
+    </plurals>
+    <plurals name="failed_copy_to_sdcard">
+        <item quantity="other">SD কার্ডে সংযুক্তিগুলির প্রতিলিপি গঠন করতে ব্যর্থ।</item>
+        <item quantity="one">SD কার্ডে সংযুক্তিগুলির প্রতিলিপি গঠন করতে ব্যর্থ।</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">SIM কার্ড থেকে বার্তাগুলি মোছা হয়েছে।</item>
+        <item quantity="one">SIM কার্ড থেকে বার্তা মুছে ফেলা হয়েছে।</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">SIM কার্ড থেকে বার্তার প্রতিলিপি গঠন করা হয়েছে।</item>
+        <item quantity="one">SIM কার্ড থেকে বার্তার প্রতিলিপি গঠন করা হয়েছে।</item>
+    </plurals>
+    <plurals name="uim_copy_to_phone_completed">
+        <item quantity="other">Messages copied from UIM card.</item>
+        <item quantity="one">Message copied from UIM card.</item>
+    </plurals>
+    <plurals name="uim_delete_completed">
+        <item quantity="other">%d messages deleted from UIM card.</item>
+        <item quantity="one">1 message deleted from UIM card.</item>
+    </plurals>
+</resources>

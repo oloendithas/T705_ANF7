@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="slide_duration">
+        <item quantity="other">%s secs</item>
+        <item quantity="one">%s চেকেণ্ড</item>
+        <item quantity="few">%s secs</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%2$s-ৰ বাবে %1$s ফলাফল</item>
+        <item quantity="one">%sৰ বাবে 1 টা ফলাফল</item>
+    </plurals>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s থ্ৰেড</item>
+        <item quantity="one">1 থ্ৰেড</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s মেচেজ</item>
+        <item quantity="one">1 টা মেচেজ</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d টা কথোপকথন</item>
+        <item quantity="one">%d টা কথোপকথন</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s আৰু %2$d অধিক</item>
+        <item quantity="one">%s আৰু 1 অধিক</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s আৰু %2$d অধিক</item>
+        <item quantity="one">%s আৰু 1 অধিক</item>
+    </plurals>
+    <plurals name="successful_copy_to_sdcard">
+        <item quantity="other">SD কাৰ্ডলৈ সংলগ্ন প্ৰতিলিপি হৈছে৷</item>
+        <item quantity="one">"সংলগ্ন SD কাৰ্ডলৈ প্ৰতিলিপি কৰা হ'ল৷"</item>
+    </plurals>
+    <plurals name="failed_copy_to_sdcard">
+        <item quantity="other">SD কাৰ্ডলৈ সংলগ্ন প্ৰতিলিপি কৰিবলৈ বিফল হৈছে৷</item>
+        <item quantity="one">SD কাৰ্ডলৈ সংলগ্ন প্ৰতিলিপি কৰিবলৈ বিফল হৈছে৷</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">SIM কাৰ্ডৰ পৰা মেচেজ বিলোপ হৈছে৷</item>
+        <item quantity="one">SIM কাৰ্ডৰ পৰা বাৰ্তা বিলোপ কৰা হৈছে৷</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">SIM কাৰ্ডৰ পৰা মেচেজ প্ৰতিলিপি হৈছে৷</item>
+        <item quantity="one">SIM কাৰ্ডৰ পৰা বাৰ্তা প্ৰতিলিপি হৈছে কৰা হৈছে৷</item>
+    </plurals>
+    <plurals name="uim_copy_to_phone_completed">
+        <item quantity="other">Messages copied from UIM card.</item>
+        <item quantity="one">Message copied from UIM card.</item>
+    </plurals>
+    <plurals name="uim_delete_completed">
+        <item quantity="other">%d messages deleted from UIM card.</item>
+        <item quantity="one">1 message deleted from UIM card.</item>
+    </plurals>
+</resources>

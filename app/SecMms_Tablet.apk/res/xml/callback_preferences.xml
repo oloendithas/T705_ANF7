@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="pref_callback_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref_title_callback_enabled" android:key="pref_key_enable_callback" android:summary="@string/pref_title_callback_summary" android:defaultValue="true" />
+    <EditTextPreference android:singleLine="true" android:maxLength="20" android:title="@string/pref_title_callback_text" android:key="pref_key_callback_text" android:summary="@string/pref_title_callback_text" android:dependency="pref_key_enable_callback" android:inputType="phone" />
+</PreferenceScreen>

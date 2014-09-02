@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/message_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/grid_contact_photo" android:layout_width="@dimen/magazine_priority_sender_contact_icon_width" android:layout_height="@dimen/magazine_priority_sender_contact_icon_height" android:layout_marginTop="@dimen/magazine_priority_sender_contact_margin_top" android:layout_marginRight="@dimen/magazine_priority_sender_contact_margin_right" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/magazine_priority_sender_info_margin_top" android:layout_marginBottom="@dimen/magazine_priority_sender_info_margin_bottom">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/magazine_widget_contact_text_size" android:textColor="#ff007ad2" android:id="@id/contact_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="roboto-light" />
+            <TextView android:textSize="@dimen/magazine_widget_date_text_size" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/unread_count" android:background="@drawable/widget_mms_numberbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="27.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/magazine_widget_subject_text_size" android:textColor="#ff4b505b" android:ellipsize="end" android:id="@id/subject" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/widget_favorites_subject_min_height" android:maxLines="3" android:fontFamily="roboto-light" />
+        <TextView android:textSize="@dimen/magazine_priority_sender_date_text_size" android:textColor="#ff4b505b" android:id="@id/date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" android:fontFamily="roboto-regular" />
+    </LinearLayout>
+</LinearLayout>

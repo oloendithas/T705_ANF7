@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_conversation" android:background="@color/magazine_widget_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/widget_header" android:layout_width="fill_parent" android:layout_height="@dimen/magazine_widget_title_icon_width" android:layout_marginTop="@dimen/magazine_widget_icon_margin_top" android:layout_marginRight="@dimen/magazine_widget_icon_margin_right">
+            <ImageButton android:id="@id/widget_settings" android:background="@android:color/transparent" android:layout_width="@dimen/magazine_widget_title_icon_width" android:layout_height="@dimen/magazine_widget_title_icon_height" android:layout_marginLeft="@dimen/magazine_widget_title_icon_padding_left" android:src="@drawable/magazine_widget_setting_button" android:layout_alignParentRight="true" android:contentDescription="@string/menu_preferences" />
+            <ImageButton android:id="@id/widget_compose" android:background="@android:color/transparent" android:layout_width="@dimen/magazine_widget_title_icon_width" android:layout_height="@dimen/magazine_widget_title_icon_height" android:layout_marginLeft="@dimen/magazine_widget_title_icon_padding_left" android:src="@drawable/magazine_widget_composer_button" android:layout_toLeftOf="@id/widget_settings" android:layout_alignWithParentIfMissing="true" android:contentDescription="@string/menu_compose_new" />
+            <ImageButton android:id="@id/widget_label" android:background="@android:color/transparent" android:layout_width="@dimen/magazine_widget_title_icon_width" android:layout_height="@dimen/magazine_widget_title_icon_height" android:layout_marginLeft="@dimen/magazine_widget_title_icon_padding_left" android:src="@drawable/magazine_widget_priority_sender_button" android:layout_toLeftOf="@id/widget_compose" android:layout_alignWithParentIfMissing="true" android:contentDescription="@string/favorites" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/widget_label" android:layout_alignParentLeft="true" android:layout_alignWithParentIfMissing="true">
+                <TextView android:textSize="@dimen/font_size_widget_label" android:textColor="@color/magazine_widget_text_color" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:minWidth="185.0dip" android:minHeight="30.0dip" android:text="@string/all_messages" android:singleLine="true" android:includeFontPadding="false" android:freezesText="true" android:fontFamily="roboto-medium" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:paddingLeft="20.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ListView android:scrollbarThumbVertical="@drawable/tw_scrollbar_handle_holo_light" android:scrollbarStyle="insideInset" android:id="@id/conversation_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/selector_widget_item_bg" android:divider="#ffaeaeae" android:dividerHeight="1.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/empty_layout" android:background="@drawable/magazine_widget_mms_noitem_bg" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <TextView android:textSize="@dimen/magazine_widget_title_text_size" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="31.0dip" android:text="@string/app_label" android:singleLine="true" android:includeFontPadding="false" android:shadowColor="@android:color/black" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:freezesText="true" android:fontFamily="roboto-light" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mg_no_message" />
+                <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:paddingBottom="17.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/magazine_widget_add_message_text_size" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/magazine_widget_add_message" android:shadowColor="@android:color/black" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:fontFamily="roboto-regular" />
+                    <TextView android:textSize="@dimen/magazine_widget_sub_message_text_size" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/magazine_widget_share_message" android:shadowColor="@android:color/black" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:fontFamily="roboto-regular" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

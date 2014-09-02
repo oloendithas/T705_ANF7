@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/main_layout" android:background="@color/dialog_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/main_frame" android:background="@color/dialog_background_color" android:layout_width="320.0dip" android:layout_height="320.0dip">
+            <ImageView android:id="@id/ImageView" android:background="@drawable/sms_popup_main" android:layout_width="320.0dip" android:layout_height="320.0dip" />
+            <ImageView android:id="@id/animation_view" android:background="@anim/default_sms_info_popup_animation" android:layout_width="320.0dip" android:layout_height="320.0dip" />
+            <ImageView android:id="@id/icon1" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="137.0dip" android:layout_marginTop="25.0dip" />
+            <ImageView android:id="@id/icon2" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="226.0dip" android:layout_marginTop="68.0dip" />
+            <ImageView android:id="@id/icon3" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="249.0dip" android:layout_marginTop="162.0dip" />
+            <ImageView android:id="@id/icon4" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="187.0dip" android:layout_marginTop="241.0dip" />
+            <ImageView android:id="@id/icon5" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="88.0dip" android:layout_marginTop="241.0dip" />
+            <ImageView android:id="@id/icon6" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="26.0dip" android:layout_marginTop="162.0dip" />
+            <ImageView android:id="@id/icon7" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="48.0dip" android:layout_marginTop="68.0dip" />
+        </FrameLayout>
+        <TextView android:textSize="20.0dip" android:textColor="@color/default_sms_info_main_text_color" android:gravity="center" android:id="@id/detail_info" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginLeft="38.0dip" android:layout_marginRight="38.0dip" />
+        <TextView android:textSize="@dimen/default_sms_app_text_size" android:textColor="@color/default_sms_info_request_text_color" android:gravity="center" android:id="@id/request_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="38.0dip" android:layout_marginRight="38.0dip" android:layout_marginBottom="22.0dip" />
+    </LinearLayout>
+</ScrollView>

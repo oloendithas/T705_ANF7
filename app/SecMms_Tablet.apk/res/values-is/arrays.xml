@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Gleði</item>
+        <item>Dapur</item>
+        <item>Vinka</item>
+        <item>Út með tunguna</item>
+        <item>Hissa</item>
+        <item>Kyssa</item>
+        <item>Öskur</item>
+        <item>Töff</item>
+        <item>Auraapi</item>
+        <item>Klaufmæli</item>
+        <item>Fer hjá sér</item>
+        <item>Engill</item>
+        <item>Óviss</item>
+        <item>Grætur</item>
+        <item>Segi ekki orð</item>
+        <item>Hlægjandi</item>
+        <item>Ruglaður</item>
+        <item>Hjarta</item>
+        <item>Reið(ur)</item>
+        <item>Glott</item>
+        <item>Pókerfés</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 sekúnda</item>
+        <item>2 sekúndur</item>
+        <item>3 sekúndur</item>
+        <item>4 sekúndur</item>
+        <item>5 sekúndur</item>
+        <item>6 sekúndur</item>
+        <item>7 sekúndur</item>
+        <item>8 sekúndur</item>
+        <item>9 sekúndur</item>
+        <item>10 sekúndur</item>
+        <item>Annað…</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Nota leturstærð tækis</item>
+        <item>Pínulítið</item>
+        <item>Lítið</item>
+        <item>Venjulegt</item>
+        <item>Stórt</item>
+        <item>Mjög stórt</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Afar lítið</item>
+        <item>Lítið</item>
+        <item>Venjulegt</item>
+        <item>Stórt</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Nota leturstærð tækis</item>
+        <item>Örsmátt</item>
+        <item>Mjög lítið</item>
+        <item>Lítið</item>
+        <item>Miðlungsstórt</item>
+        <item>Stórt</item>
+        <item>Mjög stórt</item>
+        <item>Risastórt</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Allar stöðvar</item>
+        <item>Stöðvarnar mínar</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM stafróf</item>
+        <item>Unicode</item>
+        <item>Sjálfvirkt</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 dagar</item>
+        <item>1 dagur</item>
+        <item>2 dagar</item>
+        <item>3 dagar</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Takmarkað</item>
+        <item>Viðvörun</item>
+        <item>Laust</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Alltaf</item>
+        <item>Beiðni</item>
+        <item>Aldrei</item>
+    </string-array>
+    <string-array name="pref_entries_message_skin">
+        <item>Blátt</item>
+        <item>Brown</item>
+        <item>Evergreen</item>
+        <item>Mónó</item>
+        <item>Joypop</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origami</item>
+        <item>Merkimiði</item>
+        <item>Popp</item>
+        <item>Nýmóðins</item>
+        <item>Bleikt</item>
+        <item>Sjálfgefið</item>
+    </string-array>
+    <string-array name="pref_entries_background_style">
+        <item>Bakgrunnur 1</item>
+        <item>Bakgrunnur 2</item>
+        <item>Bakgrunnur 3</item>
+        <item>Bakgrunnur 4</item>
+        <item>Bakgrunnur 5</item>
+        <item>Bakgrunnur 6</item>
+    </string-array>
+    <string-array name="pref_entries_text_field_color">
+        <item>Svart</item>
+        <item>Hvítt</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Einu sinni</item>
+        <item>Hverjar tvær mínútur</item>
+        <item>Á 15 mínútna fresti</item>
+        <item>Slökkt</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Aldrei</item>
+        <item>Hverjar tvær mínútur</item>
+        <item>Hverjar tíu mínútur</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array_values">
+        <item>1</item>
+        <item>2</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Innanlands</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 klst.</item>
+        <item>6 klst.</item>
+        <item>24 klst.</item>
+        <item>2 dagar</item>
+        <item>Valið af símkerfi</item>
+        <item>Hámark</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Mikið</item>
+        <item>Venjulegt</item>
+        <item>Lítið</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Tafarlaust</item>
+        <item>1 klst.</item>
+        <item>6 klst.</item>
+        <item>24 klst.</item>
+        <item>1 vika</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 sekúndur</item>
+        <item>5 sekúndur</item>
+        <item>10 sekúndur</item>
+        <item>20 sekúndur</item>
+        <item>30 sekúndur</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Slökkt</item>
+        <item>Loka fyrir öll skilaboð</item>
+        <item>Loka fyrir skráð númer og setningar</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Nákvæmlega eins og</item>
+        <item>Hefst á</item>
+        <item>Lýkur á</item>
+        <item>Inniheldur</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Kladdar</item>
+        <item>Símaskrá</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Útilokun símtala</item>
+        <item>Útilokun skilaboða</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Útilokun raddsímtala</item>
+        <item>Útilokun myndsímtala</item>
+        <item>Útilokun skilaboða</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Ég missti af símtalinu þínu.</item>
+        <item>Mér seinkar en ég mæti fljótlega.</item>
+        <item>Hvað er að frétta?</item>
+        <item>Hvað er títt?</item>
+        <item>Hvar ertu?</item>
+        <item>Hringdu í mig þegar þú færð þessi skilaboð.</item>
+        <item>Hvenær getum við hist?</item>
+        <item>Ég tala við þig bráðlega.</item>
+        <item>Hvar er fundurinn?</item>
+        <item>Hvert er númerið?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Brasilísk portúgalska</item>
+        <item>Enska (Bretland)</item>
+        <item>Enska (bandarísk)</item>
+        <item>Franska</item>
+        <item>Þýska</item>
+        <item>Ítalska</item>
+        <item>Japanska</item>
+        <item>Kóreska</item>
+        <item>Einföld kínverska</item>
+        <item>rússneska</item>
+        <item>Spænska</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Allt</item>
+        <item>Sendandi</item>
+        <item>Efni</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Alltaf</item>
+        <item>Bara í hljóðlausu</item>
+        <item>Aldrei</item>
+    </string-array>
+</resources>

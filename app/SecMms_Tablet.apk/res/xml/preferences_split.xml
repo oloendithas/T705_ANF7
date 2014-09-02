@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:title="@string/general_section" />
+    <header android:title="@string/pref_sms_general_settings_title" android:fragment="com.android.mms.settings.GeneralSettings" />
+    <header android:title="@string/display_settings_title" android:fragment="com.android.mms.settings.DisplaySettings" />
+    <header android:title="@string/pref_signature_settings_title" android:fragment="com.android.mms.settings.SignatureSettings" />
+    <header android:id="@id/urllink_settings" android:title="@string/unknown_url_link_setting_title" android:fragment="com.android.mms.settings.UrllinkSettings" />
+    <header android:title="@string/sms_mms_section" />
+    <header android:id="@id/sms_settings" android:title="@string/pref_message_settings_title" android:fragment="com.android.mms.settings.SmsSettings" />
+    <header android:title="@string/pref_multimedia_settings_title" android:fragment="com.android.mms.settings.MmsSettings" />
+    <header android:title="@string/more_section" />
+    <header android:id="@id/push_settings" android:title="@string/pref_push_message_settings_title" android:fragment="com.android.mms.settings.PushSettings" />
+    <header android:id="@id/cb_settings_category" android:title="@string/pref_cb_settings_title" android:fragment="com.android.mms.settings.CbSettingsFragment" />
+    <header android:title="@string/pref_notification_settings_title" android:fragment="com.android.mms.settings.NotificationSettings" />
+    <header android:id="@id/SpamMessageSettings" android:title="@string/pref_spam_message_settings_title" android:fragment="com.android.mms.settings.SpamMessageSettings" />
+    <header android:id="@id/cmas_settings_category" android:title="@string/cmas_setting_title" android:fragment="com.android.mms.settings.CmasSettings" />
+    <header android:id="@id/menu_forward_settings" android:title="@string/menu_forward" android:fragment="com.android.mms.settings.ForwardSettings" />
+    <header android:id="@id/pref_callback_settings" android:title="@string/pref_callback_title" android:fragment="com.android.mms.settings.CallBackSettings" />
+    <header android:id="@id/delaysending_settings" android:title="@string/pref_delay_settings_title" android:fragment="com.android.mms.settings.DelaySendingSettings" />
+    <header android:id="@id/SafeMode_Settings" android:title="@string/pref_safemode_settings" android:fragment="com.android.mms.settings.SafemodeSettings" />
+</preference-headers>

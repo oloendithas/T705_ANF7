@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/tw_action_bar_icon_unlock_holo_dark" android:id="@id/unlock_message" android:title="@string/message_unlock" />
+    <item android:icon="@drawable/header_button_icon_delete" android:id="@id/delete_message" android:title="@string/delete" />
+    <item android:id="@id/copy" android:title="@string/copy" android:showAsAction="collapseActionView" />
+    <item android:id="@id/forward" android:title="@string/menu_forward" android:showAsAction="collapseActionView" />
+    <item android:id="@id/copy_sim" android:title="@string/copy_message_to_sim" android:showAsAction="collapseActionView" />
+    <item android:id="@id/done" android:title="@string/done" android:showAsAction="always" />
+    <item android:id="@id/unlock_done" android:title="@string/done" android:showAsAction="always" />
+</menu>

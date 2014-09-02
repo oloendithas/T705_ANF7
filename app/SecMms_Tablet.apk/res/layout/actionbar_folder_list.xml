@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="18.659973sp" android:textStyle="normal" android:textColor="@color/actionbar_title_color_normal" android:gravity="center_vertical" android:id="@id/actionbar_folder_list_title" android:paddingLeft="8.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:drawableRight="@drawable/tw_spinner_ab_default_holo_dark" style="?android:attr/actionButtonStyle" />
+    </LinearLayout>
+    <TextView android:textSize="17.0dip" android:textStyle="normal" android:textColor="@color/actionbar_title_text_color" android:gravity="center_vertical" android:id="@id/actionbar_compose_message_btn" android:paddingLeft="17.0dip" android:paddingRight="13.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableLeft="@drawable/ic_menu_new_msg" style="?android:attr/actionButtonStyle" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/actionbar_compose_message_list_separator_2" android:background="@color/actionbar_separator_bar_color" android:focusable="false" android:layout_width="1.0dip" android:layout_height="28.0dip" />
+</LinearLayout>

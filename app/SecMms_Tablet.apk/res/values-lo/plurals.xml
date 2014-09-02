@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="slide_duration">
+        <item quantity="other">%s secs</item>
+        <item quantity="one">%s ວິນາທີ</item>
+        <item quantity="few">%s secs</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s ຜົນໄດ້ຮັບສໍາລັບ %2$s</item>
+        <item quantity="one">1 ຜົນໄດ້ຮັບສໍາລັບ %s</item>
+    </plurals>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s ສາຍ</item>
+        <item quantity="one">1 ສາຍ</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s ຂໍ້ຄວາມ</item>
+        <item quantity="one">1 ຂໍ້ຄວາມ</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d ການສົນທະນາ</item>
+        <item quantity="one">ການສົນທະນາ %d</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s ແລະ %2$d ຕື່ມອີກ</item>
+        <item quantity="one">%s ແລະ 1 ອັນອີກ</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s ແລະ %2$d ຕື່ມອີກ</item>
+        <item quantity="one">%s ແລະ 1 ອັນອີກ</item>
+    </plurals>
+    <plurals name="successful_copy_to_sdcard">
+        <item quantity="other">ໄຟລ໌ຄັດຕິດໄດ້ຖືກກັອບປີ້ໃສ່ແຜ່ນ SD ແລ້ວ.</item>
+        <item quantity="one">ໄຟລ໌ຄັດຕິດໄດ້ກັອບປີ້ໃສ່ແຜ່ນ SD ແລ້ວ.</item>
+    </plurals>
+    <plurals name="failed_copy_to_sdcard">
+        <item quantity="other">ກັອບປີ້ໄຟລ໌ຄັດຕິດໄປໃສ່ແຜ່ນ SD ບໍ່ສໍາເລັດ.</item>
+        <item quantity="one">ກັອບປີ້ໄຟລ໌ຄັດຕິດໄປໃສ່ແຜ່ນ SD ບໍ່ສໍາເລັດ.</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">ຂໍ້ຄວາມໄດ້ຖືກລຶບຈາກແຜ່ນ SIM.</item>
+        <item quantity="one">ຂໍ້ຄວາມຖືກລຶບອອກໄປຈາກແຜ່ນ SIM.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">ຂໍ້ຄວາມຖືກກັອບປີ້ມາຈາກແຜ່ນ SIM.</item>
+        <item quantity="one">ຂໍ້ຄວາມກັອບປີ້ມາຈາກແຜ່ນ SIM.</item>
+    </plurals>
+    <plurals name="uim_copy_to_phone_completed">
+        <item quantity="other">ຂໍ້ຄວາມຖືກກັອບປີ້ມາຈາກແຜ່ນ UIM.</item>
+        <item quantity="one">ຂໍ້ຄວາມກັອບປີ້ມາຈາກແຜ່ນ UIM.</item>
+    </plurals>
+    <plurals name="uim_delete_completed">
+        <item quantity="other">%d ຂໍ້ຄວາມຖືກລຶບອອກໄປຈາກແຜ່ນ UIM.</item>
+        <item quantity="one">1 ຂໍ້ຄວາມຖືກລຶບອອກໄປຈາກແຜ່ນ UIM.</item>
+    </plurals>
+</resources>

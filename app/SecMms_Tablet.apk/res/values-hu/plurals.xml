@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="slide_duration">
+        <item quantity="other">%s másodperc</item>
+        <item quantity="one">%s mp</item>
+        <item quantity="few">%s másodperc</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s találat – ker.: %2$s</item>
+        <item quantity="one">1 találat – keresés: %s</item>
+    </plurals>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s beszélgetés</item>
+        <item quantity="one">1 beszélgetés</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s üzenet</item>
+        <item quantity="one">1 üzenet</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d beszélgetés</item>
+        <item quantity="one">%d beszélgetés</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s és még %2$d</item>
+        <item quantity="one">%s és még 1</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s és még %2$d</item>
+        <item quantity="one">%s és még 1</item>
+    </plurals>
+    <plurals name="successful_copy_to_sdcard">
+        <item quantity="other">Mellékletek az SD-kártyára másolva.</item>
+        <item quantity="one">Melléklet az SD-kártyára másolva.</item>
+    </plurals>
+    <plurals name="failed_copy_to_sdcard">
+        <item quantity="other">Nem sikerült az SD-kártyára másolni a mellékletet.</item>
+        <item quantity="one">Nem sikerült az SD-kártyára másolni a mellékletet.</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">A SIM-kártyáról törölt üzenetek.</item>
+        <item quantity="one">Törölte az üzenetet a SIM kártyáról.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">A SIM-kártyáról átmásolt üzenetek.</item>
+        <item quantity="one">Üzenet átmásolva a SIM kártyáról.</item>
+    </plurals>
+    <plurals name="uim_copy_to_phone_completed">
+        <item quantity="other">Messages copied from UIM card.</item>
+        <item quantity="one">Message copied from UIM card.</item>
+    </plurals>
+    <plurals name="uim_delete_completed">
+        <item quantity="other">%d messages deleted from UIM card.</item>
+        <item quantity="one">1 message deleted from UIM card.</item>
+    </plurals>
+</resources>

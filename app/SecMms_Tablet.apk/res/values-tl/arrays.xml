@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Masaya</item>
+        <item>Malungkot</item>
+        <item>Kumikindat</item>
+        <item>Nakadila</item>
+        <item>Nagulat</item>
+        <item>Naghahalikan</item>
+        <item>Sumisigaw</item>
+        <item>Astig</item>
+        <item>Money mouth</item>
+        <item>Paa sa bibig</item>
+        <item>Nahihiya</item>
+        <item>Anghel</item>
+        <item>Hindi makapagpasya</item>
+        <item>Umiiyak</item>
+        <item>Tikom ang mga bibig</item>
+        <item>Tumatawa</item>
+        <item>Nalilito</item>
+        <item>Puso</item>
+        <item>Baliw</item>
+        <item>Pagngisi</item>
+        <item>Poker face</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 segundo</item>
+        <item>2 segundo</item>
+        <item>3 segundo</item>
+        <item>4 na segundo</item>
+        <item>5 segundo</item>
+        <item>6 segundo</item>
+        <item>7 seconds</item>
+        <item>8 segundo</item>
+        <item>9 seconds</item>
+        <item>10 segundo</item>
+        <item>Iba pa…</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Gamitin device font sizes.</item>
+        <item>Napakaliit</item>
+        <item>Maliit</item>
+        <item>Normal</item>
+        <item>Malaki</item>
+        <item>Malaki</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Maliit</item>
+        <item>Maliit</item>
+        <item>Normal</item>
+        <item>Malaki</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Gamitin device font sizes.</item>
+        <item>Napakaliit</item>
+        <item>Maliit na maliit</item>
+        <item>Maliit</item>
+        <item>Katamtaman</item>
+        <item>Malaki</item>
+        <item>Malaking malaki</item>
+        <item>Higante</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Lahat ng channel</item>
+        <item>Aking mga channel</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Alpabeto ng GSM</item>
+        <item>Unicode</item>
+        <item>Awtomatiko</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 na araw</item>
+        <item>1 araw</item>
+        <item>2 araw</item>
+        <item>3 araw</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Restricted</item>
+        <item>Babala</item>
+        <item>Bakante</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Palagi</item>
+        <item>Prompt</item>
+        <item>Hindi kailanman</item>
+    </string-array>
+    <string-array name="pref_entries_message_skin">
+        <item>Asul</item>
+        <item>Brown</item>
+        <item>Evergreen</item>
+        <item>Mono</item>
+        <item>Joypop</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origami</item>
+        <item>Label</item>
+        <item>Pop</item>
+        <item>Modern</item>
+        <item>Pink</item>
+        <item>Default</item>
+    </string-array>
+    <string-array name="pref_entries_background_style">
+        <item>Background 1</item>
+        <item>Background 2</item>
+        <item>Background 3</item>
+        <item>Background 4</item>
+        <item>Background 5</item>
+        <item>Background 6</item>
+    </string-array>
+    <string-array name="pref_entries_text_field_color">
+        <item>Itim</item>
+        <item>Puti</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Isang beses</item>
+        <item>Bawat 2 minuto</item>
+        <item>Tuwing ika-15 minuto</item>
+        <item>Naka-off</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Hindi kailanman</item>
+        <item>Bawat 2 minuto</item>
+        <item>Bawat 10 minuto</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array_values">
+        <item>1</item>
+        <item>2</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Domestic</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 oras</item>
+        <item>6 na oras</item>
+        <item>24 oras</item>
+        <item>2 araw</item>
+        <item>Network default</item>
+        <item>Maximum</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Mataas</item>
+        <item>Normal</item>
+        <item>Mababa</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Kaagad</item>
+        <item>1 oras</item>
+        <item>6 na oras</item>
+        <item>24 oras</item>
+        <item>1 linggo</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 segundo</item>
+        <item>5 segundo</item>
+        <item>10 segundo</item>
+        <item>20 segundo</item>
+        <item>30 segundo</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>I-off</item>
+        <item>I-block ang lahat ng mensahe.</item>
+        <item>I-block ang mga nakarehistrong numero at parirala.</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Eksaktong kapareho ng</item>
+        <item>Magsisimula sa</item>
+        <item>Nagtatapos sa</item>
+        <item>Kinabibilangan ng</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Mga Log</item>
+        <item>Mga Contact</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Block sa pagtawag</item>
+        <item>Message block</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Pag-block ng voice call</item>
+        <item>Pag-block ng video call</item>
+        <item>Message block</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Paumanhin, hindi ko nasagot ang iyong tawag.</item>
+        <item>Mahuhuli ako, pero malapit na ako diyan.</item>
+        <item>Kamusta?</item>
+        <item>Kumusta?</item>
+        <item>Nasaan ka?</item>
+        <item>Pakitawagan ako kapag natanggap mo ang mensaheng ito.</item>
+        <item>Kailan tayo pwedeng magkita?</item>
+        <item>Tatawagan kita mamaya.</item>
+        <item>Saan ang meeting?</item>
+        <item>Ano ang numero?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Brazilian Portuguese</item>
+        <item>Ingles (UK)</item>
+        <item>Ingles (US)</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Simplified Chinese</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Lahat</item>
+        <item>Nagpadala</item>
+        <item>Content</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Palagi</item>
+        <item>Sa Silent mode lang</item>
+        <item>Hindi kailanman</item>
+    </string-array>
+</resources>

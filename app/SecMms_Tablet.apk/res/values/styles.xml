@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DeviceDefault" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:actionBarStyle">@style/MsgActionBar</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionbarIconDisable</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">#ffff9200</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">#ff5c5cff</item>
+    </style>
+    <style name="NewComposeActivityTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/SlideUpFromRightAniStyle</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="ShortcutToast" parent="@android:style/Theme.DeviceDefault.Light" />
+    <style name="SlideUpFromBottomAniStyle" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_bottom</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_to_bottom</item>
+    </style>
+    <style name="SlideUpFromRightAniStyle" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_right</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_to_right</item>
+    </style>
+    <style name="ActivitySlideUpFromRightAniStyle" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_slide_in_from_right</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_slide_out_to_right</item>
+    </style>
+    <style name="TextAppearance.SearchResult" parent="@style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+    </style>
+    <style name="TextAppearance.SearchResult.Title" parent="@style/TextAppearance.SearchResult">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="TextAppearance.SearchResult.Subtitle" parent="@style/TextAppearance.SearchResult">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+    </style>
+    <style name="SlideshowTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="SkinTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/SlideUpFromBottomAniStyle</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="CreateTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/ActivitySlideUpFromRightAniStyle</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="CreateThemeForPriorityInbox" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/ActivitySlideUpFromRightAniStyle</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionbarIconDisable</item>
+    </style>
+    <style name="titleTextStyle">
+        <item name="android:textSize">20.0sp</item>
+    </style>
+    <style name="templateStyle">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@drawable/template_list_color</item>
+    </style>
+    <style name="ContactBubbleStyle" parent="@android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="NotificationText">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="NotificationTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="RecipientDropdownStyle" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="WidgetTitle">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#fff0f0f0</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#ffcccccc</item>
+    </style>
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">#ff666666</item>
+    </style>
+    <style name="NotificationSubjectText">
+        <item name="android:textColor">#ff999999</item>
+    </style>
+    <style name="RecipientFilterItemName">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@drawable/selector_recipient_filter_item_name</item>
+    </style>
+    <style name="RecipientFilterItemNumberLabel">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@drawable/selector_recipient_filter_item_number_label</item>
+    </style>
+    <style name="Theme.Translucent" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="TwHelpDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="NoAnimationDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="TwMainListNoMessagesTextAppearance">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TwWidgetNoMessagesTextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TwConversationListSubject">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="PopupItemDropDownStyle" parent="@android:attr/dropDownItemStyle">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/popup_item_text_color</item>
+    </style>
+    <style name="ActionbarIconDisable" parent="@android:style/Widget.DeviceDefault.ActionButton.CloseMode">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="MsgActionBar" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:displayOptions">showTitle</item>
+    </style>
+</resources>

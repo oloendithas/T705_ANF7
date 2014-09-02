@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Gelukkig</item>
+        <item>Verdrietig</item>
+        <item>Knipogen</item>
+        <item>Met de tong uit de mond</item>
+        <item>Verrast</item>
+        <item>Kussen</item>
+        <item>Schreeuwen</item>
+        <item>Cool</item>
+        <item>Geldverslindend</item>
+        <item>Flater</item>
+        <item>Verlegen</item>
+        <item>Engel</item>
+        <item>Besluiteloos</item>
+        <item>Huilen</item>
+        <item>Mondje dicht</item>
+        <item>Lachen</item>
+        <item>Verward</item>
+        <item>Hart</item>
+        <item>Gek</item>
+        <item>Meesmuilen</item>
+        <item>Pokerface</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 seconde</item>
+        <item>2 seconden</item>
+        <item>3 seconden</item>
+        <item>4 seconden</item>
+        <item>5 seconden</item>
+        <item>6 seconden</item>
+        <item>7 seconden</item>
+        <item>8 seconden</item>
+        <item>9 seconden</item>
+        <item>10 seconden</item>
+        <item>Overig…</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Tekengrootte apparaat</item>
+        <item>Extra klein</item>
+        <item>Klein</item>
+        <item>Normaal</item>
+        <item>Groot</item>
+        <item>Extra groot</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Extra klein</item>
+        <item>Klein</item>
+        <item>Normaal</item>
+        <item>Groot</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Tekengrootte apparaat</item>
+        <item>Piepklein</item>
+        <item>Extra klein</item>
+        <item>Klein</item>
+        <item>Gemiddeld</item>
+        <item>Groot</item>
+        <item>Extra groot</item>
+        <item>Enorm</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Alle kanalen</item>
+        <item>Mijn kanalen</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-alfabet</item>
+        <item>Unicode</item>
+        <item>Automatisch</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 dagen</item>
+        <item>1 dag</item>
+        <item>2 dagen</item>
+        <item>3 dagen</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Beperkt</item>
+        <item>Waarschuwing</item>
+        <item>Vrij</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Altijd</item>
+        <item>Vragen</item>
+        <item>Nooit</item>
+    </string-array>
+    <string-array name="pref_entries_message_skin">
+        <item>Blauw</item>
+        <item>Bruin</item>
+        <item>Evergreen</item>
+        <item>Mono</item>
+        <item>Joypop</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origami</item>
+        <item>Label</item>
+        <item>Pop</item>
+        <item>Modern</item>
+        <item>Roze</item>
+        <item>Standaard</item>
+    </string-array>
+    <string-array name="pref_entries_background_style">
+        <item>Achtergrond 1</item>
+        <item>Achtergrond 2</item>
+        <item>Achtergrond 3</item>
+        <item>Achtergrond 4</item>
+        <item>Achtergrond 5</item>
+        <item>Achtergrond 6</item>
+    </string-array>
+    <string-array name="pref_entries_text_field_color">
+        <item>Zwart</item>
+        <item>Wit</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Eenmalig</item>
+        <item>Om de 2 minuten</item>
+        <item>Om de 15 minuten</item>
+        <item>Uit</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Nooit</item>
+        <item>Om de 2 minuten</item>
+        <item>Om de 10 minuten</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array_values">
+        <item>1</item>
+        <item>2</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Binnenland</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 uur</item>
+        <item>6 uur</item>
+        <item>24 uur</item>
+        <item>2 dagen</item>
+        <item>Standaardinstelling netwerk</item>
+        <item>Maximum</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Hoog</item>
+        <item>Normaal</item>
+        <item>Laag</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Direct</item>
+        <item>1 uur</item>
+        <item>6 uur</item>
+        <item>24 uur</item>
+        <item>1 week</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 seconden</item>
+        <item>5 seconden</item>
+        <item>10 seconden</item>
+        <item>20 seconden</item>
+        <item>30 seconden</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Uit</item>
+        <item>Alle berichten blokkeren</item>
+        <item>Geregistreerde nummers en zinnen blokkeren</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Precies gelijk aan</item>
+        <item>Begint met</item>
+        <item>Eindigt met</item>
+        <item>Omvat</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Oproepenlijst</item>
+        <item>Contacten</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Oproep blokkeren</item>
+        <item>Bericht blokkeren</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Spraakoproep blokkeren</item>
+        <item>Video-oproep blokkeren</item>
+        <item>Bericht blokkeren</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Sorry, ik heb je oproep gemist.</item>
+        <item>Ik ben laat, maar ik ben er bijna.</item>
+        <item>Hoe gaat het?</item>
+        <item>Wat is er aan de hand?</item>
+        <item>Waar ben je?</item>
+        <item>Bel me wanneer je dit bericht krijgt.</item>
+        <item>Wanneer spreken we af?</item>
+        <item>Tot binnenkort.</item>
+        <item>Waar is de vergadering?</item>
+        <item>Wat is het nummer?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Braziliaans-Portugees</item>
+        <item>Brits-Engels</item>
+        <item>Amerikaans-Engels</item>
+        <item>Frans</item>
+        <item>Duits</item>
+        <item>Italiaans</item>
+        <item>Japans</item>
+        <item>Koreaans</item>
+        <item>Vereenvoudigd Chinees</item>
+        <item>Russisch</item>
+        <item>Spaans</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Alles</item>
+        <item>Afzender</item>
+        <item>Inhoud</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Altijd</item>
+        <item>Alleen stille stand</item>
+        <item>Nooit</item>
+    </string-array>
+</resources>

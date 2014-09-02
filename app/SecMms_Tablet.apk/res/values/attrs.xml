@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="TempBasicLayoutTitleView" format="reference" />
+    <attr name="TempBasicLayoutMainView" format="reference" />
+    <attr name="TempBasicLayoutSoftkeyView" format="reference" />
+    <attr name="TempBasicLayoutUseTallTitle" format="boolean" />
+    <attr name="TempButtonBackground" format="reference" />
+    <attr name="TempCheckListExDrawDivider" format="boolean" />
+    <attr name="TempCheckListExBackground" format="reference" />
+    <attr name="TempListStyle">
+        <enum name="default_sytle" value="0" />
+        <enum name="TempListViewStyle_defaultStyle" value="0" />
+        <enum name="TempListViewStyle_numberStyle" value="1" />
+    </attr>
+    <attr name="TempScrollTextViewRoundDuration" format="integer" />
+    <attr name="punchshape" format="string" />
+    <attr name="punchshow" format="boolean" />
+</resources>

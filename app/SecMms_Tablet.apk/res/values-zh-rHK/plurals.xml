@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="slide_duration">
+        <item quantity="other">%s secs</item>
+        <item quantity="one">%s 秒</item>
+        <item quantity="few">%s secs</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s 為 %2$s 的結果</item>
+        <item quantity="one">符合%s的1個結果</item>
+    </plurals>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s 個對話</item>
+        <item quantity="one">1 個對話</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s 個訊息</item>
+        <item quantity="one">1 message</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d 個對話</item>
+        <item quantity="one">%d 個對話</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s 與 %2$d 等等</item>
+        <item quantity="one">%s 與另一位</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s 和 %2$d 更多</item>
+        <item quantity="one">%s 位與另一位</item>
+    </plurals>
+    <plurals name="successful_copy_to_sdcard">
+        <item quantity="other">已複製到 SD 卡的附件。</item>
+        <item quantity="one">附件已複製到 SD 卡。</item>
+    </plurals>
+    <plurals name="failed_copy_to_sdcard">
+        <item quantity="other">複製附件到 SD 卡失敗。</item>
+        <item quantity="one">複製附件到 SD 卡失敗。</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">已從 SIM 卡中刪除訊息。</item>
+        <item quantity="one">從 SIM 卡中刪除訊息。</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">已從 SIM 卡複製訊息。</item>
+        <item quantity="one">從 SIM 卡複製訊息。</item>
+    </plurals>
+    <plurals name="uim_copy_to_phone_completed">
+        <item quantity="other">訊息已從 UIM 卡複製。</item>
+        <item quantity="one">訊息已從 UIM 卡複製。</item>
+    </plurals>
+    <plurals name="uim_delete_completed">
+        <item quantity="other">已從 UIM 卡刪除 %d 個訊息。</item>
+        <item quantity="one">從 UIM 卡刪除訊息。</item>
+    </plurals>
+</resources>

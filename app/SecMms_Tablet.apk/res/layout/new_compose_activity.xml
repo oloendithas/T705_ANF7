@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/new_compose_layout_main" android:background="@drawable/tw_preference_title_bar_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/new_compose_screen" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <fragment android:id="@id/new_compose_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.android.mms.ui.ComposeMessageFragment" />
+    </FrameLayout>
+</LinearLayout>

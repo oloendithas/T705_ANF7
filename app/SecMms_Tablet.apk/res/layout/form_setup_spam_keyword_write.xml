@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/spamKeywordWriteMain" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="@dimen/spam_keyword_text_hint_size" android:textColor="@color/conversation_footer_text_color" android:id="@id/spam_keyword_text" android:paddingLeft="12.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spam_keyword_text_margin_left" android:layout_marginTop="@dimen/text_template_editor_marginTop" android:layout_marginRight="@dimen/spam_keyword_text_margin_left" android:minHeight="40.0dip" android:hint="@string/enter_text" android:maxLength="34" android:inputType="textCapSentences|textMultiLine" android:imeOptions="flagNoExtractUi" />
+    </ScrollView>
+</LinearLayout>
