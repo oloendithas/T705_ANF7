@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:height="@dimen/vp_vol_seekbar_thumb_height" android:width="@dimen/vp_vol_seekbar_thumb_width" android:drawable="@drawable/tw_scrubber_control_pressed_holo_dark" />
+    <item android:state_focused="true" android:height="@dimen/vp_vol_seekbar_thumb_height" android:width="@dimen/vp_vol_seekbar_thumb_width" android:drawable="@drawable/tw_scrubber_control_focused_holo_dark" />
+    <item android:height="@dimen/vp_vol_seekbar_thumb_height" android:width="@dimen/vp_vol_seekbar_thumb_width" android:drawable="@drawable/tw_scrubber_control_holo_dark" />
+</selector>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/trans_window" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/miniVideoSurfaceLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.sec.android.app.videoplayer.miniapp.MiniVideoSurface android:id="@id/mini_surface_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/mini_empty_layout" android:background="@color/opaque_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:gravity="center" android:id="@id/mini_video_loading_layout" android:background="@color/opaque_black" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ProgressBar android:id="@id/mini_video_loading_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" />
+            <TextView android:textSize="18.0dip" android:textColor="@android:color/white" android:id="@id/mini_video_loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mediascanner_started" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/mini_video_exit_layout" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mini_video_exit_layout_top_margin" android:layout_marginRight="@dimen/mini_video_exit_layout_right_margin" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/mini_video_exit_img" android:background="@drawable/video_popup_player_close_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ProgressBar android:id="@id/videowidget_progressbar" android:layout_width="fill_parent" android:layout_height="@dimen/video_widget_progressbar_height" android:max="100" android:progress="0" android:layout_alignParentBottom="true" style="@style/WidgetProgressPopup" />
+</RelativeLayout>

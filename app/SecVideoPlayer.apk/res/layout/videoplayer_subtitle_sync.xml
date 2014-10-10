@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="top|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/vp_playspeed_textHeight">
+        <TextView android:textSize="@dimen/vp_playspeed_textSize" android:textColor="@color/popup_color" android:ellipsize="marquee" android:gravity="center" android:id="@id/synctext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec" android:singleLine="true" android:fontFamily="roboto-light" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vp_playspeed_marginRightLeft" android:layout_marginRight="@dimen/vp_playspeed_marginRightLeft" android:layout_marginBottom="@dimen/vp_playspeed_marginBottom">
+        <ImageButton android:id="@id/minus" android:background="@drawable/btn_playspeed_minus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <SeekBar android:id="@id/seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/plus" android:layout_toRightOf="@id/minus" android:layout_centerInParent="true" />
+        <ImageButton android:id="@id/plus" android:background="@drawable/btn_playspeed_plus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

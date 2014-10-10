@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vt_title_text_textsize">30.0dip</dimen>
+    <dimen name="vp_brightness_description_text_size">25.0dip</dimen>
+    <dimen name="vp_auto_brightness_description_text_size">21.0dip</dimen>
+    <dimen name="vp_brightness_seekbar_text_size">29.0dip</dimen>
+    <dimen name="setcomm_dialog_layout_height">85.0dip</dimen>
+    <dimen name="setcomm_textSize">25.0sp</dimen>
+    <dimen name="setcomm_sub_textSize">21.0dip</dimen>
+    <dimen name="setcomm_layout_margin_13">21.0dip</dimen>
+    <dimen name="contextual_list_title">25.0dip</dimen>
+    <dimen name="contextual_list_one_row_height">74.0dip</dimen>
+    <dimen name="vhpp_progressbar_Preview_help_text_size">23.0dip</dimen>
+    <dimen name="vhpp_smart_pause_help_text_size">23.0dip</dimen>
+    <dimen name="video_widget_default_width">580.0dip</dimen>
+    <dimen name="video_widget_magazine_title_textSize">24.0dip</dimen>
+    <dimen name="video_widget_magazine_title_marginLeft">21.0dip</dimen>
+    <dimen name="video_widget_magazine_title_marginTop">20.0dip</dimen>
+    <dimen name="video_widget_magazine_novideo1_textSize">24.0dip</dimen>
+    <dimen name="video_widget_magazine_novideo2_textSize">19.0dip</dimen>
+    <dimen name="allshare_player_name_text__size">25.0dip</dimen>
+    <dimen name="allshare_player_desc_text__size">21.0dip</dimen>
+    <dimen name="vssl_lable_font_size">24.0dip</dimen>
+    <dimen name="vssl_top_margin">12.0dip</dimen>
+    <dimen name="vssl_text_height">33.0dip</dimen>
+    <dimen name="vssl_font_size">25.0dip</dimen>
+    <dimen name="vssl_value_height">28.0dip</dimen>
+    <dimen name="vssl_bottom_margin">12.0dip</dimen>
+    <dimen name="vssl_value_font_size">21.0dip</dimen>
+    <dimen name="vsml_layout_height">74.0dip</dimen>
+    <dimen name="share_popup_height">58.0dip</dimen>
+    <dimen name="share_popup_total_height">605.0dip</dimen>
+    <dimen name="share_popup_padding">20.0dip</dimen>
+    <dimen name="share_via_text_size">23.0sp</dimen>
+    <item type="dimen" name="APKTOOL_DUMMY_0287">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0288">false</item>
+</resources>

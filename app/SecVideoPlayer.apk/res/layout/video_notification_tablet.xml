@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/quick_panel_background_color" android:paddingLeft="@dimen/quick_panel_root_layout_padding_left" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/quick_panel_left_layout" android:focusable="true" android:nextFocusRight="@id/quick_panel_rew" android:layout_width="@dimen/quick_panel_left_side_layout_width" android:layout_height="@dimen/quick_panel_left_side_layout_width">
+        <LinearLayout android:orientation="vertical" android:id="@id/quick_panel_default_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/quick_panel_default" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/quick_panel_icon_mini_video_h" />
+        </LinearLayout>
+        <RelativeLayout android:padding="0.0dip" android:duplicateParentState="true" android:layout_width="@dimen/notification_thumbnail_size" android:layout_height="@dimen/notification_thumbnail_size">
+            <ImageView android:id="@id/quick_panel_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:background="@color/quick_panel_background_color" android:paddingTop="@dimen/quick_panel_root_layout_padding_vertical_top" android:paddingRight="@dimen/quick_panel_root_layout_padding_right" android:paddingBottom="@dimen/quick_panel_root_layout_padding_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/quick_panel_root_layout_height" android:layout_marginLeft="@dimen/quick_panel_right_side_layout_margin_left">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btn_parent" android:layout_width="wrap_content" android:layout_height="@dimen/quick_panel_right_side_center_button" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/quick_panel_rew" android:background="@drawable/video_quickpanel_rew_selector" android:focusable="true" android:layout_width="@dimen/quick_panel_right_side_each_button" android:layout_height="@dimen/quick_panel_right_side_each_button" android:contentDescription="@string/tts_rew_button" />
+            <ImageView android:id="@id/quick_panel_play_pause" android:focusable="true" android:layout_width="@dimen/quick_panel_right_side_center_button" android:layout_height="@dimen/quick_panel_right_side_center_button" android:layout_marginLeft="@dimen/quick_panel_right_side_play_pause_button_margin" android:layout_marginRight="@dimen/quick_panel_right_side_play_pause_button_margin" />
+            <ImageView android:id="@id/quick_panel_ff" android:background="@drawable/video_quickpanel_ff_selector" android:focusable="true" android:layout_width="@dimen/quick_panel_right_side_each_button" android:layout_height="@dimen/quick_panel_right_side_each_button" android:contentDescription="@string/tts_ff_button" />
+            <ImageView android:id="@id/quick_panel_close" android:background="@drawable/video_quickpanel_close_selector" android:focusable="true" android:layout_width="@dimen/quick_panel_right_side_each_button" android:layout_height="@dimen/quick_panel_right_side_each_button" android:layout_marginLeft="@dimen/quick_panel_right_side_close_button_margin" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/quick_panel_right_side_title_text_size" android:textColor="@color/quick_panel_text_color" android:ellipsize="marquee" android:gravity="top" android:layout_gravity="top" android:id="@id/quick_panel_title" android:focusable="true" android:layout_width="@dimen/quick_panel_title_text_width" android:layout_height="fill_parent" android:singleLine="true" android:layout_alignRight="@id/btn_parent" android:marqueeRepeatLimit="marquee_forever" />
+    </RelativeLayout>
+</LinearLayout>

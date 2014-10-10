@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/settings_selector_item" android:layout_width="fill_parent" android:layout_height="@dimen/setcomm_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/setcomm_textSize" android:textColor="@color/popup_color" android:ellipsize="marquee" android:gravity="left|center" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/setcomm_dialog_popup_layout_left_margin" android:layout_marginTop="@dimen/setcomm_layout_margin_13" android:layout_marginBottom="@dimen/setcomm_layout_margin_13" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="marquee_forever" />
+    <RelativeLayout android:gravity="right|center" android:id="@id/value" android:layout_width="0.0dip" android:layout_height="@dimen/setcomm_layout_height" android:layout_marginLeft="@dimen/setcomm_layout_margin_10" android:layout_marginRight="@dimen/setcomm_dialog_popup_layout_right_margin" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/setcomm_textSize" android:textColor="@drawable/popup_value_color" android:id="@id/text_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:id="@id/switch_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <Switch android:id="@id/switch_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/setcomm_layout_margin_8" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.sec.android.app.videoplayer.view.AnimatedCheckBox android:id="@id/checkbox_value" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/setcomm_layout_margin_10" android:layout_marginRight="@dimen/setcomm_dialog_popup_layout_right_margin" />
+</LinearLayout>

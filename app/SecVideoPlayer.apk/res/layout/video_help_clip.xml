@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/help_text_layout" android:focusableInTouchMode="true" android:layout_width="@dimen/vhc_help_text_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vhc_help_text_margin_left_right" android:layout_marginTop="@dimen/vhc_help_text_margin_top" android:layout_marginRight="@dimen/vhc_help_text_margin_left_right" android:layout_alignParentTop="true">
+        <TextView android:textSize="25.0dip" android:typeface="normal" android:textColor="#ffebebeb" android:id="@id/help_title" android:paddingLeft="@dimen/edit_text_contextual_paddingLeft" android:paddingRight="@dimen/edit_text_contextual_paddingRight" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location" android:includeFontPadding="false" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="-1.0" android:shadowRadius="3.0" />
+        <TextView android:textSize="19.0dip" android:typeface="normal" android:textColor="#ff3caef7" android:id="@id/help_description" android:paddingLeft="@dimen/edit_text_contextual_paddingLeft" android:paddingRight="@dimen/edit_text_contextual_paddingRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="-1.0" android:shadowRadius="3.0" android:layout_below="@id/help_title" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/help_btn_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/vhc_help_btn_bottom_margin_normal">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_alignParentBottom="true" android:layout_centerInParent="true">
+            <ImageView android:id="@id/help_btn1" android:focusableInTouchMode="true" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/help_main_new_features_01" />
+            <ImageView android:id="@id/help_btn2" android:focusableInTouchMode="true" android:visibility="visible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="13.0dip" android:src="@drawable/help_main_new_features_02" android:layout_toRightOf="@id/help_btn1" />
+            <ImageView android:id="@id/help_btn3" android:focusableInTouchMode="true" android:visibility="visible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="13.0dip" android:src="@drawable/help_main_new_features_03" android:layout_toRightOf="@id/help_btn2" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

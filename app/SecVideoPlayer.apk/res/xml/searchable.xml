@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable android:label="@string/search_label" android:hint="@string/search_hint" android:searchSuggestAuthority="com.sec.android.app.videoplayer.db.FinDoProvider" android:searchSuggestSelection=" ?" android:searchSuggestIntentAction="android.intent.action.VIEW" android:searchSuggestThreshold="1" android:includeInGlobalSearch="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <extra-attr android:name="includeInInsightSearch" android:value="true" />
+    <extra-attr android:name="tagProviderUri" android:value="content://media/external/video/media" />
+    <extra-attr android:name="searchLayoutStyle" android:value="suggest_template_content_video" />
+    <extra-attr android:name="includeInAppSearch" android:value="false" />
+    <extra-attr android:name="advancedSearchType" android:value="tagSearch|timeSpan" />
+    <extra-attr android:name="tagFilters" android:value="location|weather" />
+    <extra-attr android:name="categoryFilters" android:value="videos" />
+</searchable>

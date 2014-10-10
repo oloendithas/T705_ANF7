@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/setcomm_dialog_popup_layout_left_margin" android:layout_marginRight="@dimen/setcomm_dialog_popup_layout_right_margin">
+        <TextView android:textSize="@dimen/sbeamguide_popup_text_size" android:textColor="@color/popup_color" android:id="@id/sbeamexplain" android:paddingTop="9.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sbeam_explain" />
+        <ImageView android:id="@id/sbeamguideimage" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:layout_width="288.0dip" android:layout_height="198.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/sbeamtextlayout" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.sec.android.app.videoplayer.view.AnimatedCheckBox android:id="@id/sbeampopupcheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/check_icon_selector" />
+            <TextView android:textSize="@dimen/sbeamguide_popup_text_size" android:textColor="@color/popup_color" android:id="@id/sbeamPopupChecktext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sbeamguide_popup_checkbox_text_margin_left" android:text="@string/do_not_ask_again" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

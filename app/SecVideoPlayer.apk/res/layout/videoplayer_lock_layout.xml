@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/lock_btn" android:background="@drawable/btn_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/videoplayer_lock_btn_marginTop" android:layout_marginRight="@dimen/videoplayer_lock_btn_marginRight" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/lock_btn" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/popup" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ctrl_vol_vertical_popup" android:background="@drawable/video_volume_popup_bg" android:layout_width="@dimen/vp_ctrl_vol_vertical_popup_width" android:layout_height="@dimen/vp_ctrl_vol_vertical_popup_height" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ctrl_vol_seekbar_layout_popup" android:layout_width="fill_parent" android:layout_height="@dimen/vp_ctrl_vol_seekbar_layout_popup_height" android:layout_marginTop="@dimen/vp_ctrl_vol_seekbar_layout_popup_marginTop" android:layout_marginBottom="@dimen/vp_ctrl_vol_seekbar_layout_popup_marginBottom">
+            <com.sec.android.touchwiz.widget.TwSeekBar android:id="@id/vol_seekbar_popup" android:paddingTop="@dimen/vp_vol_seekbar_popup_paddingTop" android:paddingBottom="@dimen/vp_vol_seekbar_popup_paddingBottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" touchwiz:twBackgroundDrawable="@drawable/video_volume_popup_progress_bg" touchwiz:twProgressDrawable="@drawable/video_volume_popup_progress_bar" touchwiz:twIndicatorThickness="@dimen/vp_vol_seekbar_popup_twIndicatorThickness" touchwiz:twProgressOrientation="vertical" touchwiz:twSeekBarThumb="@drawable/btn_video_scrubber_control"
+              xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ctrl_vol_text_layout2" android:layout_width="fill_parent" android:layout_height="@dimen/vp_ctrl_vol_text_layout2_layout_height" android:layout_marginBottom="@dimen/vp_ctrl_vol_text_layout2_layout_marginBottom" android:layout_alignParentBottom="true">
+            <TextView android:textSize="@dimen/vp_vol_text_popup_textSize" android:textColor="@color/volume_text" android:gravity="center" android:id="@id/vol_text_popup" android:layout_width="fill_parent" android:layout_height="fill_parent" android:includeFontPadding="false" />
+        </LinearLayout>
+        <ImageButton android:id="@id/soundalive_btn" android:background="@drawable/btn_sound_alive_selector" android:visibility="visible" android:layout_width="@dimen/soundalive_btn_width" android:layout_height="@dimen/soundalive_btn_height" android:layout_marginBottom="@dimen/vp_ctrl_vol_soundalive_btn_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

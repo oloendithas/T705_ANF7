@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingRight="@dimen/setcomm_layout_paddingRight" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/vssl_list_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/subtitle_smpte_activation" android:background="@drawable/settings_selector_item" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:soundEffectsEnabled="false">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/setcomm_textSize" android:textColor="@color/menu_text_color" android:gravity="center_vertical" android:id="@id/subtitle_smpte_onoff" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/vssl_text_margin" android:text="@string/subtitle_custom" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/vsml_layout_height">
+            <com.sec.android.app.videoplayer.view.AnimatedCheckBox android:id="@id/cbSmpteSubtitle" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/vsml_cbSubtitle_layout_marginRight" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/smpteCustomLine" android:background="@drawable/tw_expander_list_line_holo" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/subtitle_lable_overview" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/tw_list_section_divider" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/vssl_lable_font_size" android:textColor="@color/label_color" android:gravity="left|center" android:id="@id/menu_overview_separator" android:layout_width="wrap_content" android:layout_height="@dimen/vssl_lable_height" android:layout_marginLeft="@dimen/vssl_text_margin" android:text="@string/menu_overview_cap" android:fontFamily="sans-serif" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:id="@id/subtitle_menu_overview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:choiceMode="singleChoice" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/subtitle_lable_text" android:background="@drawable/tw_list_section_divider" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/vssl_lable_font_size" android:textColor="@color/label_color" android:gravity="left|center" android:id="@id/menu_text_separator" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/vssl_lable_height" android:layout_marginLeft="@dimen/vssl_text_margin" android:text="@string/menu_text_cap" android:fontFamily="sans-serif" />
+    </LinearLayout>
+    <ListView android:id="@id/subtitle_menu_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:choiceMode="singleChoice" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/subtitle_lable_color" android:background="@drawable/tw_list_section_divider" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/vssl_lable_font_size" android:textColor="@color/label_color" android:gravity="left|center" android:id="@id/menu_color_and_opacity_separator" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/vssl_lable_height" android:layout_marginLeft="@dimen/vssl_text_margin" android:text="@string/menu_color_and_opacity_cap" android:fontFamily="sans-serif" />
+    </LinearLayout>
+    <ListView android:id="@id/subtitle_menu_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:choiceMode="singleChoice" />
+</LinearLayout>

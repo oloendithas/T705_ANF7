@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subtitle_setting_sub_size">
+        <item>@string/small</item>
+        <item>@string/medium</item>
+        <item>@string/large</item>
+    </string-array>
+    <string-array name="subtitle_setting_sub_alignment">
+        <item>@string/left</item>
+        <item>@string/center</item>
+        <item>@string/right</item>
+    </string-array>
+    <string-array name="autoplay_settings">
+        <item>@string/autoplayeon</item>
+        <item>@string/autoplayeoff</item>
+    </string-array>
+    <string-array name="allshare_download_popup_items">
+        <item>@string/menu_download</item>
+        <item>@string/menu_details</item>
+    </string-array>
+    <string-array name="contextual_title">
+        <item>@string/autoplayeon</item>
+        <item>@string/autoplayeoff</item>
+    </string-array>
+    <string-array name="list_popup_items">
+        <item>@string/menu_ShareVia</item>
+        <item>@string/menu_Delete</item>
+        <item>@string/menu_details</item>
+    </string-array>
+    <string-array name="list_popup_items_drm">
+        <item>@string/menu_Delete</item>
+        <item>@string/menu_details</item>
+    </string-array>
+    <string-array name="list_popup_items_cloud">
+        <item>@string/menu_Delete</item>
+        <item>@string/menu_details</item>
+    </string-array>
+    <string-array name="list_popup_items_SKTcloud">
+        <item>@string/menu_details</item>
+    </string-array>
+    <string-array name="outdoor_visibility">
+        <item>@string/autoplayeon</item>
+        <item>@string/autoplayeoff</item>
+    </string-array>
+    <string-array name="color_tone">
+        <item>@string/normal</item>
+        <item>@string/warm</item>
+        <item>@string/cold</item>
+    </string-array>
+    <string-array name="sound_alive_array_all">
+        <item>@string/normal</item>
+        <item>@string/voice</item>
+        <item>@string/music</item>
+        <item>@string/surround</item>
+    </string-array>
+    <string-array name="sound_alive_array_monospk">
+        <item>@string/normal</item>
+        <item>@string/voice</item>
+    </string-array>
+    <string-array name="sound_alive_array_etc">
+        <item>@string/normal</item>
+    </string-array>
+    <string-array name="supportCellSizeArray">
+        <item>2x1</item>
+        <item>2x2</item>
+        <item>3x1</item>
+        <item>3x2</item>
+        <item>4x1</item>
+        <item>4x2</item>
+    </string-array>
+    <string-array name="supportCellSizeMagazineArray">
+        <item>2x2</item>
+        <item>2x4</item>
+        <item>4x2</item>
+    </string-array>
+    <string-array name="subtitle_color">
+        <item>@string/black_color</item>
+        <item>@string/blue_color</item>
+        <item>@string/green_color</item>
+        <item>@string/white_color</item>
+    </string-array>
+    <string-array name="subtitle_edge">
+        <item>@string/no_edge</item>
+        <item>@string/raised_edge</item>
+        <item>@string/depressed_edge</item>
+        <item>@string/uniform_edge</item>
+        <item>@string/drop_shadowed_edge</item>
+    </string-array>
+    <string-array name="subtitle_background_color">
+        <item>@string/none</item>
+        <item>@string/white_color</item>
+        <item>@string/black_color</item>
+    </string-array>
+    <string-array name="empty">
+        <item>@string/subtitle_Empty</item>
+    </string-array>
+    <string-array name="contextual_tag_weather">
+        <item>@string/no_tags</item>
+        <item>@string/sunny_day</item>
+        <item>@string/cloudy_day</item>
+        <item>@string/rainy_day</item>
+        <item>@string/snowy_day</item>
+        <item>@string/clear_night</item>
+    </string-array>
+    <string-array name="mini_controller">
+        <item>@string/normal</item>
+        <item>@string/small</item>
+    </string-array>
+</resources>

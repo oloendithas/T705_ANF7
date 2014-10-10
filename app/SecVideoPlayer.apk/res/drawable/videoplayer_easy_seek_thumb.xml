@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:height="@dimen/vst_videoplayer_progress_btn_width_n_height" android:width="@dimen/vst_videoplayer_progress_btn_width_n_height" android:drawable="@drawable/easy_video_progressive_press" />
+    <item android:state_focused="true" android:height="@dimen/vst_videoplayer_progress_btn_width_n_height" android:width="@dimen/vst_videoplayer_progress_btn_width_n_height" android:drawable="@drawable/easy_video_progressive_focus" />
+    <item android:height="@dimen/vst_videoplayer_progress_btn_width_n_height" android:width="@dimen/vst_videoplayer_progress_btn_width_n_height" android:drawable="@drawable/easy_video_progressive_ing" />
+</selector>

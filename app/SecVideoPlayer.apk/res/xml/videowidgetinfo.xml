@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:background="@drawable/widget_shadow" android:minWidth="@dimen/video_widget_default_width" android:minHeight="@dimen/video_widget_default_height" android:initialLayout="@layout/videowidget_layout_initial" android:previewImage="@drawable/widget_video_preview" android:resizeMode="horizontal|vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

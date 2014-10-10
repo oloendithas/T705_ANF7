@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/previewlinearlayout" android:layout_width="@dimen/preview_item_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/previewlayout" android:background="@drawable/preview_selector" android:layout_width="@dimen/preview_item_width" android:layout_height="@dimen/preview_item_height">
+        <FrameLayout android:layout_width="@dimen/preview_framelayout_item_width" android:layout_height="@dimen/preview_framelayout_item_height" android:layout_marginLeft="@dimen/preview_framelayout_item_marginleft" android:layout_marginTop="@dimen/preview_framelayout_item_margintop">
+            <com.sec.android.app.videoplayer.videowall.ChapterView android:layout_gravity="center" android:id="@id/previewchapterview" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="center" android:id="@id/previewnochapterimage" android:visibility="gone" android:layout_width="@dimen/preview_framelayout_item_width" android:layout_height="@dimen/preview_framelayout_item_height" android:src="@drawable/video_player_no_chapter" android:scaleType="center" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/previewprogresss" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/preview_item_text_size" android:textColor="@color/white" android:gravity="bottom|center" android:id="@id/previewchaptertime" android:layout_width="fill_parent" android:layout_height="@dimen/preview_item_text_height" />
+</LinearLayout>

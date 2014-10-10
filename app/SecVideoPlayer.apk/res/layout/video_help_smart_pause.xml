@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/block_all" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <RelativeLayout android:id="@id/smart_pause_help_text_layout" android:background="@drawable/help_popup_picker_bg_w_01" android:visibility="visible" android:layout_width="@dimen/vhpp_smart_pause_help_text_width" android:layout_height="wrap_content" android:layout_marginBottom="31.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/vhpp_smart_pause_help_text_size" android:textStyle="normal" android:textColor="@android:color/black" android:id="@id/text1" android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/help_smart_pause_msg" android:singleLine="false" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/contextual_list_title" android:textStyle="normal" android:textColor="@drawable/settings_text_selector" android:gravity="left|center" android:layout_gravity="center_vertical" android:id="@id/contextual_data" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/contextual_list_one_row_height" android:layout_marginLeft="@dimen/vssl_text_margin" android:singleLine="true" android:layout_weight="1.0" />
+    <com.sec.android.app.videoplayer.view.AnimatedCheckBox android:layout_gravity="center_vertical" android:id="@id/contextual_checkbox" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/contextual_list_one_row_height" android:layout_marginRight="@dimen/vssl_text_margin" android:button="@drawable/check_icon_selector" />
+</LinearLayout>

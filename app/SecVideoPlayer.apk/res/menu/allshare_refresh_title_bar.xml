@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/tw_action_bar_icon_share_disabled_holo_dark" android:enabled="false" android:id="@id/action_share_inallshare" android:title="@string/menu_ShareVia" android:alphabeticShortcut="h" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/tw_action_bar_icon_delete_holo_dark" android:id="@id/action_delete" android:title="@string/menu_Delete" android:alphabeticShortcut="d" />
+    <item android:icon="@drawable/tw_action_bar_icon_search_holo_dark" android:id="@id/action_search" android:title="@string/search_hint" android:alphabeticShortcut="f" />
+    <item android:icon="@drawable/tw_action_bar_icon_nearby_devices_holo_dark" android:id="@id/action_allshare_scan_for_nearby_devices" android:title="@string/video_allshare_scan_for_nearby_devices" />
+    <item android:id="@id/action_allshare_refresh" android:title="@string/refresh" />
+</menu>

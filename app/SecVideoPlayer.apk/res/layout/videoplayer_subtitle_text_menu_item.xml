@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView android:textSize="@dimen/setcomm_textSize" android:textColor="@drawable/settings_text_selector" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/text_item_list" android:paddingLeft="@dimen/setcomm_dialog_popup_layout_left_margin" android:paddingRight="@dimen/setcomm_dialog_popup_layout_right_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorSingle" android:minHeight="@dimen/vsml_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

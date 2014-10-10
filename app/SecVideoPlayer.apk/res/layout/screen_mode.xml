@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/vsmp_colortone_layout_height">
+        <TextView android:textSize="@dimen/vsmp_colortone_title_textSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vsmp_colortone_title_marginLeft" android:layout_marginTop="@dimen/vsmp_colortone_title_marginTop" android:text="@string/colortone" />
+        <SeekBar android:id="@id/seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vsmp_colortone_ProgressBar_margin" android:layout_marginRight="@dimen/vsmp_colortone_ProgressBar_margin" />
+        <RelativeLayout android:id="@id/title_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vsmp_colortone_text_marginLeft" android:layout_marginRight="@dimen/vsmp_colortone_text_marginRight">
+            <TextView android:textSize="@dimen/vsmp_colortone_textSize" android:id="@id/warm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/warm" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/vsmp_colortone_textSize" android:id="@id/normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/normal" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/vsmp_colortone_textSize" android:id="@id/cold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cold" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:background="@drawable/list_divider_holo_dark" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/outdoor_check_layout" android:background="@drawable/list_selector_item" android:layout_width="fill_parent" android:layout_height="@dimen/vsmp_ourdoorvisibility_layout_height">
+        <TextView android:textSize="@dimen/vsmp_ourdoorvisibility_title_textSize" android:textStyle="normal" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vsmp_ourdoorvisibility_title_marginLeft" android:text="@string/outdoor" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <com.sec.android.app.videoplayer.view.AnimatedCheckBox android:id="@id/outdoor_checkbox" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="@dimen/vsmp_ourdoorvisibility_CheckBox_width" android:layout_height="@dimen/vsmp_ourdoorvisibility_CheckBox_height" android:layout_marginRight="@dimen/vsmp_ourdoorvisibility_CheckBox_marginRight" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

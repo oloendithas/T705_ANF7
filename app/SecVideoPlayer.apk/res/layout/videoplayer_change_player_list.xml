@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/setcomm_dialog_popup_layout_left_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/allshare_list_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/playericon" android:layout_width="@dimen/allshare_list_player_icon_height" android:layout_height="@dimen/allshare_list_player_icon_height" android:layout_marginLeft="@dimen/allshare_list_icon_margin_left" android:scaleType="fitCenter" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/allshare_player_name_text__size" android:textColor="@drawable/settings_text_selector" android:id="@id/playername" android:paddingLeft="@dimen/allshare_list_playername_margin_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/allshare_player_name_text__top_margin" />
+        <TextView android:textSize="@dimen/allshare_player_desc_text__size" android:textColor="@drawable/settings_value_text_selector" android:id="@id/playerdescription" android:paddingLeft="@dimen/allshare_list_playername_margin_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/allshare_player_desc_text__bottom_margin" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right|center" android:orientation="horizontal" android:paddingRight="@dimen/setcomm_dialog_popup_layout_right_margin" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <CheckedTextView android:textAppearance="?android:textAppearanceLarge" android:gravity="right|center" android:id="@id/selected_player_check" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorSingle" android:minHeight="?android:listPreferredItemHeight" />
+    </LinearLayout>
+</LinearLayout>

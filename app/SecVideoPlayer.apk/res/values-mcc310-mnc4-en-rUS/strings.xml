@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="video_drm_locked">%s locked.</string>
+    <string name="ss_move_panel_left_opt">Move panel left</string>
+    <string name="do_not_ask_again">Do not show again.</string>
+    <item type="string" name="APKTOOL_DUMMY_01d6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01da">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01db">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01dc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01dd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01de">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01df">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e6">false</item>
+</resources>

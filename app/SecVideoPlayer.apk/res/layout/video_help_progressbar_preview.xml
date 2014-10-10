@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/block_top" android:layout_width="fill_parent" android:layout_height="@dimen/vhpp_block_top_height" android:layout_alignParentTop="true" />
+        <RelativeLayout android:id="@id/block_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/vhpp_block_bottom_height" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:id="@id/progress_area" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_marginBottom="@dimen/vhpp_block_bottom_height" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:id="@id/help_text_layout" android:visibility="visible" android:layout_width="@dimen/vhpp_progressbar_Preview_help_text_layout_width" android:layout_height="@dimen/vhpp_progressbar_Preview_help_text_layout_height" android:layout_marginBottom="@dimen/vhpp_progressbar_Preview_help_text_layout_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <RelativeLayout android:background="@drawable/help_popup_picker_bg_w_01" android:layout_width="fill_parent" android:layout_height="@dimen/vhpp_progressbar_Preview_help_text_inner_layout_height" android:layout_marginTop="1.0px">
+                <TextView android:textSize="@dimen/vhpp_progressbar_Preview_help_text_size" android:textStyle="normal" android:textColor="@android:color/black" android:gravity="bottom" android:layout_gravity="bottom|left|center" android:id="@id/help_direction_text_view" android:paddingBottom="@dimen/vhpp_progressbar_Preview_help_text_margin_bottom" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vhpp_progressbar_Preview_help_text_margin_left_right" android:layout_marginRight="@dimen/vhpp_progressbar_Preview_help_text_margin_left_right" android:text="@string/help_progress_bar_preview" android:singleLine="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <ImageView android:background="@drawable/help_popup_picker_t_c" android:layout_width="@dimen/vhpp_progressbar_Preview_help_arrow_width" android:layout_height="@dimen/vhpp_progressbar_Preview_help_arrow_height" android:layout_marginBottom="@dimen/vhpp_progressbar_Preview_help_arrow_layout_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

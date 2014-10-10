@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/video_list_on_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/list_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+        <TextView android:textSize="@dimen/videoplayer_list_title_textsize" android:textColor="@color/playerlist_title_text_color" android:id="@id/list_title" android:layout_width="fill_parent" android:layout_height="@dimen/videoplayer_list_title_height" android:layout_marginTop="@dimen/videoplayer_list_title2_top_margin" android:layout_marginBottom="@dimen/videoplayer_list_title2_bottom_margin" android:text="@string/video_list_title" android:shadowColor="@color/playerlist_title_shadow_color" android:shadowDy="1.0" android:shadowRadius="2.0" android:fontFamily="sans-serif-light" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/title_divider" android:background="@color/playerlist_title_divider_color" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/list_title_layout" android:layout_alignParentLeft="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progress_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" android:singleLine="true" />
+        </LinearLayout>
+        <GridView android:scrollbarStyle="outsideInset" android:id="@id/videoplayer_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/videoplayer_list_right_margin" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+</RelativeLayout>

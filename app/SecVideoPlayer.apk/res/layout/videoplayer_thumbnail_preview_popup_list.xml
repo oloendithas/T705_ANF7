@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/relative_progress_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vppp_left_margin" android:layout_marginTop="@dimen/vppp_top_margin" android:layout_marginRight="@dimen/vppp_right_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/vppp_content_area" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/preview_backgound" android:background="@drawable/video_airview_popup_picker_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <RelativeLayout android:id="@id/vppp_surface_and_timetext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vppp_surface_left_margin" android:layout_marginTop="@dimen/vppp_surface_top_margin" android:layout_marginRight="@dimen/vppp_surface_right_margin">
+            <SurfaceView android:id="@id/VideoView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vppp_surface_left_margin_thumbnail" android:layout_marginTop="@dimen/vppp_surface_top_margin_thumbnail" android:layout_marginRight="@dimen/vppp_surface_right_margin_thumbnail" />
+            <TextView android:textSize="@dimen/vppp_time_textview_size" android:textColor="@color/hover_preview_text_color" android:gravity="center" android:id="@id/preview_current_time" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/vppp_time_textview_height" android:layout_marginTop="@dimen/vppp_time_textview_top_margin" android:layout_below="@id/VideoView" />
+        </RelativeLayout>
+    </FrameLayout>
+    <ImageView android:id="@id/preview_arrow" android:background="@drawable/video_airview_popup_picker_b_c" android:visibility="invisible" android:layout_width="@dimen/vppp_arrow_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vppp_arrow_top_margin" android:layout_below="@id/vppp_content_area" />
+</RelativeLayout>

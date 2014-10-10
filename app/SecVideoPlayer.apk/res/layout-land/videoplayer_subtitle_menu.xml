@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/subtitle_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/action_bar_dialog_switch" />
+        <HorizontalScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:requiresFadingEdge="horizontal">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:background="@color/contextual_title_split_color" android:layout_width="@dimen/vsm_preview_split_width" android:layout_height="fill_parent">
+                    <RelativeLayout android:layout_width="@dimen/vsm_preview_image_width" android:layout_height="@dimen/edit_text_contextual_height" android:layout_marginLeft="@dimen/vsm_preview_image_top_margin" android:layout_marginRight="@dimen/vsm_preview_image_top_margin" android:layout_centerInParent="true">
+                        <ImageView android:id="@id/subtitle_thumb" android:focusable="false" android:layout_width="@dimen/vsm_preview_image_width" android:layout_height="@dimen/edit_text_contextual_height" android:src="@drawable/contextual_option_bg" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+                        <TextView android:gravity="center" android:id="@id/subtitle_preview" android:paddingLeft="@dimen/vsl_subtitle_text_padding" android:paddingTop="@dimen/vsl_subtitle_text_padding" android:paddingRight="@dimen/vsl_subtitle_text_padding" android:paddingBottom="@dimen/vsl_subtitle_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vsl_subtitle_view_side_margin" android:layout_marginRight="@dimen/vsl_subtitle_view_side_margin" android:layout_marginBottom="@dimen/vsm_preview_caption_bottom_margin" android:text="@string/menu_closedcaption" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <ImageView android:id="@id/vertical_line" android:background="@drawable/tw_preference_contents_list_left_split_default_holo_light" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                <ScrollView android:id="@id/subtitle_scrollview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:requiresFadingEdge="vertical">
+                    <LinearLayout android:orientation="vertical" android:id="@id/menu_layout" android:layout_width="@dimen/vsm_list_main_width" android:layout_height="wrap_content">
+                        <include layout="@layout/videoplayer_subtitle_submenu" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</RelativeLayout>

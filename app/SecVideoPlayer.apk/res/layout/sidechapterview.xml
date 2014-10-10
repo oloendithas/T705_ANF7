@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/sidechapterview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/sidechapter_popup_color" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="130.0dip" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:id="@id/sidelinearlayout0" android:background="@color/sidechapter_popup_color" android:layout_width="130.0dip" android:layout_height="90.0dip">
+            <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:id="@id/sideframelayout0" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="80.0dip">
+                    <com.sec.android.app.videoplayer.videowall.ChapterView android:layout_gravity="center" android:id="@id/sidechapterview0" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/sideindex_view0" android:layout_width="24.0dip" android:layout_height="22.0dip" android:src="@drawable/video_player_chapter_01" />
+                    <ImageView android:layout_gravity="center" android:id="@id/sidenochapterimage0" android:layout_width="68.0dip" android:layout_height="60.0dip" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/sidechap_progresss0" android:padding="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/sidelinearlayout1" android:background="@color/sidechapter_popup_color" android:layout_width="130.0dip" android:layout_height="90.0dip">
+            <LinearLayout android:layout_gravity="center" android:background="@color/ChapterLine" android:padding="1.0px" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:id="@id/sideframelayout1" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="80.0dip">
+                    <com.sec.android.app.videoplayer.videowall.ChapterView android:layout_gravity="center" android:id="@id/sidechapterview1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="center" android:id="@id/sidenochapterimage1" android:layout_width="68.0dip" android:layout_height="60.0dip" />
+                    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/sideindex_view1" android:layout_width="24.0dip" android:layout_height="22.0dip" android:src="@drawable/video_player_chapter_02" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/sidechap_progresss1" android:padding="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/sidelinearlayout2" android:background="@color/sidechapter_popup_color" android:layout_width="130.0dip" android:layout_height="90.0dip">
+            <LinearLayout android:layout_gravity="center" android:background="@color/ChapterLine" android:padding="1.0px" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:id="@id/sideframelayout2" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="80.0dip">
+                    <com.sec.android.app.videoplayer.videowall.ChapterView android:layout_gravity="center" android:id="@id/sidechapterview2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="center" android:id="@id/sidenochapterimage2" android:layout_width="68.0dip" android:layout_height="60.0dip" />
+                    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/sideindex_view2" android:layout_width="24.0dip" android:layout_height="22.0dip" android:src="@drawable/video_player_chapter_03" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/sidechap_progresss2" android:padding="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/sidelinearlayout3" android:background="@color/sidechapter_popup_color" android:layout_width="130.0dip" android:layout_height="90.0dip">
+            <LinearLayout android:layout_gravity="center" android:background="@color/ChapterLine" android:padding="1.0px" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:id="@id/sideframelayout3" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="80.0dip">
+                    <com.sec.android.app.videoplayer.videowall.ChapterView android:layout_gravity="center" android:id="@id/sidechapterview3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="center" android:id="@id/sidenochapterimage3" android:layout_width="68.0dip" android:layout_height="60.0dip" />
+                    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/sideindex_view3" android:layout_width="24.0dip" android:layout_height="22.0dip" android:src="@drawable/video_player_chapter_04" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/sidechap_progresss3" android:padding="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/sidelinearlayout4" android:background="@color/sidechapter_popup_color" android:layout_width="130.0dip" android:layout_height="90.0dip">
+            <LinearLayout android:layout_gravity="center" android:background="@color/ChapterLine" android:padding="1.0px" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:id="@id/sideframelayout4" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="80.0dip">
+                    <com.sec.android.app.videoplayer.videowall.ChapterView android:layout_gravity="center" android:id="@id/sidechapterview4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="center" android:id="@id/sidenochapterimage4" android:layout_width="68.0dip" android:layout_height="60.0dip" />
+                    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/sideindex_view4" android:layout_width="24.0dip" android:layout_height="22.0dip" android:src="@drawable/video_player_chapter_05" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/sidechap_progresss4" android:padding="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/sidelinearlayout5" android:background="@color/sidechapter_popup_color" android:layout_width="130.0dip" android:layout_height="90.0dip">
+            <LinearLayout android:layout_gravity="center" android:background="@color/ChapterLine" android:padding="1.0px" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:id="@id/sideframelayout5" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="80.0dip">
+                    <com.sec.android.app.videoplayer.videowall.ChapterView android:layout_gravity="center" android:id="@id/sidechapterview5" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="center" android:id="@id/sidenochapterimage5" android:layout_width="68.0dip" android:layout_height="60.0dip" />
+                    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/sideindex_view5" android:layout_width="24.0dip" android:layout_height="22.0dip" android:src="@drawable/video_player_chapter_06" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/sidechap_progresss5" android:padding="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/sidelinearlayout6" android:background="@color/sidechapter_popup_color" android:layout_width="130.0dip" android:layout_height="90.0dip">
+            <LinearLayout android:layout_gravity="center" android:background="@color/ChapterLine" android:padding="1.0px" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:id="@id/sideframelayout6" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="80.0dip">
+                    <com.sec.android.app.videoplayer.videowall.ChapterView android:layout_gravity="center" android:id="@id/sidechapterview6" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="center" android:id="@id/sidenochapterimage6" android:layout_width="68.0dip" android:layout_height="60.0dip" />
+                    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/sideindex_view6" android:layout_width="24.0dip" android:layout_height="22.0dip" android:src="@drawable/video_player_chapter_07" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/sidechap_progresss6" android:padding="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/sidelinearlayout7" android:background="@color/sidechapter_popup_color" android:layout_width="130.0dip" android:layout_height="90.0dip">
+            <LinearLayout android:layout_gravity="center" android:background="@color/ChapterLine" android:padding="1.0px" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:id="@id/sideframelayout7" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="80.0dip">
+                    <com.sec.android.app.videoplayer.videowall.ChapterView android:layout_gravity="center" android:id="@id/sidechapterview7" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="center" android:id="@id/sidenochapterimage7" android:layout_width="68.0dip" android:layout_height="60.0dip" />
+                    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/sideindex_view7" android:layout_width="24.0dip" android:layout_height="22.0dip" android:src="@drawable/video_player_chapter_08" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/sidechap_progresss7" android:padding="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/sidelinearlayout8" android:background="@color/sidechapter_popup_color" android:layout_width="130.0dip" android:layout_height="90.0dip">
+            <LinearLayout android:layout_gravity="center" android:background="@color/ChapterLine" android:padding="1.0px" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:id="@id/sideframelayout8" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="80.0dip">
+                    <com.sec.android.app.videoplayer.videowall.ChapterView android:layout_gravity="center" android:id="@id/sidechapterview8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="center" android:id="@id/sidenochapterimage8" android:layout_width="68.0dip" android:layout_height="60.0dip" />
+                    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/sideindex_view8" android:layout_width="24.0dip" android:layout_height="22.0dip" android:src="@drawable/video_player_chapter_09" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/sidechap_progresss8" android:padding="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/sidelinearlayout9" android:background="@color/sidechapter_popup_color" android:layout_width="130.0dip" android:layout_height="90.0dip">
+            <LinearLayout android:layout_gravity="center" android:background="@color/ChapterLine" android:padding="1.0px" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:id="@id/sideframelayout9" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="80.0dip">
+                    <com.sec.android.app.videoplayer.videowall.ChapterView android:layout_gravity="center" android:id="@id/sidechapterview9" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="center" android:id="@id/sidenochapterimage9" android:layout_width="68.0dip" android:layout_height="60.0dip" />
+                    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/sideindex_view9" android:layout_width="24.0dip" android:layout_height="22.0dip" android:src="@drawable/video_player_chapter_10" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/sidechap_progresss9" android:padding="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/sidelinearlayout10" android:background="@color/sidechapter_popup_color" android:layout_width="130.0dip" android:layout_height="90.0dip">
+            <LinearLayout android:layout_gravity="center" android:background="@color/ChapterLine" android:padding="1.0px" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:id="@id/sideframelayout10" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="80.0dip">
+                    <com.sec.android.app.videoplayer.videowall.ChapterView android:layout_gravity="center" android:id="@id/sidechapterview10" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="center" android:id="@id/sidenochapterimage10" android:layout_width="68.0dip" android:layout_height="60.0dip" />
+                    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/sideindex_view10" android:layout_width="24.0dip" android:layout_height="22.0dip" android:src="@drawable/video_player_chapter_11" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/sidechap_progresss10" android:padding="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/sidelinearlayout11" android:background="@color/sidechapter_popup_color" android:layout_width="130.0dip" android:layout_height="90.0dip">
+            <LinearLayout android:layout_gravity="center" android:background="@color/ChapterLine" android:padding="1.0px" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:id="@id/sideframelayout11" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="80.0dip">
+                    <com.sec.android.app.videoplayer.videowall.ChapterView android:layout_gravity="center" android:id="@id/sidechapterview11" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="center" android:id="@id/sidenochapterimage11" android:layout_width="68.0dip" android:layout_height="60.0dip" />
+                    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/sideindex_view11" android:layout_width="24.0dip" android:layout_height="22.0dip" android:src="@drawable/video_player_chapter_12" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/sidechap_progresss11" android:padding="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

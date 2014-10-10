@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="brightness_auto_thumb_offset">36</integer>
+    <integer name="chapter_view_dialog_margin">17</integer>
+</resources>

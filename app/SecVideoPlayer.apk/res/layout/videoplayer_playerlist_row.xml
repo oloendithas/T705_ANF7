@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/row_main_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/list_effect_frame" android:background="@drawable/selector_list_view_effect" android:layout_width="@dimen/thumb_row_total_width" android:layout_height="@dimen/thumb_row_effect_height" android:layout_marginTop="@dimen/thumb_row_effect_top_margin" />
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/thumb_row_content_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thumb_row_item_left_margin" android:layout_marginTop="@dimen/thumb_row_item_top_margin" android:layout_marginRight="@dimen/thumb_row_item_right_margin" android:layout_marginBottom="@dimen/thumb_row_item_bottom_margin">
+            <FrameLayout android:background="@color/playerlist_thumbnail_stroke_color" android:layout_width="fill_parent" android:layout_height="@dimen/thumb_row_image_frame_height">
+                <RelativeLayout android:id="@id/thumbnail_border_layout" android:background="@drawable/thumbnail_border" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/default_thumb" android:visibility="visible" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/library_thumbnail_default_video_wl" android:scaleType="centerCrop" />
+                    <ImageView android:id="@id/thumbnail" android:visibility="invisible" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                </RelativeLayout>
+                <ImageView android:layout_gravity="bottom|right|center" android:id="@id/cloud" android:background="@drawable/dropbox_png" android:visibility="gone" android:duplicateParentState="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="6.0dip" />
+                <ProgressBar android:layout_gravity="bottom" android:id="@id/progressview" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_marginLeft="@dimen/videoplayer_list_seekbar_margin" android:layout_marginTop="@dimen/videoplayer_list_seekbar_margin" android:layout_marginRight="@dimen/videoplayer_list_seekbar_margin" android:layout_marginBottom="@dimen/videoplayer_list_seekbar_margin_bottom" style="@style/customProgressBarThumbnail" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thumb_row_text_layout_top_margin">
+                <TextView android:textSize="@dimen/thumb_row_text_first_row_text_size" android:textColor="@color/playerlist_first_row_text_color" android:ellipsize="end" android:gravity="top|left|center" android:id="@id/first_row_text" android:layout_width="fill_parent" android:layout_height="@dimen/thumb_row_text_first_row_height" android:singleLine="true" android:textAlignment="gravity" />
+                <TextView android:textSize="@dimen/thumb_row_text_second_row_text_size" android:textColor="@drawable/playerlist_second_row_text_color" android:layout_gravity="top|left|center" android:id="@id/second_row_text" android:layout_width="fill_parent" android:layout_height="@dimen/thumb_row_text_second_row_height" android:layout_marginTop="@dimen/thumb_row_text_second_row_marginTop" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

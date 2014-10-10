@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/titlebar" android:background="@drawable/tw_ab_transparent_holo" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <Switch android:id="@id/switch_action" android:paddingRight="@dimen/vsm_actionbar_switch_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/divider" android:background="@drawable/tw_action_bar_icon_divider" android:visibility="gone" android:layout_width="@dimen/action_bar_switch_divider_width" android:layout_height="@dimen/action_bar_switch_divider_height" android:layout_marginRight="@dimen/action_bar_switch_divider_margin_left" android:layout_toLeftOf="@id/button" android:layout_centerVertical="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/button" android:layout_alignParentLeft="true">
+        <RelativeLayout android:id="@id/back_layout" android:background="@drawable/tw_action_item_background" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/tts_navigate_up">
+            <ImageView android:id="@id/back" android:background="@drawable/tw_ic_ab_back_holo_light" android:focusable="false" android:clickable="false" android:layout_width="@dimen/action_bar_back_btn_width" android:layout_height="@dimen/action_bar_back_btn_height" android:layout_marginLeft="@dimen/action_bar_back_btn_margin_left" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/vsm_actionbar_title_size" android:textColor="@color/action_bar_title_color" android:id="@id/title" android:paddingRight="@dimen/action_bar_title_padding_right" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/action_bar_title_margin_left" android:text="@string/menu_Subtitle" android:singleLine="true" android:shadowColor="#bf000000" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_toRightOf="@id/back" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

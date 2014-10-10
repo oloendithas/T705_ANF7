@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/contextual_list_title" android:textStyle="normal" android:textColor="@drawable/settings_text_selector" android:gravity="top|left|center" android:layout_gravity="center_vertical" android:id="@id/contextual_data" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vssl_text_margin" android:layout_marginTop="10.0dip" android:text="@string/weather" android:singleLine="true" />
+        <TextView android:textSize="@dimen/contextual_list_subtitle" android:textStyle="normal" android:textColor="@drawable/settings_value_text_selector" android:gravity="top|left|center" android:id="@id/contextual_weather" android:paddingRight="@dimen/vssl_text_margin" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vssl_text_margin" android:layout_marginTop="4.0dip" android:layout_marginBottom="11.0dip" android:text="@string/noti_weather" android:singleLine="false" />
+    </LinearLayout>
+    <com.sec.android.app.videoplayer.view.AnimatedCheckBox android:gravity="top|right|center" android:id="@id/contextual_checkbox" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contextual_list_margintop" android:layout_marginRight="@dimen/vssl_text_margin" android:button="@drawable/check_icon_selector" />
+</LinearLayout>

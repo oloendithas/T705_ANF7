@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/left_flick_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/left_flick_1" android:background="@drawable/video_player_arrow_left_02" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/left_flick_2" android:background="@drawable/video_player_arrow_left_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/left_flick_1" />
+        <ImageView android:id="@id/left_flick_3" android:background="@drawable/video_player_arrow_left_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/left_flick_2" />
+        <TextView android:textSize="@dimen/vp_flick_text_size" android:textColor="#fff0f0f0" android:id="@id/left_sec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ff000000" android:shadowDy="2.0" android:shadowRadius="1.0" android:layout_toRightOf="@id/left_flick_3" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/right_flick_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/right_flick_1" android:background="@drawable/video_player_arrow_right_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/right_flick_2" android:background="@drawable/video_player_arrow_right_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/right_flick_1" />
+        <ImageView android:id="@id/right_flick_3" android:background="@drawable/video_player_arrow_right_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/right_flick_2" />
+        <TextView android:textSize="@dimen/vp_flick_text_size" android:textColor="#fff0f0f0" android:id="@id/right_sec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ff000000" android:shadowDy="2.0" android:shadowRadius="1.0" android:layout_toLeftOf="@id/right_flick_3" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

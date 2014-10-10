@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left|center" android:orientation="vertical" android:paddingLeft="@dimen/setcomm_dialog_popup_layout_left_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/setcomm_dialog_layout_height" android:layout_weight="7.0">
+        <TextView android:textSize="@dimen/setcomm_textSize" android:textColor="@color/popup_color" android:gravity="center_vertical" android:id="@id/subtitle_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/setcomm_sub_textSize" android:id="@id/subtitle_path" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right|center" android:orientation="horizontal" android:paddingRight="@dimen/setcomm_dialog_popup_layout_right_margin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0">
+        <CheckedTextView android:textAppearance="?android:textAppearanceLarge" android:gravity="right|center" android:id="@id/selected_subtitle_check" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorSingle" android:minHeight="@dimen/setcomm_dialog_layout_height" />
+    </LinearLayout>
+</LinearLayout>

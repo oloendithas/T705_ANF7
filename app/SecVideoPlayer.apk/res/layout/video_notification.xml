@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/quick_panel_height">
+        <RelativeLayout android:id="@id/quick_panel_left_layout" android:background="#ff072d3a" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/notification_thumbnail_layout_left_margin">
+            <FrameLayout android:id="@id/quick_panel_call_thumbnail" android:visibility="gone" android:layout_width="@dimen/quick_panel_thumbnail_size_width" android:layout_height="@dimen/quick_panel_thumbnail_size_height">
+                <ImageView android:layout_gravity="center" android:id="@id/quick_panel_thumbnail" android:nextFocusRight="@id/quick_panel_rew" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+                <ImageView android:layout_gravity="bottom|right|center" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/quick_panel_icon_call_thumbnail_icon" />
+                <ImageView android:layout_gravity="top|left|center" android:id="@id/personalPage" android:background="@drawable/video_list_ic_fingerprint_new" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/quick_panel_thumbnail_button" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/quick_panel_selector" />
+            </FrameLayout>
+            <ImageButton android:id="@id/quick_panel_default" android:background="@drawable/quick_panel_selector" android:layout_width="@dimen/quick_panel_thumbnail_size_width" android:layout_height="@dimen/quick_panel_thumbnail_size_height" android:src="@drawable/quick_panel_icon_mini_video" />
+        </RelativeLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/quick_panel_right_side_title_text_size" android:textColor="@color/white" android:ellipsize="marquee" android:layout_gravity="center" android:id="@id/quick_panel_title" android:focusable="true" android:layout_width="@dimen/quick_panel_title_text_width" android:layout_height="@dimen/quick_panel_title_text_height" android:layout_marginLeft="@dimen/quick_panel_title_margin_left" android:layout_marginTop="@dimen/quick_panel_title_text_margine" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/quick_panel_control_layout_height">
+                    <ImageView android:id="@id/quick_panel_rew" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/quick_panel_button_margintop" android:src="@drawable/video_quickpanel_rew_selector" android:contentDescription="@string/tts_rew_button" />
+                    <ImageView android:id="@id/quick_panel_play_pause" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/quick_panel_button_marginleft" android:layout_marginRight="@dimen/quick_panel_button_marginright" android:src="@drawable/video_quickpanel_play_selector" />
+                    <ImageView android:id="@id/quick_panel_ff" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/quick_panel_button_margintop" android:src="@drawable/video_quickpanel_ff_selector" android:contentDescription="@string/tts_ff_button" />
+                    <ImageView android:id="@id/quick_panel_close" android:background="@drawable/video_quickpanel_close_selector" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/quick_panel_button_close_marginleft" android:layout_marginTop="@dimen/quick_panel_button_margintop" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

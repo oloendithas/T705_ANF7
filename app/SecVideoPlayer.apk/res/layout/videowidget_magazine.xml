@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/videowidget_magazine_2x1_def" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@drawable/widget_innerline" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+                <ImageView android:id="@id/videowidget_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_alignParentTop="true" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/video_widget_magazine_title_textSize" android:textColor="#fff5f5f5" android:layout_gravity="left" android:id="@id/videowidget_magazine_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/video_widget_magazine_title_marginLeft" android:layout_marginTop="@dimen/video_widget_magazine_title_marginTop" android:text="@string/widget_name" android:shadowColor="#66000000" android:shadowDy="2.0" android:shadowRadius="2.0" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/videowidget_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_video_btn_play" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="158.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true">
+                <ImageView android:id="@id/videowidget_shadow" android:background="@drawable/widget_video_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/videowidget_magazine_details" android:layout_width="fill_parent" android:layout_height="@dimen/video_widget_magazine_details_height" android:layout_alignParentBottom="true">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/video_widget_magazine_fileinfo_height" android:layout_marginLeft="@dimen/video_widget_magazine_details_margin" android:layout_marginRight="@dimen/video_widget_magazine_details_margin" android:layout_marginBottom="@dimen/video_widget_magazine_details_margin">
+                    <TextView android:textSize="@dimen/video_widget_magazine_filename_textSize" android:textColor="#fff5f5f5" android:ellipsize="marquee" android:gravity="bottom" android:layout_gravity="top|left|center" android:id="@id/videowidget_filename" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#66000000" android:shadowDy="2.0" android:shadowRadius="2.0" android:fontFamily="samsung-sans-medium" />
+                    <TextView android:textSize="@dimen/video_widget_magazine_time_textSize" android:textColor="#fff5f5f5" android:gravity="bottom" android:layout_gravity="bottom|left|center" android:id="@id/videowidget_remain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/video_widget_magazine_remain_marginTop" android:singleLine="true" android:shadowColor="#66000000" android:shadowDy="2.0" android:shadowRadius="2.0" android:fontFamily="samsung-sans-medium" />
+                    <ImageView android:id="@id/videowidget_divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/video_widget_player_duration_marginLeft" android:layout_marginTop="@dimen/video_widget_magazine_remain_marginTop" android:src="@drawable/widget_video_time_bar" android:layout_toRightOf="@id/videowidget_remain" />
+                    <TextView android:textSize="@dimen/video_widget_magazine_time_textSize" android:textColor="#fff5f5f5" android:gravity="bottom" android:layout_gravity="bottom|left|center" android:id="@id/videowidget_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/video_widget_magazine_duration_marginLeft" android:layout_marginTop="@dimen/video_widget_magazine_remain_marginTop" android:singleLine="true" android:shadowColor="#66000000" android:shadowDy="2.0" android:shadowRadius="2.0" android:layout_toRightOf="@id/videowidget_divider" android:fontFamily="samsung-sans-medium" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_alignParentBottom="true">
+                    <ProgressBar android:layout_gravity="bottom|center" android:id="@id/videowidget_progressbar" android:layout_width="fill_parent" android:layout_height="10.0dip" android:max="100" android:progress="0" style="@style/WidgetProgressMagazine" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

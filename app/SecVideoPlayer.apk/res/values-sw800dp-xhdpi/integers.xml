@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="micro_bubble_width_land">416</integer>
+    <integer name="micro_bubble_width_port">322</integer>
+    <integer name="micro_bubble_rightMargin_port">212</integer>
+    <integer name="thumbnail_landscape_count">4</integer>
+    <integer name="gesture_max_range">255</integer>
+    <integer name="progress_margin">19</integer>
+    <integer name="hover_image_gap">19</integer>
+    <integer name="brightness_auto_thumb_offset">42</integer>
+    <integer name="subtitle_font_size_delta">10</integer>
+    <integer name="subtitle_shadow_dy">3</integer>
+    <integer name="chapter_view_dialog_margin">30</integer>
+    <integer name="title_shadow_dx">0</integer>
+    <integer name="title_shadow_dy">-1</integer>
+    <integer name="title_shadow_radius">3</integer>
+</resources>

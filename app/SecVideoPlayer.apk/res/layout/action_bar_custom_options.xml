@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="19.0dip" android:textStyle="normal" android:textColor="@color/popup_sharevia_color" android:id="@id/videoSelectTitle" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <com.sec.android.app.videoplayer.view.IconTextButtonDone android:id="@id/action_bar_done" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <com.sec.android.app.videoplayer.view.IconTextButtonCancel android:id="@id/action_bar_cancel" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/action_bar_done" android:layout_centerVertical="true" />
+</RelativeLayout>

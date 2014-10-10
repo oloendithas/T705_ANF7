@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/contextualoption_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/action_bar_dialog_switch" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/contextual_preview_layout" android:layout_width="@dimen/vsm_preview_image_width" android:layout_height="@dimen/edit_text_contextual_height" android:layout_marginTop="@dimen/vsm_preview_image_margin_top" android:layout_marginBottom="@dimen/vsm_preview_image_top_margin">
+            <ImageView android:id="@id/edit_text_contextual" android:background="@drawable/contextual_option_bg" android:focusable="false" android:layout_width="@dimen/vsm_preview_image_width" android:layout_height="@dimen/edit_text_contextual_height" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <RelativeLayout android:gravity="left" android:id="@id/contextual_date_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edit_text_contextual_marginLeft" android:layout_alignParentRight="true">
+                    <ImageView android:id="@id/contextual_date" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tag_buddy_setting_icon_time" android:layout_toLeftOf="@id/text_contextual_date" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/text_contextual_date_textSize" android:textColor="@color/contextual_title_date_color" android:id="@id/text_contextual_date" android:paddingLeft="@dimen/edit_text_contextual_paddingLeft" android:paddingRight="@dimen/edit_text_contextual_paddingRight" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/text_contextual_date_height" android:text="@string/sortybydate" android:includeFontPadding="false" android:shadowColor="#ff000000" android:shadowDy="-1.0" android:shadowRadius="1.0" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="left" android:id="@id/contextual_location_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edit_text_contextual_marginLeft" android:layout_marginTop="@dimen/edit_text_contextual_marginTop" android:layout_below="@id/contextual_date_layout" android:layout_alignParentRight="true">
+                    <ImageView android:id="@id/contextual_location" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tag_buddy_setting_icon_location" android:layout_toLeftOf="@id/text_contextual_location" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/text_contextual_location_textSize" android:textColor="@color/contextual_title_location_color" android:id="@id/text_contextual_location" android:paddingLeft="@dimen/edit_text_contextual_paddingLeft" android:paddingRight="@dimen/edit_text_contextual_paddingRight" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/text_contextual_location_height" android:text="@string/location" android:includeFontPadding="false" android:shadowColor="#ff000000" android:shadowDy="-1.0" android:shadowRadius="1.0" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/menu_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ListView android:id="@id/list_main" android:paddingRight="@dimen/setcomm_layout_paddingRight" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/list_main_height" android:layout_marginLeft="@dimen/vssl_list_margin" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

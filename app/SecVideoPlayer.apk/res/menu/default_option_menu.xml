@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_download" android:id="@id/menu_download" android:title="@string/menu_download" />
+    <item android:icon="@drawable/tw_action_bar_icon_music_via_device_holo_dark" android:id="@id/menu_sendto_another" android:title="@string/menu_sendto_another_device" />
+    <group android:id="@id/menu_group_edit">
+        <item android:icon="@drawable/tw_action_bar_icon_video_editor_holo_dark" android:id="@id/menu_edit" android:title="@string/menu_edit">
+            <menu>
+                <group android:id="@id/submenu_group_edit">
+                    <item android:icon="@drawable/tw_action_bar_icon_trim_holo_dark" android:id="@id/submenu_trim" android:title="@string/menu_video_trimmer" />
+                    <item android:icon="@drawable/tw_action_bar_icon_video_editor_holo_dark" android:id="@id/submenu_sstudio" android:title="@string/menu_sstudio" />
+                    <item android:icon="@drawable/tw_action_bar_icon_video_editor_holo_dark" android:id="@id/submenu_videomaker" android:title="@string/menu_VideoMaker" />
+                </group>
+            </menu>
+        </item>
+        <item android:icon="@drawable/tw_action_bar_icon_trim_holo_dark" android:id="@id/menu_trim" android:title="@string/menu_video_trimmer" />
+        <item android:icon="@drawable/tw_action_bar_icon_video_editor_holo_dark" android:id="@id/menu_sstudio" android:title="@string/menu_sstudio" />
+        <item android:icon="@drawable/tw_action_bar_icon_video_editor_holo_dark" android:id="@id/menu_videomaker" android:title="@string/menu_VideoMaker" />
+    </group>
+    <item android:icon="@drawable/tw_action_bar_icon_share_holo_dark" android:id="@id/menu_share" android:title="@string/menu_ShareVia" />
+    <item android:icon="@drawable/tw_action_bar_icon_delete_holo_dark" android:id="@id/menu_delete" android:title="@string/menu_Delete" />
+    <item android:icon="@drawable/tw_action_bar_icon_chapter_preview_holo_dark" android:id="@id/menu_chapterview" android:title="@string/chapterview_name" />
+    <item android:icon="@drawable/tw_action_bar_icon_music_via_device_holo_dark" android:id="@id/menu_listen_via_device" android:title="@string/via_Device" />
+    <item android:icon="@drawable/tw_action_bar_icon_bt_holo_dark" android:id="@id/menu_listen_via_bluetooth" android:title="@string/via_Bluetooth" />
+    <item android:icon="@drawable/tw_action_bar_icon_music_via_device_holo_dark" android:id="@id/menu_play_via_groupplay" android:title="@string/menu_play_via_group_play" />
+    <item android:icon="@drawable/tw_action_bar_icon_sub_title_holo_light" android:id="@id/menu_subtitle" android:title="@string/menu_Subtitle" />
+    <item android:icon="@drawable/tw_action_bar_icon_setting_holo_dark" android:id="@id/menu_settings" android:title="@string/settings" />
+    <item android:icon="@drawable/tw_action_bar_icon_details_holo_dark" android:id="@id/menu_details" android:title="@string/menu_details" />
+</menu>

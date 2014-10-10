@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.sec.android.app.videoplayer">
+    <supports-screens android:anyDensity="true" android:largeScreens="true"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_DRM"/>
+    <uses-permission android:name="com.google.android.gm.permission.READ_GMAIL"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.STATUS_BAR"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="com.sec.android.cloudagent.permission.WRITE"/>
+    <uses-permission android:name="com.sec.android.cloudagent.permission.READ"/>
+    <uses-permission android:name="com.sec.android.permission.PERSONAL_MEDIA"/>
+    <uses-permission android:name="com.sec.android.app.twdvfs.DVFS_BOOSTER_PERMISSION"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.MANAGE_APP_TOKENS"/>
+    <uses-permission android:name="com.samsung.android.permission.SSRM_NOTIFICATION_PERMISSION"/>
+    <uses-permission android:name="com.sec.pcw.provider.PCloudContentProvider.READ_CONTENT"/>
+    <uses-permission android:name="sstream.app.StoryProvider.WRITE.PERMISSION"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CONFIGURE_WIFI_DISPLAY"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+    <uses-permission android:name="android.permission.UPDATE_APP_OPS_STATS"/>
+    <uses-permission android:name="com.samsung.android.sdk.samsunglink.permission.PUBLIC_ACCESS"/>
+    <uses-permission android:name="com.samsung.videohub.permission.CONTENT_READ" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.samsung.videohub.permission.CONTENT_WRITE" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.SET_PROCESS_LIMIT"/>
+    <permission android:label="@string/app_name" android:name="com.sec.android.provider.video.READ_EXTERNAL_STORAGE"/>
+    <permission android:label="@string/app_name" android:name="com.sec.android.provider.video.WRITE_EXTERNAL_STORAGE"/>
+    <application android:hardwareAccelerated="true" android:icon="@drawable/video" android:label="@string/app_name" android:name="com.sec.android.app.videoplayer.common.VideoPlayerApplication" android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen" android:uiOptions="splitActionBarWhenNarrow">
+        <uses-library android:name="sechardware"/>
+        <uses-library android:name="touchwiz"/>
+        <uses-library android:name="com.sec.android.app.minimode" android:required="false"/>
+        <uses-library android:name="allshare" android:required="false"/>
+        <uses-library android:name="com.sec.android.app.multiwindow" android:required="false"/>
+        <uses-library android:name="videowall" android:required="false"/>
+        <provider android:authorities="com.sec.android.app.videoplayer.provider" android:exported="true" android:name=".db.AllShareProvider" android:protectionLevel="signatureOrSystem" android:readPermission="com.sec.android.provider.video.READ_EXTERNAL_STORAGE" android:writePermission="com.sec.android.provider.video.WRITE_EXTERNAL_STORAGE"/>
+        <meta-data android:name="com.samsung.android.sdk.multiwindow.enable" android:value="true"/>
+        <meta-data android:name="com.sec.android.multiwindow.STYLE" android:value="fixedRatio"/>
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:resource="@dimen/app_defaultsize_w"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H" android:resource="@dimen/app_defaultsize_h"/>
+        <meta-data android:name="android.nfc.disable_beam_default" android:value="true"/>
+        <meta-data android:name="sstream.app.SSTREAM_IS_SUPPORTED" android:value="true"/>
+        <meta-data android:name="sstream.app.SSTREAM_ID" android:value="samsung.personal"/>
+        <meta-data android:name="sstream.app.SSTREAM_CONTENT_TYPE" android:value="video"/>
+        <meta-data android:name="sstream.app.SSTREAM_ICON_SELECTED" android:resource="@drawable/mux_settings_personal_08"/>
+        <meta-data android:name="sstream.app.SSTREAM_ICON_UNSELECTED" android:resource="@drawable/mux_settings_personal_08_dim"/>
+        <meta-data android:name="sstream.app.SSTREAM_SOURCE_ICON" android:resource="@drawable/mux_ic_video"/>
+        <meta-data android:name="sstream.app.SSTREAM_TITLE" android:resource="@string/widget_name"/>
+        <meta-data android:name="com.samsung.android.guest_lounge" android:value="true"/>
+        <activity android:configChanges="mcc|mnc|keyboard|keyboardHidden|orientation|uiMode|screenSize" android:label="@string/app_name" android:launchMode="singleTask" android:name=".activity.MoviePlayer" android:screenOrientation="unspecified" android:theme="@style/MovieTheme.PhoneDefault">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="application/x-dtcp1"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/mpeg"/>
+                <data android:mimeType="video/mpeg4"/>
+                <data android:mimeType="video/mp2p"/>
+                <data android:mimeType="video/3gp"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/3gpp2"/>
+                <data android:mimeType="video/x-ms-asf"/>
+                <data android:mimeType="video/x-ms-wmv"/>
+                <data android:mimeType="video/x-ms-wma"/>
+                <data android:mimeType="video/x-m4v"/>
+                <data android:mimeType="video/m4v"/>
+                <data android:mimeType="video/webm"/>
+                <data android:mimeType="video/flv"/>
+                <data android:mimeType="video/x-flv"/>
+                <data android:mimeType="video/mkv"/>
+                <data android:mimeType="video/x-matroska"/>
+                <data android:mimeType="video/divx"/>
+                <data android:mimeType="video/avi"/>
+                <data android:mimeType="video/skm"/>
+                <data android:mimeType="video/sktm"/>
+                <data android:mimeType="video/k3g"/>
+                <data android:mimeType="video/ak3g"/>
+                <data android:mimeType="video/x-msvideo"/>
+                <data android:mimeType="video/rmf"/>
+                <data android:mimeType="video/vnd.ms-playready.media.pyv"/>
+                <data android:mimeType="video/mp2ts"/>
+                <data android:mimeType="video/vnd.sdrm-media.sm4"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="from_bestvideoshot_to_videoplayer"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="application/x-dtcp1"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/mpeg"/>
+                <data android:mimeType="video/mpeg4"/>
+                <data android:mimeType="video/mp2p"/>
+                <data android:mimeType="video/3gp"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/3gpp2"/>
+                <data android:mimeType="video/x-ms-asf"/>
+                <data android:mimeType="video/x-ms-wmv"/>
+                <data android:mimeType="video/x-ms-wma"/>
+                <data android:mimeType="video/x-m4v"/>
+                <data android:mimeType="video/m4v"/>
+                <data android:mimeType="video/webm"/>
+                <data android:mimeType="video/flv"/>
+                <data android:mimeType="video/x-flv"/>
+                <data android:mimeType="video/mkv"/>
+                <data android:mimeType="video/x-matroska"/>
+                <data android:mimeType="video/divx"/>
+                <data android:mimeType="video/avi"/>
+                <data android:mimeType="video/skm"/>
+                <data android:mimeType="video/sktm"/>
+                <data android:mimeType="video/k3g"/>
+                <data android:mimeType="video/ak3g"/>
+                <data android:mimeType="video/x-msvideo"/>
+                <data android:mimeType="video/rmf"/>
+                <data android:mimeType="video/vnd.ms-playready.media.pyv"/>
+                <data android:mimeType="video/mp2ts"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="PCLOUD.EXECUTE_VIDEO_PLAYER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="application/Videos"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="PCLOUD.EXECUTE_DIRECT_DMC"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="application/Videos"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.START_DIRECT_DMC"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.START_DIRECT_DMC"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="application/x-dtcp1"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/mpeg"/>
+                <data android:mimeType="video/mpeg4"/>
+                <data android:mimeType="video/mp2p"/>
+                <data android:mimeType="video/3gp"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/3gpp2"/>
+                <data android:mimeType="video/x-ms-asf"/>
+                <data android:mimeType="video/x-ms-wmv"/>
+                <data android:mimeType="video/x-ms-wma"/>
+                <data android:mimeType="video/x-m4v"/>
+                <data android:mimeType="video/m4v"/>
+                <data android:mimeType="video/webm"/>
+                <data android:mimeType="video/flv"/>
+                <data android:mimeType="video/x-flv"/>
+                <data android:mimeType="video/mkv"/>
+                <data android:mimeType="video/x-matroska"/>
+                <data android:mimeType="video/divx"/>
+                <data android:mimeType="video/avi"/>
+                <data android:mimeType="video/skm"/>
+                <data android:mimeType="video/sktm"/>
+                <data android:mimeType="video/k3g"/>
+                <data android:mimeType="video/ak3g"/>
+                <data android:mimeType="video/x-msvideo"/>
+                <data android:mimeType="video/rmf"/>
+                <data android:mimeType="video/mp2ts"/>
+                <data android:mimeType="video/vnd.ms-playready.media.pyv"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="rtsp"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.START_SLINK_PLAYBACK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="sshttp"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.START_SLINK_PLAYBACK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/vnd.samsunglink.video"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.START_VIDEO_FROM_GUIDED_TOUR"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="sshttp"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.START_VIDEO_FROM_GUIDED_TOUR"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.START_HELP_VIDEO_PROGRESS_BAR_PREVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.START_HELP_VIDEO_PROGRESS_BAR_PREVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="android.resource"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.START_HELP_VIDEO_SMART_PAUSE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.START_HELP_VIDEO_SMART_PAUSE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="android.resource"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.START_HELP_VIDEO_MOTION_PEEK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.START_HELP_VIDEO_MOTION_PEEK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="android.resource"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.START_HELP_CLIP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.START_HELP_CLIP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="android.resource"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="application/x-dtcp1"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/mpeg"/>
+                <data android:mimeType="video/mpeg4"/>
+                <data android:mimeType="video/mp2p"/>
+                <data android:mimeType="video/3gp"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/3gpp2"/>
+                <data android:mimeType="video/x-ms-asf"/>
+                <data android:mimeType="video/x-ms-wmv"/>
+                <data android:mimeType="video/x-ms-wma"/>
+                <data android:mimeType="video/flv"/>
+                <data android:mimeType="video/x-flv"/>
+                <data android:mimeType="video/mkv"/>
+                <data android:mimeType="video/webm"/>
+                <data android:mimeType="video/divx"/>
+                <data android:mimeType="video/avi"/>
+                <data android:mimeType="video/skm"/>
+                <data android:mimeType="video/sktm"/>
+                <data android:mimeType="video/k3g"/>
+                <data android:mimeType="video/ak3g"/>
+                <data android:mimeType="video/x-msvideo"/>
+                <data android:mimeType="video/rmf"/>
+                <data android:mimeType="video/vnd.ms-playready.media.pyv"/>
+                <data android:mimeType="application/x-mpegurl"/>
+                <data android:mimeType="text/html"/>
+                <data android:mimeType="application/vnd.apple.mpegurl"/>
+                <data android:mimeType="audio/x-mpegurl"/>
+                <data android:mimeType="video/x-matroska"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="application/x-dtcp1"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/mpeg"/>
+                <data android:mimeType="video/mpeg4"/>
+                <data android:mimeType="video/mp2p"/>
+                <data android:mimeType="video/3gp"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/3gpp2"/>
+                <data android:mimeType="video/x-ms-asf"/>
+                <data android:mimeType="video/x-ms-wmv"/>
+                <data android:mimeType="video/x-ms-wma"/>
+                <data android:mimeType="video/flv"/>
+                <data android:mimeType="video/x-flv"/>
+                <data android:mimeType="video/mkv"/>
+                <data android:mimeType="video/webm"/>
+                <data android:mimeType="video/divx"/>
+                <data android:mimeType="video/avi"/>
+                <data android:mimeType="video/skm"/>
+                <data android:mimeType="video/sktm"/>
+                <data android:mimeType="video/k3g"/>
+                <data android:mimeType="video/ak3g"/>
+                <data android:mimeType="video/x-msvideo"/>
+                <data android:mimeType="video/rmf"/>
+                <data android:mimeType="video/vnd.ms-playready.media.pyv"/>
+                <data android:mimeType="application/x-mpegurl"/>
+                <data android:mimeType="text/html"/>
+                <data android:mimeType="application/vnd.apple.mpegurl"/>
+                <data android:mimeType="audio/x-mpegurl"/>
+                <data android:mimeType="video/x-matroska"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="sshttp"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/mpeg"/>
+                <data android:mimeType="video/mpeg4"/>
+                <data android:mimeType="video/mp2p"/>
+                <data android:mimeType="video/3gp"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/3gpp2"/>
+                <data android:mimeType="video/x-ms-asf"/>
+                <data android:mimeType="video/x-ms-wmv"/>
+                <data android:mimeType="video/x-ms-wma"/>
+                <data android:mimeType="video/flv"/>
+                <data android:mimeType="video/x-flv"/>
+                <data android:mimeType="video/mkv"/>
+                <data android:mimeType="video/webm"/>
+                <data android:mimeType="video/divx"/>
+                <data android:mimeType="video/avi"/>
+                <data android:mimeType="video/skm"/>
+                <data android:mimeType="video/sktm"/>
+                <data android:mimeType="video/k3g"/>
+                <data android:mimeType="video/ak3g"/>
+                <data android:mimeType="video/x-msvideo"/>
+                <data android:mimeType="video/rmf"/>
+                <data android:mimeType="video/vnd.ms-playready.media.pyv"/>
+                <data android:mimeType="application/x-mpegurl"/>
+                <data android:mimeType="text/html"/>
+                <data android:mimeType="application/vnd.apple.mpegurl"/>
+                <data android:mimeType="application/x-dtcp1"/>
+                <data android:mimeType="audio/x-mpegurl"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.START_VIDEO_FROM_MEMO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="application/x-dtcp1"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/mpeg"/>
+                <data android:mimeType="video/mpeg4"/>
+                <data android:mimeType="video/mp2p"/>
+                <data android:mimeType="video/3gp"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/3gpp2"/>
+                <data android:mimeType="video/x-ms-asf"/>
+                <data android:mimeType="video/x-ms-wmv"/>
+                <data android:mimeType="video/x-ms-wma"/>
+                <data android:mimeType="video/flv"/>
+                <data android:mimeType="video/x-flv"/>
+                <data android:mimeType="video/mkv"/>
+                <data android:mimeType="video/webm"/>
+                <data android:mimeType="video/divx"/>
+                <data android:mimeType="video/avi"/>
+                <data android:mimeType="video/skm"/>
+                <data android:mimeType="video/sktm"/>
+                <data android:mimeType="video/k3g"/>
+                <data android:mimeType="video/ak3g"/>
+                <data android:mimeType="video/x-msvideo"/>
+                <data android:mimeType="video/rmf"/>
+                <data android:mimeType="video/vnd.ms-playready.media.pyv"/>
+                <data android:mimeType="video/mp2ts"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.START_VIDEO_FROM_SNOTE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/3gp"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/3gpp2"/>
+                <data android:mimeType="video/x-ms-asf"/>
+                <data android:mimeType="video/x-ms-wmv"/>
+                <data android:mimeType="video/x-ms-wma"/>
+                <data android:mimeType="video/flv"/>
+                <data android:mimeType="video/mkv"/>
+                <data android:mimeType="video/webm"/>
+                <data android:mimeType="video/divx"/>
+                <data android:mimeType="video/avi"/>
+                <data android:mimeType="video/skm"/>
+                <data android:mimeType="video/sktm"/>
+                <data android:mimeType="video/k3g"/>
+                <data android:mimeType="video/ak3g"/>
+                <data android:mimeType="video/x-msvideo"/>
+                <data android:mimeType="video/vnd.ms-playready.media.pyv"/>
+                <data android:mimeType="video/m4v"/>
+                <data android:mimeType="video/x-matroska"/>
+                <data android:mimeType="video/x-flv"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="sphttp"/>
+                <data android:mimeType="video/vnd.ms-playready.media.pyv"/>
+                <data android:mimeType="application/x-mpegurl"/>
+                <data android:mimeType="text/html"/>
+                <data android:mimeType="application/vnd.apple.mpegurl"/>
+                <data android:mimeType="audio/x-mpegurl"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.allshare.intent.action.VIDEOPLAYER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.allshare.intent.action.VIDEOPLAYER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="application/x-dtcp1"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/mpeg"/>
+                <data android:mimeType="video/mpeg4"/>
+                <data android:mimeType="video/mp2p"/>
+                <data android:mimeType="video/3gp"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/3gpp2"/>
+                <data android:mimeType="video/x-ms-asf"/>
+                <data android:mimeType="video/x-ms-wmv"/>
+                <data android:mimeType="video/x-ms-wma"/>
+                <data android:mimeType="video/x-m4v"/>
+                <data android:mimeType="video/webm"/>
+                <data android:mimeType="video/flv"/>
+                <data android:mimeType="video/x-flv"/>
+                <data android:mimeType="video/mkv"/>
+                <data android:mimeType="video/divx"/>
+                <data android:mimeType="video/avi"/>
+                <data android:mimeType="video/skm"/>
+                <data android:mimeType="video/sktm"/>
+                <data android:mimeType="video/k3g"/>
+                <data android:mimeType="video/ak3g"/>
+                <data android:mimeType="video/x-msvideo"/>
+                <data android:mimeType="video/rmf"/>
+                <data android:mimeType="video/vnd.ms-playready.media.pyv"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.INSIGHT_SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="sstream"/>
+                <data android:host="storyitem"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.sconnect.action.VIDEO_DMR"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.sconnect.action.VIDEO_DMR"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:label="@string/menu_Subtitle" android:name=".activity.SubtitleSetting" android:theme="@style/SubtitleTheme.PhoneDefault">
+            <intent-filter>
+                <action android:name="com.sec.android.app.videoplayer.ACTION_START_CC_SETTING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:enabled="true" android:exported="false" android:name=".receiver.VideoStateRequestReceiver">
+            <intent-filter>
+                <action android:name="com.sec.android.app.MEDIA_STATE_REQUEST"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name=".receiver.VideoBtReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+                <action android:name="android.media.AUDIO_BECOMING_NOISY"/>
+                <action android:name="android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"/>
+                <action android:name="android.bluetooth.a2dp.profile.action.PLAYING_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="false" android:name=".receiver.VideoGateReceiver">
+            <intent-filter>
+                <action android:name="com.sec.android.gate.GATE"/>
+                <action android:name="com.sec.android.gate.LCDTEXT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="false" android:name=".receiver.ATTCommandReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BCS_REQUEST"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/widget_name" android:name=".appwidget.VideoWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.sec.android.app.themechooser.HOME_THEME_CHANGED"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/videowidgetinfo"/>
+            <meta-data android:name="com.sec.android.appwidget.widgetinfo" android:resource="@xml/videowidgetconfig"/>
+        </receiver>
+        <service android:name=".appwidget.VideoWidget$UpdateService"/>
+        <receiver android:label="@string/widget_name" android:name=".appwidget.VideoWidgetMagazine">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED"/>
+                <action android:name="com.sec.android.widgetapp.APPWIDGET_RESIZE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/videowidgetmagazineinfo"/>
+            <meta-data android:name="com.sec.android.appwidget.widgetinfo" android:resource="@xml/videowidgetmagazineconfig"/>
+        </receiver>
+        <provider android:authorities="com.sec.android.app.videoplayer.appwidget.RotationProvider" android:exported="true" android:name=".appwidget.VideoWidgetMagazineProvider">
+            <meta-data android:name="contentprovider.FOR_MAGAZINE" android:value="true"/>
+        </provider>
+        <receiver android:exported="false" android:name=".receiver.StreamingDMsettingReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.STREAMING_SET_PROFILE"/>
+                <action android:name="android.intent.action.STREAMING_GET_PROFILE"/>
+                <action android:name="android.intent.action.STREAMING_PROFILE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name=".slink.SamsungAccountStatusReciever">
+            <intent-filter>
+                <action android:name="android.intent.action.SAMSUNGACCOUNT_SIGNIN_COMPLETED"/>
+                <action android:name="android.intent.action.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.VideoSettingReceiver">
+            <intent-filter>
+                <action android:name="com.sec.android.app.videoplayer.AUTO_PLAY_NEXT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name=".videowall.TranscodeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name=".videowall.TranscodeService"/>
+        <provider android:authorities="com.sec.provider.videowall" android:exported="false" android:name=".videowall.ThumbProvider" android:readPermission="com.sec.android.videowall.permission.READ" android:writePermission="com.sec.android.videowall.permission.WRITE"/>
+        <provider android:authorities="com.sec.android.app.videoplayer.db.FinDoProvider" android:exported="true" android:name=".db.FinDoProvider" android:protectionLevel="signatureOrSystem" android:readPermission="com.sec.android.provider.video.READ_EXTERNAL_STORAGE" android:writePermission="com.sec.android.provider.video.WRITE_EXTERNAL_STORAGE">
+            <path-permission android:pathPrefix="/search_suggest_regex_query" android:readPermission="android.permission.GLOBAL_SEARCH"/>
+            <path-permission android:pathPrefix="/search_suggest_tag_query" android:readPermission="android.permission.GLOBAL_SEARCH"/>
+        </provider>
+        <service android:name=".service.MoviePlaybackService" class=".MoviePlaybackService"/>
+        <service android:exported="true" android:icon="@drawable/mini_video" android:label="@string/app_name" android:name=".miniapp.MiniVideoPlayerService">
+            <intent-filter>
+                <action android:name="com.samsung.action.MINI_MODE_SERVICE"/>
+                <category android:name="com.samsung.category.MINI_MODE_LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.minimode.icon.portrait.normal" android:resource="@drawable/mini_video"/>
+            <meta-data android:name="com.sec.minimode.icon.portrait.focus" android:resource="@drawable/mini_video"/>
+            <meta-data android:name="com.sec.minimode.icon.landscape.normal" android:resource="@drawable/mini_video"/>
+            <meta-data android:name="com.sec.minimode.icon.landscape.focus" android:resource="@drawable/mini_video"/>
+        </service>
+        <service android:exported="false" android:label="@string/app_name" android:name=".service.Presentationservice">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.action.MINI_MODE_SERVICE"/>
+                <category android:name="com.samsung.category.MINI_MODE_LAUNCHER"/>
+            </intent-filter>
+        </service>
+        <service android:name=".slink.SCSCoreInitService" android:stopWithTask="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

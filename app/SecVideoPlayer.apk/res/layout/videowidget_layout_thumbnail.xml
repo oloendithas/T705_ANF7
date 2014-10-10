@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/videowidget_2x1_def" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@drawable/widget_innerline" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/video_widget_player_shadow_height">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/video_widget_player_innerline_margin" android:layout_marginTop="@dimen/video_widget_player_innerline_margin" android:layout_marginRight="@dimen/video_widget_player_innerline_margin" android:layout_marginBottom="2.0dip" android:layout_alignParentTop="true">
+                <ImageView android:id="@id/videowidget_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_alignParentTop="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/video_widget_play_marginBottom">
+                <ImageView android:id="@id/videowidget_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_widget_play" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/ctrl_button" android:layout_width="fill_parent" android:layout_height="@dimen/video_widget_ctrlbutton_height" android:layout_alignParentBottom="true">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="4.0dip">
+                    <ProgressBar android:layout_gravity="bottom|center" android:id="@id/videowidget_progressbar" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_marginLeft="@dimen/video_widget_player_innerline_margin" android:layout_marginRight="@dimen/video_widget_player_innerline_margin" android:max="100" android:progress="0" style="@style/WidgetProgress" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/video_widget_player_bg_height" android:layout_marginLeft="@dimen/video_widget_player_innerline_margin" android:layout_marginTop="4.0dip" android:layout_marginRight="@dimen/video_widget_player_innerline_margin" android:layout_marginBottom="@dimen/video_widget_player_innerline_margin">
+                    <ImageView android:id="@id/videowidget_bottom_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/video_bottom_player_bg_common" android:scaleType="fitXY" />
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/video_widget_player_details_height" android:layout_marginLeft="@dimen/video_widget_player_details_marginLeft">
+                        <TextView android:textSize="@dimen/video_widget_player_filename_textSize" android:textStyle="bold" android:textColor="#fff0f0f0" android:ellipsize="marquee" android:gravity="bottom" android:layout_gravity="bottom|left|center" android:id="@id/videowidget_filename" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/video_widget_player_filename_marginTop" android:singleLine="true" />
+                        <TextView android:textSize="@dimen/video_widget_player_time_textSize" android:textColor="#ffffffff" android:gravity="bottom" android:layout_gravity="bottom|left|center" android:id="@id/videowidget_remain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/video_widget_player_remain_marginTop" android:singleLine="true" />
+                        <TextView android:textSize="@dimen/video_widget_player_time_textSize" android:textColor="#ffffffff" android:gravity="bottom" android:layout_gravity="bottom|left|center" android:id="@id/videowidget_duration" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/video_widget_player_duration_marginLeft" android:layout_marginTop="@dimen/video_widget_player_duration_marginTop" android:singleLine="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/widget_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/video_widget_player_shadow_height" />
+</FrameLayout>

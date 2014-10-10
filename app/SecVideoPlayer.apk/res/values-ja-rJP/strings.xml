@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="video_drm_divx_rental_expired1">このDivX®レンタル動画は%2$d回中%1$d回視聴されています</string>
+    <string name="video_drm_divx_rental_expired2">"
+このDivXレンタル動画は期限切れです."</string>
+    <string name="video_drm_divx_not_authorized">あなたのデバイスは、このDivX®プロテクト動画の再生用に登録されていません.</string>
+    <string name="video_drm_divx_continue">"
+視聴しますか​？"</string>
+    <string name="video_drm_divx_back_key">DivX®レンタルの視聴回数は%d回分残っています。今再生を停止すると、視聴回数が1回分減ります。停止しますか？</string>
+</resources>
