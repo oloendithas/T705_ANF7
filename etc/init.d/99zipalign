@@ -1,0 +1,41 @@
+#!/system/bin/sh
+
+echo "zipalign"
+for DIR in /data/app; do
+	cd $DIR;
+	for APK in *.apk; do
+			ZIPCHECK=`/system/xbin/zipalign -c -v 4 $APK | grep FAILED | wc -l`;
+			if [ $ZIPCHECK == "1" ]; then
+				echo "Now aligning: $DIR/$APK"
+				/system/xbin/zipalign -v -f 4 $APK /data/local/$APK;
+				cp -f -p /data/local/$APK $APK;
+         chmod 644 $APK
+			else
+				echo "Already aligned: $DIR/$APK" | tee -a $LOG_FILE;
+			fi;
+	done;
+done;
+
+RW=0;
+for DIR in /system/app; do
+	cd $DIR;
+	for APK in *.apk; do
+			ZIPCHECK=`/system/xbin/zipalign -c -v 4 $APK | grep FAILED | wc -l`;
+			if [ $ZIPCHECK == "1" ]; then
+				echo "Now aligning: $DIR/$APK"
+				/system/xbin/zipalign -v -f 4 $APK /data/local/$APK;
+				if [ RW == 0 ]; then
+				  busybox mount -o rw,remount /system;
+				  mounted /system as rw
+				  RW=1;
+				fi;
+				cp -f -p /data/local/$APK $APK;
+         chmod 644 $APK
+			else
+				echo "Already aligned: $DIR/$APK" | tee -a $LOG_FILE;
+			fi;
+	done;
+done;
+busybox mount -o ro,remount /system;
+
+echo "Automatic ZipAlign finished at $( date +"%m-%d-%Y %H:%M:%S" )"

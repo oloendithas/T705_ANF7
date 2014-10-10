@@ -1,0 +1,91 @@
+#!/system/bin/sh
+exec 0>&1
+export PATH=/system/etc/CrossBreeder:$PATH:/sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin:
+export LD_LIBRARY_PATH=/system/etc/CrossBreeder:$LD_LIBRARY_PATH
+
+alias BUSYBOX='busybox'
+alias ECHO='BUSYBOX timeout -t 1 -s KILL busybox echo'
+
+alias [='BUSYBOX ['
+alias [[='BUSYBOX [['
+alias LS='BUSYBOX ls'
+
+set +e
+
+RANDOMDEVICE=urandom
+if [ -c /dev/erandom ]; then
+  if [ ! -f /dev/urandom.MOD ]; then
+    touch /dev/urandom.MOD
+    BUSYBOX mv /dev/urandom /dev/urandom.ORIG && BUSYBOX ln /dev/erandom /dev/urandom
+  fi
+  BUSYBOX chmod 666 /dev/frandom
+  BUSYBOX chmod 666 /dev/erandom
+  RANDOMDEVICE=frandom
+elif [ -f /system/lib/modules/frandom.ko ]; then
+  BUSYBOX insmod -f /system/lib/modules/frandom.ko 2>/dev/null
+  if [ ! -c /dev/erandom ]; then
+    sleep 2
+  fi
+elif [ -f /lib/modules/frandom.ko ]; then
+  BUSYBOX insmod -f /lib/modules/frandom.ko 2>/dev/null
+  if [ ! -c /dev/erandom ]; then
+    sleep 2
+  fi
+elif [ -f /system/modules/frandom.ko ]; then
+  BUSYBOX insmod -f /system/modules/frandom.ko 2>/dev/null
+  if [ ! -c /dev/erandom ]; then
+    sleep 2
+  fi
+elif [ -f /modules/frandom.ko ]; then
+  BUSYBOX insmod -f /modules/frandom.ko 2>/dev/null
+  if [ ! -c /dev/erandom ]; then
+    sleep 2
+  fi
+elif [ -f /system/etc/CrossBreeder/frandom.ko ]; then
+  punchmod /system/etc/CrossBreeder/frandom.ko "" 2>/dev/null
+  if [ ! -c /dev/erandom ]; then
+    sleep 2
+  fi
+fi
+URANDOMDEVICE="/dev/urandom"
+if [ -c /dev/erandom ]; then 
+  if [ ! -f /dev/urandom.MOD ]; then 
+    touch /dev/urandom.MOD
+    BUSYBOX mv /dev/urandom /dev/urandom.ORIG && BUSYBOX ln /dev/erandom /dev/urandom
+    sleep 2
+  fi
+  BUSYBOX chmod 666 /dev/frandom
+  BUSYBOX chmod 666 /dev/erandom
+  RANDOMDEVICE=frandom
+  if [ ! -c /dev/urandom.ORIG ]; then 
+    BUSYBOX mknod -m 666 /dev/urandom.ORIG c 1 9
+    sleep 2
+  fi
+  URANDOMDEVICE="/dev/urandom.ORIG"
+else
+  if [ ! -c /dev/urandom ]; then
+    BUSYBOX mknod -m 666 /dev/urandom c 1 9
+    sleep 2
+  fi
+fi
+
+if [ ! -f /dev/random.MOD ]; then  
+  touch /dev/random.MOD
+  BUSYBOX rm /dev/random && BUSYBOX ln /dev/$RANDOMDEVICE /dev/random
+fi
+
+BUSYBOX nice -n +20 CB_RunHaveged $URANDOMDEVICE 0 0<&- &>/dev/null 2>&1
+
+for i in `BUSYBOX timeout -t 15 -s KILL busybox find /sys -name add_random -print 2>/dev/null`; do ECHO 0 > $i; done 
+
+if [ "$(cat /proc/sys/kernel/random/read_wakeup_threshold)" != "8" ]; then 
+   BUSYBOX timeout -t 3 -s KILL busybox sysctl -e -w kernel.random.read_wakeup_threshold=8;
+fi
+
+sys_pid=`BUSYBOX pgrep system_server 2>/dev/null`
+
+BUSYBOX renice -10 $sys_pid 2>/dev/null
+
+for i in $(BUSYBOX pgrep haveged 2>/dev/null); do 
+  BUSYBOX renice +20 $i 2>/dev/null
+done

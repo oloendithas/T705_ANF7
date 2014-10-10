@@ -1,0 +1,5 @@
+#!/system/bin/sh
+
+set +e
+
+busybox start-stop-daemon -o -S -b -x /system/etc/CrossBreeder/zzCrossBreeder &

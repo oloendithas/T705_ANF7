@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><SamsungMobileFeauture>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SamsungMobileFeauture>
   <Version>ED0001</Version>
   <Country>RUSSIA</Country>
   <CountryISO>RU</CountryISO>
@@ -9,20 +10,5 @@
     <CscFeature_Contact_FullCountryPrefixSearchSupport>TRUE</CscFeature_Contact_FullCountryPrefixSearchSupport>
     <!--Set TimeZone by default to GMT+0 if NITZ does not work-->
     <CscFeatureRILSetDefaultTimezoneWithoutNITZ>TRUE</CscFeatureRILSetDefaultTimezoneWithoutNITZ>
- 
-	<CscFeature_VoiceCall_DisableToastPopupWhenMOConditionalCallForwarding>true</CscFeature_VoiceCall_DisableToastPopupWhenMOConditionalCallForwarding>
-	<CscFeature_Sip_EnableSecondarySymbol>true</CscFeature_Sip_EnableSecondarySymbol>
-	<CscFeature_Sip_EnableSymbolInSecondary>ru;en_US;en_GB</CscFeature_Sip_EnableSymbolInSecondary>
-	<CscFeature_Dialer_PhonebookNdigitsMatching>true</CscFeature_Dialer_PhonebookNdigitsMatching>
-	<CscFeature_RIL_CallerIdMatchingDigit>true</CscFeature_RIL_CallerIdMatchingDigit>
-	<CscFeature_Contact_SetLinkCountMaxAs>999</CscFeature_Contact_SetLinkCountMaxAs>
-	<CscFeature_Camera_ShutterSoundMenu>true</CscFeature_Camera_ShutterSoundMenu>
-	<CscFeature_Setting_DisableMenuSoftwareUpdate>true</CscFeature_Setting_DisableMenuSoftwareUpdate>
-	<CscFeature_Setting_EnableHwVersionDisplay>true</CscFeature_Setting_EnableHwVersionDisplay>
-	<CscFeature_Gallery_AddAutoRotationIcon>true</CscFeature_Gallery_AddAutoRotationIcon>
-	<CscFeature_Common_EnableHDVoiceDuring3GConnection>true</CscFeature_Common_EnableHDVoiceDuring3GConnection>
-	<CscFeature_Camera_CamcoderForceShutterSoundDuringSnapShot>false</CscFeature_Camera_CamcoderForceShutterSoundDuringSnapShot>
-	<CscFeature_Calendar_SetColorOfDays>XXXXXRR</CscFeature_Calendar_SetColorOfDays>
-	<CscFeature_Clock_EnableMultiWindow>true</CscFeature_Clock_EnableMultiWindow>
 
 </SamsungMobileFeauture>

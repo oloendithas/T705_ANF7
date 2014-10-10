@@ -560,18 +560,24 @@
     </integer-array>
     <integer-array name="config_dynamicAutoBrightnessLowHysteresisLevels">
         <item>0</item>
-        <item>0</item>
-        <item>5</item>
-        <item>50</item>
-        <item>999</item>
-        <item>1000</item>
-        <item>9999</item>
-        <item>10000</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>12</item>
+        <item>38</item>
+        <item>420</item>
+        <item>2100</item>
+        <item>4200</item>
+        <item>17000</item>
+        <item>34000</item>
     </integer-array>
     <integer-array name="config_dynamicAutoBrightnessLowHysteresisValues">
-        <item>7</item>
-        <item>45</item>
-        <item>70</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>60</item>
+        <item>90</item>
         <item>135</item>
         <item>213</item>
         <item>255</item>
@@ -580,18 +586,24 @@
     </integer-array>
     <integer-array name="config_dynamicAutoBrightnessLevels">
         <item>0</item>
-        <item>6</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>15</item>
         <item>50</item>
         <item>500</item>
-        <item>4999</item>
+        <item>2500</item>
         <item>5000</item>
-        <item>39999</item>
+        <item>20000</item>
         <item>40000</item>
     </integer-array>
     <integer-array name="config_dynamicAutoBrightnessValues">
-        <item>7</item>
-        <item>7</item>
-        <item>70</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>60</item>
+        <item>90</item>
         <item>135</item>
         <item>213</item>
         <item>255</item>
@@ -600,27 +612,36 @@
     </integer-array>
     <integer-array name="config_dynamicAutoBrightnessHighHysteresisLevels">
         <item>0</item>
-        <item>15</item>
-        <item>15</item>
-        <item>150</item>
-        <item>1500</item>
-        <item>5000</item>
-        <item>10000</item>
-        <item>39999</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>20</item>
+        <item>65</item>
+        <item>580</item>
+        <item>2800</item>
+        <item>6000</item>
+        <item>25000</item>
+        <item>40000</item>
         <item>40000</item>
     </integer-array>
     <integer-array name="config_dynamicAutoBrightnessHighHysteresisValues">
-        <item>7</item>
-        <item>7</item>
-        <item>15</item>
-        <item>70</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>60</item>
+        <item>90</item>
         <item>135</item>
-        <item>168</item>
+        <item>213</item>
         <item>255</item>
         <item>255</item>
         <item>300</item>
+        <item>300</item>
     </integer-array>
     <integer-array name="config_dynamicAutoBrightnessLowHysteresisLevelsForEbookOnly">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>0</item>
         <item>0</item>
         <item>5</item>
@@ -632,6 +653,9 @@
     </integer-array>
     <integer-array name="config_dynamicAutoBrightnessLowHysteresisValuesForEbookOnly">
         <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
         <item>30</item>
         <item>38</item>
         <item>58</item>
@@ -641,6 +665,9 @@
         <item>300</item>
     </integer-array>
     <integer-array name="config_dynamicAutoBrightnessLevelsForEbookOnly">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>0</item>
         <item>6</item>
         <item>50</item>
@@ -653,6 +680,9 @@
     <integer-array name="config_dynamicAutoBrightnessValuesForEbookOnly">
         <item>7</item>
         <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
         <item>38</item>
         <item>58</item>
         <item>213</item>
@@ -661,6 +691,9 @@
         <item>300</item>
     </integer-array>
     <integer-array name="config_dynamicAutoBrightnessHighHysteresisLevelsForEbookOnly">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>0</item>
         <item>15</item>
         <item>15</item>
@@ -672,6 +705,9 @@
         <item>40000</item>
     </integer-array>
     <integer-array name="config_dynamicAutoBrightnessHighHysteresisValuesForEbookOnly">
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
         <item>7</item>
         <item>7</item>
         <item>10</item>
