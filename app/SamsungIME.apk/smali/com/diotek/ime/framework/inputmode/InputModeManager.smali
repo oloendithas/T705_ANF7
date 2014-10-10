@@ -8878,7 +8878,7 @@
 .end method
 
 .method public setSecondarySymbolStatus(I)V
-    .locals 10
+    .locals 9
     .param p1, "currentLanguageID"    # I
 
     .prologue
@@ -8919,9 +8919,7 @@
 
     .line 1476
     :cond_0
-    const/4 v9, 0x1
-
-    iput-boolean v9, p0, Lcom/diotek/ime/framework/inputmode/InputModeManager;->mEnableSecondarySymbol:Z
+    iput-boolean v7, p0, Lcom/diotek/ime/framework/inputmode/InputModeManager;->mEnableSecondarySymbol:Z
 
     .line 1506
     :cond_1
@@ -8932,9 +8930,7 @@
     .local v1, "index":I
     .local v4, "token":Ljava/lang/String;
     :cond_2
-    const/4 v9, 0x1
-
-    iput-boolean v9, p0, Lcom/diotek/ime/framework/inputmode/InputModeManager;->mEnableSecondarySymbol:Z
+    iput-boolean v7, p0, Lcom/diotek/ime/framework/inputmode/InputModeManager;->mEnableSecondarySymbol:Z
 
     .line 1480
     .end local v1    # "index":I
