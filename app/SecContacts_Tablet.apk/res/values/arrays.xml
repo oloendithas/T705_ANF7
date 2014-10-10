@@ -261,10 +261,9 @@
     </string-array>
     <string-array name="index_string_array">
         <item>АБВГДЕЖЗИКЛМНОПРСТУФХЦЧШЩЭЮЯ</item>
-        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
     </string-array>
     <string-array name="index_string_array_compare">
-        <item>АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ</item>
+        <item>АБВГДЕЖЗИКЛМНОПРСТУФХЦЧШЩЭЮЯ</item>
     </string-array>
     <integer-array name="guide_call_ui_01">
         <item>5083</item>

@@ -8,7 +8,7 @@
     <string name="config_export_file_extension">vcf</string>
     <string name="config_export_extensions_to_consider" />
     <string name="config_prohibited_phone_number_regexp" />
-    <string name="tw_index_characters_kor">\#ABCDEFGHIJKLMNOPQRSTUVWXYZㄱㅎ</string>
+    <string name="tw_index_characters_kor">\#АБВГДЕЖЗИКЛМНОПРСТУФХЦЧШЩЭЮЯ</string>
     <string name="my_profile_default_name_for_aab">My Info</string>
     <string name="group_not_assigned">グループなし</string>
     <string name="group_favorite">お気に入り</string>
@@ -709,7 +709,7 @@ Account add or configure an account or import/export"</string>
     <string name="join_another_contact_explain">Tap Link another contact to manage multiple contacts as a single contact</string>
     <string name="account_sim">SIM</string>
     <string name="account_uim">UIM</string>
-    <string name="tw_index_characters">\#АБВГДЕЖЗИКЛМНОПРСТУФХЦЧШЩЭЮЯAZ</string>
+    <string name="tw_index_characters">\#АБВГДЕЖЗИКЛМНОПРСТУФХЦЧШЩЭЮЯ</string>
     <string name="my_contacts">My contacts</string>
     <string name="save_to">Save to %s</string>
     <string name="save_to_phone">phone</string>
