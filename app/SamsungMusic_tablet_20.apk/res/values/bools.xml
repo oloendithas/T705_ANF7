@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="tablet_layout">false</bool>
+    <bool name="suffle_button_list_embedded">true</bool>
+    <bool name="suffle_button_menu">false</bool>
+    <bool name="count_line_inlist">false</bool>
+    <bool name="is_list_adjustment_req">false</bool>
+    <bool name="show_multiple_thumbs">false</bool>
+    <bool name="pref_autosave_offline_default">true</bool>
+</resources>

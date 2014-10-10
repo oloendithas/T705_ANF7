@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" style="@style/Divider" />
+    <TextView android:textSize="17.0dip" android:textColor="@color/media_info_main_text" android:ellipsize="marquee" android:id="@id/item_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:singleLine="true" />
+    <EditText android:id="@id/item_text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="255" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.musicplus.widget.TouchNotifyRelativeLayout android:id="@id/player_parent_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/music_player_fullplay_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/music_player_option_view" android:layout_alignParentTop="true">
+        <ViewStub android:id="@id/nowplaying_list_container" android:layout="@layout/music_player_nowplaying_list" android:inflatedId="@id/nowplaying_list_stub" android:layout_width="fill_parent" android:layout_height="@dimen/music_player_fullplay_view_height" android:layout_marginTop="@dimen/music_player_album_maring_top" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:gravity="center_horizontal" android:id="@id/music_player_main_view" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/music_player_album_view" android:layout_width="fill_parent" android:layout_height="@dimen/music_player_album_height_with_shade" android:layout_marginTop="@dimen/music_player_album_maring_top_with_shade" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+                    <include layout="@layout/music_player_album" />
+                </RelativeLayout>
+                <ViewStub android:id="@id/music_player_lyric_stub" android:layout="@layout/music_player_lyric_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <include layout="@layout/music_player_head" />
+            <ViewStub android:layout_gravity="left" android:id="@id/music_player_title_top" android:layout="@layout/music_player_title_top" android:layout_width="@dimen/music_player_top_title_view_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/music_player_title_edge_margin" android:layout_marginTop="@dimen/music_player_title_margin" />
+        </FrameLayout>
+        <include layout="@layout/music_player_title_bottom" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/music_player_option_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/music_player_option_view_height" android:layout_marginTop="@dimen/music_player_option_view_margin_top" android:layout_marginBottom="@dimen/music_player_option_view_margin_bottom" android:layout_above="@id/music_player_control_view">
+        <include layout="@layout/music_player_option_view" />
+        <include layout="@layout/music_player_progress_seekbar" />
+    </RelativeLayout>
+    <include layout="@layout/music_player_control" />
+</com.samsung.musicplus.widget.TouchNotifyRelativeLayout>

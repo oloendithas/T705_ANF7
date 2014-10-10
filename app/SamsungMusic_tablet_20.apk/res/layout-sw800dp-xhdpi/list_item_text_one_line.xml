@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.musicplus.widget.CheckedLinearLayout android:background="@drawable/list_item_selector" android:paddingLeft="@dimen/list_item_padding_side" android:paddingRight="@dimen/list_item_padding_side" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/normal_list_one_line_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ididan="http://schemas.android.com/apk/res/com.sec.android.app.music">
+    <ViewStub android:layout_gravity="center_vertical" android:id="@id/list_item_checkbox_stub" android:focusable="false" android:clickable="false" android:layout="@layout/list_item_checkbox_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_item_check_box_left_margin" android:layout_marginRight="@dimen/list_item_check_box_right_margin" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/layout1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/numbering" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" style="@style/Numbering" />
+            <TextView android:id="@id/uhq_tag" style="@style/UhqTagInfo" />
+            <com.samsung.musicplus.widget.MatchedTextView android:id="@id/text1" style="@style/Text.ListItem" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/animation_layout" android:layout_width="@dimen/tablet_list_track_icon_controller_width" android:layout_height="@dimen/tablet_list_track_tablet_icon_controller_size" android:layout_marginLeft="@dimen/tablet_list_track_icon_controller_left_margin_width" android:layout_marginRight="@dimen/tablet_list_track_icon_controller_left_margin_width">
+            <ImageView android:id="@id/list_personal_icon" android:layout_width="@dimen/list_personal_icon_size" android:layout_height="@dimen/list_personal_icon_size" style="@style/PerSonalTagInfo_list" />
+            <ViewStub android:id="@id/list_animation_stub" android:layout="@layout/list_item_animation" android:layout_width="@dimen/tablet_list_track_tablet_icon_controller_size" android:layout_height="@dimen/tablet_list_track_tablet_icon_controller_size" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:gravity="right" android:id="@id/duration" android:layout_width="@dimen/tablet_list_track_duration_width" android:layout_height="wrap_content" style="@style/Text.ListItem.Line2" />
+    </LinearLayout>
+</com.samsung.musicplus.widget.CheckedLinearLayout>

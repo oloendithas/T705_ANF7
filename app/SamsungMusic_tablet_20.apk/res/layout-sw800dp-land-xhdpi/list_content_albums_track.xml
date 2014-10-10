@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/tablet_list_cover_view_layout" android:layout_width="@dimen/tablet_list_cover_view_width" android:layout_height="fill_parent" layout="@layout/list_cover_view" />
+    <com.samsung.musicplus.widget.Spliter android:id="@id/spliter" android:clickable="true" android:layout_width="10.0dip" android:layout_height="fill_parent" custom:control_layout_id="@id/tablet_list_cover_view_layout" custom:minimum_size="@dimen/tablet_list_cover_view_width" custom:maximum_size="@dimen/tablet_list_cover_view_width"
+      xmlns:custom="http://schemas.android.com/apk/res/com.sec.android.app.music">
+        <View android:background="@drawable/setting_split_selector" android:clickable="false" android:duplicateParentState="true" android:layout_width="@dimen/tablet_setting_divider_width" android:layout_height="fill_parent" />
+    </com.samsung.musicplus.widget.Spliter>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/header_select_all_stub" android:layout="@layout/list_header_select_all" android:layout_width="fill_parent" android:layout_height="@dimen/list_header_select_all_layout_height" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/list_content_common" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

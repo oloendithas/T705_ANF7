@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NoDisplay">
+        <item name="android:background">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoDisplay">true</item>
+        <item name="android:displayOptions">none</item>
+    </style>
+    <style name="MusicDefault.NoActionBar" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="MusicDefault.NoActionBar.FullScreen" parent="@style/MusicDefault.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="MusicDefault.FullScreen" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="MusicDefault.Light.NoActionBar" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="MusicDefault.Light.NoActionBar.FullScreen" parent="@style/MusicDefault.Theme.NoActionBar.FullScreen">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="MusicDefault.Light.FullScreen" parent="@style/MusicDefault.Theme.FullScreen">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:actionBarStyle">@style/MusicStoreActionBarStyle</item>
+        <item name="android:actionModeCloseButtonStyle">@style/MusicStoreActionModeCloseButtonStyle</item>
+    </style>
+    <style name="MusicDefault.Translucent" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="MusicDefault.Light.FullScreen.Main" parent="@style/MusicDefault.Light.FullScreen">
+        <item name="android:actionBarStyle">@style/MusicStoreActionBarStyle.Main</item>
+    </style>
+    <style name="MusicDefault.Light.FullScreen.Selection" parent="@style/MusicDefault.Light.FullScreen">
+        <item name="android:actionBarStyle">@style/MusicStoreActionBarStyle.Selection</item>
+    </style>
+    <style name="MusicDefault.Light.FullScreen.CancelDone" parent="@style/MusicDefault.Light.FullScreen">
+        <item name="android:actionBarStyle">@style/CancelDoneActionBarStyle</item>
+        <item name="android:customNavigationLayout">@layout/custom_cancel_done</item>
+    </style>
+    <style name="MusicDefault.Light.FullScreen.Transparent" parent="@style/MusicDefault.Light.FullScreen">
+        <item name="android:colorForeground">#ffffffff</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+    <style name="MusicDefault.Light.FullScreen.Transparent.Loading" parent="@style/MusicDefault.Light.FullScreen.Transparent">
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+    <style name="MusicStoreActionBarStyle" parent="@style/MusicDefault.MusicStoreActionBarStyle">
+        <item name="android:displayOptions">homeAsUp|showTitle</item>
+    </style>
+    <style name="MusicStoreActionBarStyle.Main" parent="@style/MusicStoreActionBarStyle">
+        <item name="android:displayOptions">showTitle</item>
+    </style>
+    <style name="MusicStoreActionBarStyle.Selection" parent="@style/MusicStoreActionBarStyle">
+        <item name="android:background">?android:actionModeBackground</item>
+    </style>
+    <style name="CancelDoneActionBarStyle" parent="@style/Widget.DeviceDefault.Theme.ActionBar">
+        <item name="android:displayOptions">showCustom</item>
+    </style>
+    <style name="MusicStoreActionModeCloseButtonStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionButton.CloseMode">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="MusicActionDropDownStyle" parent="@android:style/Widget.Spinner.DropDown">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/actionbar_dropdown_text_color_selector</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@drawable/actionbar_dropdown_selector</item>
+    </style>
+    <style name="music_player_progressbar">
+        <item name="android:maxHeight">@dimen/music_player_progressbar_minHeight</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/music_player_seekbar</item>
+        <item name="android:minHeight">@dimen/music_player_progressbar_minHeight</item>
+        <item name="android:thumb">@drawable/music_play_tw_progressive_point</item>
+        <item name="android:thumbOffset">10.0dip</item>
+    </style>
+    <style name="music_easymode_progressbar">
+        <item name="android:maxHeight">5.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/music_player_easymode_seekbar</item>
+        <item name="android:minHeight">5.0dip</item>
+        <item name="android:thumb">@drawable/music_easymode_tw_progressive_point</item>
+        <item name="android:thumbOffset">14.0dip</item>
+    </style>
+    <style name="mini_player_progressbar">
+        <item name="android:maxHeight">2.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/music_player_seekbar</item>
+        <item name="android:minHeight">2.0dip</item>
+        <item name="android:thumb">@drawable/mini_player_tw_progressive_point</item>
+        <item name="android:thumbOffset">4.0dip</item>
+    </style>
+    <style name="volume_seekbar" parent="@touchwiz:style/TwSeekBar">
+        <item name="touchwiz:twMax">15</item>
+        <item name="touchwiz:twBackgroundDrawable">@drawable/tw_volume_scrubber_bg_dark</item>
+        <item name="touchwiz:twProgressDrawable">@drawable/tw_volume_bar_dark</item>
+        <item name="touchwiz:twIndicatorThickness">6.0dip</item>
+        <item name="touchwiz:twProgressOrientation">vertical</item>
+        <item name="touchwiz:twSeekBarThumb">@drawable/music_play_tw_volume_progressive_point</item>
+    </style>
+    <style name="volume_panel">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/music_volume_controller_popup_bg</item>
+        <item name="android:layout_width">@dimen/music_player_volume_width</item>
+        <item name="android:layout_height">@dimen/music_player_volume_height</item>
+        <item name="android:layout_marginTop">@dimen/music_player_volume_panel_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/music_player_volume_panel_margin_right</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="allshare_volume_button">
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="allshare_volume_divider">
+        <item name="android:background">@drawable/music_play_allshare_vol_divider</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="eq_progress_bar">
+        <item name="touchwiz:twMax">20</item>
+        <item name="touchwiz:twBackgroundDrawable">@drawable/tw_volume_scrubber_bg_dark</item>
+        <item name="touchwiz:twProgressDrawable">@drawable/tw_volume_bar_dark</item>
+        <item name="touchwiz:twIndicatorThickness">@dimen/eq_progress_bar_thickness</item>
+        <item name="touchwiz:twProgressOrientation">vertical</item>
+        <item name="touchwiz:twSeekBarThumb">@drawable/music_play_tw_volume_progressive_point</item>
+    </style>
+    <style name="Music_Square_ListAlbumArt">
+        <item name="android:background">@drawable/default_thumbnail_bg</item>
+        <item name="android:padding">0.70000005dip</item>
+        <item name="android:layout_width">@dimen/music_square_album_size</item>
+        <item name="android:layout_height">@dimen/music_square_album_size</item>
+        <item name="android:src">@drawable/default_music_list_m</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="square_mood_text">
+        <item name="android:textSize">@dimen/square_mood_text</item>
+        <item name="android:textColor">@color/music_square_text_color</item>
+    </style>
+    <style name="FingerHoverFullText">
+        <item name="android:textSize">@dimen/finger_hover_track_list_title_text_size</item>
+        <item name="android:textColor">@color/hover_common_view_text_color_for_white_theme</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingBottom">@dimen/finger_hover_track_list_padding_vertical</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/hover_two_line_view_margin_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/hover_two_line_view_margin_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/hover_two_line_view_margin_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/hover_two_line_view_margin_horizontal_bottom</item>
+        <item name="android:maxWidth">@dimen/finger_hover_track_list_max_width</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="FingerHoverListDivider">
+        <item name="android:background">@color/hover_list_divider_white_theme</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/hover_track_list_divider_height</item>
+    </style>
+    <style name="Divider">
+        <item name="android:background">@drawable/tw_list_divider_holo_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="Divider.AddToPlaylist" parent="@style/Divider">
+        <item name="android:background">@color/music_player_nowplaying_item_divider</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Button">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40.0dip</item>
+    </style>
+    <style name="ListSubTitle">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/list_subtitle</item>
+        <item name="android:gravity">right|center</item>
+        <item name="android:background">@drawable/tw_list_section_divider_holo_dark</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/list_subtitle_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sec-roboto-regular</item>
+    </style>
+    <style name="ListSubTitle2Layout">
+        <item name="android:background">@color/background</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">42.0dip</item>
+    </style>
+    <style name="ListSubTitle2">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/list_subtitle</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingLeft">@dimen/list_item_padding_side</item>
+        <item name="android:paddingRight">@dimen/list_item_padding_side</item>
+        <item name="android:paddingBottom">3.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sec-roboto-regular</item>
+    </style>
+    <style name="Text.ListItem" parent="@style/Text">
+        <item name="android:textSize">@dimen/list_item_text_one_line_text1_size</item>
+        <item name="android:textColor">@color/list_item_line1</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Text.ListItem.Line1" parent="@style/Text.ListItem">
+        <item name="android:textSize">@dimen/list_item_albumart_text_two_line2_tablet_text1_size</item>
+    </style>
+    <style name="Text.ListItem.Line2" parent="@style/Text.ListItem">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/list_item_line2</item>
+    </style>
+    <style name="Text.ListItem.Grid1" parent="@style/Text.ListItem">
+        <item name="android:textSize">@dimen/style_text1_listview_size</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="Text.ListItem.Grid2" parent="@style/Text.ListItem">
+        <item name="android:textSize">@dimen/style_text2_listview_size</item>
+        <item name="android:textColor">@color/list_item_textcolor_selector</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingBottom">4.0dip</item>
+    </style>
+    <style name="Numbering">
+        <item name="android:textSize">@dimen/list_item_text_one_line_text1_size</item>
+        <item name="android:textColor">@color/list_item_line1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="UhqTagInfo">
+        <item name="android:textSize">9.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tw_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/list_item_tag_uhq</item>
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">14.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+        <item name="android:text">@string/uhq</item>
+    </style>
+    <style name="PerSonalTagInfo">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_marginLeft">1.0dip</item>
+        <item name="android:layout_marginTop">3.0dip</item>
+        <item name="android:src">@drawable/music_list_personal_icon</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:contentDescription">@string/tts_private</item>
+    </style>
+    <style name="PerSonalFullPlayerTagInfo">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:src">@drawable/music_list_personal_icon</item>
+        <item name="android:contentDescription">@string/tts_private</item>
+    </style>
+    <style name="DefaultAlbumArt">
+        <item name="android:background">@drawable/default_thumbnail_bg</item>
+        <item name="android:padding">0.70000005dip</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="DefaultAlbumArt.Medium" parent="@style/DefaultAlbumArt">
+        <item name="android:src">@drawable/default_music_list_m</item>
+    </style>
+    <style name="DefaultAlbumArt.Large" parent="@style/DefaultAlbumArt">
+        <item name="android:src">@drawable/default_music_list_l</item>
+    </style>
+    <style name="ListAlbumArt">
+        <item name="android:background">@drawable/default_thumbnail_bg</item>
+        <item name="android:padding">0.70000005dip</item>
+        <item name="android:layout_width">@dimen/normal_list_albumart_size</item>
+        <item name="android:layout_height">@dimen/normal_list_albumart_size</item>
+        <item name="android:src">@drawable/default_music_list_m</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="ListAlbumArt.Large" parent="@style/ListAlbumArt">
+        <item name="android:layout_width">@dimen/big_list_albumart_size</item>
+        <item name="android:layout_height">@dimen/big_list_albumart_size</item>
+    </style>
+    <style name="Text.NoItem" parent="@style/Text">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:textColor">@color/no_item_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SettingsPrefTitle">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textColor">@color/setting_pref_title_color</item>
+    </style>
+    <style name="SettingsReorderContainer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="SoundAliveEffectLayout">
+        <item name="android:background">@drawable/new_soundalive_effect_selector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">210.0dip</item>
+        <item name="android:layout_height">88.0dip</item>
+        <item name="android:layout_marginLeft">3.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+    </style>
+    <style name="SoundAliveEffectTitle">
+        <item name="android:textSize">@dimen/new_soundAlive_effect_title_text_size</item>
+        <item name="android:textColor">@color/new_soundAlive_effect_text_color</item>
+        <item name="android:paddingLeft">@dimen/new_soundalive_effect_subtext_paddingLeft</item>
+        <item name="android:layout_width">@dimen/new_soundalive_effect_subtext_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">7.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sec-roboto-regular</item>
+    </style>
+    <style name="SoundAliveEffectExplanation">
+        <item name="android:textSize">@dimen/new_soundAlive_effect_text2_size</item>
+        <item name="android:textColor">@color/new_soundAlive_effect_text2_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">top|left|center</item>
+        <item name="android:paddingLeft">@dimen/new_soundalive_effect_subtext_paddingLeft</item>
+        <item name="android:layout_width">@dimen/new_soundalive_effect_subtext_width</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:layout_marginTop">4.0dip</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:lineSpacingExtra">-1.0dip</item>
+        <item name="android:fontFamily">sec-roboto-regular</item>
+    </style>
+    <style name="SoundAliveEffectBottomLine">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">4.0dip</item>
+        <item name="android:src">@drawable/music_soundalive_card_line_off</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="SoundAliveEffectImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="SoundAliveAdvancedButton">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textColor">@color/sound_alive_advanced_btn_text_color_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/new_soundalive_advanced_effect_focus</item>
+        <item name="android:paddingTop">@dimen/new_soundalive_effect_botton_text_padding_top</item>
+        <item name="android:paddingBottom">@dimen/new_soundalive_effect_botton_text_padding_bottom</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">95.0dip</item>
+        <item name="android:layout_height">56.0dip</item>
+        <item name="android:layout_marginLeft">3.0dip</item>
+        <item name="android:layout_marginRight">3.0dip</item>
+        <item name="android:drawableBottom">@drawable/new_soundalive_advanced_effect_selector</item>
+    </style>
+    <style name="SoundAliveTab">
+        <item name="android:textSize">@dimen/tab_text_size</item>
+        <item name="android:textColor">@color/tab_text_default_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tab_indicator_selector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:shadowColor">@color/tab_text_shadow_color</item>
+        <item name="android:shadowDy">@integer/tab_text_shadow_y_offset</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="CustomDlg" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowAnimationStyle">@style/CustomDlg.AnimationStyle</item>
+    </style>
+    <style name="MagazineWidget1x1AppName" />
+    <style name="MagazineWidget1x1Title" />
+    <style name="MagazineWidgetSongTitle" />
+    <style name="MagazineWidgetSongArtist" />
+    <style name="CustomDlg.AnimationStyle" parent="@style/CustomDlg">
+        <item name="android:windowEnterAnimation">@anim/dialog_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_fade_out</item>
+    </style>
+    <style name="QuickPanelAlbumart">
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="DummyStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="GalleryViewItemStyle">
+        <item name="android:layout_width">@dimen/tablet_gallery_view_album_art_bg_width</item>
+        <item name="android:layout_height">@dimen/tablet_music_player_gallery_view_height</item>
+    </style>
+    <style name="ListCommonStyle">
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Text.ListItem.Line1_Tabet" parent="@style/Text.ListItem">
+        <item name="android:textSize">@dimen/list_item_albumart_text_two_line_tablet_text1_size</item>
+        <item name="android:textColor">@color/list_item_default_text_color</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="ListAlbumArt.Artist" parent="@style/ListAlbumArt">
+        <item name="android:layout_width">@dimen/tablet_list_artist_album_art_size</item>
+        <item name="android:layout_height">@dimen/tablet_list_artist_album_art_size</item>
+    </style>
+    <style name="Text.ListItem.ArtistLine1" parent="@style/Text.ListItem">
+        <item name="android:textSize">22.0dip</item>
+    </style>
+    <style name="Text.ListItem.ArtistLine2" parent="@style/Text.ListItem">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/list_item_default_text_color</item>
+    </style>
+    <style name="Text.ListItem.Line1_Folder" parent="@style/Text.ListItem">
+        <item name="android:textSize">@dimen/list_folder_item_line1_text_size</item>
+        <item name="android:textColor">@color/list_item_line1</item>
+    </style>
+    <style name="Text.ListItem.Line2_Folder" parent="@style/Text.ListItem">
+        <item name="android:textSize">@dimen/list_folder_item_line2_text_size</item>
+        <item name="android:textColor">@color/list_item_line2</item>
+    </style>
+    <style name="ListAlbumArt.Normal" parent="@style/ListAlbumArt">
+        <item name="android:layout_width">@dimen/normal_list_albumart_size</item>
+        <item name="android:layout_height">@dimen/normal_list_albumart_size</item>
+    </style>
+    <style name="mini_player_tablet_progressbar">
+        <item name="android:maxHeight">3.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/music_player_seekbar</item>
+        <item name="android:minHeight">3.0dip</item>
+        <item name="android:thumb">@drawable/music_play_tw_progressive_point</item>
+        <item name="android:thumbOffset">@dimen/tablet_mini_player_seekbar_thumb_offset</item>
+    </style>
+    <style name="FullPlayerGalleryView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/tablet_music_player_gallery_view_height</item>
+    </style>
+    <style name="MusicDefault.Light.FullScreen.TransPopupWindow" parent="@style/MusicDefault.Light.FullScreen">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="MusicDefault.Light.FullScreen.TransPopupWindow.CancelDone" parent="@style/MusicDefault.Light.FullScreen.TransPopupWindow">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:actionBarStyle">@style/CancelDoneActionBarStyle</item>
+        <item name="android:customNavigationLayout">@layout/custom_cancel_done</item>
+    </style>
+    <style name="Button.Dark" parent="@style/Button">
+        <item name="android:background">@drawable/btn_dark_selector</item>
+    </style>
+    <style name="Text.NoItem.MoreText" parent="@style/Text.NoItem">
+        <item name="android:textColor">@color/no_item_more_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="PerSonalTagInfo_list">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_marginLeft">1.0dip</item>
+        <item name="android:src">@drawable/music_list_personal_icon</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:contentDescription">@string/tts_private</item>
+    </style>
+    <style name="PerSonalTagInfo_grid">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+        <item name="android:src">@drawable/music_list_personal_icon</item>
+        <item name="android:contentDescription">@string/tts_private</item>
+    </style>
+    <style name="MusicDefault.Theme.FullScreen" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+    <style name="MusicDefault.Theme.NoActionBar.FullScreen" parent="@style/MusicDefault.NoActionBar" />
+    <style name="MusicDefault.MusicStoreActionBarStyle" parent="@android:style/Widget.DeviceDefault.ActionBar" />
+    <style name="Widget.DeviceDefault.Theme.ActionBar" parent="@android:style/Widget.DeviceDefault.ActionBar" />
+    <style name="MusicMainTab">
+        <item name="android:background">@drawable/tw_subtab_bg_holo_dark</item>
+        <item name="android:divider">@drawable/tw_tab_divider_holo_dark</item>
+        <item name="android:dividerPadding">15.0dip</item>
+    </style>
+    <style name="MiniPlayer">
+        <item name="android:background">@drawable/music_ver_mini_dark_bg</item>
+    </style>
+    <style name="title_divider">
+        <item name="android:background">@drawable/tw_list_section_divider_holo_dark</item>
+    </style>
+    <style name="Reorder_icon">
+        <item name="android:src">@drawable/tw_btn_reorder_holo_dark</item>
+    </style>
+    <style name="SoundAliveTabDivider">
+        <item name="android:background">@drawable/tw_tab_divider_holo_dark</item>
+    </style>
+    <style name="SoundAliveEqProgressBar">
+        <item name="touchwiz:twMax">20</item>
+        <item name="touchwiz:twBackgroundDrawable">@drawable/sound_alive_equalizer_bar_bg_dark</item>
+        <item name="touchwiz:twProgressDrawable">@drawable/sound_alive_equalizer_bar_dark</item>
+        <item name="touchwiz:twIndicatorThickness">@dimen/eq_progress_bar_thickness</item>
+        <item name="touchwiz:twProgressOrientation">vertical</item>
+        <item name="touchwiz:twSeekBarThumb">@drawable/new_soundalive_equalizer_thumb_selector</item>
+    </style>
+</resources>

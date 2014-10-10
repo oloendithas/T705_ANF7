@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">သီခ်င္း %d ပုဒ္ ေရြးထားသည္။</item>
+        <item quantity="one">သီခ်င္း ၁ ပုဒ္ ေရြးထားသည္။</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">သင္ %1$s %2$d ႀကိမ္သုံးႏုိင္ပါသည္။</item>
+        <item quantity="one">သင္ %s ၁ႀကိမ္သုံးႏုိင္ပါသည္။</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">သီခ်င္း %d ပုဒ္</item>
+        <item quantity="one">သီခ်င္း %d ပုဒ္</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">နားေထာင္စာရင္း %d ခု</item>
+        <item quantity="one">နားေထာင္စာရင္း ၁ ခု</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">အယ္လ္ဘမ္ %d အုပ္</item>
+        <item quantity="one">အယ္လ္ဘမ္ ၁ အုပ္</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">အႏုပညာရွင္ %d ဦး</item>
+        <item quantity="one">အႏုပညာရွင္ ၁ ဦး</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">အႏုပညာအမ်ဳိးအစား %d ခု</item>
+        <item quantity="one">အႏုပညာအမ်ဳိးအစား ၁ ခု</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d ဖုိင္တြဲမ်ား</item>
+        <item quantity="one">ဖိုင္တြဲ ၁ ခု</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">သီခ်င္းေရးသူ %d ဦး</item>
+        <item quantity="one">ကြန္ပိုဇာ ၁ ဦး</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d ႏွစ္</item>
+        <item quantity="one">၁ ႏွစ္</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d ကိရိယာမ်ား</item>
+        <item quantity="one">ကိရိယာ ၁</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">နားေထာင္စာရင္းသို႔ သီခ်င္း %d ပုဒ္ ထည့္လိုက္သည္။</item>
+        <item quantity="one">နားေထာင္စာရင္းသို႔ သီခ်င္း ၁ ပုဒ္ ထည့္လိုက္သည္</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">သီခ်င္း %d ပုဒ္ ဖ်က္လိုက္သည္။</item>
+        <item quantity="one">သီခ်င္း ၁ ပုဒ္ ဖ်က္လိုက္သည္။</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d အရာမ်ား ဖ်က္ပစ္ၿပီးပါၿပီ။</item>
+        <item quantity="one">အိုင္တမ္ ၁ ခု ဖ်က္ျပီး။</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">သီခ်င္း %d ပုဒ္ ျဖဳတ္လိုက္သည္။</item>
+        <item quantity="one">၁ ေတးလမ္းေၾကာတစ္ခု ဖယ္ထုတ္လိုက္သည္</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d သီခ်င္းမ်ားကို ယခု နားေထာင္စာရင္းသို႔ ထည့္ၿပီးပါၿပီ</item>
+        <item quantity="one">သီခ်င္း ၁ ပုဒ္ကို ယခု နားေထာင္စာရင္းသို႔ ထည့္ၿပီးပါၿပီ</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">သီခ်င္း %d ပုဒ္ကို စိတ္ႀကိဳက္မ်ားသို႔ ထည့္ၿပီးၿပီ</item>
+        <item quantity="one">စိတ္ႀကိဳက္မ်ားသို႔ သီခ်င္း ၁ ပုဒ္ ထည့္ၿပီးၿပီ</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">သီခ်င္း %d ပုဒ္ကို စိတ္ႀကိဳက္မ်ားသို႔ ထည့္ထားသည္။ စိတ္ၾကိဳက္မ်ားထဲ ရွိၿပီး သီခ်င္းမ်ား ထည့္မထားပါ။</item>
+        <item quantity="one">စိတ္ႀကိဳက္မ်ားသို႔ သီခ်င္း ၁ ပုဒ္ ထည့္ထားသည္။ စိတ္ၾကိဳက္မ်ားထဲ ရွိၿပီး သီခ်င္း ထည့္မထားပါ။</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">စိတ္ၾကိဳက္မ်ားမွ သီခ်င္း %d ပုဒ္ ျဖဳတ္ထားသည္။</item>
+        <item quantity="one">စိတ္ၾကိဳက္မ်ားမွ သီခ်င္း ၁ ပုဒ္ ျဖဳတ္ထားသည္။</item>
+    </plurals>
+</resources>

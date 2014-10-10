@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>Naprej</item>
+        <item>Predhodni</item>
+        <item>Premor</item>
+        <item>Predvajaj</item>
+        <item>Povečaj glasnost</item>
+        <item>Zmanjšaj glasnost</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCČDEFGHIJKLMNOPRSŠTUVZŽ</item>
+    </string-array>
+</resources>

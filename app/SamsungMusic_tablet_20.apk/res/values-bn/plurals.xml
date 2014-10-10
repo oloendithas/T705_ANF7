@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%dটি ট্র্যাক নির্বাচন করা হয়েছে।</item>
+        <item quantity="one">1টি ট্র্যাক নির্বাচন করা হয়েছে।</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">আপনি %1$s %2$d বার ব্যবহার করতে পারেন।</item>
+        <item quantity="one">আপনি %s 1বার ব্যবহার করতে পারেন।</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%dটি ট্র্যাক</item>
+        <item quantity="one">%dটি ট্র্যাক</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d প্লেতালিকা</item>
+        <item quantity="one">1 প্লেতালিকা</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%dটি অ্যালবাম</item>
+        <item quantity="one">1টি অ্যালবাম</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%dটি শিল্পী</item>
+        <item quantity="one">1টি শিল্পী</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%dটি জেনর</item>
+        <item quantity="one">1টি জেনর</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%dটি ফোল্ডার</item>
+        <item quantity="one">1টি ফোল্ডার</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%dটি কম্পোজার</item>
+        <item quantity="one">1টি কম্পোজার</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d বছর</item>
+        <item quantity="one">1 বছর</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%dটি ডিভাইস</item>
+        <item quantity="one">1টি ডিভাইস</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">প্লেতালিকাতে %dটি ট্র্যাক যোগ করা হয়েছে।</item>
+        <item quantity="one">প্লেতালিকাতে 1টি ট্র্যাক যোগ করা হয়েছে৷</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%dটি ট্র্যাক মোছা হয়েছে।</item>
+        <item quantity="one">1টি ট্র্যাক মোছা হয়েছে।</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%dটি আইটেম মোছা হয়েছে।</item>
+        <item quantity="one">1 আইটেম মোছা হয়েছে।</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%dটি ট্র্যাক অপসারিত হয়েছে।</item>
+        <item quantity="one">1টি ট্র্যাক অপসারণ করা হয়েছে।</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">এখন প্লে হচ্ছে তালিকাতে %dটি ট্র্যাক যোগ হয়েছে।</item>
+        <item quantity="one">এখন প্লে হচ্ছে তালিকাতে 1টি ট্র্যাক যোগ করা হয়েছে।</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">প্রিয়গুলিতে %dটি ট্র্যাক যোগ হয়েছে৷</item>
+        <item quantity="one">প্রিয়গুলিতে 1টি ট্র্যাক যোগ হয়েছে৷</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">প্রিয়গুলিতে %dটি ট্র্যাক যোগ করা হয়েছে। ইতিমধ্যে প্রিয়গুলিতে থাকা ট্র্যাক যোগ করা হয়নি।</item>
+        <item quantity="one">প্রিয়গুলিতে 1টি ট্র্যাক যোগ করা হয়েছে। ইতিমধ্যে প্রিয়গুলিতে থাকা ট্র্যাক যোগ হয়নি।</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">প্রিয় থেকে %dটি ট্র্যাক অপসারিত।</item>
+        <item quantity="one">প্রিয় থেকে 1টি ট্র্যাক অপসারিত হয়েছে।</item>
+    </plurals>
+</resources>

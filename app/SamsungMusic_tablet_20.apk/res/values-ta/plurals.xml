@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d ட்ராக்குகள் தேர்வுசெய்யப்பட்டன.</item>
+        <item quantity="one">1 ட்ராக் தேர்வுசெய்யப்பட்டது.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s என்பதை மேலும் %2$d முறைகள் பயன்படுத்தலாம்.</item>
+        <item quantity="one">%s என்பதை 1 முறை பயன்படுத்தலாம்.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ட்ராக்குகள்</item>
+        <item quantity="one">%d ட்ராக்</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d ப்ளேலிஸ்ட்கள்</item>
+        <item quantity="one">1 ப்ளேலிஸ்ட்</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d தொகுப்புகள்</item>
+        <item quantity="one">1 தொகுப்பு</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d ஆர்டிஸ்டுகள்</item>
+        <item quantity="one">1 ஆர்டிஸ்ட்</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d வகைகள்</item>
+        <item quantity="one">1 வகை</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d கோப்புறைகள்</item>
+        <item quantity="one">1 கோப்புறை</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d உருவாக்கிகள்</item>
+        <item quantity="one">1 உருவாக்கி</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d ஆண்டுகள்</item>
+        <item quantity="one">1 ஆண்டு</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d சாதனங்கள்</item>
+        <item quantity="one">1 சாதனம்</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d ட்ராக்குகள் ப்ளேலிஸ்ட்டில் சேர்க்கப்பட்டன.</item>
+        <item quantity="one">1 டிராக் ப்ளேலிஸ்டில் சேர்க்கப்பட்டது.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d டிராக்குகள் நீக்கப்பட்டன.</item>
+        <item quantity="one">1 டிராக் நீக்கப்பட்டது.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d உருப்படிகள் நீக்கப்பட்டன.</item>
+        <item quantity="one">1 உருப்படி நீக்கப்பட்டது.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d பாடல்கள் அகற்றப்பட்டன.</item>
+        <item quantity="one">1 ட்ராக் அகற்றப்பட்டது.</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">இப்போது இயங்கும் பட்டியலில் %d பாடல்கள் சேர்க்கப்பட்டன.</item>
+        <item quantity="one">இப்போது இயங்கும் பட்டியலில் 1 பாடல் சேர்க்கப்பட்டது.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d பாடல்கள் பிடித்தவையில் சேர்க்கப்பட்டன.</item>
+        <item quantity="one">1 பாடல் பிடித்தவையில் சேர்க்கப்பட்டது.</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d ட்ராக்குகள் பிடித்தவைகளில் சேர்க்கப்பட்டது. பிடித்தவைகளில் ஏற்கனவே உள்ள ட்ராக் சேர்க்கப்படவில்லை.</item>
+        <item quantity="one">1 ட்ராக் பிடித்தவைகளில் சேர்க்கப்பட்டது. பிடித்தவைகளில் ஏற்கனவே உள்ள ட்ராக் சேர்க்கப்படவில்லை.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d டிராக்குகள் பிடித்தவைகளிலிருந்து அகற்றப்பட்டது.</item>
+        <item quantity="one">பிடித்தவைகளிலிருத்து 1 டிராக் அகற்றப்பட்டது.</item>
+    </plurals>
+</resources>

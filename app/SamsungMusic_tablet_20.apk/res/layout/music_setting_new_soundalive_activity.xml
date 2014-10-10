@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/tw_action_bar_sub_tab_bg_holo_light" android:layout_width="fill_parent" android:layout_height="@dimen/tab_height">
+        <TextView android:id="@id/basic_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/basic" android:layout_weight="1.0" style="@style/SoundAliveTab" />
+        <View android:background="@drawable/tw_tab_divider_holo_light" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <TextView android:id="@id/advanced_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/advanced" android:layout_weight="1.0" style="@style/SoundAliveTab" />
+    </LinearLayout>
+    <include layout="@layout/music_setting_new_soundalive_layout" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/new_soundAlive_gridView_text2" android:gravity="left|center" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginTop="-7.0dip" android:text="@string/effect" android:textAllCaps="true" android:fontFamily="sec-roboto-regular" />
+    <View android:background="@color/new_soundAlive_category_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <HorizontalScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/new_soundalive_effects" />
+    </HorizontalScrollView>
+</LinearLayout>

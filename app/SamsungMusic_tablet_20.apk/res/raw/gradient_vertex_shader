@@ -1,0 +1,11 @@
+uniform mat4 uModelMatrix;
+uniform mat4 uPVMatrix;
+attribute vec3 aCoord;
+attribute vec4 aColor;
+
+varying vec4 vColor;
+
+void main() {
+    vColor = aColor;
+    gl_Position = uPVMatrix * uModelMatrix * vec4(aCoord, 1.0);
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/square_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/square_grid_layout" android:background="@color/tablet_music_square_background" android:layout_width="fill_parent" android:layout_height="@dimen/music_square_landscape_view_size">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/music_square_grid_view" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/square_mood_text" android:textColor="@color/no_item_text" android:gravity="center" android:id="@id/no_item_text_square" android:background="@color/everglades27" android:paddingLeft="@dimen/list_item_padding_side" android:paddingRight="@dimen/list_item_padding_side" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/music_square_no_item_textview_size" android:layout_marginTop="@dimen/music_square_no_item_textview_margin_top" />
+    <ViewStub android:id="@id/header_square_track_stub" android:layout="@layout/list_header_square_track" android:layout_width="fill_parent" android:layout_height="@dimen/music_square_expandable_button_height" />
+    <FrameLayout android:id="@id/music_sub_list_view" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_marginLeft="28.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="28.0dip" android:layout_weight="1.0" />
+</LinearLayout>

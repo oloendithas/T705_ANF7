@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">Выбрано композиций: %d.</item>
+        <item quantity="one">Выбрана 1 композиция.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Вы можете использовать %1$s %2$d раз.</item>
+        <item quantity="one">Вы можете использовать %s 1 раз.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">Композиций: %d</item>
+        <item quantity="one">Композиций: %d</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">Плейлистов: %d</item>
+        <item quantity="one">1 плейлист</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">Альбомов: %d</item>
+        <item quantity="one">1 альбом</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">Исполнителей: %d</item>
+        <item quantity="one">1 исполнитель</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">Жанров: %d</item>
+        <item quantity="one">1 жанр</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">Папки: %d</item>
+        <item quantity="one">1 папка</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">Композиторов: %d</item>
+        <item quantity="one">1 композитор</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d г.</item>
+        <item quantity="one">1 год</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">Устройств: %d</item>
+        <item quantity="one">1 устройство</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Композиций добавлено в список воспроизведения: %d.</item>
+        <item quantity="one">1 композиция добавлена в список воспроизведения</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">Удалено композиций: %d.</item>
+        <item quantity="one">1 композиция удалена.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">Удалено элементов: %d.</item>
+        <item quantity="one">1 элемент удален.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">Удалено композиций: %d.</item>
+        <item quantity="one">1 композиция удалена</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">Композиции (%d) добавлены в текущий список воспроизведения</item>
+        <item quantity="one">1 композиция добавлена в текущий список воспроизведения</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">Композиций, добавленных в избранное: %d</item>
+        <item quantity="one">1 композиция добавлена в избранное</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">Композиций добавлено в избранное: %d. Композиции, уже находящиеся в избранном, добавлены не были.</item>
+        <item quantity="one">1 композиция добавлена в избранное. Композиция, уже находящаяся в избранном, добавлена не была.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">Композиций удалено из избранного: %d.</item>
+        <item quantity="one">1 композиция удалена из избранного.</item>
+    </plurals>
+</resources>

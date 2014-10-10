@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/music_no_item" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/left" android:background="@color/tablet_setting_menu_background" android:paddingTop="20.0dip" android:layout_width="@dimen/tablet_list_track_folder_left_area_width" android:layout_height="fill_parent" />
+        <com.samsung.musicplus.widget.Spliter android:id="@id/spliter" android:clickable="true" android:layout_width="10.0dip" android:layout_height="fill_parent" custom:control_layout_id="@id/left" custom:minimum_size="@dimen/tablet_setting_menu_min_width" custom:maximum_size="@dimen/tablet_list_track_folder_left_area_width_max"
+          xmlns:custom="http://schemas.android.com/apk/res/com.sec.android.app.music">
+            <View android:background="@drawable/setting_split_selector" android:clickable="false" android:duplicateParentState="true" android:layout_width="@dimen/tablet_setting_divider_width" android:layout_height="fill_parent" />
+        </com.samsung.musicplus.widget.Spliter>
+        <FrameLayout android:id="@id/right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

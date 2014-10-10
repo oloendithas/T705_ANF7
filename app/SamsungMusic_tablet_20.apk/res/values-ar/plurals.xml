@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">تم تحديد %d مسارات.</item>
+        <item quantity="one">تم تحديد مسار واحد.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">يمكنك استخدام %1$s عدد %2$d مرة.</item>
+        <item quantity="one">يمكنك استخدام %s مرة واحدة.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d مسارات</item>
+        <item quantity="one">%d مقطع</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d قوائم التشغيل</item>
+        <item quantity="one">قائمة تشغيل واحدة</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d ألبوم</item>
+        <item quantity="one">ألبوم واحد</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d فنانون</item>
+        <item quantity="one">فنان واحد</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d أنواع</item>
+        <item quantity="one">نوع واحد</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">مجلدات %d</item>
+        <item quantity="one">مجلد واحد</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d مؤلفون</item>
+        <item quantity="one">مؤلف واحد</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d عام</item>
+        <item quantity="one">عام</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d أجهزة</item>
+        <item quantity="one">جهاز واحد</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">تمت إضافة %d مقاطع إلى قائمة التشغيل.</item>
+        <item quantity="one">تمت إضافة مقطع واحد إلى قائمة التشغيل</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">تم حذف %d من المقاطع.</item>
+        <item quantity="one">تم حذف مقطع واحد.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">تم حذف %d عنصر.</item>
+        <item quantity="one">تم حذف عنصر واحد.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">تمت إزالة %d مقاطع.</item>
+        <item quantity="one">تمت إزالة مقطع واحد</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">تمت إضافة %d من المقاطع إلى قائمة التشغيل الحالية</item>
+        <item quantity="one">تمت إضافة مقطع واحد إلى قائمة التشغيل الحالية</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">تمت إضافة %d مقطع إلى المفضلة</item>
+        <item quantity="one">تمت إضافة مقطع واحد إلى المفضلة</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">أُضيفت %d من المقاطع إلى المفضلة. لم تضف المقاطع الموجودة بالفعل في المفضلة.</item>
+        <item quantity="one">أُضيف مقطع واحد إلى المفضلة. لم يضف المقطع الموجود بالفعل في المفضلة.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">تمت إزالة %d من المقاطع من المفضلة.</item>
+        <item quantity="one">تمت إزالة مقطع واحد من المفضلة.</item>
+    </plurals>
+</resources>

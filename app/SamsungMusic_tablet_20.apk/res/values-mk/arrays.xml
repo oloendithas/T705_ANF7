@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>Следно</item>
+        <item>Претходно</item>
+        <item>Пауза</item>
+        <item>Емитувај</item>
+        <item>Појачување</item>
+        <item>Намалување</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>АБВГДЃЕЖЗЅИЈКЛЊМНЊОПРСТЌУФХЦЧЏШ</item>
+    </string-array>
+</resources>

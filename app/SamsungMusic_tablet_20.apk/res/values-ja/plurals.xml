@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d曲選択されました。</item>
+        <item quantity="one">1曲選択されました。</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$sを%2$d回使用できます。</item>
+        <item quantity="one">%sは1回使用できます。</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d曲</item>
+        <item quantity="one">%d曲</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d プレイリスト</item>
+        <item quantity="one">1 プレイリスト</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d枚のアルバム</item>
+        <item quantity="one">1枚のアルバム</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d アーティスト</item>
+        <item quantity="one">1 アーティスト</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d ジャンル</item>
+        <item quantity="one">1 ジャンル</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d フォルダ</item>
+        <item quantity="one">1 フォルダ</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d 作曲者</item>
+        <item quantity="one">1 作曲者</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d 年</item>
+        <item quantity="one">1 年</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d台のデバイス</item>
+        <item quantity="one">1台のデバイス</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">プレイリストに%d曲追加しました。</item>
+        <item quantity="one">プレイリストに1曲追加しました。</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d曲削除しました。</item>
+        <item quantity="one">1曲削除しました。</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d件削除しました。</item>
+        <item quantity="one">1件削除しました。</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d曲を削除しました。</item>
+        <item quantity="one">1曲を削除しました。</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">再生中リストに%d曲追加しました。</item>
+        <item quantity="one">再生中リストに1曲追加しました。</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">お気に入りに%d曲を追加しました。</item>
+        <item quantity="one">お気に入りに1曲を追加しました。</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">お気に入りに%d曲を追加しました。既にお気に入りに登録済みの曲は追加されませんでした。</item>
+        <item quantity="one">お気に入りに1曲を追加しました。既にお気に入りに登録済みの曲は追加されませんでした。</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">お気に入りから%d曲を削除しました。</item>
+        <item quantity="one">お気に入りから1曲を削除しました。</item>
+    </plurals>
+</resources>

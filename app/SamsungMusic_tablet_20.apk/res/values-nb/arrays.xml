@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>Neste</item>
+        <item>Forrige</item>
+        <item>Pause</item>
+        <item>Spill av</item>
+        <item>Volum opp</item>
+        <item>Volum ned</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ</item>
+    </string-array>
+</resources>

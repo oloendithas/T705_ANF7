@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dialog_padding_left" android:paddingRight="@dimen/dialog_padding_left" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="@dimen/dialog_title_padding_left" android:paddingRight="@dimen/dialog_title_padding_right" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <TextView android:textSize="@dimen/dialog_title_text_size" android:textStyle="bold" android:textColor="@color/dialog_title_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:text="@string/available_devices" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:textAllCaps="true" android:fontFamily="sec-roboto-light" />
+        <TextView android:textSize="@dimen/dialog_title_text_size" android:textStyle="bold" android:textColor="@color/dialog_title_text_color" android:id="@id/dlna_scanning_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:text="@string/scanning" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:textAllCaps="true" android:fontFamily="sec-roboto-light" />
+        <ProgressBar android:id="@id/dlna_refresh_progressbar" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="10.0dip" android:layout_toLeftOf="@id/dlna_scanning_text" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="?android:attr/progressBarStyleSmallTitle" />
+    </RelativeLayout>
+    <View android:background="@color/dialog_divider_color" android:layout_width="wrap_content" android:layout_height="2.0dip" />
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

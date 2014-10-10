@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">已選擇 %d 首曲目。</item>
+        <item quantity="one">已選擇 1 首曲目。</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">您可以使用 %1$s %2$d 次。</item>
+        <item quantity="one">您可以使用 %s 1 次。</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d 曲目</item>
+        <item quantity="one">%d 首曲目</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d 個播放清單</item>
+        <item quantity="one">1 個播放清單</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d 張專輯</item>
+        <item quantity="one">1 張專輯</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d 位演出者</item>
+        <item quantity="one">1 位演出者</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d 種類型</item>
+        <item quantity="one">1 個類型</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d 個資料夾</item>
+        <item quantity="one">1 個資料夾</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d 位作曲家</item>
+        <item quantity="one">1 位作曲者</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d 個年份</item>
+        <item quantity="one">1 年</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d 個裝置</item>
+        <item quantity="one">1 個裝置</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d 首曲目已加入至播放清單。</item>
+        <item quantity="one">已加入 1 首曲目至播放清單</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d 首曲目已刪除。</item>
+        <item quantity="one">1 首曲目已刪除。</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">已刪除 %d 個項目。</item>
+        <item quantity="one">已刪除 1 個項目。</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">已移除 %d 首曲目。</item>
+        <item quantity="one">已移除 1 首曲目</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d 首曲目已加入至正在播放清單</item>
+        <item quantity="one">1 首曲目已加入至正在播放清單</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d 首曲目已加入至我的最愛</item>
+        <item quantity="one">1 首曲目已加入至我的最愛</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d 首曲目已加入至我的最愛。不會加入已在我的最愛中的曲目。</item>
+        <item quantity="one">1 首曲目已加入至我的最愛。不會加入已在我的最愛中的曲目。</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d 首曲目已從我的最愛移除。</item>
+        <item quantity="one">1 首曲目已從我的最愛移除。</item>
+    </plurals>
+</resources>

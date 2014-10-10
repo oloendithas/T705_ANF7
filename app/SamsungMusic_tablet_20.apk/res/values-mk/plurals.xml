@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">Избрани се %d песни.</item>
+        <item quantity="one">Избрана е 1 песна.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Може да го употребувате %1$s %2$d пати.</item>
+        <item quantity="one">Може да го употребувате %s 1 пат.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d песни</item>
+        <item quantity="one">%d песна</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d листи</item>
+        <item quantity="one">1 музичка листа</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d албуми</item>
+        <item quantity="one">1 албум</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d изведувачи</item>
+        <item quantity="one">1 изведувач</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d жанрови</item>
+        <item quantity="one">1 жанр</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d папки</item>
+        <item quantity="one">1 папка</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d композитори</item>
+        <item quantity="one">1 композитор</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d години</item>
+        <item quantity="one">1 година</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d уреди</item>
+        <item quantity="one">1 уред</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d песни се додадени на музичката листа.</item>
+        <item quantity="one">1 песна е додадена на музичката листа.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d песни се избришани.</item>
+        <item quantity="one">1 песна е избришана.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d записи се избришани.</item>
+        <item quantity="one">1 запис е избришан.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">Отстранети се %d песни.</item>
+        <item quantity="one">1 песна е отстранета.</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d песни се додадени на листата што се репродуцира</item>
+        <item quantity="one">1 песна е додадена во листата што се репродуцира</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d се додадени во омилените.</item>
+        <item quantity="one">1 песна е додадена во омилените.</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d песни се додадени во Омилени. Песните што се веќе во Омилени не се додадени.</item>
+        <item quantity="one">1 песна е додадена во Омилени. Песната што е веќе во Омилени не е додадена.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d песни се отстранети од Омилени.</item>
+        <item quantity="one">1 песна е отстранета од Омилени.</item>
+    </plurals>
+</resources>

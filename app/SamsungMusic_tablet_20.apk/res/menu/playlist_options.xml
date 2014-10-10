@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/create_playlist" android:visible="false" android:orderInCategory="1" android:title="@string/menu_create_playlist" />
+    <group android:id="@id/playlist_option_menu1" android:orderInCategory="10">
+        <item android:id="@id/save_as_playlist" android:visible="false" android:title="@string/menu_save_as_playlist" />
+        <item android:id="@id/edit_item" android:visible="false" android:title="@string/menu_edit_title" />
+        <item android:id="@id/change_order" android:visible="false" android:title="@string/menu_change_order" />
+    </group>
+    <group android:id="@id/playlist_option_menu2" android:orderInCategory="25">
+        <item android:id="@id/remove_item" android:title="@string/menu_remove" />
+    </group>
+</menu>

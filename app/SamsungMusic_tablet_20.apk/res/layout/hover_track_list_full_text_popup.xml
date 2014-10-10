@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="@dimen/hover_default_widget_padding_top" android:paddingBottom="@dimen/hover_default_widget_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/hover_list_full_text_popup" android:paddingLeft="@dimen/hover_two_line_view_margin_horizontal" android:paddingTop="@dimen/finger_hover_track_list_margin_top_bottom" android:paddingRight="@dimen/hover_two_line_view_margin_horizontal" android:paddingBottom="@dimen/finger_hover_track_list_margin_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:id="@id/hover_title_info" android:maxLines="2" style="@style/FingerHoverFullText" />
+        <TextView android:id="@id/hover_artist_info" android:maxLines="5" style="@style/FingerHoverFullText" />
+        <TextView android:id="@id/hover_full_text_info" android:maxLines="7" style="@style/FingerHoverFullText" />
+    </LinearLayout>
+</LinearLayout>

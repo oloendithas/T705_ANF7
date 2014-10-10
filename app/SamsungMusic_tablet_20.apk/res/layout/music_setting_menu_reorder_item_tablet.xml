@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/normal_list_one_line_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/normal_list_one_line_height" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/image" android:visibility="invisible" android:layout_width="48.0dip" android:layout_height="fill_parent" android:scaleType="center" style="@style/Reorder_icon" />
+        <TextView android:textSize="@dimen/normal_list_one_line_text_size" android:textColor="@color/list_item_default_text_color" android:ellipsize="marquee" android:gravity="left" android:id="@id/text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="sec-roboto-regular" style="@style/SettingsPrefTitle" />
+        <CheckBox android:id="@id/check" android:paddingLeft="@dimen/list_item_padding_side" android:focusable="false" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_item_padding_side" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

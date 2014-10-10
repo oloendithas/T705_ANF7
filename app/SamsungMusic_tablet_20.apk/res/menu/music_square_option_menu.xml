@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/menu3" android:orderInCategory="20">
+        <item android:id="@id/transfer_to_bt" android:visible="false" android:title="@string/menu_via_bluetooth" />
+        <item android:id="@id/transfer_to_phone" android:visible="false" android:title="@string/menu_via_device" />
+        <item android:id="@id/change_axis" android:title="@string/change_horizontal_axis" />
+        <item android:id="@id/scan_for_nearbydevices" android:visible="false" android:title="@string/menu_scan_for_nearbydevices" />
+    </group>
+    <group android:id="@id/menu6" android:orderInCategory="50">
+        <item android:id="@id/go_to_setting" android:title="@string/settings" />
+    </group>
+    <group android:id="@id/menu7" android:orderInCategory="60">
+        <item android:id="@id/end" android:visible="false" android:title="@string/menu_end" />
+    </group>
+</menu>

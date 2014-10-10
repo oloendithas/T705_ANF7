@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d дуу сонгосон.</item>
+        <item quantity="one">1 дуу сонгосон.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Та %1$s-г %2$d удаа ашиглаж болно</item>
+        <item quantity="one">Та %s-г 1 удаа ашиглаж болно</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d дуу</item>
+        <item quantity="one">%d дуу</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d тоглуулах жагсаалт</item>
+        <item quantity="one">1 тоглуулах жагсаалт</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d цомог</item>
+        <item quantity="one">1 цомог</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d уран бүтээлч</item>
+        <item quantity="one">1 уран бүтээлч</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d төрөл</item>
+        <item quantity="one">1 жанр</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d хавтас</item>
+        <item quantity="one">1 хавтас</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d хөгжмийн зохиолч</item>
+        <item quantity="one">1 хөгжмийн зохиолч</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d жил</item>
+        <item quantity="one">1 жил</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d төхөөрөмж</item>
+        <item quantity="one">1 төхөөрөмж</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d дуу тоглуулах жагсаалтад нэмсэн</item>
+        <item quantity="one">1 дуу тоглуулах жагсаалтад нэмсэн</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d дуу устгасан.</item>
+        <item quantity="one">1 дуу устгасан.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d зүйл устгагдлаа</item>
+        <item quantity="one">1 зүйл устгасан.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d дуу арилгасан</item>
+        <item quantity="one">1 дуу арилгасан</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d дуу одоо тоглуулах жагсаалтад нэмэгдсэн</item>
+        <item quantity="one">1 дуу одоо тоглуулах жагсаалтад нэмэгдсэн</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d дуу дуртай зүйлсэд нэмсэн</item>
+        <item quantity="one">1 дуу дуртай зүйлсэд нэмсэн</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d дуу Дуртай зүйлсэд нэмсэн. Дуртай зүйлсэд аль хэдийн байгаа дуунууд нэмэгдээгүй.</item>
+        <item quantity="one">1 дуу Дуртай зүйлсэд нэмсэн. Дуртай зүйлсэд аль хэдийн байгаа дуу нэмэгдээгүй.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d дуу Дуртай зүйлсээс арилгасан.</item>
+        <item quantity="one">1 дуу Дуртай зүйлсээс арилгасан.</item>
+    </plurals>
+</resources>

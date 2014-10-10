@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/music_player_shuffle_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/music_player_shuffle_group_margin_left" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:layout_gravity="center" android:id="@id/music_player_shuffle_btn" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_play_menu_shuffle_off_btn" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/music_player_easymode_title_sub" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/music_player_shuffle_btn_text" android:visibility="gone" android:layout_width="@dimen/music_player_easymode_progress_info_width" android:layout_height="@dimen/music_player_easymode_progress_info_height" android:layout_marginTop="-15.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/music_player_fullplay_star_btn" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_play_menu_star_on_btn" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/music_player_repeat_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/music_player_repeat_group_margin_right" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <ImageView android:layout_gravity="center" android:id="@id/music_player_repeat_btn" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_play_menu_repeat_all_btn" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/music_player_easymode_title_sub" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/music_player_repeat_btn_text" android:visibility="gone" android:layout_width="@dimen/music_player_easymode_progress_info_width" android:layout_height="@dimen/music_player_easymode_progress_info_height" android:layout_marginTop="-15.0dip" />
+    </LinearLayout>
+</merge>

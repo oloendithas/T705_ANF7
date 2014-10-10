@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">"S'han seleccionat %d pistes"</item>
+        <item quantity="one">"S'ha seleccionat 1 pista"</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Pot utilitzar %1$s %2$d vegades</item>
+        <item quantity="one">Pot utilitzar %s 1 vegada</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d pistes</item>
+        <item quantity="one">%d pista</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d llistes de reproducció</item>
+        <item quantity="one">1 llista de reproducció</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d àlbums</item>
+        <item quantity="one">1 àlbum</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d artistes</item>
+        <item quantity="one">1 artista</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d gèneres</item>
+        <item quantity="one">1 gènere</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d carpetes</item>
+        <item quantity="one">1 carpeta</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d compositors</item>
+        <item quantity="one">1 compositor</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d anys</item>
+        <item quantity="one">1 any</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d dispositius</item>
+        <item quantity="one">1 dispositiu</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">"S'han afegit %d pistes a la llista de reproducció"</item>
+        <item quantity="one">"S'ha afegit 1 pista a la llista de reproducció."</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d pistes eliminades.</item>
+        <item quantity="one">1 pista eliminada.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d elements esborrats</item>
+        <item quantity="one">1 element esborrat</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d pistes eliminades</item>
+        <item quantity="one">"S'ha eliminat 1 pista."</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d pistes afegides a la llista de reproducció en curs</item>
+        <item quantity="one">1 pista afegida a la llista de reproducció en curs</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">"S'han afegit %d pistes a preferits."</item>
+        <item quantity="one">"S'ha afegit 1 pista a preferits."</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">"%d pistes afegides a Preferits. No s'han afegit les pistes que ja eren a Preferits."</item>
+        <item quantity="one">"1 pista afegida a Preferits. No s'ha afegit la pista que ja era a Preferits."</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d pistes eliminades de Preferits.</item>
+        <item quantity="one">1 pista eliminada de Preferits.</item>
+    </plurals>
+</resources>

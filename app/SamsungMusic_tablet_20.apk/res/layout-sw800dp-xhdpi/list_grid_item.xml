@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.musicplus.widget.CheckedLinearLayout android:orientation="vertical" android:paddingTop="15.0dip" android:paddingBottom="10.0dip" android:focusable="false" android:clickable="false" android:layout_width="@dimen/grid_width" android:layout_height="@dimen/grid_height" ididan:checkableId="@id/checkbox"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ididan="http://schemas.android.com/apk/res/com.sec.android.app.music">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+        <ImageView android:id="@id/albumart" android:layout_width="fill_parent" android:layout_height="@dimen/grid_albumart_height" android:layout_marginBottom="2.0dip" android:layout_alignParentTop="true" style="@style/ListAlbumArt.Large" />
+        <ImageView android:id="@id/list_personal_icon" android:layout_width="@dimen/list_personal_icon_size" android:layout_height="@dimen/list_personal_icon_size" android:layout_alignLeft="@id/albumart" android:layout_alignBottom="@id/albumart" style="@style/PerSonalTagInfo_grid" />
+        <TextView android:id="@id/uhq_tag" android:visibility="gone" android:layout_marginTop="5.0dip" android:layout_alignTop="@id/albumart" android:layout_alignRight="@id/albumart" style="@style/UhqTagInfo" />
+        <ViewStub android:id="@id/list_item_checkbox_stub" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout="@layout/list_item_checkbox_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <com.samsung.musicplus.widget.MatchedTextView android:gravity="center" android:id="@id/text1" android:layout_width="fill_parent" android:layout_height="@dimen/Grid_item_text1_height" style="@style/Text.ListItem.Grid1" />
+    <com.samsung.musicplus.widget.MatchedTextView android:gravity="center" android:id="@id/text2" android:layout_width="fill_parent" android:layout_height="@dimen/Grid_item_text2_height" style="@style/Text.ListItem.Grid2" />
+</com.samsung.musicplus.widget.CheckedLinearLayout>

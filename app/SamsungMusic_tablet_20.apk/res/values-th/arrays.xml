@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>ถัด​ไป</item>
+        <item>ก่อน​หน้า​นี้</item>
+        <item>พัก</item>
+        <item>แสดง</item>
+        <item>เพิ่มระดับเสียง</item>
+        <item>ลด​ระดับ​เสียง</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนปผฝพฟภมยรฤลวศษสหฬอฮ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+</resources>

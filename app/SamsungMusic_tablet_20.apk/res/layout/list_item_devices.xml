@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/list_item_padding_side" android:paddingTop="11.0dip" android:paddingRight="@dimen/list_item_padding_side" android:paddingBottom="11.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/normal_list_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/albumart" android:layout_marginRight="17.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/ListAlbumArt" />
+    <TextView android:textSize="19.0dip" android:gravity="center_vertical" android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_text1_margin_right" android:layout_toLeftOf="@id/text3" android:layout_toRightOf="@id/albumart" android:layout_above="@id/text2" android:layout_alignParentTop="true" android:layout_alignWithParentIfMissing="true" style="@style/Text.ListItem.Line1" />
+    <TextView android:textSize="14.0dip" android:id="@id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_text1_margin_right" android:layout_toLeftOf="@id/text3" android:layout_toRightOf="@id/albumart" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" style="@style/Text.ListItem.Line2" />
+    <TextView android:id="@id/text3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_text1_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Text.ListItem.Line2" />
+</RelativeLayout>

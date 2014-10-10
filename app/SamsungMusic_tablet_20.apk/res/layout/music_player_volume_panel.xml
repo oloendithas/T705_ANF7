@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/volume_panel" style="@style/volume_panel"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/music_player_volume_text" android:textColor="@color/music_player_volume_text" android:gravity="center" android:id="@id/volume_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/music_player_volume_margin_top" />
+    <com.sec.android.touchwiz.widget.TwSeekBar android:id="@id/volume_seekbar" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/volume_seekbar" />
+    <ImageView android:id="@id/sound_alive_btn" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/music_play_control_sound_alive_btn" android:contentDescription="@string/sound_alive" />
+</LinearLayout>

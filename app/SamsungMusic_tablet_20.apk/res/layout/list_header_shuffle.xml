@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/list_item_padding_side" android:paddingRight="@dimen/list_item_padding_side" android:layout_width="fill_parent" android:layout_height="@dimen/normal_list_one_line_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/list_shuffle_text_size" android:textColor="@color/list_album_cover_text2" android:ellipsize="end" android:gravity="center" android:id="@id/shuffle_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/icon_shuffle" />
+</LinearLayout>

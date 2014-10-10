@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.musicplus.widget.CheckedRelativeLayout android:paddingLeft="@dimen/list_item_padding_side" android:paddingRight="@dimen/list_item_padding_side" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/normal_list_one_line_height" ididan:checkableId="@id/checkbox"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ididan="http://schemas.android.com/apk/res/com.sec.android.app.music">
+    <ViewStub android:id="@id/list_item_checkbox_stub" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout="@layout/list_item_checkbox_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_item_check_box_left_margin" android:layout_marginRight="@dimen/list_item_check_box_right_margin" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/list_animation" android:layout_toRightOf="@id/checkbox" android:layout_centerVertical="true">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/numbering" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_centerVertical="true" style="@style/Numbering" />
+            <TextView android:id="@id/uhq_tag" android:layout_toRightOf="@id/numbering" android:layout_centerVertical="true" style="@style/UhqTagInfo" />
+            <com.samsung.musicplus.widget.MatchedTextView android:id="@id/text1" android:layout_toRightOf="@id/uhq_tag" android:layout_centerVertical="true" style="@style/Text.ListItem.Line1" />
+        </RelativeLayout>
+        <com.samsung.musicplus.widget.MatchedTextView android:id="@id/text2" style="@style/Text.ListItem.Line2" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/list_item_duration_text_size" android:textColor="@color/list_item_duration" android:ellipsize="none" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="@dimen/list_item_duration_height" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:fontFamily="sec-roboto-regular" />
+    <ViewStub android:id="@id/list_animation_stub" android:layout="@layout/list_item_animation" android:layout_width="@dimen/list_item_animation_size" android:layout_height="@dimen/list_item_animation_size" android:layout_toLeftOf="@id/duration" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/list_personal_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/numbering" android:layout_alignTop="@id/numbering" style="@style/PerSonalTagInfo" />
+</com.samsung.musicplus.widget.CheckedRelativeLayout>

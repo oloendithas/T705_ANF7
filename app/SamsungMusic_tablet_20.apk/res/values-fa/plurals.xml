@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d تراک انتخاب شد.</item>
+        <item quantity="one">1 تراک انتخاب شد.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">از %1$s %2$d بار دیگر می‌توانید استفاده کنید.</item>
+        <item quantity="one">از %s فقط 1 بار می‌توانید استفاده کنید.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ترانه</item>
+        <item quantity="one">‎%d آهنگ</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d لیست پخش</item>
+        <item quantity="one">1 لیست پخش</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d آلبوم</item>
+        <item quantity="one">1 آلبوم</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d هنرمند</item>
+        <item quantity="one">1 هنرمند</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d سبک</item>
+        <item quantity="one">1 ژانر</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d پوشه</item>
+        <item quantity="one">1 پوشه</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d آهنگ ساز</item>
+        <item quantity="one">1 آهنگساز</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d سال</item>
+        <item quantity="one">1 سال</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d دستگاه</item>
+        <item quantity="one">1 دستگاه</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d تراک به لیست پخش اضافه شد.</item>
+        <item quantity="one">1 تراک به لیست پخش اضافه شد</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">‎%d آهنگ حذف شد.</item>
+        <item quantity="one">۱ آهنگ حذف شد.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d مورد حذف شد.</item>
+        <item quantity="one">1 مورد حذف شد.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d آهنگ حذف شد.</item>
+        <item quantity="one">1 آهنگ حذف شد</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">‎%d آهنگ به لیست در حال پخش اضافه شد</item>
+        <item quantity="one">۱ آهنگ به لیست در حال پخش اضافه شد</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">‎%d آهنگ به موارد دلخواه اضافه شد</item>
+        <item quantity="one">۱ آهنگ به موارد دلخواه اضافه شد</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">‎%d آهنگ به موارد دلخواه اضافه شد. آهنگ‌هایی که از قبل در موارد دلخواه وجود دارند اضافه نمی‌شوند.</item>
+        <item quantity="one">۱ آهنگ به موارد دلخواه اضافه شد. آهنگی که از قبل در موارد دلخواه وجود دارد اضافه نمی‌شود.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">‎%d آهنگ از موارد دلخواه حذف شد.</item>
+        <item quantity="one">۱ آهنگ از موارد دلخواه حذف شد.</item>
+    </plurals>
+</resources>

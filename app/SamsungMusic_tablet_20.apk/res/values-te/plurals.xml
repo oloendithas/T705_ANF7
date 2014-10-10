@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d ట్రాక్‌లు ఎంపికైనవి.</item>
+        <item quantity="one">1 ట్రాక్‌ ఎంచుకోబడింది.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$sను %2$d సార్లు ఉపయోగించగలరు.</item>
+        <item quantity="one">మీరు %sను 1 సారి ఉపయోగించవచ్చు.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ట్రాక్‌లు</item>
+        <item quantity="one">%d ట్రాక్</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d ప్లే జాబితాలు</item>
+        <item quantity="one">1 ప్లే జాబితా</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d ఆల్బమ్లు</item>
+        <item quantity="one">1 ఆల్బమ్</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d కళాకారులు</item>
+        <item quantity="one">1 కళాకారుడు</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d శైలులు</item>
+        <item quantity="one">1 శైలి</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d ఫోల్డర్లు</item>
+        <item quantity="one">1 ఫోల్డర్</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d కంపోజర్లు</item>
+        <item quantity="one">1 కంపోజర్</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d సంవత్సరాలు</item>
+        <item quantity="one">1 సంవత్సరం</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d పరికరాలు</item>
+        <item quantity="one">1 పరికరం</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d ట్రాక్‌లు ప్లేజాబితాకు జోడించబడ్డాయి.</item>
+        <item quantity="one">1 ట్రాక్ ప్లేజాబితాకు జోడించబడింది.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d ట్రాక్‌లు తొలగించబడ్డాయి.</item>
+        <item quantity="one">1 ట్రాక్ తొలగించబడింది.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d ఐటెమ్‌లు తొలగించబడ్డాయి.</item>
+        <item quantity="one">1 ఐటెమ్‌ తొలగించబడింది.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d ట్రాక్‌లు తీసివేయబడ్డాయి.</item>
+        <item quantity="one">1 ట్రాక్ తీసివేయబడింది.</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">ఇప్పుడు ప్లే చేస్తున్న జాబితాకు %d ట్రాక్‌లు జోడించబడ్డాయి.</item>
+        <item quantity="one">ఇప్పుడు ప్లే చేస్తున్న జాబితాకు 1 ట్రాక్ జోడించబడింది.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d ట్రాక్‌లు ఇష్టమైనవాటికి జోడించబడ్డాయి.</item>
+        <item quantity="one">1 ట్రాక్ ఇష్టమైనవాటికి జోడించబడింది.</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">ఇష్టమైనవాటికి %d ట్రాక్‌లు జోడించబడ్డాయి. ఇష్టమైన వాటిలో ఇప్పటికే ఉన్న ట్రాక్‌లు జోడించబడవు.</item>
+        <item quantity="one">ఇష్టమైనవాటికి 1 ట్రాక్ జోడించబడింది. ఇష్టమైన వాటిలో ఇప్పటికే ఉన్న ట్రాక్ జోడించబడదు.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d ట్రాక్‌లు ఇష్టమైనవాటి నుండి తీసివేయబడ్డాయి.</item>
+        <item quantity="one">1 ట్రాక్ ఇష్టమైనవాటి నుండి తీసివేయబడింది.</item>
+    </plurals>
+</resources>

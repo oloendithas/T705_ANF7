@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>Tjetri</item>
+        <item>Mëparshëm</item>
+        <item>Pauzë</item>
+        <item>Luaj</item>
+        <item>Volumi lart</item>
+        <item>Volumi poshtë</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCÇDEËFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+</resources>

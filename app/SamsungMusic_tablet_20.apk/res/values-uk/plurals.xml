@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">Вибрано записів: %d.</item>
+        <item quantity="one">Вибрано 1 запис.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s можна користуватися %2$d разів.</item>
+        <item quantity="one">%s можна використати 1 раз.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d записів</item>
+        <item quantity="one">%d запис</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d списків відтворення</item>
+        <item quantity="one">%d список відтворення</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d альбомів</item>
+        <item quantity="one">%d альбом</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d виконавців</item>
+        <item quantity="one">%d виконавець</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d жанрів</item>
+        <item quantity="one">%d жанр</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">Папок: %d</item>
+        <item quantity="one">%d папка</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d композиторів</item>
+        <item quantity="one">1 композитор</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">Років: %d</item>
+        <item quantity="one">%d рік</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d пристроїв</item>
+        <item quantity="one">1 пристрій</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d записів додано до списку відтворення.</item>
+        <item quantity="one">1 запис додано до списку відтворення</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d записів видалено.</item>
+        <item quantity="one">1 запис видалено.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d об’єктів видалено.</item>
+        <item quantity="one">%d об’єкт видалено.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">Видалено %d записів.</item>
+        <item quantity="one">1 запис видалено</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d записів додано до списку «Зараз відтворюється»</item>
+        <item quantity="one">1 запис додано до списку «Зараз відтворюється»</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d записів додано до обраного</item>
+        <item quantity="one">1 запис додано до обраного</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d записів додано до обраного. Записи, що вже містяться в обраному, не додано.</item>
+        <item quantity="one">1 запис додано до обраного. Запис, що вже міститься в обраному, не додано.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d записів видалено з обраного.</item>
+        <item quantity="one">1 запис видалено з обраного.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/square_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:gravity="bottom" android:id="@id/header_square_track_stub" android:layout="@layout/list_header_square_track" android:layout_width="fill_parent" android:layout_height="@dimen/music_square_expandable_button_height" />
+    <ViewStub android:id="@id/header_select_all_stub" android:layout="@layout/list_header_select_all" android:layout_width="fill_parent" android:layout_height="@dimen/list_header_select_all_layout_height" />
+    <FrameLayout android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/square_list" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/list_content_common" />
+    </FrameLayout>
+</LinearLayout>

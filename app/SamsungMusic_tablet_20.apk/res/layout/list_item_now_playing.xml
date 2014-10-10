@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/music_player_nowplaying_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="@dimen/music_player_nowplaying_list_item_left_padding" android:paddingRight="@dimen/music_player_nowplaying_list_item_right_padding" android:layout_width="fill_parent" android:layout_height="63.0dip">
+        <TextView android:id="@id/uhq_tag" android:layout_marginTop="13.0dip" android:layout_alignParentLeft="true" style="@style/UhqTagInfo" />
+        <ViewStub android:id="@id/list_animation_stub" android:layout="@layout/list_item_animation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ProgressBar android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/list_animation" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyleSmall" />
+        <ImageView android:id="@id/list_personal_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/PerSonalTagInfo" />
+        <com.samsung.musicplus.widget.MatchedTextView android:textSize="19.0dip" android:gravity="center_vertical" android:id="@id/text1" android:layout_marginTop="7.0dip" android:layout_marginRight="@dimen/list_text1_margin_right" android:layout_toLeftOf="@id/progress" android:layout_toRightOf="@id/uhq_tag" android:layout_above="@id/text2" android:layout_alignWithParentIfMissing="true" style="@style/Text.ListItem" />
+        <com.samsung.musicplus.widget.MatchedTextView android:textSize="18.0dip" android:textColor="@color/music_player_nowplaying_list_text2" android:id="@id/text2" android:layout_marginRight="@dimen/list_text1_margin_right" android:layout_marginBottom="7.0dip" android:layout_toLeftOf="@id/list_animation" android:layout_alignParentBottom="true" style="@style/Text.ListItem" />
+    </RelativeLayout>
+    <View android:layout_gravity="bottom" android:background="@color/music_player_nowplaying_item_divider" android:layout_width="wrap_content" android:layout_height="1.0dip" />
+</LinearLayout>

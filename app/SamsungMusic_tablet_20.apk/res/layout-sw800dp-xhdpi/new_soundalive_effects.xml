@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/new_soundalive_effect_listview" android:paddingRight="@dimen/new_soundalive_effect_spacing_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/new_soundalive_effect_spacing_left" android:layout_marginBottom="11.0dip" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/new_soundalive_effects_none" android:layout_marginLeft="-3.0dip" style="@style/SoundAliveEffectLayout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/none" style="@style/SoundAliveEffectTitle" />
+            <TextView android:text="@string/new_sound_alive_none_explanation" style="@style/SoundAliveEffectExplanation" />
+        </LinearLayout>
+        <ImageView android:id="@id/new_soundalive_effect_bottomline" style="@style/SoundAliveEffectBottomLine" />
+        <ImageView android:id="@id/new_soundalive_imageView_none" android:src="@drawable/music_soundalive_card_none_off" style="@style/SoundAliveEffectImage" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/new_soundalive_effects_tube_amp_effect" style="@style/SoundAliveEffectLayout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/tube_amp_effect" style="@style/SoundAliveEffectTitle" />
+            <TextView android:text="@string/new_sound_alive_tube_amp_effect_explanation" style="@style/SoundAliveEffectExplanation" />
+        </LinearLayout>
+        <ImageView android:id="@id/new_soundalive_effect_bottomline" style="@style/SoundAliveEffectBottomLine" />
+        <ImageView android:id="@id/new_soundalive_imageView_tube_amp_effect" android:src="@drawable/music_soundalive_card_tubeamp_off" style="@style/SoundAliveEffectImage" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/new_soundalive_effects_virtual_71_ch" style="@style/SoundAliveEffectLayout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/virtual_71_ch" style="@style/SoundAliveEffectTitle" />
+            <TextView android:text="@string/new_sound_alive_virtual_71_ch_explanation" style="@style/SoundAliveEffectExplanation" />
+        </LinearLayout>
+        <ImageView android:id="@id/new_soundalive_effect_bottomline" style="@style/SoundAliveEffectBottomLine" />
+        <ImageView android:id="@id/new_soundalive_imageView_virtual_71_ch" android:src="@drawable/music_soundalive_card_virtual71_off" style="@style/SoundAliveEffectImage" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/new_soundalive_effects_studio" style="@style/SoundAliveEffectLayout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/studio" style="@style/SoundAliveEffectTitle" />
+            <TextView android:text="@string/new_sound_alive_studio_explanation" style="@style/SoundAliveEffectExplanation" />
+        </LinearLayout>
+        <ImageView android:id="@id/new_soundalive_effect_bottomline" style="@style/SoundAliveEffectBottomLine" />
+        <ImageView android:id="@id/new_soundalive_imageView_studio" android:src="@drawable/music_soundalive_card_studio_off" style="@style/SoundAliveEffectImage" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/new_soundalive_effects_club" style="@style/SoundAliveEffectLayout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/club" style="@style/SoundAliveEffectTitle" />
+            <TextView android:text="@string/new_sound_alive_club_explanation" style="@style/SoundAliveEffectExplanation" />
+        </LinearLayout>
+        <ImageView android:id="@id/new_soundalive_effect_bottomline" style="@style/SoundAliveEffectBottomLine" />
+        <ImageView android:id="@id/new_soundalive_imageView_club" android:src="@drawable/music_soundalive_card_room_off" style="@style/SoundAliveEffectImage" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/new_soundalive_effects_concert_hall" style="@style/SoundAliveEffectLayout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/concert_hall" style="@style/SoundAliveEffectTitle" />
+            <TextView android:text="@string/new_sound_alive_concert_hall_explanation" style="@style/SoundAliveEffectExplanation" />
+        </LinearLayout>
+        <ImageView android:id="@id/new_soundalive_effect_bottomline" style="@style/SoundAliveEffectBottomLine" />
+        <ImageView android:id="@id/new_soundalive_imageView_concert_hall" android:src="@drawable/music_soundalive_card_hall_off" style="@style/SoundAliveEffectImage" />
+    </RelativeLayout>
+</LinearLayout>

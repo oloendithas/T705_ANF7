@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="auto_off_entries">
+        <item>@string/off</item>
+        <item>@string/after_15_min</item>
+        <item>@string/after_30_min</item>
+        <item>@string/after_1_hour</item>
+        <item>@string/after_1_hour_30_min</item>
+        <item>@string/after_2_hour</item>
+        <item>@string/custom</item>
+    </string-array>
+    <string-array name="auto_off_values">
+        <item>0</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>5400000</item>
+        <item>7200000</item>
+        <item>-999</item>
+    </string-array>
+    <string-array name="my_sound_entries">
+        <item>@string/on</item>
+        <item>@string/off</item>
+    </string-array>
+    <string-array name="tablet_settings_menu">
+        <item>@string/advanced</item>
+        <item>@string/tabs</item>
+        <item>@string/settings_playlists</item>
+    </string-array>
+    <string-array name="barge_in_commands">
+        <item>Next</item>
+        <item>Previous</item>
+        <item>Pause</item>
+        <item>Play</item>
+        <item>Volume Up</item>
+        <item>Volume Down</item>
+    </string-array>
+    <string-array name="music_square_visual_interaction_animation">
+        <item>1,12,0</item>
+        <item>1,7,21</item>
+        <item>1,11,21</item>
+        <item>1,13,21</item>
+        <item>1,17,21</item>
+        <item>1,2,85</item>
+        <item>1,10,85</item>
+        <item>1,14,85</item>
+        <item>1,22,85</item>
+        <item>2,12,191</item>
+        <item>2,7,339</item>
+        <item>2,11,339</item>
+        <item>2,13,339</item>
+        <item>2,17,339</item>
+        <item>2,2,529</item>
+        <item>2,10,529</item>
+        <item>2,14,529</item>
+        <item>2,22,529</item>
+        <item>1,6,740</item>
+        <item>1,8,740</item>
+        <item>1,16,740</item>
+        <item>1,18,740</item>
+        <item>1,0,955</item>
+        <item>1,4,955</item>
+        <item>1,20,955</item>
+        <item>1,24,955</item>
+        <item>2,6,1188</item>
+        <item>2,8,1188</item>
+        <item>2,16,1188</item>
+        <item>2,18,1188</item>
+        <item>2,0,1440</item>
+        <item>2,4,1440</item>
+        <item>2,20,1440</item>
+        <item>2,24,1440</item>
+        <item>1,1,1711</item>
+        <item>1,3,1711</item>
+        <item>1,5,1711</item>
+        <item>1,9,1711</item>
+        <item>1,15,1711</item>
+        <item>1,19,1711</item>
+        <item>1,21,1711</item>
+        <item>1,23,1711</item>
+        <item>2,1,2000</item>
+        <item>2,3,2000</item>
+        <item>2,5,2000</item>
+        <item>2,9,2000</item>
+        <item>2,15,2000</item>
+        <item>2,19,2000</item>
+        <item>2,21,2000</item>
+        <item>2,23,2000</item>
+    </string-array>
+    <string-array name="music_square_visual_interaction_animation2">
+        <item>1,12,0</item>
+        <item>1,7,16</item>
+        <item>1,11,16</item>
+        <item>1,13,16</item>
+        <item>1,17,16</item>
+        <item>3,12,63</item>
+        <item>1,2,142</item>
+        <item>1,6,142</item>
+        <item>1,8,142</item>
+        <item>1,10,142</item>
+        <item>1,14,142</item>
+        <item>1,16,142</item>
+        <item>1,18,142</item>
+        <item>1,22,142</item>
+        <item>3,7,253</item>
+        <item>3,11,253</item>
+        <item>3,13,253</item>
+        <item>3,17,253</item>
+        <item>1,1,381</item>
+        <item>1,3,381</item>
+        <item>1,5,381</item>
+        <item>1,9,381</item>
+        <item>1,15,381</item>
+        <item>1,19,381</item>
+        <item>1,21,381</item>
+        <item>1,23,381</item>
+        <item>3,2,515</item>
+        <item>3,6,515</item>
+        <item>3,8,515</item>
+        <item>3,10,515</item>
+        <item>3,14,515</item>
+        <item>3,16,515</item>
+        <item>3,18,515</item>
+        <item>3,22,515</item>
+        <item>1,0,663</item>
+        <item>1,4,663</item>
+        <item>1,20,663</item>
+        <item>1,24,663</item>
+        <item>3,1,824</item>
+        <item>3,3,824</item>
+        <item>3,5,824</item>
+        <item>3,9,824</item>
+        <item>3,15,824</item>
+        <item>3,19,824</item>
+        <item>3,21,824</item>
+        <item>3,23,824</item>
+        <item>3,0,1000</item>
+        <item>3,4,1000</item>
+        <item>3,20,1000</item>
+        <item>3,24,1000</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <array name="character_encodingset">
+        <item>@string/set_default</item>
+        <item>Korean(EUC-KR)</item>
+        <item>Japanese(JIS)</item>
+        <item>Simplified Chinese(GBK)</item>
+        <item>Traditional Chinese (BIG5)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Unicode (UTF-16)</item>
+    </array>
+    <string-array name="supportCellSizeArrayFavoriteWidget">
+        <item>1x1</item>
+    </string-array>
+    <string-array name="supportCellSizeArrayMagazineWidget">
+        <item>2x2</item>
+        <item>2x4</item>
+        <item>4x2</item>
+    </string-array>
+</resources>

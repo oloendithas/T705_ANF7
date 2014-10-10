@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_shuffle_text_size">17.0dip</dimen>
+    <dimen name="new_soundAlive_effect_text2_size">10.0dip</dimen>
+    <item type="dimen" name="APKTOOL_DUMMY_016c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_016d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_016e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_016f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0170">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0182">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_018b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_019a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_019c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_019f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_01d3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_01d4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_01d5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_01d6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_01d7">false</item>
+</resources>

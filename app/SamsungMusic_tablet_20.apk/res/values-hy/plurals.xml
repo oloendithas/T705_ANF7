@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d երիզ է ընտրվել:</item>
+        <item quantity="one">1 երիզ է ընտրվել:</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Կարող եք օգտագործել %1$s-ը %2$d անգամ:</item>
+        <item quantity="one">Դուք կարող եք օգտագործել %s-ը 1 անգամ:</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d երիզներ</item>
+        <item quantity="one">%d շավիղ</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d երգացանկ</item>
+        <item quantity="one">1 երգացանկ</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d ալբոմ</item>
+        <item quantity="one">1 ալբոմ</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d կատարող</item>
+        <item quantity="one">1 կատարող</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d ժանր</item>
+        <item quantity="one">1 ժանր</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d թղթպանակ</item>
+        <item quantity="one">1 թղթապանակ</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d կոմպոզիտոր</item>
+        <item quantity="one">1 կոմպոզիտոր</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d տարի</item>
+        <item quantity="one">1 տարի</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d սարք</item>
+        <item quantity="one">1 սարք</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d շավիղ ավելացվել է երգացանկին:</item>
+        <item quantity="one">1 շավիղ ավելացվել է երգացանկին</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d շավիղ վերացվել է:</item>
+        <item quantity="one">1 շավիղ վերացվել է:</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d տարր վերացվել է:</item>
+        <item quantity="one">1 տարր վերացվեց:</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d երիզ հեռացվել է:</item>
+        <item quantity="one">1 շավիղ հեռացվել է</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d շավիղներ ավելացվել են այժմ նվագարկվողների ցանկին</item>
+        <item quantity="one">1 շավիղ ավելացվել է այժմ նվագարկվողների ցանկին</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d շավիղ ավելացվել է սիրվածներին</item>
+        <item quantity="one">1 շավիղ ավելացվել է սիրվածներին</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d շավիղ ավելացվել է Սիրվածներին: Շավիղները, որոնք արդեն Սիրվածներում են, չեն ավելացվել:</item>
+        <item quantity="one">1 շավիղ ավելացվել է Սիրվածներին: Շավիղը, որն արդեն Սիրվածներում է, չի ավելացվել:</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d շավիղ հեռացվել է Սիրվածներից:</item>
+        <item quantity="one">1 շավիղ հեռացվել է Սիրվածներից:</item>
+    </plurals>
+</resources>

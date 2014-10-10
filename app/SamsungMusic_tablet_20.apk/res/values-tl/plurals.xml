@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d (na) track ang pinili</item>
+        <item quantity="one">1 track ang pinili</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Magagamit mo ang %1$s nang %2$d (na) beses.</item>
+        <item quantity="one">Magagamit mo ang %s nang 1 beses.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d (na) track</item>
+        <item quantity="one">%d track</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d (na) playlist</item>
+        <item quantity="one">1 playlist</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d (na) album</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d (na) artist</item>
+        <item quantity="one">1 artist</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d (na) genre</item>
+        <item quantity="one">1 genre</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d (na) folder</item>
+        <item quantity="one">1 folder</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d (na) composer</item>
+        <item quantity="one">1 composer</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d taon</item>
+        <item quantity="one">1 taon</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d (na) device</item>
+        <item quantity="one">1 device</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d (na) track ang idinagdag sa playlist.</item>
+        <item quantity="one">1 track ang idinagdag sa playlist</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d track ang tinanggal.</item>
+        <item quantity="one">1 track ang tinanggal.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d (na) item ang na-delete.</item>
+        <item quantity="one">1 item ang tinanggal.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d track ang inalis.</item>
+        <item quantity="one">Inalis ang 1 track</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d (na) track ang idinagdag sa listahan ng tumutugtog ngayon</item>
+        <item quantity="one">1 track ang idinagdag sa listahan ng tumutugtog ngayon</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d (na) track ang idinagdag sa mga paborito</item>
+        <item quantity="one">1 track ang idinagdag sa mga paborito</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d (na) track ang idinagdag sa Mga Paborito. Hindi idinagdag ang mga track na nasa Mga Paborito na.</item>
+        <item quantity="one">1 track ang idinagdag sa Mga Paborito. Hindi idinagdag ang track na nasa Mga Paborito na.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d track ang inalis sa Mga Paborito.</item>
+        <item quantity="one">1 track ang inalis sa Mga Paborito.</item>
+    </plurals>
+</resources>

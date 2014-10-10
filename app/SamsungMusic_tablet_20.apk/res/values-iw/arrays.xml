@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>הבא</item>
+        <item>הקודם</item>
+        <item>השהה</item>
+        <item>הפעל</item>
+        <item>הגברת עוצמת קול</item>
+        <item>החלש עוצמה</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>אבגדהוזחטיכלמנסעפצקרשת</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+</resources>

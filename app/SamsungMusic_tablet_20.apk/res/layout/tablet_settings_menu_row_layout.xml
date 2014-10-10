@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tablet_settings_menu_layout" android:background="@drawable/list_item_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0sp" android:textColor="@color/list_item_default_text_color" android:gravity="left|center" android:id="@id/settings_meun_item_text" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginLeft="@dimen/list_item_padding_side" android:layout_marginRight="@dimen/list_item_padding_side" android:singleLine="true" />
+    <View android:background="@drawable/tw_preference_contents_list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

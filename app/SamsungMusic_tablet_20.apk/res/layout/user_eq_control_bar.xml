@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.musicplus.widget.progress.UserEQSeekBar android:id="@id/eq_control_bar" android:paddingTop="@dimen/eq_control_bar_padding_top" android:paddingBottom="@dimen/eq_control_bar_padding_bottom" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/equalizer_seekbar_height" style="@style/eq_progress_bar" />
+    <TextView android:textSize="@dimen/eq_control_text" android:textColor="@color/equalizer_default_text_color" android:gravity="center" android:id="@id/eq_control_text" android:focusable="false" android:clickable="false" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

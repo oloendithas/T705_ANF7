@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">ගීත %d තෝරන ලදි.</item>
+        <item quantity="one">ගීත 1 ක් තෝරන ලදි.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">ඔබට %1$s %2$d වරක් භාවිතා කළ හැකිය.</item>
+        <item quantity="one">1 අවස්ථාවකදී ඔබට %s භාවිතා කළ හැකිය.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">ගීත %d</item>
+        <item quantity="one">%d ඛණ්ඩය</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">වාදන ලැයිස්තු %d</item>
+        <item quantity="one">වාදන ලැයිස්තු 1 යි</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">ඇල්බම් %d</item>
+        <item quantity="one">ඇල්බම 1</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">කලාකරුවන් %d</item>
+        <item quantity="one">ශිල්පීන් 1 යි</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">ප්‍රභේද %d</item>
+        <item quantity="one">ප්‍රභේද 1 යි</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">ෆෝල්ඩර %d</item>
+        <item quantity="one">ෆෝල්ඩර් 1</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">සම්පාදකයින් %d</item>
+        <item quantity="one">තනු රචකයින් 1 යි</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">වර්ෂ %dක්</item>
+        <item quantity="one">වසර 1</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">උපාංග %d</item>
+        <item quantity="one">උපාංග 1</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">ඛණ්ඩ %d ක් ධාවන ලැයිස්තුව වෙත එක් කරන ලදී.</item>
+        <item quantity="one">ධාවන ලැයිස්තුව වෙත 1 ඛණ්ඩයක් එක් කෙරිණි.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">ඛණ්ඩං %d ක් මකන ලදී.</item>
+        <item quantity="one">ඛණ්ඩ 1 ක් මකන ලදී.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">අයිතම %d ක් මකා දැමිණ.</item>
+        <item quantity="one">1 අයිතමයක් මකා දැමිණ.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">ඛණ්ඩ %d ක් ඉවත් කෙරිණි.</item>
+        <item quantity="one">1 ඛණ්ඩයක් ඉවත් කෙරිණි.</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">දැන් වාදනය වන ලැයිස්තුව වෙත %d ඛණ්ඩ එක් කෙරිණි.</item>
+        <item quantity="one">ඛණ්ඩ 1 ක් දැන් වාදනය වන ලැයිස්තුව වෙත එක් කර ඇත.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">සංගීත ඛණ්ඩ %dක් ප්‍රියතම දෑ වෙත එක් කෙරිණි.</item>
+        <item quantity="one">1 සංගීත ඛණ්ඩයක් ප්‍රියතම දෑ වෙත එක් කෙරිණි.</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">ඛණ්ඩ %d ක් ප්‍රියතමයන් වෙත එක් කෙරිණි. ප්‍රියතමයන් වල දැනටමත් ඇති ඛණ්ඩ එක් නෙකෙරිණි.</item>
+        <item quantity="one">ප්‍රියතමයන් වෙත 1 ඛණ්ඩයක් එක් කෙරිණි. ප්‍රියතමයන් වල දැනටමත් ඇති ඛණ්ඩය එක් නෙකෙරිණි.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">ප්‍රියතම වෙතින් ඉවත් කළ ඛණ්ඩ %d.</item>
+        <item quantity="one">ප්‍රියතම වෙතින් ඛණ්ඩ 1 ඉවත් කෙරිණි.</item>
+    </plurals>
+</resources>

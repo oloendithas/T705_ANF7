@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/new_soundalive_advanced_effect_Button_3d" android:text="@string/new_soundalive_3D" android:layout_above="@id/new_soundalive_advanced_effect_Button_Bass" style="@style/SoundAliveAdvancedButton" />
+    <Button android:id="@id/new_soundalive_advanced_effect_Button_Bass" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/new_soundalive_bass" android:layout_centerVertical="true" style="@style/SoundAliveAdvancedButton" />
+    <Button android:id="@id/new_soundalive_advanced_effect_Button_Clarity" android:text="@string/new_soundalive_clarity" android:layout_below="@id/new_soundalive_advanced_effect_Button_Bass" style="@style/SoundAliveAdvancedButton" />
+</RelativeLayout>

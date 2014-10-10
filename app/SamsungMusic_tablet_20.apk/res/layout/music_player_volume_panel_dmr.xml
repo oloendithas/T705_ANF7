@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/allshare_volume_panel" android:background="@drawable/music_play_allshare_vol_bg" android:layout_width="@dimen/music_player_dmr_volume_width" style="@style/volume_panel"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/allshare_volume_up" android:src="@drawable/music_play_control_allshare_vol_up" style="@style/allshare_volume_button" />
+    <View style="@style/allshare_volume_divider" />
+    <ImageView android:id="@id/allshare_volume_down" android:src="@drawable/music_play_control_allshare_vol_down" style="@style/allshare_volume_button" />
+    <View style="@style/allshare_volume_divider" />
+    <ImageView android:id="@id/allshare_volume_mute" android:src="@drawable/music_play_control_allshare_vol_mute" style="@style/allshare_volume_button" />
+</LinearLayout>

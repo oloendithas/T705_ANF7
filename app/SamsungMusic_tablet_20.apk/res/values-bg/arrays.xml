@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>Следващ</item>
+        <item>Предишен</item>
+        <item>Пауза</item>
+        <item>Изпълняване</item>
+        <item>Увел. на силата на звука</item>
+        <item>Намаляване на силата на звука</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪьЮЯ</item>
+    </string-array>
+</resources>

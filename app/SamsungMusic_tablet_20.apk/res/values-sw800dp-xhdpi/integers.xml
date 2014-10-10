@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="music_square_column_num">5</integer>
+    <integer name="text1_set_weight">7</integer>
+    <integer name="text1_weight">15</integer>
+    <integer name="text2_weight">4</integer>
+    <integer name="text3_weight">3</integer>
+    <integer name="artist_thumb_count">6</integer>
+    <integer name="suggestion_view_visibility_percent">75</integer>
+    <integer name="album_view_visibility_percent">45</integer>
+    <integer name="star_view_visibility_percent">30</integer>
+    <integer name="menu_order_search">2</integer>
+    <integer name="menu_order_add_to_playlist">1</integer>
+    <integer name="galleryview_child_move_rate_X">170</integer>
+    <integer name="galleryview_child_move_rate_Y">0</integer>
+    <integer name="galleryview_port_spacing">52</integer>
+    <integer name="galleryview_land_spacing">-8</integer>
+    <integer name="galleryview_pivot_distance">286</integer>
+</resources>

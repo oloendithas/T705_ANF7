@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/actionbar_detail_edit_btn_selector" android:id="@id/edit" android:title="@string/menu_edit" android:showAsAction="always" />
+    <item android:icon="@drawable/actionbar_detail_tags_btn_selector" android:enabled="false" android:id="@id/tags" android:visible="false" android:title="@string/tags" android:showAsAction="always" />
+    <item android:icon="@drawable/actionbar_detail_search_btn_selector" android:id="@id/search" android:title="@string/search" android:showAsAction="always" />
+</menu>

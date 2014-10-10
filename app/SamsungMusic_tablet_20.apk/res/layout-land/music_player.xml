@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.musicplus.widget.TouchNotifyRelativeLayout android:id="@id/player_parent_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/music_player_fullplay_view" android:layout_width="@dimen/music_player_fullplay_view_width" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:layout_alignParentLeft="true">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/music_player_main_view" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/music_player_album_maring_bottom">
+            <RelativeLayout android:id="@id/music_player_album_view" android:layout_width="fill_parent" android:layout_height="@dimen/music_player_album_height_with_shade" android:layout_centerHorizontal="true">
+                <include layout="@layout/music_player_album" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/music_player_title_bottom_view" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <include layout="@layout/music_player_title" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <include layout="@layout/music_player_progress_seekbar" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-7.0dip" android:layout_weight="1.0">
+            <include layout="@layout/music_player_control_button" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/music_player_right_pannel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/music_player_fullplay_view" android:layout_alignParentRight="true">
+        <include layout="@layout/music_player_side_cast_view" />
+    </RelativeLayout>
+</com.samsung.musicplus.widget.TouchNotifyRelativeLayout>

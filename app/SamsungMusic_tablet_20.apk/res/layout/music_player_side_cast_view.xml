@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_below="@id/menu_btn">
+        <TextView android:textSize="18.0dip" android:textColor="@color/music_player_title_main" android:layout_gravity="left|center" android:id="@id/sidecasttitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.samsung.musicplus.widget.list.horizontal.TwoWayGridView android:id="@id/horizontal_grid_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/music_player_side_cast_main_title_bottom_margin" app:scrollDirectionLandscape="horizontal" app:horizontalSpacing="21.0dip" app:stretchMode="spacingWidthUniform" app:rowHeight="@dimen/music_player_side_cast_grid_view_height" app:numColumns="1" app:numRows="auto_fit" />
+    <com.samsung.musicplus.glwidget.GLTFlatGalleryView android:id="@id/music_player_similar_music" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/music_player_side_cast_main_title_bottom_margin" custom:albumSize="140.0dip" custom:albumSpacing="15.0dip" custom:backgroundColor="#00000000" custom:textLayout="@layout/music_player_recommended_music_text" custom:shadowBitmap="@drawable/music_fullplayer_sidecast_album_art_bg" custom:maxTiltedAngle="45" custom:tiltedK="10.0" custom:clickAnimation="@animator/recommended_music_click" custom:tiltedReturnAnimation="@animator/recommended_music_tilted_return"
+      xmlns:custom="http://schemas.android.com/apk/res/com.sec.android.app.music" />
+    <ViewStub android:id="@id/empty_view_stub" android:layout="@layout/music_no_item" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/menu_btn" android:focusable="true" android:visibility="invisible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_play_control_menu_btn" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/tts_more_options" />
+</merge>

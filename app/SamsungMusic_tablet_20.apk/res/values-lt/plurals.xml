@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">Pasirinkta takelių: %d</item>
+        <item quantity="one">Pasirinktas 1 takelis.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s galite naudoti %2$d kartus.</item>
+        <item quantity="one">%s galite naudoti 1 kartą.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d dainos (-ų)</item>
+        <item quantity="one">%d įrašas</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">Grojaraščiai: %d</item>
+        <item quantity="one">1 grojaraštis</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albumai (-ų)</item>
+        <item quantity="one">1 albumas</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">Atlikėjai: %d</item>
+        <item quantity="one">1 atlikėjas</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">Žanrai: %d</item>
+        <item quantity="one">1 žanras</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d aplankai (-ų)</item>
+        <item quantity="one">1 aplankas</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">Kompozitoriai: %d</item>
+        <item quantity="one">1 kompozitorius</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d m.</item>
+        <item quantity="one">1 metai</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d įrenginiai (-ių)</item>
+        <item quantity="one">1 įrenginys</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Takeliai pridėti prie grojaraščio: %d</item>
+        <item quantity="one">1 takelis pridėtas prie grojaraščio</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d takelių (-iai) pašalinta (-i).</item>
+        <item quantity="one">1 takelis pašalintas.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">Ištrinta elementų: %d</item>
+        <item quantity="one">1 elementas ištrintas.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">Pašalinta takelių: %d</item>
+        <item quantity="one">1 takelis pašalintas</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d takeliai (-ių) pridėta prie dabar leidžiamų sąrašo</item>
+        <item quantity="one">1 takelis pridėtas prie dabar leidžiamų sąrašo</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">Prie parankinių pridėtų garso takelių: %d</item>
+        <item quantity="one">1 garso takelis pridėtas prie parankinių</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">Prie parankinių pridėta įrašų: %d. Parankiniuose jau esantys įrašai neįtraukti.</item>
+        <item quantity="one">Į parankinius įtrauktas 1 įrašas. Parankiniuose jau esantis įrašas neįtrauktas.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">Iš parankinių pašalinta garso įrašų: %d.</item>
+        <item quantity="one">Iš parankinių pašalintas 1 garso įrašas.</item>
+    </plurals>
+</resources>

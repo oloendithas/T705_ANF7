@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">არჩეულია მუსიკის %d ბილიკი.</item>
+        <item quantity="one">არჩეულია მუსიკის 1 ბილიკი.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">შეგიძლიათ გამოიყენოთ %1$s %2$d-ჯერ.</item>
+        <item quantity="one">შეგიძლიათ გამოიყენოთ %s ერთხელ.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ბილიკი</item>
+        <item quantity="one">%d ბილიკი</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">მუსიკის %d სია</item>
+        <item quantity="one">1 მუსიკის სია</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d ალბომი</item>
+        <item quantity="one">1 ალბომი</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d შემსრულებელი</item>
+        <item quantity="one">1 შემსრულებელი</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d ჟანრი</item>
+        <item quantity="one">1 ჟანრი</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d საქაღალდე</item>
+        <item quantity="one">1 საქაღალდე</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d კომპოზიტორი</item>
+        <item quantity="one">1 კომპოზიტორი</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d წელი</item>
+        <item quantity="one">1 წელი</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d მოწყობილობა</item>
+        <item quantity="one">1 მოწყობილობა</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d ბილიკი დაემატა მუსიკის სიას.</item>
+        <item quantity="one">1 ბილიკი დაემატა მუსიკის სიას</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">წაიშალა %d მუსიკის ბილიკი.</item>
+        <item quantity="one">წაიშალა 1 მუსიკის ბილიკი.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">წაშლილია %d ელემენტი.</item>
+        <item quantity="one">1 ელემენტი წაიშალა.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">წაიშალა %d ბილიკი.</item>
+        <item quantity="one">წაიშალა 1 მუსიკალური ბილიკი</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d ბილიკი დაემატა მუსიკის მიმდინარე სიაში</item>
+        <item quantity="one">1 ბილიკი დაემატა მუსიკის მიმდინარე სიაში</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d ბილიკი დაემატა ფავორიტებში</item>
+        <item quantity="one">1 ბილიკი დაემატა ფავორიტებში</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d ბილიკი დაემატა ფავორიტებში. ფავორიტებში უკვე დამატებული ბილიკები არ დაემატა.</item>
+        <item quantity="one">1 ბილიკი დაემატა ფავორიტებში. ფავორიტებში უკვე დამატებული ბილიკი არ დაემატა.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">ფავორიტებში წაიშალა %d მუსიკალური ბილიკი.</item>
+        <item quantity="one">ფავორიტებში წაიშალა 1 მუსიკალური ბილიკი.</item>
+    </plurals>
+</resources>

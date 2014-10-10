@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>अगला</item>
+        <item>पिछला</item>
+        <item>विराम</item>
+        <item>चलाएँ</item>
+        <item>वॉल्‍यूम ज़्यादा</item>
+        <item>वॉल्‍यूम कम</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>अआइईउऊएऐओऔकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह</item>
+    </string-array>
+</resources>

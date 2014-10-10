@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>తరువాత</item>
+        <item>మునుపటి</item>
+        <item>పాజ్</item>
+        <item>ప్లే</item>
+        <item>వాల్యూమ్‌ను పెంచండి</item>
+        <item>వాల్యూమ్ తక్కువగా ఉంది</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>కఖగఘఙచఛజఝఞటఠడఢణతథదధనపఫబభమయరలళవశషసహఱ</item>
+    </string-array>
+</resources>

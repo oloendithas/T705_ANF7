@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">Vybraté skladby: %d.</item>
+        <item quantity="one">1 vybratá skladba.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s môžete použiť %2$d-krát.</item>
+        <item quantity="one">%s môžete použiť raz.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">Skladby: %d</item>
+        <item quantity="one">%d skladieb</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">Zoznamy na prehrávanie: %d</item>
+        <item quantity="one">1 zoznam na prehrávanie</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">Albumy: %d</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">Interpreti: %d</item>
+        <item quantity="one">1 interpret</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">Žánre: %d</item>
+        <item quantity="one">1 žáner</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">Počet priečinkov: %d</item>
+        <item quantity="one">1 priečinok</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">Skladatelia: %d</item>
+        <item quantity="one">1 skladateľ</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d roky</item>
+        <item quantity="one">1 rok</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">Počet zariadení: %d</item>
+        <item quantity="one">1 zariadenie</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Počet skladieb pridaných do prehrávacieho zoznamu: %d.</item>
+        <item quantity="one">Do prehrávacieho zoznamu bola pridaná 1 skladba.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">Vykonalo sa odstránenie %d skladieb.</item>
+        <item quantity="one">1 skladba bola odstránená.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">Vymazané položky: %d.</item>
+        <item quantity="one">1 odstránená položka.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">Odstránené skladby: %d.</item>
+        <item quantity="one">Odstránená bola 1 skladba.</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">Skladby v počte %d boli pridané do prehrávacieho zoznamu</item>
+        <item quantity="one">1 skladba bola pridaná do prehrávacieho zoznamu</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">Počet skladieb pridaných medzi obľúbené: %d.</item>
+        <item quantity="one">1 skladba bola pridaná medzi obľúbené.</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">Skladby v počte %d boli pridané do priečinka Obľúbené. Skladby, ktoré sú už v priečinku Obľúbené, sa nepridali.</item>
+        <item quantity="one">1 skladba bola pridaná do priečinka Obľúbené. Skladba, ktorá už je v priečinku Obľúbené, sa nepridala.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">Odstránené skladby z priečinka Obľúbené: %d</item>
+        <item quantity="one">1 skladba bola odstránená z priečinka Obľúbené.</item>
+    </plurals>
+</resources>

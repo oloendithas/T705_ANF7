@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/list_item_line1_text_size" android:textColor="@color/media_info_main_text" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/item_text1" android:paddingLeft="@dimen/list_item_padding_side" android:paddingRight="@dimen/list_item_padding_side" android:layout_width="wrap_content" android:layout_height="@dimen/normal_list_one_line_height" android:singleLine="true" />
+    <View style="@style/Divider" />
+</LinearLayout>

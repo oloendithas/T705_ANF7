@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/add_to_playlist_one_line_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.musicplus.widget.MatchedTextView android:textSize="19.0dip" android:textColor="@color/default_text" android:gravity="left|center" android:id="@id/text1" android:layout_width="wrap_content" android:layout_marginLeft="@dimen/add_to_playlist_text_left_margin" android:layout_toLeftOf="@id/text2" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/Text.ListItem" />
+    <com.samsung.musicplus.widget.MatchedTextView android:textSize="15.0dip" android:textColor="@color/add_to_playlist_count" android:gravity="right|center" android:id="@id/text2" android:layout_width="wrap_content" android:layout_marginRight="@dimen/add_to_playlist_text_right_margin" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Text.ListItem" />
+    <View android:layout_alignParentBottom="true" style="@style/Divider.AddToPlaylist" />
+</RelativeLayout>

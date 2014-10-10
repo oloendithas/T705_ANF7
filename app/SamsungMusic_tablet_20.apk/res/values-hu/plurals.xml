@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d szám kijelölve.</item>
+        <item quantity="one">1 szám kijelölve.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Az elem (%1$s) %2$d alkalommal használható.</item>
+        <item quantity="one">Az elem (%s) 1 alkalommal használható.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d szám</item>
+        <item quantity="one">%d szám</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d lejátszási lista</item>
+        <item quantity="one">1 lejátszási lista</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d album</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d előadó</item>
+        <item quantity="one">1 előadó</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d műfaj</item>
+        <item quantity="one">1 műfaj</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d mappa</item>
+        <item quantity="one">1 mappa</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d zeneszerző</item>
+        <item quantity="one">1 zeneszerző</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d év</item>
+        <item quantity="one">1 év</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d eszköz</item>
+        <item quantity="one">1 eszköz</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d szám hozzáadva a lejátszási listához.</item>
+        <item quantity="one">1 szám hozzáadva a lejátszási listához.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d szám törölve.</item>
+        <item quantity="one">1 szám törölve.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d tétel törölve.</item>
+        <item quantity="one">1 tétel törölve.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d számot eltávolított.</item>
+        <item quantity="one">1 szám eltávolítva.</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d szám hozzáadva a Most játszott listához</item>
+        <item quantity="one">1 szám hozzáadva a Most játszott listához</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d szám felvéve a kedvencek közé.</item>
+        <item quantity="one">1 szám felvéve a kedvencek közé.</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d szám felvéve a Kedvencek közé. A már a Kedvencek között található számok nem lettek hozzáadva.</item>
+        <item quantity="one">1 szám felvéve a Kedvencek közé. A már a Kedvencek között található szám nem lett hozzáadva.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d szám eltávolítva a Kedvencek közül.</item>
+        <item quantity="one">1 szám eltávolítva a Kedvencek közül.</item>
+    </plurals>
+</resources>

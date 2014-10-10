@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.musicplus.widget.CheckedLinearLayout android:orientation="horizontal" android:background="@drawable/list_item_selector" android:paddingRight="@dimen/list_item_padding_side" android:layout_width="fill_parent" android:layout_height="@dimen/normal_list_one_line_height" ididan:checkableId="@id/checkbox"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ididan="http://schemas.android.com/apk/res/com.sec.android.app.music">
+    <ViewStub android:layout_gravity="center_vertical" android:id="@id/list_item_checkbox_stub" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout="@layout/list_item_checkbox_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_item_padding_side" android:layout_marginRight="@dimen/list_item_check_box_right_margin" />
+    <RelativeLayout android:paddingTop="@dimen/list_item_padding_top_bottom" android:paddingBottom="@dimen/list_item_padding_top_bottom" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/albumart" android:layout_centerVertical="true" style="@style/ListAlbumArt.Normal" />
+        <ViewStub android:id="@id/album_art_icon_stub" android:layout="@layout/list_item_albumart_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/albumart" android:layout_alignBottom="@id/albumart" />
+        <ViewStub android:id="@id/album_art_button_stub" android:layout="@layout/list_item_albumart_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ViewStub android:id="@id/list_progressbar_stub" android:layout="@layout/list_item_track_progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/albumart" android:layout_centerVertical="true">
+            <LinearLayout android:gravity="center_vertical" android:id="@id/layout1" android:layout_width="@dimen/tablet_list_track_song_width" android:layout_height="wrap_content">
+                <TextView android:id="@id/uhq_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tablet_list_track_song_left_margin_width" android:layout_marginRight="-7.0dip" style="@style/UhqTagInfo" />
+                <com.samsung.musicplus.widget.MatchedTextView android:id="@id/text1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tablet_list_track_song_left_margin_width" android:minWidth="@dimen/tablet_album_list_item_text2_width" style="@style/Text.ListItem.Line1_Tabet" />
+            </LinearLayout>
+            <com.samsung.musicplus.widget.MatchedTextView android:id="@id/text2" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tablet_list_track_artist_album_title_left_margin_width" style="@style/Text.ListItem.Line2" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/layout2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.samsung.musicplus.widget.MatchedTextView android:id="@id/text3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tablet_list_track_artist_album_title_left_margin_width" style="@style/Text.ListItem.Line2" />
+            </LinearLayout>
+            <com.samsung.musicplus.widget.MatchedTextView android:id="@id/tag" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Text.ListItem.Line2" />
+            <RelativeLayout android:id="@id/animation_layout" android:layout_width="@dimen/tablet_list_track_icon_controller_width" android:layout_height="@dimen/tablet_list_track_tablet_icon_controller_size" android:layout_marginLeft="@dimen/tablet_list_track_icon_controller_left_margin_width" android:layout_marginRight="@dimen/tablet_list_track_icon_controller_left_margin_width">
+                <ImageView android:id="@id/list_personal_icon" android:layout_width="@dimen/list_personal_icon_size" android:layout_height="@dimen/list_personal_icon_size" android:layout_centerVertical="true" style="@style/PerSonalTagInfo_list" />
+                <ViewStub android:id="@id/list_animation_stub" android:layout="@layout/list_item_animation" android:layout_width="@dimen/tablet_list_track_tablet_icon_controller_size" android:layout_height="@dimen/tablet_list_track_tablet_icon_controller_size" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <com.samsung.musicplus.widget.MatchedTextView android:id="@id/duration" android:layout_width="@dimen/tablet_list_track_duration_width" android:layout_height="wrap_content" style="@style/Text.ListItem.Line2" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.samsung.musicplus.widget.CheckedLinearLayout>

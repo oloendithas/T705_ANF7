@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/action_mode_layout" android:background="?android:actionBarItemBackground" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="?android:actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/action_mode_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?android:homeAsUpIndicator" android:layout_marginEnd="10.0dip" />
+    <TextView android:ellipsize="marquee" android:id="@id/action_mode_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:requiresFadingEdge="horizontal" android:paddingEnd="8.0dip" style="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/menu0" android:orderInCategory="0">
+        <item android:id="@id/select_item" android:visible="false" android:title="@string/menu_select" />
+        <item android:id="@id/delete_item" android:visible="false" android:title="@string/menu_delete" />
+        <item android:icon="@drawable/music_actionbar_shuffle" android:id="@id/shuffle_play" android:visible="false" android:title="@string/menu_shuffle" android:showAsAction="always" />
+        <item android:icon="@drawable/tw_actionbar_btn_add_normal" android:id="@id/add_tracks" android:visible="false" android:orderInCategory="@integer/menu_order_add_to_playlist" android:title="@string/menu_add_tracks" android:showAsAction="always" />
+    </group>
+    <group android:id="@id/menu1" android:orderInCategory="5">
+        <item android:id="@id/ts_online_store" android:visible="false" android:title="@string/lgt_mp3_ringtone" />
+        <item android:id="@id/samsung_music" android:visible="false" android:title="@string/menu_samsung_music" />
+    </group>
+    <group android:id="@id/menu2" android:orderInCategory="20">
+        <item android:id="@id/transfer_to_bt" android:visible="false" android:title="@string/menu_via_bluetooth" />
+        <item android:id="@id/transfer_to_phone" android:visible="false" android:title="@string/menu_via_device" />
+    </group>
+    <group android:id="@id/menu3" android:orderInCategory="40">
+        <item android:id="@id/list_view" android:visible="false" android:title="@string/menu_list" />
+        <item android:id="@id/grid_view" android:visible="false" android:title="@string/menu_grid" />
+        <item android:id="@id/scan_for_nearbydevices" android:visible="false" android:title="@string/menu_scan_for_nearbydevices" />
+        <item android:id="@id/music_square" android:visible="false" android:title="@string/music_square" />
+        <item android:id="@id/go_to_setting" android:title="@string/settings" />
+    </group>
+    <group android:id="@id/menu4" android:orderInCategory="50">
+        <item android:id="@id/end" android:visible="false" android:title="@string/menu_end" />
+    </group>
+</menu>

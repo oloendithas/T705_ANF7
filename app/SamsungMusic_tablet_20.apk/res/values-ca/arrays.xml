@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>Següent</item>
+        <item>Anterior</item>
+        <item>Pausa</item>
+        <item>Reproduir</item>
+        <item>Pujar volum</item>
+        <item>Baixar el volum</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ÀÇÉÈÍÓÒÚÜABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>Järgmine</item>
+        <item>Eelmine</item>
+        <item>Paus</item>
+        <item>Esita</item>
+        <item>Helitugevus suuremaks</item>
+        <item>Heli vaiksemaks</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNOPQRSŠZŽTUVWÕÄÖÜXY</item>
+    </string-array>
+</resources>

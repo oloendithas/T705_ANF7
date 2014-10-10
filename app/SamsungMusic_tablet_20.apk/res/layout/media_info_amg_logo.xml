@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/media_info_logo_layout" android:background="@drawable/detail_biography_bottom_bg" android:layout_width="fill_parent" android:layout_height="19.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/music_logo_amg" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="9.0dip" android:textColor="@color/tw_white" android:ellipsize="marquee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/amg_lisence_line" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:marqueeRepeatLimit="marquee_forever" />
+</RelativeLayout>

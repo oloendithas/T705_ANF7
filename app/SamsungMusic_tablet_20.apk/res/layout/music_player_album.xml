@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/album_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    <com.samsung.musicplus.glwidget.GLTFlatResizeGalleryView android:id="@id/gl_album_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" custom:albumOpacity="0.0%" custom:albumSize="@dimen/music_player_not_selected_album_height" custom:albumSpacing="@dimen/music_player_album_spacing" custom:albumSpacingAdditional="@dimen/music_player_album_spacing_additional" custom:backgroundColor="#00000000" custom:selectedAlbumSize="@dimen/music_player_album_height" custom:scrollingFriction="@dimen/music_player_album_scrolling_friction" custom:shadowBitmap="@drawable/music_fullplayer_album_art_bg"
+      xmlns:custom="http://schemas.android.com/apk/res/com.sec.android.app.music" />
+    <ProgressBar android:id="@id/music_loading_player_album" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyle" />
+    <ViewStub android:id="@id/music_player_uhq_stub" android:layout="@layout/music_player_uhq_tag_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ViewStub android:id="@id/personal_mode_stub" android:layout="@layout/music_player_personal_mode_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/music_player_personal_icon_margin_left" android:layout_marginTop="@dimen/music_player_personal_icon_margin_top" />
+    <ViewStub android:id="@id/ab_repeat_stub" android:layout="@layout/music_player_ab_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

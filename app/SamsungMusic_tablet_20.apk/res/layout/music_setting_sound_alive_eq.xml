@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.touchwiz.widget.TwSeekBarBubble android:id="@id/seekbubble" android:paddingLeft="@dimen/custom_seekbubble_padding_horizontal" android:paddingTop="@dimen/equalizer_seekbar_padding_top" android:paddingRight="@dimen/custom_seekbubble_padding_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/eq_dbscale_layout" android:layout_width="@dimen/eq_dbscale_layout" android:layout_height="wrap_content" />
+        <include android:id="@id/eq_control0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/user_eq_control_bar" />
+        <include android:id="@id/eq_control1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/user_eq_control_bar" />
+        <include android:id="@id/eq_control2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/user_eq_control_bar" />
+        <include android:id="@id/eq_control3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/user_eq_control_bar" />
+        <include android:id="@id/eq_control4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/user_eq_control_bar" />
+        <include android:id="@id/eq_control5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/user_eq_control_bar" />
+        <include android:id="@id/eq_control6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/user_eq_control_bar" />
+    </LinearLayout>
+</com.sec.android.touchwiz.widget.TwSeekBarBubble>

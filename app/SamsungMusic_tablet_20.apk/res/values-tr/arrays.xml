@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>Sonraki</item>
+        <item>Önceki</item>
+        <item>Duraklat</item>
+        <item>Çal</item>
+        <item>Sesi aç</item>
+        <item>Ses seviyesi aşağı</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+</resources>

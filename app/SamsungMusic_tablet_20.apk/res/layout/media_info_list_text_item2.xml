@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/list_item_padding_side" android:paddingTop="12.0dip" android:paddingRight="@dimen/list_item_padding_side" android:layout_width="fill_parent" android:layout_height="65.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@color/media_info_sub_text" android:ellipsize="marquee" android:id="@id/item_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <TextView android:textSize="21.0dip" android:textColor="@color/media_info_main_text" android:ellipsize="marquee" android:id="@id/item_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:singleLine="true" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/palmtouch_album_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/album_view" android:visibility="gone" android:layout_width="@dimen/palm_touch_tablet_gallery_view_album_art_item" android:layout_height="@dimen/palm_touch_tablet_gallery_view_album_art_item" android:scaleType="fitXY" />
+    </LinearLayout>
+    <com.samsung.musicplus.widget.TabletMusicGalleryView android:gravity="top" android:id="@id/music_player_main_gallery_view" custom:scrollSpeedFactor="0.75" custom:flingSpeedFactor="0.75" style="@style/FullPlayerGalleryView"
+      xmlns:custom="http://schemas.android.com/apk/res/com.sec.android.app.music" />
+    <ProgressBar android:id="@id/music_loading_player_album" android:visibility="invisible" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerInParent="true" />
+    <ViewStub android:id="@id/music_player_uhq_stub" android:layout="@layout/music_player_uhq_tag_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/music_player_lyric_stub_layout" android:layout_width="@dimen/tablet_lyric_text_scroll_view_width" android:layout_height="@dimen/tablet_lyric_text_scroll_view_width" android:layout_marginTop="@dimen/tablet_lyric_text_scroll_view_margintop" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <ViewStub android:id="@id/music_player_lyric_stub" android:layout="@layout/tablet_music_player_lyric_panel" android:layout_width="@dimen/tablet_lyric_text_scroll_view_width" android:layout_height="@dimen/tablet_lyric_text_scroll_view_width" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/tablet_personal_icon_margin_width" android:layout_height="@dimen/tablet_personal_icon_margin_width" android:layout_marginLeft="@dimen/tablet_personal_icon_margin_left" android:layout_marginTop="@dimen/tablet_personal_icon_margin_top">
+        <ImageView android:id="@id/list_personal_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/PerSonalFullPlayerTagInfo" />
+    </LinearLayout>
+    <ViewStub android:id="@id/ab_repeat_stub" android:layout="@layout/music_player_ab_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

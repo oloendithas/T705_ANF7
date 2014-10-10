@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="@dimen/music_player_view_head_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/all_share_btn" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dlna_change_player_btn" android:contentDescription="@string/change_player" />
+    <ImageView android:gravity="center" android:id="@id/all_share_btn_divider" android:background="?android:actionBarDivider" android:layout_width="1.0dip" android:layout_height="26.0dip" android:layout_marginTop="13.0dip" />
+    <ImageView android:id="@id/volume_btn" android:focusable="true" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_play_volume_btn" android:contentDescription="@string/tts_volume" />
+    <ImageView android:gravity="center" android:id="@id/menu_divider" android:background="?android:actionBarDivider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="26.0dip" android:layout_marginTop="13.0dip" />
+    <ImageView android:id="@id/menu_btn" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_play_control_menu_btn" android:layout_alignParentRight="true" android:contentDescription="@string/tts_more_options" />
+</LinearLayout>

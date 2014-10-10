@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d tituj u zgjodhën.</item>
+        <item quantity="one">1 titull u zgjodh.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Mund ta përdorësh %1$s %2$d herë.</item>
+        <item quantity="one">Mund ta përdorësh %s 1 herë.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d tituj</item>
+        <item quantity="one">%d pistë</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d lista dëgjimi</item>
+        <item quantity="one">1 listë leximi</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albume</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d artistë</item>
+        <item quantity="one">1 artist</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d zhanre</item>
+        <item quantity="one">1 zhanër</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d regjistra</item>
+        <item quantity="one">1 dosje</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d kompozitorë</item>
+        <item quantity="one">1 kompozitor</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d vite</item>
+        <item quantity="one">1 vit</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d pajisje</item>
+        <item quantity="one">1 pajisje</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d tinguj u shtuan te lista e leximeve.</item>
+        <item quantity="one">1 pistë u shtua te lista e leximeve.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d pista u hoqën.</item>
+        <item quantity="one">1 pistë u hoq.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d objekte u fshinë.</item>
+        <item quantity="one">1 artikull u fshi.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d tinguj u hoqën.</item>
+        <item quantity="one">1 pistë u hoq.</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d traga u shtuan te lista e çfarë po luhet</item>
+        <item quantity="one">1 tragë u shtua te lista e çfarë po luhet</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d pista u shtuan tek të preferuarat.</item>
+        <item quantity="one">1 pistë u shtua tek të preferuarat.</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d pista u shtuan te Të preferuarat. Pistat tashmë te Të preferuarat nuk u shtuan.</item>
+        <item quantity="one">1 pistë u shtua te Të preferuarat. Pista tashmë te Të preferuarat nuk u shtua.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d traga u hoqën nga Të preferuarat.</item>
+        <item quantity="one">1 tragë u hoq nga Të preferuarat.</item>
+    </plurals>
+</resources>

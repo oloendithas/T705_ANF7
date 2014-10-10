@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">បាន​ជ្រើស %d បទ។</item>
+        <item quantity="one">បាន​ជ្រើស 1 បទ។</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">អ្នក​អាច​ប្រើ %1$s %2$d ដង។</item>
+        <item quantity="one">អ្នក​អាច​ប្រើ %s 1 ដង។</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d បទ</item>
+        <item quantity="one">%d បទ</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d បញ្ជី​ចាក់</item>
+        <item quantity="one">បញ្ជី​ចាក់ 1</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d អាល់ប៊ុម</item>
+        <item quantity="one">1 អាល់ប៊ុម</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d សិល្បករ</item>
+        <item quantity="one">សិល្បករ 1</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d បែប</item>
+        <item quantity="one">បែប 1</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d សឺមី</item>
+        <item quantity="one">សឺមី 1</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">អ្នកតែង %d</item>
+        <item quantity="one">អ្នកតែង 1</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d ឆ្នាំ</item>
+        <item quantity="one">1 ឆ្នាំ</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">ឧបករណ៍ %d</item>
+        <item quantity="one">ឧបករណ៍ 1</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">បាន​ថែម %d បទ​ទៅ​បញ្ជីចាក់។</item>
+        <item quantity="one">បាន​ថែម 1 បទ​ទៅ​បញ្ជីចាក់</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">បាន​លុប %d បទ។</item>
+        <item quantity="one">បាន​លុប 1 បទ។</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">បាន​លុប %d ធាតុ។</item>
+        <item quantity="one">បាន​លុប​ធាតុ 1។</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">បាន​លុប​ចម្រៀង %d បទ។</item>
+        <item quantity="one">បាន​លុប 1 បទ</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">បាន​ថែម %d បទ​ទៅ​បញ្ជី​កំពុង​ចាក់​ឥឡូវ</item>
+        <item quantity="one">បាន​ថែម 1 បទ​ទៅ​បញ្ជី​កំពុង​ចាក់​ឥឡូវ</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">បាន​ថែម %d បទ ទៅ​សំណព្វ</item>
+        <item quantity="one">បាន​ថែម 1 បទ ទៅ​សំណព្វ</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">បាន​ថែម %d បទ ទៅ​សំណព្វ។ មិន​បាន​ថែម​បទ​ដែល​មាន​ក្នុង​សំណព្វ​ហើយ។</item>
+        <item quantity="one">បាន​ថែម 1 បទ ទៅ​សំណព្វ។ មិន​បាន​ថែម​បទ​ដែល​មាន​ក្នុង​សំណព្វ​ហើយ។</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">បាន​លុប %d បទ ពី​សំណព្វ។</item>
+        <item quantity="one">បាន​លុប 1 បទ ពី​សំណព្វ។</item>
+    </plurals>
+</resources>

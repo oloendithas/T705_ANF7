@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/normal_list_two_line_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/reorder_icon" android:layout_width="wrap_content" android:layout_height="@dimen/normal_list_two_line_height" android:layout_marginLeft="@dimen/list_item_padding_side" android:layout_marginRight="@dimen/list_item_padding_side" android:src="@drawable/tw_list_icon_reorder_holo_light" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:gravity="center_vertical" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/normal_list_two_line_height" android:layout_toRightOf="@id/reorder_icon" android:layout_alignParentBottom="true">
+        <include layout="@layout/list_item_albumart_text_two_line_tablet" />
+    </RelativeLayout>
+    <View android:layout_alignParentBottom="true" style="@style/Divider" />
+</RelativeLayout>

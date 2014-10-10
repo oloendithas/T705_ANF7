@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@color/widget_controller_bg" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/widget_album_art_size" android:layout_height="@dimen/widget_album_art_size">
+                <ImageView android:id="@id/album_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:contentDescription="@string/tts_go_to_music" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/albumart_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.DeviceDefault.ProgressBar.Small" />
+                <ImageView android:id="@id/personal_mode_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="4.0dip" style="@style/PerSonalTagInfo" />
+            </FrameLayout>
+            <TextView android:textSize="@dimen/widget_controller_title" android:textStyle="bold" android:textColor="@color/widget_controller_title" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/title" android:focusable="true" android:layout_width="215.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/no_songs_playing" android:singleLine="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/widget_control_shuffle" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_control_shuffle_off_btn" />
+                <ImageView android:id="@id/prev_btn" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_control_prev_btn" android:contentDescription="@string/tts_previous" />
+                <ImageView android:id="@id/play_pause_btn" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_control_play_btn" />
+                <ImageView android:id="@id/next_btn" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_control_next_btn" android:contentDescription="@string/tts_next" />
+                <ImageView android:id="@id/widget_control_repeat" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_control_repeat_off_btn" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@color/widget_list_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ListView android:id="@id/music_widget_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/music_list_line" android:dividerHeight="1.0dip" android:requiresFadingEdge="vertical" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/default_text" android:gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_tracks" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@drawable/widget_shadow" android:scaleType="fitXY" />
+</LinearLayout>

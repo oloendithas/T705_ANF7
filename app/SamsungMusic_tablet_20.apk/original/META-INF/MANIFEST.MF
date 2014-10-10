@@ -1,0 +1,3192 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+
+Name: res/layout/widget_layout.xml
+SHA1-Digest: SNRuyPXautg0TYIuukM8qwKiLPI=
+
+Name: res/layout/personal_folder_list_item.xml
+SHA1-Digest: floI+9ekGtttjGsVPhp5U/BYb+A=
+
+Name: res/drawable-sw800dp-xhdpi/playspeed_popup_icon_plus_press.png
+SHA1-Digest: 9We0+WTuNDtTeBCcBPWQchFq1Y4=
+
+Name: res/layout/list_content_square.xml
+SHA1-Digest: P8jxgFLIHX41FtyLX2eb+ATK6ro=
+
+Name: res/drawable-xhdpi/music_play_menu_allshare_normal.png
+SHA1-Digest: YL6PeVw2DpRNsfdCes9k6DssOaM=
+
+Name: res/drawable-xhdpi/quick_panel_music_play_focus.png
+SHA1-Digest: NUuzrhn8ow+mQ/uoKnCrlKA08OA=
+
+Name: res/layout/list_content_albums_track.xml
+SHA1-Digest: SPcofu3RIvitDWbGg1hfRXlQMbA=
+
+Name: res/drawable/sview_cover_music_play_control_pause_btn.xml
+SHA1-Digest: AcT6tv3s2LC4gSQiJdrorfbD6to=
+
+Name: res/drawable/widget_control_repeat_all_btn.xml
+SHA1-Digest: xioRJqJnMDbuhQTgQaJHXlndjDA=
+
+Name: res/layout/magazine_widget_list_item_track.xml
+SHA1-Digest: dKjKXP6YZW5Nik83xoSf2t111sY=
+
+Name: res/drawable/music_play_menu_shuffle_on_btn.xml
+SHA1-Digest: wqJ56P5ROn92RKAmY1I5DxW75TE=
+
+Name: res/drawable-xhdpi/music_play_menu_allshare_focus.png
+SHA1-Digest: 967Y51c1TY16pGoNr20rN/CTRPw=
+
+Name: res/drawable-xhdpi/quick_panel_music_rew_press.png
+SHA1-Digest: 6zOCjabyxXdD412ZQ9Y970+w0Xg=
+
+Name: res/drawable-xhdpi/sview_cover_music_play_control_rw.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-xhdpi/widget_music_btn_next_normal.png
+SHA1-Digest: gQQ4Ym4HswioL2Tuv92PEJqVQSA=
+
+Name: res/drawable-sw800dp-xhdpi/music_soundalive_card_hall_on.png
+SHA1-Digest: XX+pFPt/KHIJnmvCAVZht2gcCZg=
+
+Name: res/drawable-xhdpi/tw_btn_next_depth_pressed_holo_light.png
+SHA1-Digest: OeJtinzias0hIaWbCbVwKs9dVYE=
+
+Name: res/layout-sw800dp-xhdpi/mini_player.xml
+SHA1-Digest: QuHO36LcgwZC774PdWT5B8pn0+k=
+
+Name: res/drawable-xhdpi/music_play_menu_02_focus.png
+SHA1-Digest: 9D1KJxxFdCZSMmoMJnqMg2rcOSU=
+
+Name: res/drawable-sw800dp-xhdpi/music_soundalive_card_none_off.png
+SHA1-Digest: bZfljy2avW+SCkiOYzFFjcRtNHU=
+
+Name: res/drawable-sw800dp-xhdpi/sound_alive_equalizer_bar_handler_foc
+ us.png
+SHA1-Digest: SrbZcVtA6OqMBXPmexi3bGHEOzg=
+
+Name: res/drawable-xhdpi/music_play_menu_on_shuffle_focus.png
+SHA1-Digest: dk0pJNmZh++hoqxCRyo4aH+ltAQ=
+
+Name: res/drawable-sw800dp-xhdpi/new_soundalive_advanced_effect_select
+ or.xml
+SHA1-Digest: UALLka7BD3dRl/2JBI9XwbLuRc8=
+
+Name: res/drawable-sw800dp-xhdpi/tw_list_divider_holo_dark.9.png
+SHA1-Digest: AgFJi6J1gvzGpXYcs5zw1WoqbiA=
+
+Name: res/drawable/music_play_control_addtolist_btn.xml
+SHA1-Digest: 5q3zrxda3F5Ud749nk0qx9lHIaQ=
+
+Name: res/layout-sw800dp-xhdpi/music_setting_new_soundalive_layout.xml
+SHA1-Digest: 6p6RdyO3jEGrAAf8FHVZ8rt9D8E=
+
+Name: res/layout/notification_music_control.xml
+SHA1-Digest: wOuTnqHreXiTwkaEs9WDiaZ4LBw=
+
+Name: res/layout-sw800dp-xhdpi/list_folder_item_albumart_text_two_line
+ _tablet.xml
+SHA1-Digest: OBXF+wDr/nJjUAwDsmRrWmmE2Dc=
+
+Name: res/drawable/play_speed_minus_btn.xml
+SHA1-Digest: 6V4zSiy1XusLivw23wMVKV7rBSo=
+
+Name: res/layout/music_setting_new_soundalive_layout.xml
+SHA1-Digest: vjmxfF25RLaHnWY60MQ5N3zniOc=
+
+Name: res/layout/new_soundalive_advanced_effect.xml
+SHA1-Digest: LHbVyGZVwiWtOQp5TLSmSnBaiAY=
+
+Name: res/drawable-xhdpi/music_easymode_progress_primary.9.png
+SHA1-Digest: D2/M3e3bVSRE3FVfWDTmvc4anVY=
+
+Name: res/layout/music_player_allshare_details.xml
+SHA1-Digest: vcrkwcZrBolzxYfm5okUc9zycR4=
+
+Name: res/drawable-xhdpi/playspeed_popup_icon_minus_press.png
+SHA1-Digest: yE5NMB/EPdsrt48P40TiSxI2HFc=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_play_press.png
+SHA1-Digest: SgPJdN6YK0pK1OUHM9AdapNVQN4=
+
+Name: res/drawable-xhdpi/tw_list_section_divider_pressed_holo_light.9.
+ png
+SHA1-Digest: Au80RnB3BRpmhai25Z0m9BA5HzU=
+
+Name: res/drawable-xhdpi/widget_music_btn_pause_normal.png
+SHA1-Digest: UrsvHCZnBGD8lC7va3c5WYMWXaY=
+
+Name: res/layout-sw800dp-xhdpi/list_item_folder_item.xml
+SHA1-Digest: 48hQTDcotqAs1GvvRoU3Ru+pRcE=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_pause_focus.png
+SHA1-Digest: 8ztcNmiTVmSnsztRa3PZZ42EPeM=
+
+Name: res/drawable-sw800dp-xhdpi/music_add_to_playlist_normal.png
+SHA1-Digest: Ja3ER7NaOfY+TZGcW1d+GDILiq4=
+
+Name: res/drawable-xhdpi/unlock_delta_m_prev_pressed.png
+SHA1-Digest: TVJoH3s7N24ASuHJhE8yblDm5xc=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_off_shuffle_focus.png
+SHA1-Digest: LHBjp74Ut5DV6fcOIdOvJ+mPt8M=
+
+Name: res/drawable/sview_cover_music_player_prev_btn.xml
+SHA1-Digest: aKErkQWfnTcLxGyeCIHPUZe5g3E=
+
+Name: res/drawable-sw800dp-xhdpi/music_square_help_press.png
+SHA1-Digest: i+WSDilk6L8M5/heZibNLkd7L8U=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_rew.png
+SHA1-Digest: Ur/53ZOgNLSKDEj9lABLKdF9WeQ=
+
+Name: res/layout/dlna_change_player_dialog.xml
+SHA1-Digest: 3t3BHVePLWUy7GTEosH4IgxfcSU=
+
+Name: res/drawable-xhdpi/music_play_menu_list_press.png
+SHA1-Digest: bDK3yKxuVyPopgGq4Z+tmPRSjto=
+
+Name: res/drawable-xhdpi/ic_question_normal.png
+SHA1-Digest: 1fm4LRv3o49d9Sk0C4x3PpQW3Ws=
+
+Name: res/drawable-nodpi/sound_alive_equalizer_bar_dark.9.png
+SHA1-Digest: oKWjlK/YoQu0jP1jWQnE9QZw8lc=
+
+Name: res/drawable-xhdpi/playspeed_popup_icon_plus_focus.png
+SHA1-Digest: pxa+smAjm4tVSgL9IvQr3N6LN4Q=
+
+Name: res/drawable-xhdpi/widget_music_btn_repeat_all_normal.png
+SHA1-Digest: XuoQWqT846sZm8ZpqLtoq40R6UI=
+
+Name: res/drawable-xhdpi/music_player_uhq.png
+SHA1-Digest: wNy++Zxg2SH6QK+AmLx37C8wQwA=
+
+Name: res/drawable-xhdpi/widget_music_btn_shuffle_off_normal.png
+SHA1-Digest: j8sIqFKr8lyCovhzqpc6tPOVk5E=
+
+Name: res/drawable-xhdpi/music_play_allshare_vol_mute_focus.png
+SHA1-Digest: DisIhGnja89STh+RxayTsAegC8A=
+
+Name: res/menu/list_playlist_option_menu.xml
+SHA1-Digest: 2cJhA/lf0qyeS9vPUIn2qdAHXWs=
+
+Name: res/drawable-sw800dp-xhdpi/tw_subtab_bg_holo_dark.9.png
+SHA1-Digest: TK7Jlq0TRkWobEfvl/5k1nNkdCo=
+
+Name: res/layout/music_square.xml
+SHA1-Digest: dKUstFOVzZMvNfs6WolNBbtkN1E=
+
+Name: res/drawable-land-xhdpi/music_fullplayer_album_art_bg.png
+SHA1-Digest: 6AAG5Lc+vuqLgF2a+kWJDLEQCXo=
+
+Name: res/drawable-xhdpi/mg_music_shuffle_on_normal.png
+SHA1-Digest: dFw846OonD+IMm3m2/NldIS33xI=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_close.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-xhdpi/widget_music_btn_pause_focus.png
+SHA1-Digest: aPoKo0jhuh7XGCzyzCuEshNmNFM=
+
+Name: res/drawable-nodpi/tw_toast_frame_holo_dark.9.png
+SHA1-Digest: 4BbK1APNN7KY3K9PD3WZkFzT1e8=
+
+Name: res/layout-sw800dp-xhdpi/palm_touch_tutorial.xml
+SHA1-Digest: qvTfXUggiO++pQrmKH5sumhTS5s=
+
+Name: res/layout/custom_cancel_done.xml
+SHA1-Digest: Ee0C8nSYCJBOLWHchiMwhObOLzQ=
+
+Name: res/drawable-nodpi/hover_music_bg_c.9.png
+SHA1-Digest: ZeYtxmn4q2IazMYEj+19COuIaPo=
+
+Name: res/drawable-xhdpi/mg_music_btn_prev_normal.png
+SHA1-Digest: FVX1VqtLvTFQzXViA2yPpH5WIwc=
+
+Name: res/layout-sw800dp-xhdpi/list_content_tablet.xml
+SHA1-Digest: AQPcS8lxMRP1trrVHZvQpkm0e6U=
+
+Name: res/layout/list_item_title_albumart_two_line.xml
+SHA1-Digest: iwgDyINzESpXe3CzUJwY7WNXvTM=
+
+Name: res/drawable-xhdpi/music_detail_arrow_left_dim.png
+SHA1-Digest: YAb51XsUlLNuzdH143Yn8SNP364=
+
+Name: res/drawable-sw800dp-xhdpi/mg_music_shuffle_on_press.png
+SHA1-Digest: hq6NAbWNX2QBTO82s0c0ycWLtoo=
+
+Name: res/drawable-xhdpi/widget_music_btn_next_focus.png
+SHA1-Digest: qR/RiO6J3le7Voh7cOVl5yFuAoA=
+
+Name: res/layout/device_no_item.xml
+SHA1-Digest: Gcvix5401/me/SZPEzumXbmUEgw=
+
+Name: res/drawable/list_header_shuffle_selector.xml
+SHA1-Digest: TFn36w35XYyTP04PyoZWV2km+ZI=
+
+Name: res/drawable-xhdpi/music_btn_add_press.png
+SHA1-Digest: TPEb/Qyw+wJ2JdtnnDsdRLUxI6U=
+
+Name: res/drawable/sview_cover_music_player_list_btn.xml
+SHA1-Digest: s3/cMAy5jDieo+nRBsZzGL3HWGs=
+
+Name: res/layout-sw800dp-land-xhdpi/music_square.xml
+SHA1-Digest: j1wVNHf7m+wKedB74V1hhWIADcI=
+
+Name: res/menu/list_common_context_menu.xml
+SHA1-Digest: h8C++lkvhFlxKRus9/0qdbvLm/Q=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_shuffle.png
+SHA1-Digest: dFw846OonD+IMm3m2/NldIS33xI=
+
+Name: res/layout/list_item_checkbox_stub.xml
+SHA1-Digest: 0eWoshdeZj/NeG5eQHC5wJZVVbk=
+
+Name: res/drawable-xhdpi/music_square_help_normal.png
+SHA1-Digest: B2yjQvLkQGBCPRyDjuZCpZRzKu0=
+
+Name: res/layout-land/music_setting_new_soundalive_activity.xml
+SHA1-Digest: KlqukaPRurQguSOLE+l3+NLPloE=
+
+Name: res/drawable/quickpanel_btn_bg.xml
+SHA1-Digest: Gb7JsUEP4Ob8zcfpp0f7LdEp14s=
+
+Name: res/layout-land/music_square_for_sweep.xml
+SHA1-Digest: YCLcyNI3K4AdDBL+QyR2LjIPgxY=
+
+Name: res/layout/list_header_button.xml
+SHA1-Digest: Z4kmurPgC8xhQzBEouve2/ZzkBM=
+
+Name: res/drawable-sw800dp-xhdpi/tw_btn_reorder_holo_light.png
+SHA1-Digest: WNOMBpG7XXsnfzuGNdu48cskCyU=
+
+Name: res/drawable-xhdpi/music_play_control_play_focus.png
+SHA1-Digest: Ov/LZoGxEypZIsftETtd76VPuFE=
+
+Name: res/drawable-xhdpi/widget_music_btn_shuffle_on_normal.png
+SHA1-Digest: PPqXsyugfTEM76WgGo2j940MEIc=
+
+Name: res/menu/playlist_options.xml
+SHA1-Digest: xam3vpJUqUOyb3Nc0CMcnT/wUOc=
+
+Name: res/layout/tablet_list_item_suggestion.xml
+SHA1-Digest: a1BS6ZOYKwJEqSHq4Zwhih50nSw=
+
+Name: res/layout/media_info_list_text_item1.xml
+SHA1-Digest: sny+oYTuGFXvztxSXWyqsnguS0U=
+
+Name: res/layout/media_info_body_layout.xml
+SHA1-Digest: y6FLMwkpbzcJkyaW6Qpf+CjSZK4=
+
+Name: res/drawable-xhdpi/hover_popup_basic_black_bg.9.png
+SHA1-Digest: KJLg28cjKepygi4QVhpdmVGoILg=
+
+Name: res/drawable-xhdpi/music_fullplayer_popup_progress_primary.9.png
+SHA1-Digest: yTspnRz+CuSVENGPJB0POSJLgCs=
+
+Name: res/anim/player_slide_up_in.xml
+SHA1-Digest: sn6w+b1aZixuEOrnY8J1PK4297w=
+
+Name: res/drawable/music_play_control_play_btn.xml
+SHA1-Digest: JCYhotPa7Op7zYrYl63fON+SoOY=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_rw_focus.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-xhdpi/gallery_album_thumbnail_ic_folder_s.png
+SHA1-Digest: N3ucRawuAH8q0qJI7xHYt5Fk9X8=
+
+Name: res/drawable-xhdpi/tw_expander_close_01_holo_light.png
+SHA1-Digest: VgZC6txlVb/hVEIfGpKGtBaxMrI=
+
+Name: res/layout/media_info_default_layout.xml
+SHA1-Digest: USSecAsW+g747hf/SFkeyjwSld8=
+
+Name: res/layout-sw800dp-xhdpi/list_item_albumart_group_one_line_table
+ t.xml
+SHA1-Digest: fv4NJV2kbKbyaejB/q4iQrFm98w=
+
+Name: res/drawable-land-xhdpi/no_item_bg_light.png
+SHA1-Digest: sHiXXmD/8yEJ3jdRGRrGTFX1ybg=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_more_press.png
+SHA1-Digest: cSjvo5eH4h5as5/0mNiIWVqMJd4=
+
+Name: res/layout/music_main_tab.xml
+SHA1-Digest: vsbiEtv9lxpPrE8c3S53fC/rAtk=
+
+Name: res/layout/list_content_common.xml
+SHA1-Digest: BJ5CVNjffQNnlxaRq34ZVXEdj8A=
+
+Name: res/drawable-xhdpi/tw_tab_selected_pressed_holo_light.9.png
+SHA1-Digest: pRFH+pe2u6CMElOEf4D2vubZOA0=
+
+Name: res/drawable/actionbar_detail_tags_btn_selector.xml
+SHA1-Digest: BFlrkAkKYuHFK8MpYldw/232u9Y=
+
+Name: res/layout/list_item_now_playing.xml
+SHA1-Digest: ADMxs6KQmCMTLquOlqI1yg1Fhws=
+
+Name: res/drawable-xhdpi/unlock_delta_m_prev_focused.png
+SHA1-Digest: tJbwvkkT6h22JvH+y67PZt7q9WI=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_player_default.png
+SHA1-Digest: M+rDzyoO/NMZlvK0BxWgBo/6b7g=
+
+Name: res/layout/list_item_text_one_line.xml
+SHA1-Digest: WlUarnqkmLcp/MmsjLNfrmtkde4=
+
+Name: res/drawable/sview_cover_music_player_play_btn.xml
+SHA1-Digest: 97NXJv15yck+AO2XCVVoyACnBD8=
+
+Name: res/layout/hover_music_square_list_popup.xml
+SHA1-Digest: Sc2OF4i5Y7ZFqvWg+mQ6v2S6PWw=
+
+Name: res/drawable-xhdpi/music_play_menu_more_focus.png
+SHA1-Digest: RjkRW/C8G4z9Orr6qdlJRpOew9c=
+
+Name: res/layout-land/tablet_music_player.xml
+SHA1-Digest: R32xN/YMvcZ6tCB9NC9NwzbIGZM=
+
+Name: res/drawable-xhdpi/magazine_music_preview.jpg
+SHA1-Digest: UumPG9Df0APckRwgS5BP0YOQizk=
+
+Name: res/drawable-xhdpi/mg_music_repeat_1_normal.png
+SHA1-Digest: 9UFum3o5vZfbEnVk/lplWk4q42Q=
+
+Name: res/drawable-nodpi/tw_preference_contents_list_left_split_defaul
+ t_dark.9.png
+SHA1-Digest: tYn8aDPy0dYZRB1oORkzxa+ES7E=
+
+Name: res/drawable-xhdpi/music_miniplayer_controller_bg.9.png
+SHA1-Digest: W/OG1zYKMarzVsAZMNEK+tJy6yg=
+
+Name: res/drawable-xhdpi/quick_panel_music_pause.png
+SHA1-Digest: rXV1XbR0m3zqbDXmabHnZXQAgEI=
+
+Name: res/anim/dialog_fade_out.xml
+SHA1-Digest: hBObExvGkteYrx1aOZUbeDeNoi4=
+
+Name: res/drawable-xhdpi/widget_music_btn_next_press.png
+SHA1-Digest: uxM37dNH0Fv8o+ZGcLSR44FmMaI=
+
+Name: res/drawable-xhdpi/btn_disable_publishing.9.png
+SHA1-Digest: ZbYL9iEssdvEvqtHoofRXKrVJwI=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_shuffle_press.png
+SHA1-Digest: hq6NAbWNX2QBTO82s0c0ycWLtoo=
+
+Name: res/drawable-nodpi/music_fullplayer_progress_secondary.9.png
+SHA1-Digest: GTDp6NPLoGX+bmJggIBLx1jMXbI=
+
+Name: res/drawable-sw800dp-xhdpi/mg_music_repeat_all_normal.png
+SHA1-Digest: J4NiGHr69yv8e5LqpJXob0p0llA=
+
+Name: res/drawable-xhdpi/detail_biography_star_unselect.png
+SHA1-Digest: e4Xl4Km+QyjXgkxKt/8BPyQ370I=
+
+Name: res/layout/list_item_count_info.xml
+SHA1-Digest: eegmOxvWw5Yd674M3jXPQCivLIQ=
+
+Name: res/layout/list_content_common_2.xml
+SHA1-Digest: Y4MgLtVBgMOu3nlpdVQyCvK2GkE=
+
+Name: res/layout/list_edit_dialog.xml
+SHA1-Digest: ZC8jt1amOvB+r1RrtDkzlRwDazE=
+
+Name: res/drawable-sw800dp-xhdpi/default_music_list_l.png
+SHA1-Digest: 8aATsiapOJru45cwz3/2YDPK+l0=
+
+Name: res/drawable-xhdpi/noti_list_divider.9.png
+SHA1-Digest: V5Eb1kC/BhSSejhPQJdg/BAm6po=
+
+Name: res/drawable-xhdpi/widget_music_btn_repeat_press.png
+SHA1-Digest: +gU7xCG06YQ1IYtR7IA0NSJgJCg=
+
+Name: res/drawable-xhdpi/playspeed_popup_icon_minus_focus.png
+SHA1-Digest: U2o3A8j+pnxlYNslAC3js5Nr1Qs=
+
+Name: res/drawable-xhdpi/unlock_delta_m_stop_pressed.png
+SHA1-Digest: zAW6p4DKYtn32kwSSI3UxupSyz8=
+
+Name: res/drawable-sw800dp-xhdpi/mg_music_repeat_none_press.png
+SHA1-Digest: r3up/FK4R6Ujf3y6yLcarMAoAaE=
+
+Name: res/layout/mini_player.xml
+SHA1-Digest: kEFbdF598WkNJIn19qA7477YHOo=
+
+Name: res/layout-sw800dp-xhdpi/list_header_shuffle_musicsquare.xml
+SHA1-Digest: vtk7/fC9cO1F28fKGWfQfa664s4=
+
+Name: res/drawable-sw800dp-xhdpi/music_volume_controller_mute_press.pn
+ g
+SHA1-Digest: CEMZHLW5RH37CbGz9GX2ezBOCNk=
+
+Name: res/drawable-xhdpi/music_play_allshare_vol_up.png
+SHA1-Digest: b3ptpp1njxLYC+ml0eX9TewX+s0=
+
+Name: res/layout/tablet_music_player_progress_pane.xml
+SHA1-Digest: v70159b1c96E5q4nc+OQqxeMc1A=
+
+Name: res/layout-land/music_player.xml
+SHA1-Digest: RdwedZ0WwA0OXAx+/Dw5+fg7Lzk=
+
+Name: res/drawable-xhdpi/quick_panel_music_close_press.png
+SHA1-Digest: +iQ6BXkklpDo+VfH58L+BMjYxsQ=
+
+Name: res/drawable-xhdpi/widget_music_btn_prev_normal.png
+SHA1-Digest: 3tND5qQgOg+FksB2TKmM99flVjI=
+
+Name: res/drawable-xhdpi/sview_cover_music_play_control_ff.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-sw800dp-xhdpi/music_volume_controller_popup_bg.9.pn
+ g
+SHA1-Digest: 22OBLhPEu6YDKyia7NooZLOddaE=
+
+Name: res/layout/hover_music_popup_playlist_black.xml
+SHA1-Digest: UNn3I1wpQYeCHR2YT+F7yUA/NS8=
+
+Name: res/xml/player_settings.xml
+SHA1-Digest: No3vE8n4wvWMX/BdJR+G8t5wol0=
+
+Name: res/layout/music_player_recommended_music_text.xml
+SHA1-Digest: TavOFH9lu3ZYt7LJrVeHwxxVfSM=
+
+Name: res/drawable-nodpi/tw_list_pressed_holo_dark.9.png
+SHA1-Digest: SEjfiLASzmaxbsvUcwoA6zWZSoc=
+
+Name: res/layout/tablet_music_player_album.xml
+SHA1-Digest: ZjhtY3Io3le2W1q6w1WCfRWqtnM=
+
+Name: res/drawable-xhdpi/gallery_album_thumbnail_ic_folder.png
+SHA1-Digest: 2x+o9avx+ddHKkiHm87jEF2iQiM=
+
+Name: res/drawable/music_play_control_menu_btn.xml
+SHA1-Digest: kDf3aqpjTw5T7FMm8/GCJAUPzGw=
+
+Name: res/layout/music_setting_play_speed.xml
+SHA1-Digest: 3odH7w5osKB+j16HGuXo5N0TmYc=
+
+Name: res/layout/music_selector_list_tab_activity.xml
+SHA1-Digest: OSvlPeAjNuq2rfzkX4OBEXTwD2k=
+
+Name: res/drawable-xhdpi/music_play_menu_more_press.png
+SHA1-Digest: 9e0x5kiBQZB1Flfg9DsUJcFYQ/c=
+
+Name: res/layout/track_activity.xml
+SHA1-Digest: viXtrdcL9kgiv+FzJqZhErY7o7s=
+
+Name: res/drawable-xhdpi/mg_music_shuffle_on_press.png
+SHA1-Digest: hq6NAbWNX2QBTO82s0c0ycWLtoo=
+
+Name: res/drawable-xhdpi/music_play_control_play.png
+SHA1-Digest: TNmWwRooyE2ek/jnXysD52923zA=
+
+Name: res/drawable-xhdpi/music_full_play_uhq.png
+SHA1-Digest: rqHsvynpp+tPYM5LOnLFh9uMjtI=
+
+Name: res/layout-sw800dp-xhdpi/media_info_edit_layout.xml
+SHA1-Digest: s4nREi7Weup7ZZiG3Mj8U40JDnY=
+
+Name: res/drawable-xhdpi/music_play_menu_rep_off_press.png
+SHA1-Digest: dFN2bbtHr4jVMOC0MFcGQOp/wqk=
+
+Name: res/drawable-xhdpi/music_player_thumbnail_press.png
+SHA1-Digest: Lc+1D0UiKP7wtzGkTE2ajRgX7jE=
+
+Name: res/layout-sw800dp-xhdpi/list_item_albumart_text_two_line_musics
+ quare.xml
+SHA1-Digest: +Zv1foAI/cWDABaLBwEl7HSCPBY=
+
+Name: res/layout/settings_menu_fragment.xml
+SHA1-Digest: QW5jerxpUvWCy++WAEp2Z5MJPUY=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_rew_hover.png
+SHA1-Digest: tgCjRrMnRxjBk2+P64OcDm4ZT70=
+
+Name: res/layout/resolver_list_item.xml
+SHA1-Digest: sfSqaaMMkfbm82S76rwXhgqA6C4=
+
+Name: res/drawable-xhdpi/music_play_square_cell.png
+SHA1-Digest: RQw50WoSyyWzSRYq9PZIsAd+VsU=
+
+Name: res/layout/preference_custom_arrow.xml
+SHA1-Digest: njTQyRtPAAVAeRSGulqPvoKhw+g=
+
+Name: res/drawable-sw800dp-xhdpi/music_fullplayer_album_art_bg.png
+SHA1-Digest: Vqn/qkvFyxCDRiJmjRbM4+YWM/8=
+
+Name: res/layout/resolver_grid.xml
+SHA1-Digest: daYwsWLSBHCd22QKEk11Olzv/M0=
+
+Name: res/drawable/sview_cover_music_player_title_album_btn.xml
+SHA1-Digest: 05/4sjlPnvx4BdD1OoBk3HjGufU=
+
+Name: res/drawable-xhdpi/magazine_music_noitem_ic.png
+SHA1-Digest: +FysU1vbE1YBKeWkRqo0wNsXRPA=
+
+Name: res/layout/list_cover_view_text.xml
+SHA1-Digest: nqZRvwmdntBcm0fFRpkrI1eJbms=
+
+Name: res/drawable-xhdpi/unknwon_dmr.png
+SHA1-Digest: BeHvBBkbuk5/DY4vmMQvGOiE24o=
+
+Name: res/layout/media_info_edit_layout.xml
+SHA1-Digest: tEKLfLVNyeu09Czb3XB3aOmZN48=
+
+Name: res/drawable-xhdpi/sview_cover_music_play_control_play.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-sw800dp-xhdpi/tw_no_item_popup_bg_holo_dark.9.png
+SHA1-Digest: 3tDR20e0SSDsW/G26QcsSceCqjA=
+
+Name: res/layout/tablet_music_player_suggestion_list.xml
+SHA1-Digest: LdgbsPSBLclorGY1nuEsA5o5Pj0=
+
+Name: res/drawable-xhdpi/music_play_menu_list_focus.png
+SHA1-Digest: 6pNJEGH2cVBCQ0j/cZZqoQm3LsM=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_playlist_press.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-xhdpi/music_miniplayer_progressive_ing.png
+SHA1-Digest: Uwlb5QtD309ZY4DcwH855CbWqZU=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_play.png
+SHA1-Digest: xip3AN5Oc0THSrtM04D5iuOUdSg=
+
+Name: res/layout-sw800dp-xhdpi/tab_indicator.xml
+SHA1-Digest: mIt0kpPXwdEMg9oAkteh0rMgSms=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_allshare_vol_up_focus.png
+SHA1-Digest: lhTzBVa/bnZAYO3NdlWlEenFbNI=
+
+Name: res/layout/user_eq_control_bar.xml
+SHA1-Digest: YFoxt9XZ0ZGkwDD7GuHIoD103xM=
+
+Name: res/anim/now_playing_list_down_out.xml
+SHA1-Digest: G84IP33X1xTZez6X8LDm4+QiKBw=
+
+Name: res/drawable-xhdpi/tw_action_bar_tab_selected_bg_holo_dark.9.png
+SHA1-Digest: Ru0iMZm1U9Y9+5PJLLQfISezREA=
+
+Name: res/drawable-xhdpi/music_easymode_progressive_focus.png
+SHA1-Digest: QdqN/TEsY2+SZFOvBfgnx4RNXRE=
+
+Name: res/drawable-xhdpi/sview_cover_music_play_control_rw_focus.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/layout/media_info_main_pager.xml
+SHA1-Digest: jvMScAcatGb6J/UxsjS7w4DjEjg=
+
+Name: res/drawable-xhdpi/tw_tab_selected_focused_pressed_holo_light.9.
+ png
+SHA1-Digest: QhOXXjVf1PFmm6YLfUNbHznYSWI=
+
+Name: res/drawable-xhdpi/actionbar_dropdown_select.9.png
+SHA1-Digest: uMZhgBJ6qQGDsdO5nH4lEFOLLsQ=
+
+Name: res/drawable-sw800dp-xhdpi/music_bar_off.9.png
+SHA1-Digest: UMMV2Z7HKj2Gt7Di6zZtzfIAFcc=
+
+Name: res/layout/widget_layout_2x2.xml
+SHA1-Digest: 49RVqrSJKCw+uwkgRm7piJ/O2yc=
+
+Name: res/layout/list_content_header_view.xml
+SHA1-Digest: Bzn3ip6QUZ7EiCAygJ2YCGNjbng=
+
+Name: res/drawable-xhdpi/music_fullplayer_progress_secondary.9.png
+SHA1-Digest: LIuReeLVzPWZJyuPo6rIp0SCGMI=
+
+Name: res/drawable-xhdpi/music_play_control_ff_press.png
+SHA1-Digest: 7tulCrPxIxXeCe5I00TYhjciAec=
+
+Name: res/layout-sw800dp-xhdpi/list_item_track_reorder.xml
+SHA1-Digest: J2vr5+RC0c2mVvEGNVo+k7w0jIE=
+
+Name: res/layout/music_main_activity.xml
+SHA1-Digest: 86cxAxY0w+V30YGs8tzR+RyN2dM=
+
+Name: res/layout/list_content.xml
+SHA1-Digest: a1b7JG4rtHVjqqE7W5lSnEZPEAA=
+
+Name: res/drawable-xhdpi/ic_wifi_direct_network_infra.png
+SHA1-Digest: Ef57kXS/MfRJTlBsZJG0YKBNK0U=
+
+Name: res/drawable-nodpi/music_ver_mini_bg.9.png
+SHA1-Digest: JAveVnafhzDfMJIdtT8nrgUKXqE=
+
+Name: res/drawable/music_play_control_prev_btn.xml
+SHA1-Digest: cKLdkA4uG4O1He6bej3/JlpYo+U=
+
+Name: res/layout/dialog_list_view_main.xml
+SHA1-Digest: z7WGGcbsRR/94u5GjOeNkR67uPQ=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_list_focus.png
+SHA1-Digest: 2Z5oO4dKYaj+lIW1QK+wnHQrktw=
+
+Name: res/drawable-xhdpi/unlock_delta_m_pause_focused.png
+SHA1-Digest: NOAQGIupb3UyKiB2IYIfOIBm1KA=
+
+Name: res/drawable-xhdpi/music_play_menu_addplaylist_press.png
+SHA1-Digest: msrx89i4Ig67HIpCURSv4N4Xlaw=
+
+Name: res/drawable-xhdpi/music_square_help_press.png
+SHA1-Digest: i+WSDilk6L8M5/heZibNLkd7L8U=
+
+Name: res/layout-sw800dp-xhdpi/notification_music_control.xml
+SHA1-Digest: HmFo3cUcvlLeXTBKjykMrwbzStg=
+
+Name: res/layout/user_ext_level.xml
+SHA1-Digest: RfN2S1V3G6z1dMhR6w0qDNr3vF0=
+
+Name: res/drawable-xhdpi/widget_music_btn_repeat_focus.png
+SHA1-Digest: 3DKCPocyF0oJ2N0ot/kwXwa30lI=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_ff.png
+SHA1-Digest: VrvMdLAs3kSMwlxItG7jKa5GQzw=
+
+Name: res/drawable-xhdpi/quick_panel_music_play_press.png
+SHA1-Digest: IeLG6XioSKVTVO4a7ygKD0AJjYQ=
+
+Name: res/menu/music_player_option_menu.xml
+SHA1-Digest: NIp+lDndSysSyxR553IQy3m6lz4=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_title_album_bg.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/layout-land/widget_layout.xml
+SHA1-Digest: kXHoR3OCcuQ21NEhjScue/6wzUo=
+
+Name: res/drawable-xhdpi/quick_panel_music_ff_focus.png
+SHA1-Digest: tpA6MQMgKcZBS5eWdJvIBAe1Tg8=
+
+Name: res/drawable-xhdpi/music_fullplayer_sidecast_album_art_bg.png
+SHA1-Digest: 0OjCymXEyz+BH0M3b7WrpDpOxQs=
+
+Name: res/drawable-xhdpi/music_volume_controller_mute_focus.png
+SHA1-Digest: ExClV7tJn4eU1sNCNWJt+X2IleU=
+
+Name: res/drawable-xhdpi/music_soundalive_card_tubeamp_on.png
+SHA1-Digest: mo0jsFejG7748bysb7fkaXdtyEE=
+
+Name: res/layout/list_header_select_all.xml
+SHA1-Digest: W98+T3tiJeEPR/yrdPFAXGUAVAU=
+
+Name: res/drawable-sw800dp-xhdpi/music_square_help_normal.png
+SHA1-Digest: B2yjQvLkQGBCPRyDjuZCpZRzKu0=
+
+Name: res/drawable-xhdpi/magazine_music_preview_dim.png
+SHA1-Digest: 1x90O1MCPi/JVKj7xhCpuZXUceg=
+
+Name: res/drawable-xhdpi/unlock_delta_m_stop_focused.png
+SHA1-Digest: PInekkkwOgTOQ8IAWEaYxWJYvR8=
+
+Name: res/anim/slide_left_out.xml
+SHA1-Digest: OTNxU6HT/z4L49tCJYHCgU/vGWA=
+
+Name: res/drawable-xhdpi/music_soundalive_card_line_on.png
+SHA1-Digest: CJThzfjJtEZOEC8DRc+5OUjoL+k=
+
+Name: res/drawable-xhdpi/widget_music_btn_repeat_1_press.png
+SHA1-Digest: 5IIfrv/QHgvv+mdevTWvGcns9bM=
+
+Name: res/drawable-sw800dp-xhdpi/tw_action_bar_tab_selected_bg_holo_da
+ rk.9.png
+SHA1-Digest: Yu4W/q1jmdvlK3PTEcHAG+7Eg0M=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_allshare_focus.png
+SHA1-Digest: aDKmf5qLldF9RfbuIgBauyC3r3A=
+
+Name: res/layout/music_setting_sound_alive_extended.xml
+SHA1-Digest: nJZ+COY/5K+KdbQ/Vg61Gd2SMD8=
+
+Name: res/drawable-xhdpi/music_play_menu_off_shuffle_press.png
+SHA1-Digest: 75k+jCaS8KgLYiQa4OKaI8gb9fw=
+
+Name: res/layout/list_item_albumart_group_two_line_tablet.xml
+SHA1-Digest: tpsf6ce0O5yXkA3wU3mJYa3C98Q=
+
+Name: res/layout/music_setting_menu_reorder_item_tablet.xml
+SHA1-Digest: v3fH1tTI4BQyqlnNk+6aljKlgZ0=
+
+Name: res/drawable-sw800dp-xhdpi/music_list_nowplaying_03.png
+SHA1-Digest: kwMnU2mJDSwVDCOiMprT+HaAJ8w=
+
+Name: res/drawable-nodpi/hover_music_bg_l.9.png
+SHA1-Digest: 84qL1EoQoc1qiLdmNvu0KRfSq+g=
+
+Name: res/xml/searchable.xml
+SHA1-Digest: fkX5ojdTNZaB9PXULeyDQcvNr2M=
+
+Name: res/layout/mini_player_personal_mode_stub.xml
+SHA1-Digest: hLDH3F6Jbm/5CcZhQErWctbyaqQ=
+
+Name: res/drawable-xhdpi/actionbar_dropdown_normal.9.png
+SHA1-Digest: uZ3pjiyDdDDcUdF7K0P9qLGOQ6o=
+
+Name: res/color-sw800dp-xhdpi/shuffle_btn_text_color_selector.xml
+SHA1-Digest: WbpdOdhC4Jyv+Gc+zBag77V9iM8=
+
+Name: res/drawable-xhdpi/music_play_control_rew.png
+SHA1-Digest: xHXP0fMZGMjmoki9HrWBCK3w9eo=
+
+Name: res/drawable-xhdpi/music_play_menu_rep_noff.png
+SHA1-Digest: sEfn0bTfWS2jva0lR9xO5j7qGkw=
+
+Name: res/layout/music_setting_menu_reorder_item.xml
+SHA1-Digest: nAUzQv4j83QdF2F/n5LWAaEX7hw=
+
+Name: res/drawable-xhdpi/quick_panel_music_rew.png
+SHA1-Digest: WNqG3k1KxSlawZdhJExkydhxAcw=
+
+Name: res/drawable-xhdpi/music_play_control_play_press.png
+SHA1-Digest: +I97bXemdfg1KU1Z9rdi4mTA6Vg=
+
+Name: res/drawable/music_play_tw_volume_progressive_point.xml
+SHA1-Digest: UwFUATPBqqlNzwgQUTHcH0QqSxQ=
+
+Name: res/drawable-xhdpi/quick_panel_music_close_focus.png
+SHA1-Digest: wZ972hRdmhtyaiFMDJMGkwzsiqI=
+
+Name: res/drawable-xhdpi/unlock_delta_m_stop.png
+SHA1-Digest: vzg9lRjyUO4vB7qe8VnseZ6ZNhI=
+
+Name: res/drawable-xhdpi/music_play_menu_rep_off_focus.png
+SHA1-Digest: CDZZNDgnyQVQc1CrkRSk/u/i3AQ=
+
+Name: res/anim/sview_cover_list_nowplaying_ani.xml
+SHA1-Digest: ktoM5sZ6g+KBFFEw7nchfCiuNA8=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_more_focus.png
+SHA1-Digest: qCg2wv/FY5tixwkLnSOeOlFTRJI=
+
+Name: res/layout/list_category_device.xml
+SHA1-Digest: eRWHNeAcc6HRRez3dg/o5YvILvo=
+
+Name: res/layout/tablet_music_player_title.xml
+SHA1-Digest: ewmbKcROYwHvZpRzjl0fBX1cZ6Y=
+
+Name: res/drawable-xhdpi/music_volume_controller_launch_focus.png
+SHA1-Digest: rwujGIUa9ZPgrO2w9+7PCpW14Vs=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_allshare_press.png
+SHA1-Digest: bhqrhBfS1SRk+cgndILMlbpEt/U=
+
+Name: res/drawable-xhdpi/widget_music_btn_shuffle_off_focus.png
+SHA1-Digest: mRd+mztWtTTBYuNH/1bZ7QBKGTE=
+
+Name: res/drawable/setting_split_selector.xml
+SHA1-Digest: zKSgUupQRs2W/RaAoOtBaBuTbxM=
+
+Name: res/drawable-nodpi/tw_preference_contents_list_left_split_defaul
+ t_light.9.png
+SHA1-Digest: c+cYKX8lbIkkkp4lLajXY/5yMgY=
+
+Name: res/layout/music_selector_list_activity.xml
+SHA1-Digest: gloC8QZoBAa3AbhfCMpWkR3gIrM=
+
+Name: res/drawable/magazine_widget_control_repeat_off_btn.xml
+SHA1-Digest: lMdw1wuwT8VKfBbuTC5t3YKNGPU=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_favorite_on.png
+SHA1-Digest: guy8n4HqAdKWae5AF6WL8c+i4zY=
+
+Name: res/drawable-xhdpi/tw_list_divider_holo_light.9.png
+SHA1-Digest: WXu3CpGOyVhrxvrEKI67bdCBRso=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_pause_press.png
+SHA1-Digest: kpqDpJiWBi0La1v6RlZ9tt6v9Ag=
+
+Name: res/drawable-xhdpi/icon_add_contact.png
+SHA1-Digest: Oe2aNdPrU2P11mdw6OI+DM7HB68=
+
+Name: res/layout/list_item_track_bigpond_top10.xml
+SHA1-Digest: 3phEqkamImJ4xJXiW61y0TXEiV4=
+
+Name: res/drawable-sw800dp-xhdpi/tw_list_divider_holo_light.9.png
+SHA1-Digest: ihW9pDVN+8dZW1JPMZVkPEdyVvY=
+
+Name: res/drawable-nodpi/music_list_line.9.png
+SHA1-Digest: GRkTBr9AyQ1YAgU2/DFV2ghRruI=
+
+Name: res/drawable/detail_arrow_right.xml
+SHA1-Digest: BJyBy4sVsRKNycNIFgYI7JytOxM=
+
+Name: res/drawable/music_play_menu_star_off_btn.xml
+SHA1-Digest: FA64mjER83ZU6ae++NpYB1TUUgg=
+
+Name: res/layout/music_player.xml
+SHA1-Digest: pCvpgoIlGt1JPSKMoY7wlooSwEg=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_favorite_on_press.png
+SHA1-Digest: inocqzSXB/tpatddK5E8n0xxNjk=
+
+Name: res/drawable-xhdpi/music_soundalive_card_none_on.png
+SHA1-Digest: Ua12rdNqnXXPTE1CBObvyHsAFA8=
+
+Name: res/layout-land/music_player_no_sidecast.xml
+SHA1-Digest: jgNsplsAyZftQlZuTHlXO/u4P84=
+
+Name: res/layout/list_cover_view_album.xml
+SHA1-Digest: pBUUM5eIYrLqSFEXQJGLbq4VmJo=
+
+Name: res/color/sound_alive_advanced_btn_text_color_selector.xml
+SHA1-Digest: dEHEmUJJCskZKGKiwQF15WWkaRQ=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_more.png
+SHA1-Digest: 8EB9ZL54Yf9oTxQQ+zkA6nlgnmI=
+
+Name: res/layout/list_cover_view.xml
+SHA1-Digest: WvhLss8M46OuHU/xUN886pBTsIg=
+
+Name: res/drawable-xhdpi/ic_wifi_direct_camera.png
+SHA1-Digest: uOzwteyX1KpnlfTZP81/7SkAxF0=
+
+Name: res/layout-land/list_cover_view.xml
+SHA1-Digest: P4l84vOEBX12Pd7tR+QtlFTNUBI=
+
+Name: res/drawable-sw800dp-xhdpi/music_soundalive_card_virtual71_off.p
+ ng
+SHA1-Digest: IofyiwVKpOb0/3bmPpy0ml8xvhM=
+
+Name: res/color/shuffle_btn_text_color_selector.xml
+SHA1-Digest: WbpdOdhC4Jyv+Gc+zBag77V9iM8=
+
+Name: res/layout/tablet_list_item_now_playing.xml
+SHA1-Digest: jpyAJSYD0lF2y7hDGJ2cHPixFpg=
+
+Name: res/layout-sw800dp-xhdpi/mini_player_square.xml
+SHA1-Digest: rp12UKRCvxrSnPFXl8NbxeE961o=
+
+Name: res/drawable/magazine_widget_control_play_btn.xml
+SHA1-Digest: 1vwTcbR7AADkXDQOAEAFOjVRZ4s=
+
+Name: res/drawable/sview_cover_music_play_control_next_btn.xml
+SHA1-Digest: 42IpKJ6ibXRdE2VI2rofbpfefLg=
+
+Name: res/drawable-sw800dp-xhdpi/mg_music_shuffle_on_normal.png
+SHA1-Digest: dFw846OonD+IMm3m2/NldIS33xI=
+
+Name: res/drawable/music_play_control_next_btn_hover.xml
+SHA1-Digest: tWIt0JzgPUfdio1Fvimw+6ZckJY=
+
+Name: res/xml-sw800dp-xhdpi/player_settings.xml
+SHA1-Digest: O39uiV1dj60VVN2j4pGpItqiKqo=
+
+Name: res/drawable-xhdpi/music_list_nowplaying_03.png
+SHA1-Digest: r/lwJq6BqlKLkYH47zOfgixD+9c=
+
+Name: res/drawable-xhdpi/music_play_menu_list.png
+SHA1-Digest: QE9HqgF5wiTl4VkngaKz5JzfyNw=
+
+Name: res/layout/list_item_albumart_text_one_line_tablet.xml
+SHA1-Digest: SLiRikW+L17BE4ENy0JJHLtoWxk=
+
+Name: res/layout/music_player_progress_options.xml
+SHA1-Digest: vk8IzuoxjT1xsed3PM84DJxaCh0=
+
+Name: res/layout-sw800dp-xhdpi/list_content_common_musicsquare.xml
+SHA1-Digest: ytBpSTeQH0mEHHqHEon+OB3YWNg=
+
+Name: res/anim/player_fling_to_right.xml
+SHA1-Digest: wtmIyHiCvxqwMrSK3JHzDP7WDsM=
+
+Name: res/drawable-sw800dp-xhdpi/mg_music_shuffle_off_press.png
+SHA1-Digest: u3NweyUY43GsUlqXIeyaGCCeU6Y=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_rep_off.png
+SHA1-Digest: sEfn0bTfWS2jva0lR9xO5j7qGkw=
+
+Name: res/drawable-xhdpi/mg_music_btn_prev_press.png
+SHA1-Digest: k/QWSdDKHcODP0knTYmiaIvY79Y=
+
+Name: res/layout/list_item_albumart_text_two_line_musicsquare.xml
+SHA1-Digest: wJkx3FO94zEGGieYr06eavUdb1c=
+
+Name: res/layout-sw800dp-xhdpi/custom_cancel_done.xml
+SHA1-Digest: KX28SD34C1vrccnLns8DKSp11oY=
+
+Name: res/drawable/quickpanel_btn_ff.xml
+SHA1-Digest: s4Ba3AyNrGiHzELpr2Ds8v2KLCM=
+
+Name: res/drawable/music_play_control_prev_btn_hover.xml
+SHA1-Digest: z0X3omejFCq/hpK7FR7u17uQpS8=
+
+Name: res/layout/mini_player_square.xml
+SHA1-Digest: E+b8sEu3P5y9hiqt7l15QjZF6W0=
+
+Name: res/layout-sw800dp-xhdpi/media_info_body_layout.xml
+SHA1-Digest: MOijHP+AyrrLtzQkbHNiD1T1AAk=
+
+Name: res/layout/tab_indicator.xml
+SHA1-Digest: Jjx0F+bYKa0F5Nre/QxXxRF+qdw=
+
+Name: res/drawable-xhdpi/music_play_allshare_vol_down_focus.png
+SHA1-Digest: 70J7CWICLU6E52KcubKXvb7NRVk=
+
+Name: res/layout-sw800dp-xhdpi/new_soundalive_effects.xml
+SHA1-Digest: jTfFO3ySH4oo3N9FuRGOhCrT6gI=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_allshare_vol_mute_press.pn
+ g
+SHA1-Digest: WgoeVKXwGDNuVuqX7j7CETN5eE4=
+
+Name: res/drawable/music_player_control_release_btn_text.xml
+SHA1-Digest: y4Rk97sCu1aIo4HOVEj1u1Wgux8=
+
+Name: res/layout/list_content_reorder.xml
+SHA1-Digest: nBoMh/vyPouG12PQKOVUR9WACqs=
+
+Name: res/layout/media_info_amg_logo.xml
+SHA1-Digest: UxhHJ3fPlv9CekdLl4vuVfI4TcM=
+
+Name: res/drawable-xhdpi/music_detail_actionbar_icon_edit_dim.png
+SHA1-Digest: J22AoPlvdzmP23rHytRHakVwgMw=
+
+Name: res/animator/recommended_music_click.xml
+SHA1-Digest: ZwgihIQcaLa0Mr0Kb25d3JFx+XQ=
+
+Name: res/layout/list_item_playlist_tab_text_two_line_tablet.xml
+SHA1-Digest: OupxAtYsjNhzKM9woI0NZg0IAZg=
+
+Name: res/drawable-xhdpi/music_play_menu_addplaylist_press_select.png
+SHA1-Digest: /4y1zthkdaOYft3VC2WDDGTpbN4=
+
+Name: res/drawable/sview_cover_music_player_close_btn.xml
+SHA1-Digest: QKT30CF6rS0Qskv9tn4rw+QSGEY=
+
+Name: res/layout/tablet_music_player_head.xml
+SHA1-Digest: XsBlsi7pY5xRxg1O7khf3YsceOg=
+
+Name: res/drawable-xhdpi/detail_biography_star_select.png
+SHA1-Digest: 7bnq6p6JR7fWyPcNNX5AcYNI4X4=
+
+Name: res/drawable-xhdpi/widget_music_btn_play_press.png
+SHA1-Digest: 3MZAH/rvrv4QSePXznY78VnIByA=
+
+Name: res/layout/tablet_music_player.xml
+SHA1-Digest: pv1hTxP+qBPBL63SYD0jhgCOU+I=
+
+Name: res/drawable-sw800dp-xhdpi/sound_alive_equalizer_bg.png
+SHA1-Digest: 5c0ma4nEBUNNJcOJcs944WW9oAA=
+
+Name: res/drawable/widget_control_pause_btn.xml
+SHA1-Digest: UOLHShOV5S9rcrnd9SnDdBLPEjo=
+
+Name: res/drawable-xhdpi/tw_tab_divider_holo_light.9.png
+SHA1-Digest: SsksgpE/s15vQsqn151l/qadUwE=
+
+Name: res/drawable-xhdpi/music_play_set_eq_num_bg.9.png
+SHA1-Digest: XsY4+CNBnQ4u1+yQJx6rsB9TDtQ=
+
+Name: res/layout/palm_touch_tutorial.xml
+SHA1-Digest: H2XFmuSGAc3ExJHremcR1eFbA7o=
+
+Name: res/drawable-xhdpi/music_play_allshare_vol_down.png
+SHA1-Digest: Vkr02KRGXdLY4/LBPdIhicp/W+g=
+
+Name: res/drawable-sw800dp-xhdpi/ic_question_select.png
+SHA1-Digest: khcSLtvEZAzkBjqUPbihTS7zEzA=
+
+Name: res/drawable/music_play_control_allshare_vol_down.xml
+SHA1-Digest: RD4xrg2FZHM4ClleuK6xrNir1E4=
+
+Name: res/drawable-xhdpi/sound_alive_line_off_press.png
+SHA1-Digest: p6JCBxbwBlNx4yGGmiQsT1VU38s=
+
+Name: res/layout-land/new_soundalive_effects.xml
+SHA1-Digest: GVCzmdpaO9bP4BH2AlW+mLThE54=
+
+Name: res/layout/new_soundalive_effects.xml
+SHA1-Digest: qblCRIbd5lJcNtYt6wTWi9ygOEs=
+
+Name: res/drawable/btn_dark_selector.xml
+SHA1-Digest: un2X8sKag+KyIzsMD5hdAc7LxbE=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_pause_focus.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_sa.png
+SHA1-Digest: rDArA8zyzC5+8MKHYSr13n9gwJI=
+
+Name: res/drawable-nodpi/music_fullplayer_progress_bg.9.png
+SHA1-Digest: 035wnyPQw4dlPA40yv9M/yiMqsY=
+
+Name: res/drawable/music_player_easymode_seekbar.xml
+SHA1-Digest: gWxnrJpkvNvOpKNoJrfPyul8Vm0=
+
+Name: res/drawable-nodpi/tw_list_selector_disabled_holo_dark.9.png
+SHA1-Digest: 6xQNTQOBStEpG5Mu3A48fO0XBb4=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_rep_all_press.png
+SHA1-Digest: dB6K4Q70ty+wKMZeByKZJH1RLBU=
+
+Name: res/layout/custom_single_choice_list.xml
+SHA1-Digest: pRLWO+YxYFv0lehF+KrzIluc4QA=
+
+Name: res/layout-sw800dp-xhdpi/list_content_albums_track.xml
+SHA1-Digest: +L550Scjg4AsTkHKjLPQLPtYDes=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_playing_ani_02.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-xhdpi/music_soundalive_card_room_on.png
+SHA1-Digest: FS8VkjmozyGp/QVUjzplJwwNNj8=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_playing_ani_03.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/layout/sview_cover_music_player.xml
+SHA1-Digest: I8Xa1nMKiQjbUJF7ABYIidoTJUw=
+
+Name: res/drawable-sw800dp-xhdpi/tw_tab_divider_holo_dark.9.png
+SHA1-Digest: WCv37AJoc4aoSJzFqvHjQ73W+0U=
+
+Name: res/drawable-xhdpi/music_play_menu_rep_1.png
+SHA1-Digest: R/JGn4MtOYN+cJtuU1efnQqE/Tk=
+
+Name: res/anim/player_fling_to_left.xml
+SHA1-Digest: 9vT9IkIiakigQUyJHNhR0AwzbJE=
+
+Name: res/drawable/tablet_gallery_view_item_selector.xml
+SHA1-Digest: 3uME4j/eckWXAS9Y6ovJk288C+k=
+
+Name: res/anim/y_axis_rotate_enter.xml
+SHA1-Digest: JL/j5SRNvQ6zofZN3su+ETuMwkU=
+
+Name: res/drawable-xhdpi/tw_preference_contents_list_divider_holo_dark
+ .9.png
+SHA1-Digest: kM2+gPz28PAW54BldIOKkS1fqTc=
+
+Name: res/drawable-sw800dp-xhdpi/tw_list_section_divider_holo.9.png
+SHA1-Digest: jkKH5+0LU7HvaBRRMe4YLps8erw=
+
+Name: res/drawable-sw800dp-xhdpi/music_contents_filter_icon_shuffle.pn
+ g
+SHA1-Digest: JGxwyFyIpE6UGkCzqkuScl9E5ZI=
+
+Name: res/layout/tablet_music_player_nowplaying_list.xml
+SHA1-Digest: 0Y2vVBJCR0v8QRIyCaGvJJalLEg=
+
+Name: res/layout-sw800dp-xhdpi/media_info_main_pager.xml
+SHA1-Digest: 2PDN3+dixSTIjzU610h3Typ73Sg=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_favorite_off_press.pn
+ g
+SHA1-Digest: 8eEFONAu2FemK1a0nR+hrKPewOg=
+
+Name: res/drawable-xhdpi/tw_scrubber_control_pressed_holo.png
+SHA1-Digest: AVV3rnz7Tij94NVjFhWuVzilVsU=
+
+Name: res/layout/list_item_albumart_text_two_line2.xml
+SHA1-Digest: RrYKtxBh2nU+KzatqqsGUZJYKsU=
+
+Name: res/layout/media_info_plain_layout.xml
+SHA1-Digest: PKZsBRweb+UZP5NTz/LHJ9Usdw4=
+
+Name: res/drawable-xhdpi/music_soundalive_card_virtual71_off.png
+SHA1-Digest: o8CKdlFMzkX2EzlSuid2j0r5LXQ=
+
+Name: res/xml/music_favorite_widget_info.xml
+SHA1-Digest: t+zcuKmrFODyRQ9KU3J7FrVWO+U=
+
+Name: res/layout/gl_gallery_suggestion_list.xml
+SHA1-Digest: CxVCyJP3Yrp+N78+4XgZGLDV+ww=
+
+Name: res/drawable-sw800dp-xhdpi/new_soundalive_advanced_effect_focus.
+ xml
+SHA1-Digest: +q28jM3eQaX2IvB0pEZI2aT5/Hw=
+
+Name: res/layout/list_item_folder_item.xml
+SHA1-Digest: b6/MA5HCQnA4QiQ3Hcynh6uiuoQ=
+
+Name: res/layout-sw800dp-xhdpi/folder_main.xml
+SHA1-Digest: crn2qSq8L6p9bdCs2xU75KfVP+w=
+
+Name: res/drawable-nodpi/tw_list_focused_holo_dark.9.png
+SHA1-Digest: ra8yTJmz5kd8Xy3LQqY8CCnax2k=
+
+Name: res/drawable-xhdpi/music_play_control_sa.png
+SHA1-Digest: BhRhKRN3l7Uoj838Pa3j02Pn3d0=
+
+Name: res/layout-sw800dp-xhdpi/new_soundalive_advanced_effect.xml
+SHA1-Digest: MBsuxJgfRoc+i9KQebAuoiBHKpY=
+
+Name: res/drawable-sw800dp-xhdpi/tw_btn_reorder_holo_dark.png
+SHA1-Digest: tXvsyiRw7sQupxyxXmOEWEzu0QQ=
+
+Name: res/drawable-xhdpi/music_detail_arrow_right.png
+SHA1-Digest: 1fmUkJ3Ds2FVVKFzDXRAUIuJoxQ=
+
+Name: res/drawable-xhdpi/music_list_nowplaying_01.png
+SHA1-Digest: fko/Xo/lGwOqRtbMpPWTg0Fugcs=
+
+Name: res/drawable-xhdpi/stat_notify_voice_input.png
+SHA1-Digest: lrzqiwM56h7I/+rWuZybevZVfL0=
+
+Name: res/layout-sw800dp-xhdpi/list_content_reorder_tablet.xml
+SHA1-Digest: mdTmhyLma5kW0Edc/uBV6YcNPvE=
+
+Name: res/drawable-sw800dp-xhdpi/playspeed_popup_icon_minus_press.png
+SHA1-Digest: /gAV8LfoAU10QL7pnOTlZIyRxsg=
+
+Name: res/layout/music_player_uhq_tag_stub.xml
+SHA1-Digest: 466if968FPI3NC77DZG/5FVXm/w=
+
+Name: res/drawable-xhdpi/thumbnail_ic_folder.png
+SHA1-Digest: PrGATGYafCW9uQBn0I3wZPfW300=
+
+Name: res/drawable-xhdpi/music_ic_question_select.png
+SHA1-Digest: 8tkRnBwocDkHOaNXvwL1skzZ0Lc=
+
+Name: res/drawable-sw800dp-xhdpi/music_soundalive_card_none_on.png
+SHA1-Digest: abDVnf48WS3LuJad1JBqRen4iFU=
+
+Name: res/drawable-nodpi/widget_shadow.9.png
+SHA1-Digest: KvyQ8Ef/J4pp/2Ps+XmaTp5F3BA=
+
+Name: res/drawable/magazine_widget_control_prev_btn.xml
+SHA1-Digest: KEHbTJuTDwvWdUgpSkSEqFD9LVc=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_rep_noff_press.png
+SHA1-Digest: r3up/FK4R6Ujf3y6yLcarMAoAaE=
+
+Name: res/layout/tablet_gallery_view_item.xml
+SHA1-Digest: xNlZ5hNd+T8gmtB178Y2LIA8310=
+
+Name: res/layout/list_item_title_image.xml
+SHA1-Digest: Ko9ERcRGLm5uMmi3xqhuoT0Pn3k=
+
+Name: res/layout-land/music_setting_new_soundalive_layout.xml
+SHA1-Digest: HnLZTofalSo75D3FZnAgtxKl8AU=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_sa_focus.png
+SHA1-Digest: qLVm1xZoAtLa8oXoG5a05tFeuZQ=
+
+Name: res/drawable-nodpi/music_widget_now_playing_03.png
+SHA1-Digest: 2oWvTjS97W+h230BgDQnpKf+jK8=
+
+Name: res/drawable-xhdpi/sound_alive_square_press.png
+SHA1-Digest: t1XW1B/0dBUjfEJcOGYT6T52iE8=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_rew_press.png
+SHA1-Digest: abP1rmAaf+XB6vQQG5Ab1dkSpPs=
+
+Name: res/drawable-xhdpi/mg_music_shuffle_off_press.png
+SHA1-Digest: u3NweyUY43GsUlqXIeyaGCCeU6Y=
+
+Name: res/drawable-xhdpi/quick_panel_music_rew_focus.png
+SHA1-Digest: Wwjt0kDW5E6erMwD/jKGPcE1IzU=
+
+Name: res/layout/dlna_dmr_list_row.xml
+SHA1-Digest: pmqZlGVwQOX9z3ibaIMTxNWa50s=
+
+Name: res/drawable-xhdpi/music_play_control_pause_focus.png
+SHA1-Digest: NBh2X0t6zPdzWO0GpANduMzzxS8=
+
+Name: res/drawable-xhdpi/music_play_menu_more.png
+SHA1-Digest: 44Z9DBQt1Nrj+M0A5P25DjnKi3k=
+
+Name: res/drawable-sw800dp-xhdpi/mg_music_repeat_all_press.png
+SHA1-Digest: dB6K4Q70ty+wKMZeByKZJH1RLBU=
+
+Name: res/drawable-xhdpi/widget_music_btn_prev_press.png
+SHA1-Digest: 7PjsA6P5MdfzKS5rVZUv+0ts6gw=
+
+Name: res/layout/list_category_tablet.xml
+SHA1-Digest: Lt5pheJ32JQG2GNdmBnMirHyJs8=
+
+Name: res/layout/hover_music_popup_playlist_white.xml
+SHA1-Digest: DfLxKEn4EkXUmftxDlr2l9brGSo=
+
+Name: res/drawable-xhdpi/magazine_widget_music_noitem_bg.jpg
+SHA1-Digest: KIlbc6qx+ewnSl792DIzPVrPxuk=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_rew_press.png
+SHA1-Digest: AqQwCuSfwrFfkceNGcMX/+pE65k=
+
+Name: res/drawable/magazine_card_control_prev_btn_selecter.xml
+SHA1-Digest: pNIlyH2D7KJQQ9dk1P6nt0VTEq4=
+
+Name: res/drawable-xhdpi/tw_fullscreen_background_dark.png
+SHA1-Digest: igzYuefrT5jddVd6lVci1turO4k=
+
+Name: res/drawable-xhdpi/widget_music_btn_repeat_all_focus.png
+SHA1-Digest: EAwix4olkVvHRj5wobsAo9cE9oo=
+
+Name: res/drawable/music_play_control_sound_alive_btn.xml
+SHA1-Digest: fKt3qhO1Srqd+sqh1n6RyeGi5lY=
+
+Name: res/drawable-nodpi/music_soundalive_card_bg_focus.9.png
+SHA1-Digest: Yrt11f+2HYMiIfCaz4Qrf1uES7I=
+
+Name: res/layout-sw800dp-xhdpi/search_item_albumart_text_two_line_tabl
+ et.xml
+SHA1-Digest: UgTI+WBTB5miOd3kK9xYI9PzIjQ=
+
+Name: res/drawable-sw800dp-xhdpi/thumbnail_focus.9.png
+SHA1-Digest: ox8M5jJ0fOlAx/3afZ1fPFINxM8=
+
+Name: res/layout-sw800dp-land-xhdpi/list_content_albums_track.xml
+SHA1-Digest: aUsVfAhtSZhfWwozJLH30Ub50z8=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_play_dim.png
+SHA1-Digest: s6Fyvn3D8VL2Asw2E/3WLiQqOaM=
+
+Name: res/drawable-xhdpi/playspeed_popup_icon_plus.png
+SHA1-Digest: 6MupzKjGiKJYIVqeH5WJvDsPOME=
+
+Name: res/drawable/music_play_menu_suggestion_btn.xml
+SHA1-Digest: xE2dLmd4TRe0LmPks7qqQPZ9W6M=
+
+Name: res/drawable-xhdpi/sview_cover_music_play_control_pause_press.pn
+ g
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable/btn_square_help.xml
+SHA1-Digest: VvFYIZ3Ub/QefpnUXxe0Ng2/RZo=
+
+Name: res/layout/music_player_title_bottom.xml
+SHA1-Digest: KzpngBUP7cU7mok7nOoDRCu4Dbc=
+
+Name: res/drawable-xhdpi/music_list_bg_pressed.9.png
+SHA1-Digest: KJLg28cjKepygi4QVhpdmVGoILg=
+
+Name: res/drawable-xhdpi/music_play_control_pause.png
+SHA1-Digest: 33mVfWFvqKCFGUg5KgK9KwT7kgg=
+
+Name: res/drawable/tab_indicator_selector.xml
+SHA1-Digest: Enc52AQgbS1oeR21S5Jfq5UPahc=
+
+Name: res/drawable-xhdpi/music_play_menu_allshare_disabled.png
+SHA1-Digest: 5M+LD8evV0/yl3562sQgiuvU5Do=
+
+Name: res/drawable-xhdpi/music_fullplayer_progress_bg.9.png
+SHA1-Digest: pf8EyrO8vMIc0XL3SR3TF0LQ22c=
+
+Name: res/layout/actionbar_indeterminate_progress.xml
+SHA1-Digest: qSKLVe2d/nvS2Ri1NVOcwW+XLcU=
+
+Name: res/drawable-sw800dp-xhdpi/tw_list_section_divider_holo_dark.9.p
+ ng
+SHA1-Digest: jkKH5+0LU7HvaBRRMe4YLps8erw=
+
+Name: res/drawable-nodpi/music_ver_mini_dark_bg.9.png
+SHA1-Digest: QRkyOB+K1lmMk8rIG0Igh4U5oMM=
+
+Name: res/drawable-xhdpi/default_music_player_l.jpg
+SHA1-Digest: 5tnr/nzY5LBGgGkPOQxHqhynvF0=
+
+Name: res/drawable-land-xhdpi/tw_fullscreen_background_dark.9.png
+SHA1-Digest: hlW8ODXzbwGrtN9zcq4d51pfMug=
+
+Name: res/drawable-xhdpi/default_music_player_m.png
+SHA1-Digest: XDHpV6CRyJUDAynbMFOamPjfOV4=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_off_shuffle_press.png
+SHA1-Digest: u3NweyUY43GsUlqXIeyaGCCeU6Y=
+
+Name: res/drawable-xhdpi/music_play_menu_rep_all.png
+SHA1-Digest: A5C9hD7GaEEF+MHqSacZZhvzp2s=
+
+Name: res/drawable-xhdpi/widget_music_btn_pause_press.png
+SHA1-Digest: dQ4EcNDl6yS8hZzjXQKHElYBCjU=
+
+Name: res/layout/sview_cover_music_dialog.xml
+SHA1-Digest: yZK1rbu38qFOSBnPgLJ/tCDlTXA=
+
+Name: res/drawable-sw800dp-xhdpi/tw_tab_pressed_holo_dark.9.png
+SHA1-Digest: TYhOqT9FTvB4NTmj8jnUnlHjHmA=
+
+Name: res/drawable-nodpi/hover_music_bg_r.9.png
+SHA1-Digest: AoDOwISL1gEmV3apFXHXMly1peQ=
+
+Name: res/drawable-nodpi/list_thumbnail_frame.9.png
+SHA1-Digest: D+dQ56X0CXT2ZnKbgXA25pp72SM=
+
+Name: res/drawable-xhdpi/tw_btn_next_depth_focused_holo_light.png
+SHA1-Digest: 6kwlCZS3qs6TIGCuhQDVS5Divcc=
+
+Name: res/anim/fade_out.xml
+SHA1-Digest: jpvvwjq8rk/oP3gpRsEeFvgVw8g=
+
+Name: res/layout-sw800dp-xhdpi/list_cover_view_text.xml
+SHA1-Digest: KOpY/pn5jTHS6AioJ6QJ7b+1B2U=
+
+Name: res/drawable-xhdpi/music_fullplayer_personal_icon.png
+SHA1-Digest: y2h4vWlnVY4cr32V8ncKAKyaXVo=
+
+Name: res/drawable-xhdpi/music_volume_controller_mute.png
+SHA1-Digest: OD4SMtPamP3cItWUiZtUAQ8/pyg=
+
+Name: res/drawable-xhdpi/default_music_list_m.png
+SHA1-Digest: VmBwHPYk8R5P1A/MmJe7UlLoLTM=
+
+Name: res/drawable-sw800dp-xhdpi/default_music_player_m.png
+SHA1-Digest: Zy7CnYzeSSKxoumspaHiwu7a9nQ=
+
+Name: res/drawable-xhdpi/unlock_delta_m_prev.png
+SHA1-Digest: yzQtN/MkDAx3ACz4XlR7WMajBrc=
+
+Name: res/drawable/music_play_menu_repeat_all_btn.xml
+SHA1-Digest: HyiWNfeSKOxUFo1J9b7otlGkvEc=
+
+Name: res/drawable-xhdpi/mg_music_repeat_none_normal.png
+SHA1-Digest: sEfn0bTfWS2jva0lR9xO5j7qGkw=
+
+Name: res/layout/list_item_albumart_button.xml
+SHA1-Digest: cK5bXzNxyB4wA+qIDS9bKXZBTU0=
+
+Name: res/drawable/quickpanel_btn_close.xml
+SHA1-Digest: UKbuE4hbgvEPB/UQB6RGj/2pP4s=
+
+Name: res/anim/lyric_push_up_in.xml
+SHA1-Digest: Mk0nRIODtgV/JNHxjjOitArZ/To=
+
+Name: res/layout-sw800dp-xhdpi/new_soundalive_squarecell.xml
+SHA1-Digest: PBjUzjTT7hxD/QMnankQcKZCTzw=
+
+Name: res/layout-sw800dp-xhdpi/custom_action_mode_view.xml
+SHA1-Digest: ywT6ep45Gjtf407M1IqCMtJ4D4I=
+
+Name: res/drawable-sw800dp-xhdpi/music_square_help_select.png
+SHA1-Digest: gL+fV8NrWAlmW7aSVp3O5FiOZaQ=
+
+Name: res/layout-sw800dp-xhdpi/list_item_checkbox_stub.xml
+SHA1-Digest: y1WEXUyXHGf2t2IUgKH++aNLIIA=
+
+Name: res/drawable-xhdpi/sview_cover_music_play_control_rw_press.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/layout-sw800dp-xhdpi/list_grid_item.xml
+SHA1-Digest: pgzH0sVMqRDtAgtN+58JwkaxGtM=
+
+Name: res/layout/settings_settings_tab_layout.xml
+SHA1-Digest: VK6J5p1LIdnLV5/oCH4dyMv6mQA=
+
+Name: res/drawable-xhdpi/noti_list_album.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-xhdpi/music_player_progressive_press.png
+SHA1-Digest: XJ9Hz3JDRt4jRWY+deY9ANDD7GQ=
+
+Name: res/drawable-xhdpi/mg_music_btn_pause_normal.png
+SHA1-Digest: 9qps+2KP7Rqv5rjUBdWuc1lPojM=
+
+Name: res/layout/music_player_album.xml
+SHA1-Digest: JkGP7gr7WWSMECNhRz8lFRoM9l0=
+
+Name: res/layout/list_grid_item.xml
+SHA1-Digest: ld+x2Vdz88dKhfXH3VZtfCZFLHw=
+
+Name: res/drawable-xhdpi/music_play_menu_rep_all_press.png
+SHA1-Digest: fHqt2SPmsqz0yeNBGZw/LU70KR0=
+
+Name: res/drawable/soundalive_square_cell_bg_selector.xml
+SHA1-Digest: JXeAdOEQrFtNLpID1LAf90H1KB4=
+
+Name: res/drawable-nodpi/tw_tab_divider_holo.9.png
+SHA1-Digest: WCv37AJoc4aoSJzFqvHjQ73W+0U=
+
+Name: res/layout/music_player_head.xml
+SHA1-Digest: 9FJ9tRq1dopdaYRuJNLtQMkxzxM=
+
+Name: res/drawable-xhdpi/icon_shuffle.png
+SHA1-Digest: S+EpqtiC8KWqnHU1ivy5vQU6kZM=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_ff_press.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-xhdpi/ic_wifi_direct_telephone.png
+SHA1-Digest: iL+lODjaHzCf0Z+6uCzVNhCsJwo=
+
+Name: res/drawable-xhdpi/music_play_menu_02_normal.png
+SHA1-Digest: auR6HKY+DtDbvHb9WRdFMEck1U0=
+
+Name: res/mipmap-hdpi/music_icon.png
+SHA1-Digest: 0DHZycALAxDTPmOZZuLR3NvAViI=
+
+Name: res/drawable-xhdpi/unlock_delta_m_next.png
+SHA1-Digest: h5wu1ZXllhhoTw20qpdjv5hnifg=
+
+Name: res/drawable-xhdpi/tw_list_icon_reorder_holo_light.png
+SHA1-Digest: SASQzV1Kb5OBjBtbuPVz0cxJqy4=
+
+Name: res/layout/new_soundalive_preset.xml
+SHA1-Digest: DbfSS38RB4WjiuQE9w6wCim8cQo=
+
+Name: res/anim/player_slide_right_in.xml
+SHA1-Digest: JgkHC5OBK6eGjWODd7XBizTgeKM=
+
+Name: res/drawable-sw800dp-xhdpi/music_soundalive_card_tubeamp_on.png
+SHA1-Digest: 44FAwVpFu+eJkxrmn1USV7+KoSQ=
+
+Name: res/drawable/sview_cover_music_play_control_play_btn.xml
+SHA1-Digest: EVhXxgBnLt0vvDGjKFjraK97rM4=
+
+Name: res/layout/my_menu_reorder_content.xml
+SHA1-Digest: XLzuAvqqqzffvLn7Aa37Z45t8E8=
+
+Name: res/layout/list_item_animation.xml
+SHA1-Digest: ZDQCa9kzst9/lVnInzyMEpWlYTc=
+
+Name: res/layout-land/tablet_music_player_album.xml
+SHA1-Digest: TYOtRTMNSGaC7dbonyeuBo1lz0Y=
+
+Name: res/layout/widget_layout_2x4.xml
+SHA1-Digest: rXCppbkUnNW66NyE6bQ8HFPRU78=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_pause.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-sw800dp-xhdpi/music_soundalive_card_virtual71_on.pn
+ g
+SHA1-Digest: dTCn2wwSPj554GtQMzdFLAyO86I=
+
+Name: res/layout-sw800dp-land-xhdpi/list_folder_item_albumart_text_two
+ _line_tablet.xml
+SHA1-Digest: Z4Mass+ibbaAzdPa8PcoJUAM8HM=
+
+Name: res/drawable-sw800dp-xhdpi/mg_music_repeat_1_press.png
+SHA1-Digest: G839JVg9uAdaRSo7dnSNryfTzFA=
+
+Name: res/drawable-xhdpi/music_play_menu_02_press.png
+SHA1-Digest: CKcTzfEb9saQG2tja7+QplNuGJE=
+
+Name: res/drawable-xhdpi/music_play_control_pause_press.png
+SHA1-Digest: SHSwKDxquSUVgRbXY9lanPXl68k=
+
+Name: res/drawable-xhdpi/tw_action_bar_sub_tab_bg_holo_light.9.png
+SHA1-Digest: zO2HafvRPO0bctERVJN8mwssHNw=
+
+Name: res/drawable-xhdpi/music_miniplayer_progressive_press.png
+SHA1-Digest: Yn4sGRpacNajV28RPgBpnK7GFPY=
+
+Name: res/drawable-sw800dp-xhdpi/music_add_to_playlist_press.png
+SHA1-Digest: toIoOp93WJLNvDSTVDtIMvGmMio=
+
+Name: res/drawable-xhdpi/music_play_allshare_vol_mute_press.png
+SHA1-Digest: ChUlzTT13xGXlk+mLBgYKtstpFA=
+
+Name: res/drawable-sw800dp-xhdpi/tw_volume_scrubber_bg_dark.9.png
+SHA1-Digest: HloPFizxZ44/m+rxCArmmBKHhtA=
+
+Name: res/layout/music_setting_sound_alive.xml
+SHA1-Digest: P1ivZwLHwAzpAPf4tiwyxg8M7VU=
+
+Name: res/layout/list_grid_view_stub.xml
+SHA1-Digest: R6VG+Zq2ydgxkUCWYDYt2oDULWg=
+
+Name: res/drawable-xhdpi/widget_music_preview.png
+SHA1-Digest: k0/auevpKZ1CmTkFTayZ+iddIuA=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_pause.png
+SHA1-Digest: Fl9i7nvCpGDLqx2DSLtI1KaByqo=
+
+Name: res/layout/hover_music_popup_white.xml
+SHA1-Digest: LtrO0xhltU3b5Rar2B9NIx1sNYE=
+
+Name: res/drawable-xhdpi/music_easymode_progress_bg.9.png
+SHA1-Digest: pf8EyrO8vMIc0XL3SR3TF0LQ22c=
+
+Name: res/drawable-sw800dp-xhdpi/music_list_nowplaying_01.png
+SHA1-Digest: JdHzmNyXI+5OLa0m5Vs9sRYtMDI=
+
+Name: res/drawable-xhdpi/unlock_delta_m_play.png
+SHA1-Digest: XFrMtDHB5Cnkf2f6nr18g6Cffgw=
+
+Name: res/drawable/music_play_control_list_btn.xml
+SHA1-Digest: tQsniaGQkIKIEx6EFj0xhIwkkEs=
+
+Name: res/layout/list_header_square_track.xml
+SHA1-Digest: BXpnxdU/6OOHOgFYWD9sq5ir/Dw=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_close_press.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-xhdpi/widget_music_btn_play_normal.png
+SHA1-Digest: Z/STYL8948ROovCElzaOTO8wBJw=
+
+Name: res/layout/custom_action_mode_title_view.xml
+SHA1-Digest: pQWJI1T3ENg63eqYs9MGKui+Zjg=
+
+Name: res/drawable-xhdpi/music_ic_question_focus.png
+SHA1-Digest: M1w9H/+r4phE4bqjvf9cZdPQLRI=
+
+Name: res/drawable-nodpi/tw_list_multi_selected_holo_dark.9.png
+SHA1-Digest: SSK3lohpg/2b9OCbl532VzgjSAE=
+
+Name: res/drawable-xhdpi/widget_music_no_thumbnail.jpg
+SHA1-Digest: am8hLMqFbdbCQfwGBEHgl7+IAhg=
+
+Name: res/menu/sound_alive_option_menu.xml
+SHA1-Digest: t9lgEaf8AAgOsVH3VwYqKcoOqrc=
+
+Name: res/drawable-sw800dp-xhdpi/mg_music_repeat_1_normal.png
+SHA1-Digest: 9UFum3o5vZfbEnVk/lplWk4q42Q=
+
+Name: res/drawable-xhdpi/music_detail_arrow_right_dim.png
+SHA1-Digest: XUhVQ5MQRgV+EnG3QjtUxLRi9Z0=
+
+Name: res/drawable-xhdpi/quick_panel_music_ff_press.png
+SHA1-Digest: 2EUwawz9UQLs2Guqq+0THmaRpwM=
+
+Name: res/layout/music_player_volume_panel.xml
+SHA1-Digest: hg0+Vc/V+I0DFRWdmK6RHQbXG7c=
+
+Name: res/drawable/default_thumbnail_bg.xml
+SHA1-Digest: ZJw0zGMDCAeWjDBjlUKa9uFLfTg=
+
+Name: res/layout/list_content_2.xml
+SHA1-Digest: kiMYuwIm7ktOHmtkvctPktMZosQ=
+
+Name: res/drawable-nodpi/tw_preference_list_divider_holo_dark.9.png
+SHA1-Digest: stTgeZCrCJ/rcueRykiUYhtUunM=
+
+Name: res/drawable/music_play_menu_star_on_btn.xml
+SHA1-Digest: gx511hg1678tWMjuFTFrGAYS/6c=
+
+Name: res/drawable-xhdpi/knox_container_icon1.png
+SHA1-Digest: a26Plmr66n+V893KY1wBsehgznA=
+
+Name: res/drawable-xhdpi/sound_alive_line_on_press.png
+SHA1-Digest: p3d0AdOW9E0FNbXLB9/Dh/VjG+s=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_rew.png
+SHA1-Digest: 9c3k0XJqbv63tFKHMwRJL3z5E98=
+
+Name: res/drawable-nodpi/music_library_sub_action_bar_bg.9.png
+SHA1-Digest: f0hLojOOmYTK8WObNY+zaa0FHwc=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_play.png
+SHA1-Digest: ZtjlGIaDEbfI7fYovo5wRmbqPfQ=
+
+Name: res/layout/music_setting_sound_alive_eq.xml
+SHA1-Digest: ntDyUQVIajF5pEraD31pdZe0/Dk=
+
+Name: res/layout/list_content_header_common.xml
+SHA1-Digest: CdHyweVmcZtMh1Zb+8z2om/g+xg=
+
+Name: res/drawable-xhdpi/music_thumbnail_nowplaying.png
+SHA1-Digest: l5GR5s7WYkbUtMIczvxOea01b9g=
+
+Name: res/layout/list_header_shuffle_musicsquare.xml
+SHA1-Digest: pQX/mBPPk8shL8kIZ3oqHFa4CAw=
+
+Name: res/anim/player_fling_from_right.xml
+SHA1-Digest: YedhHeq7VQfoQAqPSjbOgwU5fvE=
+
+Name: res/drawable-sw800dp-xhdpi/music_soundalive_card_line_on.png
+SHA1-Digest: J+8aYeJJGydEXHzGLMELxYeBabI=
+
+Name: res/drawable-xhdpi/hover_popup_basic_white_bg.9.png
+SHA1-Digest: KJLg28cjKepygi4QVhpdmVGoILg=
+
+Name: res/drawable/music_play_menu_repeat_off_btn.xml
+SHA1-Digest: hZhIX15hwubo/1ibN3WijzR8Hn8=
+
+Name: res/anim/now_playing_list_up_in.xml
+SHA1-Digest: dbm6yxoTqOjFZUC1vTuxYDpApuI=
+
+Name: res/layout-sw800dp-xhdpi/list_item_title_albumart_two_line.xml
+SHA1-Digest: cCJROc5fhnqzIE/r2vKoTTeEm4I=
+
+Name: res/menu/selection_popup_menu.xml
+SHA1-Digest: g0GF/xxkhfrj+XkBD5o52zCXuQA=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_scroll_bg.9.png
+SHA1-Digest: KJLg28cjKepygi4QVhpdmVGoILg=
+
+Name: res/drawable-xhdpi/tw_list_section_divider_holo_light.9.png
+SHA1-Digest: J8aEfxLy8Sk278FN47rGM1dFpVk=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_playlist.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-xhdpi/tw_ab_transparent_light_holo.9.png
+SHA1-Digest: eIgziIKR23x4eBqt3ox7ruxVVGY=
+
+Name: res/drawable-xhdpi/actionbar_dropdown_press.9.png
+SHA1-Digest: GekuslQcsqgyJwsJhMcnqzWY4MM=
+
+Name: res/drawable-xhdpi/btn_normal_publishing.9.png
+SHA1-Digest: DUwpkeKGqHvTEwg9JYx4pq8xA6Q=
+
+Name: res/drawable/music_play_control_hide_btn.xml
+SHA1-Digest: n3Pd7U1LIFlUxD/AFkOd+Xs6WnE=
+
+Name: res/drawable-xhdpi/ic_question_select.png
+SHA1-Digest: RA2PLK8N5G73G7qAyZxvuvoZXs8=
+
+Name: res/drawable-xhdpi/playspeed_popup_icon_plus_press.png
+SHA1-Digest: 9S/1EMP1RYKyGZLdxcLvg2kMYiY=
+
+Name: res/drawable-xhdpi/tw_list_focused_holo_light.9.png
+SHA1-Digest: 6tGl90qAZDmTR/ibZtlSy93r5aM=
+
+Name: res/layout-sw800dp-xhdpi/new_soundalive_preset.xml
+SHA1-Digest: NeM+y3ME77RA1QABICnPAYP20y8=
+
+Name: res/drawable-xhdpi/tw_actionbar_btn_edittitle_normal.png
+SHA1-Digest: Znmnw7DB19prmxDu6HyD6vtMEqk=
+
+Name: res/drawable/list_item_selected_selector.xml
+SHA1-Digest: 2srIQMYvD1d/GA1Oih1VoKo9fBw=
+
+Name: res/drawable-nodpi/music_widget_now_playing_01.png
+SHA1-Digest: BA31sqdE2uCgaLNFxw9PDvsxNOk=
+
+Name: res/drawable-xhdpi/widget_music_btn_prev_focus.png
+SHA1-Digest: B6v1oWsFi70IzjG2W6+x37NHU/c=
+
+Name: res/drawable-xhdpi/music_detail_actionbar_icon_tags_music_dim.pn
+ g
+SHA1-Digest: SrxX0GoQJKbhN+Av5yZ9ZZDxGLI=
+
+Name: res/drawable-xhdpi/music_play_control_sa_focus.png
+SHA1-Digest: X48fMVk59vWiFC6lUahQzkDUtIM=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_rew_disable.png
+SHA1-Digest: SA0We8grhfcixg08IhmCHCbWv+Q=
+
+Name: res/drawable-sw800dp-xhdpi/default_music_player_l.png
+SHA1-Digest: 9GSBalwnhLh+ix036hUoyQQD65w=
+
+Name: res/drawable/new_soundalive_advanced_effect_focus.xml
+SHA1-Digest: 2/WF7njm53geMx2iQ19+YdJBkJw=
+
+Name: res/drawable/magazine_card_control_stop_btn_selecter.xml
+SHA1-Digest: XP1dcVUTIi3stiTVIlOn3iJ26ao=
+
+Name: res/drawable-sw800dp-xhdpi/tw_action_bar_icon_refresh_holo_light
+ .png
+SHA1-Digest: w3xU0/7bf3z0CjOLOl73B7ygTMU=
+
+Name: res/drawable/magazine_card_control_play_btn_selecter.xml
+SHA1-Digest: DH3xTLtLM48IkOU1gOrVtWk85lE=
+
+Name: res/drawable/widget_control_repeat_off_btn.xml
+SHA1-Digest: 6uaLa+i9+gdgw3+x7PVVgYReP9Y=
+
+Name: res/drawable-xhdpi/unlock_delta_m_next_focused.png
+SHA1-Digest: 2YPQlLd0Bs5XOX44IZM9O2nOPeM=
+
+Name: res/anim/player_fling_from_left.xml
+SHA1-Digest: zuVsOjNK2Y371cE4OgeVttcfQcA=
+
+Name: res/layout/widget_layout_1x1.xml
+SHA1-Digest: tJdXUlWS9a16tk9JfR6UUtmWMOo=
+
+Name: res/layout/music_player_title.xml
+SHA1-Digest: eAZqW+wDLkwJFHnZb9MWeTta1qY=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_rep_noff_focus.png
+SHA1-Digest: 62xanSArpftrF8yAPBMMGbxAfuM=
+
+Name: res/drawable-xhdpi/widget_music_btn_shuffle_on_focus.png
+SHA1-Digest: vo5sQREnUJCZx0zy8y9qgYi0YEY=
+
+Name: res/drawable-xhdpi/music_btn_add_focus.png
+SHA1-Digest: hjCil/TYx80WAbLoIbh0lgeHf7o=
+
+Name: res/drawable/dlna_change_player_btn.xml
+SHA1-Digest: jCc9IoikuD3t1yTYpnEd3GZHeF4=
+
+Name: res/layout/music_player_nowplaying_list.xml
+SHA1-Digest: XC0jcOcgNFiD1xA+aoL2eplZoFk=
+
+Name: res/drawable/sview_cover_music_player_next_btn.xml
+SHA1-Digest: CiBl4GVGcc52fkwSNCHhCe8+8SM=
+
+Name: res/layout/music_player_title_top.xml
+SHA1-Digest: i3Xbnol+YxhDUyp8w0zt3Hq80RU=
+
+Name: res/layout-sw800dp-xhdpi/media_info_edit_text_item.xml
+SHA1-Digest: GNYy/u+ug4sGoqUyUsIND9BEnQY=
+
+Name: res/drawable-nodpi/tw_list_longpressed_holo_dark.9.png
+SHA1-Digest: SEjfiLASzmaxbsvUcwoA6zWZSoc=
+
+Name: res/drawable-sw800dp-xhdpi/music_soundalive_card_room_on.png
+SHA1-Digest: OjRTEPk4nMnvH6PpegIEwbkuD9Y=
+
+Name: res/drawable-xhdpi/music_play_control_rew_focus.png
+SHA1-Digest: RBySJIbFTJKAdp32a8OlgSSHrtQ=
+
+Name: res/drawable-xhdpi/music_soundalive_card_line_off.png
+SHA1-Digest: Q/gZHsavQdWSLkvyhczSuZEw45w=
+
+Name: res/drawable-xhdpi/sview_cover_music_play_control_ff_focus.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable/magazine_widget_control_repeat_1_btn.xml
+SHA1-Digest: eF81jEHuevxUNEIeHn0w5/45gIc=
+
+Name: res/layout/list_item_albumart_text_two_line.xml
+SHA1-Digest: fSlOtumgR2zh06YvuqolZLISHf4=
+
+Name: res/layout-sw800dp-xhdpi/list_content_musicsquare.xml
+SHA1-Digest: 6FN7MSt+Mf8RiISg/C5U+v7Whyc=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_on_shuffle.png
+SHA1-Digest: dFw846OonD+IMm3m2/NldIS33xI=
+
+Name: res/drawable-xhdpi/music_play_menu_addplaylist.png
+SHA1-Digest: psREVynLJO3DC6ydQZQUx2Ig+A4=
+
+Name: res/drawable-xhdpi/music_soundalive_card_studio_on.png
+SHA1-Digest: QHQUvquUXraNkzjCOq3ayG8AcCg=
+
+Name: res/layout/media_info_list_text_item2.xml
+SHA1-Digest: clQG9Eip0+L3wN5Jl8WGRWNOAs4=
+
+Name: res/drawable-nodpi/tw_preference_list_divider_holo_light.9.png
+SHA1-Digest: Yrc/5leveb1Zg5dU6fl9SJ7iwGs=
+
+Name: res/drawable-xhdpi/sview_cover_music_play_control_play_focus.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/layout-land/new_soundalive_advanced_effect.xml
+SHA1-Digest: SZMBCMWTJfGhP/LaePB0g88mmT0=
+
+Name: res/layout/widget_layout_4x2.xml
+SHA1-Digest: BPS+X0t4zjok5xLz+zPtRFJz45U=
+
+Name: res/layout-land/music_square_grid_view.xml
+SHA1-Digest: spe8v5IXioBJIbfBvrvZ4o+M5TM=
+
+Name: res/drawable-sw800dp-xhdpi/playspeed_popup_icon_plus.png
+SHA1-Digest: 7WWiGAk75KDOgneY+W2d6f2Xe7E=
+
+Name: res/drawable-nodpi/tw_preference_contents_list_left_split_defaul
+ t.9.png
+SHA1-Digest: 0iGe4Hut+qezvqU0VAYpVYcsF7U=
+
+Name: res/raw/fog_texture_model_vertex_shader
+SHA1-Digest: 3nBikcmllvP1pQEmpQrx0AhrVMw=
+
+Name: res/drawable-xhdpi/tw_select_all_bg_holo_light.9.png
+SHA1-Digest: zZ+SZnCEIcMI6pu6V/al2Mov3oQ=
+
+Name: res/drawable/music_play_control_next_btn.xml
+SHA1-Digest: Nk9pfb6eiPMJVuHMJd0JALzZDnk=
+
+Name: res/mipmap-sw800dp-xhdpi/music_icon.png
+SHA1-Digest: 57WyBB4pgqnr2Gn5Fx6iu7V0I38=
+
+Name: res/drawable-xhdpi/music_soundalive_card_hall_on.png
+SHA1-Digest: eKXyXUzCfTigvrJ/BmwHYbxc95o=
+
+Name: res/drawable-xhdpi/tw_actionbar_btn_addtoplaylist_normal.png
+SHA1-Digest: 0GCKhgTkl9bh0z2V+qV7hNVNtnE=
+
+Name: res/drawable-xhdpi/mg_music_repeat_all_normal.png
+SHA1-Digest: J4NiGHr69yv8e5LqpJXob0p0llA=
+
+Name: res/color/actionbar_dropdown_text_color_selector.xml
+SHA1-Digest: lDlyQOeGDBm5Jy0/n+MxfVZVGR4=
+
+Name: res/menu/header_common_option_menu.xml
+SHA1-Digest: jM9Lzg33GZEX+MjAGBvmQpanrCc=
+
+Name: res/layout/tablet_music_player_lyric_panel.xml
+SHA1-Digest: nNuuSiw2tR/3Hb6OQdR2W4ZXKw8=
+
+Name: res/drawable-xhdpi/music_detail_actionbar_icon_search.png
+SHA1-Digest: PcuEQki2voLQOHivewHS4bwxEhI=
+
+Name: res/drawable-xhdpi/stat_play.png
+SHA1-Digest: hRksGJ7Fp76UQ4BF0UQdJAJp5a4=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_play_press.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-nodpi/tw_thumbnail_focused.9.png
+SHA1-Digest: zig2wSZ5rTgzoYdiQiOFbr0o/OE=
+
+Name: res/drawable/music_play_volume_btn.xml
+SHA1-Digest: arNXDW15yg3dUZXc3d2Kmk7h1Ts=
+
+Name: res/drawable-xhdpi/music_play_control_ff_focus.png
+SHA1-Digest: p0BfI5uDfawABt6VdGnor0hEkos=
+
+Name: res/drawable/actionbar_detail_edit_btn_selector.xml
+SHA1-Digest: VBDYztvRPSGeVT72yTwcDFlVgEY=
+
+Name: res/drawable/music_player_seekbar.xml
+SHA1-Digest: bPBTk2O9ttV1mF2pbQHuXdgniGQ=
+
+Name: res/layout/dialog.xml
+SHA1-Digest: c3iOMo4jnhoO7GN88mMfr3qry/E=
+
+Name: res/drawable-sw800dp-xhdpi/sound_alive_equalizer_number_bg.png
+SHA1-Digest: r/1cZDxiRRmBPZBNWw0HH/DF98Y=
+
+Name: res/drawable/music_square_grid_selector.xml
+SHA1-Digest: u2pyXOy+epX+aXVLsZakVMdTMec=
+
+Name: res/color/setting_pref_title_color.xml
+SHA1-Digest: LVIIYDGsXO9QHWxFaWvPFXG2PYI=
+
+Name: res/drawable-nodpi/tw_preference_contents_list_left_split_defaul
+ t_press_dark.9.png
+SHA1-Digest: Dg1H6QQ7SwFd0Y9bmuUMUnTP33s=
+
+Name: res/drawable/magazine_card_control_pause_btn_selecter.xml
+SHA1-Digest: PmUF3rLOvYl9FRFyXwJMIfhbZFM=
+
+Name: res/layout-sw800dp-xhdpi/media_info_default_text_item.xml
+SHA1-Digest: YM8bTf6IbPJ6nF2B+OFnuZQt6lM=
+
+Name: res/layout-sw800dp-land-xhdpi/list_grid_view_stub.xml
+SHA1-Digest: Ps7DV5F4aT8PSyUBEETgsrmX9rI=
+
+Name: res/layout-sw800dp-xhdpi/music_no_item.xml
+SHA1-Digest: xXSTBSO33uObMiHOtuHGIqbEzLc=
+
+Name: res/drawable-xhdpi/sound_alive_line_on.png
+SHA1-Digest: zelOTbf0DspJ2RtdQRkZ0YexeXw=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_rew_focus.png
+SHA1-Digest: ao+2aW+dQmUEYwWC+SWqD7z8i5w=
+
+Name: res/drawable/sview_cover_music_player_pause_btn.xml
+SHA1-Digest: WcN/HuHl+RZYnsTd6ra5R7h05UE=
+
+Name: res/drawable-sw800dp-xhdpi/music_volume_controller_launch.png
+SHA1-Digest: O1sFrbwlVDwKjUgpdMbDb7lPRqY=
+
+Name: res/drawable-xhdpi/music_volume_controller_launch_press.png
+SHA1-Digest: T6JQMTyaXWH3u/kpPUVg8E3I6MI=
+
+Name: res/layout/list_item_albumart_text_two_line2_tablet.xml
+SHA1-Digest: Mgnhfoimepgh9vciICk750sUizw=
+
+Name: res/drawable-nodpi/sound_alive_equalizer_bar_bg_dark.9.png
+SHA1-Digest: +uAnCDLPlPANE8I83Ebovn9V5LM=
+
+Name: res/layout/media_info_default_text_item.xml
+SHA1-Digest: TUqoTflVxZqQ+KEYzydWQ40wJZY=
+
+Name: res/drawable/magazine_card_control_next_btn_selecter.xml
+SHA1-Digest: g/rdevmnLxR7qAZJfWGxiWTL/Pc=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_pause_press.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/menu/list_dlnadms_option_menu.xml
+SHA1-Digest: hYzqKWW2+piJ/kE4oPzJw8imN34=
+
+Name: res/layout/list_content_header_number_text.xml
+SHA1-Digest: zPqFaBoJwMnPKZ3B8cU1JzAUZWo=
+
+Name: res/layout/tablet_settings_menu_row_layout.xml
+SHA1-Digest: pCWKqGkvp3DSEiXD3vxTS7uwd/8=
+
+Name: res/drawable-xhdpi/music_thumbnail_add_thumb.png
+SHA1-Digest: qHrk7jpR1ESiNh38OBaTDJihzTQ=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_ff_press.png
+SHA1-Digest: zbtQk3GqbX3Qsg168u3E4hx9frs=
+
+Name: res/layout/list_item_variable_text.xml
+SHA1-Digest: 5IdZl6ME5mvaTwunfb52Zgd5E+o=
+
+Name: res/menu/media_info_option_menu.xml
+SHA1-Digest: 2j3bWrD/iG7pFkLevZFT5uNw4vc=
+
+Name: res/drawable-xhdpi/music_player_thumbnail_focus.png
+SHA1-Digest: 2DELVz3LUC64DAFcZEClYX0BKeE=
+
+Name: res/layout/media_info_dialog_list_item.xml
+SHA1-Digest: vL5rtBGtUJjQ2EhtwxdDfPIKTjY=
+
+Name: res/drawable-sw800dp-xhdpi/music_library_delta_shuffle_select.pn
+ g
+SHA1-Digest: 8/GnHOoWNAFlh2IM7P+4iAy5kdg=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_rew_focus.png
+SHA1-Digest: JWkwaFwuSDGbx+NTcM4r/rci5OE=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_allshare_vol_down_press.pn
+ g
+SHA1-Digest: AB70dAYfqHpS1+CDy/u7NYNmkgU=
+
+Name: res/layout-land/list_content_albums_track.xml
+SHA1-Digest: ZiX+J4LnlFZyJiI/Rdnf4UCTa38=
+
+Name: res/drawable/mini_player_tw_progressive_point.xml
+SHA1-Digest: vMm8rvB1TDpDS4reMX03w7NeA1Q=
+
+Name: res/layout/menu_item_dummy.xml
+SHA1-Digest: ZSYV3OOYm1vR7+eHtr3LCq1D56g=
+
+Name: res/drawable-sw800dp-xhdpi/mg_music_repeat_none_normal.png
+SHA1-Digest: sEfn0bTfWS2jva0lR9xO5j7qGkw=
+
+Name: res/drawable/tw_preference_contents_list_divider.xml
+SHA1-Digest: L7WAdDZ39axKVh5tvVy29g94//Q=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_pause_focus.png
+SHA1-Digest: jEcP16YoD6sLLmFaaweJAd/8NXc=
+
+Name: res/layout/hover_track_list_full_text_popup.xml
+SHA1-Digest: IDqUTTeRyWbZS06lNMzbWEH0rLo=
+
+Name: res/drawable-xhdpi/actionbar_dropdown_disable.9.png
+SHA1-Digest: TMSTXd450LlhVFrd/vjh4MO/bGA=
+
+Name: res/drawable/music_play_control_allshare_vol_mute.xml
+SHA1-Digest: 2wQm8W67maNnbHQFtEzAKd0uHP4=
+
+Name: res/layout/list_item_header_albumart.xml
+SHA1-Digest: 6lPDuMz/fRuLUFtuy7oyYKdY3aU=
+
+Name: res/drawable-xhdpi/unlock_delta_m_play_focused.png
+SHA1-Digest: DrcGH43qFiuJHIftZR/swctWIxA=
+
+Name: res/drawable-xhdpi/unlock_delta_m_play_pressed.png
+SHA1-Digest: Jh2I5YEkah5Q11WivMjvFoZGn0E=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_playlist_focus.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-xhdpi/ic_wifi_direct_game_devices.png
+SHA1-Digest: SpetV+oJvufAKsZEFiDkKckGS7c=
+
+Name: res/drawable-xhdpi/quick_panel_icon_call_thumbnail_focus.9.png
+SHA1-Digest: 6fNdDwVvMRizSIeVEEqElxCjles=
+
+Name: res/drawable-xhdpi/music_easymode_progressive_press.png
+SHA1-Digest: g/+LllX40G3FIMap1QQzFICgiMc=
+
+Name: res/drawable-xhdpi/music_miniplayer_progressive_focus.png
+SHA1-Digest: +7tlWGeEhnaI3tIvmT4gtpeLUAE=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_allshare_vol_up.png
+SHA1-Digest: 2fhEiq8CQSufV8mFnWBbzNxDiqY=
+
+Name: res/layout/search_view_action_bar.xml
+SHA1-Digest: qgXMzmRDhZnDP2l/mddrFf3gRR8=
+
+Name: res/drawable/widget_control_next_btn.xml
+SHA1-Digest: 8T6DCtWJjoBCqqfVh4e20FbrLto=
+
+Name: res/drawable-xhdpi/music_easymode_progressive_ing.png
+SHA1-Digest: Z//KiPkriya/hJl+hvNzTNsZ6as=
+
+Name: res/layout-sw800dp-xhdpi/list_cover_view.xml
+SHA1-Digest: gHGlTpWiPd0mPi6mmAQsDJSg//Y=
+
+Name: res/drawable-xhdpi/actionbar_dropdown_focus.9.png
+SHA1-Digest: jfKjpO+XntN/93Gzgp8JIUhqcyQ=
+
+Name: res/drawable-xhdpi/ic_wifi_direct_input_device.png
+SHA1-Digest: ezqNZvvdDBfy3U7ap4ciU92p/yA=
+
+Name: res/layout-sw800dp-xhdpi/music_square.xml
+SHA1-Digest: qmwBMU0rl2IODAgauC5kBU04Oxs=
+
+Name: res/drawable-xhdpi/music_list_personal_icon_folder.png
+SHA1-Digest: lCFsWOk675AtOZAT6GFQa84MejU=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_ff.png
+SHA1-Digest: VYXfJlb8GsBGsVGc3PdKjCLRla8=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_shuffle_focus.png
+SHA1-Digest: lpXTO/BkKoKBCcmXh6ad3HAN4Ic=
+
+Name: res/drawable/play_speed_plus_btn.xml
+SHA1-Digest: 4kqFGWoIZ7BwFsiiGv46K9M/X5c=
+
+Name: res/drawable-xhdpi/music_easymode_progress_secondary.9.png
+SHA1-Digest: LIuReeLVzPWZJyuPo6rIp0SCGMI=
+
+Name: res/drawable-nodpi/tw_preference_contents_list_left_split_defaul
+ t_press.9.png
+SHA1-Digest: Dg1H6QQ7SwFd0Y9bmuUMUnTP33s=
+
+Name: res/raw/gradient_fragment_shader
+SHA1-Digest: XkYoWt1M8YHV2K6MrxN1TQocGpI=
+
+Name: res/layout-sw800dp-xhdpi/search_view_action_bar.xml
+SHA1-Digest: oJhf9Mh0+A9rP0+J47Vt8Dgb2g0=
+
+Name: res/layout/magazinecard_layout.xml
+SHA1-Digest: RT0qUH1YgcVC+uD1Cpw/gm3hmCg=
+
+Name: res/drawable-xhdpi/music_detail_arrow_left.png
+SHA1-Digest: H4Ng8uiTJwsUafghQDWF7Ax77fM=
+
+Name: res/drawable-sw800dp-xhdpi/sound_alive_equalizer_bar_handler_nor
+ mal.png
+SHA1-Digest: jNO2MGOhyJIaF51Cf3kwQVCDZrE=
+
+Name: res/drawable-xhdpi/ic_wifi_direct_computer.png
+SHA1-Digest: jSXvYXgjTykh/9GvRz732/wMFRw=
+
+Name: res/menu/list_store_context_menu.xml
+SHA1-Digest: f78J8phJSDcvqOAcmRqYb62p780=
+
+Name: res/layout/list_item_devices.xml
+SHA1-Digest: HiS8Z0AB1tffRXC2PqDZwrioLKU=
+
+Name: res/anim/list_nowplaying_ani.xml
+SHA1-Digest: cZ8U1JuF9fVt+GUT0wXXltrA0Ag=
+
+Name: res/layout/tablet_list_content_now_playing.xml
+SHA1-Digest: AgSEIZOUxf6IWoRpISxc3oJftUk=
+
+Name: res/drawable-sw800dp-xhdpi/music_bar_on.9.png
+SHA1-Digest: olSbpw8zcmZ/i4TpFz3W5oUG+14=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_list_press.png
+SHA1-Digest: oYXFcCZUNzi/BKCq5n9PQ4+/WEc=
+
+Name: res/drawable-xhdpi/sview_cover_list_dvline.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/layout/tutorial_complete_popup.xml
+SHA1-Digest: 9kV8ag9LkL3itVdAuytHqYVKaeU=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_favorite_off.png
+SHA1-Digest: nfIvWIHENx3eG26hISaJsdzfTxE=
+
+Name: res/layout/list_category.xml
+SHA1-Digest: i8iLCezw3BD58zCj81A1J79V38U=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_play_focus.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-xhdpi/quick_panel_music_ff.png
+SHA1-Digest: jbGVCmMw8HrEM+QZFto8p8c7ISw=
+
+Name: res/drawable-xhdpi/widget_music_btn_shuffle_off_press.png
+SHA1-Digest: MPr+aZ6er+2ovCZmGCO2Im5nTBc=
+
+Name: res/drawable-xhdpi/mg_music_btn_play_normal.png
+SHA1-Digest: 3clk0N2ybWCO6EQv864rtt82M4o=
+
+Name: res/drawable-sw800dp-xhdpi/default_music_list_m.png
+SHA1-Digest: p0WF2hynjT042TxyanF2yhU1Vfg=
+
+Name: res/drawable-sw800dp-xhdpi/music_add_to_playlist_focus.png
+SHA1-Digest: ayDA6f48DuqQbG/csC9waIajlGM=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_on_shuffle_focus.png
+SHA1-Digest: lpXTO/BkKoKBCcmXh6ad3HAN4Ic=
+
+Name: res/drawable-xhdpi/detail_biography_bottom_bg.9.png
+SHA1-Digest: 1CJ8tcF8GN5ua25ZZXFIZHcqEmk=
+
+Name: res/drawable-xhdpi/playlist_icon_create.png
+SHA1-Digest: cR6hvVQey244XusHGZoUfT/gg/E=
+
+Name: res/drawable/widget_control_shuffle_on_btn.xml
+SHA1-Digest: S653q5oaLy/WMmDggW5HsZNKHqw=
+
+Name: res/layout/hover_music_player_full_text_popup.xml
+SHA1-Digest: L8kcpwdTPAyC5/3UtwKinpPeRv4=
+
+Name: res/drawable-xhdpi/music_play_menu_rep_1_press.png
+SHA1-Digest: tJ3B4ha5n7/NOzzallpCG+QMD3M=
+
+Name: res/layout-sw800dp-xhdpi/list_item_text_one_line.xml
+SHA1-Digest: b6UrIm9N+XE7pniTN2EJaRk0pTI=
+
+Name: res/layout/music_player_ab_repeat.xml
+SHA1-Digest: 4uWUkm4OvDwSvxiRiSwEAPHvVOk=
+
+Name: res/drawable-xhdpi/widget_music_btn_repeat_normal.png
+SHA1-Digest: vh6iuunmVZ7l8gxp3K5GyR76hz4=
+
+Name: res/layout/list_item_title_one_line.xml
+SHA1-Digest: eFjHGGYcxWUdv5WJZwxHDkKtx9I=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_title_bg.9.png
+SHA1-Digest: KJLg28cjKepygi4QVhpdmVGoILg=
+
+Name: res/layout/list_content_reorder_tablet.xml
+SHA1-Digest: 8IlWZtRAPiYULDLmdG+r4KLptd0=
+
+Name: res/drawable-xhdpi/music_logo_amg.png
+SHA1-Digest: bNMPPmTijdLWHFYLV8p0dHG9iHw=
+
+Name: res/drawable-sw800dp-xhdpi/sound_alive_square_cell_focus.png
+SHA1-Digest: l5Kp9vDouhUi7Fa3j9Gg/r9RhEY=
+
+Name: res/drawable-xhdpi/widget_music_btn_shuffle_on_press.png
+SHA1-Digest: yWETMqF62Jp5xaeVAYy+MDSjoDw=
+
+Name: res/menu/music_square_option_menu.xml
+SHA1-Digest: tuTYQks1MmsNgKQfo/VWyKS0tZU=
+
+Name: res/drawable-xhdpi/music_play_menu_rep_1_focus.png
+SHA1-Digest: bdh6Dp0Kc3Mpp13Wj9P7abzvcxU=
+
+Name: res/layout/widget_noitem_layout.xml
+SHA1-Digest: zw62D3wYpZlJFFO106C7k6K+65c=
+
+Name: res/layout/hover_seekbar_popup.xml
+SHA1-Digest: o0SOU1E0voUL3Z0hXK43HA4GXd8=
+
+Name: res/drawable-xhdpi/ic_wifi_direct_storage.png
+SHA1-Digest: XWhVUUPP0AcbV609x8S5nHDOl0o=
+
+Name: res/drawable-xhdpi/mg_music_btn_next_normal.png
+SHA1-Digest: iQLldv95evnSaHQ4nkuv64kQcjc=
+
+Name: res/drawable-xhdpi/music_soundalive_card_hall_off.png
+SHA1-Digest: 4LlobrCDFPV/OHqODPso8pZjpIg=
+
+Name: res/drawable-xhdpi/music_play_allshare_vol_up_focus.png
+SHA1-Digest: zYnHFVTGuxh8nJywJquXSoUlVoQ=
+
+Name: res/drawable-xhdpi/music_play_menu_off_shuffle.png
+SHA1-Digest: gGjOF4YuWwNswdlSqgWrB04pcd8=
+
+Name: res/layout/list_item_track_progressbar.xml
+SHA1-Digest: RQhvzMIaVNwLHcBBmo5klZ4XbpY=
+
+Name: res/drawable-sw800dp-xhdpi/ic_question_press.png
+SHA1-Digest: 6UBAwC8K98eSyJta41wGx8XBFEU=
+
+Name: res/layout-sw800dp-land-xhdpi/list_cover_view.xml
+SHA1-Digest: pikile+vSWLS3gQIQtIBskjt6lM=
+
+Name: res/drawable-xhdpi/ic_wifi_direct_printer.png
+SHA1-Digest: aVBUdf2FdnWVDqOge+j+5v/u8PU=
+
+Name: res/layout-land/gl_gallery_suggestion_list.xml
+SHA1-Digest: HQ0vZHxVH9Q9dC+IMwNOkXYFUGY=
+
+Name: res/layout/media_info_edit_text_item.xml
+SHA1-Digest: XUy909UVhWg0sUZVZU+hh2JLAY4=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_allshare_vol_mute_focus.pn
+ g
+SHA1-Digest: E4bc9c0r7FoAVzqBmv0DIb/eZ90=
+
+Name: res/drawable-xhdpi/music_fullplayer_popup_scrubber.png
+SHA1-Digest: tYxGp/5ySYEim4Wp5x9G9GRrmY0=
+
+Name: res/drawable-sw800dp-xhdpi/tw_volume_bar_dark.9.png
+SHA1-Digest: OiWbIIWHYBwAHSLwoKW/Iyyvx/8=
+
+Name: res/drawable-nodpi/music_bar_on.9.png
+SHA1-Digest: A4yM1aXfU2c+XefKPUq9CSHSDQk=
+
+Name: res/menu/list_playlist_context_menu.xml
+SHA1-Digest: iUXl2VawQ4jSxO16Qb+45WvdhGA=
+
+Name: res/drawable-sw800dp-xhdpi/tw_tab_selected_focused_holo_dark.9.p
+ ng
+SHA1-Digest: VK11wtuNAS5LN7v5HhT1Qf0O648=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_add_to_playlist.xm
+ l
+SHA1-Digest: DfNS27/Iz66RirPGnij/v0+XrN4=
+
+Name: res/layout/music_player_option_view.xml
+SHA1-Digest: feX7IfIai4UrpR2yYCqDHMPbq68=
+
+Name: res/layout-sw800dp-xhdpi/media_info_default_layout.xml
+SHA1-Digest: mZrc6FpzUaCyHCIX41Ou/sbsoF0=
+
+Name: res/layout/music_player_progress_seekbar.xml
+SHA1-Digest: ni2gjVApeo7dQOe3h1wWUIChYIc=
+
+Name: AndroidManifest.xml
+SHA1-Digest: Q24u9GOo9z4ZBIxex6a3/DhsmlE=
+
+Name: res/xml/music_magazine_widget_provider_info.xml
+SHA1-Digest: gfJLxEuM0MlnihqdFCdk5kevjPQ=
+
+Name: res/layout/list_header_shuffle.xml
+SHA1-Digest: JgXmS+dTgAaun/K0rekLfZBaTIA=
+
+Name: res/drawable-nodpi/sound_alive_equalizer_bar_bg.9.png
+SHA1-Digest: TEXieTRQxtXDq2EKGVSwLMM/O24=
+
+Name: res/anim/slide_right_in.xml
+SHA1-Digest: 1CfikRHzvNDdqZVhlxCS3QN5TSw=
+
+Name: res/drawable/actionbar_dropdown_selector.xml
+SHA1-Digest: xJbQ+OUCZ2o/8foE6Hw3EHF183U=
+
+Name: res/layout-sw800dp-xhdpi/media_info_default_edit_text_item.xml
+SHA1-Digest: jFxLjpWyymD3lQo73lA0nRgQrQY=
+
+Name: res/layout-sw800dp-xhdpi/list_content_common_tablet.xml
+SHA1-Digest: FNPUQNjynxsjfTaChphH0WsYdTc=
+
+Name: res/layout-sw800dp-xhdpi/list_item_count_info.xml
+SHA1-Digest: SrP7sSwf9KtNRIfn8fnx1eSNHSM=
+
+Name: res/drawable-xhdpi/music_soundalive_card_virtual71_on.png
+SHA1-Digest: JNEEwAuGiJCNPpoOnTBwcye4bFI=
+
+Name: res/drawable-xhdpi/unlock_delta_m_next_pressed.png
+SHA1-Digest: LBjoshrfFuwyPNGH3l7PsU4A4Bs=
+
+Name: res/drawable-xhdpi/music_volume_controller_launch.png
+SHA1-Digest: rj3fERkuBYp4uBnsfKv4/GdQBOQ=
+
+Name: res/raw/gradient_vertex_shader
+SHA1-Digest: gmNLXZBkXIanACpv7T3z7iyWrqI=
+
+Name: res/xml/music_favorite_widget_provider_info.xml
+SHA1-Digest: ExAynh2RyWtxiXk31f9gOvvevfc=
+
+Name: res/drawable-xhdpi/tw_list_section_divider_index_holo_light.9.pn
+ g
+SHA1-Digest: Zy8f2iJ83VVWp86r9oO/dyeO/w8=
+
+Name: res/drawable-xhdpi/music_play_menu_allshare_press.png
+SHA1-Digest: WA5Imv7gKiSZXaja/c2f5Ly9+rQ=
+
+Name: res/drawable/widget_control_shuffle_off_btn.xml
+SHA1-Digest: NPcs+UQFs5UImGRPjJGgufB4JK8=
+
+Name: res/drawable-xhdpi/music_detail_actionbar_icon_search_dim.png
+SHA1-Digest: JQ9tP63bA4InaZOKhEUsVzzvNVY=
+
+Name: res/menu/list_store_options_menu.xml
+SHA1-Digest: oeBw6WrXi4w59DYcLEzAd92eqzs=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_play.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/layout/music_player_side_cast_view.xml
+SHA1-Digest: cQgSJE/VanT3CnGytEADf1is4a4=
+
+Name: res/drawable-xhdpi/tw_btn_next_depth_holo_light.png
+SHA1-Digest: HoGcXX7cB1Z6s9sL8lsiw+j4HJ4=
+
+Name: res/layout/hover_preview_popup.xml
+SHA1-Digest: J5T7oq2kQocW3TrlU6SPsi9ZyLY=
+
+Name: res/drawable-xhdpi/btn_focus_publishing.9.png
+SHA1-Digest: 8qbbp1Q5UETI5rAZK1pGpBc+9VU=
+
+Name: res/drawable-xhdpi/music_play_menu_on_shuffle.png
+SHA1-Digest: JzEA8yO0+7tX3gtswm3IbHdYOD8=
+
+Name: res/layout/media_info_list_subtitle.xml
+SHA1-Digest: PYMdoDBqiyUkLsxp8lT5YRoO0zE=
+
+Name: res/drawable-xhdpi/music_ic_question_normal.png
+SHA1-Digest: YzQQ/9Mot22Ub6esD3Ugaj2boLQ=
+
+Name: res/layout/star_on_image.xml
+SHA1-Digest: hmPlBaeANP6cSWeiKZ7DWHz8kvI=
+
+Name: res/drawable-xhdpi/ic_wifi_direct_audio.png
+SHA1-Digest: d+Z6biHMguWAx9YFDPqq4w551HA=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_close_focus.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable/list_item_selector.xml
+SHA1-Digest: upyStADpf6G9+XpKuKPFntpUymE=
+
+Name: res/layout/music_player_progress_scrubbing_popup.xml
+SHA1-Digest: KeWk7u71rgx7i4snlhH50imx3Dg=
+
+Name: res/drawable-xhdpi/music_play_menu_addplaylist_focus.png
+SHA1-Digest: f8/7uv5NAd20CouuJQXjCQQqwWw=
+
+Name: res/drawable-sw800dp-xhdpi/new_soundalive_effect_selector.xml
+SHA1-Digest: HMsoUlZFbHGcX/XyG0xs4krkLw4=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_rw.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable/widget_control_play_btn.xml
+SHA1-Digest: GuXC+leonVtbhF5OL5FqMtyb+o8=
+
+Name: res/layout-sw800dp-xhdpi/list_item_variable_text.xml
+SHA1-Digest: L4FMPwxXzSziWl9GQP/0wyq8zmU=
+
+Name: res/drawable/preference_custom_arrow_btn.xml
+SHA1-Digest: abU6vf9DQ6up0TxpFYfEXkPzG78=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_allshare_vol_down.png
+SHA1-Digest: 9mD+43OFC0CLPREkGCICFHxZisY=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_close_press.png
+SHA1-Digest: GGkn/0qJL5EfKuY1Vklk/fqB1pI=
+
+Name: res/drawable-xhdpi/quick_panel_icon_mini_music.png
+SHA1-Digest: UkcSc1poeWOU7Ti2tOW2Azdjk3M=
+
+Name: res/drawable-xhdpi/tw_expander_open_01_holo_light.png
+SHA1-Digest: EQ6AZl297Ka9QUIJu4r49d83+J4=
+
+Name: res/drawable-xhdpi/music_btn_add_normal.png
+SHA1-Digest: 7PhYCMRHuHsQklg52YIFXlAojps=
+
+Name: res/drawable-xhdpi/music_play_allshare_vol_mute.png
+SHA1-Digest: iFLXUjoiRRtC4YX1fC8XXeJafhI=
+
+Name: res/menu/header_common_action_mode_done_menu.xml
+SHA1-Digest: kx7IFpTu5ojpuNfG/QVdqzFoAMI=
+
+Name: res/drawable-sw800dp-xhdpi/ic_question_normal.png
+SHA1-Digest: 2B5bwdalp2M/V4iIfYtFbhMfSG8=
+
+Name: res/drawable-xhdpi/mg_music_btn_play_press.png
+SHA1-Digest: EUYZN6kiMsYw8zJU7FHuMO2VxEQ=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_play_focus.png
+SHA1-Digest: GnMPuUXZp1C6Ccx5ePp0oSQX0xw=
+
+Name: res/drawable/magazine_widget_control_shuffle_on_btn.xml
+SHA1-Digest: +b76y16aCyVwK+22sTqvUTIsnGg=
+
+Name: res/mipmap-xxxhdpi/music_icon.png
+SHA1-Digest: hbjeZ14ldQtbndxH+Rp9iPfBEYw=
+
+Name: res/mipmap-xhdpi/music_icon.png
+SHA1-Digest: 57WyBB4pgqnr2Gn5Fx6iu7V0I38=
+
+Name: res/drawable-xhdpi/music_play_menu_rep_noff_press.png
+SHA1-Digest: r3up/FK4R6Ujf3y6yLcarMAoAaE=
+
+Name: res/drawable-xhdpi/music_library_delta_shuffle_select.png
+SHA1-Digest: 8/GnHOoWNAFlh2IM7P+4iAy5kdg=
+
+Name: res/layout/list_content_musicsquare.xml
+SHA1-Digest: a1b7JG4rtHVjqqE7W5lSnEZPEAA=
+
+Name: res/drawable-xhdpi/header_button_icon_move_knox.png
+SHA1-Digest: 4T8j74XUeUlSYNB0TAnZEY0mpQg=
+
+Name: res/layout/music_player_side_cast_grid_view_item.xml
+SHA1-Digest: oRre9yMDeWOCrblDDnTK+ZMl+mY=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_ff_press.png
+SHA1-Digest: 5V6760B1YatznjAeDH9JiG++9eU=
+
+Name: res/drawable-xhdpi/music_play_menu_allshare_connected.png
+SHA1-Digest: V5u5M+4LrKjhdl7mcwU9YdaEmck=
+
+Name: res/drawable-xhdpi/ic_noitem_music.png
+SHA1-Digest: vE4JmjiG9mGabFPC7EWsJL/apvk=
+
+Name: res/layout/tablet_list_header_shuffle.xml
+SHA1-Digest: lqzV1Gbc0s3z2lAWdEHllIC193c=
+
+Name: res/drawable/square_list_expandable_selector.xml
+SHA1-Digest: +wGwY9h8iYJ1Q9n8QXqi4ZiqFw4=
+
+Name: res/layout/music_player_control_button.xml
+SHA1-Digest: qbcIsiDfG782h4/wlVNsSR5GtTg=
+
+Name: res/layout/music_player_control.xml
+SHA1-Digest: GjOP3bTR0KzGCrRSayS7YsvnuTU=
+
+Name: res/drawable/magazine_widget_control_next_btn.xml
+SHA1-Digest: mM4JosLH0892xh7oTr76Iui3hAU=
+
+Name: res/layout/tablet_music_player_start_repeat_layout.xml
+SHA1-Digest: qtpqf4Sn+ku1L9e0jDzP7NKjJrY=
+
+Name: res/anim/lyric_push_down_out.xml
+SHA1-Digest: QomHstb3DZOx2nmv3J1UAwp60Tg=
+
+Name: res/drawable-sw800dp-xhdpi/list_thumbnail_dummy.png
+SHA1-Digest: FlXkbBPoLxdu7sbM8WdM1c/wGys=
+
+Name: res/drawable-xhdpi/btn_select_publishing.9.PNG
+SHA1-Digest: VSzJnvUV04P5Gpbw0P7rpxA5K9o=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_playing_ani_01.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-xhdpi/music_soundalive_card_none_off.png
+SHA1-Digest: 5oHGEmgOaJ6thn8H2oiBTwRTLDw=
+
+Name: res/drawable-xhdpi/widget_music_btn_repeat_1_focus.png
+SHA1-Digest: +fGExnZKiOdthMNCEK+HOjuhbks=
+
+Name: res/layout/list_item_text_count_one_line.xml
+SHA1-Digest: Yo8O8NO+DOPYtnt9UJl0JJNNn/I=
+
+Name: res/drawable-sw800dp-xhdpi/music_soundalive_card_line_off.png
+SHA1-Digest: t8Gb2HVBOPD6xgpoR66b4obGbT0=
+
+Name: res/drawable-sw800dp-xhdpi/music_volume_controller_launch_focus.
+ png
+SHA1-Digest: 8pZb0ZcOyuQAxp3kmDBw02pDHP4=
+
+Name: res/drawable-xhdpi/widget_music_btn_repeat_all_press.png
+SHA1-Digest: uDdoA/OBeLMq1hKY+j3oG7KRRcE=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_rep_1.png
+SHA1-Digest: 9UFum3o5vZfbEnVk/lplWk4q42Q=
+
+Name: res/mipmap-sw600dp-tvdpi/music_icon.png
+SHA1-Digest: 0DHZycALAxDTPmOZZuLR3NvAViI=
+
+Name: res/drawable-xhdpi/default_music_list_l.png
+SHA1-Digest: vZLytee/ovVCgbR9bbgOfMbFsBM=
+
+Name: res/drawable/detail_arrow_left.xml
+SHA1-Digest: DEQDyCEpI177tI+/xBKte0jX9xQ=
+
+Name: res/layout/list_item_albumart_icon.xml
+SHA1-Digest: /87KeMsS0Hnv3X5xZ6xToqt7T4I=
+
+Name: res/drawable-xhdpi/widget_music_btn_play_focus.png
+SHA1-Digest: 3tNWrGbl06rUB9o9nHuwQTWsCtk=
+
+Name: res/layout/sview_cover_music_player_nowplaying_list.xml
+SHA1-Digest: 0wdrLxQGivqT3NHLAVxl6WG12gk=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_close.png
+SHA1-Digest: SH8CNRQ2F+DSMu6LojLLmTA3mpo=
+
+Name: res/drawable/actionbar_detail_search_btn_selector.xml
+SHA1-Digest: FoyvKT7aolz28dsexdc1wcRnTsY=
+
+Name: res/drawable/tablet_help_square_selector.xml
+SHA1-Digest: lvOYlG9QCwNcq2cGjvRfVuu+inQ=
+
+Name: res/animator/recommended_music_tilted_return.xml
+SHA1-Digest: 0yzNbdrfj9arOxsGXm7TGULnf5M=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_favorite_off_focus.pn
+ g
+SHA1-Digest: 9bEQFMin8yQkU3OLLbOTUQ8jgiM=
+
+Name: res/drawable-xhdpi/music_play_menu_rep_all_focus.png
+SHA1-Digest: XG+kAtCGK/A/d6gKAgyGfkCxUHw=
+
+Name: res/layout/star_off_image.xml
+SHA1-Digest: mq2JczHfZEEOOOj5ZVRxC8PRpao=
+
+Name: res/layout/list_item_albumart_text_two_line_tablet.xml
+SHA1-Digest: m1HRnowaQs+Rz060Sh3zd53Yj4s=
+
+Name: res/drawable-xhdpi/no_item_bg_light.png
+SHA1-Digest: YBprqDEB2U2PGNNV+36qUgk7Rj0=
+
+Name: res/drawable-xhdpi/ic_question_focus.png
+SHA1-Digest: FLvoksAiytWlNb+QoRXM7nVPXng=
+
+Name: res/drawable-sw800dp-xhdpi/ic_question_focus.png
+SHA1-Digest: zr7V1BTqKSCubN6RyKwekxGq2XI=
+
+Name: res/drawable/music_play_menu_repeat_1_btn.xml
+SHA1-Digest: ma/9Cw7MswBFnn+5NFaKcRSsjWM=
+
+Name: res/drawable/new_soundalive_advanced_effect_selector.xml
+SHA1-Digest: c1fGCJTERSxMeJQzBbk0Ik4thj4=
+
+Name: res/drawable-sw800dp-xhdpi/new_soundalive_equalizer_thumb_select
+ or.xml
+SHA1-Digest: ObdN/oVuXJZaiK/lwIYAmS4wOXI=
+
+Name: res/drawable/dlna_change_player_btn_connected.xml
+SHA1-Digest: wQPZdKFoF44LSr0gjhQNZSpcWSM=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_sa_press.png
+SHA1-Digest: bJjuOypPfz1WkRB16nqCKjDW8XY=
+
+Name: res/drawable-xhdpi/music_soundalive_card_tubeamp_off.png
+SHA1-Digest: uWxQS/3DNAHixazpoivfJsUDxJA=
+
+Name: res/drawable-xhdpi/music_play_menu_rep_off.png
+SHA1-Digest: J4ACHpnIViQRU5gBv7GAs8ctENA=
+
+Name: res/layout-sw800dp-xhdpi/dlna_change_player_dialog.xml
+SHA1-Digest: GzjLowt7j21sdO8cviEyxlL494o=
+
+Name: res/drawable-sw800dp-xhdpi/music_volume_controller_mute.png
+SHA1-Digest: KZisZMykexz1VO94jaQUQi4dpIM=
+
+Name: res/layout-land/user_eq_control_bar.xml
+SHA1-Digest: ZSAXtMsUefs0zMDs1jW96dcI25U=
+
+Name: res/drawable/music_play_tw_progressive_point.xml
+SHA1-Digest: YinWSCaRSUNRlCrG1cRs9NWw+EA=
+
+Name: res/layout/custom_action_mode_view.xml
+SHA1-Digest: L6b4es1NOdwht/FZuRogaOYiZVo=
+
+Name: res/drawable-xhdpi/music_play_list_btn_bg.9.png
+SHA1-Digest: Y3WdvGbtRSztm1aRIurzFPl5prc=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_pause.png
+SHA1-Digest: ku2ChRtkPE1D5RT7jHQPNVCS+Vk=
+
+Name: res/drawable-xhdpi/mg_music_btn_next_press.png
+SHA1-Digest: gG8MwdpGV82uSBAVzwMWnfPEBbo=
+
+Name: res/layout-land/list_item_albumart_text_two_line_tablet.xml
+SHA1-Digest: HRiF4jlw39hpvZSl6AxMzY23+EA=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_ff_disable.png
+SHA1-Digest: YaYMzcv5Ip1vHT1QDgq3eN+d+PA=
+
+Name: res/layout/media_info_header.xml
+SHA1-Digest: WROp8xrIUZuc2ymJ7xFR4C2Lsd4=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_on_shuffle_press.png
+SHA1-Digest: hq6NAbWNX2QBTO82s0c0ycWLtoo=
+
+Name: res/layout/music_no_item.xml
+SHA1-Digest: toliB91Kc5YO31YyeEk9H7h7MOk=
+
+Name: res/drawable-nodpi/music_library_delta_shuffle_select.png
+SHA1-Digest: 8/GnHOoWNAFlh2IM7P+4iAy5kdg=
+
+Name: res/menu/header_search_option_menu.xml
+SHA1-Digest: Esw52LwB+u7ZVknEly3yiUOAVEY=
+
+Name: res/layout/widget_list_item_track.xml
+SHA1-Digest: QIKsQVsAre8Yk5iEA6gNsdNcHh4=
+
+Name: res/drawable/sview_cover_music_player_list_bg.xml
+SHA1-Digest: hllj02vVmZ5E5Ltooduhw4JVXbM=
+
+Name: res/raw/fog_texture_model_fragment_shader
+SHA1-Digest: 0BPGzRheF4JZQbYChSanLjM/mms=
+
+Name: res/layout-sw800dp-xhdpi/music_square_grid_view.xml
+SHA1-Digest: NCwMuyTnOQvi0rnTsCXg94X6Fgo=
+
+Name: res/drawable-xhdpi/tw_actionbar_btn_add_normal.png
+SHA1-Digest: r+RfQWrCbx0fqwULSUN5MV3zFoI=
+
+Name: res/drawable-nodpi/tw_preference_contents_list_left_split_defaul
+ t_press_light.9.png
+SHA1-Digest: Dg1H6QQ7SwFd0Y9bmuUMUnTP33s=
+
+Name: res/drawable-xhdpi/music_play_control_ff.png
+SHA1-Digest: pooIYNgWz+pBA0fEbO2MLsr47qk=
+
+Name: res/drawable-xhdpi/ic_wifi_direct_displays.png
+SHA1-Digest: FwaK64XDALijTNE3V/M34TNDJ10=
+
+Name: res/drawable-xhdpi/mg_music_btn_pause_press.png
+SHA1-Digest: 3Jv2sFS6A6A+wYIOyO2GfiuZ3WE=
+
+Name: res/drawable/widget_control_prev_btn.xml
+SHA1-Digest: msrweMStGkyCiOcxLwTWWsymZq8=
+
+Name: res/drawable-sw800dp-xhdpi/music_soundalive_card_studio_on.png
+SHA1-Digest: MIwgugAsaZXvTBB0DqG1x7Wg03I=
+
+Name: res/layout/music_setting_new_soundalive_activity.xml
+SHA1-Digest: Fl19+SiKii8/ISVcJeWDAiPU/mk=
+
+Name: res/layout/music_library_volume_panel.xml
+SHA1-Digest: v3h47xHjc4WSIJVTgzS8R8ErcZE=
+
+Name: res/layout/media_info_list_layout.xml
+SHA1-Digest: oHJ6iaS0Awyjws3qmxV3tfF595k=
+
+Name: res/drawable-sw800dp-xhdpi/music_volume_controller_launch_press.
+ png
+SHA1-Digest: N0tJ0V9xFwSBDCcgps8hl2z3Tow=
+
+Name: res/xml/music_widget_info.xml
+SHA1-Digest: bEssbdS2AfjR1aFQkNwhY/Xc0co=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_off_shuffle.png
+SHA1-Digest: dbwuTcy7mmEanbmDsPsDeX3YLgw=
+
+Name: res/drawable/music_play_menu_shuffle_off_btn.xml
+SHA1-Digest: jFOw4rMAmo8QtYT9zetmv8ASNf8=
+
+Name: res/drawable/music_play_volume_mute_btn.xml
+SHA1-Digest: jzHmELW+t2bugAIft1RKNFHwC8U=
+
+Name: res/drawable-sw800dp-xhdpi/playspeed_popup_icon_minus.png
+SHA1-Digest: GkraYjg/yNGD+vo4a4nDR148dPQ=
+
+Name: res/drawable-xhdpi/sound_alive_square_bg.png
+SHA1-Digest: 5Z/13rnhu6uxQTQAXQafCU7sGHM=
+
+Name: res/drawable-xhdpi/tw_scrubber_control_holo.png
+SHA1-Digest: 5BVzpygCEQAzBlB6y+RrZWHAAqQ=
+
+Name: res/layout/playlist_help_bubble_view.xml
+SHA1-Digest: aAtDxEA9TAzQw1xwt7gC7/j4hwQ=
+
+Name: res/drawable-xhdpi/music_play_menu_on_shuffle_press.png
+SHA1-Digest: zcSB02wD072fInphfLc/FStVEBM=
+
+Name: res/drawable-xhdpi/music_fullplayer_popup_scrubber_press.png
+SHA1-Digest: K2ABH3Z9utrBldINgd/ve4By/t8=
+
+Name: res/drawable-xhdpi/sound_alive_line_off.png
+SHA1-Digest: lq1foZu7M3mlIWVp1X+2A+Buzsk=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_ff.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-xhdpi/music_list_personal_icon.png
+SHA1-Digest: C9YyE0OKSdKY0nHX9IAo/v7owNg=
+
+Name: res/drawable/quickpanel_btn_pause.xml
+SHA1-Digest: rENrSCL8MKXbIA4a9/j4Qih5tEE=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_title_album_bg_focus
+ .png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/layout-sw800dp-xhdpi/user_eq_control_bar.xml
+SHA1-Digest: ObMqaOp0oFNyx7DA35bZrup6CRQ=
+
+Name: res/drawable/btn_add.xml
+SHA1-Digest: 80oSY3TezXQJ7BX8BD9YwOcEHew=
+
+Name: res/drawable-xhdpi/tw_tab_selected_focused_holo_light.9.png
+SHA1-Digest: VsY9s7zxlFuZejJXBTO8vYGr5sc=
+
+Name: res/drawable-xhdpi/ic_question_press.png
+SHA1-Digest: w4yBgju4vJRXsXqd7BHksc7TKH8=
+
+Name: res/color/list_item_textcolor_selector.xml
+SHA1-Digest: KpDTI8LCMK5LgSNpLGizNmwEZt0=
+
+Name: res/drawable-xhdpi/mg_music_repeat_1_press.png
+SHA1-Digest: G839JVg9uAdaRSo7dnSNryfTzFA=
+
+Name: res/drawable-xhdpi/list_thumbnail_dummy.png
+SHA1-Digest: DsNNm+10wjDbqZiRRncLt6lrkLI=
+
+Name: res/drawable-xhdpi/btn_press_publishing.9.png
+SHA1-Digest: afBMq8lR9QoqyembVhqEJZ4xixo=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_ff_hover.png
+SHA1-Digest: Zo62zJALdjxJEBJodH57ISXG9wI=
+
+Name: res/drawable-xhdpi/music_list_nowplaying_02.png
+SHA1-Digest: a7FU6gtO10D6rZGNqFPXc2f6mrY=
+
+Name: res/drawable-xhdpi/quick_panel_music_close.png
+SHA1-Digest: rpB4dI5Z2Rdw9srRA6TRHr/HkQ4=
+
+Name: res/drawable-nodpi/tw_divider_ab_holo.9.png
+SHA1-Digest: WCv37AJoc4aoSJzFqvHjQ73W+0U=
+
+Name: res/animator/playlist_fade_out.xml
+SHA1-Digest: PvZ1rg7OP0gB1oJ29E2xoJzP9ek=
+
+Name: res/drawable-xhdpi/quick_panel_music_play.png
+SHA1-Digest: xurvwBi6TL62sOcD2knj307loi8=
+
+Name: res/layout-sw800dp-xhdpi/list_cover_view_album.xml
+SHA1-Digest: S3YHZWsMUenG6B9y0l2iCz3qfC4=
+
+Name: res/layout/tablet_music_player_control.xml
+SHA1-Digest: X43s5JHnQvuEHrWjr0D1/rFkTRw=
+
+Name: res/layout-sw800dp-xhdpi/music_setting_new_soundalive_activity.x
+ ml
+SHA1-Digest: fKaJTYczZb/niiLtCzhfEqfZTD8=
+
+Name: res/anim/player_slide_right_out.xml
+SHA1-Digest: zwjGFnj1+qZoitc1CcebdB/QtnE=
+
+Name: res/drawable-xhdpi/ic_wifi_direct_multimedia.png
+SHA1-Digest: 8tEregJU+Y1KiFJctjeFPB0ORUM=
+
+Name: res/drawable/music_play_control_allshare_vol_up.xml
+SHA1-Digest: lvLS1mNnRrPrZiUcyQQuHwGnAJY=
+
+Name: res/drawable-nodpi/music_widget_now_playing_02.png
+SHA1-Digest: I4zDs79VOZ6B4psZ0GLFkoEVBNM=
+
+Name: res/drawable-xhdpi/quick_panel_icon_call_thumbnail_press.9.png
+SHA1-Digest: rTDb/JUkV0ibEdNP5SHt4TwtxlI=
+
+Name: res/layout/custom_single_choice_summary_list.xml
+SHA1-Digest: PXHmzbOnGDVMENCGBAfEtQX1FVE=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_rep_off_press.png
+SHA1-Digest: r3up/FK4R6Ujf3y6yLcarMAoAaE=
+
+Name: res/drawable-xhdpi/music_detail_actionbar_icon_edit.png
+SHA1-Digest: U1Mqz1EGh8Kj1y1whcNHGnkgNRo=
+
+Name: res/drawable-sw800dp-xhdpi/tw_tab_selected_focused_pressed_holo_
+ dark.9.png
+SHA1-Digest: E6rHyKtxx+9BIyEQWyOhEi1oigQ=
+
+Name: res/color/list_nowplaying_text_selector.xml
+SHA1-Digest: J6BQalfAAUoq+WFTem6q7C0mA1c=
+
+Name: res/layout-sw800dp-land-xhdpi/list_cover_view_text.xml
+SHA1-Digest: NvZ8b1Sta9PkoEX2HpoM6FCFksQ=
+
+Name: res/drawable-xhdpi/music_play_allshare_vol_bg.9.png
+SHA1-Digest: 9DhMJZI4+BSKnsoC2UMe6/brzqY=
+
+Name: res/drawable/soundalive_tab_bg.xml
+SHA1-Digest: oDOZSJWeH3qU4YIFkQIy8RvwUtE=
+
+Name: res/drawable-xhdpi/music_detail_actionbar_icon_tags_music.png
+SHA1-Digest: ywihtiCdg9cLWx4x1ABbR9rTH5Y=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_rep_1_focus.png
+SHA1-Digest: xmdF15OrqENiynvgi+vYBI2VvpE=
+
+Name: res/drawable-xhdpi/music_actionbar_shuffle.png
+SHA1-Digest: Pn/jKLlc3pOIDQaMDJ5jm3jMYF0=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_allshare_normal.png
+SHA1-Digest: lpmK4UrH91O2qEt/++1M7P06L8A=
+
+Name: res/drawable-xhdpi/sound_alive_card_bg_focus.png
+SHA1-Digest: 8qHcZfhCNknPdqXNs2G3wse7124=
+
+Name: res/drawable-xhdpi/tw_actionbar_btn_search_normal.png
+SHA1-Digest: 9n84XyzVSoWw8T4o+pMKLQhXmc4=
+
+Name: res/drawable-sw800dp-xhdpi/music_soundalive_card_studio_off.png
+SHA1-Digest: Wi8wLukg7r8QmsmRJ21ZX1L3S+U=
+
+Name: res/drawable-nodpi/pattern_01_main.jpg
+SHA1-Digest: 6EXkC+U15I0TEIBFeACHoFJT8j4=
+
+Name: res/drawable-xhdpi/music_album_cover_bg.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-sw800dp-xhdpi/sound_alive_square_cell.png
+SHA1-Digest: mb0n4n6t+YAg1VQGP6XfKftImCg=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_allshare_disabled.png
+SHA1-Digest: IIKKIc9VhGYPMb0AIrly3lCsHLk=
+
+Name: res/drawable-xhdpi/sview_cover_music_play_control_ff_press.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-xhdpi/music_ic_reflesh.png
+SHA1-Digest: gI915mfztzXFlTkS+BSe+NL1rOk=
+
+Name: res/layout-sw800dp-land-xhdpi/search_item_albumart_text_two_line
+ _tablet.xml
+SHA1-Digest: m9tqFsU12pkdnnSnTBksXqAAJ/4=
+
+Name: res/drawable-sw800dp-xhdpi/music_list_nowplaying_02.png
+SHA1-Digest: 7XBaa3u2dQY/t7ffke/MxRJJU3I=
+
+Name: res/layout/music_reorder_list_activity.xml
+SHA1-Digest: Dl4Zb5AEYm6Vngwcul4PfrIsjNQ=
+
+Name: res/drawable-xhdpi/widget_music_btn_repeat_1_normal.png
+SHA1-Digest: twvUMUzywiOptkEDjgTgPDuOJhg=
+
+Name: res/drawable-xhdpi/sview_cover_music_play_control_pause_focus.pn
+ g
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable/music_albumart_default_background.xml
+SHA1-Digest: 55ot+B85z0fjlu0+Ql8teOhnZT8=
+
+Name: res/layout/more_subcat_icon.xml
+SHA1-Digest: JiC/FOB23Z/xTkGpyiuOxQy41cw=
+
+Name: res/drawable-xhdpi/music_fullplayer_popup_progress_bg.9.png
+SHA1-Digest: VWyq6INcgQR3uUH+vqHy2NnFr2U=
+
+Name: res/layout-sw800dp-xhdpi/list_item_albumart_text_two_line_tablet
+ .xml
+SHA1-Digest: yNd93l6fWAAkmIizA2pchJnFhvM=
+
+Name: res/anim/swipe_fade.xml
+SHA1-Digest: 2qknrMKdf7eeVTG6r6CPdOAiRrw=
+
+Name: res/layout/media_info_list_album_item.xml
+SHA1-Digest: CXLJVUC/7YzirpIODV9CvIcIlsA=
+
+Name: res/drawable-xhdpi/music_player_progressive_ing.png
+SHA1-Digest: ccgf0KJd1uBBIj1QnOHtAW8qlRc=
+
+Name: res/drawable/sview_cover_music_play_control_prev_btn.xml
+SHA1-Digest: 1B2HWzyF9kzBocIB94vsoFIoo9s=
+
+Name: res/layout/music_player_volume_panel_dmr.xml
+SHA1-Digest: U5mr58x31Kltp5rvDDc6mQbQz+I=
+
+Name: res/drawable/magazine_widget_control_repeat_all_btn.xml
+SHA1-Digest: wmM5xlijrmoqW2fjZy5zh8D9Ybc=
+
+Name: res/drawable-xhdpi/sview_cover_music_play_control_pause.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-xhdpi/sview_cover_music_play_control_play_press.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-nodpi/music_selector_list_activity_background_image
+ .9.png
+SHA1-Digest: RMvFdNolENf5dgkNN5pAjf+BP9w=
+
+Name: res/drawable/music_easymode_tw_progressive_point.xml
+SHA1-Digest: 4SB2R9qmXFMTM2sz5s1iIAlzXbw=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_allshare_vol_mute.png
+SHA1-Digest: jSH/TUsdvBZTPxI+q2HSxUKXcPw=
+
+Name: res/drawable-xhdpi/music_play_allshare_vol_up_press.png
+SHA1-Digest: jWfZGvr8B5/t1xUtYBuFBc+vcvA=
+
+Name: res/drawable-xhdpi/stat_pause.png
+SHA1-Digest: ed1eRoeyU8BD//gQZ0ZjSoCwD54=
+
+Name: res/drawable-nodpi/music_bg_focus.9.png
+SHA1-Digest: Yrt11f+2HYMiIfCaz4Qrf1uES7I=
+
+Name: res/drawable/music_play_control_pause_btn.xml
+SHA1-Digest: E9hn6NsFMj0Fr3OY+idgSSRHGAE=
+
+Name: res/drawable-xhdpi/music_noitem.png
+SHA1-Digest: h3UJkPIxa1Qtzzwrf0q4YmOaeaQ=
+
+Name: res/drawable-xhdpi/playspeed_popup_icon_minus.png
+SHA1-Digest: LXoXkmoYL6tfWkb1hWCdhzL6b1k=
+
+Name: res/layout/query_browser_activity.xml
+SHA1-Digest: 4w5k5ZEf/WeRr4jEiR+0B63AELs=
+
+Name: res/layout-sw800dp-xhdpi/list_item_header_albumart.xml
+SHA1-Digest: Rxrabm1NJMP7huxHnFJk4Z6FOgQ=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_rep_all_focus.png
+SHA1-Digest: 2zisvMXfpCX2+THj110JKVvQtWs=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_allshare_vol_up_press.png
+SHA1-Digest: ruZlqUd4EGBIIWkJQPcgUqG6sBM=
+
+Name: res/drawable-sw800dp-xhdpi/music_soundalive_card_room_off.png
+SHA1-Digest: FhBPe8f868MnA1LQEwTFUixPWns=
+
+Name: res/layout/list_item_search_albumart_text_two_line_tablet.xml
+SHA1-Digest: NRU6ozxnUc8KOhgHyILbu2vQTyI=
+
+Name: res/drawable-xhdpi/unlock_delta_m_pause.png
+SHA1-Digest: A+6r1gaQNiHh7oILZnJrWPO8viM=
+
+Name: res/color-sw800dp-xhdpi/sound_alive_advanced_btn_text_color_sele
+ ctor.xml
+SHA1-Digest: b3il24A9NuAQlf3ojfmUfeREWRE=
+
+Name: res/menu/header_create_playlist_option_menu.xml
+SHA1-Digest: KC4ejOv2JjS43NeXRKxwpf0bEws=
+
+Name: res/layout/music_square_grid_view.xml
+SHA1-Digest: DO/3wUBOZHDKwhc4skO+7zarVuI=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_allshare_vol_down_focus.pn
+ g
+SHA1-Digest: hnzVWJayMxV1aPcPjxFGktYvq0M=
+
+Name: res/anim/player_slide_left_out.xml
+SHA1-Digest: bWrwR5L7558UO47YjvsqycfBVAY=
+
+Name: res/drawable-nodpi/playlist_bg.9.png
+SHA1-Digest: vMV3x4eMTgi4bdh2e4yai4SPJnA=
+
+Name: res/drawable-xhdpi/tw_list_section_divider_focused_holo_light.9.
+ png
+SHA1-Digest: VWYs4nixDr3YWivS2Os5bUWs2dQ=
+
+Name: res/drawable-sw800dp-xhdpi/tw_fullscreen_background_dark.9.png
+SHA1-Digest: vNC/9W7BqbNQ8cCXLx1+yc4invw=
+
+Name: res/layout/sview_cover_music_player_nowplaying_list_item.xml
+SHA1-Digest: /X47WB7C0JJGSEpAr15MdzfgjIY=
+
+Name: res/drawable-xhdpi/tw_list_section_divider_selected_holo_light.9
+ .png
+SHA1-Digest: UDFbMsoyd1T94jJ+b1sVfZO8CQ0=
+
+Name: res/drawable-xhdpi/music_soundalive_card_room_off.png
+SHA1-Digest: 76EC6gT9fHCGSdJA0qE0KG3OFKY=
+
+Name: res/drawable-sw800dp-xhdpi/music_selector_list_activity_backgrou
+ nd_image.9.png
+SHA1-Digest: ZXzE0xTCCC5saF0tYOMed9WyzIQ=
+
+Name: res/drawable-xhdpi/music_square_help_focus.png
+SHA1-Digest: egh2T2LyKlbDNJ+qw3jzu2pWZ1U=
+
+Name: res/layout/music_player_lyric_panel.xml
+SHA1-Digest: Pkv+CsUZeAZUA9WY1zoHG1Yc8GE=
+
+Name: res/drawable/widget_control_repeat_1_btn.xml
+SHA1-Digest: wN/DiE60jj5ObgqZGQ7JupqLCEg=
+
+Name: res/drawable-xhdpi/music_player_progressive_focus.png
+SHA1-Digest: QXdpEfkjGH8mG2qq/suVKDUJaVg=
+
+Name: res/drawable-xhdpi/quick_panel_music_pause_press.png
+SHA1-Digest: CjEooCOoNZ6JKEyBkX2dqvVTYdo=
+
+Name: res/drawable-nodpi/sound_alive_equalizer_bar.9.png
+SHA1-Digest: 3Ovhd3Ai896KWI/Im4SM18yl79U=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_rep_noff.png
+SHA1-Digest: sEfn0bTfWS2jva0lR9xO5j7qGkw=
+
+Name: res/drawable-sw800dp-xhdpi/music_square_help_focus.png
+SHA1-Digest: egh2T2LyKlbDNJ+qw3jzu2pWZ1U=
+
+Name: res/drawable-xhdpi/music_soundalive_card_studio_off.png
+SHA1-Digest: Sf/HoaFeLGifxWfJbrtTdQ2/pmM=
+
+Name: res/layout-land/music_square.xml
+SHA1-Digest: mnwCVLDQSJXpG1ReJUJAmwjmUNU=
+
+Name: res/layout/hover_music_popup_black.xml
+SHA1-Digest: /UHT/kAhu3fa1/aaWhnk+dsyNnY=
+
+Name: res/menu/list_common_option_menu.xml
+SHA1-Digest: EBZdzBCEvIHyXsIpvIhCKP50tt8=
+
+Name: res/animator/playlist_fade_in.xml
+SHA1-Digest: SWBbjjSLJjKbH9VuTT9z2NLVjS8=
+
+Name: res/drawable/magazine_widget_control_shuffle_off_btn.xml
+SHA1-Digest: 9BW9Vq+aDHo3TIUbVU4DvfDvEkA=
+
+Name: resources.arsc
+SHA1-Digest: 7XOSzHypCnWJoq808rsFBFqmzv4=
+
+Name: res/drawable-sw800dp-xhdpi/music_volume_controller_mute_focus.pn
+ g
+SHA1-Digest: dfjt5hA08PzG5PUFIkRSTSWrGW8=
+
+Name: res/layout-land/new_soundalive_preset.xml
+SHA1-Digest: 2u19YNkV5Ge/1/FxIkhwVScXs/w=
+
+Name: res/drawable-xhdpi/mg_music_repeat_none_press.png
+SHA1-Digest: r3up/FK4R6Ujf3y6yLcarMAoAaE=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_list.png
+SHA1-Digest: W6ZUINCU3hYYwu27nxcKnni50uc=
+
+Name: res/drawable-sw800dp-xhdpi/playspeed_popup_icon_plus_focus.png
+SHA1-Digest: gc3Ow4HxnMHZ4TJ2g8jqaUa4hJ4=
+
+Name: res/drawable-xhdpi/unlock_delta_m_pause_pressed.png
+SHA1-Digest: P+fzBJHONIhT/aQ+7TQCBjmIa7c=
+
+Name: res/drawable-xhdpi/music_play_allshare_vol_down_press.png
+SHA1-Digest: ZzDXxKtqtwMO+IOnTGZWhMyrle4=
+
+Name: res/drawable-sw800dp-xhdpi/sound_alive_square_bg.png
+SHA1-Digest: R9rqx+8s3IoQQA9VyuvXufu+fXU=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_rw_press.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/anim/dialog_fade_in.xml
+SHA1-Digest: WwkGQyy4/9OwblAR6ElfzoDQSu8=
+
+Name: res/drawable-xhdpi/tw_action_bar_icon_download_holo_light.png
+SHA1-Digest: G1ioqeoBdB3esUGxbnHTfsdgpyM=
+
+Name: res/anim/widget_nowplaying_ani.xml
+SHA1-Digest: t3X0yUaqyymtp0BBo8nHKy2GCA8=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_ff_focus.png
+SHA1-Digest: O3XVxRhZPjMiwGd9XOXuxPgURH8=
+
+Name: res/drawable-xhdpi/music_play_menu_rep_noff_focus.png
+SHA1-Digest: 62xanSArpftrF8yAPBMMGbxAfuM=
+
+Name: res/mipmap-xxhdpi/music_icon.png
+SHA1-Digest: cIMb5WMFzsX6meKB0pgOQS+Yc0s=
+
+Name: res/drawable-xhdpi/f_airview_popup_bg_bottom_w.9.png
+SHA1-Digest: KJLg28cjKepygi4QVhpdmVGoILg=
+
+Name: res/drawable-xhdpi/music_play_menu_off_shuffle_focus.png
+SHA1-Digest: 4zVoshPXnXN3mJqJWbGn1/ySqlA=
+
+Name: res/drawable/new_soundalive_effect_selector.xml
+SHA1-Digest: 19pBjQftd5Kn/lxX5AfPzUCb9Ok=
+
+Name: res/drawable-xhdpi/music_play_control_sa_press.png
+SHA1-Digest: eEan6LwdX1Yxewvz/Y7t2ZAWaTM=
+
+Name: res/drawable/quickpanel_btn_play.xml
+SHA1-Digest: Mi2HlovHvyVXp81Vr9UdvaWpkFQ=
+
+Name: res/layout/set_as_activity.xml
+SHA1-Digest: 41haLaOg5cTLWfAhzn07gG22M1k=
+
+Name: res/drawable-xhdpi/tw_actionbar_btn_delete_normal.png
+SHA1-Digest: YK3rq26FS00/zFj6+nqxvTtHCJ4=
+
+Name: res/drawable-xhdpi/tw_tab_divider_holo.9.png
+SHA1-Digest: yjUypMPCWipjgi77lc4zN7t7ZAU=
+
+Name: res/drawable-xhdpi/music_play_allshare_vol_divider.9.png
+SHA1-Digest: VoLQyjsbBB/KSVxxVB/KcGokNDw=
+
+Name: res/drawable-nodpi/music_bg_focus_dark.9.png
+SHA1-Digest: W07VhQsbfTV9oE0V6e3a03tUiDg=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_rep_1_press.png
+SHA1-Digest: G839JVg9uAdaRSo7dnSNryfTzFA=
+
+Name: res/drawable-sw800dp-xhdpi/music_soundalive_card_hall_off.png
+SHA1-Digest: k2yiAqQFQzFG2bXqcd1lVeK2emg=
+
+Name: res/drawable-xhdpi/tw_action_bar_tab_selected_bg_holo_light.9.pn
+ g
+SHA1-Digest: SWcMy2RF4v6bCZ/WUvnf6RpT3M4=
+
+Name: res/drawable-sw800dp-xhdpi/playspeed_popup_icon_minus_focus.png
+SHA1-Digest: fVt/ofhDJH0jRAyKI38q2pfg8t0=
+
+Name: res/layout/sview_cover_music_player_control.xml
+SHA1-Digest: +UrZtPKQxupjG55Kc9D3fs8VnFM=
+
+Name: res/drawable-sw800dp-xhdpi/sound_alive_square_cell_selected.png
+SHA1-Digest: YqlNlNGDcGFb5YpuJ/vToHC6SRo=
+
+Name: res/layout/list_item_track_reorder.xml
+SHA1-Digest: SPrk6OXSFHxfxlbuK8ALGXF8n5U=
+
+Name: res/drawable-sw800dp-xhdpi/music_soundalive_card_tubeamp_off.png
+SHA1-Digest: o1S6UcztLkvjxtMGU1nwk23y7UA=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_favorite_on_focus.png
+SHA1-Digest: k5ylmU0B1HLziudW8sdnRR6sDlc=
+
+Name: res/drawable-xhdpi/music_fullplayer_progress_primary.9.png
+SHA1-Digest: D2/M3e3bVSRE3FVfWDTmvc4anVY=
+
+Name: res/drawable-xhdpi/quick_panel_music_pause_focus.png
+SHA1-Digest: 5M6lFp4lRR6hZ3DzGCejj/JJHXg=
+
+Name: res/layout/music_player_personal_mode_stub.xml
+SHA1-Digest: TjCkrA4X0evv4eNmkeedhmCKDMY=
+
+Name: res/drawable-xhdpi/music_square_help_select.png
+SHA1-Digest: gL+fV8NrWAlmW7aSVp3O5FiOZaQ=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_ff_focus.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-sw800dp-xhdpi/mg_music_shuffle_off_normal.png
+SHA1-Digest: dbwuTcy7mmEanbmDsPsDeX3YLgw=
+
+Name: res/drawable-nodpi/music_fullplayer_progress_primary.9.png
+SHA1-Digest: /yYrDwwDkdMf0iY5Vb8zG72XaT0=
+
+Name: res/drawable-xhdpi/music_play_control_rew_press.png
+SHA1-Digest: XU7w32/XW4cLRbkojQnjH+16AW8=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_rep_all.png
+SHA1-Digest: J4NiGHr69yv8e5LqpJXob0p0llA=
+
+Name: res/drawable-xhdpi/gallery_album_thumbnail_ic_folder_press.png
+SHA1-Digest: bl0bdLDDfcAqx5LCmIISS1FuaV4=
+
+Name: res/anim/player_slide_up_out.xml
+SHA1-Digest: 35SjKc/N+zecqa6zhZXxurmAwxc=
+
+Name: res/layout-sw800dp-xhdpi/list_item_albumart_text_one_line_tablet
+ .xml
+SHA1-Digest: 2HflPSiqHHxrGmolkKiFA9jzxNs=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_pause_press.png
+SHA1-Digest: nlGlINUSXfjXjfcTM9JeJX6+pqA=
+
+Name: res/layout/list_item_albumart_group_two_line.xml
+SHA1-Digest: bBHpiypdGNC+8yCmN4Vc3XgJDqk=
+
+Name: res/drawable/magazine_widget_control_pause_btn.xml
+SHA1-Digest: uSIDKDWUwO3mUhuVBYqjOWS62mU=
+
+Name: res/drawable-nodpi/music_bar_off.9.png
+SHA1-Digest: UMMV2Z7HKj2Gt7Di6zZtzfIAFcc=
+
+Name: res/drawable-xhdpi/knox_container_icon2.png
+SHA1-Digest: RNzis7yNs+aLNKdMG/31PlUjDfM=
+
+Name: res/drawable-nodpi/help_popup_picker_bg_w_01.9.png
+SHA1-Digest: ZUJno7DAEQgkWZGRB49ROXbjB1E=
+
+Name: res/xml/music_magazine_widget_info.xml
+SHA1-Digest: HaViru25fusAG6avjWk5NCi7+/Q=
+
+Name: res/drawable-nodpi/tw_list_selected_holo_dark.9.png
+SHA1-Digest: drmpirrjxuLzu479xz9jNKe8AR4=
+
+Name: res/layout/new_soundalive_squarecell.xml
+SHA1-Digest: vlBe+7hwkE3vM2gP92MUufnRj9g=
+
+Name: res/drawable-xhdpi/mg_music_shuffle_off_normal.png
+SHA1-Digest: dbwuTcy7mmEanbmDsPsDeX3YLgw=
+
+Name: res/menu/list_common_action_mode_menu.xml
+SHA1-Digest: zt/i9ov8g/yvurrKYG0FEyDrUbQ=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_close_focus.png
+SHA1-Digest: u/oZlyggELuXTZHcWTxwjnvasPA=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_menu_rep_off_focus.png
+SHA1-Digest: 62xanSArpftrF8yAPBMMGbxAfuM=
+
+Name: res/drawable/quickpanel_btn_rew.xml
+SHA1-Digest: geq4yM8mD+TTzxviL8HLDM7WypU=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_ff_focus.png
+SHA1-Digest: pHX3VYwNUnCzTKY4qO8ysY4K240=
+
+Name: res/drawable-xhdpi/sview_cover_music_player_title_album_bg_press
+ .png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_pause_disable.png
+SHA1-Digest: 3kdPnkJkKDYwLpPbATB253Orgjs=
+
+Name: res/anim/player_slide_left_in.xml
+SHA1-Digest: wJkttiCN2IHu3UH5/Xc6Sdhy//w=
+
+Name: res/layout/my_music_content.xml
+SHA1-Digest: zE3v3/Q+LAKgkpjoFZtTsXSDZYA=
+
+Name: res/drawable-xhdpi/mg_music_repeat_all_press.png
+SHA1-Digest: dB6K4Q70ty+wKMZeByKZJH1RLBU=
+
+Name: res/layout-sw800dp-land-xhdpi/list_item_albumart_text_two_line_t
+ ablet.xml
+SHA1-Digest: keKW/ynm3NBy78qr+2sJXp9L5SI=
+
+Name: res/drawable-sw800dp-xhdpi/quick_panel_music_play_press.png
+SHA1-Digest: 6CAhDEWeunw5IAgRyxNe0w3wf78=
+
+Name: res/drawable-xhdpi/music_volume_controller_popup_bg.9.png
+SHA1-Digest: hVg0fQDEAkDZqDLDmEmsgoSmLZs=
+
+Name: res/drawable-xhdpi/music_ic_question_press.png
+SHA1-Digest: 9HAL9n/cBLWA/v/h7/sGLXUs3z0=
+
+Name: res/anim/player_slide_down_out.xml
+SHA1-Digest: ZxiTxIb7TnC/1MqcTtzbR1Mg730=
+
+Name: res/drawable-xhdpi/music_volume_controller_mute_press.png
+SHA1-Digest: qR/fwc0SeGNPrbEiYR25j522vPg=
+
+Name: res/layout/music_square_for_sweep.xml
+SHA1-Digest: TGhkg+RIDjQoYGwCbmC7c7aP/Cw=
+
+Name: res/anim/fade_in.xml
+SHA1-Digest: 8Cyx+8671kfEk2OwbY2ktjHkVXk=
+
+Name: res/drawable-sw800dp-xhdpi/music_play_control_play_focus.png
+SHA1-Digest: u6AJIliNA6yKMtjilejzv/vwgHM=
+

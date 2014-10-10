@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.musicplus.widget.CheckedRelativeLayout android:focusable="false" android:clickable="false" android:layout_width="@dimen/grid_width" android:layout_height="@dimen/grid_height" ididan:checkableId="@id/checkbox"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ididan="http://schemas.android.com/apk/res/com.sec.android.app.music">
+    <ImageView android:id="@id/albumart" android:layout_width="fill_parent" android:layout_height="@dimen/grid_albumart_height" android:layout_marginBottom="2.0dip" android:layout_alignParentTop="true" style="@style/ListAlbumArt.Large" />
+    <ViewStub android:id="@id/list_item_checkbox_stub" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout="@layout/list_item_checkbox_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <com.samsung.musicplus.widget.MatchedTextView android:id="@id/text1" android:layout_below="@id/albumart" style="@style/Text.ListItem.Line1" />
+    <com.samsung.musicplus.widget.MatchedTextView android:id="@id/text2" android:layout_below="@id/text1" style="@style/Text.ListItem.Line2" />
+</com.samsung.musicplus.widget.CheckedRelativeLayout>

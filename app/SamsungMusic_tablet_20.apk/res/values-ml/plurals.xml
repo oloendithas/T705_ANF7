@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d ട്രാക്കുകള്‍ തിരഞ്ഞെടുത്തു.</item>
+        <item quantity="one">1 ട്രാക്ക് തിരഞ്ഞെടുത്തു.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$d തവണ കൂടി %2$s നിങ്ങള്‍ക്കുപയോഗിക്കാന്‍‌ കഴിയും.</item>
+        <item quantity="one">%s 1 സമയത്ത് നിങ്ങള്‍ക്കുപയോഗിക്കാന്‍‌ കഴിയും.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ട്രാക്കുകള്‍</item>
+        <item quantity="one">%d ഗാനം</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d പ്ലേലിസ്റ്റുകള്‍</item>
+        <item quantity="one">1 പ്ലേലിസ്റ്റ്</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d ആല്‍ബം</item>
+        <item quantity="one">1 ആല്‍ബം</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d ആര്‍ട്ടിസ്റ്റുകള്‍</item>
+        <item quantity="one">1 ആര്‍ട്ടിസ്റ്റ്</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d ജനറുകള്‍</item>
+        <item quantity="one">1 കലാരൂപം</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d ഫോള്‍ഡറുകള്‍</item>
+        <item quantity="one">1 ഫോള്‍ഡര്‍</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d കമ്പോസര്‍‌മാര്‍‌</item>
+        <item quantity="one">1 കമ്പോസര്‍</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d വര്‍ഷം</item>
+        <item quantity="one">1 വര്‍ഷം</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d ഉപകരണങ്ങൾ</item>
+        <item quantity="one">1 ഉപകരണം</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d ഗാനങ്ങൾ പ്ലേലിസ്റ്റിൽ ചേർത്തു.</item>
+        <item quantity="one">പ്ലേലിസ്റ്റിലേക്ക് 1 ഗാനം ചേർത്തു</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d ഗാനങ്ങൾ ഇല്ലാതാക്കി.</item>
+        <item quantity="one">1 ഗാനം ഇല്ലാതാക്കി.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d ഇനം ഇല്ലാതാക്കി.</item>
+        <item quantity="one">1 ഇനം ഇല്ലാതാക്കുക.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d ട്രാക്കുകള്‍ നീക്കംചെയ്തു.</item>
+        <item quantity="one">1 ട്രാക്ക് നീക്കംചെയ്തു</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">ഇപ്പോൾ പ്ലേ ചെയ്യുന്നവയുടെ പട്ടികയിലേക്ക് %d ഗാനങ്ങൾ ചേർത്തു</item>
+        <item quantity="one">ഇപ്പോൾ പ്ലേ ചെയ്യുന്നവയുടെ പട്ടികയിലേക്ക് 1 ഗാനം ചേർത്തു</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d ഗാനങ്ങൾ പ്രിയപ്പെട്ടവയിൽ ചേർത്തു</item>
+        <item quantity="one">1 ഗാനം പ്രിയപ്പെട്ടവയിൽ ചേർത്തു</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d ഗാനങ്ങൾ പ്രിയപ്പെട്ടവയിൽ ചേർത്തു. നേരത്തേതന്നെ പ്രിയപ്പെട്ടവയിലുള്ള ഗാനങ്ങളെ ചേർത്തില്ല.</item>
+        <item quantity="one">പ്രിയപ്പെട്ടവയിലേക്ക് 1 ഗാനം ചേർത്തു. നേരത്തേതന്നെ പ്രിയപ്പെട്ടവയിലുള്ള ഗാനത്തെ ചേർത്തില്ല.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d ട്രാക്കുകൾ പ്രിയങ്കരങ്ങളിൽ നിന്ന് നീക്കി.</item>
+        <item quantity="one">1 ട്രാക്ക് പ്രിയങ്കരങ്ങളിൽ നിന്ന് നീക്കി.</item>
+    </plurals>
+</resources>

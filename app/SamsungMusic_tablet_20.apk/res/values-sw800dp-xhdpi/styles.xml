@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MusicActionDropDownStyle" parent="@android:style/Widget.Spinner.DropDown">
+        <item name="android:textSize">@dimen/actionbar_dropdown_text_size</item>
+        <item name="android:textColor">@color/actionbar_dropdown_text_color_selector</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@drawable/actionbar_dropdown_selector</item>
+    </style>
+    <style name="square_mood_text">
+        <item name="android:textSize">@dimen/square_mood_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/music_square_text_color</item>
+    </style>
+    <style name="Text.ListItem.Line1" parent="@style/Text.ListItem">
+        <item name="android:textSize">@dimen/style_text1_size</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="Text.ListItem.Line2" parent="@style/Text.ListItem">
+        <item name="android:textSize">@dimen/style_text2_size</item>
+        <item name="android:textColor">@color/list_item_textcolor_selector</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="Text.ListItem.Grid1" parent="@style/Text.ListItem">
+        <item name="android:textSize">@dimen/style_text1_listview_size</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="Text.ListItem.Grid2" parent="@style/Text.ListItem">
+        <item name="android:textSize">@dimen/style_text2_listview_size</item>
+        <item name="android:textColor">@color/list_item_textcolor_selector</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="PerSonalTagInfo">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_marginLeft">1.0dip</item>
+        <item name="android:layout_marginBottom">1.0dip</item>
+        <item name="android:src">@drawable/music_list_personal_icon</item>
+        <item name="android:contentDescription">@string/tts_private</item>
+    </style>
+    <style name="PerSonalFullPlayerTagInfo">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:src">@drawable/music_list_personal_icon</item>
+        <item name="android:contentDescription">@string/tts_private</item>
+    </style>
+    <style name="ListAlbumArt">
+        <item name="android:background">@drawable/default_thumbnail_bg</item>
+        <item name="android:padding">-0.70000005dip</item>
+        <item name="android:layout_width">@dimen/normal_list_albumart_size</item>
+        <item name="android:layout_height">@dimen/normal_list_albumart_size</item>
+        <item name="android:src">@drawable/default_music_list_m</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="Text.NoItem" parent="@style/Text">
+        <item name="android:textSize">29.0dip</item>
+        <item name="android:textColor">@color/no_item_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SettingsReorderContainer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/settings_reorder_list_height</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="SoundAliveEffectLayout">
+        <item name="android:background">@drawable/new_soundalive_effect_selector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">308.0dip</item>
+        <item name="android:layout_height">117.0dip</item>
+        <item name="android:layout_marginLeft">6.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+    </style>
+    <style name="SoundAliveEffectTitle">
+        <item name="android:textSize">@dimen/new_soundAlive_effect_title_text_size</item>
+        <item name="android:textColor">@color/new_soundAlive_effect_text_color</item>
+        <item name="android:layout_width">@dimen/new_soundalive_effect_subtext_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">106.0dip</item>
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:fontFamily">sec-roboto-regular</item>
+    </style>
+    <style name="SoundAliveEffectExplanation">
+        <item name="android:textSize">@dimen/new_soundAlive_effect_text2_size</item>
+        <item name="android:textColor">@color/new_soundAlive_effect_text2_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">top|left|center</item>
+        <item name="android:layout_width">@dimen/new_soundalive_effect_subtext_width</item>
+        <item name="android:layout_height">65.0dip</item>
+        <item name="android:layout_marginLeft">106.0dip</item>
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:lineSpacingExtra">-1.0dip</item>
+        <item name="android:fontFamily">sec-roboto-regular</item>
+    </style>
+    <style name="SoundAliveEffectBottomLine">
+        <item name="android:background">@drawable/music_bar_off</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">9.0dip</item>
+        <item name="android:layout_marginRight">9.0dip</item>
+        <item name="android:layout_marginBottom">4.0dip</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="SoundAliveEffectImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">18.0dip</item>
+        <item name="android:layout_marginTop">18.0dip</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="SoundAliveAdvancedButton">
+        <item name="android:textSize">24.0dip</item>
+        <item name="android:textColor">@color/sound_alive_advanced_btn_text_color_selector</item>
+        <item name="android:gravity">top|center</item>
+        <item name="android:background">@drawable/new_soundalive_advanced_effect_focus</item>
+        <item name="android:layout_width">143.0dip</item>
+        <item name="android:layout_height">45.0dip</item>
+        <item name="android:layout_marginLeft">3.0dip</item>
+        <item name="android:layout_marginRight">3.0dip</item>
+        <item name="android:drawableBottom">@drawable/new_soundalive_advanced_effect_selector</item>
+    </style>
+    <style name="SoundAliveTab">
+        <item name="android:textSize">@dimen/soundalive_tab_text_size</item>
+        <item name="android:textColor">@color/tab_text_default_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tab_indicator_selector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:shadowColor">@color/tab_text_shadow_color</item>
+        <item name="android:shadowDy">@integer/tab_text_shadow_y_offset</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="ListCommonStyle">
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Text.ListItem.Line1MusicSquare" parent="@style/Text.ListItem">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:height">29.0dip</item>
+    </style>
+    <style name="Text.ListItem.Line2MusicSquare" parent="@style/Text.ListItem">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/list_item_textcolor_selector</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:height">24.0dip</item>
+    </style>
+    <style name="SoundalivePresetGridviewEdgeText">
+        <item name="android:textSize">21.0dip</item>
+        <item name="android:textColor">@color/new_soundAlive_gridView_edge_text</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="mediaInfoScrollView">
+        <item name="android:layout_height">@dimen/media_info_scrollbar_height</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/tablet_music_player" />
+    <TextView android:textSize="@dimen/help_popup_picker_text_size" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:id="@id/help_touch_text" android:background="@drawable/help_popup_picker_bg_w_01" android:paddingLeft="@dimen/padding_Left_popup_picker" android:paddingTop="@dimen/padding_top_popup_picker" android:paddingRight="@dimen/padding_Right_popup_picker" android:paddingBottom="@dimen/padding_Bottom_popup_picker" android:layout_width="@dimen/palm_motion_text_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/palm_motion_text_margin_left" android:layout_marginTop="@dimen/help_popup_picker_text_top_margin" android:layout_marginRight="@dimen/palm_motion_text_margin_right" android:text="@string/palm_touch_toast_start" />
+</FrameLayout>

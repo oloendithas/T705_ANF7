@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d bài hát được chọn.</item>
+        <item quantity="one">1 bài hát được chọn.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Bạn có thể dùng %1$s %2$d lần.</item>
+        <item quantity="one">Bạn có thể dùng %s một lần.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d bài hát</item>
+        <item quantity="one">%d bài hát</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d danh sách phát</item>
+        <item quantity="one">1 danh sách phát</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d Album</item>
+        <item quantity="one">1 Album</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d nghệ sĩ</item>
+        <item quantity="one">1 nghệ sĩ</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d thể loại</item>
+        <item quantity="one">1 thể loại</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d thư mục</item>
+        <item quantity="one">1 thư mục</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d tác giả</item>
+        <item quantity="one">1 người sáng tác</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d năm</item>
+        <item quantity="one">1 năm</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d thiết bị</item>
+        <item quantity="one">1 thiết bị</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d bài hát đã được thêm vào danh sách phát.</item>
+        <item quantity="one">Đã thêm 1 bài hát vào danh sách phát</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">Đã xóa %d bài hát.</item>
+        <item quantity="one">Đã xóa 1 bài hát.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d mục đã được xóa.</item>
+        <item quantity="one">Đã xóa 1 mục.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">Đã xóa %d bài hát.</item>
+        <item quantity="one">Đã xóa 1 bài hát</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">Đã thêm %d bài hát vào danh sách đang phát</item>
+        <item quantity="one">Đã thêm 1 bài hát vào danh sách đang phát</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d bài hát đã được thêm vào mục yêu thích</item>
+        <item quantity="one">Đã thêm 1 bài hát vào mục yêu thích</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d bài hát đã được thêm vào Mục yêu thích. Các bài hát đã có trong Mục yêu thích không được thêm.</item>
+        <item quantity="one">Đã thêm 1 bài hát vào Mục yêu thích. Bài hát đã có trong Mục yêu thích không được thêm.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">Đã xóa %d bài hát khỏi Mục yêu thích.</item>
+        <item quantity="one">Đã xóa 1 bài hát khỏi Mục yêu thích.</item>
+    </plurals>
+</resources>

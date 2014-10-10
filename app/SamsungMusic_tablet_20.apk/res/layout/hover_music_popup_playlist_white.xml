@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/hover_popup_basic_white_bg" android:paddingLeft="@dimen/hover_playlist_view_padding_horizontal" android:paddingTop="@dimen/hover_playlist_view_padding_top" android:paddingRight="@dimen/hover_playlist_view_padding_horizontal" android:paddingBottom="@dimen/hover_playlist_view_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/hover_playlist_view_max_width" android:maxHeight="@dimen/hover_playlist_view_max_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/hover_playlist_view_text_size" android:textColor="@color/hover_playlist_title_text_color_white_theme" android:id="@id/hover_music_popup_playlist_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/hover_playlist_view_text_size" android:textColor="@color/hover_playlist_title_text_color_white_theme" android:id="@id/hover_music_popup_playlist_number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

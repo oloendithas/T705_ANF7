@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/nowplaying_list_item_root" android:background="@color/music_player_nowplaying_list_bg" android:layout_width="fill_parent" android:layout_height="@dimen/nowplaylist_item_height_tablet"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/list_item_selector" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/uhq_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/albumart" android:layout_alignParentLeft="true" style="@style/UhqTagInfo" />
+        <ViewStub android:id="@id/list_animation_stub" android:layout="@layout/list_item_animation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/duration" android:layout_centerVertical="true" />
+        <ViewStub android:id="@id/list_progressbar_stub" android:layout="@layout/list_item_track_progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_toLeftOf="@id/duration" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/list_personal_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:layout_alignParentRight="true" style="@style/PerSonalTagInfo" />
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="14.0dip" android:layout_toLeftOf="@id/list_animation" android:layout_toRightOf="@id/uhq_tag" android:layout_centerVertical="true">
+            <com.samsung.musicplus.widget.MatchedTextView android:textSize="@dimen/nowplaying_list_text1_size" android:textColor="@color/music_player_nowplaying_list_text1" android:ellipsize="end" android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="Roboto Regular" />
+            <com.samsung.musicplus.widget.MatchedTextView android:textSize="@dimen/nowplaying_list_text2_size" android:textColor="@color/list_nowplaying_text_selector" android:ellipsize="end" android:id="@id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="Roboto Regular" />
+        </LinearLayout>
+        <com.samsung.musicplus.widget.MatchedTextView android:textSize="@dimen/nowplaying_list_duration_text_size" android:textColor="@color/list_nowplaying_text_selector" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:fontFamily="sec-roboto-light (regular)" />
+        <View android:layout_alignParentBottom="true" style="@style/Divider" />
+    </RelativeLayout>
+</LinearLayout>

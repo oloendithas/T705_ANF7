@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d pista aukeratuta</item>
+        <item quantity="one">Pista 1 aukeratuta</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s %2$d aldiz erabil dezakezu</item>
+        <item quantity="one">%s behin erabil dezakezu</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d pista</item>
+        <item quantity="one">%d. abestia</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d erreprodukzio zerrenda</item>
+        <item quantity="one">Erreprodukzio zerrenda 1</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d album</item>
+        <item quantity="one">Album 1</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d artista</item>
+        <item quantity="one">Artista 1</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d genero</item>
+        <item quantity="one">Genero 1</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d karpeta</item>
+        <item quantity="one">Karpeta 1</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d egile</item>
+        <item quantity="one">Konpositore 1</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d urte</item>
+        <item quantity="one">Urte 1</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d gailu</item>
+        <item quantity="one">Gailu 1</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d pista gehitu dira erreprodukzio zerrendara</item>
+        <item quantity="one">Abesti 1 gehitu da erreprodukzio zerrendara.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d abesti ezabatu dira.</item>
+        <item quantity="one">Abesti 1 ezabatu da.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d elementu ezabatuta</item>
+        <item quantity="one">Elementu 1 ezabatuta</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d abesti kendu dira</item>
+        <item quantity="one">Abesti 1 kendu da.</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d abesti gehitu zaizkio erreproduzitzen ari den zerrendari</item>
+        <item quantity="one">Abesti 1 gehitu zaio erreproduzitzen ari den zerrendari</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d abesti gogokoetan gehitu dira.</item>
+        <item quantity="one">Abesti 1 gogokoetara gehitu da.</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d abesti gehitu dira Gogokoetan. Gogokoetan dauden abestiak ez dira gehitu.</item>
+        <item quantity="one">Abesti 1 gehitu da Gogokoetan. Gogokoetan dagoen abestia ez da gehitu.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d abesti kendu dira Gogokoetatik.</item>
+        <item quantity="one">Abesti 1 kendu da Gogokoetatik.</item>
+    </plurals>
+</resources>

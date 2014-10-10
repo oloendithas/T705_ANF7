@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progressContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" android:singleLine="true" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/listContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/listContainer_sub" android:background="@color/tablet_setting_menu_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:background="@color/background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.samsung.musicplus.widget.list.MusicListView android:scrollbarStyle="outsideOverlay" android:id="@id/list" android:paddingLeft="@dimen/list_content_common_padding_left" android:paddingRight="@dimen/list_content_common_listview_padding_right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/list_content_common_listview_margin_right" android:drawSelectorOnTop="false" />
+        </FrameLayout>
+        <ViewStub android:gravity="center" android:id="@id/grid_stub" android:background="@color/tw_black" android:layout="@layout/list_grid_view_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/empty_view_stub" android:layout="@layout/music_no_item" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</merge>

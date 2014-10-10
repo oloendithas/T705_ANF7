@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="checkableId" format="integer" />
+    <attr name="checkable" format="integer" />
+    <attr name="gravity">
+        <flag name="top" value="0x00000030" />
+        <flag name="bottom" value="0x00000050" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="center" value="0x00000011" />
+        <flag name="fill" value="0x00000077" />
+        <flag name="clip_vertical" value="0x00000080" />
+        <flag name="clip_horizontal" value="0x00000008" />
+    </attr>
+    <attr name="gridViewStyle" format="reference" />
+    <attr name="listSelector" format="reference|color" />
+    <attr name="drawSelectorOnTop" format="boolean" />
+    <attr name="stackFromBottom" format="boolean" />
+    <attr name="scrollingCache" format="boolean" />
+    <attr name="transcriptMode">
+        <enum name="disabled" value="0" />
+        <enum name="normal" value="1" />
+        <enum name="alwaysScroll" value="2" />
+    </attr>
+    <attr name="cacheColorHint" format="color" />
+    <attr name="smoothScrollbar" format="boolean" />
+    <attr name="scrollDirectionPortrait">
+        <enum name="vertical" value="0" />
+        <enum name="horizontal" value="1" />
+    </attr>
+    <attr name="scrollDirectionLandscape">
+        <enum name="vertical" value="0" />
+        <enum name="horizontal" value="1" />
+    </attr>
+    <attr name="horizontalSpacing" format="dimension" />
+    <attr name="verticalSpacing" format="dimension" />
+    <attr name="stretchMode">
+        <enum name="none" value="0" />
+        <enum name="spacingWidth" value="1" />
+        <enum name="columnWidth" value="2" />
+        <enum name="spacingWidthUniform" value="3" />
+    </attr>
+    <attr name="columnWidth" format="dimension" />
+    <attr name="rowHeight" format="dimension" />
+    <attr name="numColumns" format="integer" min="0">
+        <enum name="auto_fit" value="-1" />
+    </attr>
+    <attr name="numRows" format="integer" min="0">
+        <enum name="auto_fit" value="-1" />
+    </attr>
+    <attr name="control_layout_id" format="reference" />
+    <attr name="minimum_size" format="dimension" />
+    <attr name="maximum_size" format="dimension" />
+    <attr name="titleTextStyle">
+        <flag name="normal" value="0x00000000" />
+        <flag name="bold" value="0x00000001" />
+        <flag name="italic" value="0x00000002" />
+    </attr>
+    <attr name="artistTextStyle">
+        <flag name="normal" value="0x00000000" />
+        <flag name="bold" value="0x00000001" />
+        <flag name="italic" value="0x00000002" />
+    </attr>
+    <attr name="albumOpacity" format="fraction" />
+    <attr name="albumSize" format="dimension" />
+    <attr name="albumSpacing" format="dimension" />
+    <attr name="albumSpacingAdditional" format="dimension" />
+    <attr name="backgroundColor" format="color" />
+    <attr name="selectedAlbumBorder" format="dimension" />
+    <attr name="selectedAlbumSize" format="dimension" />
+    <attr name="textLayout" format="reference" />
+    <attr name="scrollingFriction" format="float" />
+    <attr name="shadowBitmap" format="reference" />
+    <attr name="maxTiltedAngle" format="integer" />
+    <attr name="tiltedK" format="float" />
+    <attr name="clickAnimation" format="reference" />
+    <attr name="tiltedReturnAnimation" format="reference" />
+    <attr name="orientation">
+        <enum name="vertical" value="1" />
+        <enum name="horizontal" value="0" />
+    </attr>
+    <attr name="scrollSpeedFactor" format="float" />
+    <attr name="flingSpeedFactor" format="float" />
+    <attr name="entryList" format="reference" />
+    <attr name="valueList" format="reference" />
+    <attr name="summaryList" format="reference" />
+</resources>

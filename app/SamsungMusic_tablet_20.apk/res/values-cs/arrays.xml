@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>Další</item>
+        <item>Předchozí</item>
+        <item>Pauza</item>
+        <item>Přehrát</item>
+        <item>Zvýšit hlasitost</item>
+        <item>Snížit hlasitost</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+</resources>

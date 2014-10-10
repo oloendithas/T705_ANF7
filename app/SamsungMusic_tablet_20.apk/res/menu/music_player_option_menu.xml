@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_share_with_other_devices" android:visible="false" android:title="@string/menu_share_with_other_devices" />
+    <item android:id="@id/transfer_to_phone" android:title="@string/menu_via_device" />
+    <item android:id="@id/transfer_to_bt" android:title="@string/menu_via_bluetooth" />
+    <item android:id="@id/share_music_via" android:visible="false" android:title="@string/menu_share_via" />
+    <item android:id="@id/play_via_group_play" android:visible="false" android:title="@string/menu_play_via_group_play" />
+    <item android:id="@id/delete_item" android:visible="false" android:title="@string/menu_delete" />
+    <item android:id="@id/move_to_knox" android:visible="false" android:title="@string/list_menu_move_to_knox" />
+    <item android:id="@id/remove_from_knox" android:visible="false" android:title="@string/list_menu_remove_from_KNOX" />
+    <item android:id="@id/add_to_playlist" android:visible="false" android:title="@string/menu_add_to_playlist" />
+    <item android:id="@id/set_as" android:visible="false" android:title="@string/menu_set_as" />
+    <item android:id="@id/download" android:visible="false" android:title="@string/menu_download" />
+    <item android:id="@id/go_to_setting" android:title="@string/settings" />
+    <item android:id="@id/details" android:visible="false" android:title="@string/menu_details" />
+    <item android:id="@id/end" android:visible="false" android:title="@string/menu_end" />
+    <item android:id="@id/option_stop_music_play" android:visible="false" android:title="@string/stop_playing_music_q" />
+</menu>

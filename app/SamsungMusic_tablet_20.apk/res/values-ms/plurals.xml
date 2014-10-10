@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d lagu dipilih.</item>
+        <item quantity="one">1 lagu dipilih.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Anda boleh guna %1$s %2$d kali.</item>
+        <item quantity="one">Anda boleh guna %s 1 kali.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d lagu</item>
+        <item quantity="one">%d lagu</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d senarai main</item>
+        <item quantity="one">1 senarai main</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d album</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d artis</item>
+        <item quantity="one">1 artis</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d aliran</item>
+        <item quantity="one">1 aliran</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d pelipat</item>
+        <item quantity="one">1 pelipat</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d penggubah</item>
+        <item quantity="one">1 penggubah</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d tahun</item>
+        <item quantity="one">1 tahun</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d peranti</item>
+        <item quantity="one">1 peranti</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d lagu ditambah pada senarai main.</item>
+        <item quantity="one">1 lagu ditambah pada senarai main</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d lagu dipadamkan.</item>
+        <item quantity="one">1 lagu dipadamkan.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d item dipadamkan.</item>
+        <item quantity="one">1 item dipadam.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d lagu dialih keluar.</item>
+        <item quantity="one">1 lagu dialih keluar</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d lagu ditambah ke senarai main sekarang</item>
+        <item quantity="one">1 lagu ditambah ke senarai main sekarang</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d lagu ditambah pada kegemaran</item>
+        <item quantity="one">1 lagu ditambah pada kegemaran</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d lagu ditambah pada Kegemaran. Lagu telah ada dalam Kegemaran yang tidak ditambah.</item>
+        <item quantity="one">1 lagu ditambah pada Kegemaran. Lagu telah ada dalam Kegemaran yang tidak ditambah.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d lagu dialihkan dari Kegemaran.</item>
+        <item quantity="one">1 lagu dialih keluar dari Kegemaran.</item>
+    </plurals>
+</resources>

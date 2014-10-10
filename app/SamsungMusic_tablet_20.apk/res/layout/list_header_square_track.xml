@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/list_tab_header_view_layout" android:background="@drawable/square_list_expandable_selector" android:paddingLeft="@dimen/list_item_padding_side" android:focusable="true" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/music_square_expandable_button_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/music_player_duration_text" android:textColor="@color/music_square_expandable_text_color" android:ellipsize="marquee" android:gravity="center" android:id="@id/header_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    <ImageView android:id="@id/header_icon" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

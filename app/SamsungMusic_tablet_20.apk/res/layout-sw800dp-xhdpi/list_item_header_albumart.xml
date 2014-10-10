@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/list_item_title_layout" android:background="@color/background" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/tablet_list_item_header_albumart_height">
+        <ViewStub android:id="@id/list_item_title_image_stub" android:layout="@layout/list_item_title_image" android:layout_width="@dimen/tablet_list_normal_albumart_size" android:layout_height="@dimen/tablet_list_normal_albumart_size" android:layout_marginTop="20.0dip" android:layout_marginBottom="1.0dip" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/tablet_list_category_text_size" android:textColor="@color/list_subtitle" android:ellipsize="end" android:id="@id/list_item_title_text" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/tablet_list_item_title_textview_height" android:layout_marginLeft="@dimen/list_item_padding_side" android:layout_marginRight="@dimen/list_item_padding_side" android:singleLine="true" android:layout_toRightOf="@id/list_item_title_image" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="@dimen/tablet_list_category_text_size" android:textColor="@color/list_subtitle" android:ellipsize="end" android:id="@id/text3" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/tablet_list_item_title_textview_height" android:layout_marginRight="@dimen/list_item_padding_side" android:singleLine="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <View android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" style="@style/title_divider" />
+    </RelativeLayout>
+</merge>

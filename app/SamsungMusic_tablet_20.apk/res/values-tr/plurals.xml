@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d parca seçildi.</item>
+        <item quantity="one">1 parca seçildi.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s %2$d kez kullanılabilir.</item>
+        <item quantity="one">%s 1 kez kullanılabilir.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d parça</item>
+        <item quantity="one">%d parça</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d parça listesi</item>
+        <item quantity="one">1 çalma listesi</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albüm</item>
+        <item quantity="one">1 albüm</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d sanatçı</item>
+        <item quantity="one">1 sanatçı</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d tür</item>
+        <item quantity="one">1 tarz</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d klasörleri</item>
+        <item quantity="one">1 klasör</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d besteci</item>
+        <item quantity="one">1 bestekar</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d yıl</item>
+        <item quantity="one">1 yıl</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d cihaz</item>
+        <item quantity="one">1 cihaz</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Çalma listesine %d parça eklendi.</item>
+        <item quantity="one">Çalma listesine 1 parça eklendi</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d parça silindi.</item>
+        <item quantity="one">1 parça silindi.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d öğe silindi.</item>
+        <item quantity="one">1 öğe silindi.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d parça çıkartıldı.</item>
+        <item quantity="one">1 parça kaldırıldı</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d parçaları şimdi çalan listesine eklendi</item>
+        <item quantity="one">Şimdi çalan listesine 1 parça eklendi</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d parça favorilere eklendi</item>
+        <item quantity="one">1 parça favorilere eklendi</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d parça Favorilere eklendi. Favorilerde zaten mevcut olan parçalar eklenmedi.</item>
+        <item quantity="one">1 parça Favorilere eklendi. Favorilerde zaten mevcut olan parça eklenmedi.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d parça Favorilerden kaldırıldı.</item>
+        <item quantity="one">1 parça Favorilerden çıkarıldı.</item>
+    </plurals>
+</resources>

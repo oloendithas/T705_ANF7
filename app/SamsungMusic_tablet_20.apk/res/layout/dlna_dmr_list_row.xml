@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dialog_title_padding_left" android:paddingRight="@dimen/dialog_title_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="65.0dip" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/dmr_icon" android:layout_width="@dimen/dlna_dmr_list_row_image_size" android:layout_height="@dimen/dlna_dmr_list_row_image_size" android:layout_marginLeft="@dimen/dialog_dmr_icon_padding_left" android:layout_marginRight="@dimen/dialog_dmr_icon_padding_right" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/list_item_line1_text_size" android:textColor="@color/dialog_main_text" android:id="@id/dmr_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_dmr_marin" />
+        <TextView android:textSize="@dimen/list_item_line2_text_size" android:textColor="@color/dialog_sub_text" android:id="@id/dmr_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialog_dmr_marin" />
+    </LinearLayout>
+</LinearLayout>

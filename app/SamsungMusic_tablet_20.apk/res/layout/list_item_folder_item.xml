@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background" android:paddingLeft="@dimen/list_item_padding_side" android:paddingRight="@dimen/list_item_padding_side" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/normal_list_two_line_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/list_item_folder_item_linearlayout" android:background="@drawable/list_item_selector" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gallery_album_thumbnail_ic_folder" />
+                <com.samsung.musicplus.widget.MatchedTextView android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" style="@style/Text.ListItem.Line1_Folder" />
+                <ImageView android:id="@id/list_personal_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" style="@style/PerSonalTagInfo" />
+            </LinearLayout>
+            <com.samsung.musicplus.widget.MatchedTextView android:id="@id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" style="@style/Text.ListItem.Line2_Folder" />
+        </LinearLayout>
+        <ViewStub android:id="@id/list_progressbar_stub" android:layout="@layout/list_item_track_progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="38.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d pistas seleccionadas</item>
+        <item quantity="one">1 pista seleccionada</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Pode utilizar %1$s %2$d veces</item>
+        <item quantity="one">Pode utilizar %s 1 vez</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d pistas</item>
+        <item quantity="one">%d pista</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d listas de reprodución</item>
+        <item quantity="one">1 lista de reprodución</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d álbums</item>
+        <item quantity="one">1 álbum</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d artistas</item>
+        <item quantity="one">1 artista</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d xéneros</item>
+        <item quantity="one">1 xénero</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d carpetas</item>
+        <item quantity="one">1 carpeta</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d compositores</item>
+        <item quantity="one">1 compositor</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d anos</item>
+        <item quantity="one">1 ano</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d dispositivos</item>
+        <item quantity="one">1 dispositivo</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Engadíronse %d pistas á lista de reprodución</item>
+        <item quantity="one">Engadiuse 1 pista á lista de reprodución.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d cancións eliminadas.</item>
+        <item quantity="one">1 canción eliminada.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d elementos eliminados</item>
+        <item quantity="one">1 elemento eliminado</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">Elimináronse %d pistas</item>
+        <item quantity="one">1 pista eliminada.</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d pistas engadidas á lista de reprodución en curso</item>
+        <item quantity="one">1 pista engadida á lista de reprodución en curso</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d pistas engadidas aos favoritos.</item>
+        <item quantity="one">1 pista engadida aos favoritos.</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d pistas engadidas a Favoritos. As pistas que xa se atopan en Favoritos non se engadirán.</item>
+        <item quantity="one">1 pista engadida a Favoritos. A pista que xa se atopa en Favoritos non se engadirá.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d pistas eliminadas de Favoritos.</item>
+        <item quantity="one">1 pista eliminada de Favoritos.</item>
+    </plurals>
+</resources>

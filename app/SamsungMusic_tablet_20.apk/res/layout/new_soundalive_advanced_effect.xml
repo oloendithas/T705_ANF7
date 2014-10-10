@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/new_soundalive_advanced_effect_Button_3d" android:text="@string/new_soundalive_3D" android:layout_toLeftOf="@id/new_soundalive_advanced_effect_Button_Bass" style="@style/SoundAliveAdvancedButton" />
+    <View android:background="@color/new_soundAlive_basic_divider" android:layout_width="1.0dip" android:layout_height="46.0dip" android:layout_marginTop="4.0dip" android:layout_toLeftOf="@id/new_soundalive_advanced_effect_Button_Bass" />
+    <TextView android:id="@id/new_soundalive_advanced_effect_Button_Bass" android:text="@string/new_soundalive_bass" android:layout_centerHorizontal="true" style="@style/SoundAliveAdvancedButton" />
+    <View android:background="@color/new_soundAlive_basic_divider" android:layout_width="1.0dip" android:layout_height="46.0dip" android:layout_marginTop="4.0dip" android:layout_toRightOf="@id/new_soundalive_advanced_effect_Button_Bass" />
+    <TextView android:id="@id/new_soundalive_advanced_effect_Button_Clarity" android:text="@string/new_soundalive_clarity" android:layout_toRightOf="@id/new_soundalive_advanced_effect_Button_Bass" style="@style/SoundAliveAdvancedButton" />
+</RelativeLayout>

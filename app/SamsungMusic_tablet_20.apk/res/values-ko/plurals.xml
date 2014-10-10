@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d개의 노래가 선택되었습니다.</item>
+        <item quantity="one">1개의 노래가 선택되었습니다.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s을(를) %2$d회 사용할 수 있습니다.</item>
+        <item quantity="one">%s을(를) 1회 사용할 수 있습니다.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d개의 곡</item>
+        <item quantity="one">노래 %d곡</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d개의 재생 목록</item>
+        <item quantity="one">1개의 재생 목록</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d개의 앨범</item>
+        <item quantity="one">앨범 1개</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d명의 아티스트</item>
+        <item quantity="one">1명의 아티스트</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d개의 장르</item>
+        <item quantity="one">1개의 장르</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d개의 폴더</item>
+        <item quantity="one">폴더 1개</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d명의 작곡가</item>
+        <item quantity="one">1명의 작곡가</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d년</item>
+        <item quantity="one">1년</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">기기 %d개</item>
+        <item quantity="one">기기 1개</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">재생 목록에 %d곡이 추가되었습니다.</item>
+        <item quantity="one">재생 목록에 1곡이 추가되었습니다</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d곡의 노래를 삭제하였습니다.</item>
+        <item quantity="one">1곡의 노래를 삭제하였습니다.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d개의 항목이 삭제되었습니다.</item>
+        <item quantity="one">1개의 항목이 삭제되었습니다.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d곡의 노래가 제거되었습니다.</item>
+        <item quantity="one">%d곡의 노래가 제거되었습니다.</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d곡의 노래가 현재 재생 목록에 추가되었습니다</item>
+        <item quantity="one">1곡의 노래가 현재 재생 목록에 추가되었습니다</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">즐겨찾기에 %d곡의 노래가 추가되었습니다</item>
+        <item quantity="one">즐겨찾기에 1곡의 노래가 추가되었습니다</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d곡의 노래를 즐겨찾기에 추가하였습니다. 즐겨찾기에 이미 등록된 노래는 추가하지 않았습니다.</item>
+        <item quantity="one">1곡의 노래를 즐겨찾기에 추가하였습니다. 즐겨찾기에 이미 등록된 노래는 추가하지 않았습니다.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d곡의 노래를 즐겨찾기에서 제거하였습니다.</item>
+        <item quantity="one">1곡의 노래를 즐겨찾기에서 제거하였습니다.</item>
+    </plurals>
+</resources>

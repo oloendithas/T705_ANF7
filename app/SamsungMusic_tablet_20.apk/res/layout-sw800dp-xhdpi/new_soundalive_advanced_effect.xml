@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/new_soundalive_advanced_effects_layout_marginTop" android:layout_marginBottom="@dimen/new_soundalive_advanced_effects_layout_marginBottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/new_soundalive_advanced_effect_Button_3d" android:text="@string/new_soundalive_3D" android:layout_toLeftOf="@id/new_soundalive_advanced_effect_Button_Bass" style="@style/SoundAliveAdvancedButton" />
+    <TextView android:id="@id/new_soundalive_advanced_effect_Button_Bass" android:text="@string/new_soundalive_bass" android:layout_centerHorizontal="true" style="@style/SoundAliveAdvancedButton" />
+    <TextView android:id="@id/new_soundalive_advanced_effect_Button_Clarity" android:text="@string/new_soundalive_clarity" android:layout_toRightOf="@id/new_soundalive_advanced_effect_Button_Bass" style="@style/SoundAliveAdvancedButton" />
+</RelativeLayout>

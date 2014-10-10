@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">เลือก %d ​แทร็ก</item>
+        <item quantity="one">เลือก 1 ​แทร็ก</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">คุณ​สามารถ​ใช้ %1$s %2$d ​ครั้ง</item>
+        <item quantity="one">คุณ​สามารถ​ใช้ %s 1 ​ครั้ง</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ​แทร็ก</item>
+        <item quantity="one">%d แทร็ค</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d ​รายการ​เพลง</item>
+        <item quantity="one">1 ​รายการ​เพลง</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d ​อัลบั้ม</item>
+        <item quantity="one">1 ​อัลบั้ม</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d ​ศิลปิน</item>
+        <item quantity="one">1 ​ศิลปิน</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d ​ประเภท</item>
+        <item quantity="one">1 ​ประเภท</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d ​โฟลเดอร์</item>
+        <item quantity="one">1 ​โฟลเดอร์</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d ​ผู้​แต่ง</item>
+        <item quantity="one">1 ​ผู้​แต่ง</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d ​ปี</item>
+        <item quantity="one">1 ​ปี</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d อุปกรณ์</item>
+        <item quantity="one">1 อุปกรณ์</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">เพิ่ม %d แทร็คไปยังรายการเพลงแล้ว</item>
+        <item quantity="one">เพิ่ม 1 แทร็ค ไปยังรายการเพลงแล้ว</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">ลบ %d แทร็คแล้ว</item>
+        <item quantity="one">ลบ 1 แทร็คแล้ว</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">ลบ %d ​รายการ</item>
+        <item quantity="one">ลบ 1 ​รายการ</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">ลบออก %d แทร็ค</item>
+        <item quantity="one">ลบออก 1 แทร็คแล้ว</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">เพิ่ม %d แทร็คในรายการที่กำลังเล่นแล้ว</item>
+        <item quantity="one">เพิ่ม 1 แทร็คในรายการที่กำลังเล่นแล้ว</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">เพิ่ม %d แทร็คไปยังรายการโปรดแล้ว</item>
+        <item quantity="one">เพิ่ม 1 แทร็คไปยังรายการโปรดแล้ว</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">เพิ่ม %d แทร็คไปยังรายการโปรดแล้ว ไม่ได้เพิ่มแทร็คที่อยู่ ในรายการโปรดอยู่แล้ว</item>
+        <item quantity="one">เพิ่ม 1 แทร็คไปยังรายการโปรดแล้ว ไม่ได้เพิ่มแทร็คที่อยู่ในรายการโปรดอยู่แล้ว</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">ลบ %d แทร็คออกจากรายการโปรดแล้ว</item>
+        <item quantity="one">ลบ 1 แทร็คออกจากรายการโปรดแล้ว</item>
+    </plurals>
+</resources>

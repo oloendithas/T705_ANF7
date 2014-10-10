@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/sview_cover_music_dialog_list_padding_left" android:paddingRight="@dimen/sview_cover_music_dialog_list_padding_right" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="61.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/uhq_tag" android:layout_marginTop="12.0dip" android:layout_alignParentLeft="true" style="@style/UhqTagInfo" />
+    <ViewStub android:id="@id/list_animation_stub" android:layout="@layout/list_item_animation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/list_text_wrapper_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/list_text1_margin_right" android:layout_toLeftOf="@id/list_animation" android:layout_toRightOf="@id/uhq_tag">
+        <com.samsung.musicplus.widget.MatchedTextView android:textSize="@dimen/sview_cover_music_dialog_header_text_main" android:textColor="@color/sview_cover_music_list_text1" android:id="@id/text1" android:shadowColor="@color/sview_cover_music_player_text_shadow" android:shadowDy="2.0" android:shadowRadius="2.0" style="@style/Text.ListItem" />
+        <com.samsung.musicplus.widget.MatchedTextView android:textSize="@dimen/sview_cover_music_dialog_header_text_sub" android:textColor="@color/sview_cover_music_list_text2" android:id="@id/text2" android:shadowColor="@color/sview_cover_music_player_text_shadow" android:shadowDy="2.0" android:shadowRadius="2.0" style="@style/Text.ListItem" />
+    </LinearLayout>
+    <ImageView android:id="@id/list_personal_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginRight="8.0dip" android:layout_toRightOf="@id/list_text_wrapper_layout" android:layout_alignParentRight="true" style="@style/PerSonalTagInfo" />
+</RelativeLayout>

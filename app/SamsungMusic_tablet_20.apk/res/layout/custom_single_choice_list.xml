@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.musicplus.store.widget.StoreCheckableRelativeLayout android:orientation="horizontal" android:layout_width="310.0dip" android:layout_height="fill_parent" single:checkable="@id/radio_btn"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:single="http://schemas.android.com/apk/res/com.sec.android.app.music">
+    <TextView android:textSize="19.0sp" android:gravity="center_vertical" android:id="@id/text" android:paddingLeft="17.0dip" android:layout_width="260.0dip" android:layout_height="48.0dip" />
+    <RadioButton android:id="@id/radio_btn" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" />
+</com.samsung.musicplus.store.widget.StoreCheckableRelativeLayout>

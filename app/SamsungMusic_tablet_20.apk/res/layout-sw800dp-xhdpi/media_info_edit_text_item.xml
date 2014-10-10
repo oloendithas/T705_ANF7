@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/media_info_edit_info_text_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" style="@style/Divider" />
+    <TextView android:textSize="@dimen/media_info_edit_text_info_text_size" android:textColor="@color/media_info_text1_color" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/item_text1" android:layout_width="@dimen/media_info_edit_info_text_view1_width" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/media_info_edit_info_text_margin_left" android:layout_marginTop="@dimen/media_info_edit_info_text_margin_top" android:layout_marginBottom="@dimen/media_info_edit_info_text_margin_top" android:singleLine="true" android:layout_centerVertical="true" />
+    <EditText android:textSize="@dimen/media_info_edit_text_info_text_size" android:textColor="@color/media_info_text1_color" android:id="@id/item_text2" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/media_info_edit_info_text_margin_top" android:layout_marginRight="@dimen/media_info_edit_info_text_margin_left" android:layout_marginBottom="@dimen/media_info_edit_info_text_margin_top" android:layout_toRightOf="@id/item_text1" android:layout_centerVertical="true" android:inputType="textCapSentences" android:imeOptions="actionNext" />
+</RelativeLayout>

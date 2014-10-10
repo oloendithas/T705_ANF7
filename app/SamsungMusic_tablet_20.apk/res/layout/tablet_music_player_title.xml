@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/music_player_title_button" android:layout_width="@dimen/tablet_music_player_title_width" android:layout_height="@dimen/tablet_title_part_height" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/music_player_title_main" android:textColor="@color/music_player_title_main" android:ellipsize="marquee" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="@dimen/tablet_music_player_title_main_text_height" android:singleLine="true" android:shadowColor="@color/tw_black" android:shadowDy="2.0" android:shadowRadius="1.0" android:layout_centerHorizontal="true" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="sans-serif-light" />
+        <TextView android:textSize="@dimen/music_player_title_sub" android:textColor="@color/music_player_title_sub" android:ellipsize="marquee" android:gravity="center" android:id="@id/artist" android:layout_width="fill_parent" android:layout_height="@dimen/tablet_music_player_title_sub_text_height" android:singleLine="true" android:shadowColor="@color/tw_black" android:shadowDy="2.0" android:shadowRadius="1.0" android:layout_below="@id/title" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="sans-serif-light" />
+        <ImageView android:id="@id/music_player_fullplay_star_btn" android:focusable="true" android:visibility="invisible" android:clickable="true" android:layout_width="@dimen/tablet_music_player_star_btn_size" android:layout_height="@dimen/tablet_music_player_star_btn_size" android:layout_marginTop="@dimen/tablet_music_player_star_margin" android:layout_below="@id/artist" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</merge>

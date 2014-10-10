@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>Successivo</item>
+        <item>Precedente</item>
+        <item>Pausa</item>
+        <item>Riproduci</item>
+        <item>Aumenta volume</item>
+        <item>Abbassa Volume</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+</resources>

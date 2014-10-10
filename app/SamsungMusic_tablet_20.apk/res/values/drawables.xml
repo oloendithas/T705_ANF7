@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="winset_light_color">#ff0191ac</item>
+    <item type="drawable" name="sound_alive_card_bg">#ff0889a1</item>
+    <item type="drawable" name="sound_alive_card_bg_press">#ff105176</item>
+</resources>

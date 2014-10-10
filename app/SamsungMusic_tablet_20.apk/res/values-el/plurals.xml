@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">Επιλέχθηκαν %d κομμάτια.</item>
+        <item quantity="one">Επιλέχθηκε 1 κομμάτι.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Μπορείτε να χρησιμοποιήσετε το %1$s %2$d φορές.</item>
+        <item quantity="one">Μπορείτε να χρησιμοποιήσετε το %s 1 φορά.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d κομμάτια</item>
+        <item quantity="one">%d κομμάτι</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d λίστ.αναπ.</item>
+        <item quantity="one">1 λίστα αναπαραγωγής</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d άλμπουμ</item>
+        <item quantity="one">1 άλμπουμ</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d καλλιτ.</item>
+        <item quantity="one">1 καλλιτέχνης</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d είδη</item>
+        <item quantity="one">1 είδος</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d φάκελοι</item>
+        <item quantity="one">1 φάκελος</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d συνθέτες</item>
+        <item quantity="one">1 συνθέτης</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d χρόνια</item>
+        <item quantity="one">1 έτος</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d συσκευές</item>
+        <item quantity="one">1 συσκευή</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d κομμάτια προστέθηκαν στη λίστα αναπαραγωγής.</item>
+        <item quantity="one">1 κομμάτι προστέθηκε στη λίστα αναπαραγωγής.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d κομμάτια διαγράφηκαν.</item>
+        <item quantity="one">1 κομμάτι διαγράφηκε.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">Διαγραφή %d στοιχείων.</item>
+        <item quantity="one">1 στοιχείο διαγράφηκε.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">Καταργήθηκαν %d κομμάτια.</item>
+        <item quantity="one">Καταργήθηκε 1 κομμάτι.</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d κομμάτια προστέθηκαν στη λίστα αναπαραγωγής σε εξέλιξη</item>
+        <item quantity="one">1 κομμάτι προστέθηκε στη λίστα αναπαραγωγής σε εξέλιξη</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d κομμάτια προστέθηκαν στα αγαπημένα.</item>
+        <item quantity="one">1 κομμάτι προστέθηκε στα αγαπημένα.</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d κομμάτια προστέθηκαν στα Αγαπημένα. Τα κομμάτια που υπάρχουν ήδη στα Αγαπημένα σας δεν προστέθηκαν.</item>
+        <item quantity="one">1 κομμάτι προστέθηκε στα Αγαπημένα. Το κομμάτι που υπάρχει ήδη στα Αγαπημένα σας δεν προστέθηκε.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d κομμάτια αφαιρέθηκαν από τα Αγαπημένα.</item>
+        <item quantity="one">1 κομμάτι αφαιρέθηκε από τα Αγαπημένα.</item>
+    </plurals>
+</resources>

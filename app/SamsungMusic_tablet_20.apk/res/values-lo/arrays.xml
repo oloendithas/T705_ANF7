@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>ຕໍ່ໄປ</item>
+        <item>ຜ່ານມາ</item>
+        <item>ຢຸດຊົ່ວຄາວ</item>
+        <item>ຫຼິ້ນ</item>
+        <item>ເອົາສຽງຂຶ້ນ</item>
+        <item>ຫຼູດລະດັບສຽງ</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+</resources>

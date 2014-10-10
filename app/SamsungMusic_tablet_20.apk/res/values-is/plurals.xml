@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d lög valin.</item>
+        <item quantity="one">1 lag var valið.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Það er hægt að nota %1$s í %2$d skipti.</item>
+        <item quantity="one">Það er hægt að nota %s í eitt skipti.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d lög</item>
+        <item quantity="one">%d lag</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d spilunarlistar</item>
+        <item quantity="one">1 spilunarlisti</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d plötur</item>
+        <item quantity="one">Ein plata</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d flytjendur</item>
+        <item quantity="one">1 flytjandi</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d stefnur</item>
+        <item quantity="one">1 stefna</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d möppur</item>
+        <item quantity="one">1 mappa</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d höfundar</item>
+        <item quantity="one">1 tónskáld</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d ár</item>
+        <item quantity="one">1 ár</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d tæki</item>
+        <item quantity="one">Eitt tæki</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d lögum var bætt við spilunarlistann.</item>
+        <item quantity="one">Einu lagi bætt við spilunarlistann.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d lögum eytt.</item>
+        <item quantity="one">1 lagi eytt.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d hlutum eytt.</item>
+        <item quantity="one">1 hlut var eytt.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d lög fjarlægð.</item>
+        <item quantity="one">Eitt lag fjarlægt.</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d lögum bætt á listann í spilun</item>
+        <item quantity="one">Einu lagi bætt á listann í spilun</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d lögum bætt við uppáhald.</item>
+        <item quantity="one">Einu lagi bætt við uppáhald.</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d lögum var bætt við uppáhald. Lögum sem þegar eru í uppáhaldi var ekki bætt við.</item>
+        <item quantity="one">1 lagi var bætt við uppáhald. Lagi sem þegar er í uppáhaldi var ekki bætt við.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d lög fjarlægð úr uppáhaldi.</item>
+        <item quantity="one">Eitt lag var fjarlægt úr uppáhaldi.</item>
+    </plurals>
+</resources>

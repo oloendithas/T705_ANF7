@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d трек таңдалды.</item>
+        <item quantity="one">1 трек таңдалды.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Сіз %1$s %2$d рет қолдана аласыз.</item>
+        <item quantity="one">1 рет %s қолдана аласыз.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d трек</item>
+        <item quantity="one">%d трек</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d ән тізімі</item>
+        <item quantity="one">1 әндер тізімі</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d альбом</item>
+        <item quantity="one">1 альбом</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d орындаушы</item>
+        <item quantity="one">1 орындаушы</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d жанр</item>
+        <item quantity="one">1 жанр</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d қалталары</item>
+        <item quantity="one">1 қалта</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d композитор</item>
+        <item quantity="one">1 композитор</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d жыл</item>
+        <item quantity="one">1 жыл</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d құрылғы</item>
+        <item quantity="one">1 құрылғы</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Әндер тізіміне %d трек қосылды.</item>
+        <item quantity="one">Әндер тізіміне 1 трек қосылды</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d трек жойылды.</item>
+        <item quantity="one">1 трек жойылды.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d элемент жойылды.</item>
+        <item quantity="one">1 элемент жойылды</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d трек жойылды.</item>
+        <item quantity="one">1 трек жойылды</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">Қазір ойнатылып жатқан тізімінге %d трек қосылды</item>
+        <item quantity="one">Қазір ойнатылып жатқан тізімге 1 трек қосылды</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">Таңдаулыларға %d трек қосылды</item>
+        <item quantity="one">Таңдаулыларға 1 трек қосылды</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d трек Таңдаулыларға қосылды. Әлдеқашан Таңдаулылардағы тректер қосылмады.</item>
+        <item quantity="one">1 трек Таңдаулыларға қосылды. Әлдеқашан Таңдаулылардағы трек қосылмады.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d трек “Таңдаулылар” тізімінен жойылды.</item>
+        <item quantity="one">1 трек “Таңдаулылар” тізімінен жойылды.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/prev_btn" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_play_control_prev_btn" android:layout_weight="1.0" android:contentDescription="@string/tts_previous" />
+    <ImageView android:id="@id/play_pause_btn" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/music_player_play_pause_btn_margin" android:layout_marginRight="@dimen/music_player_play_pause_btn_margin" android:src="@drawable/music_play_control_play_btn" android:layout_weight="1.0" />
+    <ImageView android:id="@id/next_btn" android:focusable="true" android:nextFocusRight="@id/music_player_addplaylist_btn" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_play_control_next_btn" android:layout_weight="1.0" android:contentDescription="@string/tts_next" />
+</merge>

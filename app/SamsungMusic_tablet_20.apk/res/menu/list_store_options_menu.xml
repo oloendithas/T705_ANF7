@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/store_option_menu_1" android:orderInCategory="30">
+        <item android:id="@id/option_content_to_display" android:visible="false" android:title="@string/store_content_to_display" />
+    </group>
+    <group android:id="@id/store_option_menu_2" android:orderInCategory="35">
+        <item android:id="@id/option_downloads" android:visible="false" android:title="@string/store_download_queue" />
+    </group>
+    <group android:id="@id/store_option_menu_3" android:orderInCategory="100">
+        <item android:id="@id/option_add_shortcut" android:visible="false" android:title="@string/store_add_shortcut" />
+    </group>
+</menu>

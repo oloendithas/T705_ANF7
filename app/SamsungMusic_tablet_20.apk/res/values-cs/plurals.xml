@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">Bylo vybráno %d skladeb.</item>
+        <item quantity="one">Byla vybrána 1 skladba.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s můžete použít %2$dkrát.</item>
+        <item quantity="one">%s můžete použít jednou.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d skladeb</item>
+        <item quantity="one">%d skladeb</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d seznamů skladeb</item>
+        <item quantity="one">1 seznam skladeb</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d alb(a)</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d interpretů</item>
+        <item quantity="one">1 interpret</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d žánrů</item>
+        <item quantity="one">1 žánr</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">Počet složek: %d</item>
+        <item quantity="one">1 složka</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d skladatelů</item>
+        <item quantity="one">1 skladatel</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d let</item>
+        <item quantity="one">1 rok</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d zařízení</item>
+        <item quantity="one">1 zařízení</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Do seznamu skladeb bylo přidáno %d skladeb.</item>
+        <item quantity="one">Do seznamu skladeb byla přidána 1 skladba.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">Bylo odstraněno %d skladeb.</item>
+        <item quantity="one">Byla odstraněna 1 skladba.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">Bylo odstraněno %d položek.</item>
+        <item quantity="one">Byla odstraněna 1 položka.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">Bylo odebráno %d skladeb.</item>
+        <item quantity="one">Byla odebrána 1 skladba.</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d skladeb bylo přidáno do seznamu přehrávaných skladeb</item>
+        <item quantity="one">1 skladba byla přidána do seznamu přehrávaných skladeb</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d skladeb bylo přidáno do oblíbených.</item>
+        <item quantity="one">1 skladba byla přidána do oblíbených.</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">Do Oblíbených bylo přidáno %d skladeb. Skladby, které již jsou v Oblíbených, nebyly přidány.</item>
+        <item quantity="one">Do Oblíbených byla přidána 1 skladba. Skladba, která již je v Oblíbených, nebyla přidána.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">Z Oblíbených bylo odebráno %d skladeb.</item>
+        <item quantity="one">Z Oblíbených byla odebrána 1 skladba.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/square_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/music_square_grid_view" />
+    <FrameLayout android:id="@id/music_sub_list_view" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" />
+    <include layout="@layout/mini_player" />
+</LinearLayout>

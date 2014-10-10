@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/list_item_title_layout" android:background="@color/background" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/normal_list_one_line_height">
+        <ViewStub android:id="@id/list_item_title_image_stub" android:layout="@layout/list_item_title_image" android:layout_width="@dimen/normal_list_albumart_size" android:layout_height="@dimen/normal_list_albumart_size" android:layout_marginLeft="@dimen/list_item_padding_side" android:layout_marginBottom="@dimen/list_header_item_margin_bottom" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/list_subtitle" android:ellipsize="end" android:id="@id/list_item_title_text" android:paddingRight="@dimen/list_item_padding_side" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:singleLine="true" android:layout_toRightOf="@id/list_item_title_image" android:layout_centerVertical="true" />
+        <View android:layout_alignParentBottom="true" style="@style/Divider" />
+    </RelativeLayout>
+</merge>

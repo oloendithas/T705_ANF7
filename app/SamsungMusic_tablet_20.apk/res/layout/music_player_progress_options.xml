@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/music_player_progress_bar_options" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/music_player_default_button_edge_margin" android:layout_marginRight="@dimen/music_player_default_button_edge_margin" android:layout_marginBottom="@dimen/music_player_default_button_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/music_player_repeat_AB_btn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>

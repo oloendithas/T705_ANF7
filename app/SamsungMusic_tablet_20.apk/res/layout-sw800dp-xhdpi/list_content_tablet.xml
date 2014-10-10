@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/header_common_stub" android:layout="@layout/list_content_header_common" android:layout_width="fill_parent" android:layout_height="@dimen/list_subtitle_height" />
+    <ViewStub android:id="@id/header_select_all_stub" android:layout="@layout/list_header_select_all" android:layout_width="fill_parent" android:layout_height="@dimen/list_header_select_all_layout_height" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/list_content_common_tablet" />
+    </FrameLayout>
+</LinearLayout>

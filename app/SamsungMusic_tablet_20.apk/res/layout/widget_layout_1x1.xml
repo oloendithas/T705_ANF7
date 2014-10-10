@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_noitem_layout" android:background="@drawable/widget_music_no_thumbnail" android:paddingLeft="@dimen/widget_padding" android:paddingTop="@dimen/widget_padding_top" android:paddingRight="@dimen/widget_padding" android:paddingBottom="@dimen/widget_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/widget_magazine_app" android:textColor="@color/widget_controller_title" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:singleLine="true" android:shadowColor="@color/music_widget_shadow_color" android:shadowDy="2.0" android:shadowRadius="2.0" style="@style/MagazineWidget1x1AppName" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="bottom|left|center" android:layout_width="@dimen/music_widget_magazine_icon_size" android:layout_height="@dimen/music_widget_magazine_icon_size" android:src="@mipmap/music_icon" android:scaleType="fitXY" />
+            <LinearLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="top|right|center" android:id="@id/album_view" android:visibility="gone" android:layout_width="75.0dip" android:layout_height="75.0dip" android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/noti_layout" android:background="#ff1e98db" android:paddingLeft="@dimen/widget_padding" android:paddingBottom="@dimen/widget_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/widget_magazine_app" android:textColor="@color/widget_controller_title" android:id="@id/app" android:paddingTop="@dimen/widget_padding_top" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:singleLine="true" android:shadowColor="@color/music_widget_shadow_color" android:shadowDy="2.0" android:shadowRadius="2.0" android:layout_alignParentLeft="true" style="@style/MagazineWidget1x1AppName" />
+        <ImageView android:id="@id/now_playing_icon" android:visibility="visible" android:layout_width="@dimen/music_widget_magazine_now_playing_size" android:layout_height="@dimen/music_widget_magazine_now_playing_size" android:layout_marginTop="@dimen/widget_now_playing_icon_padding" android:layout_marginRight="@dimen/widget_now_playing_icon_padding" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+        <TextView android:textSize="@dimen/widget_magazine_title" android:textColor="@color/widget_controller_title" android:ellipsize="marquee" android:id="@id/title" android:focusable="true" android:focusableInTouchMode="true" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/widget_padding" android:text="@string/no_songs_playing" android:scrollHorizontally="true" android:singleLine="true" android:shadowColor="@color/music_widget_shadow_color_title" android:shadowDy="2.0" android:shadowRadius="2.0" android:layout_below="@id/app" android:marqueeRepeatLimit="marquee_forever" style="@style/MagazineWidget1x1Title">
+            <requestFocus android:focusable="true" android:focusableInTouchMode="true" android:duplicateParentState="true" />
+        </TextView>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="bottom|left|center" android:id="@id/icon" android:layout_width="@dimen/music_widget_magazine_icon_size" android:layout_height="@dimen/music_widget_magazine_icon_size" android:src="@mipmap/music_icon" android:scaleType="fitXY" />
+            <LinearLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="top|right|center" android:id="@id/album_view" android:visibility="gone" android:layout_width="75.0dip" android:layout_height="75.0dip" android:scaleType="fitXY" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

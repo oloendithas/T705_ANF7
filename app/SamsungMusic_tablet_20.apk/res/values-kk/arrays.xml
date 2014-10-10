@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>Келесі</item>
+        <item>Алдыңғы</item>
+        <item>Үзіліс</item>
+        <item>Ойнату</item>
+        <item>Дыбыс деңгейін төмендету</item>
+        <item>Дыбыс қаттылығын төмендету</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>АӘБВГҒДЕЁЖЗИЙКҚЛМНҢОӨПРСТУҰҮФХҺЦЧШЩЪЫІЬЭЮЯ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/list_main_header_select_all_layout" android:background="@drawable/tw_select_all_bg_holo_light" android:layout_width="fill_parent" android:layout_height="@dimen/list_header_select_all_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/list_main_header_select_all" android:background="?android:listChoiceBackgroundIndicator" android:paddingLeft="@dimen/list_header_select_all_padding_side" android:paddingRight="@dimen/list_header_select_all_padding_side" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <CheckBox android:id="@id/select_all_checkbox" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_item_check_box_right_margin" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+        <TextView android:textSize="19.0dip" android:textColor="@color/list_select_all_text_color" android:ellipsize="marquee" android:id="@id/select_all_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_all" android:singleLine="true" android:layout_toRightOf="@id/select_all_checkbox" android:layout_centerInParent="true" android:marqueeRepeatLimit="marquee_forever" />
+    </RelativeLayout>
+</LinearLayout>

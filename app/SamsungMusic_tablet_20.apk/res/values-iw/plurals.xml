@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">‏‎%d רצועות נבחרו.</item>
+        <item quantity="one">רצועה 1 נבחרה.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">באפשרותך להשתמש ב-%1$s ‏%2$d פעמים.</item>
+        <item quantity="one">באפשרותך להשתמש ב-%s פעם אחת.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d שירים</item>
+        <item quantity="one">%d רצועות</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d רשימות</item>
+        <item quantity="one">רשימת השמעה אחת</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d אלבומים</item>
+        <item quantity="one">אלבום אחד</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d אמנים</item>
+        <item quantity="one">אמן אחד</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d סגנונות</item>
+        <item quantity="one">סגנון אחד</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d תיקיות</item>
+        <item quantity="one">תיקייה אחת</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d מלחינים</item>
+        <item quantity="one">יוצר אחד</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d שנים</item>
+        <item quantity="one">שנה אחת</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d מכשירים</item>
+        <item quantity="one">מכשיר אחד</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d רצועות נוספו לרשימת ההשמעה.</item>
+        <item quantity="one">רצועה אחת נוספה לרשימת ההשמעה</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d רצועות נמחקו.</item>
+        <item quantity="one">1 רצועה נמחקה.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d פריטים נמחקו.</item>
+        <item quantity="one">1 פריט נמחק.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d רצועות הוסרו.</item>
+        <item quantity="one">רצועה אחת הוסרה</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d רצועות נוספו לרשימה ’פועל כעת‘</item>
+        <item quantity="one">1 רצועה נוספה לרשימה ‘פועל כעת’</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d רצועות נוספו למועדפים</item>
+        <item quantity="one">1 רצועה נוספה למועדפים</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d רצועות נוספו למועדפים. רצועות שכבר נשמרו במועדפים לא יתווספו.</item>
+        <item quantity="one">1 רצועה נוספה למועדפים. רצועה שכבר נשמרה במועדפים לא תתווסף.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d רצועות הוסרו מהמועדפים.</item>
+        <item quantity="one">1 רצועה הוסרה מהמועדפים.</item>
+    </plurals>
+</resources>

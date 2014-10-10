@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/ListSubTitle2Layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/title_divider">
+        <TextView android:id="@id/list_category_text" android:layout_width="wrap_content" style="@style/ListSubTitle2" />
+        <ImageView android:id="@id/refresh_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_item_padding_side" android:layout_marginBottom="4.0dip" android:src="@drawable/music_ic_reflesh" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/dlna_refresh_option" />
+        <ProgressBar android:id="@id/refresh_button_progress" android:visibility="gone" android:layout_width="@dimen/refresh_icon_size" android:layout_height="@dimen/refresh_icon_size" android:layout_marginRight="@dimen/list_item_padding_side" android:layout_marginBottom="4.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="?android:attr/progressBarStyle" />
+    </RelativeLayout>
+</LinearLayout>

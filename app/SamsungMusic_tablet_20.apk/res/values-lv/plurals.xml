@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">Izvēlēti %d ieraksti.</item>
+        <item quantity="one">Izvēlēts 1 ieraksts.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Jūs varat lietot %1$s %2$d reizes.</item>
+        <item quantity="one">Jūs varat lietot %s 1 reizi.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ieraksti</item>
+        <item quantity="one">%d ieraksts</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d atskaņošanas saraksti</item>
+        <item quantity="one">1 atskaņošanas saraksts</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albumi</item>
+        <item quantity="one">1 albums</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d izpildītāji</item>
+        <item quantity="one">1 izpildītājs</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d žanri</item>
+        <item quantity="one">1 žanrs</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d mapes</item>
+        <item quantity="one">1 mape</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d komponisti</item>
+        <item quantity="one">1 komponists</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d gadi</item>
+        <item quantity="one">1 gads</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d ierīces</item>
+        <item quantity="one">1 ierīce</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Atskaņošanas sarakstam pievienoti %d ieraksti.</item>
+        <item quantity="one">Atskaņošanas sarakstam pievienots 1 ieraksts</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d ieraksti izdzēsti.</item>
+        <item quantity="one">1 ieraksts izdzēsts.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">Izdzēsti %d objekti.</item>
+        <item quantity="one">Izdzēsts 1 objekts.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">Noņemti %d ieraksti.</item>
+        <item quantity="one">Noņemts 1 ieraksts</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d ieraksti ir pievienoti sarakstam Tagad atskaņo</item>
+        <item quantity="one">1 ieraksts ir pievienots sarakstam Tagad atskaņo</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">Izlasei pievienoti %d ieraksti</item>
+        <item quantity="one">Izlasei pievienots 1 ieraksts</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">Izlasei pievienoti %d ieraksti. Izlasē jau esošie ieraksti netika pievienoti.</item>
+        <item quantity="one">Izlasei pievienots 1 ieraksts. Izlasē jau esošais ieraksts netika pievienots.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d ieraksti ir noņemti no izlases.</item>
+        <item quantity="one">1 ieraksts ir noņemts no izlases.</item>
+    </plurals>
+</resources>

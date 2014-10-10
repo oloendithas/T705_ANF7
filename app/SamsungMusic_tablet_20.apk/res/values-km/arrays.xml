@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>បន្ទាប់</item>
+        <item>ពី​មុន</item>
+        <item>ផ្អាក</item>
+        <item>ចាក់</item>
+        <item>Volume up</item>
+        <item>បន្ថយ​សំឡេង</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវសហឡអ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+</resources>

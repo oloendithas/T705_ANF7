@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="@dimen/music_player_album_maring_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/playlist_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/list_create_playlist_header" android:background="?android:listChoiceBackgroundIndicator" android:paddingLeft="@dimen/add_to_create_playlist_left_margin" android:paddingRight="@dimen/add_to_playlist_text_right_margin" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/add_to_playlist_one_line_height">
+            <ImageView android:id="@id/create_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/playlist_icon_create" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+            <TextView android:textSize="19.0dip" android:textColor="@color/add_to_playlist_header" android:gravity="center_vertical" android:layout_marginLeft="12.0dip" android:text="@string/menu_create_playlist" android:layout_toRightOf="@id/create_icon" android:layout_centerInParent="true" style="@style/Text.ListItem" />
+        </RelativeLayout>
+        <View android:background="@color/music_player_nowplaying_header_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <RelativeLayout android:id="@id/add_to_playlist_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/list_content_common" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

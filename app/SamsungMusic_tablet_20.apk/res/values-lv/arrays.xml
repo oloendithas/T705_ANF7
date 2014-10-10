@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>Tālāk</item>
+        <item>Atpakaļ</item>
+        <item>Pauze</item>
+        <item>Atskaņot</item>
+        <item>Skaļuma taustiņš uz augšu</item>
+        <item>Samazināt skaļumu</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>AĀBCČDEĒFGĢHIĪJKĶLĻMNŅOPRSŠTUŪVZŽ</item>
+    </string-array>
+</resources>

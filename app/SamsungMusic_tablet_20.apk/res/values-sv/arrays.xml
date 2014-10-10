@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>Nästa</item>
+        <item>Åter</item>
+        <item>Paus</item>
+        <item>Spela</item>
+        <item>Öka volym</item>
+        <item>Sänk volymen</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ</item>
+    </string-array>
+</resources>

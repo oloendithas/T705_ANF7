@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d musiqi seçilib.</item>
+        <item quantity="one">1 musiqi seçilib.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Sən %1$s %2$d dəfə istifadə edə bilərsən.</item>
+        <item quantity="one">Sən%s 1 dəfə istifadə edə bilərsən.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d musiqi</item>
+        <item quantity="one">%d mahnı</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d musiqi siyahısı</item>
+        <item quantity="one">1 ifa siyahısı</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albom</item>
+        <item quantity="one">1 albom</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d ifaçı</item>
+        <item quantity="one">1 ifaçı</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d janr</item>
+        <item quantity="one">1 janr</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d qovluq</item>
+        <item quantity="one">1 qovluq</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d bəstəkar</item>
+        <item quantity="one">1 bəstəkar</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d il</item>
+        <item quantity="one">1 il</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d cihaz</item>
+        <item quantity="one">1 cihaz</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d mahnı siyahıya əlavə edilmişdir.</item>
+        <item quantity="one">1 mahnı siyahıya əlavə edilmişdir</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d mahnı silindi.</item>
+        <item quantity="one">1 mahnı silindi.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d element silinmişdir.</item>
+        <item quantity="one">1 element silindi.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d musiqi silindi.</item>
+        <item quantity="one">1 mahnı silinmişdir</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d mahnı hazırda oxunan siyahıya əlavə edilmişdir</item>
+        <item quantity="one">1 mahnı indi oxunan siyahıya əlavə edilmişdir</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d mahnı sevimlilərə əlavə edilmişdir</item>
+        <item quantity="one">1 mahnı sevimlilərə əlavə edilmişdir</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d mahnı Sevimlilərə əlavə edildi. Artıq Sevimlilərdə olan mahnılar əlavə edilmədi.</item>
+        <item quantity="one">1 mahnı Sevimlilərə əlavə edildi. Artıq Sevimlilərdə olan mahnı əlavə edilmədi.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d mahnı Sevimlilərdən silindi.</item>
+        <item quantity="one">1 mahnı Sevimlilərdən silindi.</item>
+    </plurals>
+</resources>

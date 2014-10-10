@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d piese selectate</item>
+        <item quantity="one">1 piesă selectată</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Puteţi utiliza %1$s de %2$d ori.</item>
+        <item quantity="one">Puteţi utiliza %s 1 dată.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d piese</item>
+        <item quantity="one">Melodia %d</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d liste de redare</item>
+        <item quantity="one">1 listă de redare</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albume</item>
+        <item quantity="one">un album</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d artişti</item>
+        <item quantity="one">1 artist</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d genuri</item>
+        <item quantity="one">1 gen</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d directoare</item>
+        <item quantity="one">1 director</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d compozitori</item>
+        <item quantity="one">1 compozitor</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d ani</item>
+        <item quantity="one">1 an</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d dispozitive</item>
+        <item quantity="one">1 dispozitiv</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Au fost adăugate %d melodii în lista de redare.</item>
+        <item quantity="one">1 melodie a fost adăugată în lista de redare.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d melodii au fost şterse.</item>
+        <item quantity="one">1 melodie a fost ştearsă.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">Au fost şterse %d elemente.</item>
+        <item quantity="one">1 element şters</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d melodii eliminate</item>
+        <item quantity="one">1 melodie a fost eliminată.</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d melodii adăugate pe lista în curs de redare</item>
+        <item quantity="one">1 melodie adăugată pe lista în curs de redare</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d melodii au fost adăugate la preferate.</item>
+        <item quantity="one">1 melodie a fost adăugată la preferate.</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d melodii au fost adăugate la Preferate. Melodiile care sunt deja incluse în Preferate nu au fost adăugate.</item>
+        <item quantity="one">1 melodie a fost adăugată la Preferate. Melodia care este deja inclusă în Preferate nu a fost adăugată.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d melodii au fost eliminate din Preferinţe.</item>
+        <item quantity="one">1 melodie a fost eliminată din Preferinţe.</item>
+    </plurals>
+</resources>

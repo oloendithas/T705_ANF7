@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/music_player_control_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:layout_marginBottom="@dimen/music_player_control_margin_bottom" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/list_btn" android:focusable="true" android:visibility="invisible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_play_control_list_btn" android:layout_weight="1.0" android:contentDescription="@string/menu_list" />
+    <FrameLayout android:id="@id/nowplaying_thumbnail_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center" android:id="@id/nowplaying_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+        <View android:layout_gravity="center" android:id="@id/nowplaying_thumbnail_button" android:background="@drawable/music_albumart_default_background" android:focusable="true" android:clickable="true" android:layout_width="@dimen/full_player_thumbnail_size" android:layout_height="@dimen/full_player_thumbnail_size" android:contentDescription="@string/now_playing" />
+    </FrameLayout>
+    <include layout="@layout/music_player_control_button" />
+    <ImageView android:id="@id/music_player_addplaylist_btn" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_play_control_addtolist_btn" android:layout_weight="1.0" android:contentDescription="@string/tts_add_to_playlist" />
+</LinearLayout>

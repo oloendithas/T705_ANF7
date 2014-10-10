@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/square_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/music_square_landscape_view" android:background="@color/tablet_music_square_background" android:layout_width="@dimen/music_square_landscape_view_size_width" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/music_square_grid_view" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/music_square_list_width" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:layout_marginTop="19.0dip" android:layout_marginRight="28.0dip" android:layout_toRightOf="@id/music_square_landscape_view" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <FrameLayout android:id="@id/music_sub_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</RelativeLayout>

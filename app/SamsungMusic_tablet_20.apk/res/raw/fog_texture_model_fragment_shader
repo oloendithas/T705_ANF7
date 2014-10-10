@@ -1,0 +1,38 @@
+precision mediump float;
+
+const int maxLayers = %d; // handled in compilation place
+
+// generate uniforms for each texture because Mali don't support array of uniforms!
+// for every rendered layer we append declare statement based on 
+// uniform sampler2D uTextures<ID>;
+%s
+uniform float uOpacity[maxLayers];
+uniform float uRenderingOpacity;
+uniform vec4 uFogColor;
+uniform sampler2D uQuadOpacityMaskTexture;
+uniform vec2 uViewportSize;
+varying float vFogOpacity;
+
+varying vec2 vTextureCoord;
+void main() {
+    vec4 color = vec4(0.0);
+    // for every model layer we append handling statement based on
+    // color += texture2D(uTextures[i], vTextureCoord) * uOpacity[i];
+    %s
+#ifdef Fog
+    color = color * (1.0 - vFogOpacity) + uFogColor * vFogOpacity;
+#endif
+#ifdef Greyscale
+	// luminance based method
+	float l = dot(vec3(0.21, 0.71, 0.07, color.rgb));
+	color = vec4(l, l, l, color.a);
+#endif
+#ifdef QuadOpacityMask
+	color = color * texture2D(uQuadOpacityMaskTexture, gl_FragCoord.xy / uViewportSize).a;
+	//color = texture2D(uQuadOpacityMaskTexture, gl_FragCoord.xy / uViewportSize);
+#endif
+#ifdef RenderingOpacity
+	color = color * uRenderingOpacity;
+#endif
+    gl_FragColor = color;
+}

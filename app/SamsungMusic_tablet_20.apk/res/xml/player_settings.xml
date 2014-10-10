@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <Preference android:title="@string/tabs" android:key="tab_menu_list" />
+    <Preference android:title="@string/settings_playlists" android:key="playlist_menu_list" />
+    <Preference android:title="@string/sound_alive" android:key="sound_alive" />
+    <Preference android:title="@string/play_speed" android:key="play_speed" />
+    <ListPreference android:entries="@array/auto_off_entries" android:title="@string/music_auto_off" android:key="music_auto_off" android:defaultValue="0" android:dialogTitle="@string/music_auto_off" android:entryValues="@array/auto_off_values" />
+    <CheckBoxPreference android:title="@string/lyrics" android:key="lyric" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/smart_volume" android:key="smart_volume" android:summary="@string/smart_volume_summary" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" />
+    <CheckBoxPreference android:title="@string/voice_control" android:key="voice_control" android:summary="@string/voice_control_summary" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" />
+</PreferenceScreen>

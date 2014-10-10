@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.musicplus.widget.VolumePanelView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/volume_panel" android:background="@drawable/music_volume_controller_popup_bg" android:layout_width="@dimen/music_player_volume_width" android:layout_height="@dimen/music_player_volume_height" android:layout_marginRight="20.0dip" android:layout_marginBottom="0.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/music_player_volume_text" android:textColor="@color/music_player_volume_text" android:gravity="center" android:id="@id/volume_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/music_player_volume_margin_top" />
+    <com.sec.android.touchwiz.widget.TwSeekBar android:id="@id/volume_seekbar" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/volume_seekbar" />
+</com.samsung.musicplus.widget.VolumePanelView>

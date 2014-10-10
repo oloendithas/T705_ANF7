@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="no_item_text">#ff929292</color>
+    <color name="new_soundAlive_gridView_text">#fff5f5f5</color>
+    <color name="new_soundAlive_auto_text">#fff5f5f5</color>
+    <color name="new_soundAlive_effect_text_color">#fff5f5f5</color>
+    <color name="new_soundAlive_effect_text2_color">#ff88a4ac</color>
+    <color name="new_soundAlive_gridView_edge_text">#fff5f5f5</color>
+    <color name="new_soundAlive_eq_bubble_text">#ff2fa6c9</color>
+    <item type="color" name="APKTOOL_DUMMY_0000">false</item>
+</resources>

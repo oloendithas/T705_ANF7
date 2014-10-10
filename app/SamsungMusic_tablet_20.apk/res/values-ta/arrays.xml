@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>அடுத்தது</item>
+        <item>முந்தையது</item>
+        <item>இ.நி.</item>
+        <item>இயக்குக</item>
+        <item>ஒலியளவு அதிகமாக்கு</item>
+        <item>ஒலியளவு குறைவு</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>அஆஇஈஉஊஎஏஐஒஓஔஃகஙசஞடணதநபமயரலவழளறன</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+</resources>

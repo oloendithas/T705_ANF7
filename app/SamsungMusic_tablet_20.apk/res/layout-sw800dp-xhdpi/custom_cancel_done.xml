@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="27.0sp" android:textColor="@color/menu_edit_text" android:gravity="center" android:id="@id/action_up" android:background="?android:actionBarItemBackground" android:paddingLeft="24.0dip" android:paddingRight="16.0dip" android:focusable="true" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/menu_edit" android:drawablePadding="16.0dip" android:fontFamily="sec-roboto-light" />
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:actionMenuTextAppearance" android:textColor="?android:actionMenuTextColor" android:id="@id/menu_done" android:paddingRight="16.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/done" android:layout_alignParentRight="true" style="?android:attr/actionButtonStyle" />
+        <View android:id="@id/divider_done" android:background="?android:actionBarDivider" android:layout_width="1.0dip" android:layout_height="26.0dip" android:layout_toLeftOf="@id/menu_done" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="?android:actionMenuTextAppearance" android:textColor="?android:actionMenuTextColor" android:id="@id/menu_cancel" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_toLeftOf="@id/divider_done" style="?android:attr/actionButtonStyle" />
+        <View android:background="?android:actionBarDivider" android:layout_width="1.0dip" android:layout_height="26.0dip" android:layout_toLeftOf="@id/menu_cancel" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

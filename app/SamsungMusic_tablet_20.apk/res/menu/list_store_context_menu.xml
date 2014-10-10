@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/store_group_1" android:orderInCategory="15">
+        <item android:id="@id/context_download" android:visible="false" android:title="@string/store_context_download" />
+        <item android:id="@id/context_downloading" android:visible="false" android:title="@string/store_context_downloading" />
+    </group>
+    <group android:id="@id/store_group_2" android:orderInCategory="100">
+        <item android:id="@id/context_view_store_details" android:visible="false" android:title="@string/store_context_view_store_details" />
+    </group>
+</menu>

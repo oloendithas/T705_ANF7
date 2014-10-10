@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/music_player_title_top_parent" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/music_player_title_main_top" android:textColor="@color/music_player_title_main_top" android:ellipsize="marquee" android:id="@id/title_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    <TextView android:textSize="@dimen/music_player_title_sub_top" android:textColor="@color/music_player_title_sub_top" android:ellipsize="marquee" android:id="@id/artist_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/music_player_title_top_artist_margin_top" android:layout_marginBottom="@dimen/music_player_title_top_artist_margin_bottom" android:singleLine="true" android:layout_below="@id/title_top" android:layout_centerHorizontal="true" android:marqueeRepeatLimit="marquee_forever" />
+    <TextView android:textSize="@dimen/music_player_title_sub_top" android:textColor="@color/music_player_title_sub_top" android:ellipsize="marquee" android:id="@id/album_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/artist_top" android:layout_centerHorizontal="true" android:marqueeRepeatLimit="marquee_forever" />
+</RelativeLayout>

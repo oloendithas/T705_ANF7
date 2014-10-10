@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/no_item_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/playlist_help_bubble_view" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="@dimen/padding_no_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/no_item_image" android:visibility="gone" android:layout_width="@dimen/no_item_image_width" android:layout_height="@dimen/no_item_image_height" android:src="@drawable/ic_noitem_music" android:scaleType="fitXY" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/no_item_text" android:visibility="gone" android:clickable="true" android:layout_marginTop="@dimen/no_item_text_margin_top" style="@style/Text.NoItem" />
+        <TextView android:id="@id/no_item_more_text" android:visibility="gone" style="@style/Text.NoItem.MoreText" />
+        <Button android:layout_gravity="bottom|center" android:id="@id/no_item_button" android:visibility="gone" android:layout_width="@dimen/no_item_button_width" android:layout_height="@dimen/no_item_button_height" android:layout_marginTop="@dimen/no_item_button_margin_top" style="@style/Button.Dark" />
+    </LinearLayout>
+</RelativeLayout>

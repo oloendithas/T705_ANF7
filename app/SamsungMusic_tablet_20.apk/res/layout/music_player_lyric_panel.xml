@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.musicplus.player.LyricScrollView android:id="@id/music_player_playing_info_lyric_scroll_view" android:background="#b0000000" android:paddingTop="@dimen/music_player_view_lyric_view_padding_top" android:focusable="true" android:visibility="invisible" android:fadingEdgeLength="5.0dip" android:nextFocusUp="@id/all_share_btn" android:layout_width="fill_parent" android:layout_height="@dimen/music_player_lyric_height" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/music_player_playing_info_lyric_text" android:textColor="@color/music_player_lyric_text_color" android:gravity="center_horizontal" android:id="@id/music_player_playing_info_lyric_text" android:paddingLeft="@dimen/music_player_lyric_padding" android:paddingRight="@dimen/music_player_lyric_padding" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="10.0dip" />
+</com.samsung.musicplus.player.LyricScrollView>

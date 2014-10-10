@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d trek tanlandi.</item>
+        <item quantity="one">1 trek tanlangan.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$sdan %2$d marta foydalanishingiz mumkin.</item>
+        <item quantity="one">%sdan 1 marta foydalanishingiz mumkin.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d trek</item>
+        <item quantity="one">%dta trek</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d musiqalar ro‘yxati</item>
+        <item quantity="one">1 qo‘shiqlar ro‘yxati</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albom</item>
+        <item quantity="one">1 albom</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d qo‘shiqchi</item>
+        <item quantity="one">1 ijrochi</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d janr</item>
+        <item quantity="one">1 janr</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d jild</item>
+        <item quantity="one">1 jild</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d bastakor</item>
+        <item quantity="one">1 bastakor</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d yil</item>
+        <item quantity="one">1 yil</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%dta qurilma</item>
+        <item quantity="one">1ta qurilma</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%dta trek musiqalar ro‘yxatiga qo‘shildi.</item>
+        <item quantity="one">1ta trek musiqalar ro‘yxatiga qo‘shildi</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%dta trek yo‘q qilindi.</item>
+        <item quantity="one">1ta trek yo‘q qilindi.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">"%d element o'chirildi."</item>
+        <item quantity="one">1 element yo‘q qilindi.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%dta trek olib tashlandi.</item>
+        <item quantity="one">1ta trek olib tashlandi</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%dta trek hozirda o‘ynayotganlar ro‘yxatiga qo‘shildi</item>
+        <item quantity="one">1ta trek hozirda o‘ynayotganlar ro‘yxatiga qo‘shildi</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%dta trek tanlanganlarga qo‘shildi</item>
+        <item quantity="one">1ta trek tanlanganlarga qo‘shildi</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%dta trek Tanlanganlarga qo‘shildi. Tanlanganlarda avvaldan mavjud bo‘lgan treklar qo‘shilmaydi.</item>
+        <item quantity="one">1ta trek Tanlanganlarga qo‘shildi. Tanlanganlarda avvaldan mavjud bo‘lgan trek qo‘shilmaydi.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%dta trek Tanlanganlardan olib tashlandi.</item>
+        <item quantity="one">1ta trek Tanlanganlardan olib tashlanadi.</item>
+    </plurals>
+</resources>

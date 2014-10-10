@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">ເລືອກ %d ເພງແລ້ວ.</item>
+        <item quantity="one">ເລືອກ 1 ເພງແລ້ວ.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">ທ່ານສາມາດໃຊ້ %1$s %2$d ຄັ້ງ.</item>
+        <item quantity="one">ທ່ານສາມາດໃຊ້ %s 1 ຄັ້ງ.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ເພງ</item>
+        <item quantity="one">%d ເພງ</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d ບັນຊີເພງ</item>
+        <item quantity="one">1 ບັນຊີເພງ</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d ອາລະບໍາ</item>
+        <item quantity="one">1 ອາລະບໍາ</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d ນັກສິລະປິ່ນ</item>
+        <item quantity="one">ນັກສິລະປິນ 1 ຄົນ</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d ຊະນິດ</item>
+        <item quantity="one">1 ແບບ</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d ໂຟລເດີ</item>
+        <item quantity="one">1 ໂຟລເດີ</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d ຜູ້ແຕ່ງເພງ</item>
+        <item quantity="one">ຜູ້ແຕ່ງເພງ 1 ຄົນ</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d ປີ</item>
+        <item quantity="one">1 ປີ</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d ເຄື່ອງ</item>
+        <item quantity="one">1 ເຄື່ອງ</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">ເພີ່ມ %d ເພງໃສ່ລາຍການເພງແລ້ວ.</item>
+        <item quantity="one">ເພີ່ມ 1 ເພງໃສ່ລາຍການເພງແລ້ວ</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">ລຶບ %d ເພງແລ້ວ.</item>
+        <item quantity="one">ລຶບ 1 ເພງແລ້ວ.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d ລາຍການຖືກລຶບໄປ.</item>
+        <item quantity="one">ລຶບ 1 ລາຍການແລ້ວ.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d ເພງຖືກກໍາຈັດອອກໄປ.</item>
+        <item quantity="one">1 ເພງຖືກເອົາອອກໄປແລ້ວ</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">ເພີ່ມ %d ເພງເຂົ້າໃສ່ລາຍການເພງຫຼິ້ນຢູ່ດຽວນີ້ແລ້ວ</item>
+        <item quantity="one">ເພີ່ມ 1 ເພງເຂົ້າໃສ່ລາຍການເພງຫຼິ້ນຢູ່ດຽວນີ້ແລ້ວ</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">ເພີ່ມ %d ເພງໃສ່ລາຍການທີ່ມັກແລ້ວ</item>
+        <item quantity="one">ເພີ່ມ 1 ເພງໃສ່ລາຍການທີ່ມັກແລ້ວ</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">ເພີ່ມ %d ເພງໃສ່ລາຍການທີ່ມັກແລ້ວ. ເພງທີ່ຢູ່ໃນລາຍການທີ່ມັກແລ້ວບໍ່ຖືກເພີ່ມເຂົ້າ.</item>
+        <item quantity="one">ເພີ່ມ 1 ເພງໃສ່ລາຍການທີ່ມັກແລ້ວ. ເພງທີ່ຢູ່ໃນລາຍການທີ່ມັກແລ້ວບໍ່ຖືກເພີ່ມເຂົ້າ.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">ເອົາ %d ເພງອອກຈາກລາຍການທີ່ມັກແລ້ວ.</item>
+        <item quantity="one">ເອົາ 1 ເພງອອກຈາກລາຍການທີ່ມັກແລ້ວ.</item>
+    </plurals>
+</resources>

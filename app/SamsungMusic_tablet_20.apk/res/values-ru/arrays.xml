@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>Вперед</item>
+        <item>Назад</item>
+        <item>Пауза</item>
+        <item>Играть</item>
+        <item>Громче</item>
+        <item>Тише</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+</resources>

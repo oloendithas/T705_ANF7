@@ -1,0 +1,16 @@
+version: 2.0.0-Beta9
+apkFileName: SamsungMusic_tablet_20.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 2
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '19'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '11'
+  versionName: 14010601.2.00.02
+compressionType: false

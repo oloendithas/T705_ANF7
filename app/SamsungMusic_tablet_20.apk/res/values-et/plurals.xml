@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksinsquare">
+        <item quantity="other">%d lugu on valitud.</item>
+        <item quantity="one">1 lugu on valitud.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Saate uksust %1$s kasutada %2$d korda.</item>
+        <item quantity="one">Saate uksust %s kasutada 1 korra.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d pala</item>
+        <item quantity="one">%d pala</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <item quantity="other">%d esitusloendit</item>
+        <item quantity="one">1 esitusloend</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albumit</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <item quantity="other">%d esitajat</item>
+        <item quantity="one">1 esitaja</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <item quantity="other">%d žanrit</item>
+        <item quantity="one">1 žanr</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <item quantity="other">%d kaustad</item>
+        <item quantity="one">1 kaust</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <item quantity="other">%d heliloojat</item>
+        <item quantity="one">1 helilooja</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <item quantity="other">%d aastat</item>
+        <item quantity="one">1 aasta</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <item quantity="other">%d seadet</item>
+        <item quantity="one">1 seade</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d lugu on lisatud esitusloendisse.</item>
+        <item quantity="one">1 lugu on lisatud esitusloendisse</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d lugu on kustutatud.</item>
+        <item quantity="one">1 lugu on kustutatud.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <item quantity="other">%d üksust on kustutatud.</item>
+        <item quantity="one">1 üksus kustutatud.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <item quantity="other">%d lugu on eemaldatud.</item>
+        <item quantity="one">1 lugu on eemaldatud</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <item quantity="other">%d lugu on lisatud loendisse Praegu esitamisel</item>
+        <item quantity="one">1 lugu on lisatud loendisse Praegu esitamisel</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d lugu on lisatud lemmikutesse</item>
+        <item quantity="one">1 lugu on lisatud lemmikutesse</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d lugu on lisatud lemmikutesse. Lemmikutes juba olevaid lugusid ei lisatud.</item>
+        <item quantity="one">1 lugu on lisatud lemmikutesse. Lemmikutes juba olevat lugu ei lisatud.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d lugu on eemaldatud lemmikutest.</item>
+        <item quantity="one">1 lugu on eemaldatud lemmikutest.</item>
+    </plurals>
+</resources>

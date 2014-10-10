@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barge_in_commands">
+        <item>次</item>
+        <item>前</item>
+        <item>一時停止</item>
+        <item>再生</item>
+        <item>音量アップ</item>
+        <item>音量ダウン</item>
+    </string-array>
+    <string-array name="index_string_array">
+        <item>あかさたなはまやらわアカサタナハマヤラワ</item>
+    </string-array>
+</resources>
