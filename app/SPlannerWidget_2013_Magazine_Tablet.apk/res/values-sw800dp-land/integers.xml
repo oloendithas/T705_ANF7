@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="month_eventcount_bg_margin_left">80</integer>
+    <integer name="text_Y_padding_1">17</integer>
+    <integer name="text_Y_padding_2">13</integer>
+    <integer name="event_row_padding_land">6</integer>
+    <integer name="event_num_of_month_row_5">2</integer>
+    <integer name="event_num_of_month_row_6">1</integer>
+    <integer name="month_lunar_date_shift_x_mini">28</integer>
+    <integer name="month_lunar_date_shift_y_mini">17</integer>
+    <integer name="month_cell_height_6">56</integer>
+    <integer name="month_cell_height_5">67</integer>
+    <integer name="month_cell_width">117</integer>
+    <integer name="month_first_column_width">2</integer>
+    <integer name="all_day_event_title_width">94</integer>
+    <integer name="single_event_title_width">104</integer>
+    <integer name="interval_between_checkboxs">80</integer>
+    <integer name="month_lunar_date_shift_x">28</integer>
+    <integer name="month_lunar_date_shift_y">17</integer>
+</resources>

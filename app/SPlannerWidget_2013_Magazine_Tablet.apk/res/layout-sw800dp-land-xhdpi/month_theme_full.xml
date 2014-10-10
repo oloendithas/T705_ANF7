@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/widget_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/widget_top_bg" android:layout_width="fill_parent" android:layout_height="@dimen/widget_header_height" android:layout_marginLeft="@dimen/month_widget_header_margin_left" android:layout_marginTop="@dimen/widget_header_top_margin" android:layout_marginRight="@dimen/month_widget_header_margin_right" android:layout_marginBottom="@dimen/widget_header_bottom_margin">
+        <TextView android:gravity="left|center" android:id="@id/month_header" android:layout_width="@dimen/month_label_width_full" android:text="@string/month_theme" style="@style/widget_label" />
+        <View style="@style/widget_header_line_new" />
+        <Button android:id="@id/go_today" style="@style/header_today" />
+        <View android:id="@id/handwriting_button_divider" android:visibility="gone" style="@style/widget_header_line_new" />
+        <ImageButton android:id="@id/handwriting" android:visibility="gone" style="@style/header_handwriting" />
+        <View style="@style/widget_header_line_new" />
+        <ImageButton android:id="@id/new_event" style="@style/header_add" />
+        <ImageButton android:id="@id/refresh" android:visibility="gone" style="@style/header_refresh" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:background="@color/week_label_cell_color" style="@style/month_date_container">
+            <LinearLayout android:id="@id/prev_month" android:layout_alignParentLeft="true" android:contentDescription="@string/accessibility_previous_month_button" style="@style/month_move_button_container">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:src="@drawable/splanner_main_ic_pre" />
+                <TextView android:id="@id/prev_month_text" style="@style/month_move_button_text" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/date_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="@dimen/month_event_title_text_size" android:textStyle="bold" android:textColor="@color/month_title_color_month" android:layout_gravity="center_vertical" android:id="@id/month" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/month_event_title_text_size" android:textColor="@color/month_title_color_year" android:layout_gravity="center_vertical" android:id="@id/year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:id="@id/next_month" android:layout_alignParentRight="true" android:contentDescription="@string/accessibility_next_month_button" style="@style/month_move_button_container">
+                <TextView android:id="@id/next_month_text" style="@style/month_move_button_text" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:src="@drawable/splanner_main_ic_next" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:background="@drawable/splanner_month_subtitle_line" style="@style/MonthView_border_horizontal" />
+        <LinearLayout android:orientation="horizontal" android:background="@color/week_label_cell_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="790.0dip" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/day_names" android:layout_width="fill_parent" android:layout_height="@dimen/month_week_height_full">
+                    <TextView android:id="@id/day0" android:layout_width="wrap_content" style="@style/MonthView_WeekNameLabel" />
+                    <TextView android:id="@id/day1" android:layout_width="wrap_content" style="@style/MonthView_WeekNameLabel" />
+                    <TextView android:id="@id/day2" android:layout_width="wrap_content" style="@style/MonthView_WeekNameLabel" />
+                    <TextView android:id="@id/day3" android:layout_width="wrap_content" style="@style/MonthView_WeekNameLabel" />
+                    <TextView android:id="@id/day4" android:layout_width="wrap_content" style="@style/MonthView_WeekNameLabel" />
+                    <TextView android:id="@id/day5" android:layout_width="wrap_content" style="@style/MonthView_WeekNameLabel" />
+                    <TextView android:id="@id/day6" android:layout_width="wrap_content" style="@style/MonthView_WeekNameLabel" />
+                </LinearLayout>
+                <View style="@style/MonthView_border_horizontal" />
+                <FrameLayout android:id="@id/monthview" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ViewSwitcher android:id="@id/month_switcher" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </FrameLayout>
+            </LinearLayout>
+            <View android:background="@color/month_line" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            <RelativeLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_event_container" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:src="@drawable/splanner_mini_today_default" />
+                    <TextView android:textSize="20.0dip" android:textColor="@color/no_event_text_color" android:id="@id/no_event" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/tap_to_create_event" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/event_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ListView android:id="@id/month_event_list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/day_event_divider_horizontal" android:dividerHeight="1.0dip" />
+                </FrameLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@drawable/widget_shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</LinearLayout>

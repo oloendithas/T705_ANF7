@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>గడువు తేదీ</item>
+        <item>ప్రాధాన్యత</item>
+        <item>తేదీ</item>
+        <item>వారం</item>
+        <item>నెల</item>
+        <item>సమూహం</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>తక్కువ</item>
+        <item>మధ్యస్థం</item>
+        <item>ఎక్కువ</item>
+    </string-array>
+</resources>

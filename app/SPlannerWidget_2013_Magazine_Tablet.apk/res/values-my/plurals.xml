@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">အျဖစ္အပ်က္ %d ခု</item>
+        <item quantity="one">လႈပ္ရွားမႈ ၁ ခု</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">တာဝန္ %d ခု</item>
+        <item quantity="one">တာဝန္ ၁ ခု</item>
+    </plurals>
+</resources>

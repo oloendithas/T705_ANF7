@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>Termín</item>
+        <item>Dôležitosť</item>
+        <item>Dátum</item>
+        <item>Týždeň</item>
+        <item>Mesiac</item>
+        <item>Skupina</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>Nízka</item>
+        <item>Stredná</item>
+        <item>Vysoká</item>
+    </string-array>
+</resources>

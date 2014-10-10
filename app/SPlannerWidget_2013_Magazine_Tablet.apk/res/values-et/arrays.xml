@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>Tähtaeg</item>
+        <item>Prioriteet</item>
+        <item>Kuupäev</item>
+        <item>Nädal</item>
+        <item>Kuu</item>
+        <item>Rühm</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>Madal</item>
+        <item>Keskmine</item>
+        <item>Kõrge</item>
+    </string-array>
+</resources>

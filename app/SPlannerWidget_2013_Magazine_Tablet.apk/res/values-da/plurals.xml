@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d hændelser</item>
+        <item quantity="one">1 begivenhed</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d opgaver</item>
+        <item quantity="one">1 opgave</item>
+    </plurals>
+</resources>

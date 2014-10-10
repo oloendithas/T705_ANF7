@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>ਨਿਅਤ ਮਿਤੀ</item>
+        <item>ਪਹਿਲ</item>
+        <item>ਮਿਤੀ</item>
+        <item>ਹਫ਼ਤਾ</item>
+        <item>ਮਹੀਨਾ</item>
+        <item>ਸਮੂਹ</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>ਘੱਟ</item>
+        <item>ਮੱਧਮ</item>
+        <item>ਵੱਧ</item>
+    </string-array>
+</resources>

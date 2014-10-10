@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/event_item" android:paddingRight="6.669983dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/today_list_item_height">
+        <ImageView android:id="@id/day_item_color" android:layout_width="4.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/color_bar_margin_right" />
+        <CheckBox android:id="@id/task_check" android:padding="@dimen/checkbox_padding_all" android:visibility="gone" android:layout_width="@dimen/checkbox_size" android:layout_height="@dimen/checkbox_size" android:layout_marginRight="@dimen/checkbox_margin_right" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/day_time_text_size" android:textColor="@color/day_event_time_color" android:gravity="center_vertical" android:id="@id/day_item_time" android:paddingRight="16.0dip" android:layout_height="fill_parent" style="@style/day_item_time_style" />
+        <TextView android:textSize="@dimen/day_event_text_size" android:textColor="@color/day_event_title_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/day_item_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center" android:id="@id/day_item_icon" android:background="@drawable/calendar_widget_icon_facebook" android:layout_width="21.329987dip" android:layout_height="21.329987dip" android:layout_marginLeft="0.0dip" />
+        <ImageView android:id="@id/priority" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="4.0dip" />
+        <ImageView android:id="@id/sticker" android:layout_width="@dimen/sticker_image_size" android:layout_height="@dimen/sticker_image_size" android:layout_marginLeft="2.0dip" android:layout_marginRight="4.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/detail_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/location_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+            <TextView android:textSize="@dimen/detail_info_text_size" android:textColor="@color/day_event_location_color" android:id="@id/location" android:layout_width="@dimen/detail_info_container_width" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/location_label" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/detail_info_text_size" android:textColor="@color/day_event_location_color" android:ellipsize="end" android:autoLink="all" android:id="@id/day_item_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/location" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/attendees_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="20.0dip">
+            <TextView android:textSize="@dimen/detail_info_text_size" android:textColor="@color/day_event_location_color" android:id="@id/participants" android:layout_width="@dimen/detail_info_container_width" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/attendees_label" android:layout_below="@id/location" />
+            <LinearLayout android:id="@id/attendees_view" android:layout_width="@dimen/attendees_view_width" android:layout_height="wrap_content" android:layout_toRightOf="@id/participants" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

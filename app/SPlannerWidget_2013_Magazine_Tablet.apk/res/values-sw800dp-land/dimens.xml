@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="no_event_container_height">561.0dip</dimen>
+    <dimen name="header_today_width">90.0dip</dimen>
+    <dimen name="today_width">542.0dip</dimen>
+    <dimen name="today_height">470.0dip</dimen>
+    <dimen name="month_width">818.0dip</dimen>
+    <dimen name="month_height">470.0dip</dimen>
+    <dimen name="task_label_width">321.0dip</dimen>
+    <dimen name="today_label_width">370.0dip</dimen>
+    <dimen name="month_label_width">644.0dip</dimen>
+    <dimen name="today_header_date_text">454.0dip</dimen>
+</resources>

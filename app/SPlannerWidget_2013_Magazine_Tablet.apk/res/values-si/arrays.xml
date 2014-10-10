@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>නියමිත දිනය</item>
+        <item>ප්‍රමුඛත්වය</item>
+        <item>දිනය</item>
+        <item>සතිය</item>
+        <item>මාසය</item>
+        <item>කණ්ඩායම</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>අඩු</item>
+        <item>මාධ්‍යය</item>
+        <item>ඉහළ</item>
+    </string-array>
+</resources>

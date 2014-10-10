@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d ngjar.</item>
+        <item quantity="one">1 ngjarje</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d detyra</item>
+        <item quantity="one">1 detyrë</item>
+    </plurals>
+</resources>

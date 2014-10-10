@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>ಕೊನೆಯ ದಿನಾಂಕ</item>
+        <item>ಆದ್ಯತೆ</item>
+        <item>ದಿನಾಂಕ</item>
+        <item>ವಾರ</item>
+        <item>ತಿಂಗಳು</item>
+        <item>ಗುಂಪು</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>ಕಡಿಮೆ</item>
+        <item>ಮದ್ಯಮ</item>
+        <item>ಅಧಿಕ</item>
+    </string-array>
+</resources>

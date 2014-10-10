@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>Կատարման ամսաթիվ</item>
+        <item>Առաջնություն</item>
+        <item>Թվական</item>
+        <item>Շաբաթ</item>
+        <item>Ամիս</item>
+        <item>Խումբ</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>Ցածր</item>
+        <item>Միջին</item>
+        <item>Բարձր</item>
+    </string-array>
+</resources>

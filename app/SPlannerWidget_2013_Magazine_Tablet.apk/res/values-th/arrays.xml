@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>วัน​ที่​กำหนด</item>
+        <item>ระดับ​ความ​สำคัญ</item>
+        <item>วัน​ที่</item>
+        <item>สัปดาห์</item>
+        <item>เดือน</item>
+        <item>กลุ่ม</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>ต่ำ</item>
+        <item>กลาง</item>
+        <item>สูง</item>
+    </string-array>
+</resources>

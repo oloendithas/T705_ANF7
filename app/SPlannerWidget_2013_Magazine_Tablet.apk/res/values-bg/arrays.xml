@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>Крайна дата</item>
+        <item>Приоритет</item>
+        <item>Дата</item>
+        <item>Седмица</item>
+        <item>Месец</item>
+        <item>Група</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>Hисък</item>
+        <item>Среден</item>
+        <item>Висок</item>
+    </string-array>
+</resources>

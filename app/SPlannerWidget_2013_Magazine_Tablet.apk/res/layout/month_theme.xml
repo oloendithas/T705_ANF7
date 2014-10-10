@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/widget_container" android:background="@drawable/widget_planner_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/widget_top_bg" android:layout_width="fill_parent" android:layout_height="@dimen/widget_header_height" android:layout_marginTop="-0.5dip">
+        <TextView android:id="@id/month_header" android:text="@string/month_theme" style="@style/widget_label" />
+        <View style="@style/header_line" />
+        <Button android:id="@id/go_today" style="@style/header_today" />
+        <View style="@style/header_line" />
+        <ImageButton android:id="@id/new_event" style="@style/header_add" />
+        <View style="@style/header_line" />
+        <ImageButton android:id="@id/refresh" style="@style/header_refresh" />
+    </LinearLayout>
+    <View android:background="@drawable/widget_top_bg_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/header_shadow_height_month" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" style="@style/month_date_container">
+            <LinearLayout android:id="@id/prev_month" android:background="@drawable/widgetheader_button_selector" android:focusable="true" android:layout_width="@dimen/month_move_btn_width" android:layout_height="@dimen/month_move_btn_height" android:layout_marginTop="@dimen/month_move_btn_margin_top" android:layout_alignParentLeft="true" android:contentDescription="@string/accessibility_previous_month_button">
+                <TextView android:id="@id/prev_month_text" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/month_move_btn_margin_left" style="@style/month_move_button_text" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/date_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/month_date_container_margin_top" android:layout_centerHorizontal="true">
+                <TextView android:textSize="@dimen/month_event_title_text_size" android:textStyle="bold" android:textColor="@color/month_title_color" android:id="@id/month" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/month_event_title_text_size" android:textColor="@color/month_title_color" android:id="@id/year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/next_month" android:background="@drawable/widgetheader_button_selector" android:focusable="true" android:layout_width="@dimen/month_move_btn_width" android:layout_height="@dimen/month_move_btn_height" android:layout_marginTop="@dimen/month_move_btn_margin_top" android:layout_alignParentRight="true" android:contentDescription="@string/accessibility_next_month_button">
+                <TextView android:id="@id/next_month_text" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/month_move_btn_margin_left" style="@style/month_move_button_text" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:layout_marginLeft="@dimen/month_body_margin_left" android:layout_marginRight="@dimen/month_body_margin_left" style="@style/MonthView_border_horizontal" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/month_body_margin_left" android:layout_marginRight="@dimen/month_body_margin_left">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/day_names" android:layout_width="fill_parent" android:layout_height="@dimen/month_week_height" android:layout_marginLeft="@dimen/month_week_margin_left">
+                    <TextView android:id="@id/day0" android:layout_width="@dimen/month_cell_width" style="@style/MonthView_WeekNameLabel" />
+                    <View style="@style/MonthView_border_vertical" />
+                    <TextView android:id="@id/day1" android:layout_width="@dimen/month_cell_width" style="@style/MonthView_WeekNameLabel" />
+                    <View style="@style/MonthView_border_vertical" />
+                    <TextView android:id="@id/day2" android:layout_width="@dimen/month_cell_width" style="@style/MonthView_WeekNameLabel" />
+                    <View style="@style/MonthView_border_vertical" />
+                    <TextView android:id="@id/day3" android:layout_width="@dimen/month_cell_width" style="@style/MonthView_WeekNameLabel" />
+                    <View style="@style/MonthView_border_vertical" />
+                    <TextView android:id="@id/day4" android:layout_width="@dimen/month_cell_width" style="@style/MonthView_WeekNameLabel" />
+                    <View style="@style/MonthView_border_vertical" />
+                    <TextView android:id="@id/day5" android:layout_width="@dimen/month_cell_width" style="@style/MonthView_WeekNameLabel" />
+                    <View style="@style/MonthView_border_vertical" />
+                    <TextView android:id="@id/day6" android:layout_width="@dimen/month_cell_width" style="@style/MonthView_WeekNameLabel" />
+                </LinearLayout>
+                <View style="@style/MonthView_border_horizontal" />
+                <FrameLayout android:id="@id/monthview" android:background="@drawable/widget_planner_bg_01_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/month_view_label_margin_top">
+                    <ViewSwitcher android:id="@id/month_switcher" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>تاريخ موعود</item>
+        <item>اولويت</item>
+        <item>تاریخ</item>
+        <item>هفته</item>
+        <item>ماه</item>
+        <item>گروه</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>پايين</item>
+        <item>معمولی</item>
+        <item>بالا</item>
+    </string-array>
+</resources>

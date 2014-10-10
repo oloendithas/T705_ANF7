@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/week_label_cell_color" android:paddingBottom="0.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/header" android:background="@drawable/widget_top_bg" android:layout_width="fill_parent" android:layout_height="@dimen/appwidget_keyguard_header_height" android:layout_marginLeft="@dimen/today_widget_header_margin_left" android:layout_marginTop="@dimen/widget_header_top_margin" android:layout_marginRight="@dimen/today_widget_header_margin_right" android:layout_marginBottom="@dimen/widget_header_bottom_margin">
+        <TextView android:textSize="@dimen/widget_label_text_size" android:textStyle="bold" android:textColor="@color/widget_label" android:gravity="center_vertical" android:id="@id/widget_label" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:text="@string/mini_today_theme" android:layout_alignParentLeft="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <Button android:textSize="@dimen/widget_label_text_size" android:textStyle="bold" android:textColor="@color/widget_label" android:id="@id/go_today" android:background="@drawable/widgetheader_add_btn_selector" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="fill_parent" android:text="@string/today_theme" />
+            <ImageView android:background="@color/widget_header_line_color" android:layout_width="@dimen/appwidget_keyguard_header_line_width" android:layout_height="@dimen/appwidget_keyguard_header_line_height" android:layout_marginTop="@dimen/appwidget_keyguard_header_line_margin_top" />
+            <ImageButton android:id="@id/add_event" android:background="@drawable/widgetheader_add_btn_selector" android:layout_width="@dimen/appwidget_keyguard_add_button_width" android:layout_height="fill_parent" android:src="@drawable/widget_planner_ic_add" android:contentDescription="@string/accessibility_create_event_button" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/button_container" android:layout_width="fill_parent" android:layout_height="@dimen/appwidget_keyguard_date_container_height">
+        <Button android:id="@id/prev_day" android:background="@drawable/widgetheader_arrow_left_btn_selector" android:visibility="gone" android:layout_width="@dimen/widgetheader_arrow_btn_width" android:layout_height="@dimen/widgetheader_arrow_btn_height" />
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/date_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/appwidget_keyguard_date_text" android:textColor="@color/appwidget_keyguard_today_label_color" android:gravity="center_vertical" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <Button android:id="@id/next_day" android:background="@drawable/widgetheader_arrow_right_btn_selector" android:visibility="gone" android:layout_width="@dimen/widgetheader_arrow_btn_width" android:layout_height="@dimen/widgetheader_arrow_btn_height" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/splanner_month_subtitle_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ListView android:id="@id/events_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@null" android:divider="@color/task_list_divider_horizontal" android:dividerHeight="1.0dip" android:layout_weight="1.0" android:soundEffectsEnabled="false" />
+</LinearLayout>

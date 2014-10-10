@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d gertaera</item>
+        <item quantity="one">Gertaera 1</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d ataza</item>
+        <item quantity="one">Ataza 1</item>
+    </plurals>
+</resources>

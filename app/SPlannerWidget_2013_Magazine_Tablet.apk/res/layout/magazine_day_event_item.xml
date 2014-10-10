@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/event_item" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/day_event_row" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_marginRight="6.0dip">
+        <ImageView android:id="@id/day_item_color" android:visibility="gone" android:layout_width="6.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/color_bar_margin_right" />
+        <ImageButton android:id="@id/task_check" android:visibility="gone" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginLeft="@dimen/checkbox_layout_margin_left" android:layout_marginRight="@dimen/checkbox_margin_right" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/task_check" android:layout_centerVertical="true">
+            <LinearLayout android:gravity="center_vertical" android:id="@id/event_time_container" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="60.0dip">
+                <LinearLayout android:gravity="left|center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="70.0dip" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/magazine_day_event_time" android:gravity="center" android:id="@id/day_event_start_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:singleLine="true" android:includeFontPadding="false" style="@style/mg_label_light" />
+                    <TextView android:textSize="@dimen/magazine_day_event_time" android:gravity="center" android:layout_gravity="center" android:id="@id/day_event_hyphen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-8.0dip" android:includeFontPadding="false" style="@style/mg_label_light" />
+                    <TextView android:textSize="@dimen/magazine_day_event_time" android:gravity="center" android:id="@id/day_event_end_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/mg_label_light" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+                <TextView android:ellipsize="end" android:gravity="left|center" android:id="@id/day_item_title" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/mg_label_regular" />
+                <TextView android:ellipsize="end" android:id="@id/location" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/mg_label_light" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/repeat" android:background="@drawable/calendar_list_icon_repeat" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/day_item_icon" android:background="@drawable/calendar_widget_icon_facebook" android:visibility="gone" android:layout_width="21.329987dip" android:layout_height="21.329987dip" />
+            <ImageView android:id="@id/priority" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/reminder" android:background="@drawable/calendar_list_icon_alarm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/sticker" android:visibility="gone" android:layout_width="@dimen/sticker_image_size" android:layout_height="@dimen/sticker_image_size" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

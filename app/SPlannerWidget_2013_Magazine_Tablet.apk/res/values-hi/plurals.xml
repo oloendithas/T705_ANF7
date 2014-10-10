@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d प्रसंग</item>
+        <item quantity="one">1 प्रसंग</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d कार्य</item>
+        <item quantity="one">1 कार्य</item>
+    </plurals>
+</resources>

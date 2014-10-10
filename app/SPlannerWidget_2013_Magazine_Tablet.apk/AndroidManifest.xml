@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.sec.android.widgetapp.SPlannerAppWidget">
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="com.sec.android.app.calendar.permission.READ_CALENDAR_SETTINGS"/>
+    <uses-permission android:name="com.sec.android.daemonapp.ap.accuweather.ACCUWEATHER_DAEMON_ACCESS_PROVIDER"/>
+    <uses-permission android:name="com.sec.android.daemonapp.ap.kweather.KWEATHER_DAEMON_ACCESS_PROVIDER"/>
+    <uses-permission android:name="com.sec.android.daemonapp.cmaweather.CMAWEATHER_DAEMON_ACCESS_PROVIDER"/>
+    <uses-permission android:name="com.sec.android.daemonapp.ap.weathernewsjp.WEATHERNEWS_DAEMON_ACCESS_PROVIDER"/>
+    <permission android:name="com.sec.android.app.calendar.permission.CHANGE_SHARE" android:protectionLevel="normal"/>
+    <application android:icon="@drawable/ic_launcher_calendar" android:label="@string/splanner_name" android:name="com.sec.android.widgetapp.SPlannerAppWidget.MagazineWidget.MagazineWidgetApplication">
+        <service android:exported="false" android:name=".SPlannerService" android:process=":remote">
+            <intent-filter>
+                <action android:name="com.sec.android.widgetapp.SPlannerAppWidget.ISPlannerService"/>
+                <action android:name="com.sec.android.widgetapp.SPlannerAppWidget.SPlannerService"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name=".calendarReceiver" android:permission="com.sec.android.app.calendar.permission.CHANGE_SHARE">
+            <intent-filter>
+                <action android:name="com.sec.android.intent.CHANGE_SHARE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:label="@string/splanner_magazine_name" android:name=".MagazineWidget.MagazineAppWidgetProvider">
+            <intent-filter>
+                <action android:name="com.sec.android.widgetapp.SPlannerAppWidget.APPWIDGET_UPDATE"/>
+                <action android:name="com.sec.android.widgetapp.SPlannerAppWidget.TOGGLE_BUTTON_UPDATE"/>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="clock.date_format_changed"/>
+                <action android:name="com.sec.android.intent.CHANGE_SHARE"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PROVIDER_CHANGED"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/magazine_appwidget_info"/>
+            <meta-data android:name="com.sec.android.appwidget.widgetinfo" android:resource="@xml/magazine_widget_provider_info"/>
+        </receiver>
+        <receiver android:name=".MagazineWidget.MagazineDayViewService$CalendarFactory">
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PROVIDER_CHANGED"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.calendar.APPWIDGET_SCHEDULED_UPDATE"/>
+                <action android:name="com.sec.android.widgetapp.SPlannerAppWidget.APPWIDGET_SCHEDULED_UPDATE"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+                <data android:mimeType="vnd.android.data/update"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name=".MagazineWidget.MagazineDayViewService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <receiver android:name=".MagazineWidget.MagazineDayViewService24$CalendarFactory">
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PROVIDER_CHANGED"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.calendar.APPWIDGET_SCHEDULED_UPDATE"/>
+                <action android:name="com.sec.android.widgetapp.SPlannerAppWidget.APPWIDGET_SCHEDULED_UPDATE"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+                <data android:mimeType="vnd.android.data/update"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name=".MagazineWidget.MagazineDayViewService24" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <receiver android:name=".MagazineWidget.MagazineDayViewService42$CalendarFactory">
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PROVIDER_CHANGED"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.calendar.APPWIDGET_SCHEDULED_UPDATE"/>
+                <action android:name="com.sec.android.widgetapp.SPlannerAppWidget.APPWIDGET_SCHEDULED_UPDATE"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+                <data android:mimeType="vnd.android.data/update"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name=".MagazineWidget.MagazineDayViewService42" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <receiver android:name=".MagazineWidget.MagazineCalendarViewService$MagazineRemoteViewsFactory">
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PROVIDER_CHANGED"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.calendar.APPWIDGET_SCHEDULED_UPDATE"/>
+                <action android:name="com.sec.android.widgetapp.SPlannerAppWidget.APPWIDGET_SCHEDULED_UPDATE"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+                <data android:mimeType="vnd.android.data/update"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name=".MagazineWidget.MagazineCalendarViewService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <provider android:authorities="com.sec.android.widgetapp.SPlannerAppWidget.MagazineWidget.RotationProvider" android:exported="true" android:name=".MagazineWidget.MagazineWidgetRotationProvider">
+            <meta-data android:name="contentprovider.FOR_MAGAZINE" android:value="true"/>
+        </provider>
+        <uses-library android:name="touchwiz"/>
+        <uses-library android:name="sws"/>
+    </application>
+</manifest>

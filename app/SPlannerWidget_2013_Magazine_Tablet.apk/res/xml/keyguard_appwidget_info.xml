@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:updatePeriodMillis="0" android:previewImage="@drawable/calendar_mini_today_theme_keyguard" android:resizeMode="vertical" android:initialKeyguardLayout="@layout/appwidget_keyguard" android:widgetCategory="keyguard"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

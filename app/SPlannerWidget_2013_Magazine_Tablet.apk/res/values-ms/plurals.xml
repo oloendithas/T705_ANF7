@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d peristiwa</item>
+        <item quantity="one">1 peristiwa</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d tugasan</item>
+        <item quantity="one">1 tugas</item>
+    </plurals>
+</resources>

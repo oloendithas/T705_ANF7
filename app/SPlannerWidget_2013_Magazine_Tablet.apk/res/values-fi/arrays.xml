@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>Määräpäivä</item>
+        <item>Tärkeys</item>
+        <item>Päivämäärä</item>
+        <item>Viikko</item>
+        <item>Kuukausi</item>
+        <item>Ryhmä</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>Matala</item>
+        <item>Keskikokoinen</item>
+        <item>Korkea</item>
+    </string-array>
+</resources>

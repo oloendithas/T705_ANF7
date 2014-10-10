@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>期日</item>
+        <item>優先度</item>
+        <item>日付</item>
+        <item>週</item>
+        <item>月</item>
+        <item>グループ</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+</resources>

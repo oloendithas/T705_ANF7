@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>结束日期</item>
+        <item>优先级</item>
+        <item>日期</item>
+        <item>周</item>
+        <item>月</item>
+        <item>分组</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+</resources>

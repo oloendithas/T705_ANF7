@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d evenimente</item>
+        <item quantity="one">1 eveniment</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d activităţi</item>
+        <item quantity="one">O sarcină</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d esemény</item>
+        <item quantity="one">1 esemény</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d feladat</item>
+        <item quantity="one">1 feladat</item>
+    </plurals>
+</resources>

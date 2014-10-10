@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="today_no_event_text_margin">30.0dip</dimen>
+    <dimen name="no_event_container_height">365.0dip</dimen>
+    <dimen name="header_today_width">90.0dip</dimen>
+    <dimen name="today_width">542.0dip</dimen>
+    <dimen name="today_height">470.0dip</dimen>
+    <dimen name="month_width">818.0dip</dimen>
+    <dimen name="month_height">470.0dip</dimen>
+    <dimen name="task_label_width">321.0dip</dimen>
+    <dimen name="today_label_width">365.0dip</dimen>
+    <dimen name="month_label_width">582.0dip</dimen>
+    <dimen name="today_header_date_text">353.0dip</dimen>
+    <dimen name="task_width">480.0dip</dimen>
+    <dimen name="task_height">390.0dip</dimen>
+    <dimen name="month_width_mini">542.0dip</dimen>
+    <dimen name="month_height_mini">350.0dip</dimen>
+    <dimen name="month_width_full">1094.0dip</dimen>
+    <dimen name="month_height_full">710.0dip</dimen>
+    <dimen name="month_label_width_mini">305.0dip</dimen>
+    <dimen name="month_label_width_full">857.0dip</dimen>
+    <dimen name="mg_weekday_label_width">50.0dip</dimen>
+</resources>

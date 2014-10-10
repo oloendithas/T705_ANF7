@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d אירועים</item>
+        <item quantity="one">אירוע אחד</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d משימות</item>
+        <item quantity="one">משימה אחת</item>
+    </plurals>
+</resources>

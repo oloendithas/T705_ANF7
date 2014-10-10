@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>Dată limită</item>
+        <item>Prioritate</item>
+        <item>Dată</item>
+        <item>Săptămână</item>
+        <item>Lună</item>
+        <item>Grup</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>Scăzută</item>
+        <item>Mediu</item>
+        <item>Ridicată</item>
+    </string-array>
+</resources>

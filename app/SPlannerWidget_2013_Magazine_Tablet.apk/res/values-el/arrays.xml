@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>Προθεσμία</item>
+        <item>Προτεραιότητα</item>
+        <item>Ημερομηνία</item>
+        <item>Εβδομάδα</item>
+        <item>Μήνας</item>
+        <item>Ομάδα</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>Χαμηλή</item>
+        <item>Μεσαίο</item>
+        <item>Υψηλή</item>
+    </string-array>
+</resources>

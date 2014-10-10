@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/appwidget_no_events" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="@dimen/no_event_container_height" android:layout_marginTop="2.0dip" android:layout_marginBottom="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:src="@drawable/splanner_mini_today_default" />
+    <TextView android:textSize="@dimen/no_event_text_size" android:textStyle="bold" android:textColor="@color/no_event_text_color" android:gravity="center" android:id="@id/no_events" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/appwidget_keyguard_no_event_text_margin" android:layout_marginRight="@dimen/appwidget_keyguard_no_event_text_margin" android:text="@string/tap_to_create_event" />
+</LinearLayout>

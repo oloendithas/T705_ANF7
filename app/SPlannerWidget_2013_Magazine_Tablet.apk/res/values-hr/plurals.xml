@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d događaji</item>
+        <item quantity="one">1 događaj</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d zadataka</item>
+        <item quantity="one">1 zadatak</item>
+    </plurals>
+</resources>

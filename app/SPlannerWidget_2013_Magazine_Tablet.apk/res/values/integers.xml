@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="sticker_image_size">70</integer>
+    <integer name="weather_image_size">70</integer>
+    <integer name="highlight_sticker_margin_left">9</integer>
+    <integer name="highlight_sticker_margin_top">11</integer>
+    <integer name="today_background_margin_left">7</integer>
+    <integer name="today_background_margin_right">20</integer>
+    <integer name="month_eventcount_position_right_adjust">7</integer>
+    <integer name="today_background_margin_bottom">40</integer>
+    <integer name="month_eventcount_bg_margin_top">20</integer>
+    <integer name="month_eventcount_bg_margin_bottom">19</integer>
+    <integer name="month_eventcount_bg_margin_left">20</integer>
+    <integer name="month_eventcount_bg_margin_right">1</integer>
+    <integer name="month_widget_event_text_top_adjusment">0</integer>
+    <integer name="text_Y_padding_1">0</integer>
+    <integer name="text_Y_padding_2">0</integer>
+    <integer name="event_row_padding_port">10</integer>
+    <integer name="event_row_padding_land">0</integer>
+    <integer name="event_num_of_month_row_5">2</integer>
+    <integer name="event_num_of_month_row_6">2</integer>
+    <integer name="task_title_avail_adjust">0</integer>
+    <integer name="event_title_avail_adjust">0</integer>
+    <integer name="month_lunar_date_shift_x_mini">0</integer>
+    <integer name="month_lunar_date_shift_y_mini">0</integer>
+    <integer name="month_last_column_width">0</integer>
+</resources>

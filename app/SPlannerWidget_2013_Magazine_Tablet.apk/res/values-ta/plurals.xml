@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d நிகழ்வுகள்</item>
+        <item quantity="one">1 நிகழ்வு</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d பணிகள்</item>
+        <item quantity="one">1 பணி</item>
+    </plurals>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>ວັນທີຄົບກໍານົດ</item>
+        <item>ບູລິມະສິດ</item>
+        <item>ວັນທີ</item>
+        <item>ອາທິດ</item>
+        <item>ເດືອນ</item>
+        <item>ກຸ່ມ</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>ໍຕໍ່າ</item>
+        <item>ປານກາງ</item>
+        <item>ສູງ</item>
+    </string-array>
+</resources>

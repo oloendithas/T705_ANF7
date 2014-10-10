@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>Terminas</item>
+        <item>Pirmenybė</item>
+        <item>Data</item>
+        <item>Savaitė</item>
+        <item>Mėnuo</item>
+        <item>Grupė</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>Maža</item>
+        <item>Vidutinis</item>
+        <item>Didelė</item>
+    </string-array>
+</resources>

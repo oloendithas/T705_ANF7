@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>Fälligkeitstag</item>
+        <item>Priorität</item>
+        <item>Datum</item>
+        <item>Woche</item>
+        <item>Monat</item>
+        <item>Gruppe</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>Niedrig</item>
+        <item>Mittel</item>
+        <item>Hoch</item>
+    </string-array>
+</resources>

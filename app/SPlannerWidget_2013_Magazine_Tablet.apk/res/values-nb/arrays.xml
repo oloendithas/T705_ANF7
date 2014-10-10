@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>Forfallsdato</item>
+        <item>Prioritet</item>
+        <item>Dato</item>
+        <item>Uke</item>
+        <item>Måned</item>
+        <item>Gruppe</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>Lav</item>
+        <item>Middels</item>
+        <item>Høy</item>
+    </string-array>
+</resources>

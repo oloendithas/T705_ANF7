@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>Spriocdháta</item>
+        <item>Tosaíocht</item>
+        <item>Dáta</item>
+        <item>Seachtain</item>
+        <item>Mí</item>
+        <item>Grúpa</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>Íseal</item>
+        <item>Meánach</item>
+        <item>Ard</item>
+    </string-array>
+</resources>

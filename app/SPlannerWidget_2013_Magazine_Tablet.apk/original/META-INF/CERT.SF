@@ -1,0 +1,583 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: tjmmckOBc6quoUK1MhbMO/fCtWY=
+
+Name: res/drawable-sw800dp-xhdpi/mg_today_w.png
+SHA1-Digest: DhRaabULODOnZtE8ZhzQODdkTAA=
+
+Name: res/drawable-sw800dp-xhdpi/list_icon_priority.png
+SHA1-Digest: Fi4nF7e5rvI7SRwZTrMFO2Ll/2w=
+
+Name: res/drawable-sw800dp-xhdpi/calendar_mini_today_theme.png
+SHA1-Digest: LyBARVgo4MmPy9IxazuKtJ7CIxY=
+
+Name: res/layout/appwidget_easy.xml
+SHA1-Digest: 9DvNIzR4NSBnAEHygHMzliPNKro=
+
+Name: res/xml-sw800dp/month_theme.xml
+SHA1-Digest: cObx1laNcHknwp66PRHCjemFNvA=
+
+Name: res/layout-sw800dp/day_event_item.xml
+SHA1-Digest: 3Z3bEl+OxipviPJorowiIPCIdGI=
+
+Name: res/xml-sw800dp/month_theme_full.xml
+SHA1-Digest: Nh7PdZztNzSFBP8Mhv5mn3hkFZg=
+
+Name: res/drawable-sw800dp-xhdpi/weather_06_07_08.png
+SHA1-Digest: qiS1t61ZUMMPJQ8NYnwmunkgOfo=
+
+Name: res/layout-sw800dp/event_item.xml
+SHA1-Digest: c9ZzXg9NHfFmC3nI+AaP0U+Baq0=
+
+Name: res/drawable-sw800dp-xhdpi/weather_01_02.png
+SHA1-Digest: IZ/slb48/43nWOLpxS2QZcQMBHo=
+
+Name: res/drawable-sw800dp-xhdpi/splanner_mini_today_default.png
+SHA1-Digest: WRHKA22syYzH6wTpKhoZl71cQzg=
+
+Name: res/layout-sw800dp/today_theme.xml
+SHA1-Digest: EGqO6QnhodGfcR9K2CXZClFt+qQ=
+
+Name: res/layout/day_event_item.xml
+SHA1-Digest: 8YmmZSBfZmk9wX3y2+96BL6c5q4=
+
+Name: res/drawable-zh-HK-sw800dp-xhdpi/calendar_mini_today_theme.png
+SHA1-Digest: N24VEO0v2KOfQbqyXxVg6udM3o0=
+
+Name: res/drawable-sw800dp-xhdpi/weather_15_41_42.png
+SHA1-Digest: s2s/DM6hIwqEl7rgDRnYNpIkkDk=
+
+Name: res/drawable-sw800dp-xhdpi/mg_cal_flip_left_press.png
+SHA1-Digest: rXrH3ROOeXYiQfhVSUPKMYshSXA=
+
+Name: res/drawable-sw800dp-xhdpi/calendar_view_selector.xml
+SHA1-Digest: SboeGcVBsI4O83jYGk4UCB2lfdE=
+
+Name: res/drawable-sw800dp-xhdpi/weather_20_21.png
+SHA1-Digest: EL7Eqfwc6wVI4ZYqJIt1psDqCZQ=
+
+Name: res/layout/appwidget_day.xml
+SHA1-Digest: AXqxB7i7QIz+jRGUXTK+jGatQDs=
+
+Name: res/layout/appwidget_keyguard.xml
+SHA1-Digest: B2bdRXkfpBZnsglOYVMPKBM0CVg=
+
+Name: res/drawable-sw800dp-xhdpi/widget_top_bg_shadow.png
+SHA1-Digest: IHT9nB/R+OCowYDcEeUCUqs8Py8=
+
+Name: res/drawable/agenda_item_bg_secondary.xml
+SHA1-Digest: sq6YzE8oewEChwt0nNq9rv9dtLo=
+
+Name: res/drawable-sw800dp-xhdpi/event_list_check_off.png
+SHA1-Digest: AdzqSCy7PGrTmWwNpB2i19Sya5c=
+
+Name: res/drawable-sw800dp-xhdpi/widgetheader_button_selector.xml
+SHA1-Digest: 4J75NXYQHxPKa+b5DSuVy+wkxhk=
+
+Name: res/layout-sw800dp/widget_item.xml
+SHA1-Digest: XmC0uvFRTRJ//1zansDRs5lSL5o=
+
+Name: res/drawable-sw800dp/splanner_icon_alarm.png
+SHA1-Digest: 0avBMUKfnxWFsaHPI5YNt2Ol0Pg=
+
+Name: res/drawable-sw800dp-xhdpi/header_bg_cal_widget_holo.9.png
+SHA1-Digest: pUibqy5DVYlTbhAgIOZYCMDG7JU=
+
+Name: res/drawable-sw800dp-xhdpi/header_row_press_cal_widget_holo.9.pn
+ g
+SHA1-Digest: SjMSFb+/VWw7s8BakeSc8XA/2Qo=
+
+Name: res/drawable-sw800dp-xhdpi/mg_cal_flip_left.png
+SHA1-Digest: 52AYNkTg+Sc+R6E9znjEoYkw4rE=
+
+Name: res/drawable-sw800dp-xhdpi/splanner_title_ic_selected_mark.png
+SHA1-Digest: 8cLaELi+S/bZaZhnRO+8eh1ILD4=
+
+Name: res/drawable-sw800dp-xhdpi/calendar_widget_bg_set_1.xml
+SHA1-Digest: 1zEuX91KZ2mvTc4aCihPmET+Hc8=
+
+Name: res/layout-sw800dp-xhdpi/month_theme.xml
+SHA1-Digest: tZjh+ry+w8dUtdSiIYSfdpJCe0o=
+
+Name: res/xml-sw800dp/month_theme_mini.xml
+SHA1-Digest: RF9ECgrrzzxdCntW96yIdGhdFD0=
+
+Name: res/xml/month_theme.xml
+SHA1-Digest: SP/YuqNdgBWzJFL/wijMFjzIOHY=
+
+Name: res/drawable-sw800dp-xhdpi/calendar_mini_today_theme_keyguard.pn
+ g
+SHA1-Digest: IPBERN/p1Un5YlJP1jFJ8r8kmTE=
+
+Name: res/drawable-sw800dp-xhdpi/widget_planner_more_event_bg.9.png
+SHA1-Digest: Max6LBFVcyCNmF8+fbxeY7eJwHI=
+
+Name: res/drawable/hoverring_ic_shape.xml
+SHA1-Digest: ewKeaIGB6ONK6fXtYsEoxL2j/dU=
+
+Name: res/drawable-sw800dp-xhdpi/widget_planner_list_shadow.9.png
+SHA1-Digest: e/J4+ZKwwzFRVcIxiev13utc0oo=
+
+Name: res/drawable-sw800dp-xhdpi/list_focused_holo.9.png
+SHA1-Digest: 9mVpIqFQRX89BIa8n+ZuCGcjhyI=
+
+Name: res/xml/appwidget_info.xml
+SHA1-Digest: m1Zg48tUSsnKjyySrjRSu6wXSlI=
+
+Name: res/drawable-sw800dp-xhdpi/weather_34_35_36_37.png
+SHA1-Digest: kjM84SQEAndvu5oRcqVy4075sBQ=
+
+Name: res/drawable-sw800dp-xhdpi/calendar_widget_today.9.png
+SHA1-Digest: sVHF6iyHz1EKT389pYHHkMGpiqI=
+
+Name: res/drawable-sw800dp/widget_planner_today_mini.png
+SHA1-Digest: SzioMdDitbSlBHYZJPaKZ5qTQ+g=
+
+Name: res/drawable-sw800dp-xhdpi/weather_30.png
+SHA1-Digest: ZNQDw5neox7EYLSX5yVo37f9sHc=
+
+Name: res/layout/hover_popup.xml
+SHA1-Digest: GdfZz0nCcDqt3u+g/gEQYLnR9DM=
+
+Name: res/drawable-sw800dp-xhdpi/check1_on.png
+SHA1-Digest: Phe7D8s5DicnJBmTOSuSpsznl+8=
+
+Name: res/layout-sw800dp/appwidget.xml
+SHA1-Digest: fsYo/aAbK/gmbSEuIzshsy2pO2s=
+
+Name: res/layout/appwidget_keyguard_event.xml
+SHA1-Digest: NwMGsEeEQxLEU91VJvCS4YTpTtA=
+
+Name: res/xml/keyguard_appwidget_info.xml
+SHA1-Digest: WEh4r5Hxi2pSup0F0modkFNx9zk=
+
+Name: res/drawable-sw800dp-xhdpi/widget_top_bg.9.png
+SHA1-Digest: teO5E8H9p/kDxGc5hBIPvbPbja4=
+
+Name: res/drawable-sw800dp-xhdpi/check_on.png
+SHA1-Digest: h20Dr6YgZBFGFE3ruIAG3wsLCMw=
+
+Name: res/drawable-sw800dp-xhdpi/cal_today.png
+SHA1-Digest: uzA79c+Vb0YlrepVWirO6qAKSZw=
+
+Name: res/drawable-sw800dp-xhdpi/widget_planner_btn_arrow_right.png
+SHA1-Digest: CuAXyGGQ7Fa3yUr9GQrs7/Vw97s=
+
+Name: resources.arsc
+SHA1-Digest: +mV4wx1kV7dLL5DabvkgyFCnmeI=
+
+Name: res/drawable-sw800dp-xhdpi/widget_splanner_subtitle_bg.9.png
+SHA1-Digest: t1dOnXxlRPJMhGxIekNUGgCfMms=
+
+Name: res/layout/widget_all_day_item.xml
+SHA1-Digest: wh7tzRqk3uYc6cF68RHldY0wi9U=
+
+Name: AndroidManifest.xml
+SHA1-Digest: eYFbjT960hsh3lLBOXuvGaoVorg=
+
+Name: res/drawable/magazine_splanner_preview.png
+SHA1-Digest: OA8rpvenF/e0cKvBXMcAPmhd8/M=
+
+Name: res/drawable-sw800dp-xhdpi/calendar_month_theme.png
+SHA1-Digest: 8BShiOThqB+80xcsJn2JZ96Amq8=
+
+Name: res/drawable-sw800dp-xhdpi/widget_chip_responded_bg.9.png
+SHA1-Digest: g69s5NcZ97FYtrt/MF8KJlIL3YM=
+
+Name: res/drawable/widget_list_bg_selector.xml
+SHA1-Digest: +Ps0rFeDaFi9SI+2qmiYfNIaIGo=
+
+Name: res/drawable-sw800dp-xhdpi/list_text_first.xml
+SHA1-Digest: S8VLwJskt3DPQi8ZGQ37mJMPEZU=
+
+Name: res/drawable-sw800dp-xhdpi/app_icon.png
+SHA1-Digest: 2Yk9LeS3k3+rXih+48NQjsZs88g=
+
+Name: res/drawable/app_icon_dcm.png
+SHA1-Digest: FFn45pxypESBJGLTh6efnbP8PWA=
+
+Name: res/drawable-sw800dp-xhdpi/widgetheader_arrow_right_btn_selector
+ .xml
+SHA1-Digest: CLj8tLGbhTgGyc0/QYcVZ2cRqJk=
+
+Name: res/drawable/popup_title_check_off.png
+SHA1-Digest: OXpjNUx8/59ahKT3c5evNSVDROU=
+
+Name: res/drawable-sw800dp-xhdpi/attached_memo_month.9.png
+SHA1-Digest: xBrPoS7ADbnsrev+rN+eLYFtuXE=
+
+Name: res/drawable/widget_planner_today.png
+SHA1-Digest: TPJwQCLTbZnxDNJLR7oXDS4CgrQ=
+
+Name: res/drawable-sw800dp-xhdpi/widget_planner_ic_handwriting.png
+SHA1-Digest: wcBjEPT8WlFZPuBhZ3slHhJaewU=
+
+Name: res/drawable-sw800dp-xhdpi/agenda_item_bg_secondary.xml
+SHA1-Digest: aztAMLhjCiXY67BxDSsX8MRSvcI=
+
+Name: res/drawable-ko-sw800dp-xhdpi/calendar_mini_today_theme_keyguard
+ .png
+SHA1-Digest: dVI9ITRdVVuhQmgUTuTJiMyqvyk=
+
+Name: res/drawable-sw800dp-xhdpi/splanner_icon_alarm.png
+SHA1-Digest: sJZhQ+MsHIpRwz4P8+UOYs3X9qg=
+
+Name: res/drawable-sw800dp-xhdpi/mg_today_w_press.png
+SHA1-Digest: DaIJzqr42zslh6J3kVDlAXhclPI=
+
+Name: res/drawable-sw800dp-xhdpi/weather_39.png
+SHA1-Digest: w15Hg46/piV0LujAyJPiw45x6RY=
+
+Name: res/layout/appwidget_keyguard_no_events.xml
+SHA1-Digest: P74mvjabXznj1P32oTB67p81s24=
+
+Name: res/drawable/popup_title_check_on.png
+SHA1-Digest: FALnCWAxBDJxgi2Dm9b272Se7DM=
+
+Name: res/drawable/calendar_widget_bg_06_p.9.png
+SHA1-Digest: lSjLezgZnQiIcd1ugW1fCpEr0Z8=
+
+Name: res/drawable-sw800dp-xhdpi/weather_19_43.png
+SHA1-Digest: kLv3kx7WIPU4kjDBQac6ozRgShY=
+
+Name: res/drawable-sw800dp-xhdpi/weather_12_13_39_40.png
+SHA1-Digest: aDZObdNKydtfA3+Tnq5uYJM6g8s=
+
+Name: res/drawable-sw800dp-xhdpi/widget_planner_btn_bg_press.9.png
+SHA1-Digest: rrNXK2vweomgCTkehFstZQWfeqo=
+
+Name: res/drawable-sw800dp-xhdpi/weather_38.png
+SHA1-Digest: Dsdudj1OGvnS7NS8h7PSHEpreMU=
+
+Name: res/drawable-sw800dp-xhdpi/cal_widget_bg.9.png
+SHA1-Digest: NnwpvFdnUBxThJInh0cyKtpZGNY=
+
+Name: res/layout/today_theme.xml
+SHA1-Digest: n1shRmtDheIcUNYwbfzEtmft/os=
+
+Name: res/drawable-sw800dp-xhdpi/widgetheader_refresh_btn_selector.xml
+SHA1-Digest: CM/dpVdd9swRridGN2IjjHiaU7s=
+
+Name: res/drawable-sw800dp-xhdpi/weather_33.png
+SHA1-Digest: F/bCXX6pj8PjdlA71qUUyADi2XY=
+
+Name: res/drawable-ko-sw800dp-xhdpi/calendar_mini_today_theme.png
+SHA1-Digest: c7J7XnvHjzi4hjGWaocqT9oGAiI=
+
+Name: res/layout/month_theme.xml
+SHA1-Digest: VUNiRo9/Kiep5i/VAEi4ooPWxzU=
+
+Name: res/drawable-sw800dp-xhdpi/splanner_month_day_today_mark.png
+SHA1-Digest: LvVLrB8m4T+HamzJPamoX/x+GmQ=
+
+Name: res/drawable-sw800dp-xhdpi/widget_planner_bg.9.png
+SHA1-Digest: l7MxBRqpQt7v0bC3GicHDVlLRtc=
+
+Name: res/layout/appwidget_no_events.xml
+SHA1-Digest: aO+JlAfqphEl6BINXRRaaN43vCg=
+
+Name: res/drawable-sw800dp-xhdpi/weather_03_04_05.png
+SHA1-Digest: 45KWxOJSCJ1+7Moy5K7tmRVP/9Y=
+
+Name: res/drawable-sw800dp-xhdpi/mg_cal_flip_right_press.png
+SHA1-Digest: ya+38B49F89LUI9PJB5Gqh/KG6Q=
+
+Name: res/drawable-sw800dp-xhdpi/mg_add_w.png
+SHA1-Digest: 6Co2JbAJOBd3ur7BBAhr3UM0/z4=
+
+Name: res/layout-sw800dp-land-xhdpi/month_theme_full.xml
+SHA1-Digest: FqglOSryRWF6i9ADOP62rVFXWIc=
+
+Name: res/drawable-sw800dp/widget_planner_today_full.png
+SHA1-Digest: 3n8bXM5LExpm9Z3emoKHOkmsxAs=
+
+Name: res/layout/magazine_no_events.xml
+SHA1-Digest: y/sc+SzDwqV+Po1l8u+TPFL/njE=
+
+Name: res/drawable-sw800dp-xhdpi/weather_11.png
+SHA1-Digest: tPTWF7msvirvLbxijP4RGfs/ba4=
+
+Name: res/drawable-sw800dp-xhdpi/mg_cal_flip_right.png
+SHA1-Digest: F5oeKRbVXOi00dPyNYkWiNbH3Ts=
+
+Name: res/drawable/today_time_selector.xml
+SHA1-Digest: 2Ncn9TPqFkK0UMQXDA8nJ5UaGKw=
+
+Name: res/drawable-sw800dp-xhdpi/list_pressed_holo.9.png
+SHA1-Digest: VDcEPxl/qSB47+ovqCfo+9plWNw=
+
+Name: res/drawable-sw800dp-xhdpi/widget_shadow.9.png
+SHA1-Digest: y6zdksjpDSC3gdo6vN+IGLVjZZA=
+
+Name: res/drawable/hoverpopup_shape.xml
+SHA1-Digest: 3YRgrSDm7P0gAiBOUuoFRMxZ6e0=
+
+Name: res/xml/magazine_appwidget_info.xml
+SHA1-Digest: mBjmFIFPttZTYbfrBdCBIziKWF4=
+
+Name: res/layout/magazine_monthview_no_items.xml
+SHA1-Digest: K/wSXv1J0XLA1WYGoh9ieXTh1Vc=
+
+Name: res/drawable-sw800dp-xhdpi/widget_planner_ic_add.png
+SHA1-Digest: 5+kPClo6TucmTMop5zVBlhAluTE=
+
+Name: res/xml-sw800dp/mini_today_theme.xml
+SHA1-Digest: nGWStr0ePgl2vwEggsZs1s+oLD4=
+
+Name: res/drawable-sw800dp-xhdpi/calendar_list_icon_alarm.png
+SHA1-Digest: MKDPxSmalO4E1nCyMzQoDFYnTek=
+
+Name: res/layout-sw800dp/widget_all_day_item.xml
+SHA1-Digest: mi/bEUYoypa9HTLefOrxDRz3rNI=
+
+Name: res/drawable-sw800dp-xhdpi/widget_planner_ic_refresh.png
+SHA1-Digest: CPs1ruZxB6dSWTeP9TrqsEFqzC8=
+
+Name: res/layout/hover_events_oneday.xml
+SHA1-Digest: NTtYmfGX8a1b3mgaCfXr0z9yn0g=
+
+Name: res/drawable-sw800dp-xhdpi/task_checkbox_selector.xml
+SHA1-Digest: v01nL1XgzsUfrn+8rYartL2BoF8=
+
+Name: res/drawable-sw800dp-xhdpi/widget_top_bg_line.png
+SHA1-Digest: ynm/VvsJ+rXYXuOzQ8DV73c1k1U=
+
+Name: res/xml/easy_appwidget_info.xml
+SHA1-Digest: jjs32NP3rJS87+IUeNKkghH9hZI=
+
+Name: res/drawable/today_title_dim_selector.xml
+SHA1-Digest: GWYBglpfhETnbygiy3sU/BQBLJc=
+
+Name: res/drawable-sw800dp-xhdpi/header_row_focused_cal_widget_holo.9.
+ png
+SHA1-Digest: /EkUcTkIumGJrcFeXn6IQ92Y3hA=
+
+Name: res/layout/appwidget_keyguard_task.xml
+SHA1-Digest: uMymV+zxC7n9LloZHpfRGVDjXCI=
+
+Name: res/drawable-sw800dp-xhdpi/weather_18.png
+SHA1-Digest: 6IeKmcl0PPOQFgU+gB5cfG6jW0c=
+
+Name: res/drawable-sw800dp-xhdpi/widgetheader_add_btn_selector.xml
+SHA1-Digest: xVEG+2+0ER+iLf8N5QBJcIFi2QM=
+
+Name: res/drawable-zh-CN-sw800dp-xhdpi/calendar_mini_today_theme.png
+SHA1-Digest: LpYymLeu5q+levL35kJ1Fnk7Ou8=
+
+Name: res/drawable-sw800dp-xhdpi/check_off.png
+SHA1-Digest: qC/HMJbA61vgCg1kofgSBQ9fHX0=
+
+Name: res/drawable-sw800dp-xhdpi/weather_29.png
+SHA1-Digest: 3DWSr6JLet1yjfsRFZaMXwI4iXM=
+
+Name: res/drawable-sw800dp-xhdpi/ic_launcher_calendar.png
+SHA1-Digest: uy1Jb1zffwdUJ/XrBQjuLMSPLF0=
+
+Name: res/drawable-sw800dp-xhdpi/splanner_month_subtitle_line.9.png
+SHA1-Digest: KpD/i+YzQlPdkgEFt37uBeW2bFE=
+
+Name: res/layout/appwidget_magazine.xml
+SHA1-Digest: sSfbM9vqtziRc1xdN1LPnJ5ifeA=
+
+Name: res/xml/magazine_widget_provider_info.xml
+SHA1-Digest: 7yDmTZGkiIjcQ7zO8Ohw7Ymr5Yo=
+
+Name: res/drawable-sw800dp-xhdpi/cal_slected.png
+SHA1-Digest: MynBf/5K13Syf/0lUrfhvnizdhs=
+
+Name: res/drawable-ko-sw800dp-xhdpi/calendar_month_theme.png
+SHA1-Digest: gPqEX7L417f5hOyEfcQfXj8xLUY=
+
+Name: res/drawable-zh-TW-sw800dp-xhdpi/calendar_mini_today_theme.png
+SHA1-Digest: i3nFLrwd4mnYDAFsOWkw1WlcKlI=
+
+Name: res/layout/appwidget_magazine_land.xml
+SHA1-Digest: BO7B1KzRIoJFO+TvmKyG4rd5dGU=
+
+Name: res/drawable-sw800dp-xhdpi/weather_40.png
+SHA1-Digest: 93ipTnAxVahWzoThQlzoYqj6Ssg=
+
+Name: res/drawable-sw800dp-xhdpi/weather_14.png
+SHA1-Digest: bJ2r54r1h8JmGyK0h1gkLj2GGMg=
+
+Name: res/drawable-sw800dp-xhdpi/calendar_widget_bg_06_p.9.png
+SHA1-Digest: 6d1JFZe/kffAmY+7RtuFqkfixj0=
+
+Name: res/drawable-sw800dp-xhdpi/list_primary_holo.9.png
+SHA1-Digest: ZQ6TxUIHfJ/Inq+pDFl49irysH0=
+
+Name: res/drawable-sw800dp-xhdpi/splanner_main_ic_next.png
+SHA1-Digest: 454xR96uSRbEjf0KOd4V160/BTc=
+
+Name: res/layout-sw800dp-xhdpi/day_event_list_item.xml
+SHA1-Digest: eR85Ynggo1/375dOm3nZusnMafQ=
+
+Name: res/layout/magazine_day_event_item.xml
+SHA1-Digest: hx4Rpi/LYtaE3phRbsUnlHAwd2A=
+
+Name: res/layout/widget_item.xml
+SHA1-Digest: YRrJr8IR++WMR8bydFTALP0xVUQ=
+
+Name: res/drawable-sw800dp-xhdpi/mg_calendar_w.png
+SHA1-Digest: nKNk0i7N90DqQ7q7qsyopK1rRrg=
+
+Name: res/drawable-sw800dp-xhdpi/splanner_month_check_selected.png
+SHA1-Digest: XFFgIK7v/Sron0xX9ldLpeAY09Y=
+
+Name: res/drawable-sw800dp-xhdpi/cal_slected_today.png
+SHA1-Digest: nTjA9FSjMdiS8c5wYnHpGAfnDAw=
+
+Name: res/drawable-sw800dp-xhdpi/mg_cal_noitem_bg.png
+SHA1-Digest: HTzHjheMHpkWlU8bqOjmF0+cGHg=
+
+Name: res/xml-sw800dp/appwidget_info.xml
+SHA1-Digest: OG94DmQH1/ygrNsyNqOjBoIFRiE=
+
+Name: res/drawable-sw800dp-xhdpi/day_view_selector.xml
+SHA1-Digest: U+ZKNVYwfjRZsIYBpxQYieVlBcE=
+
+Name: res/drawable-sw800dp-xhdpi/widgetheader_today_btn_selector.xml
+SHA1-Digest: 79N8F9QcDjgRoCU6jc9CSPcoFQI=
+
+Name: res/xml/mini_today_theme.xml
+SHA1-Digest: t7DBiz/lGivTmTjJkCgE3SF/Mw0=
+
+Name: res/drawable-sw800dp-xhdpi/agenda_item_bg_primary.xml
+SHA1-Digest: UA+3X51MTKHeLNKhpWaKp0rvi40=
+
+Name: res/drawable-sw800dp-xhdpi/check1_off.png
+SHA1-Digest: isQtkHLeuVkgUjt3gTrDzN8mFng=
+
+Name: res/layout-sw800dp/magazine_no_events.xml
+SHA1-Digest: CEnNEED5mIiyhDF4s5KdpzQQ4I4=
+
+Name: res/layout/appwidget.xml
+SHA1-Digest: jesst+wd+3/YRRTTiVRqwTWELT4=
+
+Name: res/drawable-sw800dp-xhdpi/widget_btn_press.9.png
+SHA1-Digest: slaiKR/mgNyGjCAW5gdB9JbqItA=
+
+Name: res/drawable-sw800dp-xhdpi/appwidget_header_selector.xml
+SHA1-Digest: Lz3UtHhsltKoaFs2Bt+ifJnNjXw=
+
+Name: res/layout/day_event_item_sectheme.xml
+SHA1-Digest: EVAU7zC20tbfOANvrgcKvuNCx54=
+
+Name: res/drawable-sw800dp-xhdpi/widget_planner_btn_arrow_left.png
+SHA1-Digest: bQ1xyfKeRUCsMePeeHg2+IITSCE=
+
+Name: res/drawable-sw800dp-xhdpi/mg_add_w_press.PNG
+SHA1-Digest: mwHH8SwLBIyX0SZvEDrjiUSlR54=
+
+Name: res/drawable-sw800dp-xhdpi/widgetheader_arrow_left_btn_selector.
+ xml
+SHA1-Digest: J+gBGlb5Yi+7b9OXLQ/szsG3Qwk=
+
+Name: res/drawable-sw800dp-xhdpi/bg_event_cal_widget_holo.9.png
+SHA1-Digest: KEvDGmJyeGNjMCh5fxhdxPyFUwo=
+
+Name: res/drawable/task_list_bg_selector.xml
+SHA1-Digest: BJMC1LHqSmRDns53+anK0ReIs0o=
+
+Name: res/drawable-zh-TW-sw800dp-xhdpi/calendar_month_theme.png
+SHA1-Digest: MTWI6HILcR7it6j9Kj+LwWhPnpI=
+
+Name: res/drawable-sw800dp-xhdpi/calendar_list_icon_repeat.png
+SHA1-Digest: xe6m9FbXdoh1+Yagibk9P2TuYao=
+
+Name: res/drawable-sw800dp-xhdpi/weather_41.png
+SHA1-Digest: zGBRshaCq3akjzx7b/Ihf0AxbtM=
+
+Name: res/drawable-sw800dp-xhdpi/mg_calendar_w_press.png
+SHA1-Digest: RpWL420ezS08sXgy7VkMBQBxSKk=
+
+Name: res/drawable-sw800dp-xhdpi/event_list_check_on.png
+SHA1-Digest: h72Y5w2PSePtJL1TG4g+hZHNkP4=
+
+Name: res/drawable-sw800dp-xhdpi/widget_planner_bg_01_bottom.9.png
+SHA1-Digest: EMbdwLKSzgbG2e8O2vU1pe+Ybl4=
+
+Name: res/layout/appwidget_loading.xml
+SHA1-Digest: VRVYlLm9MwLr/pJvEXwihGARHJk=
+
+Name: res/drawable-sw800dp-xhdpi/weather_22_23_44.png
+SHA1-Digest: UDF+6R0cJtOVU7TnPAV6BLVoqE8=
+
+Name: res/drawable-sw800dp-xhdpi/weather_24_25_26.png
+SHA1-Digest: Ly9V4d0Cji7tdZzjppBfL8zWIbc=
+
+Name: res/drawable-sw800dp-xhdpi/calendar_widget_icon_facebook.PNG
+SHA1-Digest: HFpwa++6jvqQb7I3u2jDiorrAAs=
+
+Name: res/drawable-sw800dp-xhdpi/splanner_main_ic_pre.png
+SHA1-Digest: jI9MGH4X4ZpLTEwMjT0TqCPof80=
+
+Name: res/drawable/agenda_item_bg_primary.xml
+SHA1-Digest: iURSgUgteC8quXkvt0oBRDqxqno=
+
+Name: res/drawable-sw800dp-xhdpi/widget_chip_not_responded_bg.9.png
+SHA1-Digest: 9DCh9dhNtjmhV/VC9aYPxq7+qKc=
+
+Name: res/drawable-sw800dp-xhdpi/list_icon_priority_low.png
+SHA1-Digest: rAH+4/kpy0FOOYPMSTGQT+s2QkA=
+
+Name: res/layout-sw800dp-xhdpi/month_theme_mini.xml
+SHA1-Digest: 35jLrQzlM7UPiksromKucSrbL/A=
+
+Name: res/layout-sw800dp/appwidget_day.xml
+SHA1-Digest: QUXGfqTjRKL0Rq0KPNVHLlaMnwI=
+
+Name: res/layout-sw800dp/month_theme.xml
+SHA1-Digest: 4sTsizAqeIHpA3OiSmYyIv1ewhk=
+
+Name: res/drawable/today_title_selector.xml
+SHA1-Digest: VUg0GSUE+U6/10K+yHcoQ4ujz/A=
+
+Name: res/drawable/widget_planner_more_event_bg.9.png
+SHA1-Digest: cZ5yjkVk2XMLq50Hxki3MNpCFNA=
+
+Name: res/drawable-sw800dp-land-xhdpi/calendar_month_theme.png
+SHA1-Digest: bEUEmnQwqmvqPncFlvg4400mN10=
+
+Name: res/drawable-sw800dp-xhdpi/tw_scrollbar_handle_holo_light.9.png
+SHA1-Digest: urXpoMgAawfklt2G4oR7Z8Sp630=
+
+Name: res/layout-sw800dp-xhdpi/today_theme.xml
+SHA1-Digest: HcN7RwOhu/5FyNRl6lc8m1oTC5I=
+
+Name: res/drawable-sw800dp-xhdpi/weather_16_17.png
+SHA1-Digest: 9jInNVKWOspgiXAaEbyPf43n5MQ=
+
+Name: res/drawable-zh-HK-sw800dp-xhdpi/calendar_month_theme.png
+SHA1-Digest: /j15C1jfrdrajw4Lxry7gpI+QEg=
+
+Name: res/drawable/appwidget_header_selector.xml
+SHA1-Digest: 1DnOzlZxpLEFcy2L2IIcxutEzkk=
+
+Name: res/layout/magazine_month_item.xml
+SHA1-Digest: vlf8xL7HpG1VHgNeYH+2NERa+n8=
+
+Name: res/drawable-sw800dp-xhdpi/calendar_widget_preview.png
+SHA1-Digest: z7lrZ+dfV1MTpsesbmkshI9RNto=
+
+Name: res/drawable-zh-CN-sw800dp-xhdpi/calendar_month_theme.png
+SHA1-Digest: T9eKXE9d3VOLQLF/nWvZOHJV9Io=
+
+Name: res/drawable-sw800dp-xhdpi/weather_31.png
+SHA1-Digest: FILd0nCrSIYOGjIYoMA6KHQMJ8w=
+
+Name: res/drawable-sw800dp-xhdpi/list_secondary_holo.9.png
+SHA1-Digest: ImAx6b8Wqldw03otfLRTotSihVc=
+
+Name: res/drawable-sw800dp-xhdpi/weather_32.png
+SHA1-Digest: IgZhIz0OLApolgYm39PhWZXpgkw=
+
+Name: res/drawable-sw800dp-xhdpi/widget_planner_today.png
+SHA1-Digest: T4d+c9XS1ON3WBvUuf1Qk38KbL4=
+
+Name: res/layout-sw800dp-xhdpi/month_theme_full.xml
+SHA1-Digest: 6/KSmb3iKpI0f5nv/XpKl0LjcuI=
+
+Name: res/layout-sw800dp-xhdpi/day_event_item.xml
+SHA1-Digest: PrTBSO1/1RIVdzkUQlqnzOCuTZE=
+

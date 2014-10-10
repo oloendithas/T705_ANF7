@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d hendelser</item>
+        <item quantity="one">1 hendelse</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d oppgaver</item>
+        <item quantity="one">1 oppgave</item>
+    </plurals>
+</resources>

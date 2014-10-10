@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>תאריך יעד</item>
+        <item>עדיפות</item>
+        <item>תאריך</item>
+        <item>שבוע</item>
+        <item>חודש</item>
+        <item>קבוצה</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>נמוך</item>
+        <item>בינוני</item>
+        <item>גבוה</item>
+    </string-array>
+</resources>

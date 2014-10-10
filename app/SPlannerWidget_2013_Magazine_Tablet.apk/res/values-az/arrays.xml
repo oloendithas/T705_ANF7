@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>Vədə tarixi</item>
+        <item>Üstünlük</item>
+        <item>Tarix</item>
+        <item>Həftə</item>
+        <item>Ay</item>
+        <item>Qrup</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>Alçaq</item>
+        <item>Orta</item>
+        <item>Yüksək</item>
+    </string-array>
+</resources>

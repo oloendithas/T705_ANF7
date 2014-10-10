@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">Событий: %d</item>
+        <item quantity="one">1 событие</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">Задач: %d</item>
+        <item quantity="one">1 задача</item>
+    </plurals>
+</resources>

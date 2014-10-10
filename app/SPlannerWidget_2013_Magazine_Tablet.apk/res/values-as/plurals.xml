@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d টা ইভেণ্ট</item>
+        <item quantity="one">1 টা ইভেণ্ট</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d টা কাৰ্য</item>
+        <item quantity="one">1 কাৰ্য্য</item>
+    </plurals>
+</resources>

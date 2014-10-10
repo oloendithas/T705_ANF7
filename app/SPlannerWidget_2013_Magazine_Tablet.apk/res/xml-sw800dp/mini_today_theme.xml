@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata widgetId="com.sec.android.widgetapp.SPlannerAppWidget" description="@string/splanner_mini_day_theme" icon="@drawable/app_icon" themeName="Today" preview="@drawable/calendar_mini_today_theme" width="@dimen/today_width" height="@dimen/today_height" class="com.sec.android.widgetapp.SPlannerAppWidget.SPlannerAppWidgetActivity" />

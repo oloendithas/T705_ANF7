@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata widgetId="com.sec.android.widgetapp.SPlannerAppWidget" description="@string/splanner_month_theme" icon="@drawable/app_icon" themeName="Month_full" preview="@drawable/calendar_month_theme_full" width="@dimen/month_width_full" height="@dimen/month_height_full" class="com.sec.android.widgetapp.SPlannerAppWidget.SPlannerAppWidgetActivity" />

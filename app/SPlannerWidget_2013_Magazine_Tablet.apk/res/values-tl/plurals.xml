@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d (na) kaganapan</item>
+        <item quantity="one">1 kaganapan</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d gawain</item>
+        <item quantity="one">1 gawain</item>
+    </plurals>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>متوقع تاریخ</item>
+        <item>فوقیت</item>
+        <item>تاریخ</item>
+        <item>ہفتہ</item>
+        <item>مہینہ</item>
+        <item>گروپ</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>کم</item>
+        <item>درمیانہ</item>
+        <item>زیادہ</item>
+    </string-array>
+</resources>

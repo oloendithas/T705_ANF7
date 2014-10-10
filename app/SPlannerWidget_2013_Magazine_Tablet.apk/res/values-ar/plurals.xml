@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d حدث (أحداث)</item>
+        <item quantity="one">حدث واحد</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d مهام</item>
+        <item quantity="one">مهمة واحدة</item>
+    </plurals>
+</resources>

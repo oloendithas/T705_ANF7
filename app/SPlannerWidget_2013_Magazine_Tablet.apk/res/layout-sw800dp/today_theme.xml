@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/widget_top_bg" android:layout_width="fill_parent" android:layout_height="@dimen/widget_header_height" android:layout_marginLeft="-1.0dip" android:layout_marginTop="@dimen/widget_header_top_margin" android:layout_marginRight="-1.0dip" android:layout_marginBottom="@dimen/widget_header_bottom_margin">
+        <TextView android:gravity="left" android:id="@id/today_header" android:layout_width="@dimen/today_label_width" android:text="@string/mini_today_theme" style="@style/widget_label" />
+        <View style="@style/widget_header_line_new" />
+        <Button android:id="@id/go_today" style="@style/header_today" />
+        <View style="@style/widget_header_line_new" />
+        <ImageButton android:id="@id/new_event" style="@style/header_add" />
+        <ImageButton android:id="@id/refresh" android:visibility="gone" style="@style/header_refresh" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@color/calendar_widget_today" android:layout_width="fill_parent" android:layout_height="@dimen/today_date_container_height">
+        <LinearLayout android:gravity="center" android:id="@id/prev_month" android:background="@drawable/widgetheader_button_selector" android:layout_width="44.0dip" android:layout_height="fill_parent">
+            <Button android:layout_gravity="center_vertical" android:clickable="false" android:duplicateParentState="true" android:layout_marginLeft="0.0dip" style="@style/header_arrow_left" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/date_container" android:layout_width="@dimen/today_header_date_text" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/title_day_text" android:textStyle="bold" android:textColor="@color/today_label_color" android:gravity="center_vertical" android:id="@id/today" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/goto_today" />
+            <TextView android:textSize="@dimen/title_day_text" android:textColor="@color/default_date_of_today" android:gravity="center_vertical" android:id="@id/dateoftoday" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/today" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/next_month" android:background="@drawable/widgetheader_button_selector" android:layout_width="44.0dip" android:layout_height="fill_parent">
+            <Button android:layout_gravity="center_vertical" android:clickable="false" android:duplicateParentState="true" style="@style/header_arrow_right" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@drawable/splanner_month_subtitle_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/body_container" android:background="@color/week_label_cell_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_event_container" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:src="@drawable/splanner_mini_today_default" />
+            <TextView android:textSize="20.0dip" android:textColor="@color/no_event_text_color" android:id="@id/no_event" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/tap_to_create_event" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/event_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="0.0dip">
+            <ListView android:id="@id/month_event_list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/day_event_divider_horizontal" android:dividerHeight="1.0dip" />
+        </FrameLayout>
+    </RelativeLayout>
+    <View android:background="@drawable/widget_shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="header_add" parent="@style/header_btn">
+        <item name="android:background">@drawable/widgetheader_add_btn_selector</item>
+        <item name="android:layout_width">@dimen/add_btn_width</item>
+        <item name="android:contentDescription">@string/accessibility_create_event_button</item>
+    </style>
+    <item type="style" name="APKTOOL_DUMMY_0024">false</item>
+    <item type="style" name="APKTOOL_DUMMY_0025">false</item>
+    <item type="style" name="APKTOOL_DUMMY_0026">false</item>
+    <item type="style" name="APKTOOL_DUMMY_0027">false</item>
+    <item type="style" name="APKTOOL_DUMMY_0028">false</item>
+</resources>

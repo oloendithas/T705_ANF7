@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>Fecha final</item>
+        <item>Prioridad</item>
+        <item>Fecha</item>
+        <item>Semana</item>
+        <item>Mes</item>
+        <item>Grupo</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>Bajo</item>
+        <item>Media</item>
+        <item>Alto</item>
+    </string-array>
+</resources>

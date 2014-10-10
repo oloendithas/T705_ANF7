@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>முடிவு தேதி</item>
+        <item>முக்கியத்துவம்</item>
+        <item>தேதி</item>
+        <item>வாரம்</item>
+        <item>மாதம்</item>
+        <item>குழு</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>குறைந்த</item>
+        <item>நடுத்தர</item>
+        <item>உயர்ந்த</item>
+    </string-array>
+</resources>

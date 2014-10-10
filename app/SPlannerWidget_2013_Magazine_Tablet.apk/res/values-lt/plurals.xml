@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d įvykiai (-ių)</item>
+        <item quantity="one">1 įvykis</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">Užduočių: %d</item>
+        <item quantity="one">1 užduotis</item>
+    </plurals>
+</resources>

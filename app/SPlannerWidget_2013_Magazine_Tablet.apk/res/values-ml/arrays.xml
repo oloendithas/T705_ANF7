@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>നിശ്ചിത തീയതി</item>
+        <item>മുന്‍‌ഗണന</item>
+        <item>തീയതി</item>
+        <item>ആഴ്ച</item>
+        <item>മാസം</item>
+        <item>ഗ്രൂപ്പ്</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>താഴ്ന്ന</item>
+        <item>ഇടത്തരം</item>
+        <item>ഉയര്‍ന്ന</item>
+    </string-array>
+</resources>

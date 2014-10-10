@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>Esedékesség</item>
+        <item>Prioritás</item>
+        <item>Dátum</item>
+        <item>Hét</item>
+        <item>Hónap</item>
+        <item>Csoport</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>Alacsony</item>
+        <item>Közepes</item>
+        <item>Magas</item>
+    </string-array>
+</resources>

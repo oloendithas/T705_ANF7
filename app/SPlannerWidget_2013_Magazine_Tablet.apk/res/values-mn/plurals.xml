@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d арга хэмжээ</item>
+        <item quantity="one">1 арга хэмжээ</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d үүрэг даалгавар</item>
+        <item quantity="one">1 үүрэг даалгавар</item>
+    </plurals>
+</resources>

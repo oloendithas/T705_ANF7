@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>नियत तिथि</item>
+        <item>प्राथमिकता</item>
+        <item>तारीख</item>
+        <item>सप्ताह</item>
+        <item>महीना</item>
+        <item>समूह</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>निम्न</item>
+        <item>मध्यम</item>
+        <item>उच्च</item>
+    </string-array>
+</resources>

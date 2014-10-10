@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d件のイベント</item>
+        <item quantity="one">1件のイベント</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d件のタスク</item>
+        <item quantity="one">1件のタスク</item>
+    </plurals>
+</resources>

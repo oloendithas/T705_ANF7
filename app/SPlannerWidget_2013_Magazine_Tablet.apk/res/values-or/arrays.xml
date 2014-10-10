@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>ଧାର୍ଯ୍ୟ ତାରିଖ</item>
+        <item>ଅଗ୍ରାଧିକାର</item>
+        <item>ତାରିଖ</item>
+        <item>ସପ୍ତାହ</item>
+        <item>ମାସ</item>
+        <item>ଗୋଷ୍ଠୀ</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>ନିମ୍ନ</item>
+        <item>ମଧ୍ୟମ</item>
+        <item>ଉଚ୍ଚ</item>
+    </string-array>
+</resources>

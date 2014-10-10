@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">일정 %d개</item>
+        <item quantity="one">일정 1개</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">할 일 %d개</item>
+        <item quantity="one">할 일 1개</item>
+    </plurals>
+</resources>

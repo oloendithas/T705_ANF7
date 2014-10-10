@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d notikumi</item>
+        <item quantity="one">1 notikums</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d uzdevumi</item>
+        <item quantity="one">1 uzdevums</item>
+    </plurals>
+</resources>

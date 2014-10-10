@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>देय तारीख</item>
+        <item>प्राधान्य</item>
+        <item>तारीख</item>
+        <item>आठवडा</item>
+        <item>महिना</item>
+        <item>समूह</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>कमी</item>
+        <item>माध्यम</item>
+        <item>उंच</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nevents">
+        <item quantity="other">%d 項事件</item>
+        <item quantity="one">1 項事件</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d 個工作</item>
+        <item quantity="one">1 個工作</item>
+    </plurals>
+</resources>

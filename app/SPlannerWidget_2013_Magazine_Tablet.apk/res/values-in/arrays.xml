@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>Tgl jatuh tempo</item>
+        <item>Prioritas</item>
+        <item>Tanggal</item>
+        <item>Minggu</item>
+        <item>Bulan</item>
+        <item>Kelompok</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>Rendah</item>
+        <item>Sedang</item>
+        <item>Tinggi</item>
+    </string-array>
+</resources>

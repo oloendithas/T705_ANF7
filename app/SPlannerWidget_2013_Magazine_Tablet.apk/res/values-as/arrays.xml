@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_by_array">
+        <item>দেয় তাৰিখ</item>
+        <item>অগ্ৰাধিকাৰ</item>
+        <item>তাৰিখ</item>
+        <item>সপ্তাহ</item>
+        <item>মাহ</item>
+        <item>গোট</item>
+    </string-array>
+    <string-array name="priority_items">
+        <item>নিম্ন</item>
+        <item>মাধ্যম</item>
+        <item>উচ্চ</item>
+    </string-array>
+</resources>

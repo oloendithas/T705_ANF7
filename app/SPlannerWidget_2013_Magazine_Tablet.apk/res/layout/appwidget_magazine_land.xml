@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/widget_main_id" android:background="@drawable/magazine_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/header" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="30.0dip">
+        <ImageButton android:layout_gravity="center" android:id="@id/prev_btn" android:background="@drawable/widgetheader_arrow_left_btn_selector" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="32.0dip" android:layout_height="30.0dip" android:contentDescription="@string/accessibility_previous_month_button" />
+        <TextView android:layout_gravity="center" android:id="@id/month_title" style="@style/magazine_month_title_style" />
+        <ImageButton android:layout_gravity="center" android:id="@id/next_btn" android:background="@drawable/widgetheader_arrow_right_btn_selector" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="32.0dip" android:layout_height="30.0dip" android:layout_marginRight="15.0dip" android:contentDescription="@string/accessibility_next_month_button" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="right|center" android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+        <ImageButton android:layout_gravity="center" android:id="@id/month_day_toggle_btn" android:background="@drawable/calendar_view_selector" android:focusableInTouchMode="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/magazine_widget_icon_width" android:layout_height="@dimen/magazine_widget_icon_height" android:layout_marginRight="2.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_centerVertical="true" />
+        <ImageButton android:layout_gravity="center" android:id="@id/new_event" android:layout_width="@dimen/magazine_widget_icon_width" android:layout_height="@dimen/magazine_widget_icon_height" android:layout_marginRight="12.0dip" android:layout_toRightOf="@id/month_day_toggle_btn" android:layout_alignParentBottom="true" android:layout_centerVertical="true" style="@style/header_add" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/dayView_4x2" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="426.0dip">
+        <ImageView android:id="@id/dayView_4x2_sep" android:background="@drawable/magazine_week_divider" android:visibility="gone" android:layout_width="2.0dip" android:layout_height="300.0dip" android:layout_marginTop="@dimen/magazine_widget_vertical_seperator_margin_top" android:layout_marginBottom="@dimen/magazine_widget_vertical_seperator_margin_bottom" />
+        <ImageButton android:id="@id/new_event_4x2" android:visibility="gone" android:layout_width="@dimen/magazine_widget_icon_width" android:layout_height="@dimen/magazine_widget_icon_height" android:layout_marginTop="14.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" style="@style/header_add" />
+        <LinearLayout android:orientation="vertical" android:id="@id/day_events_list_layout_4x2" android:paddingLeft="35.0dip" android:paddingRight="32.0dip" android:layout_width="450.0dip" android:layout_height="280.0dip" android:layout_marginTop="69.0dip">
+            <TextView android:id="@id/num_events_4x2" style="@style/magazine_num_events_style" />
+            <ImageView android:layout_gravity="bottom" android:background="@drawable/magazine_week_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <ListView android:scrollbarThumbVertical="@drawable/tw_scrollbar_handle_holo_light" android:scrollbarStyle="insideOverlay" android:id="@id/day_events_list_4x2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:scrollingCache="true" android:divider="@drawable/magazine_week_divider" android:dividerHeight="1.0dip" />
+            <ImageView android:layout_gravity="top" android:background="@drawable/magazine_week_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/magazine_no_events_4x2" android:background="@drawable/mg_cal_noitem_bg" android:visibility="gone" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/no_events" android:gravity="center" android:id="@id/no_events" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/magazine_no_event" style="@style/magazine_no_event_layout_style" />
+            <TextView android:textSize="@dimen/no_event_thanks_message" android:gravity="center" android:id="@id/no_event_thanks_message_4x2" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_event_thanks_message_magazine" style="@style/magazine_no_event_layout_style" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/month_view" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-12.0dip" android:layout_below="@id/header" android:layout_alignParentLeft="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/week_month_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center" android:id="@id/week_days" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="410.0dip" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip">
+                <TextView android:id="@id/day0" android:layout_weight="1.0" style="@style/mg_week_day_label_style" />
+                <TextView android:id="@id/day1" android:layout_weight="1.0" style="@style/mg_week_day_label_style" />
+                <TextView android:id="@id/day2" android:layout_weight="1.0" style="@style/mg_week_day_label_style" />
+                <TextView android:id="@id/day3" android:layout_weight="1.0" style="@style/mg_week_day_label_style" />
+                <TextView android:id="@id/day4" android:layout_weight="1.0" style="@style/mg_week_day_label_style" />
+                <TextView android:id="@id/day5" android:layout_weight="1.0" style="@style/mg_week_day_label_style" />
+                <TextView android:id="@id/day6" android:layout_weight="1.0" style="@style/mg_week_day_label_style" />
+            </LinearLayout>
+            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/month_week_sep" android:background="@drawable/magazine_week_divider" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="340.0dip" android:layout_height="1.0dip" />
+            <GridView android:gravity="fill" android:layout_gravity="center" android:id="@id/calendar_item" android:paddingLeft="33.0dip" android:paddingRight="27.0dip" android:layout_width="410.0dip" android:layout_height="294.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="14.0dip" android:listSelector="@android:color/transparent" android:numColumns="7" />
+        </LinearLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/dayView_2x4" android:layout_width="fill_parent" android:layout_height="340.0dip" android:layout_below="@id/week_month_layout" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/dayView_2x4_sep" android:background="@drawable/magazine_week_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/day_events_list_layout_2x4" android:paddingLeft="35.0dip" android:paddingRight="35.0dip" android:layout_width="410.0dip" android:layout_height="340.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="18.0dip">
+                <TextView android:id="@id/num_events_2x4" style="@style/magazine_num_events_style" />
+                <ImageView android:layout_gravity="bottom" android:background="@drawable/magazine_week_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <ListView android:scrollbarThumbVertical="@drawable/tw_scrollbar_handle_holo_light" android:scrollbarStyle="insideOverlay" android:id="@id/day_events_list_2x4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:scrollingCache="true" android:divider="@drawable/magazine_week_divider" android:dividerHeight="1.0dip" />
+                <ImageView android:layout_gravity="top" android:background="@drawable/magazine_week_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/magazine_no_events_2x4" android:background="@drawable/mg_cal_noitem_bg" android:visibility="gone" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/no_events" android:gravity="center" android:id="@id/no_events" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/magazine_no_event" style="@style/magazine_no_event_layout_style" />
+                <TextView android:textSize="@dimen/no_event_thanks_message" android:gravity="center" android:id="@id/no_event_thanks_message_2x4" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_event_thanks_message_magazine" style="@style/magazine_no_event_layout_style" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/dayView" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="400.0dip" android:layout_marginTop="60.0dip" android:layout_alignParentLeft="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/dayView_layout_2x2" android:paddingLeft="35.0dip" android:paddingRight="35.0dip" android:visibility="invisible" android:layout_width="410.0dip" android:layout_height="340.0dip">
+            <TextView android:id="@id/num_events" style="@style/magazine_num_events_style" />
+            <ImageView android:layout_gravity="bottom" android:background="@drawable/magazine_week_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <ListView android:scrollbarThumbVertical="@drawable/tw_scrollbar_handle_holo_light" android:scrollbarStyle="insideOverlay" android:id="@id/day_events_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:scrollingCache="true" android:divider="@drawable/magazine_week_divider" android:dividerHeight="1.0dip" />
+            <ImageView android:layout_gravity="top" android:background="@drawable/magazine_week_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/magazine_no_events_2x2" android:background="@drawable/mg_cal_noitem_bg" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/no_events" android:gravity="center" android:id="@id/no_events" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/magazine_no_event" style="@style/magazine_no_event_layout_style" />
+            <TextView android:textSize="@dimen/no_event_thanks_message" android:gravity="center" android:id="@id/no_event_thanks_message_2x2" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_event_thanks_message_magazine" style="@style/magazine_no_event_layout_style" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
