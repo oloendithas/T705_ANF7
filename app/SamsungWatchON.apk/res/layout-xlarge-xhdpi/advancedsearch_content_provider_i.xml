@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/contentsprovider_item_layout" android:paddingBottom="32.0dip" android:clickable="true" android:layout_width="@dimen/advanced_search_content_provider_item_w" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/contentsprovider_checkbox" android:clickable="false" android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:checked="true" android:button="@drawable/common_selector_bar_category_checkbox" />
+    <TextView android:textSize="@dimen/advance_search_check_box_text_size" android:textColor="@drawable/common_selector_checkbox_text" android:ellipsize="end" android:gravity="left|center" android:id="@id/contentsprovider_text" android:paddingLeft="10.0dip" android:duplicateParentState="true" android:layout_width="@dimen/advanced_search_content_provider_text_w" android:layout_height="wrap_content" android:layout_marginRight="@dimen/advanced_search_content_provider_item_padding_right" android:singleLine="false" />
+</LinearLayout>

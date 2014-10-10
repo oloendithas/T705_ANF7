@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="582.0dip" android:layout_height="69.0dip">
+        <TextView android:id="@id/setyear" android:layout_width="fill_parent" android:text="@string/advancedsearch_set_year" style="@style/style_popup_top_layout" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_popup_middle_default" android:paddingTop="17.0dip" android:layout_width="582.0dip" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingBottom="17.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.sec.msc.android.yosemite.ui.tvguide.common.CircularSeekBar android:id="@id/circularseekbar_year" android:visibility="gone" android:layout_width="387.0dip" android:layout_height="387.0dip" android:text="@string/hello_world" android:layout_centerInParent="true" />
+                <RelativeLayout android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <EditText android:textSize="49.0dip" android:textColor="@color/RGB_100_21_149_219" android:gravity="center" android:layout_gravity="center" android:id="@id/year_name" android:background="@android:color/transparent" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="30.0dip" android:selectAllOnFocus="true" android:maxLength="4" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:inputType="number" />
+                    <Button android:layout_gravity="center" android:id="@id/year_down_btn" android:background="@drawable/tvguide_btn_time_down_arrow" android:focusable="true" android:layout_width="58.0dip" android:layout_height="37.0dip" android:layout_marginTop="29.0dip" android:layout_below="@id/year_name" android:layout_centerHorizontal="true" />
+                    <Button android:layout_gravity="center" android:id="@id/year_up_btn" android:background="@drawable/tvguide_btn_time_up_arrow" android:focusable="true" android:layout_width="58.0dip" android:layout_height="37.0dip" android:layout_marginBottom="1.0dip" android:layout_above="@id/year_name" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_popup_bottom" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/year_cancel_btn" android:text="@string/common_button_cancel" style="@style/style_popup_button" />
+        <Button android:id="@id/year_ok_btn" android:layout_marginLeft="1.0px" android:text="@string/common_button_ok" style="@style/style_popup_button" />
+    </LinearLayout>
+</LinearLayout>

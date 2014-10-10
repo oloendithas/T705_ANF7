@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:focusable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/arrow_rl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <RelativeLayout android:gravity="center" android:id="@id/arrow_left_rl" android:background="@drawable/widget_btn_background" android:clickable="true" android:layout_width="35.0dip" android:layout_height="fill_parent" android:layout_marginLeft="19.0dip" android:layout_marginRight="21.0dip">
+            <ImageView android:id="@id/arrow_left" android:duplicateParentState="true" android:layout_width="18.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_btn_back" android:scaleType="centerInside" />
+        </RelativeLayout>
+        <ImageView android:id="@id/arrow_divider" android:background="@color/RGB_100_238_238_238" android:layout_width="1.0dip" android:layout_height="24.0dip" android:layout_marginTop="5.0dip" android:scaleType="centerCrop" android:layout_toRightOf="@id/arrow_left_rl" />
+        <RelativeLayout android:gravity="center" android:id="@id/arrow_right_rl" android:background="@drawable/widget_btn_background" android:clickable="true" android:layout_width="35.0dip" android:layout_height="fill_parent" android:layout_marginLeft="19.0dip" android:layout_toRightOf="@id/arrow_divider">
+            <ImageView android:id="@id/arrow_right" android:duplicateParentState="true" android:layout_width="18.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_btn_next" android:scaleType="centerInside" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/refresh_rl" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/refresh" android:background="@drawable/widget_btn_background" android:visibility="visible" android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/update_front" android:layout_centerInParent="true" />
+        <ProgressBar android:id="@id/refresh_progress" android:padding="6.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/watchon_widget_loading" android:layout_toRightOf="@id/arrow_right_rl" />
+    </RelativeLayout>
+    <TextView android:textSize="19.0dip" android:typeface="sans" android:textColor="@color/RGB_100_255_255_255" android:gravity="right" android:id="@id/update_date" android:layout_width="150.0dip" android:layout_height="22.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="2.0dip" android:includeFontPadding="false" android:layout_toLeftOf="@id/refresh_rl" />
+</RelativeLayout>

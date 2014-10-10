@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="548.0dip" android:layout_height="711.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@drawable/bg_popup_top" android:layout_width="fill_parent" android:layout_height="65.0dip">
+        <TextView android:textSize="22.0dip" android:textColor="@color/RGB_0_176_241" android:gravity="left|center" android:paddingLeft="26.0dip" android:paddingRight="26.0dip" android:layout_width="fill_parent" android:layout_height="26.0dip" android:layout_marginTop="18.0dip" android:text="@string/common_title_remote_control_setup" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/bg_popup_middle_default" android:layout_width="548.0dip" android:layout_height="80.0dip">
+        <TextView android:textSize="26.0dip" android:textStyle="bold" android:textColor="@color/RGB_100_71_141_255" android:gravity="left|center" android:paddingLeft="26.0dip" android:paddingRight="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:text="@string/settings_universalremote_end_user_license_agreement" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_popup_middle_default" android:paddingLeft="26.0dip" android:paddingRight="26.0dip" android:paddingBottom="19.0dip" android:layout_width="548.0dip" android:layout_height="484.0dip">
+        <ScrollView android:id="@id/enduser_license_agreement_scrollview" android:background="@drawable/popup_textbox" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="28.0dip" android:paddingRight="28.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0dip" android:textColor="@color/RGB_100_138_140_143" android:id="@id/enduser_license_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <RelativeLayout android:background="@drawable/bg_popup_bottom" android:layout_width="548.0dip" android:layout_height="62.0dip">
+        <ImageView android:background="@drawable/popup_line_02" android:layout_width="548.0dip" android:layout_height="1.0px" />
+        <Button android:textColor="@drawable/common_selector_button_popup_cancel_textcolor" android:id="@id/disagree" android:background="@drawable/common_selector_button_popup_background" android:layout_width="267.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="6.0dip" android:text="@string/settings_universalremote_disagree" />
+        <Button android:textColor="@drawable/common_selector_button_popup_ok_textcolor" android:id="@id/agree" android:background="@drawable/common_selector_button_popup_background" android:layout_width="267.0dip" android:layout_height="50.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="6.0dip" android:text="@string/settings_universalremote_agree" android:layout_toRightOf="@id/disagree" />
+    </RelativeLayout>
+</LinearLayout>

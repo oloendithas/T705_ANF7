@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingRight="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/castitem" android:background="@drawable/common_selector_thumbnail_detail_list_bg" android:duplicateParentState="true" android:layout_width="102.0dip" android:layout_height="102.0dip">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/img_title_background" android:background="@color/RGB_100_215_216_217" android:layout_width="100.0dip" android:layout_height="94.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:scaleType="fitCenter">
+            <ImageView android:layout_gravity="center" android:id="@id/img_background" android:background="@drawable/tw_noitems_cast" android:duplicateParentState="true" android:layout_width="100.0dip" android:layout_height="94.0dip" android:scaleType="fitCenter" />
+            <com.sec.msc.android.yosemite.ui.common.view.web.WebImageView android:layout_gravity="center" android:id="@id/img_title" android:duplicateParentState="true" android:layout_width="100.0dip" android:layout_height="94.0dip" />
+        </RelativeLayout>
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/RGB_100_64_68_75" android:ellipsize="end" android:gravity="center" android:id="@id/title_text" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lines="2" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="747.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0dip" android:textColor="@color/RGB_237_237_237" android:gravity="center_vertical" android:id="@id/detail_cplist_d_title" android:background="@drawable/bg_popup_top" android:paddingLeft="26.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="65.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/detail_cplist_d_title_tvshows" android:background="@drawable/bg_popup_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="65.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/RGB_237_237_237" android:gravity="center_vertical" android:id="@id/detail_cplist_d_title_tvshows_epinfo" android:paddingLeft="26.0dip" android:layout_width="fill_parent" android:layout_height="21.0dip" android:layout_marginTop="8.0dip" />
+        <TextView android:textSize="22.0dip" android:textColor="@color/RGB_237_237_237" android:gravity="center_vertical" android:id="@id/detail_cplist_d_title_tvshows_eptitle" android:paddingLeft="26.0dip" android:layout_width="fill_parent" android:layout_height="29.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_popup_middle_default" android:layout_width="755.0dip" android:layout_height="wrap_content">
+        <ListView android:id="@id/detail_cplist_d_list" android:paddingLeft="18.0dip" android:paddingTop="15.0dip" android:paddingRight="18.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@color/RGB_20_255_255_255" android:dividerHeight="1.0px" />
+        <LinearLayout android:gravity="center" android:id="@id/detail_cplist_d_no_contents_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="642.0dip">
+            <TextView android:textSize="24.0dip" android:textColor="@color/RGB_237_237_237" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/detailview_cplist_no_contents" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

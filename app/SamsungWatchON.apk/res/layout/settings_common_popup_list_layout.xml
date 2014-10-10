@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/settings_list_popup_title" android:text="@string/settings_room_setup_add_devices" style="@style/style_popup_top_layout" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_height="wrap_content" style="@style/style_popup_middle_list_layout">
+        <LinearLayout android:orientation="vertical" android:id="@id/settings_list_popup_message" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/popup_message_font_size" android:textColor="@color/RGB_100_0_176_241" android:gravity="left|center" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="62.0dip" android:text="@string/settings_room_setup_select_device_msg" android:includeFontPadding="false" />
+            <View android:background="@color/RGB_64_64_67" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </LinearLayout>
+        <ListView android:gravity="left|center" android:id="@id/settings_list_popup_listview" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/common_list_selector" android:divider="@color/RGB_64_64_67" android:dividerHeight="1.0px" android:choiceMode="singleChoice" android:headerDividersEnabled="false" android:footerDividersEnabled="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" style="@style/style_popup_bottom_layout">
+        <Button android:id="@id/settings_list_popup_cancel" android:text="@string/common_button_cancel" style="@style/style_popup_button" />
+        <Button android:id="@id/settings_list_popup_ok" android:visibility="gone" android:text="@string/common_button_ok" style="@style/style_popup_button" />
+    </LinearLayout>
+</LinearLayout>

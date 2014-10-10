@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RequestParamRule>
+    <Rule>
+        <name>userID</name>
+        <type>String</type>
+        <minimum>0</minimum>
+        <maximum>4</maximum>
+    </Rule>
+    <Rule>
+        <name>userName</name>
+        <type>String</type>
+        <minimum>0</minimum>
+        <maximum>1</maximum>
+    </Rule>
+    <Rule>
+        <name>userEmail</name>
+        <type>String</type>
+        <minimum>0</minimum>
+        <maximum>1</maximum>
+    </Rule>
+    <Rule>
+        <name>accessToken</name>
+        <type>String</type>
+        <minimum>1</minimum>
+        <maximum>1</maximum>
+    </Rule>
+</RequestParamRule>

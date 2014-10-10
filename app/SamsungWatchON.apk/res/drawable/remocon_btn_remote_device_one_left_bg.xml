@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/stb_tab_no_add_select_left" />
+    <item android:state_enabled="false" android:drawable="@drawable/stb_tab_no_add_bg_left_dim" />
+    <item android:drawable="@drawable/stb_tab_no_add_bg_left" />
+</selector>

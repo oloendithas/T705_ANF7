@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ids_rh_body_loading_ing">Duke ngarkuar...</string>
+    <string name="ids_ph_pop_unable_to_connect_to_network_try_later">Nuk mund të lidhem me rrjetin. Provo më vonë</string>
+    <string name="ids_ph_button_stop">Ndal</string>
+    <string name="ids_ph_button_continue_abb">Vazhdo</string>
+    <string name="ids_ph_pop_unauthorised_access_has_been_detected_we_recommend_that_you_cancel_this_purchase">U pikas qasje e paautorizuar. Rekomandojmë që ta anulosh këtë blerje</string>
+    <string name="ids_ph_header_attention">Kujdes</string>
+    <string name="ids_ph_pop_unauthorised_access_to_your_account_has_been_detected_this_payment_will_be_stopped_to_protect_your_information">U pikas qasje e paautorizuar në llogarinë tënde. Kjo pagesë do të ndalet, për të mbrojtur informacionin tënd</string>
+</resources>

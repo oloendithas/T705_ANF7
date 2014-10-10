@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/common_thumbnail_first_layout" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/tv_show_layout_thumbnail_i" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/common_thumbnail_second_layout" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
+        <include layout="@layout/tv_show_layout_thumbnail_i" />
+    </LinearLayout>
+</LinearLayout>

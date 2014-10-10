@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ids_rh_body_loading_ing">Kufakwa iinkcukacha...</string>
+    <string name="ids_ph_pop_unable_to_connect_to_network_try_later">Unable to connect to network. Try later.</string>
+    <string name="ids_ph_button_stop">Pheza</string>
+    <string name="ids_ph_button_continue_abb">Continue</string>
+    <string name="ids_ph_pop_unauthorised_access_has_been_detected_we_recommend_that_you_cancel_this_purchase">Unauthorised access has been detected. We recommend that you cancel this purchase.</string>
+    <string name="ids_ph_header_attention">Qaphela</string>
+    <string name="ids_ph_pop_unauthorised_access_to_your_account_has_been_detected_this_payment_will_be_stopped_to_protect_your_information">Unauthorised access to your account has been detected. This payment will be stopped to protect your information.</string>
+</resources>

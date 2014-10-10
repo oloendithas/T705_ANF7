@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/detail_episode_shadow" android:background="@drawable/shadow_tvdetail_vertical" android:layout_width="19.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="312.0dip" android:layout_height="fill_parent">
+        <Spinner android:textSize="20.0dip" android:textColor="@drawable/common_selector_dropdown_textcolor" android:id="@id/detail_episode_spinner" android:background="@drawable/common_selector_dropdown_background" android:visibility="gone" android:layout_width="312.0dip" android:layout_height="40.0dip" android:layout_marginTop="15.0dip" android:popupBackground="@drawable/list_bg" />
+        <ListView android:scrollbarThumbVertical="@drawable/scroll_bar" android:id="@id/detail_episode_list" android:layout_width="312.0dip" android:layout_height="wrap_content" android:divider="@color/RGB_100_220_220_220" android:dividerHeight="1.0dip" />
+        <TextView android:textSize="20.0dip" android:gravity="center" android:id="@id/detail_episode_more" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_more" />
+    </LinearLayout>
+</LinearLayout>

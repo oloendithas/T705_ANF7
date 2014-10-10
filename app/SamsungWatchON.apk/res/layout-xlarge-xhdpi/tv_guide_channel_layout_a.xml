@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/tv_guide_layout_channels_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/tv_guide_layout_channels_listfrag" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/tv_guide_layout_channels_detailfrag" android:layout_width="@dimen/tvguide_channels_detail_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/tvguide_channels_detail_top" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+</LinearLayout>

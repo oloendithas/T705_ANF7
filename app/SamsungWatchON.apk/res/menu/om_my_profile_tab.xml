@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/om_new" android:title="@string/new_card" android:showAsAction="always" />
+    <item android:icon="@drawable/ics_selector_menu_delete_all_icon" android:id="@id/om_delete_all_contents" android:title="@string/list_delete_all_contents" />
+    <item android:icon="@drawable/ics_selector_menu_help_icon" android:id="@id/om_help" android:title="@string/help" />
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:id="@id/btn_discovery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Discovery"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <Button android:id="@id/btn_poweronconnect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PowerOnConnect"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <Button android:id="@id/btn_bring" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BRING"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <Button android:id="@id/btn_remocon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="REMOCON"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <Button android:id="@id/btn_stb" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="STB"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <Button android:id="@id/btn_livetv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Live TV"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <Button android:id="@id/btn_anytest" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AnyTest"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </LinearLayout>
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

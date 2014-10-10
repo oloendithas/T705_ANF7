@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/landing_category" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layerType="hardware"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_category_title" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/category_title" android:background="@drawable/selector_btn_mh_outline_trans" android:paddingLeft="6.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" android:layout_centerVertical="true" style="@style/bannerCategoryTitleTextTablet" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/promos_icon_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="91.0dip">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/ll_banner_item" android:background="@drawable/selector_btn_promotion" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="left|center" android:id="@id/item_thumbnail" android:layout_width="53.0dip" android:layout_height="70.0dip" android:src="@drawable/default_thumail_list" android:scaleType="fitXY" android:layerType="software" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip">
+                <TextView android:id="@id/item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/bannerItemTitleTextTablet" />
+                <TextView android:id="@id/item_sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/bannerItemSubTitleTextTablet" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/ll_banner_item_two" android:background="@drawable/selector_btn_promotion" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="left|center" android:id="@id/item_thumbnail_two" android:layout_width="53.0dip" android:layout_height="70.0dip" android:src="@drawable/default_thumail_list" android:scaleType="fitXY" android:layerType="software" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip">
+                <TextView android:id="@id/item_title_two" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/bannerItemTitleTextTablet" />
+                <TextView android:id="@id/item_sub_title_two" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/bannerItemSubTitleTextTablet" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/genre_titlebar" android:background="@drawable/favorite_tab_bg" android:layout_width="fill_parent" android:layout_height="@dimen/tvguide_channels_list_topbar_h">
+        <RelativeLayout android:id="@id/genre_time_box" android:layout_width="@dimen/tvguide_channels_timebox_w" android:layout_height="@dimen/tvguide_channels_timebox_h" android:layout_centerInParent="true">
+            <Gallery android:id="@id/genre_gallery" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animationDuration="1500" android:spacing="30.0dip" android:splitMotionEvents="true" />
+            <ImageView android:id="@id/left_fading_genre" android:background="@drawable/fading_left" android:visibility="visible" android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@id/right_fading_genre" android:background="@drawable/fading_right" android:visibility="visible" android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/genre_left_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/tvguide_channels_timebox_margin" android:src="@drawable/tvguide_timebox_left_button" android:scaleType="center" android:layout_toLeftOf="@id/genre_time_box" android:layout_centerVertical="true" android:contentDescription="@string/common_button_previous" />
+        <ImageView android:id="@id/genre_right_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/tvguide_channels_timebox_margin" android:src="@drawable/tvguide_timebox_right_button" android:scaleType="center" android:layout_toRightOf="@id/genre_time_box" android:layout_centerVertical="true" android:contentDescription="@string/common_button_next" />
+        <ImageView android:id="@id/genre_titlebar_underline2" android:background="@color/RGB_100_170_170_170" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/genre_titlebar_underline1" android:background="@color/RGB_100_210_210_210" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignTop="@id/genre_titlebar_underline2" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/genre_list_top_button_layout" android:layout_width="fill_parent" android:layout_height="@dimen/tvguide_channels_list_topbar_h">
+        <RelativeLayout android:background="@drawable/favorite_tab_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/basic_button_font_size" android:textColor="@drawable/tv_guide_channels_now_btn_textcolor" android:gravity="center" android:id="@id/genre_now_text" android:background="@drawable/tvguide_channels_now_btn_bg" android:layout_width="wrap_content" android:layout_height="@dimen/tvguide_channels_nowbutton_h" android:layout_marginLeft="@dimen/tvguide_channels_nowbutton_left" android:minWidth="@dimen/tvguide_channels_nowbutton_w" android:text="@string/tvguide_recommended_now" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/genre_list_top_underline2" android:background="@color/RGB_100_250_250_250" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/genre_list_top_underline1" android:background="@color/RGB_100_160_160_160" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignTop="@id/genre_list_top_underline2" />
+    </RelativeLayout>
+</LinearLayout>

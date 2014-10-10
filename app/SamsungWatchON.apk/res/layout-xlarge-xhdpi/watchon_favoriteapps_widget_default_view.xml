@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/widget_favorite_default_layout" android:background="@drawable/widget_bg_land_1x1" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip">
+        <TextView android:textSize="21.0dip" android:textColor="@color/RGB_100_245_245_245" android:id="@id/txt_widget_main_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" style="@style/WidgetTitleText" />
+        <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/widget_recommend" android:includeFontPadding="false" android:shadowColor="#80000000" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_below="@id/txt_widget_main_title" android:lineSpacingExtra="2.0dip" />
+        <ImageView android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_watchon" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

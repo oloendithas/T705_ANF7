@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="false" android:drawable="@drawable/btn_radio_s" android:state_activated="true" />
+    <item android:state_focused="true" android:drawable="@drawable/btn_radio_s_focus" android:state_activated="true" />
+    <item android:state_focused="true" android:drawable="@drawable/btn_radio_focus" android:state_activated="false" />
+    <item android:state_pressed="true" android:drawable="@drawable/btn_radio_s_press" />
+    <item android:state_enabled="false" android:drawable="@drawable/btn_radio_dim" />
+    <item android:drawable="@drawable/btn_radio" />
+</selector>

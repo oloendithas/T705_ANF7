@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="800.0dip" android:layout_height="651.0dip" android:layout_marginTop="41.0dip" android:layout_marginRight="41.0dip" android:src="@drawable/introflow_tips_img_2" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="442.0dip" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginTop="106.0dip" android:layout_marginRight="60.0dip" android:layout_marginBottom="50.0dip">
+        <TextView android:textSize="40.0dip" android:textStyle="bold" android:textColor="@color/RGB_100_217_217_217" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/userguide_secondpage_title" android:lineSpacingExtra="3.0dip" />
+        <TextView android:textSize="29.0dip" android:textColor="@color/RGB_178_178_178" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/userguide_secondpage_text" android:lineSpacingExtra="3.0dip" />
+    </LinearLayout>
+</RelativeLayout>

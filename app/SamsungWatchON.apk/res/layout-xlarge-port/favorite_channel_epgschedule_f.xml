@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/favorite_channel_epgschedule_f" android:paddingLeft="19.0dip" android:paddingTop="14.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/channel_img" android:layout_width="92.0dip" android:layout_height="36.0dip" />
+    <ListView android:scrollbarThumbVertical="@drawable/scroll_bar" android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/line" android:dividerHeight="1.0px" />
+</LinearLayout>

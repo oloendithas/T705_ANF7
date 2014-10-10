@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/search_thumbnail_layout" android:background="@color/RGB_23_27_33" android:padding="1.0px" android:layout_width="75.0dip" android:layout_height="75.0dip">
+        <RelativeLayout android:gravity="center" android:background="@color/RGB_23_27_33" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/titleImage_bg" android:duplicateParentState="true" android:layout_width="53.0dip" android:layout_height="53.0dip" android:layout_centerInParent="true" />
+            <com.sec.msc.android.yosemite.ui.common.view.web.WebImageView android:id="@id/titleImage" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:paddingLeft="15.0dip" android:paddingTop="9.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/search_thumbnail_layout">
+        <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="@color/RGB_100_255_255_255" android:id="@id/contentTitle" android:layout_width="fill_parent" android:layout_height="30.0dip" android:singleLine="true" />
+        <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/information" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_below="@id/contentTitle">
+            <ImageView android:id="@id/liveimage" android:background="@drawable/tag_live" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/RGB_100_101_107_112" android:layout_gravity="top" android:id="@id/information1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <ImageView android:id="@id/textdivide1" android:background="@color/RGB_178_178_178" android:layout_width="2.0px" android:layout_height="12.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/RGB_100_101_107_112" android:gravity="top" android:id="@id/information2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <ImageView android:id="@id/textdivide2" android:background="@color/RGB_178_178_178" android:layout_width="2.0px" android:layout_height="12.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/RGB_100_101_107_112" android:layout_gravity="center_horizontal" android:id="@id/information3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/content_divider" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_below="@id/search_thumbnail_layout" />
+</RelativeLayout>

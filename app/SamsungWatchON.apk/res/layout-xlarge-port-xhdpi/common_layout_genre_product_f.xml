@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:scrollbarStyle="outsideInset" android:id="@id/common_layout_genre_product_gridview" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="0.0dip" android:verticalSpacing="0.0dip" android:choiceMode="singleChoice" />
+    <RelativeLayout android:gravity="center" android:id="@id/common_layout_genre_product_nocontent_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/common_layout_genre_product_nocontent_image" android:duplicateParentState="true" android:layout_width="148.0dip" android:layout_height="148.0dip" android:layout_centerInParent="true" />
+        <TextView android:textSize="24.0dip" android:textColor="@color/RGB_237_237_237" android:id="@id/common_layout_genre_product_nocontent_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/common_msg_no_content" android:layout_below="@id/common_layout_genre_product_nocontent_image" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

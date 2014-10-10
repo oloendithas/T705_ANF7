@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="0.0dip" android:layout_width="@dimen/popup_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_popup_top" android:layout_width="fill_parent" android:layout_height="72.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/sns_title_logo_imageview" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="38.0dip" />
+        <TextView android:textSize="22.0dip" android:textColor="@color/RGB_100_100_116_255" android:gravity="left|center" android:id="@id/sns_name_textview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/bg_popup_middle_default" android:paddingLeft="38.0dip" android:paddingTop="9.0dip" android:paddingRight="25.0dip" android:layout_width="fill_parent" android:layout_height="152.0dip">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="104.0dip">
+            <EditText android:scrollbarThumbVertical="@drawable/scroll_bar" android:textSize="20.0dip" android:textColor="@color/RGB_100_210_210_210" android:gravity="top" android:id="@id/sns_posting_content_edittext" android:background="@drawable/popup_textbox_light" android:padding="12.0dip" android:scrollbars="vertical" android:layout_width="494.0dip" android:layout_height="fill_parent" android:lines="4" />
+        </LinearLayout>
+        <TextView android:textSize="14.0dip" android:textColor="@color/RGB_100_221_17_17" android:gravity="center" android:id="@id/sns_posting_twitter_warning_textview" android:paddingRight="25.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/bg_popup_bottom" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="6.0dip" android:layout_width="@dimen/popup_width" android:layout_height="72.0dip">
+        <Button android:textSize="23.0dip" android:textColor="@drawable/common_selector_button_popup_cancel_textcolor" android:id="@id/sns_posting_cancel_btn" android:background="@drawable/common_selector_button_popup_cancel_background" android:layout_width="278.0dip" android:layout_height="66.0dip" android:text="@string/common_button_cancel" android:layout_weight="1.0" />
+        <ImageView android:background="@drawable/popup_bottom_divider" android:layout_width="1.0px" android:layout_height="66.0dip" android:layout_alignParentTop="true" />
+        <Button android:textSize="23.0dip" android:textColor="@drawable/common_selector_button_popup_ok_textcolor" android:id="@id/sns_posting_ok_btn" android:background="@drawable/common_selector_button_popup_cancel_background" android:layout_width="278.0dip" android:layout_height="66.0dip" android:layout_marginLeft="0.0px" android:text="@string/common_button_ok" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

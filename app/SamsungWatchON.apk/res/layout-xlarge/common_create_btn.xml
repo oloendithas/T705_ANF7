@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_createtitle" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="75.0dip">
+        <ImageView android:id="@id/iv_create" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:src="@drawable/ics_selector_btn_create" />
+        <TextView android:textSize="22.0dip" android:textColor="@drawable/selector_color_sub_header_text" android:gravity="center_vertical" android:id="@id/add_new_payment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:minHeight="75.0dip" android:text="@string/add_new_payment_method" />
+    </LinearLayout>
+    <TextView android:background="@color/horizontal_view_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

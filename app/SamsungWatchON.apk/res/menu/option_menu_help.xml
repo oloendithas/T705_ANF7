@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/om_my_questions" android:title="@string/common_title_my_questions" android:showAsAction="never" />
+    <item android:id="@id/om_faq" android:title="@string/common_title_faq" android:showAsAction="never" />
+    <item android:id="@id/om_contact_us" android:title="@string/common_title_contactus" android:showAsAction="never" />
+</menu>

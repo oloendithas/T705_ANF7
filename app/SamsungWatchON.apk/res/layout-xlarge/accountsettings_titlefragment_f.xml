@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/RGB_100_31_35_41" android:layout_width="fill_parent" android:layout_height="357.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/accountsettings_signin_layout" android:background="@drawable/menu_box_bg" android:padding="9.0dip" android:layout_width="fill_parent" android:layout_height="126.0dip" android:layout_margin="15.0dip" android:layout_weight="1.0" android:layout_alignParentBottom="true">
+        <TextView android:textSize="18.0dip" android:textColor="@color/RGB_100_212_213_214" android:gravity="center" android:id="@id/accountsettings_samsungaccount" android:layout_width="fill_parent" android:layout_height="22.0dip" android:layout_marginTop="16.0dip" android:text="@string/common_title_samsung_account" android:includeFontPadding="false" />
+        <Button android:gravity="center" android:id="@id/accountsettings_signin" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" android:text="@string/common_button_sign_in" android:layout_below="@id/accountsettings_samsungaccount" style="@style/Common.Button.Blue" />
+    </RelativeLayout>
+    <ImageView android:background="@drawable/ta_list_line" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    <ListView android:layout_gravity="left" android:id="@id/accountsettings_title_list" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.0dip" android:listSelector="#00000000" android:divider="@drawable/left_menu_divider" android:dividerHeight="1.0px" android:choiceMode="singleChoice" android:layout_weight="0.0" android:layout_above="@id/accountsettings_signin_layout" />
+</RelativeLayout>

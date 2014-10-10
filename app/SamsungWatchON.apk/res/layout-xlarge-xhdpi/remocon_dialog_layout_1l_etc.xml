@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/btn_etc_power" android:clickable="true" android:layout_width="69.0dip" android:layout_height="71.0dip" android:layout_marginLeft="127.0dip" android:layout_marginTop="0.0dip" android:src="@drawable/remocon_btn_power" android:contentDescription="@string/tts_power" />
+    <RelativeLayout android:id="@id/remocon_vol_play_layout_1l_etc" android:layout_width="231.0dip" android:layout_height="228.0dip" android:layout_marginLeft="46.0dip" android:layout_marginTop="66.0dip">
+        <RelativeLayout android:id="@id/remocon_vol_layout_1l_etc" android:background="@drawable/btn_volume" android:layout_width="81.0dip" android:layout_height="228.0dip">
+            <Button android:id="@id/btn_volumeup_1l_etc" android:background="@null" android:layout_width="fill_parent" android:layout_height="85.0dip" android:layout_alignParentTop="true" android:contentDescription="@string/tts_volume_up" />
+            <Button android:id="@id/btn_volumedown_1l_etc" android:background="@null" android:layout_width="fill_parent" android:layout_height="85.0dip" android:layout_alignParentBottom="true" android:contentDescription="@string/tts_volume_down" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/remocon_playstopkey_layout_1l_etc" android:layout_width="102.0dip" android:layout_height="180.0dip" android:layout_marginLeft="49.0dip" android:layout_marginTop="23.0dip" android:layout_toRightOf="@id/remocon_vol_layout_1l_etc">
+            <Button android:id="@id/btn_play_pause_1l_etc" android:background="@drawable/remocon_btn_keypad_play_1" android:layout_width="51.0dip" android:layout_height="50.0dip" android:contentDescription="@string/tts_play" />
+            <Button android:id="@id/btn_stop_1l_etc" android:background="@drawable/remocon_btn_keypad_stop_1" android:layout_width="51.0dip" android:layout_height="50.0dip" android:layout_toRightOf="@id/btn_play_pause_1l_etc" android:contentDescription="@string/tts_stop" />
+            <Button android:id="@id/btn_r_1l_etc" android:background="@drawable/remocon_btn_keypad_rewind_1" android:layout_width="51.0dip" android:layout_height="50.0dip" android:layout_marginTop="15.0dip" android:layout_below="@id/btn_play_pause_1l_etc" android:contentDescription="@string/tts_rewind" />
+            <Button android:id="@id/btn_f_1l_etc" android:background="@drawable/remocon_btn_keypad_ff_1" android:layout_width="51.0dip" android:layout_height="50.0dip" android:layout_toRightOf="@id/btn_r_1l_etc" android:layout_alignTop="@id/btn_r_1l_etc" android:contentDescription="@string/tts_fast_forward" />
+            <Button android:id="@id/btn_rr_1l_etc" android:background="@drawable/remocon_btn_keypad_prev_1" android:layout_width="51.0dip" android:layout_height="50.0dip" android:layout_marginTop="15.0dip" android:layout_below="@id/btn_r_1l_etc" android:contentDescription="@string/tts_previous" />
+            <Button android:id="@id/btn_fr_1l_etc" android:background="@drawable/remocon_btn_keypad_next_1" android:layout_width="51.0dip" android:layout_height="50.0dip" android:layout_toRightOf="@id/btn_rr_1l_etc" android:layout_alignTop="@id/btn_rr_1l_etc" android:contentDescription="@string/tts_next" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/remocon_mute_src_layout_1l_etc" android:layout_width="222.0dip" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="13.0dip" android:layout_below="@id/remocon_vol_play_layout_1l_etc">
+        <RelativeLayout android:id="@id/remocon_mute_layout_1l_etc" android:layout_width="72.0dip" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/btn_mute_1l_etc" android:background="@null" android:layout_width="72.0dip" android:layout_height="75.0dip" android:src="@drawable/remocon_btn_mute" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@string/remocon_mute" />
+            <TextView android:textSize="17.0dip" android:textColor="@color/RGB_100_202_202_202" android:ellipsize="end" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/remocon_mute" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/btn_mute_1l_etc" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/remocon_source_layout" android:layout_width="72.0dip" android:layout_height="fill_parent" android:layout_marginLeft="78.0dip">
+            <ImageButton android:id="@id/btn_source_1l_etc" android:background="@null" android:layout_width="72.0dip" android:layout_height="75.0dip" android:src="@drawable/remocon_btn_source" android:scaleType="fitXY" android:contentDescription="@string/remocon_source" />
+            <TextView android:textSize="17.0dip" android:textColor="@color/RGB_100_202_202_202" android:ellipsize="end" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/remocon_source" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/btn_source_1l_etc" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layout_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/common_layout_categorybar_i" />
+    <FrameLayout android:id="@id/common_product_layout" android:background="@color/RGB_22_18_38" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/common_categorybar_layout">
+        <RelativeLayout android:id="@id/common_genre_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/common_genre_list_fragment_layout" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="263.0dip" android:layout_height="fill_parent" android:layout_alignLeft="@id/common_genre_layout" />
+            <FrameLayout android:id="@id/tv_show_layout_detailview_fragment" android:background="@drawable/bg_leftmenu_01_port" android:paddingLeft="70.0dip" android:paddingRight="30.0dip" android:layout_width="@dimen/tv_guide_genre_detail_width" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/tv_guide_genre_detail_marginLeft" />
+            <Button android:id="@id/common_genre_list_expand_button" android:background="@null" android:layout_width="50.0dip" android:layout_height="100.0dip" android:layout_marginTop="530.0dip" android:layout_alignRight="@id/common_genre_list_fragment_layout" />
+            <FrameLayout android:id="@id/common_genre_product_fragment_layout" android:layout_width="537.0dip" android:layout_height="fill_parent" android:layout_toRightOf="@id/common_genre_list_fragment_layout" />
+        </RelativeLayout>
+        <FrameLayout android:id="@id/common_thumbnaillist_layout" android:paddingLeft="18.0dip" android:paddingTop="180.0dip" android:paddingBottom="180.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.sec.msc.android.yosemite.ui.common.CommonThumbnailScrollAdapterView android:scrollbarThumbHorizontal="@drawable/scroll_bar" android:id="@id/common_thumbnaillist_scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="left" android:id="@id/common_thumbnaillist_scrollview_shadow_start" android:background="@drawable/overscroll_glow_port" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <ImageView android:layout_gravity="right" android:id="@id/common_thumbnaillist_scrollview_shadow" android:background="@drawable/overscroll_glow_port" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:rotation="180.0" />
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>

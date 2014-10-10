@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/btn_preview_play" android:background="@drawable/ics_selector_btn_normal" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:minHeight="48.0dip">
+        <TextView android:gravity="center" android:id="@id/tv_preview_play" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/view_trailer" style="@style/btnText" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_btn_purchase" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/btn_buy" android:background="@drawable/ics_selector_btn_normal" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:minHeight="48.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_buy_promotion" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/selector_icon_promotion" />
+            <TextView android:gravity="center" android:id="@id/tv_buy" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/btnText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/btn_rent" android:background="@drawable/ics_selector_btn_normal" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:minHeight="48.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_rent_promotion" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/selector_icon_promotion" />
+            <TextView android:gravity="center" android:id="@id/tv_rent" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/btnText" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/title_bar_bg" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/activebar_menu_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_search_button" android:background="@drawable/activebar_selector_button_background" android:clickable="true" android:layout_width="56.0dip" android:layout_height="55.0dip" android:contentDescription="@string/activebar_search">
+                <View android:background="@drawable/tw_divider_ab_holo_dark" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                <ImageView android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/activebar_selector_button_search" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_tv_disconnection_button" android:background="@drawable/activebar_selector_button_background" android:clickable="true" android:layout_width="56.0dip" android:layout_height="55.0dip" android:contentDescription="@string/common_title_tv_connection">
+                <View android:background="@drawable/tw_divider_ab_holo_dark" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                <ImageView android:id="@id/activebar_tv_disconnection_image" android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/activebar_selector_button_tv_disconnect" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_tv_connect_layout" android:paddingLeft="1.0dip" android:paddingRight="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="56.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_tv_connection_button" android:background="@drawable/activebar_selector_button_background" android:clickable="true" android:layout_width="56.0dip" android:layout_height="55.0dip" android:contentDescription="@string/common_title_tv_connection">
+                    <View android:background="@drawable/tw_divider_ab_holo_dark" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                    <ImageView android:id="@id/activebar_tv_connection_image" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/ic_tv_connection" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_bring_from_tv_button" android:background="@drawable/activebar_selector_button_background" android:clickable="true" android:layout_width="56.0dip" android:layout_height="55.0dip" android:contentDescription="@string/om_bring_from_tv">
+                    <ImageView android:background="@drawable/tw_divider_ab_holo_dark" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                    <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/ic_bring_from_tv" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_remocontrol_button01" android:background="@drawable/activebar_selector_button_background" android:clickable="true" android:layout_width="56.0dip" android:layout_height="55.0dip" android:contentDescription="@string/om_remocon">
+                    <ImageView android:background="@drawable/tw_divider_ab_holo_dark" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                    <ImageView android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/activebar_selector_button_remocon" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_remocontrol_button02" android:background="@drawable/activebar_selector_button_background" android:clickable="true" android:layout_width="56.0dip" android:layout_height="55.0dip" android:contentDescription="@string/om_remocon">
+                <View android:background="@drawable/tw_divider_ab_holo_dark" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                <ImageView android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/activebar_selector_button_remocon" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_list_view_button" android:background="@drawable/activebar_selector_button_background" android:clickable="true" android:layout_width="56.0dip" android:layout_height="55.0dip" android:contentDescription="@string/om_list_style">
+                <View android:background="@drawable/tw_divider_ab_holo_dark" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/ic_list_view" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_thumbnail_view_button" android:background="@drawable/activebar_selector_button_background" android:clickable="true" android:layout_width="56.0dip" android:layout_height="55.0dip" android:contentDescription="@string/om_grid_style">
+                <View android:background="@drawable/tw_divider_ab_holo_dark" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/ic_thumbnail_view" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_refresh_button" android:background="@drawable/activebar_selector_button_background" android:visibility="gone" android:clickable="true" android:layout_width="56.0dip" android:layout_height="55.0dip" android:contentDescription="@string/om_refresh">
+                <View android:background="@drawable/tw_divider_ab_holo_dark" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                <ImageView android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/activebar_selector_button_refresh" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_remove_button" android:background="@drawable/activebar_selector_button_background" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="55.0dip">
+                <TextView android:textSize="23.0dip" android:textColor="@drawable/common_selector_actionbar_textcolor" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="16.0dip" android:text="@string/common_button_remove" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_cancel_button" android:background="@drawable/activebar_selector_button_background" android:clickable="true" android:layout_width="wrap_content" android:layout_height="55.0dip">
+                <View android:background="@drawable/tw_divider_ab_holo_dark" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                <ImageView android:id="@id/button_cancel" android:visibility="gone" android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/activebar_selector_button_cancel" />
+                <TextView android:textSize="23.0dip" android:textColor="@drawable/common_selector_actionbar_textcolor" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="16.0dip" android:text="@string/common_button_cancel" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_done_button" android:background="@drawable/activebar_selector_button_background" android:clickable="true" android:layout_width="wrap_content" android:layout_height="55.0dip">
+                <View android:background="@drawable/tw_divider_ab_holo_dark" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                <ImageView android:id="@id/button_done" android:visibility="gone" android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/activebar_selector_button_remove_confirm" />
+                <TextView android:textSize="23.0dip" android:textColor="@drawable/common_selector_actionbar_textcolor" android:id="@id/activebar_done_button_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/common_button_done" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_menu_overflow_button" android:background="@drawable/activebar_selector_button_background" android:clickable="true" android:layout_width="56.0dip" android:layout_height="55.0dip" android:contentDescription="@string/livetv_more">
+                <View android:background="@drawable/tw_divider_ab_holo_dark" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/activebar_selector_option_menu" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_addaccount_button" android:background="@drawable/activebar_selector_button_background" android:visibility="gone" android:clickable="true" android:layout_width="56.0dip" android:layout_height="55.0dip" android:contentDescription="@string/activebar_account">
+                <View android:background="@drawable/tw_divider_ab_holo_dark" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/ic_add" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_cancel_button_with_text" android:background="@drawable/activebar_selector_button_background" android:clickable="true" android:layout_width="wrap_content" android:layout_height="55.0dip">
+                <View android:background="@drawable/tw_divider_ab_holo_dark" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                <ImageView android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/activebar_selector_button_cancel" />
+                <TextView android:textSize="20.0dip" android:textColor="@drawable/common_selector_actionbar_textcolor" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginRight="8.0dip" android:text="@string/common_button_cancel" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_delete_button_with_text" android:background="@drawable/activebar_selector_button_background" android:clickable="true" android:layout_width="wrap_content" android:layout_height="55.0dip">
+                <View android:background="@drawable/tw_divider_ab_holo_dark" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                <ImageView android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/activebar_selector_button_remove_confirm" />
+                <TextView android:textSize="20.0dip" android:textColor="@drawable/common_selector_actionbar_textcolor" android:id="@id/activebar_delete_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginRight="8.0dip" android:text="@string/common_button_remove" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/activebar_search_menu_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/activebar_scan_through_button" android:background="@drawable/activebar_selector_button_background" android:clickable="true" android:layout_width="56.0dip" android:layout_height="55.0dip">
+                <View android:background="@drawable/tw_divider_ab_holo_dark" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/ic_scan_throgh" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/activebar_advanced_search_button" android:background="@drawable/activebar_selector_button_background" android:clickable="true" android:layout_width="56.0dip" android:layout_height="55.0dip" android:layout_alignParentRight="true" android:contentDescription="@string/common_title_advancedsearch">
+                <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_advanced_search" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/activebar_home_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+        <RelativeLayout android:id="@id/activebar_up_navigation_layout" android:background="@drawable/activebar_selector_button_background" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/tts_navigate_up">
+            <RelativeLayout android:id="@id/activebar_arrow_image_layout" android:paddingLeft="8.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+                <ImageView android:id="@id/activebar_arrow_image" android:layout_width="16.0dip" android:layout_height="22.0dip" android:src="@drawable/title_arrow_icon_01" android:scaleType="center" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/activebar_logo_image" android:padding="2.0dip" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/title_logo" android:layout_toRightOf="@id/activebar_arrow_image_layout" android:layout_centerVertical="true" android:contentDescription="@string/tts_navigate_up" />
+            <TextView android:textSize="30.0dip" android:textColor="@color/RGB_237_237_237" android:id="@id/activebar_title_text" android:paddingRight="8.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/app_name" android:singleLine="true" android:layout_toRightOf="@id/activebar_logo_image" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/activebar_search_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_marginLeft="0.0dip">
+            <TextView android:textSize="22.0dip" android:textColor="@drawable/common_selector_dropdown_textcolor" android:gravity="center_vertical" android:id="@id/activebar_search_option_text" android:background="@drawable/common_selector_dropdown_background" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="18.0dip" android:paddingBottom="8.0dip" android:clickable="true" android:layout_width="258.0dip" android:layout_height="46.0dip" android:includeFontPadding="false" />
+            <RelativeLayout android:id="@id/activebar_search_input_layout" android:background="@drawable/common_selector_search_background" android:clickable="true" android:layout_width="284.0dip" android:layout_height="46.0dip" android:layout_marginLeft="12.0dip">
+                <ImageView android:id="@id/activebar_search_clear_image" android:background="@drawable/common_selector_search_clear_background" android:visibility="invisible" android:clickable="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/tw_ic_clear_search_api_holo_dark" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/common_button_cancel" />
+                <EditText android:textSize="20.0dip" android:textColor="@color/RGB_218_218_218" android:gravity="center_vertical" android:id="@id/activebar_search_edittext" android:background="@android:color/transparent" android:paddingLeft="4.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="100" android:layout_toLeftOf="@id/activebar_search_clear_image" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:imeOptions="actionSearch" />
+                <LinearLayout android:id="@id/search_hint_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/activebar_search_image" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/tw_ic_search" />
+                    <TextView android:textSize="18.0dip" android:textColor="@color/RGB_100_138_140_143" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/search_hint_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/activebar_search" android:singleLine="true" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView android:textSize="20.0dip" android:textColor="@drawable/common_selector_dropdown_textcolor" android:gravity="center_vertical" android:id="@id/activebar_category_text" android:background="@drawable/common_selector_dropdown_background" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:clickable="true" android:layout_width="156.0dip" android:layout_height="50.0dip" android:layout_marginLeft="8.0dip" android:text="@string/common_title_tvshows" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/activebar_tab_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_centerInParent="true">
+        <Button android:textSize="20.0dip" android:textColor="@drawable/activebar_selector_tab_textcolor" android:ellipsize="end" android:gravity="center" android:id="@id/activebar_tab_vod" android:background="@drawable/activebar_selector_tab_background" android:layout_width="180.0dip" android:layout_height="40.0dip" android:text="@string/common_title_on_tv" android:singleLine="true" android:includeFontPadding="false" />
+        <Button android:textSize="20.0dip" android:textColor="@drawable/activebar_selector_tab_textcolor" android:ellipsize="end" android:gravity="center" android:id="@id/activebar_tab_video" android:background="@drawable/activebar_selector_tab_background" android:layout_width="180.0dip" android:layout_height="40.0dip" android:text="@string/common_title_on_demand" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+</RelativeLayout>

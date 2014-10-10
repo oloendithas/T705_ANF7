@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NoDialogFrame" parent="@android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="q_header_app_name">
+        <item name="android:textSize">21.0dip</item>
+        <item name="android:textColor">#ff161f23</item>
+    </style>
+    <style name="q_header_device_name">
+        <item name="android:textSize">21.0dip</item>
+        <item name="android:textColor">@color/RGB_22_31_35</item>
+    </style>
+    <style name="q_header_button">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">@color/RGB_100_0_0_0</item>
+    </style>
+    <style name="q_remocon_body">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">@color/RGB_202_202_202</item>
+    </style>
+    <style name="Theme.Common.Launcher" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="widget_void_title" parent="@android:style/TextAppearance.Medium" />
+    <style name="Widget_refresh_text">
+        <item name="android:shadowColor">@color/RGB_50_255_255_255</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">4.0</item>
+    </style>
+    <style name="TextShadow">
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="SubCategory_tvdpi_v19">
+        <item name="android:textSize">@dimen/subcategory_font_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/RGB_237_237_237</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@drawable/bar_category</item>
+        <item name="android:paddingLeft">19.0dip</item>
+        <item name="android:paddingRight">11.0dip</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/subcategory_height</item>
+    </style>
+    <style name="style_popup_top_layout">
+        <item name="android:textSize">25.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/RGB_100_100_116_255</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@drawable/bg_popup_top</item>
+        <item name="android:paddingLeft">38.0dip</item>
+        <item name="android:paddingTop">@dimen/popup_padding_shadow_top</item>
+        <item name="android:paddingRight">38.0dip</item>
+        <item name="android:layout_width">@dimen/popup_width</item>
+        <item name="android:layout_height">72.0dip</item>
+    </style>
+    <style name="style_popup_middle_layout">
+        <item name="android:background">@drawable/bg_popup_middle_default</item>
+        <item name="android:paddingLeft">38.0dip</item>
+        <item name="android:paddingTop">@dimen/popup_middle_padding_top</item>
+        <item name="android:paddingRight">38.0dip</item>
+        <item name="android:paddingBottom">@dimen/popup_middle_padding_bottom</item>
+        <item name="android:layout_width">@dimen/popup_width</item>
+    </style>
+    <style name="style_popup_middle_no_bottom_layout" parent="@style/style_popup_middle_layout">
+        <item name="android:background">@drawable/bg_popup_bottom_no_btn</item>
+    </style>
+    <style name="style_popup_middle_list_layout">
+        <item name="android:background">@drawable/bg_popup_middle_default</item>
+        <item name="android:paddingLeft">@dimen/popup_padding_shadow_left</item>
+        <item name="android:paddingRight">@dimen/popup_padding_shadow_right</item>
+        <item name="android:layout_width">@dimen/popup_width</item>
+    </style>
+    <style name="style_popup_bottom_layout">
+        <item name="android:background">@drawable/bg_popup_bottom</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:layout_width">@dimen/popup_width</item>
+        <item name="android:layout_height">69.0dip</item>
+    </style>
+    <style name="style_popup_button">
+        <item name="android:textSize">23.0dip</item>
+        <item name="android:textColor">@drawable/common_selector_button_textcolor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/common_selector_button_popup_background</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">66.0dip</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="TextShadow.43_135_200" parent="@style/TextShadow">
+        <item name="android:shadowColor">@color/RGB_100_43_135_200</item>
+    </style>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="570.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:background="@drawable/bg_popup_top" android:paddingLeft="30.0dip" android:paddingTop="18.0dip" android:paddingRight="30.0dip" android:paddingBottom="18.0dip" android:layout_width="@dimen/popup_width" android:layout_height="@dimen/popup_top_height">
+            <TextView android:textSize="24.0dip" android:textColor="@color/RGB_100_100_116_255" android:gravity="center_vertical" android:id="@id/popup_register_credit_card_title_textview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/common_title_register_credit_card" />
+        </LinearLayout>
+        <ScrollView android:scrollbarThumbVertical="@drawable/scroll_bar" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/bg_popup_middle_default" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="@dimen/popup_width" android:layout_height="378.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                    <TextView android:textSize="20.0dip" android:textColor="@color/RGB_100_255_255_255" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/register_credit_card_cardtype" />
+                    <TextView android:textSize="20.0dip" android:textColor="@drawable/common_selector_dropdown_textcolor" android:gravity="center_vertical" android:id="@id/popup_register_credit_card_cardtype_textview" android:background="@drawable/common_selector_dropdown_background" android:paddingLeft="8.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.0dip">
+                    <TextView android:textSize="20.0dip" android:textColor="@color/RGB_100_255_255_255" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/register_credit_card_cardnumber" />
+                    <EditText android:textSize="20.0dip" android:textColor="@drawable/common_selector_input_textcolor" android:textColorHint="@color/RGB_100_138_140_143" android:gravity="center_vertical" android:id="@id/popup_register_credit_card_cardnumber_edittext" android:background="@drawable/common_selector_input_background" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:nextFocusDown="@id/popup_register_credit_card_securitycode_edittext" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" android:hint="@string/register_credit_card_cardnumber" android:singleLine="true" android:digits="0123456789" android:inputType="number" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.0dip">
+                    <TextView android:textSize="20.0dip" android:textColor="@color/RGB_100_255_255_255" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/register_credit_card_securitycode" />
+                    <EditText android:textSize="20.0dip" android:textColor="@drawable/common_selector_input_textcolor" android:textColorHint="@color/RGB_100_138_140_143" android:gravity="center_vertical" android:id="@id/popup_register_credit_card_securitycode_edittext" android:background="@drawable/common_selector_input_background" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" android:hint="@string/register_credit_card_securitycode" android:singleLine="true" android:digits="0123456789" android:inputType="textPassword" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:layout_marginBottom="11.0dip">
+                    <TextView android:textSize="20.0dip" android:textColor="@color/RGB_100_255_255_255" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/select_paymentmethod_expiration_date" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                        <TextView android:textSize="20.0dip" android:textColor="@drawable/common_selector_dropdown_textcolor" android:gravity="center_vertical" android:id="@id/popup_register_credit_card_expiredate_prev_textview" android:background="@drawable/common_selector_dropdown_background" android:paddingLeft="8.0dip" android:clickable="true" android:layout_width="245.0dip" android:layout_height="40.0dip" />
+                        <TextView android:textSize="20.0dip" android:textColor="@drawable/common_selector_dropdown_textcolor" android:gravity="center_vertical" android:id="@id/popup_register_credit_card_expiredate_next_textview" android:background="@drawable/common_selector_dropdown_background" android:paddingLeft="8.0dip" android:clickable="true" android:layout_width="245.0dip" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/popup_width" style="@style/style_popup_bottom_layout">
+            <Button android:id="@id/popup_register_credit_card_cancel_btn" android:text="@string/common_button_cancel" style="@style/style_popup_button" />
+            <ImageView android:background="@drawable/popup_bottom_divider" android:layout_width="1.0px" android:layout_height="66.0dip" android:layout_alignParentTop="true" />
+            <Button android:enabled="false" android:id="@id/popup_register_credit_card_register_btn" android:text="@string/popup_register_credit_card_register" style="@style/style_popup_button" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

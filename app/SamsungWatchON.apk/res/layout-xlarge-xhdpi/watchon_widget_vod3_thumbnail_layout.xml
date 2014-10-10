@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/watchon_vod_thumbnail_layout03" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="142.0dip">
+            <RelativeLayout android:layout_gravity="center" android:background="@drawable/widget_thumbnail_bg" android:layout_width="fill_parent" android:layout_height="142.0dip">
+                <ImageView android:id="@id/watchon_widget_vod_program_img3" android:background="@color/RGB_73_78_84" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/tw_noitem_movie" android:scaleType="fitCenter" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="left" android:orientation="vertical" android:background="@drawable/widget_text_bg" android:layout_width="fill_parent" android:layout_height="49.0dip">
+            <TextView android:textSize="17.0dip" android:typeface="sans" android:textColor="@color/RGB_100_255_255_255" android:ellipsize="marquee" android:gravity="left" android:id="@id/watchon_widget_vod_title3" android:layout_width="84.0dip" android:layout_height="21.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:singleLine="true" android:includeFontPadding="false" style="@style/widget_void_title" />
+            <TextView android:textSize="15.0dip" android:typeface="sans" android:textColor="@color/RGB_100_204_204_204" android:ellipsize="marquee" android:gravity="left" android:id="@id/watchon_widget_vod_genre3" android:layout_width="84.0dip" android:layout_height="19.0dip" android:layout_marginLeft="5.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/watchon_widget_vod_title3" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

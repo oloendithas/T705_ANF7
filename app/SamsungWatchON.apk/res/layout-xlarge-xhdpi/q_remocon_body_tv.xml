@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="476.0dip" android:layout_height="403.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/btn_onoff" android:background="@drawable/q_btn_onoff_states" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="66.0dip" android:layout_marginRight="69.0dip" android:layout_toLeftOf="@id/channel_up" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:layout_below="@id/btn_onoff" android:layout_alignLeft="@id/btn_onoff" android:layout_centerHorizontal="true">
+        <ImageButton android:id="@id/btn_watchon" android:background="@drawable/q_btn_tv_states" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_title" />
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_title" style="@style/q_remocon_body" />
+    </LinearLayout>
+    <ImageButton android:id="@id/volumn_up" android:background="@drawable/q_btn_volume_plus_states" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="52.0dip" android:layout_marginTop="39.0dip" android:layout_alignParentLeft="true" />
+    <ImageButton android:id="@id/volumn_down" android:background="@drawable/q_btn_volume_minus_states" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/volumn_up" android:layout_alignLeft="@id/volumn_up" />
+    <ImageButton android:id="@id/channel_up" android:background="@drawable/q_btn_channel_up_states" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="39.0dip" android:layout_marginRight="52.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ImageButton android:id="@id/channel_down" android:background="@drawable/q_btn_channel_down_states" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/channel_up" android:layout_alignLeft="@id/channel_up" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btn_mute_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="56.0dip" android:layout_marginTop="284.0dip" android:layout_alignParentLeft="true">
+        <ImageButton android:id="@id/btn_mute" android:background="@drawable/q_btn_mute_states" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remocon_mute" style="@style/q_remocon_body" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="284.0dip" android:layout_marginRight="56.0dip" android:layout_alignParentRight="true">
+        <ImageButton android:id="@id/btn_source_select" android:background="@drawable/q_btn_source_states" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/remocon_source" />
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remocon_source" style="@style/q_remocon_body" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btn_settings_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/linearLayout1" android:layout_alignRight="@id/btn_onoff">
+        <ImageButton android:id="@id/btn_settings" android:background="@drawable/q_btn_settings_states" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_title_settings" style="@style/q_remocon_body" />
+    </LinearLayout>
+</RelativeLayout>

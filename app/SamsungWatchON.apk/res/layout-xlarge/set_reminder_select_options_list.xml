@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="582.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="582.0dip" android:layout_height="351.0dip" style="@style/style_popup_middle_layout">
+        <TextView android:textSize="24.0dip" android:textColor="@color/RGB_0_176_241" android:gravity="center_vertical" android:id="@id/set_reminder_text" android:paddingLeft="5.0dip" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tvguide_channels_set_reminder" android:includeFontPadding="false" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <ListView android:id="@id/set_reminder_list" android:paddingRight="@dimen/brand_list_listindex_w" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/common_list_selector" android:divider="@color/RGB_10_255_255_255" android:dividerHeight="1.0px" android:choiceMode="singleChoice" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="6.0dip" android:layout_width="582.0dip" android:layout_height="72.0dip" style="@style/style_popup_bottom_layout">
+        <LinearLayout android:gravity="center" android:id="@id/set_reminder_cancel_btn" android:clickable="true" android:layout_width="fill_parent" android:layout_height="66.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="1.0px" style="@style/style_popup_button">
+            <TextView android:textSize="23.0dip" android:textColor="@drawable/common_selector_button_popup_ok_textcolor" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_button_cancel" android:includeFontPadding="false" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/set_reminder_close_btn" android:clickable="true" android:layout_width="fill_parent" android:layout_height="66.0dip" android:layout_marginTop="0.0dip" style="@style/style_popup_button">
+            <TextView android:textSize="23.0dip" android:textColor="@drawable/common_selector_button_popup_cancel_textcolor" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_button_ok" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

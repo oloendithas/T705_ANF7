@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/common_list_background" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/purchased_thumbnail_image_layout" android:background="@color/RGB_23_27_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:layout_alignParentLeft="true">
+        <ImageView android:layout_gravity="center" android:id="@id/purchased_thumbnail_default_image" android:duplicateParentState="true" android:layout_width="75.0dip" android:layout_height="106.0dip" android:scaleType="fitXY" />
+        <com.sec.msc.android.yosemite.ui.common.view.web.WebImageView android:layout_gravity="center" android:id="@id/purchased_thumbnail_image" android:duplicateParentState="true" android:layout_width="75.0dip" android:layout_height="106.0dip" android:scaleType="fitCenter" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/purchased_button_layout" android:layout_width="wrap_content" android:layout_height="106.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/purchased_play_button" android:background="@drawable/common_selector_button_white" android:visibility="gone" android:layout_width="49.0dip" android:layout_height="49.0dip" android:src="@drawable/launches_player" android:scaleType="centerInside" android:contentDescription="@string/common_button_play" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/purchased_more_button" android:visibility="gone" android:layout_width="49.0dip" android:layout_height="32.0dip" android:src="@drawable/common_button_morearrow" android:scaleType="fitCenter" android:contentDescription="@string/livetv_more" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/RGB_100_221_17_17" android:gravity="center" android:id="@id/purchased_expired_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/purchased_expired" android:singleLine="true" android:includeFontPadding="false" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/purchased_contents_info" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="106.0dip" android:layout_toLeftOf="@id/purchased_button_layout" android:layout_toRightOf="@id/purchased_thumbnail_image_layout">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginBottom="3.0dip">
+            <RelativeLayout android:id="@id/purchased_cp_image_layout" android:layout_width="44.0dip" android:layout_height="21.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/purchased_cp_default_image" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+                <com.sec.msc.android.yosemite.ui.common.view.web.WebImageView android:layout_gravity="center" android:id="@id/purchased_cp_image" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            </RelativeLayout>
+            <TextView android:textSize="22.0dip" android:textColor="@drawable/common_list_text_1line" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/purchased_title" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+            <ImageView android:id="@id/purchased_quality_image" android:visibility="gone" android:layout_width="37.0dip" android:layout_height="19.0dip" android:layout_marginLeft="8.0dip" android:scaleType="fitCenter" android:layout_weight="0.0" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/purchased_device_tag_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="19.0dip" android:layout_marginLeft="12.0dip" android:layout_weight="0.0">
+                <ImageView android:id="@id/purchased_tag_tv_image" android:layout_width="21.0dip" android:layout_height="fill_parent" android:layout_marginRight="3.0dip" android:src="@drawable/tag_tv" android:scaleType="fitXY" />
+                <ImageView android:id="@id/purchased_tag_mobile_image" android:layout_width="21.0dip" android:layout_height="fill_parent" android:src="@drawable/tag_mobile" android:scaleType="fitXY" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="18.0dip" android:textColor="@drawable/common_list_text_2line" android:ellipsize="end" android:id="@id/purchased_purchase_status" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="19.0dip" android:layout_marginBottom="3.0dip" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="18.0dip" android:textColor="@drawable/common_list_text_2line" android:ellipsize="end" android:id="@id/purchased_purchase_expiration_date" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="19.0dip" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+</RelativeLayout>

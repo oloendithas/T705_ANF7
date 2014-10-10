@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/genreedit_popup_title" android:text="@string/common_text_genre_edit" style="@style/style_popup_top_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/genreedit_content_layout" android:paddingLeft="@dimen/popup_middleone_list_layout_padding_left" android:paddingRight="@dimen/popup_middleone_list_layout_padding_right" android:layout_height="@dimen/tv_guide_genre_edit_poput_list_height" style="@style/style_popup_middle_list_layout">
+        <com.sec.msc.android.yosemite.ui.common.genreedit.CommonGenreEditListView android:scrollbarThumbVertical="@drawable/scroll_bar" android:id="@id/genrelist" android:background="@color/RGB_23_27_33" android:clickable="false" android:drawingCacheQuality="high" android:layout_width="fill_parent" android:layout_height="0.0dip" android:drawSelectorOnTop="false" android:cacheColorHint="#00000000" android:divider="@color/RGB_23_27_33" android:dividerHeight="0.0dip" android:layout_weight="1.0" android:fastScrollEnabled="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" style="@style/style_popup_bottom_layout">
+        <Button android:id="@id/genre_cancel" android:text="@string/common_button_cancel" style="@style/style_popup_button" />
+        <Button android:id="@id/genre_ok" android:layout_marginLeft="4.0dip" android:text="@string/tvguide_genre_apply" style="@style/style_popup_button" />
+    </LinearLayout>
+</LinearLayout>

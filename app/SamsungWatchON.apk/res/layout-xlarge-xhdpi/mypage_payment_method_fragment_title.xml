@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/bar_category" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/RGB_100_255_255_255" android:gravity="left|center" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="14.0dip" android:text="@string/popup_payment_method_giftcards_coupons" />
+    </LinearLayout>
+</LinearLayout>

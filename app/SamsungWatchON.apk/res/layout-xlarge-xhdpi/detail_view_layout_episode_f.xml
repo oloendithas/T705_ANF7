@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/detail_episode_shadow" android:background="@drawable/detailview_divider_line_02" android:visibility="gone" android:layout_width="2.0px" android:layout_height="fill_parent" />
+    <ImageView android:background="@drawable/detailview_divider_line_02" android:layout_width="2.0px" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Spinner android:textSize="20.0dip" android:textColor="@drawable/common_selector_dropdown_textcolor" android:id="@id/detail_episode_spinner" android:background="@drawable/common_selector_dropdown_background_ep" android:visibility="gone" android:layout_width="309.0dip" android:layout_height="40.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="30.0dip" android:divider="@drawable/tw_list_divider" android:dividerHeight="1.0px" android:popupBackground="@drawable/list_bg" />
+        <ListView android:scrollbarThumbVertical="@drawable/scroll_bar" android:id="@id/detail_episode_list" android:layout_width="303.0dip" android:layout_height="fill_parent" android:layout_marginLeft="33.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="4.0dip" android:divider="@drawable/tw_spinner_divider_dark" android:dividerHeight="1.0px" />
+        <TextView android:textSize="20.0dip" android:gravity="center" android:id="@id/detail_episode_more" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_more" />
+    </LinearLayout>
+</LinearLayout>

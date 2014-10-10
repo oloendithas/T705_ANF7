@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.msc.android.yosemite.ui.common.CommonCategorybar android:orientation="horizontal" android:id="@id/common_categorybar_layout" android:background="@drawable/timelineview_bg" android:layout_width="fill_parent" android:layout_height="66.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/common_categorybar_scorllview" android:scrollbars="none" android:fadingEdge="horizontal" android:fadingEdgeLength="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" android:requiresFadingEdge="horizontal">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <Button android:textSize="@dimen/popup_button_font_size_categorybar" android:textColor="@drawable/common_selector_menu_2depth_textcolor" android:gravity="center" android:id="@id/recommended_btn" android:background="@drawable/common_selector_menu_subtab_background" android:visibility="gone" android:layout_width="201.0dip" android:layout_height="fill_parent" android:text="@string/common_title_recommended" style="@style/TextShadow" />
+            <LinearLayout android:id="@id/recommended_btn_right_divider" android:paddingTop="22.5dip" android:paddingBottom="22.5dip" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent">
+                <ImageView android:background="@drawable/tw_divider_subtab" android:layout_width="fill_parent" android:layout_height="21.0dip" />
+            </LinearLayout>
+            <Button android:textSize="@dimen/popup_button_font_size_categorybar" android:textColor="@drawable/common_selector_menu_2depth_textcolor" android:gravity="center" android:id="@id/whatsnew_btn" android:background="@drawable/common_selector_menu_subtab_background" android:layout_width="266.0dip" android:layout_height="fill_parent" android:text="@string/common_title_whatsnew" style="@style/TextShadow" />
+            <LinearLayout android:id="@id/whatsnew_btn_right_divider" android:paddingTop="22.5dip" android:paddingBottom="22.5dip" android:layout_width="1.0dip" android:layout_height="fill_parent">
+                <ImageView android:background="@drawable/tw_divider_subtab" android:layout_width="fill_parent" android:layout_height="21.0dip" />
+            </LinearLayout>
+            <Button android:textSize="@dimen/popup_button_font_size_categorybar" android:textColor="@drawable/common_selector_menu_2depth_textcolor" android:gravity="center" android:id="@id/mostpopular_btn" android:background="@drawable/common_selector_menu_subtab_background" android:layout_width="266.0dip" android:layout_height="fill_parent" android:text="@string/common_title_most_popular" style="@style/TextShadow" />
+            <LinearLayout android:id="@id/mostpopular_btn_right_divider" android:paddingTop="22.5dip" android:paddingBottom="22.5dip" android:layout_width="1.0dip" android:layout_height="fill_parent">
+                <ImageView android:background="@drawable/tw_divider_subtab" android:layout_width="fill_parent" android:layout_height="21.0dip" />
+            </LinearLayout>
+            <Button android:textSize="@dimen/popup_button_font_size_categorybar" android:textColor="@drawable/common_selector_menu_2depth_textcolor" android:gravity="center" android:id="@id/genres_btn" android:background="@drawable/common_selector_menu_subtab_background" android:layout_width="266.0dip" android:layout_height="fill_parent" android:text="@string/common_title_genre" style="@style/TextShadow" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</com.sec.msc.android.yosemite.ui.common.CommonCategorybar>

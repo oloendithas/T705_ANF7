@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/common_list_view" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_purchase_btns" android:background="@color/purchase_flow_soft_bg" android:paddingLeft="12.0dip" android:paddingRight="8.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="63.0dip">
+            <Button android:layout_gravity="center_vertical" android:id="@id/btn_buy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="109.0dip" android:minHeight="48.0dip" android:text="@string/pay" style="@style/btnText" />
+            <LinearLayout android:gravity="right|center" android:orientation="vertical" android:id="@id/ll_remaining_amount" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="15.0dip" android:textColor="@color/manage_dev_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remaining" />
+                <TextView android:textSize="15.0dip" android:textColor="@color/detail_view_info_sub_color" android:id="@id/tv_remaining_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/common_progress_white" />
+</RelativeLayout>

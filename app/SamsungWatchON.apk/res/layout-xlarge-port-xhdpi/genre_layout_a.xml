@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layout_root" android:background="@color/RGB_22_18_38" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/tv_guide_layout_genre_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/tv_guide_layout_genre_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/tv_guide_layout_genre_leftmenu_fragment" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="263.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@id/tv_guide_layout_genre_list_expand_button_layout" android:layout_width="43.0dip" android:layout_height="80.0dip" android:layout_marginLeft="@dimen/tv_guide_genre_detail_marginLeft" android:layout_marginTop="531.0dip" android:layout_centerVertical="true" />
+            <FrameLayout android:id="@id/tv_guide_layout_detailview_fragment" android:background="@drawable/bg_leftmenu_01_port" android:paddingLeft="@dimen/tv_guide_genre_detail_paddingLeft" android:paddingRight="30.0dip" android:layout_width="537.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/tv_guide_genre_detail_marginLeft" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

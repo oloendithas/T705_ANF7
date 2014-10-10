@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="22.0dip" android:textColor="@drawable/common_selector_input_textcolor" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/settings_edit_channel_number" android:background="@drawable/common_selector_input_background" android:layout_width="74.0dip" android:layout_height="39.0dip" android:layout_marginLeft="26.0dip" android:singleLine="true" android:includeFontPadding="false" android:maxLength="4" android:inputType="number" android:imeOptions="actionDone" />
+    <TextView android:textSize="22.0dip" android:textColor="@color/RGB_100_195_195_195" android:ellipsize="end" android:gravity="left|center" android:id="@id/settings_edit_channel_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="26.0dip" android:singleLine="true" />
+</LinearLayout>

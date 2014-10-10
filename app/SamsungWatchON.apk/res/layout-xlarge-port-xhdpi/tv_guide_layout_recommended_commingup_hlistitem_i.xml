@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/tvguide_recomm_commingup_selector_thumbnail_bg" android:padding="1.0px" android:layout_width="227.0dip" android:layout_height="233.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="170.0dip">
+            <RelativeLayout android:layout_gravity="center" android:background="@drawable/thumbnail_bg2" android:layout_width="225.0dip" android:layout_height="169.0dip">
+                <ImageView android:id="@id/tvguide_commingup_img_bg" android:layout_width="225.0dip" android:layout_height="169.0dip" android:src="@drawable/tw_noitem_tv" android:scaleType="fitCenter" />
+                <com.sec.msc.android.yosemite.ui.common.view.web.WebImageView android:id="@id/tvguide_commingup_img" android:layout_width="225.0dip" android:layout_height="169.0dip" android:scaleType="fitCenter" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="left" android:layout_width="fill_parent" android:layout_height="63.0dip">
+            <TextView android:textSize="17.0dip" android:textColor="@color/RGB_100_212_213_214" android:ellipsize="end" android:id="@id/tvguide_commingup_title" android:layout_width="147.0dip" android:layout_height="24.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" android:singleLine="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/RGB_100_138_140_143" android:ellipsize="end" android:id="@id/tvguide_commingup_time" android:layout_width="147.0dip" android:layout_height="17.0dip" android:layout_marginLeft="10.0dip" android:singleLine="true" android:layout_below="@id/tvguide_commingup_title" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/RGB_100_71_141_255" android:ellipsize="end" android:id="@id/tvguide_commingup_intime" android:layout_width="147.0dip" android:layout_height="17.0dip" android:layout_marginLeft="10.0dip" android:singleLine="true" android:layout_below="@id/tvguide_commingup_time" />
+            <ImageView android:id="@id/tvguide_set_reminder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/tvguide_btn_set_reminder" android:layout_alignParentRight="true" />
+            <ImageView android:id="@id/tvguide_line" android:layout_width="1.0px" android:layout_height="27.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/btn_divide_line" android:scaleType="fitXY" android:layout_toLeftOf="@id/tvguide_set_reminder" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/icon_btn_search" android:id="@id/om_search" android:title="@string/search" android:showAsAction="always" android:actionViewClass="com.samsung.mediahub.ics.customview.CustomSearchMenu" />
+    <item android:icon="@drawable/ics_selector_menu_setting_icon" android:id="@id/om_my_page" android:title="@string/my_page" />
+    <item android:icon="@drawable/ics_selector_menu_home_icon" android:id="@id/om_mediahub_home" android:title="@string/mediahub_home" />
+    <item android:icon="@drawable/ics_selector_menu_help_icon" android:id="@id/om_help" android:title="@string/help" />
+</menu>

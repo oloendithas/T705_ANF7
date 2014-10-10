@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="26.0dip" android:paddingTop="15.0dip" android:paddingRight="26.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="174.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/rottentomatoes_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="22.0dip" android:layout_toRightOf="@id/rottentomatoes_image">
+        <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/RGB_100_0_176_241" android:ellipsize="end" android:id="@id/rottentomatoes_writer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+        <LinearLayout android:id="@id/rottentomatoes_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/rottentomatoes_writer">
+            <TextView android:textSize="18.0dip" android:textColor="@color/RGB_100_101_107_112" android:gravity="left|center" android:id="@id/rottentomatoes_reviewpublication" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="center" android:id="@id/rottentomatoes_media_reviewdate_devider" android:background="@color/RGB_100_101_107_112" android:layout_width="1.0dip" android:layout_height="15.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_toRightOf="@id/rottentomatoes_reviewpublication" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/RGB_100_101_107_112" android:ellipsize="end" android:gravity="left|center" android:id="@id/rottentomatoes_reviewddate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/rottentomatoes_media_reviewdate_devider" />
+        </LinearLayout>
+        <TextView android:textSize="20.0dip" android:textColor="@color/RGB_194_194_194" android:id="@id/rottentomatoes_review" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:includeFontPadding="false" android:layout_below="@id/rottentomatoes_date" android:lineSpacingExtra="2.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

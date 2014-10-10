@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/watchon_ontv_thumbnail_layout01" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="125.0dip">
+            <RelativeLayout android:layout_gravity="center" android:background="@drawable/widget_thumbnail_bg" android:layout_width="fill_parent" android:layout_height="122.0dip">
+                <ImageView android:id="@id/watchon_widget_program_img1" android:background="@color/RGB_73_78_84" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/tw_noitem_tv_large" android:scaleType="fitCenter" />
+            </RelativeLayout>
+            <LinearLayout android:id="@id/watchon_widget_progressbar_wrapper1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ProgressBar android:id="@id/watchon_widget_progressbar1" android:layout_width="fill_parent" android:layout_height="3.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/watchon_widget_progressbar" style="?android:attr/progressBarStyleHorizontal" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="left" android:orientation="vertical" android:background="@drawable/widget_text_bg" android:layout_width="fill_parent" android:layout_height="66.0dip">
+            <TextView android:textSize="17.0dip" android:typeface="sans" android:textColor="@color/RGB_100_255_255_255" android:ellipsize="marquee" android:gravity="left|center" android:id="@id/watchon_widget_now_title1" android:layout_width="149.0dip" android:layout_height="21.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="13.0dip" android:singleLine="true" android:includeFontPadding="false" style="@style/widget_void_title" />
+            <ImageView android:id="@id/watchon_widget_program_tag1" android:layout_width="28.0dip" android:layout_height="16.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/tag_live" android:scaleType="centerInside" android:layout_below="@id/watchon_widget_now_title1" />
+            <TextView android:textSize="13.0dip" android:typeface="sans" android:textColor="@color/RGB_100_204_204_204" android:ellipsize="end" android:gravity="left|center" android:id="@id/watchon_widget_now_time1" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginLeft="2.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_toRightOf="@id/watchon_widget_program_tag1" android:layout_below="@id/watchon_widget_now_title1" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

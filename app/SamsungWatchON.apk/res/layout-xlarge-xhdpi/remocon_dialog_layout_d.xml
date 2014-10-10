@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/remocon_outside_layout" android:background="#b2000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/background_layout" android:background="@drawable/remocon_land_bg01" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="56.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/remocon_next_img_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/remocon_next_img" android:background="@drawable/remocon_btn_arrow_down" android:duplicateParentState="true" android:layout_width="39.0dip" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/remocon_flip_2" android:visibility="gone" android:layout_width="323.0dip" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/remocon_dialog_2l_tv_stb_screen" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/remocon_dialog_layout_2l_tv_stb" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/remocon_flip_1" android:layout_width="323.0dip" android:layout_height="fill_parent">
+            <RelativeLayout android:gravity="center" android:id="@id/remocon_line_1l" android:layout_width="fill_parent" android:layout_height="32.0dip">
+                <ImageView android:id="@id/remocon_line_default_img" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginLeft="1.0dip" android:src="@drawable/effect_remocon_default" android:scaleType="fitXY" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/remocon_line_effect_img_1l" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginLeft="1.0dip" android:src="@drawable/effect_remocon" android:scaleType="fitXY" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/remocon_dialog_1l_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/remocon_line_1l">
+                <LinearLayout android:id="@id/remocon_dialog_1l_tv_screen" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <include layout="@layout/remocon_dialog_layout_1l_tv" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/remocon_dialog_1l_etc_screen" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <include layout="@layout/remocon_dialog_layout_1l_etc" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

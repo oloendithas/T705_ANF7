@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/frags" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:id="@id/titles_frag" android:layout_width="357.0dip" android:layout_height="fill_parent" android:layout_margin="0.0dip" class="com.sec.msc.android.yosemite.ui.accountsettings.TitlesFragment" />
+    <FrameLayout android:id="@id/content_frag" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

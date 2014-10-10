@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/common_selector_thumbnail_shadow_title_background" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="147.0dip" android:layout_marginRight="2.0dip">
+        <FrameLayout android:background="@color/RGB_100_215_216_217" android:layout_width="150.0dip" android:layout_height="105.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip">
+            <ImageView android:id="@id/seasonal_favorites_default_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/tw_noitem_tv" android:scaleType="center" />
+            <com.sec.msc.android.yosemite.ui.common.view.web.WebImageView android:id="@id/seasonal_favorites_list_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+        </FrameLayout>
+        <TextView android:textSize="18.0dip" android:textColor="@drawable/common_selector_thumbnail_shadow_title_textcolor" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/seasonal_favorites_list_text" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:duplicateParentState="true" android:layout_width="150.0dip" android:layout_height="35.0dip" android:singleLine="true" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="14.0dip">
+        <ImageView android:id="@id/iv_cover_art" android:layout_width="128.0dip" android:layout_height="180.0dip" android:scaleType="fitXY" />
+        <include layout="@layout/common_detail_text_info" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_purchase_header" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_purchase" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/tw_sub_header_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:minHeight="28.0dip">
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/total_price" style="@style/expandableListTitle" />
+                <TextView android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/tv_price" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/expandableListTitle15dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_purechase_confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:minHeight="64.0dip">
+            <RelativeLayout android:orientation="vertical" android:id="@id/rl_download_play_now" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:gravity="center" android:id="@id/btn_download" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" style="@style/btnText" />
+                <ImageView android:id="@id/iv_wifi_lock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/selector_btn_download_no_wifi" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView android:gravity="center_vertical" android:background="@drawable/tw_sub_header_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:minHeight="28.0dip" android:text="@string/purchase_information_and_notice" style="@style/expandableListTitle" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                <TextView android:textSize="17.0dip" android:textColor="@color/manage_dev_desc" android:layout_gravity="center_vertical" android:id="@id/tv_purchase_date" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="17.0dip" android:textColor="@color/manage_dev_desc" android:layout_gravity="center_vertical" android:id="@id/tv_ordernum" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="17.0dip" android:textColor="@color/manage_dev_desc" android:layout_gravity="center_vertical" android:id="@id/tv_transcaction_stat" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/genre_icon_20_select_sport" android:state_activated="true" />
+    <item android:state_selected="true" android:drawable="@drawable/genre_icon_20_select_sport" />
+    <item android:drawable="@drawable/genre_icon_20_sport" />
+</selector>

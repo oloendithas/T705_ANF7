@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="favorite_tvshow_columnnum">4</integer>
+    <integer name="favorite_movies_columnnum">6</integer>
+    <integer name="favorite_channels_columnnum">4</integer>
+    <integer name="detailview_synopsis_linecount">4</integer>
+    <integer name="expanded_land_movie_columnNum">8</integer>
+    <integer name="land_movie_columnNum">6</integer>
+    <integer name="advancedsearch_columnNum">4</integer>
+    <integer name="mExpandedLandTVShowColumnNum">4</integer>
+    <integer name="mExpandedPortTVShowColumnNum">3</integer>
+    <integer name="mLandTVShowColumnNum">5</integer>
+    <integer name="mPortTVShowColumnNum">2</integer>
+    <integer name="mExpanded_Port_movie_columnNum">4</integer>
+    <integer name="loading_ring_left_margin">250</integer>
+    <integer name="loading_ring_Top_margin">300</integer>
+    <integer name="fontsizeForTimeBox">30</integer>
+    <integer name="main_widget_text_size_unpack_title">85</integer>
+    <integer name="main_widget_text_size_unpack_contents_title">35</integer>
+    <integer name="magazine_widget_title_txtsize">24</integer>
+    <integer name="magazine_widget_discoverlive_txtsize">20</integer>
+    <integer name="magazine_widget_tap_to_start_txtsize">30</integer>
+    <integer name="magazine_widget_discoverlive_width_txtview">244</integer>
+    <integer name="magazine_widget_subtitle_txtsize">18</integer>
+    <integer name="detailview_cast_tvshow_num">8</integer>
+    <integer name="detailview_cast_movie_num">12</integer>
+    <integer name="detailview_related_tvshow_num">7</integer>
+    <integer name="detailview_related_movie_num">12</integer>
+</resources>

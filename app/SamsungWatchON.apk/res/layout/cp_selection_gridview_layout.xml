@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:id="@id/parent_relative" android:background="@drawable/bg_popup_middle_default" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/cplist_title_layout" android:layout_width="wrap_content" android:layout_height="74.0dip">
+        <TextView android:textSize="23.0dip" android:textColor="@color/RGB_0_176_241" android:ellipsize="end" android:gravity="left|center" android:id="@id/cplist_title" android:layout_width="fill_parent" android:layout_height="74.0dip" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:maxLines="2" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/cplist_grid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="21.0dip" android:layout_below="@id/cplist_title_layout" android:layout_centerInParent="true">
+        <GridView android:id="@id/cp_gridView" android:fadingEdge="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:columnWidth="233.0dip" android:numColumns="auto_fit" android:adjustViewBounds="true" android:requiresFadingEdge="vertical" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/cp_grid_no_contents_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="642.0dip">
+        <TextView android:textSize="24.0dip" android:textColor="@color/RGB_237_237_237" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/detailview_cplist_no_contents" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView android:id="@id/lv_common" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false" android:cacheColorHint="@color/transparent" android:divider="@color/purchase_divider" android:dividerHeight="1.0dip" android:layout_weight="1.0" android:headerDividersEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

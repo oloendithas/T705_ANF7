@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dualtv_layout" android:background="@color/RGB_100_0_0_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VideoView android:layout_gravity="center" android:id="@id/dualtv_videoview" android:layout_width="@dimen/dual_player_width" android:layout_height="@dimen/dual_player_height" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/dualtv_left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dualtv_brightness" android:background="@drawable/video_volume_bg" android:padding="5.0dip" android:visibility="gone" android:layout_width="84.0dip" android:layout_height="478.0dip" android:layout_marginLeft="20.0dip">
+                <ImageView android:id="@id/img_video_brightness" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="18.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/video_brightness_normal" />
+                <SeekBar android:id="@id/dualtv_brightness_seekBar" android:layout_width="338.0dip" android:layout_height="wrap_content" android:layout_marginTop="132.0dip" android:max="100" android:progressDrawable="@drawable/seekbar_progress_bg" android:thumb="@drawable/seekbar_thumb" android:rotation="270.0" />
+                <TextView android:textSize="28.0dip" android:textColor="#ffebebeb" android:gravity="center" android:id="@id/dualtv_brightness_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="150.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/dualtv_right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dualtv_volume" android:background="@drawable/video_volume_bg" android:padding="5.0dip" android:visibility="gone" android:layout_width="84.0dip" android:layout_height="478.0dip" android:layout_marginRight="7.0dip" android:layout_alignParentRight="true">
+                <ImageView android:id="@id/img_volume" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="18.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/video_volume_normal" />
+                <SeekBar android:id="@id/dualtv_volume_seekBar" android:layout_width="338.0dip" android:layout_height="wrap_content" android:layout_marginTop="132.0dip" android:max="15" android:progressDrawable="@drawable/seekbar_progress_bg" android:thumb="@drawable/seekbar_thumb" android:rotation="270.0" />
+                <TextView android:textSize="28.0dip" android:textColor="#ffebebeb" android:gravity="center" android:id="@id/dualtv_volume_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="150.0dip" android:text="0" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/img_lock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/common_selector_player_lock" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

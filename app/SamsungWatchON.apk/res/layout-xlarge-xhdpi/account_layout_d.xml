@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/RGB_100_100_116_255" android:id="@id/account_top" android:text="@string/common_title_samsung_account" style="@style/style_popup_top_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/account_middle" android:layout_height="wrap_content" style="@style/style_popup_middle_layout">
+        <TextView android:textSize="@dimen/popup_message_font_size" android:textColor="@color/RGB_245_245_245" android:id="@id/quicksetup_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/samsung_account" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/popup_message_font_size_congrats" android:textColor="@color/RGB_100_210_210_210" android:id="@id/quicksetup_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/samsung_account_text" android:includeFontPadding="false" android:lineSpacingExtra="4.0dip" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/popup_line_02" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/account_bottom" android:layout_width="fill_parent" style="@style/style_popup_bottom_layout">
+        <Button android:id="@id/skip" android:text="@string/common_button_skip" style="@style/style_popup_button" />
+        <ImageView android:background="@drawable/popup_bottom_divider" android:layout_width="1.0px" android:layout_height="66.0dip" android:layout_alignParentTop="true" />
+        <Button android:id="@id/signin" android:layout_marginLeft="0.0dip" android:text="@string/common_button_sign_in" style="@style/style_popup_button" />
+    </LinearLayout>
+</LinearLayout>

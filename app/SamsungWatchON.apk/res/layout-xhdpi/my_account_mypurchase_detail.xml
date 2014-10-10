@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_media_detail_view" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/rl_detail_info" android:paddingBottom="19.0dip" android:layout_width="347.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+            <ImageView android:id="@id/iv_cover_art" android:layout_width="128.0dip" android:layout_height="180.0dip" android:scaleType="fitXY" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+                <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="@color/detail_view_title_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="2" />
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_hd_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/detail_hd" />
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_hdmi_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/detail_hdmi" />
+                </LinearLayout>
+                <TextView android:ellipsize="end" android:id="@id/tv_purchase_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/detailViewInfoText" />
+                <TextView android:ellipsize="end" android:id="@id/tv_license" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/detailViewInfoText" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/ll_more_info" android:background="@drawable/tw_expandable_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/common_expandable_list_view" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/common_progress_white" />
+</RelativeLayout>

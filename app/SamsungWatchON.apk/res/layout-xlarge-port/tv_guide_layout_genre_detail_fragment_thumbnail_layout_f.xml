@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:id="@id/genre_common_grid" android:paddingTop="14.0dip" android:fadingEdge="vertical" android:fadingEdgeLength="56.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="12.0dip" android:verticalSpacing="6.0dip" android:choiceMode="singleChoice" android:overScrollMode="always" android:requiresFadingEdge="vertical" />
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/genre_common_nocontents_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/genre_common_nocontents_image" android:duplicateParentState="true" android:layout_width="148.0dip" android:layout_height="148.0dip" android:layout_centerInParent="true" />
+        <TextView android:textSize="24.0dip" android:textColor="@color/RGB_100_191_191_191" android:id="@id/genre_common_nocontents_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/common_msg_no_content" android:layout_below="@id/genre_common_nocontents_image" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

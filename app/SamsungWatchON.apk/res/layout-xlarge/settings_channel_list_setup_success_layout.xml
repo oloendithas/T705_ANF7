@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/settings_channellistsetup_succes_popup_title" style="@style/style_popup_top_layout" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="9.0dip" android:paddingBottom="19.0dip" android:layout_height="wrap_content" style="@style/style_popup_middle_layout">
+        <TextView android:textSize="@dimen/popup_message_font_size" android:textColor="@color/RGB_100_210_210_210" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_channellistsetup_succes_popup_text_main" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/popup_message_font_size" android:textColor="@color/RGB_100_210_210_210" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/popup_text_height" android:text="@string/settings_channellistsetup_succes_popup_text_assi" android:includeFontPadding="false" android:lineSpacingExtra="4.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" style="@style/style_popup_bottom_layout">
+        <Button android:id="@id/settings_channel_list_setup_success_reset_btn" android:layout_width="0.0dip" android:layout_height="65.0dip" android:text="@string/common_button_save_and_exit" android:layout_weight="1.0" style="@style/style_popup_button" />
+        <Button android:id="@id/settings_channel_list_setup_success_confirm_btn" android:layout_width="0.0dip" android:layout_height="65.0dip" android:layout_marginLeft="1.0px" android:text="@string/common_button_next" style="@style/style_popup_button" />
+    </LinearLayout>
+</LinearLayout>

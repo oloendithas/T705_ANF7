@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ss:Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+    <ss:Worksheet ss:Name="Sheet1">
+        <ss:Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="87" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="16.5">
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-NW-0001</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">error</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Network is unavailable</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-NW-0004</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">error</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Internet connection is required</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Dialog</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SC-0001</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">warn</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Server is not responding</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SC-0002</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Server response is wrong</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SC-0003</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Service initialization failed</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SC-0004</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Not supported model failed</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SC-0005</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Service initialization failed. Please check device time is set correctly</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SC-0006</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Not supported country</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SC-0007</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">location service disabled</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SC-0008</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Failed to get notice information</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Dialog</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SC-0009</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Failed to get home data</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Dialog</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SC-0010</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Failed to get application information</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SC-0011</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Failed to get content information</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SC-0012</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Failed to service domain getter</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SC-0013</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">wireless network locating disabled</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SC-0014</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">locating need time</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SC-0015</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">>incorrect device type</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-DC-0001</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Connecting TV is fail</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-DC-0002</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">TV connection is broken</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-DC-0003</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">TV is not responding</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-DV-0001</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Starting dualview is fail.(It is not supported on SmartHub)</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-DV-0002</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Dualview streaming error</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SI-0006</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Service sign-in failed</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-SA-0005</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">YouTube search is fail</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-DT-0002</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Add favorite is fail</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-DT-0003</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Remove favorite is fail</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-DT-0004</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Add Like it is fail</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-DT-0005</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Add Dislike it is fail</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-DT-0006</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">assert</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Cp application launch fail</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-MP-0005</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">warn</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Credit Card Number’s length must be 16. Please check the Credit card number</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-MP-0006</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">warn</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Zip Code is different from format. Please check the Zip Code</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-MP-0007</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">warn</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">OSP Billing Error. Register rejected</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-AS-0001</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">warn</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">SNS authorize is fail</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-AS-0005</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">warn</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Facebook posting is fail</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-NS-0001</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">error</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s34">
+                    <ss:Data ss:Type="String">Signing in needed to watch contents with TV. Please Sign in and try again</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-NS-0002</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">error</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s34">
+                    <ss:Data ss:Type="String">Sorry, This service is not available for rented video</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Dialog</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-NS-0003</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">error</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s34">
+                    <ss:Data ss:Type="String">Sorry, couldn’t play content on TV. Please check application is installed on TV</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-NS-0004</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">error</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s34">
+                    <ss:Data ss:Type="String">Sorry, couldn’t play content on TV. Please check status of application on TV</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-NS-0005</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">error</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s34">
+                    <ss:Data ss:Type="String">Sorry, request to TV timed out. Please try again</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-NS-0006</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">error</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s34">
+                    <ss:Data ss:Type="String">Sorry, internal error occurred at TV. Please try again</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-NS-0007</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">error</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s34">
+                    <ss:Data ss:Type="String">Sorry, couldn’t play content on TV. Please check if device limit is reached</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-NS-0008</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">error</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s34">
+                    <ss:Data ss:Type="String">Sorry, this content is not on your purchased list. Please contact to service administrator</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Toast</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22">
+                    <ss:Data ss:Type="String">CT-YM-NS-0009</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s17">
+                    <ss:Data ss:Type="String">error</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s34">
+                    <ss:Data ss:Type="String">Sorry, this service is not available for contents only for mobile</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Y</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="s19">
+                    <ss:Data ss:Type="String">Dialog</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+        </ss:Table>
+    </ss:Worksheet>
+</ss:Workbook>

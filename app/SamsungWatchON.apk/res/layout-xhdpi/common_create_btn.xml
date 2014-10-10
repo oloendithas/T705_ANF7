@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/ll_createtitle" android:background="@drawable/tw_sub_header_bg" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0dip" android:textColor="@drawable/selector_color_sub_header_text" android:gravity="center_vertical" android:id="@id/add_new_payment" android:paddingLeft="12.0dip" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/add_new_payment_method" android:singleLine="true" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="right|center" android:id="@id/iv_create" android:background="@drawable/selector_btn_create_bg" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:src="@drawable/ics_selector_btn_create" android:scaleType="centerInside" android:minWidth="53.0dip" />
+</LinearLayout>

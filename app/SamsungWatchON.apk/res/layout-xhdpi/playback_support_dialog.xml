@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:layout_marginBottom="18.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:src="@drawable/popup_icon_hd" />
+            <TextView android:id="@id/tv_device_supported" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip" android:text="@string/device_supported" style="@style/popupText19sp" />
+        </LinearLayout>
+        <ListView android:id="@id/lv_common" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:scrollingCache="false" android:cacheColorHint="@color/transparent" android:dividerHeight="1.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

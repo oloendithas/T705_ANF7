@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/mh_bg_684_glow" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_left_menu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="7.0">
+            <include layout="@layout/common_menu_list_view" />
+            <include layout="@layout/common_account_address" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/rl_mainlist" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip">
+                    <include layout="@layout/common_list_view" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:background="@drawable/tw_title_bar_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

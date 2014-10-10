@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:orientation="vertical" android:id="@id/sv_signin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="7.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_nickname" android:hint="@string/nick_name" style="@style/addCardText" />
+                <EditText android:id="@id/et_cardnickname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="200" android:inputType="text" android:imeOptions="flagNoExtractUi" style="@style/addEditText" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_number" style="@style/addCardText" />
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Spinner android:id="@id/iv_card_type_btn" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusDown="@id/et_cardnickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="88.0dip" android:minHeight="44.0dip" android:spinnerMode="dialog" />
+                    <EditText android:gravity="center_vertical" android:id="@id/et_card_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:inputType="number" android:imeOptions="flagNoExtractUi" style="@style/addEditText" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+                <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_on_card" style="@style/addCardText" />
+                <EditText android:gravity="center_vertical" android:id="@id/et_name_on_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="100" android:inputType="textNoSuggestions" android:imeOptions="flagNoExtractUi" style="@style/addEditText" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+                <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/expiration_date" style="@style/addCardText" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Spinner android:id="@id/sp_date" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:minHeight="44.0dip" android:layout_weight="1.0" />
+                    <Spinner android:id="@id/sp_dateyear" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="44.0dip" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:gravity="center_vertical" android:background="@drawable/tw_sub_header_bg" android:padding="0.0dip" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="28.0dip" android:text="@string/card_holder_billing_address" android:layout_alignParentLeft="true" style="@style/expandableListTitle" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="116.0dip">
+                <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/address" style="@style/addCardText" />
+                <EditText android:id="@id/et_addresse" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="50" android:inputType="text" android:imeOptions="flagNoExtractUi" style="@style/addEditText" />
+                <EditText android:id="@id/et_addresse_se" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLength="50" android:inputType="text" android:imeOptions="flagNoExtractUi" style="@style/addEditText" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+                <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/city" style="@style/addCardText" />
+                <EditText android:id="@id/et_city" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:maxLength="20" android:inputType="text" android:imeOptions="flagNoExtractUi" style="@style/addEditText" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+                <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/country" style="@style/addCardText" />
+                <Spinner android:id="@id/tv_state" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="36.0dip" android:spinnerMode="dialog" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+                <TextView android:gravity="center_vertical" android:id="@id/tv_zip_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/postcode" android:layout_below="@id/ll_card_number" android:layout_alignParentLeft="true" style="@style/addCardText" />
+                <EditText android:gravity="center_vertical" android:id="@id/et_zip_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/postcode" android:maxLength="5" android:inputType="number" android:imeOptions="flagNoExtractUi" style="@style/addEditText" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

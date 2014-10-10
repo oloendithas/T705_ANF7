@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/mypage_payment_popup_voucher_listitem_layout" android:background="@drawable/common_list_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/mypage_payment_popup_voucher_listitem_image" android:layout_width="52.0dip" android:layout_height="33.0dip" android:layout_marginLeft="8.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="384.0dip" android:layout_height="wrap_content" android:layout_marginLeft="27.0dip">
+        <TextView android:textSize="@dimen/payment_method_voucher_code_title_font_size" android:textColor="@drawable/common_list_text_1line" android:id="@id/mypage_payment_popup_voucher_listitem_text_title" android:layout_width="fill_parent" android:layout_height="@dimen/payment_method_voucher_code_title_height" android:layout_marginTop="@dimen/payment_method_voucher_code_margin" android:singleLine="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/payment_method_voucher_code_margin">
+            <TextView android:textSize="@dimen/payment_method_voucher_code_price_font_size" android:textColor="@drawable/common_list_text_2line" android:id="@id/mypage_payment_popup_voucher_listitem_text_body" android:layout_width="wrap_content" android:layout_height="@dimen/payment_method_voucher_code_price_height" android:layout_marginTop="1.0dip" />
+            <TextView android:textSize="@dimen/payment_method_voucher_code_price_font_size" android:textColor="@color/RGB_100_221_17_17" android:id="@id/mypage_payment_popup_voucher_listitem_text_body_discount" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/payment_method_voucher_code_price_height" />
+        </LinearLayout>
+    </LinearLayout>
+    <CheckBox android:layout_gravity="center" android:id="@id/mypage_payment_popup_voucher_listitem_checkbox" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="14.0dip" android:button="@drawable/common_selector_bar_category_checkbox" />
+</LinearLayout>

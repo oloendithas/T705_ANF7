@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/devices_turning_on_off" android:background="#74000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/q_whole_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/q_power_width" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="22.0dip" android:textColor="@color/RGB_100_0_0_0" android:ellipsize="end" android:gravity="left|center" android:background="@drawable/bg_popup_top" android:paddingLeft="@dimen/q_power_padding" android:paddingRight="@dimen/q_power_padding" android:layout_width="fill_parent" android:layout_height="@dimen/q_power_title_height" android:text="@string/noti_popup_power_on_off" android:singleLine="true" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_popup_middle_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/q_device_dropdown_divider_states" android:showDividers="middle">
+            <TextView android:textSize="17.0dip" android:textColor="@color/RGB_100_0_0_0" android:ellipsize="end" android:gravity="left|center" android:paddingLeft="@dimen/q_power_padding" android:paddingRight="@dimen/q_power_padding" android:layout_width="fill_parent" android:layout_height="@dimen/q_power_sub_title_height" android:text="@string/noti_popup_select_device" android:singleLine="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/dev_01" android:paddingLeft="@dimen/q_power_padding" android:paddingRight="@dimen/q_power_padding" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/q_power_device_height">
+                <ImageView android:id="@id/power_image_1" android:clickable="false" android:duplicateParentState="true" android:layout_width="@dimen/q_power_device_icon_width_height" android:layout_height="@dimen/q_power_device_icon_width_height" android:src="@drawable/q_btn_onoff_states" />
+                <TextView android:textSize="19.0dip" android:textColor="@color/RGB_5_5_5" android:ellipsize="end" android:id="@id/item_1" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/q_power_device_text_margin_left" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/dev_02" android:paddingLeft="@dimen/q_power_padding" android:paddingRight="@dimen/q_power_padding" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/q_power_device_height">
+                <ImageView android:id="@id/power_image_2" android:clickable="false" android:duplicateParentState="true" android:layout_width="@dimen/q_power_device_icon_width_height" android:layout_height="@dimen/q_power_device_icon_width_height" android:src="@drawable/q_btn_onoff_states" />
+                <TextView android:textSize="19.0dip" android:textColor="@color/RGB_5_5_5" android:ellipsize="end" android:id="@id/item_2" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/q_power_device_text_margin_left" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:orientation="vertical" android:background="@drawable/bg_popup_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/q_power_bottom_height">
+            <Button android:textSize="20.0dip" android:textColor="@drawable/q_popup_button_tc_states" android:gravity="center" android:id="@id/device_popup_done" android:background="@drawable/q_popup_button_bg_states" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/q_power_bottom_margin" android:text="@string/common_button_done" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

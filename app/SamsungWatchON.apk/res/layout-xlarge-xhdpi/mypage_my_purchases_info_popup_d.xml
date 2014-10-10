@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/popup_width" android:layout_height="395.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

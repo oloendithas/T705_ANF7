@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/genre_icon_12_select_music_musical" android:state_activated="true" />
+    <item android:state_selected="true" android:drawable="@drawable/genre_icon_12_select_music_musical" />
+    <item android:drawable="@drawable/genre_icon_12_music_musical" />
+</selector>

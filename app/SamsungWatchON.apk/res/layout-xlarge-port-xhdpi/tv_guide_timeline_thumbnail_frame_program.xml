@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/tv_guide_timeline_frame_program_i" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/tv_guide_timeline_epg_layout" android:layout_width="wrap_content" android:layout_height="302.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/tv_guide_timeline_frame_program_i_at_zero" android:visibility="visible" android:layout_width="336.0dip" android:layout_height="302.0dip">
+            <include layout="@layout/tv_guide_timeline_layout_program_thumbnail_i" />
+            <View android:background="@color/RGB_62_63_87" android:layout_width="0.5dip" android:layout_height="302.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/tv_guide_timeline_frame_program_i_at_non_zero" android:layout_width="wrap_content" android:layout_height="302.0dip">
+            <LinearLayout android:orientation="vertical" android:id="@id/tv_guide_timeline_frame_program_0" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+                <include android:id="@id/tv_guide_timeline_mini_layout_1" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+                <include android:id="@id/tv_guide_timeline_mini_layout_2" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+                <include android:id="@id/tv_guide_timeline_mini_layout_3" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+                <include android:id="@id/tv_guide_timeline_mini_layout_4" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tv_guide_timeline_frame_program_1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip">
+                <include android:id="@id/tv_guide_timeline_mini_layout_5" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+                <include android:id="@id/tv_guide_timeline_mini_layout_6" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+                <include android:id="@id/tv_guide_timeline_mini_layout_7" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+                <include android:id="@id/tv_guide_timeline_mini_layout_8" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tv_guide_timeline_frame_program_2" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip">
+                <include android:id="@id/tv_guide_timeline_mini_layout_9" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+                <include android:id="@id/tv_guide_timeline_mini_layout_10" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+                <include android:id="@id/tv_guide_timeline_mini_layout_11" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+                <include android:id="@id/tv_guide_timeline_mini_layout_12" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tv_guide_timeline_frame_program_3" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip">
+                <include android:id="@id/tv_guide_timeline_mini_layout_13" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+                <include android:id="@id/tv_guide_timeline_mini_layout_14" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+                <include android:id="@id/tv_guide_timeline_mini_layout_15" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+                <include android:id="@id/tv_guide_timeline_mini_layout_16" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tv_guide_timeline_frame_program_4" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip">
+                <include android:id="@id/tv_guide_timeline_mini_layout_17" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+                <include android:id="@id/tv_guide_timeline_mini_layout_18" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+                <include android:id="@id/tv_guide_timeline_mini_layout_19" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="75.0dip" layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

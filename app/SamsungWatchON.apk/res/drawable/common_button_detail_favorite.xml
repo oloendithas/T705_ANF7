@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false" android:state_pressed="true" android:drawable="@drawable/btn_detail_favorite_focus" />
+    <item android:state_selected="true" android:state_pressed="true" android:drawable="@drawable/btn_detail_favorite_focus_select" />
+    <item android:state_selected="true" android:drawable="@drawable/btn_detail_favorite_select" />
+    <item android:state_focused="true" android:drawable="@drawable/btn_detail_favorite_focus" />
+    <item android:state_enabled="false" android:drawable="@drawable/btn_detail_favorite_dim" />
+    <item android:drawable="@drawable/btn_detail_favorite" />
+</selector>

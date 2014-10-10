@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/dropdown_ic_settings_white" android:id="@id/om_settings" android:menuCategory="secondary" android:title="@string/common_title_settings" android:showAsAction="never" />
+    <item android:icon="@drawable/dropdown_ic_help_white" android:id="@id/om_help" android:menuCategory="secondary" android:title="@string/common_title_help" android:showAsAction="never">
+        <menu>
+            <group android:id="@id/help_group">
+                <item android:id="@id/om_myquestions" android:title="@string/common_title_my_questions" />
+                <item android:id="@id/om_faq" android:title="@string/common_title_faq" />
+                <item android:id="@id/om_contactus" android:title="@string/common_title_contactus" />
+            </group>
+        </menu>
+    </item>
+</menu>

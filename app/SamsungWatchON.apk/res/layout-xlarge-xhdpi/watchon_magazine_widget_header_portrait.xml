@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="9.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/normal_header_layout_p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip">
+            <TextView android:textSize="21.0dip" android:textColor="@color/RGB_100_245_245_245" android:gravity="top" android:id="@id/txt_widget_main_title_p" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="@string/app_name_for_sns" android:includeFontPadding="false" style="@style/WidgetTitleText" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/refresh_rl" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginRight="3.0dip" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/refresh_p" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/magazine_widget_refresh_btn_selector" android:contentDescription="@string/om_refresh" />
+            <ProgressBar android:id="@id/refresh_progress_p" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/main_widget_progress_refresh" />
+        </RelativeLayout>
+        <ImageView android:id="@id/watchon_remocon_p" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/magazine_widget_remocon_btn_selector" android:layout_toLeftOf="@id/refresh_rl" android:contentDescription="@string/om_remocon" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/eight_inch_header_layout_p" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip">
+            <TextView android:textSize="24.0dip" android:textColor="@color/RGB_100_245_245_245" android:id="@id/txt_widget_main_title_eight_inch_p" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="@string/app_name_for_sns" android:includeFontPadding="false" style="@style/WidgetTitleText" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/refresh_rl_eight_inch_p" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/refresh_eight_inch_p" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/magazine_widget_refresh_btn_selector_eight_inch" android:contentDescription="@string/om_refresh" />
+            <ProgressBar android:id="@id/refresh_progress_eight_inch_p" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/main_widget_progress_refresh_eight_inch" />
+        </RelativeLayout>
+        <ImageView android:id="@id/watchon_remocon_eight_inch_p" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/magazine_widget_remocon_btn_selector_eight_inch" android:layout_toLeftOf="@id/refresh_rl_eight_inch_p" android:contentDescription="@string/om_remocon" />
+    </RelativeLayout>
+</LinearLayout>

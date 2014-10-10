@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/popup_width" android:layout_height="278.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/bg_popup_top" android:paddingLeft="26.0dip" android:paddingTop="18.0dip" android:paddingRight="26.0dip" android:paddingBottom="18.0dip" android:layout_width="@dimen/popup_width" android:layout_height="@dimen/popup_top_height">
+        <TextView android:textSize="22.0dip" android:textColor="@color/RGB_237_237_237" android:gravity="left|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mypage_storage" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_popup_middle_default" android:paddingLeft="0.0dip" android:layout_width="@dimen/popup_width" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/mypage_mystorage_popup_phone" android:background="@drawable/common_list_background" android:paddingLeft="26.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="64.0dip">
+            <TextView android:textSize="22.0dip" android:textColor="@drawable/common_selector_dropdown_list_textcolor" android:id="@id/mypage_mystorage_popup_phone_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="@string/mypage_mystorage_popuplist_phone" android:layout_centerVertical="true" />
+            <RadioButton android:id="@id/mypage_mystorage_popup_phone_raionbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="26.0dip" android:src="@drawable/common_selector_button_radio_background" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/mypage_mystorage_popup_memcard" android:background="@drawable/common_list_background" android:paddingLeft="26.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="64.0dip">
+            <TextView android:textSize="22.0dip" android:textColor="@drawable/common_selector_dropdown_list_textcolor" android:id="@id/mypage_mystorage_popup_memcard_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="@string/mypage_mystorage_popuplist_memcard" android:layout_centerVertical="true" />
+            <RadioButton android:id="@id/mypage_mystorage_popup_memcard_raionbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="26.0dip" android:src="@drawable/common_selector_button_radio_background" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_button" android:background="@drawable/bg_popup_bottom" android:padding="4.0dip" android:visibility="visible" android:layout_width="@dimen/popup_width" android:layout_height="@dimen/popup_bottom_height">
+        <Button android:textSize="18.0dip" android:textColor="@drawable/common_button_textcolor_selector_white" android:id="@id/btn_negative" android:background="@drawable/common_button_popup_background_selector_white" android:visibility="visible" android:layout_width="278.0dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:text="@string/common_button_cancel" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

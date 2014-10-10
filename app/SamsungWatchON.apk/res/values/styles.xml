@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Light" />
+    <style name="TransparentDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+    <style name="VideoHub.Dialog.NoTitle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/white_1</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="VideoHub.DeviceDefault.Dialog.NoTitle" parent="@android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowBackground">@color/white_1</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="VideoHub.DeviceDefault.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog" />
+    <style name="VideoHub.DeviceDefault.Translucent" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="VideoHub.DeviceDefault.Dialog.NoTitle.EditText" parent="@android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowBackground">@color/white_1</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="Theme.VideoHubDeviceDefault" parent="@android:style/Theme.DeviceDefault" />
+    <style name="Theme.VideoHubDeviceDefaultPhoneLand" parent="@style/Theme.VideoHubDeviceDefault">
+        <item name="android:actionBarTabStyle">@style/VideoHub.ActionBarTabStyle</item>
+        <item name="android:actionBarTabBarStyle">@style/VideoHub.ActionBarTabBarStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/VideoHub.ActionBarTabTextStyle</item>
+    </style>
+    <style name="Theme.VideoHubDeviceDefaultWVGAPhoneLand" parent="@style/Theme.VideoHubDeviceDefaultPhoneLand">
+        <item name="android:actionBarTabTextStyle">@style/VideoHub.ActionBarTabTextWVGAStyle</item>
+    </style>
+    <style name="Theme.VideoHubDeviceDefaultPhone" parent="@style/Theme.VideoHubDeviceDefaultPhoneLand">
+        <item name="android:actionBarSize">64.0dip</item>
+    </style>
+    <style name="Theme.VideoHubDeviceDefaultTablet" parent="@style/Theme.VideoHubDeviceDefault">
+        <item name="android:actionBarStyle">@style/VideoHub.ActionBarTablet</item>
+        <item name="android:actionBarTabStyle">@style/VideoHub.ActionBarTabTabletStyle</item>
+        <item name="android:actionBarTabBarStyle">@style/VideoHub.ActionBarTabBarTabletStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/VideoHub.ActionBarTabTextTabletStyle</item>
+        <item name="android:actionMenuTextColor">@color/tablet_menu_text</item>
+    </style>
+    <style name="Theme.VideoHubDeviceDefaultTabletOverlay" parent="@style/Theme.VideoHubDeviceDefaultTablet">
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="Theme.VideoHubActionBarActivity" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:actionBarStyle">@style/VideoHub.ActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="VideoHub.ActionBar" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@color/transparent</item>
+    </style>
+    <style name="VideoHub.ActionBarTabStyle" parent="@android:style/Widget.DeviceDefault.Tab">
+        <item name="android:minWidth">70.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="VideoHub.ActionBarTabBarStyle" parent="@android:style/Widget.DeviceDefault.ActionBar.TabBar">
+        <item name="android:showDividers">middle</item>
+    </style>
+    <style name="VideoHub.ActionBarTabTextStyle" parent="@android:style/Widget.DeviceDefault.ActionBar.TabText">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="VideoHub.ActionBarTabTextWVGAStyle" parent="@style/VideoHub.ActionBarTabTextStyle">
+        <item name="android:textColor">@color/tab_focus</item>
+    </style>
+    <style name="VideoHub.ActionBarTablet" parent="@android:style/Widget.DeviceDefault.ActionBar" />
+    <style name="VideoHub.ActionBarTabTabletStyle" parent="@style/VideoHub.ActionBarTabStyle">
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:minWidth">92.0dip</item>
+    </style>
+    <style name="VideoHub.ActionBarTabBarTabletStyle" parent="@style/VideoHub.ActionBarTabBarStyle">
+        <item name="android:background">@color/tablet_tab_bg</item>
+        <item name="android:dividerPadding">15.0dip</item>
+    </style>
+    <style name="VideoHub.ActionBarTabTextTabletStyle" parent="@style/VideoHub.ActionBarTabTextStyle">
+        <item name="android:textSize">20.0dip</item>
+    </style>
+    <style name="MediaHub.Dialog.NoTitle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/white_1</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="MediaHub.DeviceDefault.Dialog.NoTitle" parent="@android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowBackground">@color/white_1</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="MediaHub.DeviceDefault.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog" />
+    <style name="MediaHub.DeviceDefault.Dialog.NoTitle.EditText" parent="@android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowBackground">@color/white_1</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:spinnerItemStyle">@style/MediaHub.TextView.SpinnerItemTablet</item>
+        <item name="android:textCursorDrawable">@drawable/text_cursor_holo_light</item>
+    </style>
+    <style name="Theme.MediaHubDeviceDefault" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:spinnerItemStyle">@style/MediaHub.TextView.SpinnerItem</item>
+    </style>
+    <style name="Theme.MediaHubDeviceDefaultPhoneLand" parent="@style/Theme.MediaHubDeviceDefault">
+        <item name="android:actionBarTabStyle">@style/MediaHub.ActionBarTabStyle</item>
+        <item name="android:actionBarTabBarStyle">@style/MediaHub.ActionBarTabBarStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/MediaHub.ActionBarTabTextStyle</item>
+    </style>
+    <style name="Theme.MediaHubDeviceDefaultPhone" parent="@style/Theme.MediaHubDeviceDefaultPhoneLand">
+        <item name="android:actionBarSize">64.0dip</item>
+    </style>
+    <style name="Theme.MediaHubDeviceDefaultTablet" parent="@style/Theme.MediaHubDeviceDefault">
+        <item name="android:actionBarStyle">@style/MediaHub.ActionBarTablet</item>
+        <item name="android:actionBarTabStyle">@style/MediaHub.ActionBarTabTabletStyle</item>
+        <item name="android:actionBarTabBarStyle">@style/MediaHub.ActionBarTabBarTabletStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/MediaHub.ActionBarTabTextTabletStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/tw_ic_ab_back_holo_dark</item>
+        <item name="android:actionMenuTextColor">@color/tablet_menu_text</item>
+    </style>
+    <style name="MediaHub.ActionBarTabStyle" parent="@android:style/Widget.DeviceDefault.Tab">
+        <item name="android:background">@drawable/selector_tab_indicator_background</item>
+        <item name="android:minWidth">70.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="MediaHub.ActionBarTabBarStyle" parent="@android:style/Widget.DeviceDefault.ActionBar.TabBar">
+        <item name="android:background">@drawable/tw_action_bar_tab_bg</item>
+        <item name="android:divider">@drawable/tw_tab_divider_holo</item>
+        <item name="android:showDividers">middle</item>
+    </style>
+    <style name="MediaHub.ActionBarTabTextStyle" parent="@android:style/Widget.DeviceDefault.ActionBar.TabText">
+        <item name="android:textColor">@color/tab_focus</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MediaHub.ActionBarTablet" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@color/tablet_tab_bg</item>
+    </style>
+    <style name="MediaHub.ActionBarTabTabletStyle" parent="@style/MediaHub.ActionBarTabStyle">
+        <item name="android:background">@drawable/selector_tablet_tab_indicator_background</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:minWidth">92.0dip</item>
+    </style>
+    <style name="MediaHub.ActionBarTabBarTabletStyle" parent="@style/MediaHub.ActionBarTabBarStyle">
+        <item name="android:background">@color/tablet_tab_bg</item>
+        <item name="android:dividerPadding">15.0dip</item>
+    </style>
+    <style name="MediaHub.ActionBarTabTextTabletStyle" parent="@style/MediaHub.ActionBarTabTextStyle">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">@drawable/selector_tablet_tab_indicator_text</item>
+    </style>
+    <style name="MediaHub.TextView.SpinnerItem" parent="@android:style/Widget.DeviceDefault.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/TextAppearance.MediaHub.TextView.SpinnerItem</item>
+    </style>
+    <style name="MediaHub.TextView.SpinnerItemTablet" parent="@android:style/Widget.DeviceDefault.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/TextAppearance.MediaHub.TextView.SpinnerItemTablet</item>
+    </style>
+    <style name="TextAppearance.MediaHub.TextView.SpinnerItem" parent="@android:style/TextAppearance.DeviceDefault.Widget.TextView.SpinnerItem">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/winset_color_dropdown</item>
+    </style>
+    <style name="TextAppearance.MediaHub.TextView.SpinnerItemTablet" parent="@android:style/TextAppearance.DeviceDefault.Widget.TextView.SpinnerItem">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="white22">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="white22BoldShadowBlack70" parent="@style/white22">
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/black_70</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="homeTitleTextTablet">
+        <item name="android:textSize">36.0dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="bannerCategoryTitleTextTablet">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="bannerItemTitleTextTablet">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="bannerItemSubTitleTextTablet">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/front_release_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="bannerItemTitleTextTablet_16sp" parent="@style/bannerItemTitleTextTablet">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="bannerItemSubTitleTextTablet_14dp" parent="@style/bannerItemSubTitleTextTablet">
+        <item name="android:textSize">14.0dip</item>
+    </style>
+    <style name="widgetTitleTextTablet">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textColor">@color/widget_title_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="widgetTitleTextTabletbold" parent="@style/widgetTitleTextTablet">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="widgetTitleTextTablet20bold" parent="@style/widgetTitleTextTablet">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="widgetTitleTextTablet16" parent="@style/widgetTitleTextTablet">
+        <item name="android:textSize">16.0dip</item>
+    </style>
+    <style name="widgetTitleSubTextTablet16" parent="@style/widgetTitleTextTablet">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/widget_sub_title_text_color</item>
+    </style>
+    <style name="bannerCategoryTitleTextPhone">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">@drawable/ics_selector_banner_title_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="bannerCategoryTitleTextPhone16" parent="@style/bannerCategoryTitleTextPhone">
+        <item name="android:textSize">16.0dip</item>
+    </style>
+    <style name="bannerItemTitleTextPhone">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:textColor">@drawable/ics_selector_banner_item_title_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="bannerItemTitleTextPhone16" parent="@style/bannerItemTitleTextPhone">
+        <item name="android:textSize">16.0dip</item>
+    </style>
+    <style name="bannerItemSubTitleTextPhone">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@drawable/ics_selector_banner_item_sub_title_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="bannerItemSubTitleTextPhone13" parent="@style/bannerItemSubTitleTextPhone">
+        <item name="android:textSize">13.0dip</item>
+    </style>
+    <style name="widgetButtonPhone">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/widget_btn</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">@color/black_70</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.3</item>
+    </style>
+    <style name="addnewAccountBtnTextPhone">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@drawable/selector_color_sub_header_text</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="linkedSearchTitleTextPhone">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/expandable_list_text</item>
+    </style>
+    <style name="detailInfoLabelTextPhone">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/detail_info_label_text_color</item>
+    </style>
+    <style name="linkedSearchTextPhone">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">@color/linked_search_text</item>
+    </style>
+    <style name="linkedSearchHighlightTextPhone" parent="@style/linkedSearchTextPhone">
+        <item name="android:textColorHighlight">@color/black</item>
+        <item name="android:textColorLink">@color/linked_search_text</item>
+        <item name="android:linksClickable">true</item>
+        <item name="android:bufferType">spannable</item>
+        <item name="android:hapticFeedbackEnabled">false</item>
+    </style>
+    <style name="btnText">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">@drawable/selector_btn_normal_text_color</item>
+    </style>
+    <style name="listTitle">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@drawable/selector_list_title_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:marqueeRepeatLimit">0</item>
+    </style>
+    <style name="listTitle21sp">
+        <item name="android:textSize">21.0sp</item>
+        <item name="android:textColor">@drawable/selector_list_title_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:marqueeRepeatLimit">0</item>
+    </style>
+    <style name="listTitleSingle" parent="@style/listTitle">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">0</item>
+    </style>
+    <style name="listSubTitle">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">@drawable/selector_list_sub_title_color</item>
+    </style>
+    <style name="expandableListTitle">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/expandable_list_title_text_color</item>
+    </style>
+    <style name="listCategoryTitle">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/expandable_list_title_text_color</item>
+    </style>
+    <style name="expandableListTitle15dp">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/expandable_list_text_color</item>
+    </style>
+    <style name="popupText">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/popup_info_text_color</item>
+    </style>
+    <style name="popupText19sp" parent="@style/popupText">
+        <item name="android:textSize">19.0sp</item>
+    </style>
+    <style name="popupText18sp" parent="@style/popupText">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="popupText15sp" parent="@style/popupText">
+        <item name="android:textSize">15.0sp</item>
+    </style>
+    <style name="bottomBtn" parent="@style/btnText">
+        <item name="android:textSize">18.0dip</item>
+    </style>
+    <style name="addEditText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/edit_box_active_color</item>
+        <item name="android:minHeight">36.0dip</item>
+    </style>
+    <style name="addCardEditText" parent="@style/addEditText">
+        <item name="android:background">@drawable/ics_selector_tw_input_field</item>
+        <item name="android:textCursorDrawable">@drawable/text_cursor_holo_light</item>
+    </style>
+    <style name="addCardText">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">@color/add_new_credit_card_title_color</item>
+        <item name="android:minHeight">26.0dip</item>
+    </style>
+    <style name="text16sp">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="lstTitle21sp" parent="@style/listTitleSingle">
+        <item name="android:textSize">21.0sp</item>
+    </style>
+    <style name="listSubTitle16dp" parent="@style/listSubTitle">
+        <item name="android:textSize">16.0dip</item>
+    </style>
+    <style name="devicesText17sp" parent="@style/addnewAccountBtnTextPhone">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+    <style name="descriptionText17sp">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">@color/mymedia_info</item>
+    </style>
+    <style name="detailViewInfoText">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/mymedia_info</item>
+    </style>
+    <style name="Theme.CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="Transparent.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="NoDialogFrame" parent="@android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="q_header_app_name">
+        <item name="android:textSize">21.0dip</item>
+        <item name="android:textColor">#ff161f23</item>
+    </style>
+    <style name="q_header_device_name">
+        <item name="android:textSize">21.0dip</item>
+        <item name="android:textColor">@color/RGB_22_31_35</item>
+    </style>
+    <style name="q_header_button">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textColor">@color/RGB_100_0_0_0</item>
+    </style>
+    <style name="q_remocon_body">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">@color/RGB_202_202_202</item>
+    </style>
+    <style name="Theme.Common.Launcher" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="widget_void_title" parent="@android:style/TextAppearance.Medium" />
+    <style name="Widget_refresh_text">
+        <item name="android:shadowColor">@color/RGB_50_255_255_255</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">4.0</item>
+    </style>
+    <style name="WidgetTitleText_Light">
+        <item name="android:shadowColor">@color/RGB_60_0_0_0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="WidgetTitleText">
+        <item name="android:shadowColor">@color/RGB_60_0_0_0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Yosemite.Common.Popup" parent="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:dropDownSelector">@drawable/common_list_background</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="Yosemite.Common.Splash" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@drawable/bg_01</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Yosemite.Common.Normal" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+    <style name="Yosemite.Common.TransparentSplash" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Yosemite.Common.NoActionBar" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="DualPlayer.Actionbar" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="settings_thumbtext">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+    <style name="style_switch" parent="@android:style/Widget.DeviceDefault" />
+    <style name="style_text_shadow_0_1_60">
+        <item name="android:shadowColor">#99000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="style_searchbar" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/RGB_100_255_255_255</item>
+        <item name="android:textColorHint">@color/RGB_100_138_140_143</item>
+        <item name="android:background">@drawable/common_selector_search_background</item>
+    </style>
+    <style name="Common" parent="@android:style/Widget.DeviceDefault.Button" />
+    <style name="Common.Button" parent="@style/Common">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Common.Button.Blue" parent="@style/Common.Button">
+        <item name="android:textColor">@drawable/common_selector_button_textcolor</item>
+        <item name="android:background">@drawable/common_selector_button_blue</item>
+    </style>
+    <style name="Common.Button.Gray" parent="@style/Common.Button">
+        <item name="android:textColor">@drawable/common_selector_button_textcolor</item>
+        <item name="android:background">@drawable/common_selector_button_gray</item>
+    </style>
+    <style name="Common.List" parent="@android:style/Widget.DeviceDefault.ListView">
+        <item name="android:listSelector">@drawable/common_list_background</item>
+        <item name="android:divider">@drawable/left_menu_divider</item>
+    </style>
+    <style name="Main.Theme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:actionBarItemBackground">@drawable/activebar_selector_button_background</item>
+    </style>
+    <style name="NoDialogFrame.Holo" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="HinePopupAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="TextShadow">
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="TextShadow.255_255_255" parent="@style/TextShadow">
+        <item name="android:shadowColor">@color/RGB_100_255_255_255</item>
+    </style>
+    <style name="TextShadow.220_220_220" parent="@style/TextShadow">
+        <item name="android:shadowColor">@color/RGB_100_220_220_220</item>
+    </style>
+    <style name="TextShadow.230_230_230" parent="@style/TextShadow">
+        <item name="android:shadowColor">@color/RGB_100_230_230_230</item>
+    </style>
+    <style name="TextShadow.0_0_0" parent="@style/TextShadow">
+        <item name="android:shadowColor">@color/RGB_100_0_0_0</item>
+    </style>
+    <style name="TextShadow.49_90_145" parent="@style/TextShadow">
+        <item name="android:shadowColor">@color/RGB_100_49_90_145</item>
+    </style>
+    <style name="TextShadow.216_216_216" parent="@style/TextShadow">
+        <item name="android:shadowColor">@color/RGB_100_216_216_216</item>
+    </style>
+    <style name="TextShadow.205_205_205" parent="@style/TextShadow">
+        <item name="android:shadowColor">@color/RGB_100_205_205_205</item>
+    </style>
+    <style name="TextShadow.128_155_174" parent="@style/TextShadow">
+        <item name="android:shadowColor">@color/RGB_100_128_155_174</item>
+    </style>
+    <style name="TextShadow.70_72_74" parent="@style/TextShadow">
+        <item name="android:shadowColor">@color/RGB_100_70_72_74</item>
+    </style>
+    <style name="style_basic_button_white">
+        <item name="android:textSize">@dimen/basic_button_font_size</item>
+        <item name="android:textColor">@drawable/common_selector_button_textcolor_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/common_selector_button_white</item>
+    </style>
+    <style name="style_basic_button_blue">
+        <item name="android:textSize">@dimen/basic_button_font_size</item>
+        <item name="android:textColor">@drawable/common_selector_button_textcolor_blue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/common_selector_button_blue</item>
+    </style>
+    <style name="style_basic_button_gray">
+        <item name="android:textSize">@dimen/basic_button_font_size</item>
+        <item name="android:textColor">@drawable/common_selector_button_textcolor_gray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/common_selector_button_gray</item>
+    </style>
+    <style name="SubCategory">
+        <item name="android:textSize">@dimen/subcategory_font_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/RGB_237_237_237</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@drawable/bar_category</item>
+        <item name="android:paddingLeft">14.0dip</item>
+        <item name="android:paddingRight">14.0dip</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/subcategory_height</item>
+    </style>
+    <style name="SubCategory_tvdpi">
+        <item name="android:textSize">@dimen/subcategory_font_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/RGB_237_237_237</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@drawable/bar_category</item>
+        <item name="android:paddingLeft">18.0dip</item>
+        <item name="android:paddingRight">11.0dip</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/subcategory_height</item>
+    </style>
+    <style name="SubCategory_tvdpi_v19">
+        <item name="android:textSize">@dimen/subcategory_font_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/RGB_100_238_238_238</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@drawable/bar_category</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/subcategory_height</item>
+    </style>
+    <style name="style_popup_top_layout">
+        <item name="android:textSize">@dimen/popup_title_font_size</item>
+        <item name="android:textColor">@color/popup_title_text_color</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@drawable/bg_popup_top</item>
+        <item name="android:paddingLeft">@dimen/popup_top_padding_left</item>
+        <item name="android:paddingTop">@dimen/popup_padding_shadow_top</item>
+        <item name="android:paddingRight">@dimen/popup_top_padding_right</item>
+        <item name="android:layout_width">@dimen/popup_width</item>
+        <item name="android:layout_height">@dimen/popup_top_height</item>
+    </style>
+    <style name="style_popup_middle_layout">
+        <item name="android:background">@drawable/bg_popup_middle_default</item>
+        <item name="android:paddingLeft">@dimen/popup_top_padding_left</item>
+        <item name="android:paddingTop">@dimen/popup_middle_padding_top</item>
+        <item name="android:paddingRight">@dimen/popup_top_padding_right</item>
+        <item name="android:paddingBottom">@dimen/popup_middle_padding_bottom</item>
+        <item name="android:layout_width">@dimen/popup_width</item>
+    </style>
+    <style name="style_popup_middle_no_bottom_layout" parent="@style/style_popup_middle_layout">
+        <item name="android:background">@drawable/bg_popup_bottom_no_btn</item>
+    </style>
+    <style name="style_popup_middle_list_layout">
+        <item name="android:background">@drawable/bg_popup_middle_default</item>
+        <item name="android:paddingLeft">@dimen/popup_padding_shadow_left</item>
+        <item name="android:paddingRight">@dimen/popup_padding_shadow_right</item>
+        <item name="android:layout_width">@dimen/popup_width</item>
+    </style>
+    <style name="style_popup_bottom_layout">
+        <item name="android:background">@drawable/bg_popup_bottom</item>
+        <item name="android:paddingLeft">@dimen/popup_bottom_padding_left</item>
+        <item name="android:paddingRight">@dimen/popup_bottom_padding_right</item>
+        <item name="android:paddingBottom">@dimen/popup_padding_shadow_bottom</item>
+        <item name="android:layout_width">@dimen/popup_width</item>
+        <item name="android:layout_height">@dimen/popup_bottom_height</item>
+    </style>
+    <style name="style_popup_button">
+        <item name="android:textSize">@dimen/popup_button_font_size</item>
+        <item name="android:textColor">@drawable/common_selector_button_textcolor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/common_selector_popup_button_background</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/popup_button_height</item>
+        <item name="android:layout_marginTop">@dimen/popup_button_marginTop</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="theme_spinner_divider">
+        <item name="android:dropDownListViewStyle">@style/spinner_divider</item>
+    </style>
+    <style name="spinner_divider" parent="@android:style/Widget.DeviceDefault.ListView.DropDown">
+        <item name="android:divider">@drawable/tw_list_divider</item>
+        <item name="android:dividerHeight">1.0px</item>
+    </style>
+    <style name="style_dropdown" parent="@android:style/Widget.DropDownItem.Spinner">
+        <item name="android:background">@drawable/common_selector_dropdown_background</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:divider">@drawable/tw_spinner_divider_dark</item>
+        <item name="android:dividerHeight">1.0px</item>
+        <item name="android:popupBackground">@drawable/list_bg</item>
+    </style>
+    <style name="TwoWayView">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="InnerTwoWayView">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="Yosemite.UniversalRemote.SearchBar" parent="@android:style/Theme">
+        <item name="android:actionModeBackground">@style/style_searchbar</item>
+    </style>
+    <style name="Yosemite.Netflix.Integration.ProgressBar" parent="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Yosemite.Common" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:scrollbarThumbVertical">@drawable/scroll_bar</item>
+    </style>
+</resources>

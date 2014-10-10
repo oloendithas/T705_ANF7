@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@drawable/common_list_background" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="75.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/favorite_epg_imageview_image" android:background="@drawable/bg_01" android:padding="1.0dip" android:layout_width="75.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+        <ImageView android:layout_gravity="center" android:id="@id/favorite_epg_imageview_image_default" android:background="@drawable/tw_noitem_tv" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+        <com.sec.msc.android.yosemite.ui.common.view.web.WebImageView android:layout_gravity="center" android:id="@id/favorite_epg_imageview_image_web" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <RelativeLayout android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/favorite_epg_imageview_image">
+        <FrameLayout android:id="@id/favorite_list_right_layout_channel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <ImageView android:layout_gravity="right|center" android:id="@id/favorite_epg_imageview_live_icon" android:visibility="gone" android:layout_width="37.0dip" android:layout_height="19.0dip" android:layout_marginTop="27.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="28.0dip" android:src="@drawable/tag_live" android:layout_alignParentRight="true" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:layout_toLeftOf="@id/favorite_list_right_layout_channel">
+            <TextView android:textSize="20.0dip" android:textColor="@drawable/common_list_text_1line" android:ellipsize="end" android:id="@id/favorite_epg_textview_title" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_toRightOf="@id/favorite_epg_imageview_image" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_toRightOf="@id/favorite_epg_imageview_image" android:layout_below="@id/favorite_epg_textview_title">
+                <TextView android:textSize="18.0dip" android:textColor="@drawable/common_list_text_2line" android:gravity="center_vertical" android:id="@id/favorite_epg_textview_time_start" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_toRightOf="@id/favorite_epg_textview_time_start" />
+                <ImageView android:layout_gravity="center" android:id="@id/separator" android:background="@drawable/navi_divide" android:duplicateParentState="true" android:layout_width="2.0dip" android:layout_height="16.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+                <TextView android:textSize="18.0dip" android:textColor="@drawable/common_list_text_2line" android:gravity="center_vertical" android:id="@id/favorite_epg_textview_time_date" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_toRightOf="@id/separator" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

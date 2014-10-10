@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" package="com.sec.yosemite.tab">
+    <supports-screens android:largeScreens="false" android:normalScreens="false" android:requiresSmallestWidthDp="1600" android:smallScreens="false" android:xlargeScreens="true"/>
+    <permission android:label="WatchON Basic Remocon" android:name="com.sec.watchon.phone.BASIC_REMOCON" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="com.sec.android.app.sns3.permission.SNS_FB_ACCESS_TOKEN"/>
+    <uses-permission android:name="com.sec.android.app.sns3.permission.SNS_TW_ACCESS_TOKEN"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.TRANSMIT_IR"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="tv.yosemite.samsung.app.REMOTE_CONTROL"/>
+    <uses-permission android:name="sstream.app.StoryProvider.WRITE.PERMISSION"/>
+    <uses-permission android:name="com.sec.spp.permission.TOKEN_9daaafb3cf71917d75e50d144f08bd39d93a91116ba2a4b7c2124f94703965a87adb5de5fb71ab1d1ae15198209494b323ef8fdaa301f49b325b6b4fcc5a0193a4025c07c498c5eb870510856a294ec26ba07b8380cdd5f9434017aac2e49c4f25cff58601e624d4daaca5784e94a78c58a85aa7402247f1551696f5b287d767"/>
+    <application android:hardwareAccelerated="true" android:icon="@drawable/app_logo" android:label="@string/app_name" android:largeHeap="true" android:name="com.sec.msc.android.yosemite.YosemiteApplication" android:theme="@style/Yosemite.Common">
+        <meta-data android:name="com.samsung.android.multiuser.install_only_owner" android:value="true"/>
+        <meta-data android:name="sstream.app.SSTREAM_IS_SUPPORTED" android:value="true"/>
+        <meta-data android:name="sstream.app.SSTREAM_ID" android:value="samsung.media"/>
+        <activity android:configChanges="locale|orientation|screenSize|layoutDirection|fontScale" android:label="@string/app_title" android:launchMode="singleTop" android:name="com.sec.msc.android.yosemite.ui.home.HomeScreenActivity" android:theme="@style/Yosemite.Common.Splash">
+            <intent-filter>
+                <action android:name="com.sec.msc.android.yosemite.intent.action.YosemiteService"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="sym"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="sstream"/>
+                <data android:host="storyitem"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.sec.msc.android.yosemite.ui.timeline.DataYosemiteActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.sec.msc.android.yosemite.ui.help.OverlayGuideHomeActivity"/>
+        <activity android:name="com.sec.msc.android.yosemite.ui.test.MainActivity"/>
+        <activity android:name="com.sec.msc.android.yosemite.ui.test.DiscoveryTestActivity"/>
+        <activity android:name="com.sec.msc.android.yosemite.ui.test.TuneChannelTestActivity"/>
+        <activity android:name="com.sec.msc.android.yosemite.ui.test.RemoconTestActivity"/>
+        <activity android:name="com.sec.msc.android.yosemite.ui.test.StbRemoconTestActivity"/>
+        <activity android:name="com.sec.msc.android.yosemite.ui.test.WatchOnTvTestActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.sec.msc.android.yosemite.ui.tvshows.TvShowActivity" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.sec.msc.android.yosemite.ui.TvshowActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.sec.msc.android.yosemite.ui.movies.MovieActivity" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.sec.msc.android.yosemite.ui.MovieActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|orientation|screenSize" android:exported="false" android:name="com.sec.msc.android.yosemite.ui.tvguide.TvGuideActivity" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.sec.msc.android.yosemite.ui.GuideActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.msc.android.yosemite.ui.home.TermsandConditionsActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.sec.msc.android.yosemite.ui.detailview.big.DetailviewActivityImpl">
+            <intent-filter>
+                <action android:name="com.sec.msc.android.yosemite.ui.detailview.big.DetailviewActivityImpl"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.sec.msc.android.yosemite.ui.detailview.normal.DetailviewActivityImpl" android:theme="@style/spinner_divider">
+            <intent-filter>
+                <action android:name="com.sec.msc.android.yosemite.ui.detailview.normal.DetailviewActivityImpl"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="com.sec.msc.android.yosemite.ui.popup.BiographyActivity" android:theme="@style/Yosemite.Common.Popup"/>
+        <activity android:name="com.sec.msc.android.yosemite.ui.stillshot.StillShotActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.msc.android.yosemite.ui.seasonalfavorites.SeasonalFavoritesActivity">
+            <intent-filter>
+                <action android:name="com.sec.msc.android.yosemite.ui.seasonalfavorites.SeasonalFavoritesActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.msc.android.yosemite.ui.popup.RottenTomatoesActivity" android:theme="@style/Yosemite.Common.Popup"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.msc.android.yosemite.ui.popup.OtherEpisodesActivity" android:theme="@style/Yosemite.Common.Popup"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.sec.msc.android.yosemite.ui.tvguide.TvGuideProgramDetailActivity">
+            <intent-filter>
+                <action android:name="com.sec.msc.android.yosemite.ui.GuideDetailviewActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.msc.android.yosemite.ui.settings.SettingsActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="com.sec.msc.android.yosemite.ui.settings.PasscodeActivity" android:theme="@style/Yosemite.Common.Popup" android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.msc.android.yosemite.ui.accountsettings.AccountSettingsActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.sec.msc.android.yosemite.ui.search.AdvancedSearchActivity" android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.msc.android.yosemite.ui.search.SearchListActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.sec.msc.android.yosemite.ui.search.MoreSearchListActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.sec.msc.android.yosemite.ui.featured.FeaturedActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.msc.android.yosemite.ui.favorite.FavoriteActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.msc.android.yosemite.ui.mypage.MyPageActivity">
+            <intent-filter>
+                <action android:name="com.sec.msc.android.yosemite.ui.purchased.start"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.msc.android.yosemite.ui.mypage_de.MypageContentActivity"/>
+        <activity android:name="com.sec.msc.android.yosemite.ui.settings.EPGSetupPopupActivity" android:theme="@style/Yosemite.Common.Popup"/>
+        <activity android:name="com.sec.msc.android.yosemite.ui.settings.universalremote.UniversalRemotePopupActivity" android:screenOrientation="landscape" android:theme="@style/Yosemite.Common.Popup" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.sec.msc.android.yosemite.ui.settings.EditChannelPopupActivity" android:theme="@style/Yosemite.Common.Popup" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.msc.android.yosemite.ui.help.HelpActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.msc.android.yosemite.ui.help.AboutActivity"/>
+        <activity android:name="com.sec.msc.android.yosemite.client.manager.cp.NetflixIntegrationActivity" android:theme="@style/Yosemite.Common.Popup">
+            <intent-filter>
+                <action android:name="com.netflix.mediaclient.intent.action.SSO_getExternalSsoService"/>
+                <action android:name="com.netflix.mediaclient.intent.action.SSO_getExternalUserToken"/>
+                <action android:name="com.netflix.mediaclient.intent.action.SSO_requestExternalUserAuth"/>
+                <action android:name="com.netflix.mediaclient.intent.action.SSO_getExternalSignUpService"/>
+                <action android:name="com.netflix.mediaclient.intent.action.SSO_getExternalUserData"/>
+                <action android:name="com.netflix.mediaclient.intent.action.SSO_requestExternalUserConfirmation"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:name="com.sec.msc.android.yosemite.client.manager.cp.CPManagerActivity" android:theme="@style/Yosemite.Common.Popup">
+            <intent-filter>
+                <action android:name="com.sec.msc.android.yosemite.intent.action.CPManager"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.msc.android.yosemite.client.manager.login.LoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:name="com.sec.msc.android.yosemite.client.manager.login.LoginReceiver">
+            <intent-filter>
+                <action android:name="com.msc.action.samsungaccount.response.BackGroundSignin"/>
+                <data android:scheme="com.sec.yosemite.tab"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.msc.android.yosemite.client.manager.login.LogoutReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.sec.msc.android.yosemite.ui.settings.universalremote.UniversalRemoteBugReportActivity" android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:launchMode="singleTask" android:name="com.samsung.mediahub.ics.common.NotificationDummy" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:name="com.samsung.mediahub.ics.lib.activity.SignInFlowDialog" android:theme="@style/MediaHub.DeviceDefault.Dialog.NoTitle"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:name="com.samsung.mediahub.ics.lib.activity.MyDevicesManaging" android:theme="@style/MediaHub.DeviceDefault.Dialog.NoTitle"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:name="com.samsung.mediahub.ics.common.ShowChargeDialog" android:screenOrientation="portrait"/>
+        <service android:enabled="true" android:exported="false" android:name="com.samsung.mediahub.ics.contentProvider.ContentProviderService">
+            <intent-filter>
+                <action android:name="com.samsung.mediahub.ics.contentProvider.ContentProviderService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.samsung.mediahub.ics.download.DownloadService">
+            <intent-filter>
+                <action android:name="com.samsung.mediahub.ics.download.DownloadServic"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.samsung.mediahub.coremodule" android:exported="false" android:multiprocess="false" android:name="com.samsung.mediahub.ics.MHContentPorvider"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:launchMode="singleTask" android:name="com.samsung.videohub.common.NotificationDummy" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:name="com.samsung.videohub.lib.activity.SignInFlowDialog" android:theme="@style/VideoHub.DeviceDefault.Dialog.NoTitle"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:name="com.samsung.videohub.lib.activity.MyDevicesManaging" android:theme="@style/VideoHub.DeviceDefault.Dialog.NoTitle"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:name="com.sec.msc.android.yosemite.ui.purchased.adapt.LogTest"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:label="@string/purchase" android:name="com.samsung.videohub.lib.activity.PurchaseFlowKor"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode" android:hardwareAccelerated="true" android:label="@string/inicis_purchase" android:launchMode="singleTask" android:name="com.samsung.videohub.lib.activity.InicisActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="videohubinicisresult"/>
+                <data android:scheme="videohubiniciscancelresult"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:name="com.samsung.videohub.common.ShowChargeDialog" android:screenOrientation="portrait"/>
+        <service android:enabled="true" android:exported="false" android:name="com.samsung.videohub.contentProvider.ContentProviderService">
+            <intent-filter>
+                <action android:name="com.samsung.videohub.contentProvider.ContentProviderService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.samsung.videohub.download.DownloadService">
+            <intent-filter>
+                <action android:name="com.samsung.videohub.download.DownloadServic"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.samsung.coremodule" android:exported="true" android:multiprocess="false" android:name="com.samsung.videohub.VHContentPorvider" android:readPermission="com.samsung.yosemite.permission.CONTENT_READ" android:writePermission="com.samsung.yosemite.permission.CONTENT_WRITE"/>
+        <receiver android:name="com.sec.msc.android.yosemite.YosemiteBroadcastReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.sec.msc.android.yosemite.service.remotetv.RemoteTvService">
+            <intent-filter>
+                <action android:name="com.sec.msc.android.yosemite.service.remotetv.IRemoteTvService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.sec.msc.android.yosemite.service.remocon.BasicRemoconService" android:permission="com.sec.watchon.phone.BASIC_REMOCON">
+            <intent-filter>
+                <action android:name="com.sec.msc.android.yosemite.service.remocon.IBasicRemoconService"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.sec.msc.android.yosemite.widget.quickpanel.QuickpanelRemoconService"/>
+        <receiver android:name="com.sec.msc.android.yosemite.widget.quickpanel.QuickpanelRemoconBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.android.systemui.statusbar.EXPANDED"/>
+                <action android:name="com.android.systemui.statusbar.COLLAPSED"/>
+                <action android:name="com.sec.yosemite.quickpanel.remocon.EXPANDED"/>
+                <action android:name="com.sec.yosemite.quickpanel.remocon.COLLAPSED"/>/&gt;
+</intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.android.yosemite.client.manager.deeplink.SStreamReceiver">
+            <intent-filter>
+                <action android:name="com.sec.android.app.launcher.action.ENTER_MAGAZINE_APP"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/app_name" android:name="com.sec.msc.android.yosemite.ui.common.appwidget.WatchOnWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.CLICK"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.TITLE_CLICK"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.UPDATE_CLICK"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.MOVE_ONTV_VOD_CLICK"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.SEARCH_CLICK"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.UPDATE_CONFIGRATION_ACTION"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.SETTING_ACTION"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.REMOCON_CLICK"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.VOD1"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.VOD2"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.VOD3"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.VOD4"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.VOD5"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.VOD6"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.ONTV1"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.ONTV2"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.ONTV3"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.ONTV4"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@layout/watchon_widget_provider"/>
+        </receiver>
+        <service android:name="com.sec.msc.android.yosemite.ui.common.appwidget.WatchOnWidgetService"/>
+        <receiver android:label="@string/app_name" android:name="com.sec.msc.android.yosemite.ui.common.appwidget.FavoriteWidgetProvider">
+            <intent-filter>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.SETTING_ACTION_FAVORITE"/>
+                <action android:name="com.android.onUpdate"/>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.appwidget.action.FAVORITEAPPS_WIDGET"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@layout/favorite_widget_info"/>
+        </receiver>
+        <receiver android:label="@string/app_name" android:name="com.sec.msc.android.yosemite.ui.common.appwidget.MagazineWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.CLICK_MAGAZINE"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.TITLE_CLICK_MAGAZINE"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.TITLE_VOD_CLICK"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.TITLE_ONTV_CLICK"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.UPDATE_CLICK_MAGAZINE"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.SEARCH_CLICK_MAGAZINE"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.UPDATE_CONFIGRATION_ACTION"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.SETTING_ACTION_MAGAZINE"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.REMOCON_CLICK_MAGAZINE"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.VOD_MAGAZINE1"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.VOD_MAGAZINE5"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.VOD_MAGAZINE6"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.ONTV1_MAGAZINE1"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.ONTV2_MAGAZINE2"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.ONTV3_MAGAZINE3"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.ONTV4_MAGAZINE4"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.REFRESH_ALARM_MAGAZINE"/>
+                <action android:name="com.sec.msc.android.yosemite.ui.common.appwidget.FAST_REFRESH_ALARM_MAGAZINE"/>
+                <action android:name="android.appwidget.action.MAGAZINE_WIDGET"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED"/>
+                <action android:name="com.sec.android.widgetapp.APPWIDGET_RESIZE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@layout/magazine_widget_info"/>
+            <meta-data android:name="com.sec.android.appwidget.widgetinfo" android:resource="@layout/magazine_widget_provider_info"/>
+        </receiver>
+        <provider android:authorities="com.sec.yosemite.magazinewidget.RotationProvider" android:exported="true" android:name="com.sec.msc.android.yosemite.ui.common.appwidget.MagazineWidgetRotationProvider">
+            <meta-data android:name="contentprovider.FOR_MAGAZINE" android:value="true"/>
+        </provider>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:label="" android:launchMode="singleTop" android:name="com.sec.msc.android.dplayer.DualPlayerActivity" android:process="com.sec.yosemite.tab.dualplayer" android:theme="@style/DualPlayer.Actionbar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="symdp"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sec.msc.android.yosemite.ui.detailview.CPSelectionActivity" android:theme="@style/Yosemite.Netflix.Integration.ProgressBar"/>
+        <uses-library android:name="sec_feature"/>
+        <service android:name="com.sec.msc.android.yosemite.client.manager.bigdata.DBUpdatorService"/>
+        <service android:name="com.sec.msc.android.yosemite.client.manager.bigdata.BigDataAidlConnector"/>
+        <receiver android:name="com.sec.msc.android.yosemite.client.manager.bigdata.LogBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.sec.spp.push.DLC_AVAILABLE"/>
+                <action android:name="com.sec.spp.push.DLC_UNAVAILABLE"/>
+                <action android:name="com.sec.yosemite.tab.logservicereg"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

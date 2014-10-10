@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/banner_first" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <AdapterViewFlipper android:id="@id/banner_1" android:layout_width="340.0dip" android:layout_height="110.0dip" android:inAnimation="@anim/flipper_in" android:outAnimation="@anim/flipper_out" android:flipInterval="60000" android:autoStart="true" />
+    <AdapterViewFlipper android:id="@id/banner_2" android:layout_width="340.0dip" android:layout_height="110.0dip" android:layout_marginTop="22.0dip" android:inAnimation="@anim/flipper_in" android:outAnimation="@anim/flipper_out" android:flipInterval="60000" android:autoStart="true" />
+</LinearLayout>

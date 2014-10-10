@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="310.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_title" android:background="@drawable/bg_popup_middle_default" android:paddingRight="26.0dip" android:visibility="gone" android:layout_width="570.0dip" android:layout_height="65.0dip">
+        <ImageView android:id="@id/img_icon" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="17.0dip" android:layout_marginRight="16.0dip" />
+        <TextView android:textSize="22.0dip" android:textColor="@color/RGB_100_220_220_220" android:gravity="left|center" android:id="@id/txt_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="26.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_content" android:background="@drawable/bg_popup_middle_default" android:visibility="gone" android:layout_width="570.0dip" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img_indeterminate" android:background="@drawable/tw_widget_progressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="17.0dip" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/RGB_100_138_140_143" android:id="@id/txt_message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginTop="28.0dip" android:layout_marginRight="26.0dip" android:layout_marginBottom="35.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/divide_line" android:background="@drawable/popup_line_02" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_button" android:background="@drawable/tw_dialog_bottom_holo_dark" android:paddingLeft="5.0dip" android:paddingTop="6.0dip" android:paddingRight="5.0dip" android:paddingBottom="6.0dip" android:visibility="gone" android:layout_width="570.0dip" android:layout_height="62.0dip">
+        <Button android:textSize="18.0dip" android:textColor="@drawable/common_button_textcolor_selector" android:id="@id/btn_negative" android:background="@drawable/common_button_popup_background_selector" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0" />
+        <Button android:textSize="18.0dip" android:textColor="@drawable/common_button_textcolor_selector" android:id="@id/btn_netural" android:background="@drawable/common_button_popup_background_selector" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0" />
+        <Button android:textSize="18.0dip" android:textColor="@drawable/common_button_textcolor_selector" android:id="@id/btn_positive" android:background="@drawable/common_button_popup_background_selector" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

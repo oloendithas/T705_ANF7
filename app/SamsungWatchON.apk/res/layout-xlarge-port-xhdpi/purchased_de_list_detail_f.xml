@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="14.0dip" android:paddingTop="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/purchased_nocontent_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/purchased_nocontent_image" android:duplicateParentState="true" android:layout_width="148.0dip" android:layout_height="148.0dip" android:layout_centerInParent="true" />
+        <TextView android:textSize="24.0dip" android:textColor="@color/RGB_237_237_237" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/common_msg_no_content" android:layout_below="@id/purchased_nocontent_image" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/purchased_subtitle_layout" android:background="@drawable/bar_category" android:layout_width="fill_parent" android:layout_height="32.0dip">
+        <TextView android:textSize="18.0dip" android:textColor="@color/RGB_237_237_237" android:gravity="center_vertical" android:paddingLeft="14.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/purchased_contents" android:layout_alignParentLeft="true" android:textAllCaps="true" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/RGB_237_237_237" android:gravity="center_vertical" android:id="@id/purchased_subtitle" android:paddingRight="14.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/purchased_purchase_type_layout" android:background="@drawable/bar_category" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginTop="2.0dip" android:baselineAligned="false" android:layout_below="@id/purchased_subtitle_layout">
+        <LinearLayout android:orientation="horizontal" android:id="@id/purchased_purchased_only_chcekbox_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="44.0dip" android:layout_weight="1.0">
+            <CheckBox android:layout_gravity="center_vertical" android:id="@id/purchased_purchased_only_chcekbox" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:button="@drawable/common_selector_bar_category_checkbox" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/RGB_237_237_237" android:gravity="left|center" android:layout_gravity="center_vertical" android:focusable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/om_purchased_only" android:singleLine="true" android:includeFontPadding="false" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/purchased_rented_only_chcekbox_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <CheckBox android:layout_gravity="center_vertical" android:id="@id/purchased_rented_only_chcekbox" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:button="@drawable/common_selector_bar_category_checkbox" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/RGB_237_237_237" android:gravity="left|center" android:layout_gravity="center_vertical" android:focusable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/om_rent_only" android:singleLine="true" android:includeFontPadding="false" />
+        </LinearLayout>
+        <ImageView android:id="@id/purchased_type_dummy" android:visibility="gone" android:layout_width="400.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+    </LinearLayout>
+    <ListView android:id="@id/purchased_common_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:dividerHeight="1.0px" android:choiceMode="singleChoice" android:layout_below="@id/purchased_purchase_type_layout" />
+</RelativeLayout>

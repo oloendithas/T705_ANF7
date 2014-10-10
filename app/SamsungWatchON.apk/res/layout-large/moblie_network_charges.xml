@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:layout_marginBottom="14.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="@color/notification_dilaog_popup_text" android:id="@id/tv_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginRight="26.0dip" android:text="@string/using_mobile_networks" />
+        <CheckBox android:textSize="20.0dip" android:textColor="@color/notification_dilaog_popup_text" android:id="@id/cb_agree" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginRight="26.0dip" android:text="@string/do_not_show_again" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/notification_dilaog_popup_text" android:id="@id/tv_cb_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginRight="26.0dip" android:text="@string/using_mobile_networks" />
+    </LinearLayout>
+</LinearLayout>

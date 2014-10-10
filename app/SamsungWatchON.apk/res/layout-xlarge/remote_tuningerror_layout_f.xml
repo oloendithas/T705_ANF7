@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/settings_setup_popup_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:layout_width="@dimen/settings_setup_popup_width" android:text="@string/common_title_watch_on_tv" style="@style/style_popup_top_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/radio_layout" android:layout_width="@dimen/settings_setup_popup_width" android:layout_height="585.0dip" style="@style/style_popup_middle_layout">
+        <TextView android:textSize="@dimen/popup_message_font_size" android:textStyle="normal" android:textColor="@color/RGB_100_0_176_241" android:layout_width="wrap_content" android:layout_height="70.0dip" android:text="@string/settings_remote_control_tuning_error_message" android:lineSpacingExtra="4.0dip" />
+        <RelativeLayout android:gravity="center" android:background="@color/RGB_100_239_239_240" android:layout_width="fill_parent" android:layout_height="379.0dip" android:layout_marginTop="14.0dip">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ani_tvir_01" android:scaleType="centerInside" />
+            <ImageView android:id="@id/img_animation" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ani_tvir_04" android:scaleType="centerInside" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RadioGroup android:orientation="vertical" android:id="@id/radio_group" android:layout_width="32.0dip" android:layout_height="76.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="18.0dip" android:layout_alignParentRight="true">
+                <RadioButton android:id="@id/radiobtn_try_again" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginBottom="16.0dip" android:checked="true" android:button="@drawable/common_selector_button_radio_background" />
+                <RadioButton android:id="@id/radiobtn_use_ir" android:layout_width="30.0dip" android:layout_height="30.0dip" android:button="@drawable/common_selector_button_radio_background" />
+            </RadioGroup>
+            <TextView android:textSize="17.0dip" android:textColor="@color/RGB_100_5_5_5" android:ellipsize="end" android:id="@id/txt_work" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="19.0dip" android:text="@string/settings_remote_control_setup_try_again" android:singleLine="true" android:layout_toLeftOf="@id/radio_group" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="17.0dip" android:textColor="@color/RGB_100_5_5_5" android:id="@id/txt_ir" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_remote_control_setup_use_ir" android:includeFontPadding="false" android:layout_toLeftOf="@id/radio_group" android:layout_below="@id/txt_work" android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" style="@style/style_popup_bottom_layout">
+        <Button android:id="@id/btn_cancel" android:text="@string/common_button_cancel" style="@style/style_popup_button" />
+        <Button android:id="@id/btn_ok" android:layout_marginLeft="@dimen/popup_button_margin" android:text="@string/common_button_ok" style="@style/style_popup_button" />
+    </LinearLayout>
+</LinearLayout>

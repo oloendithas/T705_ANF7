@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/common_selector_thumbnail_detail_textlist_bg" android:duplicateParentState="true" android:layout_width="146.0dip" android:layout_height="138.0dip">
+        <RelativeLayout android:gravity="center_vertical" android:background="@color/RGB_23_27_33" android:layout_width="138.0dip" android:layout_height="99.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:scaleType="fitXY">
+            <ImageView android:layout_gravity="center" android:id="@id/img_title_background" android:duplicateParentState="true" android:layout_width="138.0dip" android:layout_height="99.0dip" android:src="@drawable/tw_noitem_tv_small1" android:scaleType="center" />
+            <com.sec.msc.android.yosemite.ui.common.view.web.WebImageView android:layout_gravity="center" android:id="@id/img_title" android:duplicateParentState="true" android:layout_width="138.0dip" android:layout_height="99.0dip" />
+        </RelativeLayout>
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@drawable/common_selector_thumbnail_shadow_title_textcolor" android:gravity="center_vertical" android:id="@id/title_text" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="31.0dip" android:singleLine="true" style="@android:style/Widget.DeviceDefault.TextView" />
+    </LinearLayout>
+</LinearLayout>

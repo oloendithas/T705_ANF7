@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/controllerHeader" android:layout_height="48.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" layout="@layout/q_remocon_header" />
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/collapsable_part" android:background="@drawable/q_mini_controller_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/controllerHeader" android:layout_centerHorizontal="true">
+        <FrameLayout android:id="@id/controllerScreen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="@dimen/q_remocon_width" android:layout_height="wrap_content" android:layout_marginRight="125.0dip" android:layout_alignParentRight="true">
+        <include android:visibility="gone" android:layout_margin="0.0dip" layout="@layout/q_remocon_device_popup" />
+    </RelativeLayout>
+    <include android:visibility="gone" layout="@layout/q_remocon_power_popup" />
+</RelativeLayout>

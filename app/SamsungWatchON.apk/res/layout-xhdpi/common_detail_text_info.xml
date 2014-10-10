@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="@color/detail_view_title_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:maxLines="2" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_all_share_cast" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/allshare_cast_icon" />
+        <ImageView android:id="@id/iv_hd_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/detail_hd" />
+        <ImageView android:id="@id/iv_3d_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/detail_3d" />
+        <ImageView android:id="@id/iv_hdmi_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/detail_hdmi" />
+        <ImageView android:id="@id/iv_mpaa_rating" android:visibility="gone" android:layout_width="37.0dip" android:layout_height="16.0dip" android:layout_marginTop="1.0dip" android:scaleType="fitStart" />
+    </LinearLayout>
+    <TextView android:layout_gravity="center_vertical" android:id="@id/tv_released" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" style="@style/detailViewInfoText" />
+    <TextView android:ellipsize="end" android:id="@id/tv_running_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/detailViewInfoText" />
+    <TextView android:ellipsize="end" android:id="@id/tv_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/detailViewInfoText" />
+    <TextView android:ellipsize="end" android:id="@id/tv_availability" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/detailViewInfoText" />
+    <TextView android:gravity="center_vertical" android:id="@id/tv_license_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" style="@style/detailViewInfoText" />
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="747.0dip" android:layout_height="711.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@drawable/bg_popup_top" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="65.0dip">
+            <TextView android:textSize="22.0dip" android:textColor="@color/RGB_178_178_178" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="@string/detailview_oepisodes" android:layout_alignParentLeft="true" />
+            <RelativeLayout android:id="@id/nextarea" android:layout_width="99.0dip" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true">
+                <ImageView android:gravity="center_vertical" android:id="@id/right" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/common_popup_titlebar_arrow_right" android:layout_alignParentRight="true" />
+                <RelativeLayout android:id="@id/nextstring_area" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="20.0dip" android:textColor="@drawable/common_selector_popup_titlebar_textcolor" android:gravity="center" android:id="@id/nextstring" android:duplicateParentState="true" android:layout_width="69.0dip" android:layout_height="28.0dip" android:text="@string/common_button_next" android:layout_toLeftOf="@id/nextarea" />
+                    <TextView android:textSize="14.0dip" android:textColor="@drawable/common_selector_popup_titlebar_textcolor" android:gravity="center" android:id="@id/next_seasonstring" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="19.0dip" android:layout_marginLeft="15.0dip" android:layout_below="@id/nextstring" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <ImageView android:gravity="center_vertical" android:id="@id/pxlin" android:background="@drawable/popup_line" android:layout_width="1.0dip" android:layout_height="40.0dip" android:layout_marginLeft="19.0dip" android:layout_marginTop="12.0dip" android:layout_toLeftOf="@id/nextarea" />
+            <RelativeLayout android:id="@id/prevarea" android:layout_width="83.0dip" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_toLeftOf="@id/pxlin">
+                <RelativeLayout android:id="@id/prevstring_area" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="20.0dip" android:textColor="@drawable/common_selector_popup_titlebar_textcolor" android:gravity="right" android:id="@id/prevstring" android:duplicateParentState="true" android:layout_width="48.0dip" android:layout_height="28.0dip" android:text="@string/common_button_prev" android:layout_alignParentRight="true" />
+                    <TextView android:textSize="14.0dip" android:textColor="@drawable/common_selector_popup_titlebar_textcolor" android:gravity="center" android:id="@id/prev_seasonstring" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="19.0dip" android:layout_below="@id/prevstring" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <ImageView android:gravity="center_vertical" android:id="@id/left" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/common_popup_titlebar_arrow_left" android:layout_toLeftOf="@id/prevstring" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <FrameLayout android:background="@drawable/bg_popup_middle_default" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/otherepisode_content_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+                    <RelativeLayout android:gravity="center_vertical" android:id="@id/img_area" android:layout_width="145.0dip" android:layout_height="145.0dip" android:scaleType="fitXY">
+                        <ImageView android:layout_gravity="center" android:id="@id/imgid_background" android:background="@drawable/thumbnail_title_bg" android:duplicateParentState="true" android:layout_width="145.0dip" android:layout_height="145.0dip" android:src="@drawable/tw_noitem_tv" android:scaleType="fitCenter" />
+                        <com.sec.msc.android.yosemite.ui.common.view.web.WebImageView android:layout_gravity="center" android:id="@id/imgid" android:duplicateParentState="true" android:layout_width="145.0dip" android:layout_height="145.0dip" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginTop="4.0dip" android:layout_toRightOf="@id/img_area">
+                        <TextView android:textSize="28.0dip" android:textColor="@color/RGB_100_217_217_217" android:ellipsize="end" android:gravity="left" android:id="@id/seaontitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:singleLine="true" style="@android:style/Widget.DeviceDefault.TextView" />
+                        <TextView android:textSize="18.0dip" android:textStyle="normal" android:textColor="@color/RGB_100_217_217_217" android:gravity="left" android:id="@id/season_director" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_below="@id/seaontitle" style="@android:style/Widget.DeviceDefault.TextView" />
+                        <TextView android:textSize="18.0dip" android:textStyle="normal" android:textColor="@color/RGB_100_217_217_217" android:gravity="left" android:id="@id/season_writer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/season_director" style="@android:style/Widget.DeviceDefault.TextView" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <ImageView android:background="@drawable/popup_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="14.0dip" />
+                <ListView android:scrollbarThumbVertical="@drawable/scroll_bar" android:id="@id/episodelist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/tw_spinner_divider_dark" android:dividerHeight="1.0px" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/otherepisode_nocontents_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="191.0dip" android:src="@drawable/tw_noitem_tv" />
+                <TextView android:textSize="24.0dip" android:textColor="@color/RGB_100_217_217_217" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/common_msg_no_content" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

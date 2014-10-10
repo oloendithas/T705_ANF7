@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/widget_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/widget_header" />
+        <RelativeLayout android:id="@id/contents_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/home_view" android:background="@drawable/widget_content_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="35.0dip">
+                <include layout="@layout/widget_whatsnew" />
+                <include layout="@layout/widget_banner_first" />
+                <include layout="@layout/widget_banner_second" />
+            </LinearLayout>
+            <include layout="@layout/widget_my_media" />
+            <include layout="@layout/widget_bottom" />
+        </RelativeLayout>
+        <include layout="@layout/widget_disclaimer" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

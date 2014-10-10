@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/popup_middle_padding_left" android:paddingRight="@dimen/popup_middle_padding_right" android:layout_width="fill_parent" android:layout_height="@dimen/popup_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0dip" android:textColor="@drawable/common_selector_dropdown_list_textcolor" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/settings_remote_control_list_item_text" android:paddingLeft="20.0dip" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="47.0dip" android:singleLine="true" style="@android:style/Widget.DeviceDefault.TextView" />
+    <ImageView android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/universal_list_image_radio_button_selector" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

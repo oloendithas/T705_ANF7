@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/selector_btn_create_bg" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="65.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_card_info" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:minWidth="37.0dip">
+                <ImageView android:id="@id/iv_card" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:minWidth="37.0dip" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/iv_card_new" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/payment_icon_new" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_weight="1.0">
+                <TextView android:gravity="center_vertical" android:id="@id/tv_card_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:marqueeRepeatLimit="0" style="@style/listTitleSingle" />
+                <TextView android:ellipsize="marquee" android:id="@id/tv_card_detail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="0" style="@style/listSubTitle" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right|center" android:id="@id/ll_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+            <Button android:id="@id/btn_rename" android:layout_width="50.0dip" android:layout_height="50.0dip" android:drawableRight="@drawable/ics_selector_btn_edit" android:contentDescription="@string/rename" />
+            <Button android:id="@id/btn_remove" android:layout_width="50.0dip" android:layout_height="50.0dip" android:drawableRight="@drawable/ics_selector_btn_delete" android:contentDescription="@string/remove" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

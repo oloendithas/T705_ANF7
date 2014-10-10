@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/tvguide_channels_list_timebox_font" android:textColor="@color/RGB_100_105_109_141" android:gravity="center" android:layout_gravity="center" android:id="@id/gallery_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextShadow" />
+    <TextView android:textSize="18.0dip" android:textColor="@color/RGB_100_105_109_141" android:gravity="center" android:layout_gravity="center" android:id="@id/gallery_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" style="@style/TextShadow" />
+</LinearLayout>

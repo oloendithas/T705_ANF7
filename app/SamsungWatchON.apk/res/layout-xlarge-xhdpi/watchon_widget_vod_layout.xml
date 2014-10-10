@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/widget_bg_land_2x2" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="424.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="left" android:id="@id/watchon_widget_vod_title1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_title_on_demand" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/watchon_widget_vod_program_img1" android:layout_width="221.0dip" android:layout_height="292.0dip" android:layout_marginTop="7.0dip" android:src="@drawable/tw_noitem_movie" android:layout_below="@id/watchon_widget_vod_title1" android:layout_alignParentLeft="true" />
+    <ImageView android:id="@id/watchon_widget_vod_program_img2" android:visibility="visible" android:layout_width="163.0dip" android:layout_height="146.0dip" android:src="@drawable/tw_noitem_movie" android:layout_below="@id/watchon_widget_vod_program_img3" android:layout_alignLeft="@id/watchon_widget_vod_program_img3" />
+    <ImageView android:id="@id/watchon_widget_vod_program_img3" android:visibility="visible" android:layout_width="163.0dip" android:layout_height="146.0dip" android:src="@drawable/tw_noitem_movie" android:layout_toRightOf="@id/watchon_widget_vod_program_img1" android:layout_alignTop="@id/watchon_widget_vod_program_img1" />
+</RelativeLayout>

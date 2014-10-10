@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/popup_width" android:layout_height="383.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/bg_popup_top" android:paddingLeft="22.0dip" android:paddingTop="18.0dip" android:paddingRight="22.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/popup_top_height">
+        <TextView android:textSize="22.0dip" android:textColor="@color/RGB_237_237_237" android:gravity="left|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/cpselection_hdcontentsupport" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_popup_middle_default" android:paddingLeft="22.0dip" android:paddingRight="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0dip" android:textColor="@color/RGB_100_255_255_255" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="29.0dip" android:text="@string/cpselection_hdnotsupportall" android:lineSpacingExtra="4.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="34.0dip" android:layout_marginBottom="20.0dip">
+            <CheckBox android:layout_gravity="center" android:id="@id/hd_no_devices_show_again_checkbox" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/btn_checkbox" />
+            <TextView android:textSize="20.0dip" android:textColor="@color/RGB_100_255_255_255" android:gravity="left" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:text="@string/common_text_do_not_show_again" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_popup_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/popup_bottom_height">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/popup_bottom_height">
+            <Button android:textColor="@drawable/common_button_textcolor_selector_white" android:id="@id/hd_no_devices_cancel" android:background="@drawable/common_button_popup_background_selector_white" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/common_button_cancel" android:layout_weight="1.0" />
+            <Button android:textColor="@drawable/common_button_textcolor_selector_white" android:id="@id/hd_no_devices_buy" android:background="@drawable/common_button_popup_background_selector_white" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:text="@string/common_button_buy" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

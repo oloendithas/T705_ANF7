@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tv_guide_timeline_frame_program_i" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="25.0dip" android:textColor="@color/RGB_237_237_237" android:gravity="top" android:id="@id/tvguide_timeline_00" android:paddingLeft="0.0dip" android:layout_width="329.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="2.0dip" />
+    <FrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/tv_guide_timeline_epg_layout" android:background="@drawable/thumbnail_title_bg" android:visibility="visible" android:layout_width="329.0dip" android:layout_height="604.0dip">
+            <LinearLayout android:id="@id/tv_guide_timeline_program_layout" android:layout_width="329.0dip" android:layout_height="315.0dip">
+                <include layout="@layout/tv_guide_timeline_layout_program_thumbnail_i" />
+            </LinearLayout>
+            <ImageView android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="1.0px" android:src="@drawable/line" android:scaleType="fitXY" />
+            <LinearLayout android:id="@id/tv_guide_timeline_mini_layout_1st" android:clickable="true" android:layout_width="wrap_content" android:layout_height="68.0dip">
+                <include layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+            </LinearLayout>
+            <ImageView android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="1.0px" android:src="@drawable/line" android:scaleType="fitXY" />
+            <LinearLayout android:id="@id/tv_guide_timeline_mini_layout_2nd" android:clickable="true" android:layout_width="wrap_content" android:layout_height="68.0dip">
+                <include layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+            </LinearLayout>
+            <ImageView android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="1.0px" android:src="@drawable/line" android:scaleType="fitXY" />
+            <LinearLayout android:id="@id/tv_guide_timeline_mini_layout_3rd" android:clickable="true" android:layout_width="wrap_content" android:layout_height="68.0dip">
+                <include layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+            </LinearLayout>
+            <ImageView android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="1.0px" android:src="@drawable/line" android:scaleType="fitXY" />
+            <LinearLayout android:id="@id/tv_guide_timeline_mini_layout_4th" android:clickable="true" android:layout_width="wrap_content" android:layout_height="68.0dip">
+                <include layout="@layout/tv_guide_timeline_layout_mini_thumbnail_i" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/tv_guide_timeline_no_recommended_contents" android:background="@drawable/thumbnail_title_bg" android:visibility="invisible" android:layout_width="329.0dip" android:layout_height="604.0dip">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/timeline_mini_img" android:duplicateParentState="true" android:layout_width="148.0dip" android:layout_height="148.0dip" android:layout_marginTop="112.0dip" android:src="@drawable/tw_noitem" android:scaleType="centerInside" />
+            <TextView android:textSize="24.0dip" android:textColor="@color/RGB_237_237_237" android:gravity="center_horizontal" android:id="@id/txt_no_recommended_contents" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/common_msg_no_content" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

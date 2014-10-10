@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="70.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageview1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />"
+<TextView android:textSize="15.0dip" android:gravity="center" android:id="@id/textview1" android:layout_width="70.0dip" android:layout_height="wrap_content" style="?android:attr/android:actionBarTabTextStyle" />
+</LinearLayout>

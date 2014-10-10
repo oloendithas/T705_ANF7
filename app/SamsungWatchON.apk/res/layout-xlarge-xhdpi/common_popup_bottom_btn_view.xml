@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/bg_popup_bottom" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="6.0dip" android:visibility="visible" android:layout_width="570.0dip" android:layout_height="74.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="23.0dip" android:textColor="@drawable/common_button_textcolor_selector" android:id="@id/negative_btn_popup" android:background="@drawable/common_selector_popup_button_background" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="66.0dip" android:layout_marginRight="0.0dip" android:layout_weight="1.0" />
+    <ImageView android:id="@id/alert_dialog_left_middle_divider" android:background="@drawable/popup_bottom_divider" android:visibility="gone" android:layout_width="1.0px" android:layout_height="66.0dip" android:layout_alignParentTop="true" />
+    <Button android:textSize="23.0dip" android:textColor="@drawable/common_button_textcolor_selector" android:id="@id/neutral_btn_popup" android:background="@drawable/common_selector_popup_button_background" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="66.0dip" android:layout_marginRight="0.0dip" android:layout_weight="1.0" />
+    <ImageView android:id="@id/alert_dialog_right_middle_divider" android:background="@drawable/popup_bottom_divider" android:visibility="gone" android:layout_width="1.0px" android:layout_height="66.0dip" android:layout_alignParentTop="true" />
+    <Button android:textSize="23.0dip" android:textColor="@drawable/common_button_textcolor_selector" android:id="@id/positive_btn_popup" android:background="@drawable/common_selector_popup_button_background" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="66.0dip" android:layout_weight="1.0" />
+</LinearLayout>

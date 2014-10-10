@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_leftmenu" android:paddingLeft="14.0dip" android:paddingTop="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dip" android:textColor="@color/RGB_100_212_213_214" android:gravity="left|center" android:background="@drawable/bar_category" android:paddingLeft="14.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/common_title_privacy_notice" android:includeFontPadding="false" />
+    <ScrollView android:scrollbarThumbVertical="@drawable/scroll_bar" android:id="@id/privacynotice_content" android:layout_width="fill_parent" android:layout_height="646.0dip">
+        <TextView android:textSize="22.0dip" android:textColor="@color/RGB_100_240_240_240" android:id="@id/accountsettings_terms" android:paddingLeft="27.0dip" android:paddingTop="25.0dip" android:paddingRight="27.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    </ScrollView>
+</LinearLayout>

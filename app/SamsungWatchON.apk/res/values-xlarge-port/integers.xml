@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="favorite_tvshow_columnnum">2</integer>
+    <integer name="favorite_movies_columnnum">3</integer>
+    <integer name="favorite_channels_columnnum">2</integer>
+    <integer name="detailview_synopsis_linecount">3</integer>
+    <integer name="advancedsearch_columnNum">2</integer>
+</resources>

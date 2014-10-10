@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mypage_payment_method_voucher_title" android:background="@color/RGB_22_18_38" android:paddingLeft="14.0dip" android:paddingTop="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/mypage_mydevice_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/tw_spinner_divider_dark" android:dividerHeight="1.0px" />
+    <View android:id="@id/mypage_mydevice_online" android:background="@drawable/tw_spinner_divider_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

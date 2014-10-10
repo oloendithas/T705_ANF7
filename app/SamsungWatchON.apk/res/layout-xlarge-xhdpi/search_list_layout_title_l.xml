@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bar_category" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dip" android:textColor="@color/RGB_100_255_255_255" android:gravity="left|center" android:id="@id/title" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" style="@style/TextShadow" />
+    <RelativeLayout android:id="@id/youtube" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="20.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/title_youtube" android:background="@drawable/categorybar_youtube" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="4.0dip" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/RGB_100_255_255_255" android:gravity="left|center" android:id="@id/title_youtube_count" android:paddingLeft="5.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/title_youtube" style="@style/TextShadow" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textSize="19.0dip" android:textColor="@drawable/common_selector_searchmore_textcolor" android:id="@id/more" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_more" android:layout_centerVertical="true" />
+        <ImageView android:duplicateParentState="true" android:layout_width="12.0dip" android:layout_height="19.0dip" android:layout_marginLeft="6.0dip" android:src="@drawable/common_selector_more_buttoon" android:layout_toRightOf="@id/more" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

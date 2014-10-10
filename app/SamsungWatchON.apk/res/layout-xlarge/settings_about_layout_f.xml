@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/about_layout_f" android:background="@color/RGB_22_18_38" android:paddingLeft="@dimen/about_fragment_padding_left" android:paddingTop="@dimen/about_fragment_padding_top" android:paddingRight="@dimen/about_fragment_padding_right" android:paddingBottom="@dimen/about_fragment_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/settings_about_logo_w" android:layout_height="@dimen/settings_about_logo_h" android:src="@drawable/about_logo" />
+        <TextView android:textSize="@dimen/settings_about_currentversion_font_size" android:textColor="@color/RGB_237_237_237" android:gravity="center" android:id="@id/settings_about_currentversion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" />
+        <TextView android:textSize="@dimen/settings_about_latestversion_font_size" android:textColor="@color/RGB_237_237_237" android:gravity="center" android:id="@id/settings_about_latestversion" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/setting_about_rovi_layout" android:layout_width="fill_parent" android:layout_height="153.0dip">
+            <ImageView android:layout_width="@dimen/settings_about_list_rovi_logo_image_w" android:layout_height="@dimen/settings_about_list_rovi_logo_image_h" android:src="@drawable/list_rovi" />
+            <TextView android:textSize="@dimen/settings_about_information_rovi_font_size" android:textColor="@color/RGB_178_178_178" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/settings_about_list_rovi_logo_image_marginRight" android:text="@string/information_rovi" android:width="230.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/settings_about_privacypolicy_font_size" android:textColor="@color/RGB_100_255_255_255" android:id="@id/settings_about_privacypolicy" android:background="@drawable/common_selector_button_gray" android:layout_width="@dimen/settings_about_opensource_button_w" android:layout_height="@dimen/settings_about_opensource_button_h" android:text="@string/common_title_privacy_notice" />
+            <Button android:textSize="@dimen/settings_about_privacypolicy_font_size" android:textColor="@color/RGB_100_255_255_255" android:id="@id/settings_about_opensource" android:background="@drawable/common_selector_button_gray" android:layout_width="@dimen/settings_about_opensource_button_w" android:layout_height="@dimen/settings_about_opensource_button_h" android:layout_marginTop="@dimen/settings_about_opensource_marginTop" android:text="@string/common_title_licenses" />
+            <Button android:visibility="gone" android:layout_width="@dimen/settings_about_opensource_w" android:layout_height="@dimen/settings_about_opensource_button_h" android:layout_marginTop="@dimen/settings_about_opensource_marginTop" android:text="@string/updatecheck_update" style="@style/Common.Button.Blue" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/tvguide_channels_dropdown_item_font" android:textColor="@drawable/common_selector_dropdown_list_textcolor" android:gravity="center_vertical" android:paddingLeft="@dimen/tvguide_channels_dropdown_item_margin" android:paddingRight="@dimen/tvguide_channels_dropdown_item_margin" android:layout_width="wrap_content" android:layout_height="@dimen/tvguide_channels_dropdown_item_h" android:minHeight="@dimen/tvguide_channels_dropdown_item_h" android:bufferType="spannable"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

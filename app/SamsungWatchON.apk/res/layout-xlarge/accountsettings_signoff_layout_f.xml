@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/signoff_layout_f" android:background="@drawable/bg_leftmenu_arrow" android:paddingLeft="14.0dip" android:paddingTop="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <TextView android:textSize="19.0dip" android:textStyle="bold" android:textColor="@color/RGB_100_101_107_112" android:gravity="center" android:id="@id/accountsettings_ssofirstdescription" android:layout_width="759.0dip" android:layout_height="wrap_content" android:lineSpacingExtra="1.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

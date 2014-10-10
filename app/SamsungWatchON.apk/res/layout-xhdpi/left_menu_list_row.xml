@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="matrix" />
+    <ImageView android:id="@id/iv_list_selected" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="matrix" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/iv_row_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="matrix" android:layout_below="@id/iv_divider" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/iv_divider">
+        <LinearLayout android:gravity="left|center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/iv_category_image" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="64.0dip" android:scaleType="fitXY" />
+            <TextView android:textColor="@drawable/selector_list_title_color" android:gravity="center_vertical" android:id="@id/tv_menu_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:marqueeRepeatLimit="0" style="@style/listTitle" />
+            <TextView android:textColor="@color/color1" android:gravity="right|center" android:id="@id/tv_items_number" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="5.0dip" android:marqueeRepeatLimit="0" style="@style/listTitleSingle" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_list_arrow" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="72.0dip" android:scaleType="center" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_shadow_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="29.0dip" android:scaleType="matrix" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/iv_shadow_btm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="29.0dip" android:scaleType="matrix" android:layout_below="@id/iv_divider" />
+</RelativeLayout>

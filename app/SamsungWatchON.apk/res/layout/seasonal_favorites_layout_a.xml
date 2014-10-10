@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/seasonal_favorites_parent_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="23.0dip" android:textStyle="bold" android:textColor="@color/RGB_100_43_135_200" android:gravity="center_vertical" android:id="@id/seasonal_favorites_promotion_title_text" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="41.0dip" android:singleLine="true" android:shadowColor="@color/RGB_100_220_220_220" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/seasonalfavorites_movie_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip">
+        <RelativeLayout android:id="@id/seasonalfavorites_movie_relativelayout" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip">
+            <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/RGB_100_5_5_5" android:gravity="center_vertical" android:id="@id/movietitletext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_title_movies" android:singleLine="true" android:shadowColor="@color/RGB_100_220_220_220" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <ImageView android:id="@id/seasonal_favorites_movie_list_left_arrow" android:background="@drawable/common_button_arrow_left" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <View android:background="@drawable/btn_detail_next_devider" android:layout_width="2.0dip" android:layout_height="18.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" />
+                <ImageView android:id="@id/seasonal_favorites_movie_list_right_arrow" android:background="@drawable/common_button_arrow_right" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="170.0dip" android:layout_marginTop="10.0dip">
+            <com.sec.msc.android.yosemite.ui.detailview.HorizontalListAdapterView android:id="@id/nestedlistview_movie" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/seasonalfavorites_tvshow_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/seasonalfavorites_tvshow_relativelayout" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip">
+            <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/RGB_100_5_5_5" android:gravity="center_vertical" android:id="@id/tvshowtitletext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_title_tvshows" android:singleLine="true" android:shadowColor="@color/RGB_100_220_220_220" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <ImageView android:id="@id/seasonal_favorites_tv_show_list_left_arrow" android:background="@drawable/common_button_arrow_left" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <View android:background="@drawable/btn_detail_next_devider" android:layout_width="2.0dip" android:layout_height="18.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" />
+                <ImageView android:id="@id/seasonal_favorites_tv_show_list_right_arrow" android:background="@drawable/common_button_arrow_right" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="147.0dip" android:layout_marginTop="10.0dip">
+            <com.sec.msc.android.yosemite.ui.detailview.HorizontalListAdapterView android:id="@id/nestedlistview_tv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

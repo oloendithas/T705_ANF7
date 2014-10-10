@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_cover_art" android:layout_width="74.0dip" android:layout_height="126.0dip" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/grid_view_textpopup_bg" android:paddingTop="3.0dip" android:paddingRight="7.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_below="@id/iv_cover_art">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_feature_list" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/featured_thumbnail_mark" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:marqueeRepeatLimit="0" />
+    </LinearLayout>
+</RelativeLayout>

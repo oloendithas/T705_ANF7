@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="86.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_cover_art" android:layout_width="58.0dip" android:layout_height="86.0dip" android:scaleType="fitXY" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/listTitle" />
+                <TextView android:gravity="center_vertical" android:id="@id/tv_guide" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_media_list_purchase_date" style="@style/listSubTitle" />
+                <TextView android:gravity="center_vertical" android:id="@id/tv_license" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:singleLine="true" style="@style/listSubTitle" />
+                <TextView android:ellipsize="marquee" android:id="@id/tv_file_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:singleLine="true" style="@style/listSubTitle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+                <LinearLayout android:gravity="right|center" android:layout_gravity="right|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/iv_hd_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/btn_icon_hd" />
+                    <ImageView android:id="@id/iv_download_drm_lock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/ics_selector_device_lock" />
+                </LinearLayout>
+                <ImageView android:id="@id/iv_download" android:background="@drawable/ics_selector_btn_normal" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ics_selector_btn_download" android:scaleType="centerInside" android:minWidth="58.0dip" android:minHeight="48.0dip" />
+                <ImageView android:id="@id/iv_play" android:background="@drawable/ics_selector_btn_normal" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ics_selector_btn_play" android:scaleType="centerInside" android:minWidth="58.0dip" android:minHeight="48.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_download_control" android:background="@color/list_download_control_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip">
+            <ImageView android:id="@id/btn_pause" android:background="@drawable/ics_selector_btn_normal" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ics_selector_mymedia_row_bottom_pause" android:scaleType="centerInside" android:minWidth="58.0dip" android:minHeight="38.0dip" />
+            <ImageView android:id="@id/btn_resume" android:background="@drawable/ics_selector_btn_normal" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ics_selector_mymedia_row_bottom_download" android:scaleType="centerInside" android:minWidth="58.0dip" android:minHeight="38.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip">
+            <ProgressBar android:id="@id/pb_download" android:layout_width="fill_parent" android:layout_height="6.0dip" android:progressDrawable="@drawable/ics_my_media_list_progressbar_style" style="?android:attr/progressBarStyleHorizontal" />
+            <ProgressBar android:id="@id/pb_complete" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="6.0dip" android:progressDrawable="@drawable/ics_my_media_list_progressbar_complete_style" style="?android:attr/progressBarStyleHorizontal" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                <TextView android:textSize="15.0dip" android:textColor="@color/download_state_text" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_download" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:textSize="15.0dip" android:gravity="right|center" android:layout_gravity="right|center" android:id="@id/tv_download_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

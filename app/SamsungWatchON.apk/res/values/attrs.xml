@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="checkable" format="integer" />
+    <attr name="dividerWidth" format="dimension" />
+    <attr name="list_height" format="reference|dimension" />
+    <attr name="item_height" format="reference|dimension" />
+    <attr name="item_margin" format="reference|dimension" />
+    <attr name="font_size" format="reference|dimension" />
+    <attr name="font_normalColor" format="reference|color" />
+    <attr name="font_selectedColor" format="reference|color" />
+    <attr name="selectedBox_margin" format="reference|dimension" />
+    <attr name="index_type">
+        <enum name="Number" value="0" />
+        <enum name="Alphabet" value="1" />
+    </attr>
+</resources>

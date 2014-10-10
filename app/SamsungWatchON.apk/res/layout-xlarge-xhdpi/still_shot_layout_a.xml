@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg_02" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Gallery android:id="@id/stillshot" android:layout_width="1280.0dip" android:layout_height="680.0dip" android:layout_marginTop="8.0dip" android:animationDuration="1500" android:spacing="91.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.sec.msc.android.yosemite.ui.detailview.HorizontalListAdapterView android:id="@id/stillshot_thumbnail" android:layout_width="fill_parent" android:layout_height="115.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="9.0dip" android:layout_marginBottom="9.0dip" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/line" android:background="@drawable/popup_line" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_above="@id/stillshot_thumbnail" />
+        <ImageView android:id="@id/arrow_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:src="@drawable/common_button_arrow_left" android:layout_toLeftOf="@id/stillshot_thumbnail" android:layout_below="@id/line" />
+        <ImageView android:id="@id/arrow_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:src="@drawable/common_button_arrow_right" android:layout_toRightOf="@id/stillshot_thumbnail" android:layout_below="@id/line" />
+    </RelativeLayout>
+</FrameLayout>

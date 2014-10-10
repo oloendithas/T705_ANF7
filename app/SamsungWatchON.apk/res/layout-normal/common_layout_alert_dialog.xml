@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/bg_popup_middle_default" android:layout_width="310.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="19.0dip" android:textColor="@color/RGB_100_0_0_0" android:id="@id/alertdialog_message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="23.0dip" android:layout_marginRight="13.0dip" />
+    <EditText android:id="@id/alertdialog_editext" android:background="@drawable/common_selector_input_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginLeft="17.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="17.0dip" android:layout_marginBottom="10.0dip" android:maxLength="10" android:inputType="textCapCharacters" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/alertdialog_checkbox_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="17.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="13.0dip" android:layout_marginBottom="18.0dip">
+        <CheckBox android:layout_gravity="center" android:id="@id/alertdialog_checkbox" android:visibility="gone" android:clickable="true" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/common_selector_button_checkbox" />
+        <TextView android:textSize="19.0dip" android:textColor="@color/RGB_100_0_0_0" android:gravity="left|center" android:layout_gravity="center_vertical" android:id="@id/alertdialog_checkbox_text" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="8.0dip" />
+    </LinearLayout>
+    <ListView android:id="@id/alertdialog_listview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/alertdialog_bottom_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="22.0dip" />
+</LinearLayout>

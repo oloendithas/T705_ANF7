@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/tvguide_recomm_now_selector_thumbnail_bg" android:padding="1.0px" android:layout_width="302.0dip" android:layout_height="277.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="231.0dip">
+            <RelativeLayout android:layout_gravity="center" android:background="@drawable/thumbnail_bg2" android:layout_width="fill_parent" android:layout_height="225.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/tvguide_now_img_bg" android:layout_width="fill_parent" android:layout_height="225.0dip" android:src="@drawable/tw_noitem_tv" android:scaleType="fitCenter" />
+                <com.sec.msc.android.yosemite.ui.common.view.web.WebImageView android:layout_gravity="center" android:id="@id/tvguide_now_img" android:layout_width="300.0dip" android:layout_height="225.0dip" android:scaleType="fitCenter" />
+            </RelativeLayout>
+            <ProgressBar android:id="@id/tv_progressbar" android:layout_width="fill_parent" android:layout_height="5.0dip" android:max="100" android:progress="50" android:progressDrawable="@drawable/tvguide_recommended_now_progressbar" style="?android:attr/progressBarStyleHorizontal" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="left" android:layout_width="fill_parent" android:layout_height="46.0dip">
+            <TextView android:textSize="17.0dip" android:textColor="@color/RGB_100_219_220_221" android:ellipsize="end" android:id="@id/tvguide_now_title" android:layout_width="223.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/RGB_100_138_140_143" android:ellipsize="end" android:id="@id/tvguide_now_time" android:layout_width="223.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" android:layout_below="@id/tvguide_now_title" />
+            <ImageView android:id="@id/tvguide_watchontv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/tvguide_btn_watch_on_tv_01" android:layout_alignParentRight="true" />
+            <ImageView android:id="@id/tvguide_line" android:layout_width="1.0px" android:layout_height="27.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/btn_divide_line" android:scaleType="fitXY" android:layout_toLeftOf="@id/tvguide_watchontv" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

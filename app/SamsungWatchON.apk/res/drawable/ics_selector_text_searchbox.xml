@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="true" android:color="@color/edit_box_press_color" />
+    <item android:state_focused="true" android:state_enabled="true" android:state_active="false" android:color="@color/edit_box_focus_color" />
+    <item android:state_enabled="true" android:state_active="true" android:color="@color/edit_box_active_color" />
+    <item android:state_enabled="true" android:state_selected="true" android:color="@color/edit_box_press_color" />
+    <item android:state_enabled="true" android:color="@color/edit_box_active_color" />
+    <item android:state_enabled="false" android:color="@color/edit_box_disable_color" />
+</selector>

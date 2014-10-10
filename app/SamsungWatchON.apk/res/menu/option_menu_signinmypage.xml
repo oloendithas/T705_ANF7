@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/dropdown_ic_room_white" android:id="@id/om_change_room" android:title="@string/common_title_change_room" android:showAsAction="never" />
+    <item android:icon="@drawable/dropdown_ic_favorite" android:id="@id/om_favorites" android:title="@string/common_title_favorites" android:showAsAction="never" />
+    <item android:icon="@drawable/dropdown_ic_sign_in_white" android:id="@id/om_sign_in" android:title="@string/common_button_sign_in" android:showAsAction="never" />
+    <item android:icon="@drawable/dropdown_ic_my_page_white" android:id="@id/om_mypage" android:title="@string/common_title_my_page" android:showAsAction="never" />
+</menu>

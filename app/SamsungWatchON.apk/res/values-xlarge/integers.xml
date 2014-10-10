@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="favorite_tvshow_columnnum">4</integer>
+    <integer name="favorite_movies_columnnum">6</integer>
+    <integer name="favorite_channels_columnnum">4</integer>
+    <integer name="detailview_synopsis_linecount">3</integer>
+    <integer name="expanded_land_movie_columnNum">7</integer>
+    <integer name="land_movie_columnNum">6</integer>
+    <integer name="advancedsearch_columnNum">4</integer>
+    <integer name="mExpandedLandTVShowColumnNum">4</integer>
+    <integer name="mExpandedPortTVShowColumnNum">3</integer>
+    <integer name="mLandTVShowColumnNum">5</integer>
+    <integer name="mPortTVShowColumnNum">2</integer>
+    <integer name="mExpanded_Port_movie_columnNum">4</integer>
+    <integer name="Port_movie_columnNum">3</integer>
+    <integer name="loading_ring_left_margin">160</integer>
+    <integer name="loading_ring_Top_margin">200</integer>
+    <integer name="fontsizeForTimeBox">28</integer>
+</resources>

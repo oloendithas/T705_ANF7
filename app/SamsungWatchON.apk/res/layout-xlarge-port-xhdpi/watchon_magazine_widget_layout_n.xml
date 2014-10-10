@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/parent_layout" android:background="@drawable/widget_bg_port_2x2" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/parent_layout_header" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/watchon_magazine_widget_header" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/parent_layout_ontv" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/parent_layout_header">
+        <include layout="@layout/watchon_magazine_widget_2x2_ontv_layout" />
+    </LinearLayout>
+</RelativeLayout>

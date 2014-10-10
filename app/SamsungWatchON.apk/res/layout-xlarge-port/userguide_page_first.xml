@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="651.0dip" android:layout_marginTop="164.0dip" android:src="@drawable/introflow_tips_img_1" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="367.0dip" android:layout_marginLeft="144.0dip" android:layout_marginTop="773.0dip" android:layout_marginRight="144.0dip">
+        <TextView android:textSize="40.0dip" android:textStyle="bold" android:textColor="@color/RGB_100_217_217_217" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/userguide_firstpage_title" android:maxLines="4" />
+        <TextView android:textSize="29.0dip" android:textColor="@color/RGB_178_178_178" android:ellipsize="end" android:gravity="center" android:layout_width="440.0dip" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="@string/userguide_firstpage_text" android:maxLines="5" />
+    </LinearLayout>
+</RelativeLayout>

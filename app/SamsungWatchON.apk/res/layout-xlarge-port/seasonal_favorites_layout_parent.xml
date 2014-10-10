@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/bg_01_port" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/home_vod_menu" android:background="@color/RGB_10_0_0_0" android:paddingLeft="75.0dip" android:paddingRight="75.0dip" android:layout_width="fill_parent" android:layout_height="67.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="25.0dip" android:textColor="@drawable/common_selector_menu_home_textcolor" android:ellipsize="end" android:gravity="center" android:id="@id/home_movies_button" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/common_title_movies" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <View android:layout_gravity="center_vertical" android:background="@color/RGB_10_255_255_255" android:layout_width="2.0dip" android:layout_height="23.0dip" />
+        <TextView android:textSize="25.0dip" android:textColor="@drawable/common_selector_menu_home_textcolor" android:ellipsize="end" android:gravity="center" android:id="@id/home_tv_shows_button" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/common_title_tvshows" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ListView android:id="@id/seasonal_favorites_listView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/home_vod_menu" />
+</RelativeLayout>

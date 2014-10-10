@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingRight="0.5dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/common_thumbnail_first_layout" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/movie_layout_thumbnail_i" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/common_thumbnail_second_layout" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.5dip">
+        <include layout="@layout/movie_layout_thumbnail_i" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/common_thumbnail_third_layout" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.5dip">
+        <include layout="@layout/movie_layout_thumbnail_i" />
+    </LinearLayout>
+</LinearLayout>

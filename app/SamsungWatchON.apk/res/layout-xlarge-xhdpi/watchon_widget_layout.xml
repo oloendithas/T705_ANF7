@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/main_widget_cover_shadow" android:background="@drawable/widget_shadow" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/widget_init_setting_rl" android:background="@drawable/bg_default_h" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/watchon_default_image" android:layout_width="188.0dip" android:layout_height="248.0dip" android:layout_marginLeft="308.0dip" android:layout_marginTop="100.0dip" android:src="@drawable/taptostart_land_img" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/widget_exist_setting_rl" android:background="@drawable/bg_default_h" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/widget_title_rl" android:focusable="true" android:layout_width="fill_parent" android:layout_height="97.0dip">
+            <TextView android:textSize="17.0dip" android:typeface="sans" android:textColor="@color/RGB_100_255_255_255" android:id="@id/txt_widget_main_title" android:clickable="true" android:layout_width="332.0dip" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginTop="21.0dip" android:includeFontPadding="false" />
+            <ImageView android:id="@id/txt_widget_contents_title" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginTop="2.0dip" android:layout_below="@id/txt_widget_main_title" />
+            <ImageView android:id="@id/txt_widget_contents_title1" android:visibility="gone" android:clickable="true" android:layout_width="203.0dip" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:maxWidth="203.0dip" android:layout_below="@id/txt_widget_contents_title" />
+            <ImageView android:id="@id/watchon_contents_arrow" android:layout_width="8.0dip" android:layout_height="15.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="56.0dip" android:src="@drawable/ic_btn_more" android:layout_toRightOf="@id/txt_widget_contents_title" />
+            <ImageView android:id="@id/watchon_search" android:background="@drawable/widget_btn_background" android:clickable="true" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="15.0dip" android:src="@drawable/ic_widget_surch_nor" android:layout_alignParentRight="true" />
+            <ImageView android:id="@id/watchon_search_divder" android:background="@color/RGB_100_255_255_255" android:layout_width="1.0px" android:layout_height="27.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="16.0dip" android:layout_toLeftOf="@id/watchon_search" />
+            <ImageView android:id="@id/watchon_remocon" android:background="@drawable/widget_btn_background" android:clickable="true" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="15.0dip" android:src="@drawable/ic_remocon" android:layout_toLeftOf="@id/watchon_search_divder" />
+            <ImageView android:id="@id/watchon_remocon_divder" android:background="@color/RGB_100_255_255_255" android:layout_width="1.0px" android:layout_height="27.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="16.0dip" android:layout_toLeftOf="@id/watchon_remocon" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="191.0dip" android:layout_below="@id/widget_title_rl">
+            <LinearLayout android:orientation="horizontal" android:id="@id/widget_ontv_thumbnail_linear" android:layout_width="542.0dip" android:layout_height="191.0dip">
+                <LinearLayout android:gravity="center_vertical" android:id="@id/watchon_ontv_layout01" android:layout_width="161.0dip" android:layout_height="191.0dip" android:layout_marginLeft="25.0dip">
+                    <include layout="@layout/watchon_widget_ontv_now1_thumbnail_layout" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:id="@id/watchon_ontv_layout02" android:visibility="gone" android:layout_width="161.0dip" android:layout_height="191.0dip" android:layout_marginLeft="5.0dip">
+                    <include layout="@layout/watchon_widget_ontv_now2_thumbnail_layout" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:id="@id/watchon_ontv_layout03" android:layout_width="161.0dip" android:layout_height="191.0dip" android:layout_marginLeft="5.0dip">
+                    <include layout="@layout/watchon_widget_ontv_coming1_thumbnail_layout" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:id="@id/watchon_ontv_layout04" android:layout_width="161.0dip" android:layout_height="191.0dip" android:layout_marginLeft="5.0dip">
+                    <include layout="@layout/watchon_widget_ontv_coming2_thumbnail_layout" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/widget_vod_thumbnail_linear" android:visibility="gone" android:layout_width="542.0dip" android:layout_height="191.0dip">
+                <LinearLayout android:gravity="center_vertical" android:id="@id/watchon_vod_layout01" android:layout_width="96.0dip" android:layout_height="191.0dip" android:layout_marginLeft="24.0dip">
+                    <include layout="@layout/watchon_widget_vod1_thumbnail_layout" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:id="@id/watchon_vod_layout02" android:layout_width="96.0dip" android:layout_height="191.0dip" android:layout_marginLeft="6.0dip">
+                    <include layout="@layout/watchon_widget_vod2_thumbnail_layout" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:id="@id/watchon_vod_layout03" android:layout_width="96.0dip" android:layout_height="191.0dip" android:layout_marginLeft="6.0dip">
+                    <include layout="@layout/watchon_widget_vod3_thumbnail_layout" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:id="@id/watchon_vod_layout05" android:layout_width="188.0dip" android:layout_height="191.0dip" android:layout_marginLeft="6.0dip">
+                    <include layout="@layout/watchon_widget_vod5_thumbnail_layout" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:id="@id/watchon_vod_layout04" android:visibility="gone" android:layout_width="188.0dip" android:layout_height="191.0dip" android:layout_marginLeft="6.0dip">
+                    <include layout="@layout/watchon_widget_vod4_thumbnail_layout" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:id="@id/watchon_vod_layout06" android:visibility="gone" android:layout_width="188.0dip" android:layout_height="191.0dip" android:layout_marginLeft="6.0dip">
+                    <include layout="@layout/watchon_widget_vod6_thumbnail_layout" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/widget_update_linear" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentBottom="true">
+            <include layout="@layout/watchon_widget_update_layout" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/widget_no_setting_rl" android:background="@drawable/bg_default_h" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/main_widget_event_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_widget_section_unpack_title_margin_left" android:layout_marginTop="@dimen/main_widget_section_unpack_title_margin_top" android:scaleType="fitStart" />
+        <TextView android:textSize="33.0dip" android:typeface="sans" android:textColor="@color/RGB_100_255_255_255" android:id="@id/txt_no_setting_widget_start" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="21.0dip" android:layout_marginBottom="10.0dip" android:text="@string/widget_start" android:includeFontPadding="false" android:layout_above="@id/txt_no_setting_widget_main_comment" />
+        <TextView android:textSize="23.0dip" android:typeface="sans" android:textColor="@color/RGB_100_255_255_255" android:id="@id/txt_no_setting_widget_main_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginBottom="30.0dip" android:maxWidth="500.0dip" android:text="@string/widget_recommend" android:includeFontPadding="false" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/watchon_default_image1" android:layout_width="188.0dip" android:layout_height="248.0dip" android:layout_marginTop="100.0dip" android:layout_marginRight="62.0dip" android:src="@drawable/taptostart_land_img" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

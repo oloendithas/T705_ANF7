@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/tvguide_recommended_now_category" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="253.0dip">
+        <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/RGB_100_254_90_0" android:gravity="left|center" android:id="@id/tvguide_recommended_now_category_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/tvguide_recommended_now" android:includeFontPadding="false" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/tvguide_recommended_now_category_content" android:layout_width="fill_parent" android:layout_height="277.0dip">
+        <com.sec.msc.android.yosemite.ui.tvguide.TvGuideThumbnailScrollAdapterView android:id="@id/tvguide_recommended_now_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:layout_marginRight="16.0dip" />
+        <ImageView android:layout_gravity="left" android:id="@id/now_thumbnaillist_scrollview_shadow_start" android:background="@drawable/detail_thumbnail_shadow_reverse" android:layout_width="50.0dip" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="right" android:id="@id/now_thumbnaillist_scrollview_shadow" android:background="@drawable/detail_thumbnail_shadow" android:layout_width="50.0dip" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

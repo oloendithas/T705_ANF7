@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/tw_toast_frame_holo_light" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/activebar_dropdown_list" android:scrollbars="none" android:layout_width="256.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="5.0dip" android:listSelector="@drawable/common_list_background" android:divider="@color/RGB_100_59_63_66" android:dividerHeight="1.0px" android:footerDividersEnabled="false" android:overScrollMode="never" />
+</LinearLayout>

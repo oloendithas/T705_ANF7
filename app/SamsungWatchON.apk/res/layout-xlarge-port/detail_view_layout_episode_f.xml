@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/detail_episode_shadow" android:background="@drawable/detail_div_01" android:layout_width="fill_parent" android:layout_height="13.0dip" />
+    <Spinner android:textSize="20.0dip" android:textColor="@drawable/common_selector_dropdown_textcolor" android:id="@id/detail_episode_spinner" android:background="@drawable/common_selector_dropdown_background_ep" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="30.0dip" android:popupBackground="@drawable/list_bg" />
+    <ListView android:scrollbarThumbVertical="@drawable/scroll_bar" android:orientation="vertical" android:id="@id/detail_episode_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:divider="@color/RGB_100_220_220_220" android:dividerHeight="1.0dip" />
+</LinearLayout>

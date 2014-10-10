@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/parent_layout" android:background="@drawable/widget_bg_port_4x2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/parent_layout_header" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/watchon_magazine_widget_header_portrait" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/parent_layout_ontv" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/parent_layout_header">
+        <include layout="@layout/watchon_magazine_widget_ontv_layout_portrait" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/parent_horizontal_layout_vod_port" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/parent_layout_ontv" android:layout_below="@id/parent_layout_header">
+        <ImageView android:id="@id/widget_vertical_divider" android:background="@color/RGB_10_255_255_255" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" />
+        <include layout="@layout/watchon_magazine_widget_vod_layout_portrait" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/parent_horizontal_layout_epg_port" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/parent_layout_ontv" android:layout_below="@id/parent_layout_header">
+        <ImageView android:id="@id/widget_vertical_divider" android:background="@color/RGB_10_255_255_255" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" />
+        <include layout="@layout/watchon_magazine_widget_epg_layout_port" />
+    </LinearLayout>
+</RelativeLayout>

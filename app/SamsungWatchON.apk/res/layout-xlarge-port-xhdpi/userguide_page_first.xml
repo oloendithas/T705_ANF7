@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="651.0dip" android:layout_marginTop="162.0dip" android:src="@drawable/introflow_tips_img_1" />
+    <TextView android:textSize="40.0dip" android:textStyle="bold" android:textColor="@color/RGB_100_217_217_217" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/first_text_line" android:duplicateParentState="true" android:layout_width="440.0dip" android:layout_height="wrap_content" android:layout_marginLeft="45.0dip" android:layout_marginRight="45.0dip" android:layout_marginBottom="338.0dip" android:text="@string/userguide_firstpage_title" android:maxLines="4" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:lineSpacingExtra="3.0dip" />
+    <TextView android:textSize="29.0dip" android:textColor="@color/RGB_100_217_217_217" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/second_text_line" android:layout_width="440.0dip" android:layout_height="wrap_content" android:layout_marginLeft="45.0dip" android:layout_marginTop="955.0dip" android:layout_marginRight="45.0dip" android:text="@string/userguide_firstpage_text" android:maxLines="4" android:layout_centerHorizontal="true" android:lineSpacingExtra="3.0dip" />
+</RelativeLayout>

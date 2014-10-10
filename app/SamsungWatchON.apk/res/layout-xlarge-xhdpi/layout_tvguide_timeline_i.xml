@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="323.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="25.0dip" android:textColor="@color/RGB_237_237_237" android:gravity="center_vertical" android:id="@id/txt_top_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" />
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ListView android:id="@id/lst_moreguide" android:background="@drawable/timeline_backgroupd" android:padding="1.0px" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/timeline_divider" android:layout_above="@id/btn_more" android:layout_below="@id/txt_top_time" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/mh_bg_684_glow" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/ll_left_menu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="7.0">
+            <include layout="@layout/common_menu_list_view" />
+            <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <TextView android:textSize="16.0dip" android:textColor="@color/white" android:id="@id/tv_viewing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="28.0dip" />
+                <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_last_updated" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginRight="28.0dip" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="22.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="48.0dip" android:layout_marginBottom="28.0dip">
+                    <Button android:textSize="18.0dip" android:textColor="@color/color2" android:gravity="center" android:id="@id/bt_refresh" android:background="@drawable/selector_list_btn_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/refresh" />
+                    <ProgressBar android:id="@id/pb_refresh" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminateDrawable="@drawable/video_hub_circle_loading" android:layout_centerInParent="true" />
+                    <ImageView android:id="@id/iv_wifi_lock" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/wifi_lock" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+            <include layout="@layout/common_noitem_view" />
+            <RelativeLayout android:id="@id/rl_mainlist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
+                <include layout="@layout/common_list_view" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_nesting_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignLeft="@id/rl_mainlist" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/common_progress_white" />
+    <ImageView android:background="@drawable/tw_title_bar_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

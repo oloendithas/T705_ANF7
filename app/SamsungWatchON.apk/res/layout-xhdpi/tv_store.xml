@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_mainlist" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/common_list_view" />
+        <include layout="@layout/common_grid_view" />
+    </RelativeLayout>
+    <include layout="@layout/common_progress_white" />
+    <include layout="@layout/common_noitem_view" />
+</LinearLayout>

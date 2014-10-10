@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right|center" android:orientation="horizontal" android:background="@drawable/widget_bottom_bg" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="35.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@color/widget_bottom_update" android:gravity="right" android:id="@id/update_date" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:layout_weight="1.0" />
+    <ImageView android:background="@color/black_20" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_width="62.0dip" android:layout_height="35.0dip">
+        <LinearLayout android:id="@id/progress_bar" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true">
+            <ProgressBar android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <ImageView android:id="@id/refresh" android:background="@drawable/selector_btn_widget_transparent" android:layout_width="55.0dip" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:src="@drawable/widget_refresh" android:layout_centerInParent="true" android:contentDescription="@string/refresh" />
+    </RelativeLayout>
+</LinearLayout>

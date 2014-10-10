@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/home_view_arrow_l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_arrow_left" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/home_view_arrow_r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_alignParentLeft="true">
+        <ImageView android:id="@id/iv_left" android:layout_width="92.0dip" android:layout_height="126.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="1.0dip" android:scaleType="fitXY" />
+        <ImageView android:background="@drawable/widget_thumbnail_frame" android:layout_width="101.0dip" android:layout_height="135.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/iv_right" android:layout_width="92.0dip" android:layout_height="126.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="1.0dip" android:scaleType="fitXY" />
+        <ImageView android:background="@drawable/widget_thumbnail_frame" android:layout_width="101.0dip" android:layout_height="135.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/iv_center" android:layout_width="92.0dip" android:layout_height="126.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="1.0dip" android:scaleType="fitXY" />
+        <ImageView android:background="@drawable/widget_thumbnail_frame" android:layout_width="101.0dip" android:layout_height="135.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

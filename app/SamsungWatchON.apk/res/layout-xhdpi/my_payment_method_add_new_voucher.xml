@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_add_voucher" android:paddingTop="7.0dip" android:paddingBottom="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/enter_redeem" style="@style/popupText19sp" />
+    <EditText android:textColorHint="@color/edit_box_text_color" android:gravity="center_vertical" android:id="@id/et_redeem_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:hint="@string/enter_code_here" android:maxLength="24" android:inputType="textNoSuggestions" android:privateImeOptions="defaultInputmode=english" android:imeOptions="flagNoExtractUi" style="@style/addEditText" />
+</LinearLayout>

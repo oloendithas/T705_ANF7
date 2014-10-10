@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/rl_download_play_now_hd" android:background="@drawable/ics_selector_btn_normal" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="5.0dip" android:minHeight="48.0dip">
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/iv_play_now_hd_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/selector_ic_hd" />
+            <TextView android:ellipsize="end" android:id="@id/tv_download_hd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/btnText" />
+        </LinearLayout>
+        <ImageView android:id="@id/iv_download_drm_lock_hd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:src="@drawable/device_btn_icon_lock" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_wifi_lock_hd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:src="@drawable/ics_selector_btn_download_no_wifi" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/rl_download_play_now_sd" android:background="@drawable/ics_selector_btn_normal" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="5.0dip" android:minHeight="48.0dip">
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@id/tv_download_sd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" style="@style/btnText" />
+        <ImageView android:id="@id/iv_download_drm_lock_sd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:src="@drawable/device_btn_icon_lock" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_wifi_lock_sd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:src="@drawable/ics_selector_btn_download_no_wifi" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_download_control_hd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+            <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:minHeight="48.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:layout_centerVertical="true">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/btn_download_pause_hd" android:background="@drawable/ics_selector_btn_normal" android:layout_width="50.0dip" android:layout_height="fill_parent" android:src="@drawable/ics_selector_detail_download_pause_btn" />
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/btn_download_stop_hd" android:background="@drawable/ics_selector_btn_normal" android:layout_width="50.0dip" android:layout_height="fill_parent" android:src="@drawable/ics_selector_detail_download_stop_btn" />
+                </LinearLayout>
+                <Button android:textSize="19.0dip" android:textColor="@drawable/selector_btn_normal_text_color" android:gravity="center" android:id="@id/btn_play_now_hd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="103.0dip" android:text="@string/play_now" android:drawableLeft="@drawable/selector_ic_hd" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="19.0dip" android:layout_marginRight="8.0dip">
+                <ProgressBar android:id="@id/pb_download_hd" android:layout_width="fill_parent" android:layout_height="6.0dip" android:progressDrawable="@drawable/ics_my_media_list_progressbar_style" style="?android:attr/progressBarStyleHorizontal" />
+                <ProgressBar android:id="@id/pb_complete_hd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="6.0dip" android:progressDrawable="@drawable/ics_my_media_list_progressbar_complete_style" style="?android:attr/progressBarStyleHorizontal" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                    <TextView android:textSize="15.0dip" android:textColor="@color/progressbar_text_color" android:gravity="center_vertical" android:id="@id/tv_download_percent_hd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <TextView android:textSize="15.0dip" android:textColor="@color/progressbar_text_color" android:gravity="right|center" android:id="@id/tv_download_size_hd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_download_control_sd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+            <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:minHeight="48.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:layout_centerVertical="true">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/btn_download_pause_sd" android:background="@drawable/ics_selector_btn_normal" android:focusable="true" android:layout_width="50.0dip" android:layout_height="fill_parent" android:src="@drawable/ics_selector_detail_download_pause_btn" />
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/btn_download_stop_sd" android:background="@drawable/ics_selector_btn_normal" android:focusable="true" android:layout_width="50.0dip" android:layout_height="fill_parent" android:src="@drawable/ics_selector_detail_download_stop_btn" />
+                </LinearLayout>
+                <Button android:textSize="19.0dip" android:textColor="@drawable/selector_btn_normal_text_color" android:gravity="center" android:id="@id/btn_play_now_sd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:minWidth="103.0dip" android:text="@string/play_now" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="19.0dip" android:layout_marginRight="8.0dip">
+                <ProgressBar android:id="@id/pb_download_sd" android:layout_width="fill_parent" android:layout_height="4.0dip" android:progressDrawable="@drawable/ics_my_media_list_progressbar_style" style="?android:attr/progressBarStyleHorizontal" />
+                <ProgressBar android:id="@id/pb_complete_sd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" android:progressDrawable="@drawable/ics_my_media_list_progressbar_complete_style" style="?android:attr/progressBarStyleHorizontal" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                    <TextView android:textSize="15.0dip" android:textColor="@color/progressbar_text_color" android:gravity="center_vertical" android:id="@id/tv_download_percent_sd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <TextView android:textSize="15.0dip" android:textColor="@color/progressbar_text_color" android:gravity="right|center" android:id="@id/tv_download_size_sd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

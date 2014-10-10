@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="570.0dip" android:layout_height="512.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0dip" android:textColor="@color/RGB_100_0_176_241" android:background="@drawable/bg_popup_top" android:paddingLeft="26.0dip" android:paddingTop="18.0dip" android:paddingRight="26.0dip" android:layout_width="fill_parent" android:layout_height="65.0dip" android:text="@string/purchased_season_pass_update" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_popup_middle_default" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/seasonpasslist" android:layout_width="fill_parent" android:layout_height="447.0dip" android:divider="@color/RGB_10_255_255_255" android:dividerHeight="1.0px" />
+    </LinearLayout>
+</LinearLayout>

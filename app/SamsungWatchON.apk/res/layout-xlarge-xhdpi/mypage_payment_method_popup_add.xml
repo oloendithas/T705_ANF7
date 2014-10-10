@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/popup_payment_method_voucher_add_btn" android:background="@drawable/common_list_background" android:layout_width="fill_parent" android:layout_height="75.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="@color/RGB_100_255_255_255" android:id="@id/popup_payment_method_voucher_add_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="29.0dip" android:layout_marginLeft="15.0dip" />
+    <Button android:background="@drawable/common_selector_button_plus" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="11.0dip" android:layout_alignParentRight="true" />
+</RelativeLayout>

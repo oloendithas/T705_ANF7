@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/home_ontv_now" android:layout_width="1528.0px" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="43.0dip" android:layout_marginBottom="10.0dip">
+        <TextView android:textSize="25.0dip" android:textStyle="normal" android:textColor="@color/RGB_237_237_237" android:ellipsize="end" android:gravity="left|center" android:id="@id/home_ontv_now_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tvguide_recommended_now" android:singleLine="true" android:includeFontPadding="false" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/home_ontv_layout01" android:layout_width="1071.0px" android:layout_height="459.5dip" android:layout_marginLeft="18.0dip" android:layout_marginTop="78.0dip" android:layout_marginRight="-1.0px">
+        <include layout="@layout/home_screen_layout_ontv_watch_on_program_big_i" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/home_ontv_layout02" android:layout_width="457.0px" android:layout_height="230.0dip" android:layout_marginLeft="0.0dip" android:layout_marginBottom="-1.0px" android:layout_toRightOf="@id/home_ontv_layout01" android:layout_alignTop="@id/home_ontv_layout01">
+        <include layout="@layout/home_screen_layout_ontv_watch_on_program_i" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/home_ontv_layout03" android:layout_width="457.0px" android:layout_height="230.0dip" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip" android:layout_toRightOf="@id/home_ontv_layout01" android:layout_below="@id/home_ontv_layout02">
+        <include layout="@layout/home_screen_layout_ontv_watch_on_program_i" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/home_ontv_comingup" android:layout_width="1528.0px" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="43.0dip" android:layout_marginBottom="7.0dip" android:layout_below="@id/home_ontv_layout01">
+        <TextView android:textSize="25.0dip" android:textStyle="normal" android:textColor="@color/RGB_237_237_237" android:ellipsize="end" android:gravity="left|center" android:id="@id/home_ontv_comingup_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tvguide_recommended_comingup_for_tablet" android:singleLine="true" android:includeFontPadding="false" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/home_ontv_layout04" android:layout_width="509.0px" android:layout_height="249.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="-1.0px" android:layout_marginBottom="-1.0px" android:layout_below="@id/home_ontv_comingup">
+        <include layout="@layout/home_screen_layout_ontv_reminder_program_i" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/home_ontv_layout05" android:layout_width="509.0px" android:layout_height="249.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="-1.0px" android:layout_toRightOf="@id/home_ontv_layout04" android:layout_below="@id/home_ontv_comingup">
+        <include layout="@layout/home_screen_layout_ontv_reminder_program_i" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/home_ontv_layout06" android:paddingBottom="0.0px" android:layout_width="509.0px" android:layout_height="249.0dip" android:layout_marginLeft="0.0dip" android:layout_toRightOf="@id/home_ontv_layout05" android:layout_below="@id/home_ontv_comingup">
+        <include layout="@layout/home_screen_layout_ontv_reminder_program_i" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/home_ontv_layout07" android:layout_width="509.0px" android:layout_height="249.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="-1.0px" android:layout_below="@id/home_ontv_layout04">
+        <include layout="@layout/home_screen_layout_ontv_reminder_program_i" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/home_ontv_layout08" android:layout_width="509.0px" android:layout_height="249.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="-1.0px" android:layout_toRightOf="@id/home_ontv_layout07" android:layout_below="@id/home_ontv_layout04">
+        <include layout="@layout/home_screen_layout_ontv_reminder_program_i" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/home_ontv_layout09" android:layout_width="509.0px" android:layout_height="249.0dip" android:layout_marginLeft="0.0dip" android:layout_toRightOf="@id/home_ontv_layout08" android:layout_below="@id/home_ontv_layout04">
+        <include layout="@layout/home_screen_layout_ontv_reminder_program_i" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/home_ontv_menu" android:background="@color/RGB_10_0_0_0" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="67.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="25.0dip" android:textColor="@drawable/common_selector_menu_home_textcolor" android:ellipsize="end" android:gravity="center" android:id="@id/home_favorite_button" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/common_title_favorites" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <View android:layout_gravity="center_vertical" android:background="@color/RGB_10_255_255_255" android:layout_width="2.0dip" android:layout_height="23.0dip" />
+        <TextView android:textSize="25.0dip" android:textColor="@drawable/common_selector_menu_home_textcolor" android:ellipsize="end" android:gravity="center" android:id="@id/home_guide_button" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/tvguide_channels" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <View android:layout_gravity="center_vertical" android:background="@color/RGB_10_255_255_255" android:layout_width="2.0dip" android:layout_height="23.0dip" />
+        <TextView android:textSize="25.0dip" android:textColor="@drawable/common_selector_menu_home_textcolor" android:ellipsize="end" android:gravity="center" android:id="@id/home_timeline_button" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/tvguide_timeline" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <View android:layout_gravity="center_vertical" android:background="@color/RGB_10_255_255_255" android:layout_width="2.0dip" android:layout_height="23.0dip" />
+        <TextView android:textSize="25.0dip" android:textColor="@drawable/common_selector_menu_home_textcolor" android:ellipsize="end" android:gravity="center" android:id="@id/home_genres_button" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/common_title_genres" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="14.0dip" android:src="@drawable/shadow_bottom" android:scaleType="fitXY" android:layout_alignTop="@id/home_ontv_menu" />
+</RelativeLayout>
