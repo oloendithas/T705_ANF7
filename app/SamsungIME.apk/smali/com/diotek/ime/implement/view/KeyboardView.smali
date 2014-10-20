@@ -56712,6 +56712,8 @@
 
     move-object/from16 v57, v0
 
+	if-eqz v57, :cond_4f
+	
     invoke-virtual/range {v57 .. v57}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v57
