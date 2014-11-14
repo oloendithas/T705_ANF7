@@ -1979,6 +1979,7 @@
     .line 627
     .end local v89    # "clsLoader":Ldalvik/system/PathClassLoader;
     :goto_13
+    goto :goto_14
     const/4 v7, 0x2
 
     new-array v7, v7, [Ljava/lang/Class;
