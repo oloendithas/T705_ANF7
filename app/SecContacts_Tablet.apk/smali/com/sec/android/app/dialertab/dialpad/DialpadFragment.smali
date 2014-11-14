@@ -68432,6 +68432,15 @@
 
     .line 3934
     :cond_1f
+	
+    const-string v3, "feature_dialer_keytone_dtmf"
+
+    invoke-static {v3}, Lcom/sec/android/app/dialertab/DialerLogsFeature;->hasFeature(Ljava/lang/String;)Z
+
+    move-result v3
+
+    if-nez v3, :goto_2
+	
     iget-object v5, p0, Lcom/sec/android/app/dialertab/dialpad/DialpadFragment;->mSoundPool:Landroid/media/SoundPool;
 
     invoke-virtual {p0}, Lcom/sec/android/app/dialertab/dialpad/DialpadFragment;->getActivity()Landroid/app/Activity;
@@ -69371,7 +69380,10 @@
     invoke-static {v4}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
 
     move-result v3
-
+	
+	const/high16 v4, 0x40c00000
+	
+	sub-float v3, v3, v4
     .line 11882
     .local v3, "volFloat":F
     iget-object v4, p0, Lcom/sec/android/app/dialertab/dialpad/DialpadFragment;->mToneGenerator:Landroid/media/ToneGenerator;

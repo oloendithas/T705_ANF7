@@ -7079,11 +7079,11 @@
 
     const-string v49, "feature_dialer_keytone_dtmf"
 
-    const-string v50, "SPH-D710"
+    const-string v50, "klimt"
 
     move-object/from16 v0, v50
 
-    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v50
 
