@@ -1422,6 +1422,7 @@
 
     .prologue
     .line 298
+	goto :goto_6
     move-object/from16 v0, p0
 
     iget-object v2, v0, Landroid/os/DVFSHelper;->mCustomFreqManager:Landroid/os/CustomFrequencyManager;
