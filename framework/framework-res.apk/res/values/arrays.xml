@@ -560,9 +560,9 @@
     </integer-array>
     <integer-array name="config_dynamicAutoBrightnessLowHysteresisLevels">
         <item>0</item>
+        <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item>3</item>
         <item>12</item>
         <item>38</item>
         <item>420</item>
@@ -611,10 +611,10 @@
         <item>300</item>
     </integer-array>
     <integer-array name="config_dynamicAutoBrightnessHighHysteresisLevels">
-        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
+        <item>4</item>
         <item>20</item>
         <item>65</item>
         <item>580</item>
