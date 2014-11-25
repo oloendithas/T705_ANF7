@@ -8849,7 +8849,12 @@
     iget-object v1, p0, Lcom/android/internal/policy/impl/PhoneWindow;->mContentParent:Landroid/view/ViewGroup;
 
     if-eqz v1, :cond_f
+	
+	const/4 v1, 0x0
+    iput-object v1, p0, Lcom/android/internal/policy/impl/PhoneWindow;->mContentParent:Landroid/view/ViewGroup;
 
+    if-eqz v1, :cond_f
+	
     .line 309
     new-instance v1, Landroid/util/AndroidRuntimeException;
 
