@@ -73,6 +73,7 @@
     const/4 v1, 0x1
 
     .line 159
+    return v1
     const-string v2, "bluetooth_policy"
 
     invoke-static {v2}, Lcom/android/server/enterprise/EnterpriseDeviceManagerService;->getPolicyService(Ljava/lang/String;)Ljava/lang/Object;
@@ -94,7 +95,7 @@
 
     .line 165
     :cond_0
-    return v1
+#    return v1
 .end method
 
 .method public static isAuditLogEnabled()Z
@@ -102,6 +103,7 @@
 
     .prologue
     .line 191
+	goto :cond_0
     const-string v1, "auditlog"
 
     invoke-static {v1}, Lcom/android/server/enterprise/EnterpriseDeviceManagerService;->getPolicyService(Ljava/lang/String;)Ljava/lang/Object;
@@ -136,6 +138,7 @@
     const/4 v1, 0x1
 
     .line 169
+    return v1
     const-string v2, "bluetooth_policy"
 
     invoke-static {v2}, Lcom/android/server/enterprise/EnterpriseDeviceManagerService;->getPolicyService(Ljava/lang/String;)Ljava/lang/Object;
@@ -155,7 +158,7 @@
 
     .line 174
     :cond_0
-    return v1
+#    return v1
 .end method
 
 .method public static isCameraEnabled(I)Z
@@ -166,6 +169,7 @@
     const/4 v3, 0x1
 
     .line 126
+    return v3
     const-string v4, "restriction_policy"
 
     invoke-static {v4}, Lcom/android/server/enterprise/EnterpriseDeviceManagerService;->getPolicyService(Ljava/lang/String;)Ljava/lang/Object;
@@ -190,7 +194,7 @@
     .line 138
     :cond_0
     :goto_0
-    return v0
+#    return v0
 
     .line 132
     :cond_1
@@ -241,6 +245,7 @@
     const/4 v0, 0x1
 
     .line 179
+    return v0
     .local v0, "microphoneEnabled":Z
     const-string v2, "restriction_policy"
 
@@ -281,7 +286,7 @@
 
     .line 186
     :cond_0
-    return v0
+#    return v0
 .end method
 
 .method public static isScreenCaptureEnabled()Z
@@ -291,6 +296,7 @@
     const/4 v2, 0x1
 
     .line 142
+    return v2
     const-string v3, "restriction_policy"
 
     invoke-static {v3}, Lcom/android/server/enterprise/EnterpriseDeviceManagerService;->getPolicyService(Ljava/lang/String;)Ljava/lang/Object;
@@ -329,7 +335,7 @@
     .end local v1    # "userId":I
     :cond_0
     :goto_0
-    return v2
+#    return v2
 
     .line 152
     .restart local v1    # "userId":I
@@ -354,6 +360,7 @@
 
     .prologue
     .line 114
+    return-void
     :try_start_0
     new-instance v9, Ljava/lang/String;
 
@@ -419,7 +426,7 @@
     .line 123
     .end local v6    # "e":Ljava/io/UnsupportedEncodingException;
     :cond_0
-    return-void
+#    return-void
 .end method
 
 .method public static nativeLogger(IIZILjava/lang/String;Ljava/lang/String;)V
@@ -433,10 +440,11 @@
 
     .prologue
     .line 108
+    return-void
     invoke-static/range {p0 .. p5}, Landroid/sec/enterprise/auditlog/AuditLog;->log(IIZILjava/lang/String;Ljava/lang/String;)V
 
     .line 109
-    return-void
+#    return-void
 .end method
 
 .method public static sendIntent(I)V
@@ -445,6 +453,7 @@
 
     .prologue
     .line 87
+    return-void
     sget-object v1, Lcom/android/server/enterprise/utils/EDMNativeHelper;->mContext:Landroid/content/Context;
 
     if-eqz v1, :cond_0
@@ -460,7 +469,7 @@
     .end local v0    # "msgResId":I
     :cond_0
     :goto_0
-    return-void
+#    return-void
 
     .line 91
     .restart local v0    # "msgResId":I
@@ -496,5 +505,7 @@
     .end packed-switch
 .end method
 
-.method public static native setAuditEnabled(Z)V
+.method public static setAuditEnabled(Z)V
+    .registers 3
+    return-void
 .end method

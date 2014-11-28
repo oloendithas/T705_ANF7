@@ -1501,7 +1501,8 @@
 
     invoke-direct {v9, v5}, Lcom/android/server/EntropyMixer;-><init>(Landroid/content/Context;)V
 
-    invoke-static {v7, v9}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+#	disabled
+#    invoke-static {v7, v9}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
     .line 506
     const-string v7, "SystemServer"
@@ -3026,7 +3027,8 @@
 
     move-object/from16 v0, v130
 
-    invoke-static {v7, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+#	disabled
+#    invoke-static {v7, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
     .line 902
     const-string v7, "SystemServer"
@@ -5196,6 +5198,8 @@
 
     .line 1668
     :goto_60
+#	disabled
+	goto :cond_eae
     const-string v7, "com.sec.feature.cover.flip"
 
     move-object/from16 v0, v177
