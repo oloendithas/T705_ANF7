@@ -134,6 +134,8 @@
 
 .field private final QWERTY_LAO_EXTRALABEL_NUMBER_MAP:[Ljava/lang/String;
 
+.field private final QWERTY_TABLET_CYRILLIC_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
 .field private final QWERTY_NUMBER_WITH_SYMBOL_EXTRALABEL_MAP:[Ljava/lang/String;
 
 .field private final QWERTY_TABLET_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
@@ -145,6 +147,10 @@
 .field private SCREEN_HEIGHT:I
 
 .field private SCREEN_WIDTH:I
+
+.field private final SPLIT_CYRILLIC_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+.field private final SPLIT_CYRILLIC_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
 .field private final SPLIT_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
@@ -654,7 +660,7 @@
 
     aput-object v1, v0, v5
 
-    const-string v1, "-"
+    const-string v1, "!"
 
     aput-object v1, v0, v6
 
@@ -668,7 +674,7 @@
 
     const/4 v1, 0x4
 
-    const-string v2, "/"
+    const-string v2, "$"
 
     aput-object v2, v0, v1
 
@@ -8192,55 +8198,55 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const-string v1, "+"
+    const-string v1, "["
 
     aput-object v1, v0, v5
 
-    const-string v1, "_"
+    const-string v1, "]"
 
     aput-object v1, v0, v6
 
-    const-string v1, "="
+    const-string v1, "{"
 
     aput-object v1, v0, v7
 
-    const-string v1, "%"
+    const-string v1, "}"
 
     aput-object v1, v0, v8
 
     const/4 v1, 0x4
 
-    const-string v2, "^"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x5
 
-    const-string v2, "|"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x6
 
-    const-string v2, "<"
+    const-string v2, "-"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x7
 
-    const-string v2, ">"
+    const-string v2, "_"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8
 
-    const-string v2, "["
+    const-string v2, "+"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9
 
-    const-string v2, "]"
+    const-string v2, "="
 
     aput-object v2, v0, v1
 
@@ -8252,55 +8258,55 @@
 
     const/16 v1, 0xb
 
-    const-string v2, "@"
+    const-string v2, "~"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc
 
-    const-string v2, "$"
+    const-string v2, "`"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd
 
-    const-string v2, "#"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe
 
-    const-string v2, "/"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xf
 
-    const-string v2, "\\"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x10
 
-    const-string v2, "&"
+    const-string v2, ";"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x11
 
-    const-string v2, "*"
+    const-string v2, ":"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x12
 
-    const-string v2, "("
+    const-string v2, "\'"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x13
 
-    const-string v2, ")"
+    const-string v2, "\""
 
     aput-object v2, v0, v1
 
@@ -8318,47 +8324,261 @@
 
     const/16 v1, 0x16
 
-    const-string v2, "-"
+    const-string v2, "\\"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x17
 
-    const-string v2, "\'"
+    const-string v2, "|"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x18
 
-    const-string v2, "\""
+    const-string v2, "/"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x19
 
-    const-string v2, ":"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1a
 
-    const-string v2, ";"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1b
 
-    const-string v2, "`"
+    const-string v2, "<"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1c
 
-    const-string v2, "~"
+    const-string v2, ">"
 
     aput-object v2, v0, v1
 
     iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    const/16 v0, 0x24
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const-string v1, "["
+
+    aput-object v1, v0, v5
+
+    const-string v1, "]"
+
+    aput-object v1, v0, v6
+
+    const-string v1, "{"
+
+    aput-object v1, v0, v7
+
+    const-string v1, "}"
+
+    aput-object v1, v0, v8
+
+    const/4 v1, 0x4
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x5
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x7
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x8
+
+    const-string v2, "-"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x9
+
+    const-string v2, "_"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xa
+
+    const-string v2, "+"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xb
+
+    const-string v2, "="
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xc
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xd
+
+    const-string v2, "~"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xe
+
+    const-string v2, "`"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xf
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x10
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x11
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x12
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x13
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x14
+
+    const-string v2, ";"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x15
+
+    const-string v2, ":"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x16
+
+    const-string v2, "\'"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x17
+
+    const-string v2, "\""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x18
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x19
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1a
+
+    const-string v2, "\\"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1b
+
+    const-string v2, "|"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1c
+
+    const-string v2, "/"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1d
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1e
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1f
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x20
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x21
+
+    const-string v2, "<"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x22
+
+    const-string v2, ">"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x23
+
+    const-string v2, ","
+
+    aput-object v2, v0, v1
+
+    iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_CYRILLIC_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     .line 415
     const/16 v0, 0x1f
@@ -8902,55 +9122,55 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const-string v1, "+"
+    const-string v1, "["
 
     aput-object v1, v0, v5
 
-    const-string v1, "_"
+    const-string v1, "]"
 
     aput-object v1, v0, v6
 
-    const-string v1, "="
+    const-string v1, "{"
 
     aput-object v1, v0, v7
 
-    const-string v1, "%"
+    const-string v1, "}"
 
     aput-object v1, v0, v8
 
     const/4 v1, 0x4
 
-    const-string v2, "^"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x5
 
-    const-string v2, "@"
+    const-string v2, "~"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x6
 
-    const-string v2, "$"
+    const-string v2, "`"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x7
 
-    const-string v2, "#"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8
 
-    const-string v2, "/"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9
 
-    const-string v2, "\\"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
@@ -8962,54 +9182,160 @@
 
     const/16 v1, 0xb
 
-    const-string v2, "-"
+    const-string v2, "\\"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc
 
-    const-string v2, "\'"
+    const-string v2, "|"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd
 
-    const-string v2, "\""
+    const-string v2, "/"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe
 
-    const-string v2, ":"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    const/16 v0, 0x12
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const-string v1, "["
+
+    aput-object v1, v0, v5
+
+    const-string v1, "]"
+
+    aput-object v1, v0, v6
+
+    const-string v1, "{"
+
+    aput-object v1, v0, v7
+
+    const-string v1, "}"
+
+    aput-object v1, v0, v8
+
+    const/4 v1, 0x4
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x5
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    const-string v2, "~"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x7
+
+    const-string v2, "`"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x8
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x9
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xa
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xb
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xc
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xd
+
+    const-string v2, "\\"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xe
+
+    const-string v2, "|"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xf
+
+    const-string v2, "/"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x10
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x11
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     .line 435
     const/16 v0, 0xe
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const-string v1, "|"
+    const-string v1, ""
 
     aput-object v1, v0, v5
 
-    const-string v1, "<"
+    const-string v1, "-"
 
     aput-object v1, v0, v6
 
-    const-string v1, ">"
+    const-string v1, "_"
 
     aput-object v1, v0, v7
 
-    const-string v1, "["
+    const-string v1, "+"
 
     aput-object v1, v0, v8
 
     const/4 v1, 0x4
 
-    const-string v2, "]"
+    const-string v2, "="
 
     aput-object v2, v0, v1
 
@@ -9021,25 +9347,25 @@
 
     const/4 v1, 0x6
 
-    const-string v2, "&"
+    const-string v2, ";"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x7
 
-    const-string v2, "*"
+    const-string v2, ":"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8
 
-    const-string v2, "("
+    const-string v2, "\'"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9
 
-    const-string v2, ")"
+    const-string v2, "\""
 
     aput-object v2, v0, v1
 
@@ -9051,23 +9377,130 @@
 
     const/16 v1, 0xb
 
-    const-string v2, ";"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc
 
-    const-string v2, "`"
+    const-string v2, "<"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd
 
-    const-string v2, "~"
+    const-string v2, ">"
 
     aput-object v2, v0, v1
 
     iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    .line 435
+    const/16 v0, 0x12
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const-string v1, ""
+
+    aput-object v1, v0, v5
+
+    const-string v1, ""
+
+    aput-object v1, v0, v6
+
+    const-string v1, "-"
+
+    aput-object v1, v0, v7
+
+    const-string v1, "_"
+
+    aput-object v1, v0, v8
+
+    const/4 v1, 0x4
+
+    const-string v2, "+"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x5
+
+    const-string v2, "="
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x7
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x8
+
+    const-string v2, ";"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x9
+
+    const-string v2, ":"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xa
+
+    const-string v2, "\'"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xb
+
+    const-string v2, "\""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xc
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xd
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xe
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xf
+
+    const-string v2, "<"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x10
+
+    const-string v2, ">"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x11
+
+    const-string v2, ","
+
+    aput-object v2, v0, v1
+
+    iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     .line 441
     const/16 v0, 0xa
@@ -17479,55 +17912,55 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const-string v1, "+"
+    const-string v1, "["
 
     aput-object v1, v0, v5
 
-    const-string v1, "_"
+    const-string v1, "]"
 
     aput-object v1, v0, v6
 
-    const-string v1, "="
+    const-string v1, "{"
 
     aput-object v1, v0, v7
 
-    const-string v1, "%"
+    const-string v1, "}"
 
     aput-object v1, v0, v8
 
     const/4 v1, 0x4
 
-    const-string v2, "^"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x5
 
-    const-string v2, "|"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x6
 
-    const-string v2, "<"
+    const-string v2, "-"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x7
 
-    const-string v2, ">"
+    const-string v2, "_"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8
 
-    const-string v2, "["
+    const-string v2, "+"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9
 
-    const-string v2, "]"
+    const-string v2, "="
 
     aput-object v2, v0, v1
 
@@ -17539,55 +17972,55 @@
 
     const/16 v1, 0xb
 
-    const-string v2, "@"
+    const-string v2, "~"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc
 
-    const-string v2, "$"
+    const-string v2, "`"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd
 
-    const-string v2, "#"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe
 
-    const-string v2, "/"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xf
 
-    const-string v2, "\\"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x10
 
-    const-string v2, "&"
+    const-string v2, ";"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x11
 
-    const-string v2, "*"
+    const-string v2, ":"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x12
 
-    const-string v2, "("
+    const-string v2, "\'"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x13
 
-    const-string v2, ")"
+    const-string v2, "\""
 
     aput-object v2, v0, v1
 
@@ -17605,47 +18038,261 @@
 
     const/16 v1, 0x16
 
-    const-string v2, "-"
+    const-string v2, "\\"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x17
 
-    const-string v2, "\'"
+    const-string v2, "|"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x18
 
-    const-string v2, "\""
+    const-string v2, "/"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x19
 
-    const-string v2, ":"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1a
 
-    const-string v2, ";"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1b
 
-    const-string v2, "`"
+    const-string v2, "<"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1c
 
-    const-string v2, "~"
+    const-string v2, ">"
 
     aput-object v2, v0, v1
 
     iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    const/16 v0, 0x24
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const-string v1, "["
+
+    aput-object v1, v0, v5
+
+    const-string v1, "]"
+
+    aput-object v1, v0, v6
+
+    const-string v1, "{"
+
+    aput-object v1, v0, v7
+
+    const-string v1, "}"
+
+    aput-object v1, v0, v8
+
+    const/4 v1, 0x4
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x5
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x7
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x8
+
+    const-string v2, "-"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x9
+
+    const-string v2, "_"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xa
+
+    const-string v2, "+"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xb
+
+    const-string v2, "="
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xc
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xd
+
+    const-string v2, "~"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xe
+
+    const-string v2, "`"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xf
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x10
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x11
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x12
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x13
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x14
+
+    const-string v2, ";"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x15
+
+    const-string v2, ":"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x16
+
+    const-string v2, "\'"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x17
+
+    const-string v2, "\""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x18
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x19
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1a
+
+    const-string v2, "\\"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1b
+
+    const-string v2, "|"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1c
+
+    const-string v2, "/"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1d
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1e
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1f
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x20
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x21
+
+    const-string v2, "<"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x22
+
+    const-string v2, ">"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x23
+
+    const-string v2, ","
+
+    aput-object v2, v0, v1
+
+    iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_CYRILLIC_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     .line 415
     const/16 v0, 0x1f
@@ -18189,55 +18836,55 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const-string v1, "+"
+    const-string v1, "["
 
     aput-object v1, v0, v5
 
-    const-string v1, "_"
+    const-string v1, "]"
 
     aput-object v1, v0, v6
 
-    const-string v1, "="
+    const-string v1, "{"
 
     aput-object v1, v0, v7
 
-    const-string v1, "%"
+    const-string v1, "}"
 
     aput-object v1, v0, v8
 
     const/4 v1, 0x4
 
-    const-string v2, "^"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x5
 
-    const-string v2, "@"
+    const-string v2, "~"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x6
 
-    const-string v2, "$"
+    const-string v2, "`"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x7
 
-    const-string v2, "#"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8
 
-    const-string v2, "/"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9
 
-    const-string v2, "\\"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
@@ -18249,54 +18896,160 @@
 
     const/16 v1, 0xb
 
-    const-string v2, "-"
+    const-string v2, "\\"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc
 
-    const-string v2, "\'"
+    const-string v2, "|"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd
 
-    const-string v2, "\""
+    const-string v2, "/"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe
 
-    const-string v2, ":"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    const/16 v0, 0x12
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const-string v1, "["
+
+    aput-object v1, v0, v5
+
+    const-string v1, "]"
+
+    aput-object v1, v0, v6
+
+    const-string v1, "{"
+
+    aput-object v1, v0, v7
+
+    const-string v1, "}"
+
+    aput-object v1, v0, v8
+
+    const/4 v1, 0x4
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x5
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    const-string v2, "~"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x7
+
+    const-string v2, "`"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x8
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x9
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xa
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xb
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xc
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xd
+
+    const-string v2, "\\"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xe
+
+    const-string v2, "|"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xf
+
+    const-string v2, "/"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x10
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x11
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     .line 435
     const/16 v0, 0xe
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const-string v1, "|"
+    const-string v1, ""
 
     aput-object v1, v0, v5
 
-    const-string v1, "<"
+    const-string v1, "-"
 
     aput-object v1, v0, v6
 
-    const-string v1, ">"
+    const-string v1, "_"
 
     aput-object v1, v0, v7
 
-    const-string v1, "["
+    const-string v1, "+"
 
     aput-object v1, v0, v8
 
     const/4 v1, 0x4
 
-    const-string v2, "]"
+    const-string v2, "="
 
     aput-object v2, v0, v1
 
@@ -18308,25 +19061,25 @@
 
     const/4 v1, 0x6
 
-    const-string v2, "&"
+    const-string v2, ";"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x7
 
-    const-string v2, "*"
+    const-string v2, ":"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8
 
-    const-string v2, "("
+    const-string v2, "\'"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9
 
-    const-string v2, ")"
+    const-string v2, "\""
 
     aput-object v2, v0, v1
 
@@ -18338,23 +19091,130 @@
 
     const/16 v1, 0xb
 
-    const-string v2, ";"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc
 
-    const-string v2, "`"
+    const-string v2, "<"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd
 
-    const-string v2, "~"
+    const-string v2, ">"
 
     aput-object v2, v0, v1
 
     iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    .line 435
+    const/16 v0, 0x12
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const-string v1, ""
+
+    aput-object v1, v0, v5
+
+    const-string v1, ""
+
+    aput-object v1, v0, v6
+
+    const-string v1, "-"
+
+    aput-object v1, v0, v7
+
+    const-string v1, "_"
+
+    aput-object v1, v0, v8
+
+    const/4 v1, 0x4
+
+    const-string v2, "+"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x5
+
+    const-string v2, "="
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x7
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x8
+
+    const-string v2, ";"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x9
+
+    const-string v2, ":"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xa
+
+    const-string v2, "\'"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xb
+
+    const-string v2, "\""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xc
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xd
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xe
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xf
+
+    const-string v2, "<"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x10
+
+    const-string v2, ">"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x11
+
+    const-string v2, ","
+
+    aput-object v2, v0, v1
+
+    iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     .line 441
     const/16 v0, 0xa
@@ -51951,11 +52811,117 @@
 
     if-eqz v57, :cond_7c
 
+    .line 9578
+    const/4 v10, 0x1
+
+    .line 9583
+    :cond_7c
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
+
+    move/from16 v57, v0
+
+    const/high16 v58, 0x6d6e0000
+
+    move/from16 v0, v57
+
+    move/from16 v1, v58
+
+    if-eq v0, v1, :cond_a6
+
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
+
+    move/from16 v57, v0
+
+    const/high16 v58, 0x6b790000
+
+    move/from16 v0, v57
+
+    move/from16 v1, v58
+
+    if-eq v0, v1, :cond_a6
+
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
+
+    move/from16 v57, v0
+
+    const/high16 v58, 0x74670000
+
+    move/from16 v0, v57
+
+    move/from16 v1, v58
+
+    if-ne v0, v1, :cond_dd
+
+    :cond_a6
+    const/16 v57, 0x1
+
+    move/from16 v0, v34
+
+    move/from16 v1, v57
+
+    if-eq v0, v1, :cond_dd
+
+    const/16 v57, 0x8
+
+    move/from16 v0, v34
+
+    move/from16 v1, v57
+
+    if-ne v0, v1, :cond_c2
+
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputModeManager:Lcom/diotek/ime/framework/inputmode/InputModeManager;
+
+    move-object/from16 v57, v0
+
+    invoke-virtual/range {v57 .. v57}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->isFloatingPhonepadKeyboardForMultiWindow()Z
+
+    move-result v57
+
+    if-nez v57, :cond_dd
+
+    .line 9586
+    :cond_c2
+    move-object/from16 v0, p0
+
+    move-object/from16 v1, p2
+
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/view/KeyboardView;->getKeySecondaryCharacter(Lcom/diotek/ime/framework/view/Keyboard$Key;)C
+
+    move-result v57
+
+    invoke-static/range {v57 .. v57}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
+
+    move-result-object v46
+
+    .line 9587
+    if-eqz v46, :cond_dd
+
+    const/16 v57, 0x0
+
+    move-object/from16 v0, v46
+
+    move/from16 v1, v57
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->charAt(I)C
+
+    move-result v57
+
+    if-eqz v57, :cond_dd
+
     .line 9588
     const/4 v10, 0x1
 
     .line 9592
-    :cond_7c
+
+    :cond_dd
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -55811,6 +56777,8 @@
 
     move-object/from16 v57, v0
 
+    if-eqz v57, :cond_f7f
+
     invoke-virtual/range {v57 .. v57}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v57
@@ -56413,6 +57381,31 @@
     move/from16 v3, v58
 
     move-object/from16 v4, v26
+
+    const v56, 0x6d
+
+    const v14, 0x6e
+
+    const v15, 0x7a
+
+    const v59, 0x61
+
+    float-to-int v3, v3
+
+    if-eq v3, v14, :cond_1106
+
+    if-ne v3, v15, :cond_1109
+
+    const v3, 0x6d
+
+    goto :goto_1109
+
+    :cond_1106
+    const v3, 0x61
+
+    :cond_1109
+    :goto_1109
+    int-to-float v3, v3
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
@@ -68400,6 +69393,37 @@
 
     move-object/from16 v0, p0
 
+    iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
+
+    move/from16 v13, v0
+
+    const/high16 v14, 0x72750000
+
+    move/from16 v0, v14
+
+    if-ne v13, v0, :cond_258
+
+    move-object/from16 v0, p0
+
+    iget-object v13, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    array-length v13, v13
+
+    if-ge v1, v13, :cond_c3
+
+    .line 12919
+    const/4 v13, 0x0
+
+    move-object/from16 v0, p0
+
+    iget-object v14, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    aget-object v14, v14, v1
+
+    goto :goto_266
+
+    :cond_258
+    move-object/from16 v0, p0
     iget-object v13, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     array-length v13, v13
@@ -68415,6 +69439,7 @@
 
     aget-object v14, v14, v1
 
+    :goto_266
     invoke-virtual {v11, v13, v14}, Ljava/lang/StringBuilder;->insert(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v11
@@ -68445,6 +69470,37 @@
 
     move-object/from16 v0, p0
 
+    iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
+
+    move/from16 v13, v0
+
+    const/high16 v14, 0x72750000
+
+    move/from16 v0, v14
+
+    if-ne v13, v0, :cond_fe
+
+    move-object/from16 v0, p0
+
+    iget-object v13, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    array-length v13, v13
+
+    if-ge v1, v13, :cond_c3
+
+    .line 12928
+    const/4 v13, 0x0
+
+    move-object/from16 v0, p0
+
+    iget-object v14, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    aget-object v14, v14, v1
+
+    goto :goto_2a1
+
+    :cond_fe
+    move-object/from16 v0, p0
     iget-object v13, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     array-length v13, v13
@@ -68460,6 +69516,7 @@
 
     aget-object v14, v14, v1
 
+    :goto_2a1
     invoke-virtual {v11, v13, v14}, Ljava/lang/StringBuilder;->insert(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v11
@@ -68488,6 +69545,37 @@
 
     move-object/from16 v0, p0
 
+    iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
+
+    move/from16 v13, v0
+
+    const/high16 v14, 0x72750000
+
+    move/from16 v0, v14
+
+    if-ne v13, v0, :cond_fc
+
+    move-object/from16 v0, p0
+
+    iget-object v13, v0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_CYRILLIC_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    array-length v13, v13
+
+    if-ge v1, v13, :cond_c3
+
+    .line 12944
+    const/4 v13, 0x0
+
+    move-object/from16 v0, p0
+
+    iget-object v14, v0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_CYRILLIC_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    aget-object v14, v14, v1
+
+    goto :goto_2de
+
+    :cond_fc
+    move-object/from16 v0, p0
     iget-object v13, v0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     array-length v13, v13
@@ -68503,6 +69591,7 @@
 
     aget-object v14, v14, v1
 
+    :goto_2de
     invoke-virtual {v11, v13, v14}, Ljava/lang/StringBuilder;->insert(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v11
@@ -70154,6 +71243,9 @@
     .line 13418
     :cond_42
     :goto_42
+    const/4 v3, 0x2
+
+    add-int v2, v2, v3
     return v2
 
     .line 13363
@@ -70563,17 +71655,7 @@
 
     .line 13436
     :cond_80
-    iget-object v3, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
-
-    invoke-interface {v3}, Lcom/diotek/ime/framework/common/InputManager;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v3
-
-    invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getDimension(I)F
-
-    move-result v3
-
-    float-to-int v2, v3
+    const v2, 0x2a
 
     goto :goto_27
 
@@ -76154,6 +77236,45 @@
 
     move-object/from16 v0, p0
 
+    iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
+
+    move/from16 v14, v0
+
+    const/high16 v20, 0x72750000
+
+    move/from16 v0, v20
+
+    if-ne v14, v0, :cond_fb
+
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    move-object/from16 v20, v0
+
+    move-object/from16 v0, v20
+
+    array-length v0, v0
+
+    move/from16 v20, v0
+
+    move/from16 v0, v20
+
+    if-ge v2, v0, :cond_3b4
+
+    .line 7823
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    move-object/from16 v20, v0
+
+    aget-object v12, v20, v2
+
+    goto/16 :goto_3b4
+
+    :cond_fb
+    move-object/from16 v0, p0
     iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     move-object/from16 v20, v0
@@ -76185,6 +77306,45 @@
 
     move-object/from16 v0, p0
 
+    iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
+
+    move/from16 v14, v0
+
+    const/high16 v20, 0x72750000
+
+    move/from16 v0, v20
+
+    if-ne v14, v0, :cond_fa
+
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    move-object/from16 v20, v0
+
+    move-object/from16 v0, v20
+
+    array-length v0, v0
+
+    move/from16 v20, v0
+
+    move/from16 v0, v20
+
+    if-ge v2, v0, :cond_3b4
+
+    .line 7828
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    move-object/from16 v20, v0
+
+    aget-object v12, v20, v2
+
+    goto/16 :goto_3b4
+
+    :cond_fa
+    move-object/from16 v0, p0
     iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     move-object/from16 v20, v0
@@ -76226,6 +77386,48 @@
     :cond_7e9
     if-ltz v2, :cond_3b4
 
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
+
+    move/from16 v20, v0
+
+    const/high16 v21, 0x72750000
+
+    move/from16 v0, v20
+
+    move/from16 v1, v21
+
+    if-ne v0, v1, :cond_f9
+
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_CYRILLIC_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    move-object/from16 v20, v0
+
+    move-object/from16 v0, v20
+
+    array-length v0, v0
+
+    move/from16 v20, v0
+
+    move/from16 v0, v20
+
+    if-ge v2, v0, :cond_3b4
+
+    .line 7838
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_CYRILLIC_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    move-object/from16 v20, v0
+
+    aget-object v12, v20, v2
+
+    goto/16 :goto_3b4
+
+    :cond_f9
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
