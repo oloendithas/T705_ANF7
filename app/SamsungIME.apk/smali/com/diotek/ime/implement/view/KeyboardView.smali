@@ -136,6 +136,8 @@
 
 .field private final QWERTY_NUMBER_WITH_SYMBOL_EXTRALABEL_MAP:[Ljava/lang/String;
 
+.field private final QWERTY_TABLET_CYRILLIC_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
 .field private final QWERTY_TABLET_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
 .field private final QWERTY_TABLET_HAPTIC_LANDSCAPE_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
@@ -145,6 +147,10 @@
 .field private SCREEN_HEIGHT:I
 
 .field private SCREEN_WIDTH:I
+
+.field private final SPLIT_CYRILLIC_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+.field private final SPLIT_CYRILLIC_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
 .field private final SPLIT_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
@@ -654,7 +660,7 @@
 
     aput-object v1, v0, v5
 
-    const-string v1, "-"
+    const-string v1, "!"
 
     aput-object v1, v0, v6
 
@@ -668,7 +674,7 @@
 
     const/4 v1, 0x4
 
-    const-string v2, "/"
+    const-string v2, "$"
 
     aput-object v2, v0, v1
 
@@ -8192,55 +8198,55 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const-string v1, "+"
+    const-string v1, "["
 
     aput-object v1, v0, v5
 
-    const-string v1, "_"
+    const-string v1, "]"
 
     aput-object v1, v0, v6
 
-    const-string v1, "="
+    const-string v1, "{"
 
     aput-object v1, v0, v7
 
-    const-string v1, "%"
+    const-string v1, "}"
 
     aput-object v1, v0, v8
 
     const/4 v1, 0x4
 
-    const-string v2, "^"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x5
 
-    const-string v2, "|"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x6
 
-    const-string v2, "<"
+    const-string v2, "-"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x7
 
-    const-string v2, ">"
+    const-string v2, "_"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8
 
-    const-string v2, "["
+    const-string v2, "+"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9
 
-    const-string v2, "]"
+    const-string v2, "="
 
     aput-object v2, v0, v1
 
@@ -8252,55 +8258,55 @@
 
     const/16 v1, 0xb
 
-    const-string v2, "@"
+    const-string v2, "~"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc
 
-    const-string v2, "$"
+    const-string v2, "`"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd
 
-    const-string v2, "#"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe
 
-    const-string v2, "/"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xf
 
-    const-string v2, "\\"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x10
 
-    const-string v2, "&"
+    const-string v2, ";"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x11
 
-    const-string v2, "*"
+    const-string v2, ":"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x12
 
-    const-string v2, "("
+    const-string v2, "\'"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x13
 
-    const-string v2, ")"
+    const-string v2, "\""
 
     aput-object v2, v0, v1
 
@@ -8318,47 +8324,261 @@
 
     const/16 v1, 0x16
 
-    const-string v2, "-"
+    const-string v2, "\\"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x17
 
-    const-string v2, "\'"
+    const-string v2, "|"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x18
 
-    const-string v2, "\""
+    const-string v2, "/"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x19
 
-    const-string v2, ":"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1a
 
-    const-string v2, ";"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1b
 
-    const-string v2, "`"
+    const-string v2, "<"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1c
 
-    const-string v2, "~"
+    const-string v2, ">"
 
     aput-object v2, v0, v1
 
     iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    const/16 v0, 0x24
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const-string v1, "["
+
+    aput-object v1, v0, v5
+
+    const-string v1, "]"
+
+    aput-object v1, v0, v6
+
+    const-string v1, "{"
+
+    aput-object v1, v0, v7
+
+    const-string v1, "}"
+
+    aput-object v1, v0, v8
+
+    const/4 v1, 0x4
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x5
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x7
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x8
+
+    const-string v2, "-"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x9
+
+    const-string v2, "_"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xa
+
+    const-string v2, "+"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xb
+
+    const-string v2, "="
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xc
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xd
+
+    const-string v2, "~"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xe
+
+    const-string v2, "`"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xf
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x10
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x11
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x12
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x13
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x14
+
+    const-string v2, ";"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x15
+
+    const-string v2, ":"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x16
+
+    const-string v2, "\'"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x17
+
+    const-string v2, "\""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x18
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x19
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1a
+
+    const-string v2, "\\"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1b
+
+    const-string v2, "|"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1c
+
+    const-string v2, "/"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1d
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1e
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1f
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x20
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x21
+
+    const-string v2, "<"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x22
+
+    const-string v2, ">"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x23
+
+    const-string v2, ","
+
+    aput-object v2, v0, v1
+
+    iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_CYRILLIC_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     .line 415
     const/16 v0, 0x1f
@@ -8902,55 +9122,55 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const-string v1, "+"
+    const-string v1, "["
 
     aput-object v1, v0, v5
 
-    const-string v1, "_"
+    const-string v1, "]"
 
     aput-object v1, v0, v6
 
-    const-string v1, "="
+    const-string v1, "{"
 
     aput-object v1, v0, v7
 
-    const-string v1, "%"
+    const-string v1, "}"
 
     aput-object v1, v0, v8
 
     const/4 v1, 0x4
 
-    const-string v2, "^"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x5
 
-    const-string v2, "@"
+    const-string v2, "~"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x6
 
-    const-string v2, "$"
+    const-string v2, "`"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x7
 
-    const-string v2, "#"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8
 
-    const-string v2, "/"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9
 
-    const-string v2, "\\"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
@@ -8962,54 +9182,160 @@
 
     const/16 v1, 0xb
 
-    const-string v2, "-"
+    const-string v2, "\\"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc
 
-    const-string v2, "\'"
+    const-string v2, "|"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd
 
-    const-string v2, "\""
+    const-string v2, "/"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe
 
-    const-string v2, ":"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    const/16 v0, 0x12
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const-string v1, "["
+
+    aput-object v1, v0, v5
+
+    const-string v1, "]"
+
+    aput-object v1, v0, v6
+
+    const-string v1, "{"
+
+    aput-object v1, v0, v7
+
+    const-string v1, "}"
+
+    aput-object v1, v0, v8
+
+    const/4 v1, 0x4
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x5
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    const-string v2, "~"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x7
+
+    const-string v2, "`"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x8
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x9
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xa
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xb
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xc
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xd
+
+    const-string v2, "\\"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xe
+
+    const-string v2, "|"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xf
+
+    const-string v2, "/"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x10
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x11
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     .line 435
     const/16 v0, 0xe
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const-string v1, "|"
+    const-string v1, ""
 
     aput-object v1, v0, v5
 
-    const-string v1, "<"
+    const-string v1, "-"
 
     aput-object v1, v0, v6
 
-    const-string v1, ">"
+    const-string v1, "_"
 
     aput-object v1, v0, v7
 
-    const-string v1, "["
+    const-string v1, "+"
 
     aput-object v1, v0, v8
 
     const/4 v1, 0x4
 
-    const-string v2, "]"
+    const-string v2, "="
 
     aput-object v2, v0, v1
 
@@ -9021,25 +9347,25 @@
 
     const/4 v1, 0x6
 
-    const-string v2, "&"
+    const-string v2, ";"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x7
 
-    const-string v2, "*"
+    const-string v2, ":"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8
 
-    const-string v2, "("
+    const-string v2, "\'"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9
 
-    const-string v2, ")"
+    const-string v2, "\""
 
     aput-object v2, v0, v1
 
@@ -9051,23 +9377,130 @@
 
     const/16 v1, 0xb
 
-    const-string v2, ";"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc
 
-    const-string v2, "`"
+    const-string v2, "<"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd
 
-    const-string v2, "~"
+    const-string v2, ">"
 
     aput-object v2, v0, v1
 
     iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    .line 435
+    const/16 v0, 0x12
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const-string v1, ""
+
+    aput-object v1, v0, v5
+
+    const-string v1, ""
+
+    aput-object v1, v0, v6
+
+    const-string v1, "-"
+
+    aput-object v1, v0, v7
+
+    const-string v1, "_"
+
+    aput-object v1, v0, v8
+
+    const/4 v1, 0x4
+
+    const-string v2, "+"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x5
+
+    const-string v2, "="
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x7
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x8
+
+    const-string v2, ";"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x9
+
+    const-string v2, ":"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xa
+
+    const-string v2, "\'"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xb
+
+    const-string v2, "\""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xc
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xd
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xe
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xf
+
+    const-string v2, "<"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x10
+
+    const-string v2, ">"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x11
+
+    const-string v2, ","
+
+    aput-object v2, v0, v1
+
+    iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     .line 441
     const/16 v0, 0xa
@@ -17479,55 +17912,55 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const-string v1, "+"
+    const-string v1, "["
 
     aput-object v1, v0, v5
 
-    const-string v1, "_"
+    const-string v1, "]"
 
     aput-object v1, v0, v6
 
-    const-string v1, "="
+    const-string v1, "{"
 
     aput-object v1, v0, v7
 
-    const-string v1, "%"
+    const-string v1, "}"
 
     aput-object v1, v0, v8
 
     const/4 v1, 0x4
 
-    const-string v2, "^"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x5
 
-    const-string v2, "|"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x6
 
-    const-string v2, "<"
+    const-string v2, "-"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x7
 
-    const-string v2, ">"
+    const-string v2, "_"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8
 
-    const-string v2, "["
+    const-string v2, "+"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9
 
-    const-string v2, "]"
+    const-string v2, "="
 
     aput-object v2, v0, v1
 
@@ -17539,55 +17972,55 @@
 
     const/16 v1, 0xb
 
-    const-string v2, "@"
+    const-string v2, "~"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc
 
-    const-string v2, "$"
+    const-string v2, "`"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd
 
-    const-string v2, "#"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe
 
-    const-string v2, "/"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xf
 
-    const-string v2, "\\"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x10
 
-    const-string v2, "&"
+    const-string v2, ";"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x11
 
-    const-string v2, "*"
+    const-string v2, ":"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x12
 
-    const-string v2, "("
+    const-string v2, "\'"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x13
 
-    const-string v2, ")"
+    const-string v2, "\""
 
     aput-object v2, v0, v1
 
@@ -17605,47 +18038,261 @@
 
     const/16 v1, 0x16
 
-    const-string v2, "-"
+    const-string v2, "\\"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x17
 
-    const-string v2, "\'"
+    const-string v2, "|"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x18
 
-    const-string v2, "\""
+    const-string v2, "/"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x19
 
-    const-string v2, ":"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1a
 
-    const-string v2, ";"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1b
 
-    const-string v2, "`"
+    const-string v2, "<"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1c
 
-    const-string v2, "~"
+    const-string v2, ">"
 
     aput-object v2, v0, v1
 
     iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    const/16 v0, 0x24
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const-string v1, "["
+
+    aput-object v1, v0, v5
+
+    const-string v1, "]"
+
+    aput-object v1, v0, v6
+
+    const-string v1, "{"
+
+    aput-object v1, v0, v7
+
+    const-string v1, "}"
+
+    aput-object v1, v0, v8
+
+    const/4 v1, 0x4
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x5
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x7
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x8
+
+    const-string v2, "-"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x9
+
+    const-string v2, "_"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xa
+
+    const-string v2, "+"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xb
+
+    const-string v2, "="
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xc
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xd
+
+    const-string v2, "~"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xe
+
+    const-string v2, "`"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xf
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x10
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x11
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x12
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x13
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x14
+
+    const-string v2, ";"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x15
+
+    const-string v2, ":"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x16
+
+    const-string v2, "\'"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x17
+
+    const-string v2, "\""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x18
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x19
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1a
+
+    const-string v2, "\\"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1b
+
+    const-string v2, "|"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1c
+
+    const-string v2, "/"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1d
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1e
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1f
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x20
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x21
+
+    const-string v2, "<"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x22
+
+    const-string v2, ">"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x23
+
+    const-string v2, ","
+
+    aput-object v2, v0, v1
+
+    iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_CYRILLIC_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     .line 415
     const/16 v0, 0x1f
@@ -18189,55 +18836,55 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const-string v1, "+"
+    const-string v1, "["
 
     aput-object v1, v0, v5
 
-    const-string v1, "_"
+    const-string v1, "]"
 
     aput-object v1, v0, v6
 
-    const-string v1, "="
+    const-string v1, "{"
 
     aput-object v1, v0, v7
 
-    const-string v1, "%"
+    const-string v1, "}"
 
     aput-object v1, v0, v8
 
     const/4 v1, 0x4
 
-    const-string v2, "^"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x5
 
-    const-string v2, "@"
+    const-string v2, "~"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x6
 
-    const-string v2, "$"
+    const-string v2, "`"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x7
 
-    const-string v2, "#"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8
 
-    const-string v2, "/"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9
 
-    const-string v2, "\\"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
@@ -18249,54 +18896,160 @@
 
     const/16 v1, 0xb
 
-    const-string v2, "-"
+    const-string v2, "\\"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc
 
-    const-string v2, "\'"
+    const-string v2, "|"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd
 
-    const-string v2, "\""
+    const-string v2, "/"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe
 
-    const-string v2, ":"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    const/16 v0, 0x12
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const-string v1, "["
+
+    aput-object v1, v0, v5
+
+    const-string v1, "]"
+
+    aput-object v1, v0, v6
+
+    const-string v1, "{"
+
+    aput-object v1, v0, v7
+
+    const-string v1, "}"
+
+    aput-object v1, v0, v8
+
+    const/4 v1, 0x4
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x5
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    const-string v2, "~"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x7
+
+    const-string v2, "`"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x8
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x9
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xa
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xb
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xc
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xd
+
+    const-string v2, "\\"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xe
+
+    const-string v2, "|"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xf
+
+    const-string v2, "/"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x10
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x11
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     .line 435
     const/16 v0, 0xe
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const-string v1, "|"
+    const-string v1, ""
 
     aput-object v1, v0, v5
 
-    const-string v1, "<"
+    const-string v1, "-"
 
     aput-object v1, v0, v6
 
-    const-string v1, ">"
+    const-string v1, "_"
 
     aput-object v1, v0, v7
 
-    const-string v1, "["
+    const-string v1, "+"
 
     aput-object v1, v0, v8
 
     const/4 v1, 0x4
 
-    const-string v2, "]"
+    const-string v2, "="
 
     aput-object v2, v0, v1
 
@@ -18308,25 +19061,25 @@
 
     const/4 v1, 0x6
 
-    const-string v2, "&"
+    const-string v2, ";"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x7
 
-    const-string v2, "*"
+    const-string v2, ":"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8
 
-    const-string v2, "("
+    const-string v2, "\'"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9
 
-    const-string v2, ")"
+    const-string v2, "\""
 
     aput-object v2, v0, v1
 
@@ -18338,23 +19091,130 @@
 
     const/16 v1, 0xb
 
-    const-string v2, ";"
+    const-string v2, ""
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc
 
-    const-string v2, "`"
+    const-string v2, "<"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd
 
-    const-string v2, "~"
+    const-string v2, ">"
 
     aput-object v2, v0, v1
 
     iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    .line 435
+    const/16 v0, 0x12
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const-string v1, ""
+
+    aput-object v1, v0, v5
+
+    const-string v1, ""
+
+    aput-object v1, v0, v6
+
+    const-string v1, "-"
+
+    aput-object v1, v0, v7
+
+    const-string v1, "_"
+
+    aput-object v1, v0, v8
+
+    const/4 v1, 0x4
+
+    const-string v2, "+"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x5
+
+    const-string v2, "="
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x7
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x8
+
+    const-string v2, ";"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x9
+
+    const-string v2, ":"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xa
+
+    const-string v2, "\'"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xb
+
+    const-string v2, "\""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xc
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xd
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xe
+
+    const-string v2, ""
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xf
+
+    const-string v2, "<"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x10
+
+    const-string v2, ">"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x11
+
+    const-string v2, ","
+
+    aput-object v2, v0, v1
+
+    iput-object v0, p0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
 
     .line 441
     const/16 v0, 0xa
@@ -55620,7 +56480,7 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_10f4
+    if-eqz v57, :cond_110f
 
     move-object/from16 v0, p0
 
@@ -55632,7 +56492,7 @@
 
     move-result v57
 
-    if-eqz v57, :cond_10f4
+    if-eqz v57, :cond_110f
 
     move-object/from16 v0, p0
 
@@ -55640,7 +56500,7 @@
 
     move/from16 v57, v0
 
-    if-nez v57, :cond_10f4
+    if-nez v57, :cond_110f
 
     move-object/from16 v0, p2
 
@@ -55658,7 +56518,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_10f4
+    if-eq v0, v1, :cond_110f
 
     move-object/from16 v0, p2
 
@@ -55692,7 +56552,7 @@
 
     move-result v57
 
-    if-nez v57, :cond_10f4
+    if-nez v57, :cond_110f
 
     move-object/from16 v0, p2
 
@@ -55710,7 +56570,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_10f4
+    if-eq v0, v1, :cond_110f
 
     move-object/from16 v0, p2
 
@@ -55728,7 +56588,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_10f4
+    if-eq v0, v1, :cond_110f
 
     move-object/from16 v0, p2
 
@@ -55746,7 +56606,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_10f4
+    if-eq v0, v1, :cond_110f
 
     move-object/from16 v0, p2
 
@@ -55764,7 +56624,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_10f4
+    if-eq v0, v1, :cond_110f
 
     move-object/from16 v0, p2
 
@@ -55800,7 +56660,7 @@
 
     move/from16 v1, v58
 
-    if-le v0, v1, :cond_10f4
+    if-le v0, v1, :cond_110f
 
     .line 9948
     :cond_e84
@@ -55814,13 +56674,13 @@
 
     move-result v57
 
-    if-eqz v57, :cond_f5e
+    if-eqz v57, :cond_f60
 
     invoke-direct/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->isPopupKeyboard()Z
 
     move-result v57
 
-    if-nez v57, :cond_f5e
+    if-nez v57, :cond_f60
 
     const v25, 0x400ccccd
 
@@ -55844,13 +56704,15 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_fe0
+    if-eqz v57, :cond_fe2
 
     move-object/from16 v0, p2
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->label:Ljava/lang/CharSequence;
 
     move-object/from16 v57, v0
+
+    if-eqz v57, :cond_fe2
 
     invoke-virtual/range {v57 .. v57}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
@@ -55862,7 +56724,7 @@
 
     move-result v57
 
-    if-eqz v57, :cond_fe0
+    if-eqz v57, :cond_fe2
 
     move-object/from16 v0, p0
 
@@ -55874,10 +56736,10 @@
 
     move-result v57
 
-    if-nez v57, :cond_fe0
+    if-nez v57, :cond_fe2
 
     .line 9951
-    if-nez v22, :cond_f63
+    if-nez v22, :cond_f65
 
     .line 9952
     move-object/from16 v0, p2
@@ -56007,7 +56869,7 @@
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
     .line 9999
-    :goto_f47
+    :goto_f49
     const/16 v57, 0x0
 
     const/16 v58, 0x0
@@ -56032,14 +56894,14 @@
 
     .line 9948
     .end local v25    # "labelPadding":F
-    :cond_f5e
+    :cond_f60
     const v25, 0x3fcccccd
 
     goto/16 :goto_e99
 
     .line 9960
     .restart local v25    # "labelPadding":F
-    :cond_f63
+    :cond_f65
     move-object/from16 v0, p2
 
     iget v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->width:I
@@ -56166,17 +57028,17 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_f47
+    goto/16 :goto_f49
 
     .line 9979
-    :cond_fe0
+    :cond_fe2
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_WXGA:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_107b
+    if-eqz v57, :cond_107d
 
     move-object/from16 v0, p0
 
@@ -56188,7 +57050,7 @@
 
     move-result v57
 
-    if-nez v57, :cond_107b
+    if-nez v57, :cond_107d
 
     .line 9981
     move-object/from16 v0, p2
@@ -56301,11 +57163,11 @@
 
     add-float v59, v59, v57
 
-    if-nez v22, :cond_1078
+    if-nez v22, :cond_107a
 
     const/16 v57, 0x2
 
-    :goto_1062
+    :goto_1064
     move/from16 v0, v57
 
     int-to-float v0, v0
@@ -56326,15 +57188,15 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_f47
+    goto/16 :goto_f49
 
-    :cond_1078
+    :cond_107a
     const/16 v57, 0x1
 
-    goto :goto_1062
+    goto :goto_1064
 
     .line 9989
-    :cond_107b
+    :cond_107d
     move-object/from16 v0, p2
 
     iget v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->width:I
@@ -56455,22 +57317,47 @@
 
     move-object/from16 v4, v26
 
+    const v56, 0x6d
+
+    const v14, 0x6e
+
+    const v15, 0x7a
+
+    const v59, 0x61
+
+    float-to-int v3, v3
+
+    if-eq v3, v14, :cond_1106
+
+    if-ne v3, v15, :cond_1109
+
+    const v3, 0x6d
+
+    goto :goto_1109
+
+    :cond_1106
+    const v3, 0x61
+
+    :cond_1109
+    :goto_1109
+    int-to-float v3, v3
+
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_f47
+    goto/16 :goto_f49
 
     .line 10000
     .end local v25    # "labelPadding":F
-    :cond_10f4
+    :cond_110f
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsTabletMode:Z
 
     move/from16 v57, v0
 
-    if-nez v57, :cond_21f8
+    if-nez v57, :cond_2213
 
-    if-eqz v22, :cond_21f8
+    if-eqz v22, :cond_2213
 
     move-object/from16 v0, p0
 
@@ -56488,7 +57375,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_21f8
+    if-eq v0, v1, :cond_2213
 
     move-object/from16 v0, p2
 
@@ -56506,10 +57393,10 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_21f8
+    if-eq v0, v1, :cond_2213
 
     .line 10001
-    if-eqz v10, :cond_1324
+    if-eqz v10, :cond_133f
 
     .line 10004
     const/16 v54, 0x0
@@ -56616,7 +57503,7 @@
 
     move/from16 v1, v57
 
-    if-eq v0, v1, :cond_118f
+    if-eq v0, v1, :cond_11aa
 
     const/16 v57, 0x8
 
@@ -56624,10 +57511,10 @@
 
     move/from16 v1, v57
 
-    if-ne v0, v1, :cond_1250
+    if-ne v0, v1, :cond_126b
 
     .line 10014
-    :cond_118f
+    :cond_11aa
     move-object/from16 v0, p2
 
     iget v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->height:I
@@ -56701,7 +57588,7 @@
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
     .line 10034
-    :goto_11d5
+    :goto_11f0
     const/16 v57, 0x0
 
     const/16 v58, 0x0
@@ -56832,7 +57719,7 @@
     goto/16 :goto_2fe
 
     .line 10020
-    :cond_1250
+    :cond_126b
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -56845,7 +57732,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_127a
+    if-eq v0, v1, :cond_1295
 
     move-object/from16 v0, p0
 
@@ -56859,7 +57746,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_127a
+    if-eq v0, v1, :cond_1295
 
     move-object/from16 v0, p0
 
@@ -56873,10 +57760,10 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_12d1
+    if-ne v0, v1, :cond_12ec
 
     .line 10021
-    :cond_127a
+    :cond_1295
     invoke-direct/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->getDrawFirstCharOffsetX()I
 
     move-result v57
@@ -56965,10 +57852,10 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_11d5
+    goto/16 :goto_11f0
 
     .line 10027
-    :cond_12d1
+    :cond_12ec
     invoke-direct/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->getDrawFirstCharOffsetX()I
 
     move-result v57
@@ -57053,12 +57940,12 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_11d5
+    goto/16 :goto_11f0
 
     .line 10045
     .end local v54    # "x1":F
     .end local v55    # "x2":F
-    :cond_1324
+    :cond_133f
     move-object/from16 v0, p0
 
     move-object/from16 v1, v26
@@ -57076,7 +57963,7 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_13dd
+    if-eqz v57, :cond_13f8
 
     move-object/from16 v0, p0
 
@@ -57090,7 +57977,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_13dd
+    if-ne v0, v1, :cond_13f8
 
     move-object/from16 v0, p0
 
@@ -57102,7 +57989,7 @@
 
     move-result v57
 
-    if-eqz v57, :cond_13dd
+    if-eqz v57, :cond_13f8
 
     .line 10047
     move-object/from16 v0, p2
@@ -57226,8 +58113,8 @@
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
     .line 10284
-    :cond_13c6
-    :goto_13c6
+    :cond_13e1
+    :goto_13e1
     const/16 v57, 0x0
 
     const/16 v58, 0x0
@@ -57251,14 +58138,14 @@
     goto/16 :goto_2fe
 
     .line 10053
-    :cond_13dd
+    :cond_13f8
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsTabletMode:Z
 
     move/from16 v57, v0
 
-    if-nez v57, :cond_14fc
+    if-nez v57, :cond_1517
 
     move-object/from16 v0, p0
 
@@ -57272,7 +58159,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_14fc
+    if-ne v0, v1, :cond_1517
 
     move-object/from16 v0, p0
 
@@ -57284,7 +58171,7 @@
 
     move-result v57
 
-    if-eqz v57, :cond_14fc
+    if-eqz v57, :cond_1517
 
     move-object/from16 v0, p0
 
@@ -57296,10 +58183,10 @@
 
     move-result v57
 
-    if-nez v57, :cond_14fc
+    if-nez v57, :cond_1517
 
     .line 10055
-    if-eqz v22, :cond_1485
+    if-eqz v22, :cond_14a0
 
     move-object/from16 v0, p0
 
@@ -57313,7 +58200,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_1485
+    if-ne v0, v1, :cond_14a0
 
     .line 10056
     move-object/from16 v0, p2
@@ -57422,10 +58309,10 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10063
-    :cond_1485
+    :cond_14a0
     move-object/from16 v0, p2
 
     iget v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->width:I
@@ -57546,17 +58433,17 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10070
-    :cond_14fc
+    :cond_1517
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsTabletMode:Z
 
     move/from16 v57, v0
 
-    if-nez v57, :cond_1784
+    if-nez v57, :cond_179f
 
     move-object/from16 v0, p0
 
@@ -57568,7 +58455,7 @@
 
     move-result v57
 
-    if-eqz v57, :cond_1784
+    if-eqz v57, :cond_179f
 
     .line 10071
     move-object/from16 v0, p2
@@ -57587,7 +58474,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_15ac
+    if-ne v0, v1, :cond_15c7
 
     .line 10072
     move-object/from16 v0, p2
@@ -57730,17 +58617,17 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10079
-    :cond_15ac
+    :cond_15c7
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_QHD:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_167d
+    if-eqz v57, :cond_1698
 
     move-object/from16 v0, p0
 
@@ -57748,7 +58635,7 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_167d
+    if-eqz v57, :cond_1698
 
     move-object/from16 v0, p2
 
@@ -57766,7 +58653,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_1604
+    if-eq v0, v1, :cond_161f
 
     move-object/from16 v0, p2
 
@@ -57784,7 +58671,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_1604
+    if-eq v0, v1, :cond_161f
 
     move-object/from16 v0, p2
 
@@ -57802,7 +58689,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_1604
+    if-eq v0, v1, :cond_161f
 
     move-object/from16 v0, p2
 
@@ -57820,10 +58707,10 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_167d
+    if-ne v0, v1, :cond_1698
 
     .line 10080
-    :cond_1604
+    :cond_161f
     move-object/from16 v0, p2
 
     iget v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->width:I
@@ -57946,17 +58833,17 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10086
-    :cond_167d
+    :cond_1698
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_FHD:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_16fe
+    if-eqz v57, :cond_1719
 
     .line 10087
     move-object/from16 v0, p2
@@ -58081,10 +58968,10 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10094
-    :cond_16fe
+    :cond_1719
     move-object/from16 v0, p2
 
     iget v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->width:I
@@ -58221,10 +59108,10 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10103
-    :cond_1784
+    :cond_179f
     move-object/from16 v0, p2
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->codes:[I
@@ -58241,7 +59128,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_1830
+    if-eq v0, v1, :cond_184b
 
     move-object/from16 v0, p2
 
@@ -58259,13 +59146,13 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_1830
+    if-eq v0, v1, :cond_184b
 
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->isMiniKeyboardView()Z
 
     move-result v57
 
-    if-nez v57, :cond_17ba
+    if-nez v57, :cond_17d5
 
     move-object/from16 v0, p0
 
@@ -58277,16 +59164,16 @@
 
     move-result v57
 
-    if-eqz v57, :cond_1830
+    if-eqz v57, :cond_184b
 
-    :cond_17ba
+    :cond_17d5
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_QVGA:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_17d4
+    if-eqz v57, :cond_17ef
 
     move-object/from16 v0, p2
 
@@ -58304,10 +59191,10 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_1830
+    if-eq v0, v1, :cond_184b
 
     .line 10105
-    :cond_17d4
+    :cond_17ef
     invoke-virtual/range {v26 .. v26}, Landroid/graphics/Paint;->getTextSize()F
 
     move-result v57
@@ -58332,7 +59219,7 @@
 
     move-result v57
 
-    if-eqz v57, :cond_1824
+    if-eqz v57, :cond_183f
 
     .line 10109
     new-instance v57, Landroid/graphics/RectF;
@@ -58396,7 +59283,7 @@
     move-result v48
 
     .line 10112
-    :cond_1824
+    :cond_183f
     move/from16 v0, v48
 
     int-to-float v0, v0
@@ -58412,7 +59299,7 @@
     .line 10114
     .end local v42    # "paintTextSize":I
     .end local v48    # "textSize":I
-    :cond_1830
+    :cond_184b
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -58425,7 +59312,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_198c
+    if-ne v0, v1, :cond_19a7
 
     move-object/from16 v0, p0
 
@@ -58433,7 +59320,7 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_198c
+    if-eqz v57, :cond_19a7
 
     move-object/from16 v0, p0
 
@@ -58441,7 +59328,7 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_198c
+    if-eqz v57, :cond_19a7
 
     .line 10115
     move-object/from16 v0, p0
@@ -58450,7 +59337,7 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_18b3
+    if-eqz v57, :cond_18ce
 
     .line 10116
     invoke-virtual/range {v26 .. v26}, Landroid/graphics/Paint;->getTextSize()F
@@ -58475,7 +59362,7 @@
 
     move-result v57
 
-    packed-switch v57, :pswitch_data_2d14
+    packed-switch v57, :pswitch_data_2d30
 
     .line 10126
     new-instance v57, Landroid/graphics/RectF;
@@ -58540,7 +59427,7 @@
 
     .line 10130
     .restart local v48    # "textSize":I
-    :goto_18a7
+    :goto_18c2
     move/from16 v0, v48
 
     int-to-float v0, v0
@@ -58556,7 +59443,7 @@
     .line 10132
     .end local v42    # "paintTextSize":I
     .end local v48    # "textSize":I
-    :cond_18b3
+    :cond_18ce
     move-object/from16 v0, p0
 
     move-object/from16 v1, p3
@@ -58697,12 +59584,12 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10121
     .end local v7    # "Offset_Y":I
     .restart local v42    # "paintTextSize":I
-    :pswitch_193b
+    :pswitch_1956
     new-instance v57, Landroid/graphics/RectF;
 
     const/16 v58, 0x0
@@ -58785,12 +59672,12 @@
 
     .line 10124
     .restart local v48    # "textSize":I
-    goto/16 :goto_18a7
+    goto/16 :goto_18c2
 
     .line 10140
     .end local v42    # "paintTextSize":I
     .end local v48    # "textSize":I
-    :cond_198c
+    :cond_19a7
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -58803,7 +59690,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_1a4b
+    if-ne v0, v1, :cond_1a66
 
     move-object/from16 v0, p0
 
@@ -58811,7 +59698,7 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_1a4b
+    if-eqz v57, :cond_1a66
 
     move-object/from16 v0, p0
 
@@ -58819,7 +59706,7 @@
 
     move/from16 v57, v0
 
-    if-nez v57, :cond_19b2
+    if-nez v57, :cond_19cd
 
     move-object/from16 v0, p0
 
@@ -58827,10 +59714,10 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_1a4b
+    if-eqz v57, :cond_1a66
 
     .line 10141
-    :cond_19b2
+    :cond_19cd
     move-object/from16 v0, p0
 
     move-object/from16 v1, p3
@@ -58991,19 +59878,19 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10151
     .end local v36    # "offset_X":I
     .end local v37    # "offset_Y":I
-    :cond_1a4b
+    :cond_1a66
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_WVGA:Z
 
     move/from16 v57, v0
 
-    if-nez v57, :cond_1a5b
+    if-nez v57, :cond_1a76
 
     move-object/from16 v0, p0
 
@@ -59011,16 +59898,16 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_1b06
+    if-eqz v57, :cond_1b21
 
-    :cond_1a5b
+    :cond_1a76
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsLandscape:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_1b06
+    if-eqz v57, :cond_1b21
 
     move-object/from16 v0, p2
 
@@ -59038,7 +59925,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_1a87
+    if-eq v0, v1, :cond_1aa2
 
     move-object/from16 v0, p2
 
@@ -59056,10 +59943,10 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_1b06
+    if-ne v0, v1, :cond_1b21
 
     .line 10152
-    :cond_1a87
+    :cond_1aa2
     move-object/from16 v0, p2
 
     iget v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->width:I
@@ -59188,17 +60075,17 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10159
-    :cond_1b06
+    :cond_1b21
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_WVGA:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_1bb1
+    if-eqz v57, :cond_1bcc
 
     move-object/from16 v0, p0
 
@@ -59206,7 +60093,7 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_1bb1
+    if-eqz v57, :cond_1bcc
 
     move-object/from16 v0, p0
 
@@ -59220,7 +60107,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_1bb1
+    if-ne v0, v1, :cond_1bcc
 
     move-object/from16 v0, p0
 
@@ -59234,7 +60121,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_1bb1
+    if-ne v0, v1, :cond_1bcc
 
     .line 10160
     move-object/from16 v0, p2
@@ -59365,17 +60252,17 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10168
-    :cond_1bb1
+    :cond_1bcc
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_QVGA:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_1c96
+    if-eqz v57, :cond_1cb1
 
     move-object/from16 v0, p0
 
@@ -59383,7 +60270,7 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_1c96
+    if-eqz v57, :cond_1cb1
 
     move-object/from16 v0, p0
 
@@ -59391,7 +60278,7 @@
 
     move/from16 v57, v0
 
-    if-nez v57, :cond_1c96
+    if-nez v57, :cond_1cb1
 
     move-object/from16 v0, p2
 
@@ -59401,7 +60288,7 @@
 
     and-int/lit8 v57, v57, 0x4
 
-    if-eqz v57, :cond_1c96
+    if-eqz v57, :cond_1cb1
 
     move-object/from16 v0, p0
 
@@ -59415,7 +60302,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_1c19
+    if-eq v0, v1, :cond_1c34
 
     move-object/from16 v0, p0
 
@@ -59429,7 +60316,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_1c19
+    if-eq v0, v1, :cond_1c34
 
     move-object/from16 v0, p0
 
@@ -59443,7 +60330,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_1c19
+    if-eq v0, v1, :cond_1c34
 
     move-object/from16 v0, p0
 
@@ -59457,7 +60344,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_1c19
+    if-eq v0, v1, :cond_1c34
 
     move-object/from16 v0, p0
 
@@ -59471,10 +60358,10 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_1c96
+    if-ne v0, v1, :cond_1cb1
 
     .line 10169
-    :cond_1c19
+    :cond_1c34
     move-object/from16 v0, p2
 
     iget v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->width:I
@@ -59601,15 +60488,15 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10178
-    :cond_1c96
+    :cond_1cb1
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->isMiniKeyboardView()Z
 
     move-result v57
 
-    if-eqz v57, :cond_1d63
+    if-eqz v57, :cond_1d7e
 
     const-string v57, "GT-B5330"
 
@@ -59619,7 +60506,7 @@
 
     move-result v57
 
-    if-nez v57, :cond_1cc4
+    if-nez v57, :cond_1cdf
 
     const-string v57, "GT-B5330L"
 
@@ -59629,7 +60516,7 @@
 
     move-result v57
 
-    if-nez v57, :cond_1cc4
+    if-nez v57, :cond_1cdf
 
     const-string v57, "GT-B5330B"
 
@@ -59639,7 +60526,7 @@
 
     move-result v57
 
-    if-nez v57, :cond_1cc4
+    if-nez v57, :cond_1cdf
 
     const-string v57, "GT-S6012"
 
@@ -59649,9 +60536,9 @@
 
     move-result v57
 
-    if-eqz v57, :cond_1d63
+    if-eqz v57, :cond_1d7e
 
-    :cond_1cc4
+    :cond_1cdf
     move-object/from16 v0, p2
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->codes:[I
@@ -59668,7 +60555,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_1d63
+    if-eq v0, v1, :cond_1d7e
 
     move-object/from16 v0, p2
 
@@ -59686,7 +60573,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_1d63
+    if-eq v0, v1, :cond_1d7e
 
     .line 10181
     move-object/from16 v0, p2
@@ -59813,17 +60700,17 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10210
-    :cond_1d63
+    :cond_1d7e
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_WVGA:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_1e71
+    if-eqz v57, :cond_1e8c
 
     const-string v57, "GT-I8580"
 
@@ -59833,7 +60720,7 @@
 
     move-result v57
 
-    if-nez v57, :cond_1e71
+    if-nez v57, :cond_1e8c
 
     move-object/from16 v0, p0
 
@@ -59841,7 +60728,7 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_1e71
+    if-eqz v57, :cond_1e8c
 
     move-object/from16 v0, p0
 
@@ -59859,7 +60746,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_1e71
+    if-ne v0, v1, :cond_1e8c
 
     const-string v57, "("
 
@@ -59871,7 +60758,7 @@
 
     move-result v57
 
-    if-nez v57, :cond_1e07
+    if-nez v57, :cond_1e22
 
     const-string v57, ")"
 
@@ -59883,7 +60770,7 @@
 
     move-result v57
 
-    if-nez v57, :cond_1e07
+    if-nez v57, :cond_1e22
 
     const-string v57, "{"
 
@@ -59895,7 +60782,7 @@
 
     move-result v57
 
-    if-nez v57, :cond_1e07
+    if-nez v57, :cond_1e22
 
     const-string v57, "}"
 
@@ -59907,7 +60794,7 @@
 
     move-result v57
 
-    if-nez v57, :cond_1e07
+    if-nez v57, :cond_1e22
 
     const-string v57, ","
 
@@ -59919,7 +60806,7 @@
 
     move-result v57
 
-    if-nez v57, :cond_1e07
+    if-nez v57, :cond_1e22
 
     const-string v57, ";"
 
@@ -59931,7 +60818,7 @@
 
     move-result v57
 
-    if-nez v57, :cond_1e07
+    if-nez v57, :cond_1e22
 
     const-string v57, "|"
 
@@ -59943,7 +60830,7 @@
 
     move-result v57
 
-    if-nez v57, :cond_1e07
+    if-nez v57, :cond_1e22
 
     move-object/from16 v0, p2
 
@@ -59961,7 +60848,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_1e07
+    if-eq v0, v1, :cond_1e22
 
     move-object/from16 v0, p2
 
@@ -59979,10 +60866,10 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_1e71
+    if-ne v0, v1, :cond_1e8c
 
     .line 10217
-    :cond_1e07
+    :cond_1e22
     move-object/from16 v0, p2
 
     iget v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->width:I
@@ -60089,17 +60976,17 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10226
-    :cond_1e71
+    :cond_1e8c
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_HVGA:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_1f00
+    if-eqz v57, :cond_1f1b
 
     const/16 v57, 0x2
 
@@ -60107,7 +60994,7 @@
 
     move/from16 v1, v57
 
-    if-ne v0, v1, :cond_1f00
+    if-ne v0, v1, :cond_1f1b
 
     .line 10227
     move-object/from16 v0, p2
@@ -60238,23 +61125,23 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10235
-    :cond_1f00
+    :cond_1f1b
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_QVGA:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_1fa3
+    if-eqz v57, :cond_1fbe
 
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->isMiniKeyboardView()Z
 
     move-result v57
 
-    if-eqz v57, :cond_1fa3
+    if-eqz v57, :cond_1fbe
 
     move-object/from16 v0, p0
 
@@ -60262,7 +61149,7 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_1fa3
+    if-eqz v57, :cond_1fbe
 
     move-object/from16 v0, p0
 
@@ -60280,7 +61167,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_1fa3
+    if-ne v0, v1, :cond_1fbe
 
     .line 10236
     move-object/from16 v0, p2
@@ -60407,23 +61294,23 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10243
-    :cond_1fa3
+    :cond_1fbe
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_QVGA:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_2042
+    if-eqz v57, :cond_205d
 
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->isMiniKeyboardView()Z
 
     move-result v57
 
-    if-eqz v57, :cond_2042
+    if-eqz v57, :cond_205d
 
     move-object/from16 v0, p2
 
@@ -60441,7 +61328,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_2042
+    if-ne v0, v1, :cond_205d
 
     .line 10244
     move-object/from16 v0, p2
@@ -60572,23 +61459,23 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10251
-    :cond_2042
+    :cond_205d
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_WXGA:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_20e1
+    if-eqz v57, :cond_20fc
 
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->isMiniKeyboardView()Z
 
     move-result v57
 
-    if-eqz v57, :cond_20e1
+    if-eqz v57, :cond_20fc
 
     move-object/from16 v0, p2
 
@@ -60606,7 +61493,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_20e1
+    if-ne v0, v1, :cond_20fc
 
     .line 10252
     move-object/from16 v0, p2
@@ -60737,10 +61624,10 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10260
-    :cond_20e1
+    :cond_20fc
     move-object/from16 v0, p2
 
     iget v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->width:I
@@ -60775,7 +61662,7 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_21eb
+    if-eqz v57, :cond_2206
 
     move-object/from16 v0, p2
 
@@ -60793,9 +61680,9 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_2136
+    if-eq v0, v1, :cond_2151
 
-    if-eqz v22, :cond_21eb
+    if-eqz v22, :cond_2206
 
     move-object/from16 v0, p0
 
@@ -60809,15 +61696,15 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_2136
+    if-eq v0, v1, :cond_2151
 
-    if-nez v34, :cond_2128
+    if-nez v34, :cond_2143
 
-    if-nez p4, :cond_2136
+    if-nez p4, :cond_2151
 
-    if-nez v32, :cond_2136
+    if-nez v32, :cond_2151
 
-    :cond_2128
+    :cond_2143
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -60830,13 +61717,13 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_21eb
+    if-ne v0, v1, :cond_2206
 
     .line 10263
-    :cond_2136
-    if-eqz p4, :cond_21da
+    :cond_2151
+    if-eqz p4, :cond_21f5
 
-    if-eqz v32, :cond_21da
+    if-eqz v32, :cond_21f5
 
     .line 10264
     move-object/from16 v0, v40
@@ -60850,7 +61737,7 @@
     int-to-float v7, v0
 
     .line 10270
-    :goto_2143
+    :goto_215e
     move-object/from16 v0, p2
 
     iget v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->width:I
@@ -60998,17 +61885,17 @@
 
     cmpl-float v57, v12, v57
 
-    if-eqz v57, :cond_13c6
+    if-eqz v57, :cond_13e1
 
     .line 10278
     move-object/from16 v0, v26
 
     invoke-virtual {v0, v12}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    goto/16 :goto_13c6
+    goto/16 :goto_13e1
 
     .line 10266
-    :cond_21da
+    :cond_21f5
     move-object/from16 v0, v40
 
     iget v0, v0, Landroid/graphics/Rect;->top:I
@@ -61025,10 +61912,10 @@
 
     div-float v7, v57, v58
 
-    goto/16 :goto_2143
+    goto/16 :goto_215e
 
     .line 10268
-    :cond_21eb
+    :cond_2206
     move-object/from16 v0, p0
 
     move-object/from16 v1, p3
@@ -61041,12 +61928,12 @@
 
     int-to-float v7, v0
 
-    goto/16 :goto_2143
+    goto/16 :goto_215e
 
     .line 10286
     .end local v7    # "Offset_Y":F
     .end local v12    # "backupTextSize":F
-    :cond_21f8
+    :cond_2213
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mPrivateImeOptionsController:Lcom/diotek/ime/framework/common/PrivateImeOptionsController;
@@ -61063,7 +61950,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_2395
+    if-ne v0, v1, :cond_23b0
 
     move-object/from16 v0, p2
 
@@ -61081,7 +61968,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_2395
+    if-ne v0, v1, :cond_23b0
 
     move-object/from16 v0, p2
 
@@ -61101,7 +61988,7 @@
 
     move/from16 v1, v58
 
-    if-lt v0, v1, :cond_2395
+    if-lt v0, v1, :cond_23b0
 
     move-object/from16 v0, p0
 
@@ -61113,7 +62000,7 @@
 
     move-result v57
 
-    if-eqz v57, :cond_2251
+    if-eqz v57, :cond_226c
 
     move-object/from16 v0, p0
 
@@ -61121,7 +62008,7 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_2395
+    if-eqz v57, :cond_23b0
 
     move-object/from16 v0, p0
 
@@ -61135,10 +62022,10 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_2395
+    if-eq v0, v1, :cond_23b0
 
     .line 10293
-    :cond_2251
+    :cond_226c
     new-instance v14, Landroid/graphics/Rect;
 
     invoke-direct {v14}, Landroid/graphics/Rect;-><init>()V
@@ -61312,7 +62199,7 @@
     const/16 v19, 0x0
 
     .local v19, "i":I
-    :goto_22ec
+    :goto_2307
     move-object/from16 v0, p2
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->codes:[I
@@ -61329,7 +62216,7 @@
 
     move/from16 v1, v57
 
-    if-ge v0, v1, :cond_2370
+    if-ge v0, v1, :cond_238b
 
     .line 10315
     move-object/from16 v0, p2
@@ -61368,7 +62255,7 @@
 
     .line 10317
     .local v30, "langId":I
-    if-eqz v47, :cond_2368
+    if-eqz v47, :cond_2383
 
     const-string v57, "\\/:*?\"<>|;"
 
@@ -61380,7 +62267,7 @@
 
     move-result v57
 
-    if-eqz v57, :cond_2368
+    if-eqz v57, :cond_2383
 
     const/high16 v57, 0x7a680000
 
@@ -61392,7 +62279,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_2347
+    if-ne v0, v1, :cond_2362
 
     move-object/from16 v0, p2
 
@@ -61408,10 +62295,10 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_2368
+    if-eq v0, v1, :cond_2383
 
     .line 10319
-    :cond_2347
+    :cond_2362
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mDisableKeyLabelColor:I
@@ -61425,7 +62312,7 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 10324
-    :goto_2354
+    :goto_236f
     move-object/from16 v0, p1
 
     move-object/from16 v1, v47
@@ -61446,22 +62333,22 @@
     .line 10314
     add-int/lit8 v19, v19, 0x1
 
-    goto :goto_22ec
+    goto :goto_2307
 
     .line 10321
-    :cond_2368
+    :cond_2383
     move-object/from16 v0, v26
 
     move/from16 v1, v39
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    goto :goto_2354
+    goto :goto_236f
 
     .line 10330
     .end local v30    # "langId":I
     .end local v47    # "stringValueofKeyCode":Ljava/lang/String;
-    :cond_2370
+    :cond_238b
     move-object/from16 v0, v26
 
     move-object/from16 v1, v38
@@ -61507,8 +62394,8 @@
     .end local v39    # "originalColor":I
     .end local v53    # "x":F
     .end local v56    # "y":F
-    :cond_2395
-    if-eqz v11, :cond_24cd
+    :cond_23b0
+    if-eqz v11, :cond_24e8
 
     .line 10336
     invoke-virtual/range {v26 .. v26}, Landroid/graphics/Paint;->getTextSize()F
@@ -61842,8 +62729,8 @@
     .end local v6    # "Lablel2nd":Ljava/lang/String;
     .end local v42    # "paintTextSize":I
     .end local v53    # "x":F
-    :cond_24cd
-    if-eqz v10, :cond_2b5c
+    :cond_24e8
+    if-eqz v10, :cond_2b77
 
     .line 10367
     move-object/from16 v0, v26
@@ -61885,7 +62772,7 @@
 
     .line 10375
     .local v13, "bottomSpace":F
-    if-nez v34, :cond_2517
+    if-nez v34, :cond_2532
 
     .line 10377
     invoke-direct/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->getQwertyHorizonSpaceForHapticKeyboard()I
@@ -61924,7 +62811,7 @@
 
     move-result v57
 
-    if-eqz v57, :cond_2517
+    if-eqz v57, :cond_2532
 
     .line 10380
     invoke-direct/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->getQwertyUnderObjectHeightForHapticKeyboard()I
@@ -61940,17 +62827,17 @@
     add-float v13, v13, v57
 
     .line 10384
-    :cond_2517
+    :cond_2532
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsTabletMode:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_257a
+    if-eqz v57, :cond_2595
 
     .line 10385
-    :goto_251f
+    :goto_253a
     add-float v57, v8, v9
 
     invoke-direct/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->getDrawFirstCharOffsetX()I
@@ -62011,7 +62898,7 @@
 
     cmpl-float v57, v57, v58
 
-    if-lez v57, :cond_257a
+    if-lez v57, :cond_2595
 
     .line 10387
     invoke-virtual/range {v26 .. v26}, Landroid/graphics/Paint;->getTextSize()F
@@ -62046,10 +62933,10 @@
 
     move-result v9
 
-    goto :goto_251f
+    goto :goto_253a
 
     .line 10392
-    :cond_257a
+    :cond_2595
     move-object/from16 v0, p2
 
     iget v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->width:I
@@ -62154,7 +63041,7 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_262f
+    if-eqz v57, :cond_264a
 
     move-object/from16 v0, p2
 
@@ -62172,7 +63059,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_2615
+    if-eq v0, v1, :cond_2630
 
     move-object/from16 v0, p2
 
@@ -62190,7 +63077,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_2615
+    if-eq v0, v1, :cond_2630
 
     move-object/from16 v0, p2
 
@@ -62208,10 +63095,10 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_262f
+    if-ne v0, v1, :cond_264a
 
     .line 10397
-    :cond_2615
+    :cond_2630
     move-object/from16 v0, v40
 
     iget v0, v0, Landroid/graphics/Rect;->right:I
@@ -62242,7 +63129,7 @@
     add-float v55, v55, v57
 
     .line 10400
-    :cond_262f
+    :cond_264a
     move-object/from16 v0, p0
 
     move-object/from16 v1, v26
@@ -62260,7 +63147,7 @@
 
     move/from16 v1, v57
 
-    if-eq v0, v1, :cond_264a
+    if-eq v0, v1, :cond_2665
 
     const/16 v57, 0x8
 
@@ -62268,10 +63155,10 @@
 
     move/from16 v1, v57
 
-    if-ne v0, v1, :cond_2797
+    if-ne v0, v1, :cond_27b2
 
     .line 10402
-    :cond_264a
+    :cond_2665
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->getNormalKeyBackground()Landroid/graphics/drawable/Drawable;
 
     move-result-object v57
@@ -62368,14 +63255,14 @@
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
     .line 10457
-    :goto_26a6
+    :goto_26c1
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_FHD:Z
 
     move/from16 v57, v0
 
-    if-nez v57, :cond_26b6
+    if-nez v57, :cond_26d1
 
     move-object/from16 v0, p0
 
@@ -62383,9 +63270,9 @@
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_26d2
+    if-eqz v57, :cond_26ed
 
-    :cond_26b6
+    :cond_26d1
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -62396,7 +63283,7 @@
 
     move-result v57
 
-    if-eqz v57, :cond_26d2
+    if-eqz v57, :cond_26ed
 
     .line 10458
     invoke-virtual/range {v26 .. v26}, Landroid/graphics/Paint;->getTextSize()F
@@ -62414,14 +63301,14 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setTextSize(F)V
 
     .line 10460
-    :cond_26d2
+    :cond_26ed
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_FHD:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_2ab4
+    if-eqz v57, :cond_2acf
 
     move-object/from16 v0, p0
 
@@ -62435,7 +63322,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_2ab4
+    if-ne v0, v1, :cond_2acf
 
     .line 10461
     move-object/from16 v0, p2
@@ -62454,7 +63341,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_270c
+    if-eq v0, v1, :cond_2727
 
     move-object/from16 v0, p2
 
@@ -62472,10 +63359,10 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_2aa2
+    if-ne v0, v1, :cond_2abd
 
     .line 10462
-    :cond_270c
+    :cond_2727
     invoke-virtual/range {v26 .. v26}, Landroid/graphics/Paint;->getTextSize()F
 
     move-result v57
@@ -62491,8 +63378,8 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setTextSize(F)V
 
     .line 10477
-    :cond_271c
-    :goto_271c
+    :cond_2737
+    :goto_2737
     const/16 v57, 0x0
 
     const/16 v58, 0x0
@@ -62623,7 +63510,7 @@
     goto/16 :goto_2fe
 
     .line 10409
-    :cond_2797
+    :cond_27b2
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -62634,7 +63521,7 @@
 
     move-result v57
 
-    if-eqz v57, :cond_2955
+    if-eqz v57, :cond_2970
 
     .line 10410
     move-object/from16 v0, p2
@@ -62653,7 +63540,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_2812
+    if-ne v0, v1, :cond_282d
 
     .line 10411
     invoke-direct/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->getDrawFirstCharOffsetX()I
@@ -62750,10 +63637,10 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_26a6
+    goto/16 :goto_26c1
 
     .line 10416
-    :cond_2812
+    :cond_282d
     move-object/from16 v0, p2
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->codes:[I
@@ -62770,7 +63657,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_2881
+    if-ne v0, v1, :cond_289c
 
     .line 10417
     invoke-direct/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->getDrawFirstCharOffsetX()I
@@ -62867,10 +63754,10 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_26a6
+    goto/16 :goto_26c1
 
     .line 10422
-    :cond_2881
+    :cond_289c
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -62883,7 +63770,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_28ab
+    if-eq v0, v1, :cond_28c6
 
     move-object/from16 v0, p0
 
@@ -62897,7 +63784,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_28ab
+    if-eq v0, v1, :cond_28c6
 
     move-object/from16 v0, p0
 
@@ -62911,10 +63798,10 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_2900
+    if-ne v0, v1, :cond_291b
 
     .line 10423
-    :cond_28ab
+    :cond_28c6
     invoke-direct/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->getDrawFirstCharOffsetX()I
 
     move-result v57
@@ -63001,10 +63888,10 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_26a6
+    goto/16 :goto_26c1
 
     .line 10429
-    :cond_2900
+    :cond_291b
     invoke-direct/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->getDrawFirstCharOffsetX()I
 
     move-result v57
@@ -63091,10 +63978,10 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_26a6
+    goto/16 :goto_26c1
 
     .line 10436
-    :cond_2955
+    :cond_2970
     move-object/from16 v0, p2
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->codes:[I
@@ -63111,7 +63998,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_29ca
+    if-ne v0, v1, :cond_29e5
 
     .line 10437
     invoke-direct/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->getDrawFirstCharOffsetX()I
@@ -63214,10 +64101,10 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_26a6
+    goto/16 :goto_26c1
 
     .line 10442
-    :cond_29ca
+    :cond_29e5
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -63230,7 +64117,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_29f4
+    if-eq v0, v1, :cond_2a0f
 
     move-object/from16 v0, p0
 
@@ -63244,7 +64131,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_29f4
+    if-eq v0, v1, :cond_2a0f
 
     move-object/from16 v0, p0
 
@@ -63258,10 +64145,10 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_2a4b
+    if-ne v0, v1, :cond_2a66
 
     .line 10443
-    :cond_29f4
+    :cond_2a0f
     invoke-direct/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->getDrawFirstCharOffsetX()I
 
     move-result v57
@@ -63350,10 +64237,10 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_26a6
+    goto/16 :goto_26c1
 
     .line 10449
-    :cond_2a4b
+    :cond_2a66
     invoke-direct/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->getDrawFirstCharOffsetX()I
 
     move-result v57
@@ -63442,10 +64329,10 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_26a6
+    goto/16 :goto_26c1
 
     .line 10464
-    :cond_2aa2
+    :cond_2abd
     invoke-virtual/range {v26 .. v26}, Landroid/graphics/Paint;->getTextSize()F
 
     move-result v57
@@ -63460,17 +64347,17 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    goto/16 :goto_271c
+    goto/16 :goto_2737
 
     .line 10466
-    :cond_2ab4
+    :cond_2acf
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_FHD:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_2b1a
+    if-eqz v57, :cond_2b35
 
     move-object/from16 v0, p0
 
@@ -63484,7 +64371,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_2b1a
+    if-ne v0, v1, :cond_2b35
 
     .line 10467
     move-object/from16 v0, p2
@@ -63503,7 +64390,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_2aee
+    if-ne v0, v1, :cond_2b09
 
     .line 10468
     invoke-virtual/range {v26 .. v26}, Landroid/graphics/Paint;->getTextSize()F
@@ -63520,10 +64407,10 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    goto/16 :goto_271c
+    goto/16 :goto_2737
 
     .line 10469
-    :cond_2aee
+    :cond_2b09
     move-object/from16 v0, p2
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->codes:[I
@@ -63540,7 +64427,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_271c
+    if-ne v0, v1, :cond_2737
 
     const/16 v57, 0x8
 
@@ -63548,7 +64435,7 @@
 
     move/from16 v1, v57
 
-    if-ne v0, v1, :cond_271c
+    if-ne v0, v1, :cond_2737
 
     .line 10470
     invoke-virtual/range {v26 .. v26}, Landroid/graphics/Paint;->getTextSize()F
@@ -63565,17 +64452,17 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    goto/16 :goto_271c
+    goto/16 :goto_2737
 
     .line 10472
-    :cond_2b1a
+    :cond_2b35
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_FHD:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_271c
+    if-eqz v57, :cond_2737
 
     move-object/from16 v0, p0
 
@@ -63589,7 +64476,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_271c
+    if-ne v0, v1, :cond_2737
 
     const/16 v57, 0x8
 
@@ -63597,7 +64484,7 @@
 
     move/from16 v1, v57
 
-    if-ne v0, v1, :cond_271c
+    if-ne v0, v1, :cond_2737
 
     .line 10473
     move-object/from16 v0, p2
@@ -63616,7 +64503,7 @@
 
     move/from16 v1, v58
 
-    if-ne v0, v1, :cond_271c
+    if-ne v0, v1, :cond_2737
 
     .line 10474
     invoke-virtual/range {v26 .. v26}, Landroid/graphics/Paint;->getTextSize()F
@@ -63633,7 +64520,7 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    goto/16 :goto_271c
+    goto/16 :goto_2737
 
     .line 10487
     .end local v8    # "TextWidth1":F
@@ -63643,14 +64530,14 @@
     .end local v45    # "rightSpace":F
     .end local v54    # "x1":F
     .end local v55    # "x2":F
-    :cond_2b5c
+    :cond_2b77
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsMultiwindowPhone:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_2cff
+    if-eqz v57, :cond_2d1a
 
     const/16 v57, 0x8
 
@@ -63658,7 +64545,7 @@
 
     move/from16 v1, v57
 
-    if-ne v0, v1, :cond_2cff
+    if-ne v0, v1, :cond_2d1a
 
     .line 10488
     move-object/from16 v0, p0
@@ -63671,7 +64558,7 @@
 
     move-result v57
 
-    if-eqz v57, :cond_2cfa
+    if-eqz v57, :cond_2d15
 
     move-object/from16 v0, p0
 
@@ -63679,7 +64566,7 @@
 
     move/from16 v57, v0
 
-    if-nez v57, :cond_2cfa
+    if-nez v57, :cond_2d15
 
     move-object/from16 v0, p2
 
@@ -63713,7 +64600,7 @@
 
     move-result v57
 
-    if-nez v57, :cond_2cfa
+    if-nez v57, :cond_2d15
 
     move-object/from16 v0, p2
 
@@ -63731,7 +64618,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_2cfa
+    if-eq v0, v1, :cond_2d15
 
     move-object/from16 v0, p2
 
@@ -63749,7 +64636,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_2cfa
+    if-eq v0, v1, :cond_2d15
 
     move-object/from16 v0, p2
 
@@ -63767,7 +64654,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_2cfa
+    if-eq v0, v1, :cond_2d15
 
     move-object/from16 v0, p2
 
@@ -63785,7 +64672,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_2cfa
+    if-eq v0, v1, :cond_2d15
 
     move-object/from16 v0, p2
 
@@ -63803,7 +64690,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_2cfa
+    if-eq v0, v1, :cond_2d15
 
     move-object/from16 v0, p2
 
@@ -63821,7 +64708,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_2cfa
+    if-eq v0, v1, :cond_2d15
 
     move-object/from16 v0, p2
 
@@ -63839,7 +64726,7 @@
 
     move/from16 v1, v58
 
-    if-eq v0, v1, :cond_2cfa
+    if-eq v0, v1, :cond_2d15
 
     move-object/from16 v0, p2
 
@@ -63857,7 +64744,7 @@
 
     move/from16 v1, v58
 
-    if-lt v0, v1, :cond_2c43
+    if-lt v0, v1, :cond_2c5e
 
     move-object/from16 v0, p2
 
@@ -63875,10 +64762,10 @@
 
     move/from16 v1, v58
 
-    if-le v0, v1, :cond_2cfa
+    if-le v0, v1, :cond_2d15
 
     .line 10498
-    :cond_2c43
+    :cond_2c5e
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
@@ -63889,19 +64776,19 @@
 
     move-result v57
 
-    if-eqz v57, :cond_2cf5
+    if-eqz v57, :cond_2d10
 
     invoke-direct/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->isPopupKeyboard()Z
 
     move-result v57
 
-    if-nez v57, :cond_2cf5
+    if-nez v57, :cond_2d10
 
     const v25, 0x400ccccd
 
     .line 10500
     .restart local v25    # "labelPadding":F
-    :goto_2c58
+    :goto_2c73
     move-object/from16 v0, p0
 
     move-object/from16 v1, v26
@@ -64064,26 +64951,26 @@
 
     .line 10498
     .end local v25    # "labelPadding":F
-    :cond_2cf5
+    :cond_2d10
     const v25, 0x3fcccccd
 
-    goto/16 :goto_2c58
+    goto/16 :goto_2c73
 
     .line 10509
-    :cond_2cfa
+    :cond_2d15
     invoke-super/range {p0 .. p5}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->drawKeyLabel(Landroid/graphics/Canvas;Lcom/diotek/ime/framework/view/Keyboard$Key;Ljava/lang/String;ZZ)V
 
     goto/16 :goto_2fe
 
     .line 10511
-    :cond_2cff
+    :cond_2d1a
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsTabletMode:Z
 
     move/from16 v57, v0
 
-    if-eqz v57, :cond_2d0f
+    if-eqz v57, :cond_2d2a
 
     move-object/from16 v0, p0
 
@@ -64091,19 +64978,21 @@
 
     move/from16 v57, v0
 
-    if-nez v57, :cond_2d0f
+    if-nez v57, :cond_2d2a
 
     .line 10526
-    :cond_2d0f
+    :cond_2d2a
     invoke-super/range {p0 .. p5}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->drawKeyLabel(Landroid/graphics/Canvas;Lcom/diotek/ime/framework/view/Keyboard$Key;Ljava/lang/String;ZZ)V
 
     goto/16 :goto_2fe
 
+    nop
+
     .line 10118
-    :pswitch_data_2d14
+    :pswitch_data_2d30
     .packed-switch 0x28
-        :pswitch_193b
-        :pswitch_193b
+        :pswitch_1956
+        :pswitch_1956
     .end packed-switch
 .end method
 
@@ -67867,7 +68756,7 @@
 
     const/16 v13, 0x8
 
-    if-ne v7, v13, :cond_293
+    if-ne v7, v13, :cond_2e4
 
     move-object/from16 v0, p0
 
@@ -67877,7 +68766,7 @@
 
     move-result v13
 
-    if-nez v13, :cond_293
+    if-nez v13, :cond_2e4
 
     move-object/from16 v0, p0
 
@@ -67885,7 +68774,7 @@
 
     const/4 v14, 0x2
 
-    if-eq v13, v14, :cond_293
+    if-eq v13, v14, :cond_2e4
 
     .line 12880
     :cond_63
@@ -68079,13 +68968,13 @@
 
     const/16 v14, -0x7c
 
-    if-ne v13, v14, :cond_416
+    if-ne v13, v14, :cond_467
 
     move-object/from16 v0, p0
 
     iget-boolean v13, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsTabletCommaPopupMode:Z
 
-    if-eqz v13, :cond_416
+    if-eqz v13, :cond_467
 
     move-object/from16 v0, p0
 
@@ -68095,14 +68984,14 @@
 
     move-result v13
 
-    if-nez v13, :cond_416
+    if-nez v13, :cond_467
 
     .line 13041
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->isUrlMode()Z
 
     move-result v13
 
-    if-eqz v13, :cond_40d
+    if-eqz v13, :cond_45e
 
     .line 13042
     const/4 v13, 0x0
@@ -68120,7 +69009,7 @@
 
     move-result v13
 
-    if-lez v13, :cond_528
+    if-lez v13, :cond_579
 
     move-object/from16 v0, p0
 
@@ -68130,7 +69019,7 @@
 
     move-result v13
 
-    if-nez v13, :cond_528
+    if-nez v13, :cond_579
 
     .line 13082
     move-object/from16 v0, p0
@@ -68422,7 +69311,7 @@
 
     const/4 v14, 0x7
 
-    if-ne v13, v14, :cond_271
+    if-ne v13, v14, :cond_2a7
 
     .line 12916
     add-int/lit8 v1, p2, -0x6
@@ -68432,11 +69321,43 @@
 
     iget-boolean v13, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsLeftKeyboard:Z
 
-    if-eqz v13, :cond_251
+    if-eqz v13, :cond_26c
 
     .line 12918
     if-ltz v1, :cond_c3
 
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
+
+    move/from16 v13, v0
+
+    const/high16 v14, 0x72750000
+
+    move/from16 v0, v14
+
+    if-ne v13, v0, :cond_258
+
+    move-object/from16 v0, p0
+
+    iget-object v13, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    array-length v13, v13
+
+    if-ge v1, v13, :cond_c3
+
+    .line 12919
+    const/4 v13, 0x0
+
+    move-object/from16 v0, p0
+
+    iget-object v14, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    aget-object v14, v14, v1
+
+    goto :goto_266
+
+    :cond_258
     move-object/from16 v0, p0
 
     iget-object v13, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
@@ -68454,6 +69375,7 @@
 
     aget-object v14, v14, v1
 
+    :goto_266
     invoke-virtual {v11, v13, v14}, Ljava/lang/StringBuilder;->insert(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v11
@@ -68461,7 +69383,7 @@
     goto/16 :goto_c3
 
     .line 12922
-    :cond_251
+    :cond_26c
     const/4 v9, 0x6
 
     .line 12923
@@ -68470,18 +69392,50 @@
 
     iget-boolean v13, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsLeftKeyboard:Z
 
-    if-nez v13, :cond_259
+    if-nez v13, :cond_274
 
     .line 12924
     const/4 v9, 0x7
 
     .line 12926
-    :cond_259
+    :cond_274
     sub-int v1, p2, v9
 
     .line 12927
     if-ltz v1, :cond_c3
 
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
+
+    move/from16 v13, v0
+
+    const/high16 v14, 0x72750000
+
+    move/from16 v0, v14
+
+    if-ne v13, v0, :cond_293
+
+    move-object/from16 v0, p0
+
+    iget-object v13, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    array-length v13, v13
+
+    if-ge v1, v13, :cond_c3
+
+    .line 12928
+    const/4 v13, 0x0
+
+    move-object/from16 v0, p0
+
+    iget-object v14, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    aget-object v14, v14, v1
+
+    goto :goto_2a1
+
+    :cond_293
     move-object/from16 v0, p0
 
     iget-object v13, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
@@ -68499,6 +69453,7 @@
 
     aget-object v14, v14, v1
 
+    :goto_2a1
     invoke-virtual {v11, v13, v14}, Ljava/lang/StringBuilder;->insert(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v11
@@ -68507,24 +69462,56 @@
 
     .line 12934
     .end local v9    # "numberOfFirstLineNumericKey":I
-    :cond_271
+    :cond_2a7
     move-object/from16 v0, p0
 
     iget v13, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mCurrentInputMethod:I
 
     const/16 v14, 0x8
 
-    if-eq v13, v14, :cond_27b
+    if-eq v13, v14, :cond_2b1
 
-    if-eqz v4, :cond_27b
+    if-eqz v4, :cond_2b1
 
     .line 12942
-    :cond_27b
+    :cond_2b1
     add-int/lit8 v1, v1, -0x1
 
     .line 12943
     if-ltz v1, :cond_c3
 
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
+
+    move/from16 v13, v0
+
+    const/high16 v14, 0x72750000
+
+    move/from16 v0, v14
+
+    if-ne v13, v0, :cond_2d0
+
+    move-object/from16 v0, p0
+
+    iget-object v13, v0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_CYRILLIC_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    array-length v13, v13
+
+    if-ge v1, v13, :cond_c3
+
+    .line 12944
+    const/4 v13, 0x0
+
+    move-object/from16 v0, p0
+
+    iget-object v14, v0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_CYRILLIC_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    aget-object v14, v14, v1
+
+    goto :goto_2de
+
+    :cond_2d0
     move-object/from16 v0, p0
 
     iget-object v13, v0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
@@ -68542,6 +69529,7 @@
 
     aget-object v14, v14, v1
 
+    :goto_2de
     invoke-virtual {v11, v13, v14}, Ljava/lang/StringBuilder;->insert(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v11
@@ -68550,10 +69538,10 @@
 
     .line 12962
     .end local v1    # "alphabetIndex":I
-    :cond_293
+    :cond_2e4
     const/4 v13, 0x1
 
-    if-eq v7, v13, :cond_2a0
+    if-eq v7, v13, :cond_2f1
 
     move-object/from16 v0, p0
 
@@ -68565,7 +69553,7 @@
 
     if-eqz v13, :cond_106
 
-    :cond_2a0
+    :cond_2f1
     move-object/from16 v0, p0
 
     iget v13, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputRange:I
@@ -68602,7 +69590,7 @@
 
     move-result v13
 
-    if-eqz v13, :cond_341
+    if-eqz v13, :cond_392
 
     .line 12976
     move-object/from16 v0, p0
@@ -68617,7 +69605,7 @@
 
     const/4 v14, 0x1
 
-    if-le v13, v14, :cond_32f
+    if-le v13, v14, :cond_380
 
     move-object/from16 v0, p0
 
@@ -68627,10 +69615,10 @@
 
     move-result v13
 
-    if-eqz v13, :cond_32f
+    if-eqz v13, :cond_380
 
     .line 12977
-    if-ltz p2, :cond_2e6
+    if-ltz p2, :cond_337
 
     move-object/from16 v0, p0
 
@@ -68640,7 +69628,7 @@
 
     move/from16 v0, p2
 
-    if-ge v0, v13, :cond_2e6
+    if-ge v0, v13, :cond_337
 
     .line 12978
     move-object/from16 v0, p0
@@ -68650,15 +69638,15 @@
     aget-object v5, v13, p2
 
     .line 12989
-    :cond_2e6
-    :goto_2e6
-    if-nez v5, :cond_2ea
+    :cond_337
+    :goto_337
+    if-nez v5, :cond_33b
 
     .line 12990
     const-string v5, ""
 
     .line 12993
-    :cond_2ea
+    :cond_33b
     const-string v13, ""
 
     invoke-virtual {v5, v13}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -68672,7 +69660,7 @@
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/KeboardKeyInfo;->label:Ljava/lang/CharSequence;
 
-    if-eqz v13, :cond_328
+    if-eqz v13, :cond_379
 
     move-object/from16 v0, p1
 
@@ -68688,7 +69676,7 @@
 
     move-result v13
 
-    if-eqz v13, :cond_328
+    if-eqz v13, :cond_379
 
     move-object/from16 v0, p1
 
@@ -68700,7 +69688,7 @@
 
     move-result v13
 
-    if-nez v13, :cond_328
+    if-nez v13, :cond_379
 
     .line 12995
     new-instance v13, Ljava/lang/StringBuilder;
@@ -68724,7 +69712,7 @@
     move-result-object v5
 
     .line 12997
-    :cond_328
+    :cond_379
     const/4 v13, 0x0
 
     invoke-virtual {v11, v13, v5}, Ljava/lang/StringBuilder;->insert(ILjava/lang/String;)Ljava/lang/StringBuilder;
@@ -68734,8 +69722,8 @@
     goto/16 :goto_106
 
     .line 12981
-    :cond_32f
-    if-ltz p2, :cond_2e6
+    :cond_380
+    if-ltz p2, :cond_337
 
     move-object/from16 v0, p0
 
@@ -68745,7 +69733,7 @@
 
     move/from16 v0, p2
 
-    if-ge v0, v13, :cond_2e6
+    if-ge v0, v13, :cond_337
 
     .line 12982
     move-object/from16 v0, p0
@@ -68754,10 +69742,10 @@
 
     aget-object v5, v13, p2
 
-    goto :goto_2e6
+    goto :goto_337
 
     .line 13000
-    :cond_341
+    :cond_392
     if-ltz p2, :cond_106
 
     move-object/from16 v0, p0
@@ -68777,7 +69765,7 @@
 
     const/4 v14, 0x4
 
-    if-eq v13, v14, :cond_35a
+    if-eq v13, v14, :cond_3ab
 
     move-object/from16 v0, p0
 
@@ -68785,10 +69773,10 @@
 
     const/4 v14, 0x3
 
-    if-ne v13, v14, :cond_3a6
+    if-ne v13, v14, :cond_3f7
 
     .line 13002
-    :cond_35a
+    :cond_3ab
     move-object/from16 v0, p0
 
     iget-object v13, v0, Lcom/diotek/ime/implement/view/KeyboardView;->PHONEPAD_KOR_SKY_NARA_EXTRALABEL_MAP:[Ljava/lang/String;
@@ -68796,7 +69784,7 @@
     aget-object v5, v13, p2
 
     .line 13007
-    :goto_360
+    :goto_3b1
     const-string v13, ""
 
     invoke-virtual {v5, v13}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -68810,7 +69798,7 @@
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/KeboardKeyInfo;->label:Ljava/lang/CharSequence;
 
-    if-eqz v13, :cond_3b1
+    if-eqz v13, :cond_402
 
     move-object/from16 v0, p1
 
@@ -68822,7 +69810,7 @@
 
     move-result v13
 
-    if-nez v13, :cond_3b1
+    if-nez v13, :cond_402
 
     .line 13009
     const/4 v13, 0x0
@@ -68838,7 +69826,7 @@
 
     iget-boolean v13, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsSwiftKeyMode:Z
 
-    if-eqz v13, :cond_3b8
+    if-eqz v13, :cond_409
 
     .line 13012
     new-instance v6, Ljava/lang/StringBuilder;
@@ -68854,14 +69842,14 @@
     const/4 v3, 0x0
 
     .local v3, "i":I
-    :goto_392
+    :goto_3e3
     move-object/from16 v0, p1
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/KeboardKeyInfo;->codes:[I
 
     array-length v13, v13
 
-    if-ge v3, v13, :cond_3ad
+    if-ge v3, v13, :cond_3fe
 
     .line 13014
     move-object/from16 v0, p1
@@ -68877,24 +69865,24 @@
     .line 13013
     add-int/lit8 v3, v3, 0x1
 
-    goto :goto_392
+    goto :goto_3e3
 
     .line 13005
     .end local v3    # "i":I
     .end local v6    # "labelBuilder":Ljava/lang/StringBuilder;
-    :cond_3a6
+    :cond_3f7
     move-object/from16 v0, p0
 
     iget-object v13, v0, Lcom/diotek/ime/implement/view/KeyboardView;->PHONEPAD_EXTRALABEL_MAP:[Ljava/lang/String;
 
     aget-object v5, v13, p2
 
-    goto :goto_360
+    goto :goto_3b1
 
     .line 13016
     .restart local v3    # "i":I
     .restart local v6    # "labelBuilder":Ljava/lang/StringBuilder;
-    :cond_3ad
+    :cond_3fe
     invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v5
@@ -68902,8 +69890,8 @@
     .line 13032
     .end local v3    # "i":I
     .end local v6    # "labelBuilder":Ljava/lang/StringBuilder;
-    :cond_3b1
-    :goto_3b1
+    :cond_402
+    :goto_402
     const/4 v13, 0x0
 
     invoke-virtual {v11, v13, v5}, Ljava/lang/StringBuilder;->insert(ILjava/lang/String;)Ljava/lang/StringBuilder;
@@ -68913,7 +69901,7 @@
     goto/16 :goto_106
 
     .line 13018
-    :cond_3b8
+    :cond_409
     move-object/from16 v0, p0
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
@@ -68924,7 +69912,7 @@
 
     const/4 v14, 0x2
 
-    if-ne v13, v14, :cond_3e6
+    if-ne v13, v14, :cond_437
 
     .line 13019
     new-instance v6, Ljava/lang/StringBuilder;
@@ -68940,14 +69928,14 @@
     const/4 v3, 0x0
 
     .restart local v3    # "i":I
-    :goto_3cd
+    :goto_41e
     move-object/from16 v0, p1
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/KeboardKeyInfo;->codes:[I
 
     array-length v13, v13
 
-    if-ge v3, v13, :cond_3e1
+    if-ge v3, v13, :cond_432
 
     .line 13021
     move-object/from16 v0, p1
@@ -68963,21 +69951,21 @@
     .line 13020
     add-int/lit8 v3, v3, 0x1
 
-    goto :goto_3cd
+    goto :goto_41e
 
     .line 13023
-    :cond_3e1
+    :cond_432
     invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v5
 
     .line 13024
-    goto :goto_3b1
+    goto :goto_402
 
     .line 13025
     .end local v3    # "i":I
     .end local v6    # "labelBuilder":Ljava/lang/StringBuilder;
-    :cond_3e6
+    :cond_437
     move-object/from16 v0, p0
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
@@ -68996,7 +69984,7 @@
 
     .line 13026
     .local v8, "multiTapSequence":Ljava/lang/StringBuilder;
-    if-eqz v8, :cond_3b1
+    if-eqz v8, :cond_402
 
     .line 13027
     new-instance v13, Ljava/lang/StringBuilder;
@@ -69019,12 +70007,12 @@
 
     move-result-object v5
 
-    goto :goto_3b1
+    goto :goto_402
 
     .line 13044
     .end local v5    # "label":Ljava/lang/String;
     .end local v8    # "multiTapSequence":Ljava/lang/StringBuilder;
-    :cond_40d
+    :cond_45e
     const/4 v13, 0x0
 
     const-string v14, "!"
@@ -69036,7 +70024,7 @@
     goto/16 :goto_12e
 
     .line 13046
-    :cond_416
+    :cond_467
     move-object/from16 v0, p1
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/KeboardKeyInfo;->codes:[I
@@ -69047,7 +70035,7 @@
 
     const/16 v14, -0x7a
 
-    if-ne v13, v14, :cond_456
+    if-ne v13, v14, :cond_4a7
 
     move-object/from16 v0, p0
 
@@ -69057,14 +70045,14 @@
 
     move-result v13
 
-    if-nez v13, :cond_456
+    if-nez v13, :cond_4a7
 
     .line 13048
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->isUrlMode()Z
 
     move-result v13
 
-    if-eqz v13, :cond_43a
+    if-eqz v13, :cond_48b
 
     .line 13049
     const/4 v13, 0x0
@@ -69078,7 +70066,7 @@
     goto/16 :goto_12e
 
     .line 13051
-    :cond_43a
+    :cond_48b
     move-object/from16 v0, p0
 
     iget v13, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -69087,7 +70075,7 @@
 
     move-result v13
 
-    if-eqz v13, :cond_44d
+    if-eqz v13, :cond_49e
 
     .line 13052
     const/4 v13, 0x0
@@ -69101,7 +70089,7 @@
     goto/16 :goto_12e
 
     .line 13055
-    :cond_44d
+    :cond_49e
     const/4 v13, 0x0
 
     const-string v14, "?"
@@ -69113,7 +70101,7 @@
     goto/16 :goto_12e
 
     .line 13058
-    :cond_456
+    :cond_4a7
     move-object/from16 v0, p1
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/KeboardKeyInfo;->codes:[I
@@ -69124,7 +70112,7 @@
 
     const/16 v14, -0x81
 
-    if-ne v13, v14, :cond_474
+    if-ne v13, v14, :cond_4c5
 
     move-object/from16 v0, p0
 
@@ -69134,7 +70122,7 @@
 
     move-result v13
 
-    if-nez v13, :cond_474
+    if-nez v13, :cond_4c5
 
     .line 13060
     const/4 v13, 0x0
@@ -69148,7 +70136,7 @@
     goto/16 :goto_12e
 
     .line 13061
-    :cond_474
+    :cond_4c5
     move-object/from16 v0, p1
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/KeboardKeyInfo;->codes:[I
@@ -69159,7 +70147,7 @@
 
     const/16 v14, -0x3ef
 
-    if-ne v13, v14, :cond_492
+    if-ne v13, v14, :cond_4e3
 
     move-object/from16 v0, p0
 
@@ -69169,7 +70157,7 @@
 
     move-result v13
 
-    if-nez v13, :cond_492
+    if-nez v13, :cond_4e3
 
     .line 13063
     const/4 v13, 0x0
@@ -69183,7 +70171,7 @@
     goto/16 :goto_12e
 
     .line 13064
-    :cond_492
+    :cond_4e3
     move-object/from16 v0, p1
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/KeboardKeyInfo;->codes:[I
@@ -69194,7 +70182,7 @@
 
     const/16 v14, -0x3f0
 
-    if-ne v13, v14, :cond_4b0
+    if-ne v13, v14, :cond_501
 
     move-object/from16 v0, p0
 
@@ -69204,7 +70192,7 @@
 
     move-result v13
 
-    if-nez v13, :cond_4b0
+    if-nez v13, :cond_501
 
     .line 13066
     const/4 v13, 0x0
@@ -69218,7 +70206,7 @@
     goto/16 :goto_12e
 
     .line 13067
-    :cond_4b0
+    :cond_501
     move-object/from16 v0, p1
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/KeboardKeyInfo;->codes:[I
@@ -69229,7 +70217,7 @@
 
     const/16 v14, -0x3f6
 
-    if-ne v13, v14, :cond_4ce
+    if-ne v13, v14, :cond_51f
 
     move-object/from16 v0, p0
 
@@ -69239,7 +70227,7 @@
 
     move-result v13
 
-    if-nez v13, :cond_4ce
+    if-nez v13, :cond_51f
 
     .line 13069
     const/4 v13, 0x0
@@ -69253,7 +70241,7 @@
     goto/16 :goto_12e
 
     .line 13070
-    :cond_4ce
+    :cond_51f
     move-object/from16 v0, p1
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/KeboardKeyInfo;->codes:[I
@@ -69264,7 +70252,7 @@
 
     const/16 v14, -0x3f3
 
-    if-ne v13, v14, :cond_4ec
+    if-ne v13, v14, :cond_53d
 
     move-object/from16 v0, p0
 
@@ -69274,7 +70262,7 @@
 
     move-result v13
 
-    if-nez v13, :cond_4ec
+    if-nez v13, :cond_53d
 
     .line 13072
     const/4 v13, 0x0
@@ -69288,7 +70276,7 @@
     goto/16 :goto_12e
 
     .line 13073
-    :cond_4ec
+    :cond_53d
     move-object/from16 v0, p1
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/KeboardKeyInfo;->codes:[I
@@ -69299,7 +70287,7 @@
 
     const/16 v14, -0x3f4
 
-    if-ne v13, v14, :cond_50a
+    if-ne v13, v14, :cond_55b
 
     move-object/from16 v0, p0
 
@@ -69309,7 +70297,7 @@
 
     move-result v13
 
-    if-nez v13, :cond_50a
+    if-nez v13, :cond_55b
 
     .line 13075
     const/4 v13, 0x0
@@ -69323,7 +70311,7 @@
     goto/16 :goto_12e
 
     .line 13076
-    :cond_50a
+    :cond_55b
     move-object/from16 v0, p1
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/KeboardKeyInfo;->codes:[I
@@ -69358,7 +70346,7 @@
     goto/16 :goto_12e
 
     .line 13084
-    :cond_528
+    :cond_579
     move-object/from16 v0, p0
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputModeManager:Lcom/diotek/ime/framework/inputmode/InputModeManager;
@@ -69369,7 +70357,7 @@
 
     const/4 v14, 0x1
 
-    if-ne v13, v14, :cond_54b
+    if-ne v13, v14, :cond_59c
 
     move-object/from16 v0, p0
 
@@ -69377,7 +70365,7 @@
 
     const/high16 v14, 0x6b6d0000
 
-    if-eq v13, v14, :cond_543
+    if-eq v13, v14, :cond_594
 
     move-object/from16 v0, p0
 
@@ -69385,10 +70373,10 @@
 
     const/high16 v14, 0x6c6f0000
 
-    if-ne v13, v14, :cond_54b
+    if-ne v13, v14, :cond_59c
 
     .line 13085
-    :cond_543
+    :cond_594
     move-object/from16 v0, p0
 
     invoke-virtual {v0, v11}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setCurrentUmlautString(Ljava/lang/StringBuilder;)V
@@ -69399,7 +70387,7 @@
     goto/16 :goto_44
 
     .line 13088
-    :cond_54b
+    :cond_59c
     const/4 v13, 0x0
 
     move-object/from16 v0, p0
@@ -70131,7 +71119,7 @@
     .local v1, "method":I
     iget-boolean v3, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsKorMode:Z
 
-    if-eqz v3, :cond_53
+    if-eqz v3, :cond_56
 
     .line 13351
     if-eq v1, v8, :cond_22
@@ -70150,7 +71138,7 @@
 
     move-result v3
 
-    if-eqz v3, :cond_53
+    if-eqz v3, :cond_56
 
     .line 13354
     :cond_22
@@ -70158,13 +71146,13 @@
 
     const/4 v4, 0x2
 
-    if-ne v3, v4, :cond_53
+    if-ne v3, v4, :cond_56
 
     iget v3, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
 
     const/high16 v4, 0x6b6f0000
 
-    if-ne v3, v4, :cond_53
+    if-ne v3, v4, :cond_56
 
     .line 13355
     iget-object v3, p1, Lcom/diotek/ime/framework/view/Keyboard$Key;->codes:[I
@@ -70175,7 +71163,7 @@
 
     move-result v3
 
-    if-eqz v3, :cond_43
+    if-eqz v3, :cond_46
 
     .line 13356
     iget-object v3, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -70193,10 +71181,14 @@
     .line 13413
     :cond_42
     :goto_42
+    const/4 v3, 0x2
+
+    add-int v2, v2, v3
+
     return v2
 
     .line 13358
-    :cond_43
+    :cond_46
     iget v3, p1, Lcom/diotek/ime/framework/view/Keyboard$Key;->width:I
 
     iget-object v4, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -70216,44 +71208,44 @@
     goto :goto_42
 
     .line 13364
-    :cond_53
-    if-eqz v1, :cond_5a
+    :cond_56
+    if-eqz v1, :cond_5d
 
     const/4 v3, 0x7
 
-    if-eq v1, v3, :cond_5a
+    if-eq v1, v3, :cond_5d
 
-    if-ne v1, v5, :cond_e1
+    if-ne v1, v5, :cond_e4
 
     .line 13366
-    :cond_5a
+    :cond_5d
     const/4 v3, 0x7
 
-    if-eq v1, v3, :cond_5f
+    if-eq v1, v3, :cond_62
 
-    if-ne v1, v5, :cond_9f
+    if-ne v1, v5, :cond_a2
 
     .line 13368
-    :cond_5f
+    :cond_62
     const/4 v2, 0x0
 
     .line 13369
     .local v2, "posX":I
     iget-boolean v3, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsMultiwindowPhone:Z
 
-    if-eqz v3, :cond_86
+    if-eqz v3, :cond_89
 
-    if-ne v1, v5, :cond_86
+    if-ne v1, v5, :cond_89
 
     .line 13371
-    :try_start_66
+    :try_start_69
     iget v3, p1, Lcom/diotek/ime/framework/view/Keyboard$Key;->width:I
 
     const-string v4, "floating_qwerty_secondary_label_horizontal_right_gap"
 
     invoke-static {v4}, Lcom/diotek/ime/implement/resource/CustomResource;->getDimension(Ljava/lang/String;)F
-    :try_end_6d
-    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_66 .. :try_end_6d} :catch_72
+    :try_end_70
+    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_69 .. :try_end_70} :catch_75
 
     move-result v4
 
@@ -70264,7 +71256,7 @@
     goto :goto_42
 
     .line 13373
-    :catch_72
+    :catch_75
     move-exception v0
 
     .line 13374
@@ -70292,15 +71284,15 @@
 
     .line 13380
     .end local v0    # "e":Landroid/content/res/Resources$NotFoundException;
-    :cond_86
-    :try_start_86
+    :cond_89
+    :try_start_89
     iget v3, p1, Lcom/diotek/ime/framework/view/Keyboard$Key;->width:I
 
     const-string v4, "split_floating_first_line_number_key_extra_label_horozontal_gap"
 
     invoke-static {v4}, Lcom/diotek/ime/implement/resource/CustomResource;->getDimension(Ljava/lang/String;)F
-    :try_end_8d
-    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_86 .. :try_end_8d} :catch_92
+    :try_end_90
+    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_89 .. :try_end_90} :catch_95
 
     move-result v4
 
@@ -70311,7 +71303,7 @@
     goto :goto_42
 
     .line 13382
-    :catch_92
+    :catch_95
     move-exception v0
 
     .line 13383
@@ -70333,10 +71325,10 @@
     .line 13398
     .end local v0    # "e":Landroid/content/res/Resources$NotFoundException;
     .end local v2    # "posX":I
-    :cond_9f
+    :cond_a2
     iget-boolean v3, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsNoteMode:Z
 
-    if-eqz v3, :cond_d0
+    if-eqz v3, :cond_d3
 
     iget-object v3, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputModeManager:Lcom/diotek/ime/framework/inputmode/InputModeManager;
 
@@ -70344,10 +71336,10 @@
 
     move-result v3
 
-    if-eqz v3, :cond_d0
+    if-eqz v3, :cond_d3
 
     .line 13400
-    :try_start_ab
+    :try_start_ae
     iget v3, p1, Lcom/diotek/ime/framework/view/Keyboard$Key;->width:I
 
     iget-object v4, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -70359,8 +71351,8 @@
     const v5, 0x7f090092
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimension(I)F
-    :try_end_b9
-    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_ab .. :try_end_b9} :catch_be
+    :try_end_bc
+    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_ae .. :try_end_bc} :catch_c1
 
     move-result v4
 
@@ -70371,7 +71363,7 @@
     goto :goto_42
 
     .line 13401
-    :catch_be
+    :catch_c1
     move-exception v0
 
     .line 13402
@@ -70396,7 +71388,7 @@
 
     .line 13405
     .end local v0    # "e":Landroid/content/res/Resources$NotFoundException;
-    :cond_d0
+    :cond_d3
     iget v3, p1, Lcom/diotek/ime/framework/view/Keyboard$Key;->width:I
 
     iget-object v4, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -70416,7 +71408,7 @@
     goto/16 :goto_42
 
     .line 13408
-    :cond_e1
+    :cond_e4
     if-ne v1, v8, :cond_42
 
     .line 13409
@@ -70457,7 +71449,7 @@
 
     .line 13418
     .local v1, "method":I
-    if-nez v1, :cond_8c
+    if-nez v1, :cond_84
 
     .line 13419
     iget-boolean v3, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsNoteMode:Z
@@ -70602,39 +71594,29 @@
 
     .line 13431
     :cond_80
-    iget-object v3, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
-
-    invoke-interface {v3}, Lcom/diotek/ime/framework/common/InputManager;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v3
-
-    invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getDimension(I)F
-
-    move-result v3
-
-    float-to-int v2, v3
+    const v2, 0x2a
 
     goto :goto_27
 
     .line 13433
-    :cond_8c
+    :cond_84
     const/4 v3, 0x7
 
-    if-eq v1, v3, :cond_91
+    if-eq v1, v3, :cond_89
 
-    if-ne v1, v6, :cond_114
+    if-ne v1, v6, :cond_10c
 
     .line 13435
-    :cond_91
+    :cond_89
     const/4 v2, 0x0
 
     .line 13436
     .local v2, "posY":I
     iget-boolean v3, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsMultiwindowPhone:Z
 
-    if-eqz v3, :cond_cd
+    if-eqz v3, :cond_c5
 
-    if-ne v1, v6, :cond_cd
+    if-ne v1, v6, :cond_c5
 
     .line 13437
     iget-object v3, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputModeManager:Lcom/diotek/ime/framework/inputmode/InputModeManager;
@@ -70643,15 +71625,15 @@
 
     move-result v3
 
-    if-eqz v3, :cond_b6
+    if-eqz v3, :cond_ae
 
     .line 13439
-    :try_start_a0
+    :try_start_98
     const-string v3, "floating_phonepad_secondary_label_vertical_gap"
 
     invoke-static {v3}, Lcom/diotek/ime/implement/resource/CustomResource;->getDimension(Ljava/lang/String;)F
-    :try_end_a5
-    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_a0 .. :try_end_a5} :catch_a8
+    :try_end_9d
+    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_98 .. :try_end_9d} :catch_a0
 
     move-result v3
 
@@ -70660,7 +71642,7 @@
     goto :goto_27
 
     .line 13440
-    :catch_a8
+    :catch_a0
     move-exception v0
 
     .line 13441
@@ -70682,13 +71664,13 @@
 
     .line 13446
     .end local v0    # "e":Landroid/content/res/Resources$NotFoundException;
-    :cond_b6
-    :try_start_b6
+    :cond_ae
+    :try_start_ae
     const-string v3, "floating_qwerty_secondary_label_vertical_gap"
 
     invoke-static {v3}, Lcom/diotek/ime/implement/resource/CustomResource;->getDimension(Ljava/lang/String;)F
-    :try_end_bb
-    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_b6 .. :try_end_bb} :catch_bf
+    :try_end_b3
+    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_ae .. :try_end_b3} :catch_b7
 
     move-result v3
 
@@ -70697,7 +71679,7 @@
     goto/16 :goto_27
 
     .line 13447
-    :catch_bf
+    :catch_b7
     move-exception v0
 
     .line 13448
@@ -70719,24 +71701,24 @@
 
     .line 13452
     .end local v0    # "e":Landroid/content/res/Resources$NotFoundException;
-    :cond_cd
+    :cond_c5
     iget-object v3, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputModeManager:Lcom/diotek/ime/framework/inputmode/InputModeManager;
 
     invoke-virtual {v3}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->isKorTabletCji()Z
 
     move-result v3
 
-    if-nez v3, :cond_fd
+    if-nez v3, :cond_f5
 
     .line 13454
-    :try_start_d5
+    :try_start_cd
     iget-object v3, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputModeManager:Lcom/diotek/ime/framework/inputmode/InputModeManager;
 
     invoke-virtual {v3}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->isFloatingPhonepadKeyboardForMultiWindow()Z
 
     move-result v3
 
-    if-eqz v3, :cond_e6
+    if-eqz v3, :cond_de
 
     .line 13455
     const-string v3, "split_floating_phonepad_number_key_extra_label_vertical_gap"
@@ -70750,12 +71732,12 @@
     goto/16 :goto_27
 
     .line 13458
-    :cond_e6
+    :cond_de
     const-string v3, "split_floating_first_line_number_key_extra_label_vertical_gap"
 
     invoke-static {v3}, Lcom/diotek/ime/implement/resource/CustomResource;->getDimension(Ljava/lang/String;)F
-    :try_end_eb
-    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_d5 .. :try_end_eb} :catch_ef
+    :try_end_e3
+    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_cd .. :try_end_e3} :catch_e7
 
     move-result v3
 
@@ -70764,7 +71746,7 @@
     goto/16 :goto_27
 
     .line 13461
-    :catch_ef
+    :catch_e7
     move-exception v0
 
     .line 13462
@@ -70786,13 +71768,13 @@
 
     .line 13467
     .end local v0    # "e":Landroid/content/res/Resources$NotFoundException;
-    :cond_fd
-    :try_start_fd
+    :cond_f5
+    :try_start_f5
     const-string v3, "split_floating_extralabel_vertical_gap"
 
     invoke-static {v3}, Lcom/diotek/ime/implement/resource/CustomResource;->getDimension(Ljava/lang/String;)F
-    :try_end_102
-    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_fd .. :try_end_102} :catch_106
+    :try_end_fa
+    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_f5 .. :try_end_fa} :catch_fe
 
     move-result v3
 
@@ -70801,7 +71783,7 @@
     goto/16 :goto_27
 
     .line 13468
-    :catch_106
+    :catch_fe
     move-exception v0
 
     .line 13469
@@ -70823,7 +71805,7 @@
     .line 13474
     .end local v0    # "e":Landroid/content/res/Resources$NotFoundException;
     .end local v2    # "posY":I
-    :cond_114
+    :cond_10c
     const/4 v3, 0x1
 
     if-ne v1, v3, :cond_27
@@ -74156,7 +75138,7 @@
 
     move/from16 v20, v0
 
-    if-nez v20, :cond_f88
+    if-nez v20, :cond_ff9
 
     .line 7635
     move-object/from16 v0, p0
@@ -74314,7 +75296,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_b9a
+    if-ne v0, v1, :cond_c0b
 
     .line 7864
     move-object/from16 v0, p0
@@ -74345,7 +75327,7 @@
 
     .line 7870
     .local v19, "useMultiLanguageKeyBtnForPhoneModel":Z
-    if-eqz v8, :cond_a35
+    if-eqz v8, :cond_aa6
 
     move-object/from16 v0, p0
 
@@ -74359,7 +75341,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_a35
+    if-ne v0, v1, :cond_aa6
 
     .line 7871
     move-object/from16 v0, p0
@@ -74372,7 +75354,7 @@
 
     move-result v20
 
-    if-eqz v20, :cond_90f
+    if-eqz v20, :cond_980
 
     move-object/from16 v0, p0
 
@@ -74384,7 +75366,7 @@
 
     move-result v20
 
-    if-eqz v20, :cond_90f
+    if-eqz v20, :cond_980
 
     .line 7873
     move-object/from16 v0, p0
@@ -74399,10 +75381,10 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_8b2
+    if-ne v0, v1, :cond_923
 
     .line 7874
-    if-eqz v7, :cond_863
+    if-eqz v7, :cond_8d4
 
     .line 7875
     move-object/from16 v0, p0
@@ -74427,9 +75409,9 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_848
+    if-le v0, v1, :cond_8b9
 
-    if-eqz v19, :cond_848
+    if-eqz v19, :cond_8b9
 
     .line 7877
     if-ltz v11, :cond_1ac
@@ -76039,7 +77021,7 @@
 
     move/from16 v20, v0
 
-    if-eqz v20, :cond_7be
+    if-eqz v20, :cond_82f
 
     move-object/from16 v0, p0
 
@@ -76051,7 +77033,7 @@
 
     move-result v20
 
-    if-eqz v20, :cond_7be
+    if-eqz v20, :cond_82f
 
     .line 7805
     const/16 v14, 0xb
@@ -76077,7 +77059,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_799
+    if-ne v0, v1, :cond_7e3
 
     .line 7815
     const/4 v14, 0x6
@@ -76105,11 +77087,51 @@
 
     move/from16 v20, v0
 
-    if-eqz v20, :cond_77e
+    if-eqz v20, :cond_7a3
 
     .line 7821
     if-ltz v2, :cond_3b4
 
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
+
+    move/from16 v14, v0
+
+    const/high16 v20, 0x72750000
+
+    move/from16 v0, v20
+
+    if-ne v14, v0, :cond_78a
+
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    move-object/from16 v20, v0
+
+    move-object/from16 v0, v20
+
+    array-length v0, v0
+
+    move/from16 v20, v0
+
+    move/from16 v0, v20
+
+    if-ge v2, v0, :cond_3b4
+
+    .line 7823
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    move-object/from16 v20, v0
+
+    aget-object v12, v20, v2
+
+    goto/16 :goto_3b4
+
+    :cond_78a
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_LEFT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
@@ -76138,9 +77160,49 @@
     goto/16 :goto_3b4
 
     .line 7826
-    :cond_77e
+    :cond_7a3
     if-ltz v2, :cond_3b4
 
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
+
+    move/from16 v14, v0
+
+    const/high16 v20, 0x72750000
+
+    move/from16 v0, v20
+
+    if-ne v14, v0, :cond_7ca
+
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    move-object/from16 v20, v0
+
+    move-object/from16 v0, v20
+
+    array-length v0, v0
+
+    move/from16 v20, v0
+
+    move/from16 v0, v20
+
+    if-ge v2, v0, :cond_3b4
+
+    .line 7828
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_CYRILLIC_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    move-object/from16 v20, v0
+
+    aget-object v12, v20, v2
+
+    goto/16 :goto_3b4
+
+    :cond_7ca
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->SPLIT_RIGHT_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
@@ -76169,21 +77231,63 @@
     goto/16 :goto_3b4
 
     .line 7832
-    :cond_799
+    :cond_7e3
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mCurrentInputMethod:I
 
     move/from16 v20, v0
 
-    if-nez v20, :cond_7a3
+    if-nez v20, :cond_7ed
 
-    if-eqz v9, :cond_7a3
+    if-eqz v9, :cond_7ed
 
     .line 7837
-    :cond_7a3
+    :cond_7ed
     if-ltz v2, :cond_3b4
 
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
+
+    move/from16 v20, v0
+
+    const/high16 v21, 0x72750000
+
+    move/from16 v0, v20
+
+    move/from16 v1, v21
+
+    if-ne v0, v1, :cond_816
+
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_CYRILLIC_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    move-object/from16 v20, v0
+
+    move-object/from16 v0, v20
+
+    array-length v0, v0
+
+    move/from16 v20, v0
+
+    move/from16 v0, v20
+
+    if-ge v2, v0, :cond_3b4
+
+    .line 7838
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_CYRILLIC_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
+
+    move-object/from16 v20, v0
+
+    aget-object v12, v20, v2
+
+    goto/16 :goto_3b4
+
+    :cond_816
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->QWERTY_TABLET_EXTRALABEL_SYMBOL_MAP:[Ljava/lang/String;
@@ -76214,7 +77318,7 @@
     .line 7841
     .end local v2    # "alphabetIndex":I
     .end local v14    # "numberOfFirstLineNumericKey":I
-    :cond_7be
+    :cond_82f
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsTabletMode:Z
@@ -76250,7 +77354,7 @@
 
     move/from16 v20, v0
 
-    if-eqz v20, :cond_7ea
+    if-eqz v20, :cond_85b
 
     move-object/from16 v0, p0
 
@@ -76258,16 +77362,16 @@
 
     move/from16 v20, v0
 
-    if-nez v20, :cond_7fa
+    if-nez v20, :cond_86b
 
-    :cond_7ea
+    :cond_85b
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->IS_WQHD:Z
 
     move/from16 v20, v0
 
-    if-nez v20, :cond_7fa
+    if-nez v20, :cond_86b
 
     move-object/from16 v0, p0
 
@@ -76275,16 +77379,16 @@
 
     move/from16 v20, v0
 
-    if-eqz v20, :cond_825
+    if-eqz v20, :cond_896
 
-    :cond_7fa
+    :cond_86b
     const/16 v20, 0x8
 
     move/from16 v0, v20
 
-    if-eq v13, v0, :cond_825
+    if-eq v13, v0, :cond_896
 
-    if-eqz v9, :cond_825
+    if-eqz v9, :cond_896
 
     .line 7843
     const/16 v20, 0xd
@@ -76325,7 +77429,7 @@
     goto/16 :goto_3b4
 
     .line 7846
-    :cond_825
+    :cond_896
     const/16 v20, 0xb
 
     move/from16 v0, v20
@@ -76366,7 +77470,7 @@
     .line 7883
     .restart local v8    # "isKoreaMode":Z
     .restart local v19    # "useMultiLanguageKeyBtnForPhoneModel":Z
-    :cond_848
+    :cond_8b9
     if-ltz v11, :cond_1ac
 
     move-object/from16 v0, p0
@@ -76397,7 +77501,7 @@
     goto/16 :goto_1ac
 
     .line 7889
-    :cond_863
+    :cond_8d4
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -76420,9 +77524,9 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_897
+    if-le v0, v1, :cond_908
 
-    if-eqz v19, :cond_897
+    if-eqz v19, :cond_908
 
     .line 7891
     if-ltz v11, :cond_1ac
@@ -76455,7 +77559,7 @@
     goto/16 :goto_1ac
 
     .line 7897
-    :cond_897
+    :cond_908
     if-ltz v11, :cond_1ac
 
     move-object/from16 v0, p0
@@ -76486,7 +77590,7 @@
     goto/16 :goto_1ac
 
     .line 7903
-    :cond_8b2
+    :cond_923
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mHangulModule:I
@@ -76524,9 +77628,9 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_8f4
+    if-le v0, v1, :cond_965
 
-    if-eqz v19, :cond_8f4
+    if-eqz v19, :cond_965
 
     .line 7906
     if-ltz v11, :cond_1ac
@@ -76559,7 +77663,7 @@
     goto/16 :goto_1ac
 
     .line 7912
-    :cond_8f4
+    :cond_965
     if-ltz v11, :cond_1ac
 
     move-object/from16 v0, p0
@@ -76590,7 +77694,7 @@
     goto/16 :goto_1ac
 
     .line 7919
-    :cond_90f
+    :cond_980
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mHangulModule:I
@@ -76603,7 +77707,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_96c
+    if-ne v0, v1, :cond_9dd
 
     .line 7921
     move-object/from16 v0, p0
@@ -76628,9 +77732,9 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_951
+    if-le v0, v1, :cond_9c2
 
-    if-eqz v19, :cond_951
+    if-eqz v19, :cond_9c2
 
     .line 7923
     if-ltz v11, :cond_1ac
@@ -76663,7 +77767,7 @@
     goto/16 :goto_1ac
 
     .line 7928
-    :cond_951
+    :cond_9c2
     if-ltz v11, :cond_1ac
 
     move-object/from16 v0, p0
@@ -76694,7 +77798,7 @@
     goto/16 :goto_1ac
 
     .line 7932
-    :cond_96c
+    :cond_9dd
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mHangulModule:I
@@ -76707,10 +77811,10 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_a1a
+    if-ne v0, v1, :cond_a8b
 
     .line 7933
-    if-eqz v7, :cond_9cb
+    if-eqz v7, :cond_a3c
 
     .line 7934
     move-object/from16 v0, p0
@@ -76735,9 +77839,9 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_9b0
+    if-le v0, v1, :cond_a21
 
-    if-eqz v19, :cond_9b0
+    if-eqz v19, :cond_a21
 
     .line 7936
     if-ltz v11, :cond_1ac
@@ -76770,7 +77874,7 @@
     goto/16 :goto_1ac
 
     .line 7941
-    :cond_9b0
+    :cond_a21
     if-ltz v11, :cond_1ac
 
     move-object/from16 v0, p0
@@ -76801,7 +77905,7 @@
     goto/16 :goto_1ac
 
     .line 7947
-    :cond_9cb
+    :cond_a3c
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -76824,9 +77928,9 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_9ff
+    if-le v0, v1, :cond_a70
 
-    if-eqz v19, :cond_9ff
+    if-eqz v19, :cond_a70
 
     .line 7949
     if-ltz v11, :cond_1ac
@@ -76859,7 +77963,7 @@
     goto/16 :goto_1ac
 
     .line 7954
-    :cond_9ff
+    :cond_a70
     if-ltz v11, :cond_1ac
 
     move-object/from16 v0, p0
@@ -76890,7 +77994,7 @@
     goto/16 :goto_1ac
 
     .line 7961
-    :cond_a1a
+    :cond_a8b
     if-ltz v11, :cond_1ac
 
     move-object/from16 v0, p0
@@ -76921,7 +78025,7 @@
     goto/16 :goto_1ac
 
     .line 7967
-    :cond_a35
+    :cond_aa6
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -76934,7 +78038,7 @@
 
     move/from16 v1, v21
 
-    if-eq v0, v1, :cond_a62
+    if-eq v0, v1, :cond_ad3
 
     move-object/from16 v0, p0
 
@@ -76948,7 +78052,7 @@
 
     move/from16 v1, v21
 
-    if-eq v0, v1, :cond_a62
+    if-eq v0, v1, :cond_ad3
 
     move-object/from16 v0, p0
 
@@ -76962,10 +78066,10 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_ab7
+    if-ne v0, v1, :cond_b28
 
     .line 7970
-    :cond_a62
+    :cond_ad3
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -76988,7 +78092,7 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_a9e
+    if-le v0, v1, :cond_b0f
 
     move-object/from16 v0, p0
 
@@ -77000,7 +78104,7 @@
 
     move-result v20
 
-    if-eqz v20, :cond_a9e
+    if-eqz v20, :cond_b0f
 
     .line 7971
     move-object/from16 v0, p0
@@ -77031,7 +78135,7 @@
     goto/16 :goto_1ac
 
     .line 7975
-    :cond_a9e
+    :cond_b0f
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->PHONEPAD_CHN_SINGLE_MODE_PINYIN_EXTRALABEL_MAP:[Ljava/lang/String;
@@ -77060,7 +78164,7 @@
     goto/16 :goto_1ac
 
     .line 7987
-    :cond_ab7
+    :cond_b28
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -77073,7 +78177,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_b1a
+    if-ne v0, v1, :cond_b8b
 
     .line 7988
     move-object/from16 v0, p0
@@ -77098,7 +78202,7 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_b01
+    if-le v0, v1, :cond_b72
 
     move-object/from16 v0, p0
 
@@ -77110,7 +78214,7 @@
 
     move-result v20
 
-    if-eqz v20, :cond_b01
+    if-eqz v20, :cond_b72
 
     .line 7989
     move-object/from16 v0, p0
@@ -77141,7 +78245,7 @@
     goto/16 :goto_1ac
 
     .line 7993
-    :cond_b01
+    :cond_b72
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->PHONEPAD_JA_EXTRALABEL_MAP:[Ljava/lang/String;
@@ -77170,12 +78274,12 @@
     goto/16 :goto_1ac
 
     .line 7998
-    :cond_b1a
+    :cond_b8b
     const/16 v20, 0x9
 
     move/from16 v0, v20
 
-    if-eq v15, v0, :cond_b3c
+    if-eq v15, v0, :cond_bad
 
     move-object/from16 v0, p0
 
@@ -77189,7 +78293,7 @@
 
     move/from16 v1, v21
 
-    if-eq v0, v1, :cond_b3c
+    if-eq v0, v1, :cond_bad
 
     move-object/from16 v0, p0
 
@@ -77203,16 +78307,16 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_b3f
+    if-ne v0, v1, :cond_bb0
 
     .line 7999
-    :cond_b3c
+    :cond_bad
     const/4 v12, 0x0
 
     goto/16 :goto_1ac
 
     .line 8000
-    :cond_b3f
+    :cond_bb0
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -77235,7 +78339,7 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_b7f
+    if-le v0, v1, :cond_bf0
 
     move-object/from16 v0, p0
 
@@ -77247,9 +78351,9 @@
 
     move-result v20
 
-    if-eqz v20, :cond_b7f
+    if-eqz v20, :cond_bf0
 
-    if-eqz v19, :cond_b7f
+    if-eqz v19, :cond_bf0
 
     .line 8002
     if-ltz v11, :cond_1ac
@@ -77282,7 +78386,7 @@
     goto/16 :goto_1ac
 
     .line 8007
-    :cond_b7f
+    :cond_bf0
     if-ltz v11, :cond_1ac
 
     move-object/from16 v0, p0
@@ -77315,7 +78419,7 @@
     .line 8012
     .end local v8    # "isKoreaMode":Z
     .end local v19    # "useMultiLanguageKeyBtnForPhoneModel":Z
-    :cond_b9a
+    :cond_c0b
     const/16 v20, 0x8
 
     move/from16 v0, v20
@@ -77363,7 +78467,7 @@
 
     .line 8019
     .restart local v19    # "useMultiLanguageKeyBtnForPhoneModel":Z
-    if-eqz v8, :cond_dba
+    if-eqz v8, :cond_e2b
 
     move-object/from16 v0, p0
 
@@ -77377,7 +78481,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_dba
+    if-ne v0, v1, :cond_e2b
 
     .line 8020
     invoke-static {}, Lcom/diotek/ime/framework/repository/InputModeStatus;->getPreferenceInputMethodOnKor()I
@@ -77396,7 +78500,7 @@
 
     move-result v20
 
-    if-eqz v20, :cond_c96
+    if-eqz v20, :cond_d07
 
     move-object/from16 v0, p0
 
@@ -77408,14 +78512,14 @@
 
     move-result v20
 
-    if-eqz v20, :cond_c96
+    if-eqz v20, :cond_d07
 
     .line 8022
     const/16 v20, 0x2
 
     move/from16 v0, v20
 
-    if-ne v5, v0, :cond_c43
+    if-ne v5, v0, :cond_cb4
 
     .line 8023
     move-object/from16 v0, p0
@@ -77440,7 +78544,7 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_c28
+    if-le v0, v1, :cond_c99
 
     .line 8024
     if-ltz v11, :cond_1ac
@@ -77473,7 +78577,7 @@
     goto/16 :goto_1ac
 
     .line 8028
-    :cond_c28
+    :cond_c99
     if-ltz v11, :cond_1ac
 
     move-object/from16 v0, p0
@@ -77504,7 +78608,7 @@
     goto/16 :goto_1ac
 
     .line 8032
-    :cond_c43
+    :cond_cb4
     const/16 v20, 0x1
 
     move/from16 v0, v20
@@ -77534,7 +78638,7 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_c7b
+    if-le v0, v1, :cond_cec
 
     .line 8034
     if-ltz v11, :cond_1ac
@@ -77567,7 +78671,7 @@
     goto/16 :goto_1ac
 
     .line 8039
-    :cond_c7b
+    :cond_cec
     if-ltz v11, :cond_1ac
 
     move-object/from16 v0, p0
@@ -77598,12 +78702,12 @@
     goto/16 :goto_1ac
 
     .line 8045
-    :cond_c96
+    :cond_d07
     const/16 v20, 0x1
 
     move/from16 v0, v20
 
-    if-eq v5, v0, :cond_caa
+    if-eq v5, v0, :cond_d1b
 
     move-object/from16 v0, p0
 
@@ -77617,10 +78721,10 @@
 
     move/from16 v1, v21
 
-    if-eq v0, v1, :cond_cf9
+    if-eq v0, v1, :cond_d6a
 
     .line 8047
-    :cond_caa
+    :cond_d1b
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -77643,9 +78747,9 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_cde
+    if-le v0, v1, :cond_d4f
 
-    if-eqz v19, :cond_cde
+    if-eqz v19, :cond_d4f
 
     .line 8049
     if-ltz v11, :cond_1ac
@@ -77678,7 +78782,7 @@
     goto/16 :goto_1ac
 
     .line 8054
-    :cond_cde
+    :cond_d4f
     if-ltz v11, :cond_1ac
 
     move-object/from16 v0, p0
@@ -77709,15 +78813,15 @@
     goto/16 :goto_1ac
 
     .line 8058
-    :cond_cf9
+    :cond_d6a
     const/16 v20, 0x2
 
     move/from16 v0, v20
 
-    if-ne v5, v0, :cond_d9f
+    if-ne v5, v0, :cond_e10
 
     .line 8059
-    if-eqz v7, :cond_d50
+    if-eqz v7, :cond_dc1
 
     .line 8060
     move-object/from16 v0, p0
@@ -77742,9 +78846,9 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_d35
+    if-le v0, v1, :cond_da6
 
-    if-eqz v19, :cond_d35
+    if-eqz v19, :cond_da6
 
     .line 8062
     if-ltz v11, :cond_1ac
@@ -77777,7 +78881,7 @@
     goto/16 :goto_1ac
 
     .line 8067
-    :cond_d35
+    :cond_da6
     if-ltz v11, :cond_1ac
 
     move-object/from16 v0, p0
@@ -77808,7 +78912,7 @@
     goto/16 :goto_1ac
 
     .line 8073
-    :cond_d50
+    :cond_dc1
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -77831,9 +78935,9 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_d84
+    if-le v0, v1, :cond_df5
 
-    if-eqz v19, :cond_d84
+    if-eqz v19, :cond_df5
 
     .line 8075
     if-ltz v11, :cond_1ac
@@ -77866,7 +78970,7 @@
     goto/16 :goto_1ac
 
     .line 8080
-    :cond_d84
+    :cond_df5
     if-ltz v11, :cond_1ac
 
     move-object/from16 v0, p0
@@ -77897,7 +79001,7 @@
     goto/16 :goto_1ac
 
     .line 8087
-    :cond_d9f
+    :cond_e10
     if-ltz v11, :cond_1ac
 
     move-object/from16 v0, p0
@@ -77929,14 +79033,14 @@
 
     .line 8093
     .end local v5    # "hangulModule":I
-    :cond_dba
+    :cond_e2b
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsTabletMode:Z
 
     move/from16 v20, v0
 
-    if-eqz v20, :cond_e04
+    if-eqz v20, :cond_e75
 
     move-object/from16 v0, p0
 
@@ -77950,7 +79054,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_e04
+    if-ne v0, v1, :cond_e75
 
     .line 8095
     move-object/from16 v0, p0
@@ -77975,12 +79079,12 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_de9
+    if-le v0, v1, :cond_e5a
 
-    if-eqz v19, :cond_de9
+    if-eqz v19, :cond_e5a
 
     .line 8103
-    :cond_de9
+    :cond_e5a
     if-ltz v11, :cond_1ac
 
     move-object/from16 v0, p0
@@ -78011,7 +79115,7 @@
     goto/16 :goto_1ac
 
     .line 8107
-    :cond_e04
+    :cond_e75
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -78024,7 +79128,7 @@
 
     move/from16 v1, v21
 
-    if-eq v0, v1, :cond_e31
+    if-eq v0, v1, :cond_ea2
 
     move-object/from16 v0, p0
 
@@ -78038,7 +79142,7 @@
 
     move/from16 v1, v21
 
-    if-eq v0, v1, :cond_e31
+    if-eq v0, v1, :cond_ea2
 
     move-object/from16 v0, p0
 
@@ -78052,10 +79156,10 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_e86
+    if-ne v0, v1, :cond_ef7
 
     .line 8110
-    :cond_e31
+    :cond_ea2
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -78078,7 +79182,7 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_e6d
+    if-le v0, v1, :cond_ede
 
     move-object/from16 v0, p0
 
@@ -78090,7 +79194,7 @@
 
     move-result v20
 
-    if-eqz v20, :cond_e6d
+    if-eqz v20, :cond_ede
 
     .line 8111
     move-object/from16 v0, p0
@@ -78121,7 +79225,7 @@
     goto/16 :goto_1ac
 
     .line 8115
-    :cond_e6d
+    :cond_ede
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->PHONEPAD_CHN_SINGLE_MODE_PINYIN_EXTRALABEL_MAP:[Ljava/lang/String;
@@ -78150,7 +79254,7 @@
     goto/16 :goto_1ac
 
     .line 8127
-    :cond_e86
+    :cond_ef7
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -78163,7 +79267,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_ee9
+    if-ne v0, v1, :cond_f5a
 
     .line 8128
     move-object/from16 v0, p0
@@ -78188,7 +79292,7 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_ed0
+    if-le v0, v1, :cond_f41
 
     move-object/from16 v0, p0
 
@@ -78200,7 +79304,7 @@
 
     move-result v20
 
-    if-eqz v20, :cond_ed0
+    if-eqz v20, :cond_f41
 
     .line 8129
     move-object/from16 v0, p0
@@ -78231,7 +79335,7 @@
     goto/16 :goto_1ac
 
     .line 8133
-    :cond_ed0
+    :cond_f41
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/implement/view/KeyboardView;->PHONEPAD_JA_EXTRALABEL_MAP:[Ljava/lang/String;
@@ -78260,12 +79364,12 @@
     goto/16 :goto_1ac
 
     .line 8138
-    :cond_ee9
+    :cond_f5a
     const/16 v20, 0x9
 
     move/from16 v0, v20
 
-    if-eq v15, v0, :cond_f19
+    if-eq v15, v0, :cond_f8a
 
     move-object/from16 v0, p0
 
@@ -78279,7 +79383,7 @@
 
     move/from16 v1, v21
 
-    if-eq v0, v1, :cond_f19
+    if-eq v0, v1, :cond_f8a
 
     move-object/from16 v0, p0
 
@@ -78293,7 +79397,7 @@
 
     move/from16 v1, v21
 
-    if-eq v0, v1, :cond_f19
+    if-eq v0, v1, :cond_f8a
 
     move-object/from16 v0, p0
 
@@ -78307,16 +79411,16 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_f1c
+    if-ne v0, v1, :cond_f8d
 
     .line 8139
-    :cond_f19
+    :cond_f8a
     const/4 v12, 0x0
 
     goto/16 :goto_1ac
 
     .line 8140
-    :cond_f1c
+    :cond_f8d
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -78339,7 +79443,7 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_f5c
+    if-le v0, v1, :cond_fcd
 
     move-object/from16 v0, p0
 
@@ -78351,9 +79455,9 @@
 
     move-result v20
 
-    if-eqz v20, :cond_f5c
+    if-eqz v20, :cond_fcd
 
-    if-eqz v19, :cond_f5c
+    if-eqz v19, :cond_fcd
 
     .line 8142
     if-ltz v11, :cond_1ac
@@ -78386,7 +79490,7 @@
     goto/16 :goto_1ac
 
     .line 8146
-    :cond_f5c
+    :cond_fcd
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -78399,7 +79503,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_f6d
+    if-ne v0, v1, :cond_fde
 
     .line 8147
     const/4 v12, 0x0
@@ -78407,7 +79511,7 @@
     goto/16 :goto_1ac
 
     .line 8149
-    :cond_f6d
+    :cond_fde
     if-ltz v11, :cond_1ac
 
     move-object/from16 v0, p0
@@ -78441,7 +79545,7 @@
     .end local v8    # "isKoreaMode":Z
     .end local v15    # "scriptType":I
     .end local v19    # "useMultiLanguageKeyBtnForPhoneModel":Z
-    :cond_f88
+    :cond_ff9
     invoke-static {}, Lcom/diotek/ime/framework/repository/InputModeStatus;->getNumberAndSymbolsKeypadType()I
 
     move-result v16
@@ -78460,7 +79564,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_1035
+    if-ne v0, v1, :cond_10a6
 
     const/16 v20, 0x1
 
@@ -78468,7 +79572,7 @@
 
     move/from16 v1, v20
 
-    if-eq v0, v1, :cond_1035
+    if-eq v0, v1, :cond_10a6
 
     .line 8163
     move-object/from16 v0, p0
@@ -78483,7 +79587,7 @@
 
     .line 8164
     .local v6, "info":Landroid/view/inputmethod/EditorInfo;
-    if-eqz v6, :cond_fef
+    if-eqz v6, :cond_1060
 
     .line 8165
     iget v0, v6, Landroid/view/inputmethod/EditorInfo;->inputType:I
@@ -78506,7 +79610,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_fef
+    if-ne v0, v1, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -78520,16 +79624,16 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_fef
+    if-ne v0, v1, :cond_1060
 
     const/16 v20, 0x1
 
     move/from16 v0, v20
 
-    if-ne v3, v0, :cond_fef
+    if-ne v3, v0, :cond_1060
 
     .line 8167
-    if-ltz v11, :cond_fef
+    if-ltz v11, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -78545,7 +79649,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_fef
+    if-ge v11, v0, :cond_1060
 
     .line 8168
     move-object/from16 v0, p0
@@ -78559,8 +79663,8 @@
     .line 8267
     .end local v3    # "currentEditorClass":I
     .end local v6    # "info":Landroid/view/inputmethod/EditorInfo;
-    :cond_fef
-    :goto_fef
+    :cond_1060
+    :goto_1060
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -78571,13 +79675,13 @@
 
     move-result v20
 
-    if-eqz v20, :cond_13a5
+    if-eqz v20, :cond_1416
 
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->isNeededPhonepadNumberExtraLabel()Z
 
     move-result v20
 
-    if-eqz v20, :cond_13a5
+    if-eqz v20, :cond_1416
 
     .line 8268
     move-object/from16 v0, p0
@@ -78592,9 +79696,9 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_137c
+    if-ne v0, v1, :cond_13ed
 
-    if-ltz v11, :cond_137c
+    if-ltz v11, :cond_13ed
 
     move-object/from16 v0, p0
 
@@ -78610,7 +79714,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_137c
+    if-ge v11, v0, :cond_13ed
 
     .line 8269
     move-object/from16 v0, p0
@@ -78622,8 +79726,8 @@
     aget-object v12, v20, v11
 
     .line 8280
-    :cond_1028
-    :goto_1028
+    :cond_1099
+    :goto_1099
     const-string v20, ""
 
     move-object/from16 v0, v20
@@ -78640,7 +79744,7 @@
     goto/16 :goto_1b7
 
     .line 8172
-    :cond_1035
+    :cond_10a6
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputRange:I
@@ -78653,9 +79757,9 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_125d
+    if-ne v0, v1, :cond_12ce
 
-    if-eqz v10, :cond_125d
+    if-eqz v10, :cond_12ce
 
     move-object/from16 v0, p0
 
@@ -78663,7 +79767,7 @@
 
     move/from16 v20, v0
 
-    if-nez v20, :cond_125d
+    if-nez v20, :cond_12ce
 
     .line 8174
     move-object/from16 v0, p0
@@ -78678,7 +79782,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_112e
+    if-ne v0, v1, :cond_119f
 
     .line 8175
     move-object/from16 v0, p0
@@ -78693,13 +79797,13 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_10d3
+    if-ne v0, v1, :cond_1144
 
     .line 8176
-    if-eqz v7, :cond_1086
+    if-eqz v7, :cond_10f7
 
     .line 8177
-    if-ltz v11, :cond_fef
+    if-ltz v11, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -78715,7 +79819,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_fef
+    if-ge v11, v0, :cond_1060
 
     .line 8179
     move-object/from16 v0, p0
@@ -78726,10 +79830,10 @@
 
     aget-object v12, v20, v11
 
-    goto/16 :goto_fef
+    goto/16 :goto_1060
 
     .line 8182
-    :cond_1086
+    :cond_10f7
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -78752,10 +79856,10 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_10b8
+    if-le v0, v1, :cond_1129
 
     .line 8183
-    if-ltz v11, :cond_fef
+    if-ltz v11, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -78771,7 +79875,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_fef
+    if-ge v11, v0, :cond_1060
 
     .line 8185
     move-object/from16 v0, p0
@@ -78782,11 +79886,11 @@
 
     aget-object v12, v20, v11
 
-    goto/16 :goto_fef
+    goto/16 :goto_1060
 
     .line 8188
-    :cond_10b8
-    if-ltz v11, :cond_fef
+    :cond_1129
+    if-ltz v11, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -78802,7 +79906,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_fef
+    if-ge v11, v0, :cond_1060
 
     .line 8190
     move-object/from16 v0, p0
@@ -78813,10 +79917,10 @@
 
     aget-object v12, v20, v11
 
-    goto/16 :goto_fef
+    goto/16 :goto_1060
 
     .line 8194
-    :cond_10d3
+    :cond_1144
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mHangulModule:I
@@ -78829,7 +79933,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_fef
+    if-ne v0, v1, :cond_1060
 
     .line 8195
     move-object/from16 v0, p0
@@ -78854,10 +79958,10 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_1113
+    if-le v0, v1, :cond_1184
 
     .line 8196
-    if-ltz v11, :cond_fef
+    if-ltz v11, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -78873,7 +79977,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_fef
+    if-ge v11, v0, :cond_1060
 
     .line 8198
     move-object/from16 v0, p0
@@ -78884,11 +79988,11 @@
 
     aget-object v12, v20, v11
 
-    goto/16 :goto_fef
+    goto/16 :goto_1060
 
     .line 8201
-    :cond_1113
-    if-ltz v11, :cond_fef
+    :cond_1184
+    if-ltz v11, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -78904,7 +80008,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_fef
+    if-ge v11, v0, :cond_1060
 
     .line 8203
     move-object/from16 v0, p0
@@ -78915,10 +80019,10 @@
 
     aget-object v12, v20, v11
 
-    goto/16 :goto_fef
+    goto/16 :goto_1060
 
     .line 8207
-    :cond_112e
+    :cond_119f
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mCurrentInputMethod:I
@@ -78931,7 +80035,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_fef
+    if-ne v0, v1, :cond_1060
 
     .line 8208
     move-object/from16 v0, p0
@@ -78946,13 +80050,13 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_1202
+    if-ne v0, v1, :cond_1273
 
     .line 8209
-    if-eqz v7, :cond_1181
+    if-eqz v7, :cond_11f2
 
     .line 8210
-    if-ltz v11, :cond_fef
+    if-ltz v11, :cond_1060
 
     move-object/from16 v0, p1
 
@@ -78960,7 +80064,7 @@
 
     move-object/from16 v20, v0
 
-    if-eqz v20, :cond_fef
+    if-eqz v20, :cond_1060
 
     move-object/from16 v0, p1
 
@@ -78978,7 +80082,7 @@
 
     move-result v20
 
-    if-nez v20, :cond_fef
+    if-nez v20, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -78994,7 +80098,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_fef
+    if-ge v11, v0, :cond_1060
 
     .line 8213
     move-object/from16 v0, p0
@@ -79005,10 +80109,10 @@
 
     aget-object v12, v20, v11
 
-    goto/16 :goto_fef
+    goto/16 :goto_1060
 
     .line 8216
-    :cond_1181
+    :cond_11f2
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -79031,10 +80135,10 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_11cd
+    if-le v0, v1, :cond_123e
 
     .line 8217
-    if-ltz v11, :cond_fef
+    if-ltz v11, :cond_1060
 
     move-object/from16 v0, p1
 
@@ -79042,7 +80146,7 @@
 
     move-object/from16 v20, v0
 
-    if-eqz v20, :cond_fef
+    if-eqz v20, :cond_1060
 
     move-object/from16 v0, p1
 
@@ -79060,7 +80164,7 @@
 
     move-result v20
 
-    if-nez v20, :cond_fef
+    if-nez v20, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -79076,7 +80180,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_fef
+    if-ge v11, v0, :cond_1060
 
     .line 8220
     move-object/from16 v0, p0
@@ -79087,11 +80191,11 @@
 
     aget-object v12, v20, v11
 
-    goto/16 :goto_fef
+    goto/16 :goto_1060
 
     .line 8223
-    :cond_11cd
-    if-ltz v11, :cond_fef
+    :cond_123e
+    if-ltz v11, :cond_1060
 
     move-object/from16 v0, p1
 
@@ -79099,7 +80203,7 @@
 
     move-object/from16 v20, v0
 
-    if-eqz v20, :cond_fef
+    if-eqz v20, :cond_1060
 
     move-object/from16 v0, p1
 
@@ -79117,7 +80221,7 @@
 
     move-result v20
 
-    if-nez v20, :cond_fef
+    if-nez v20, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -79133,7 +80237,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_fef
+    if-ge v11, v0, :cond_1060
 
     .line 8226
     move-object/from16 v0, p0
@@ -79144,10 +80248,10 @@
 
     aget-object v12, v20, v11
 
-    goto/16 :goto_fef
+    goto/16 :goto_1060
 
     .line 8230
-    :cond_1202
+    :cond_1273
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mHangulModule:I
@@ -79160,7 +80264,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_fef
+    if-ne v0, v1, :cond_1060
 
     .line 8231
     move-object/from16 v0, p0
@@ -79185,10 +80289,10 @@
 
     move/from16 v1, v21
 
-    if-le v0, v1, :cond_1242
+    if-le v0, v1, :cond_12b3
 
     .line 8232
-    if-ltz v11, :cond_fef
+    if-ltz v11, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -79204,7 +80308,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_fef
+    if-ge v11, v0, :cond_1060
 
     .line 8234
     move-object/from16 v0, p0
@@ -79215,11 +80319,11 @@
 
     aget-object v12, v20, v11
 
-    goto/16 :goto_fef
+    goto/16 :goto_1060
 
     .line 8237
-    :cond_1242
-    if-ltz v11, :cond_fef
+    :cond_12b3
+    if-ltz v11, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -79235,7 +80339,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_fef
+    if-ge v11, v0, :cond_1060
 
     .line 8239
     move-object/from16 v0, p0
@@ -79246,10 +80350,10 @@
 
     aget-object v12, v20, v11
 
-    goto/16 :goto_fef
+    goto/16 :goto_1060
 
     .line 8244
-    :cond_125d
+    :cond_12ce
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputRange:I
@@ -79262,7 +80366,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_fef
+    if-ne v0, v1, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -79270,7 +80374,7 @@
 
     move/from16 v20, v0
 
-    if-eqz v20, :cond_128d
+    if-eqz v20, :cond_12fe
 
     move-object/from16 v0, p0
 
@@ -79284,7 +80388,7 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_fef
+    if-ne v0, v1, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -79296,17 +80400,17 @@
 
     move-result v20
 
-    if-nez v20, :cond_fef
+    if-nez v20, :cond_1060
 
     .line 8245
-    :cond_128d
+    :cond_12fe
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mIsAddNumberKeyFirstLine:Z
 
     move/from16 v20, v0
 
-    if-nez v20, :cond_fef
+    if-nez v20, :cond_1060
 
     .line 8246
     move-object/from16 v0, p0
@@ -79321,10 +80425,10 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_12e2
+    if-ne v0, v1, :cond_1353
 
     .line 8247
-    if-ltz v11, :cond_fef
+    if-ltz v11, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -79340,7 +80444,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_fef
+    if-ge v11, v0, :cond_1060
 
     move-object/from16 v0, p1
 
@@ -79358,7 +80462,7 @@
 
     move/from16 v1, v21
 
-    if-lt v0, v1, :cond_fef
+    if-lt v0, v1, :cond_1060
 
     move-object/from16 v0, p1
 
@@ -79376,7 +80480,7 @@
 
     move/from16 v1, v21
 
-    if-gt v0, v1, :cond_fef
+    if-gt v0, v1, :cond_1060
 
     .line 8250
     move-object/from16 v0, p0
@@ -79387,10 +80491,10 @@
 
     aget-object v12, v20, v11
 
-    goto/16 :goto_fef
+    goto/16 :goto_1060
 
     .line 8252
-    :cond_12e2
+    :cond_1353
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -79403,10 +80507,10 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_132f
+    if-ne v0, v1, :cond_13a0
 
     .line 8253
-    if-ltz v11, :cond_fef
+    if-ltz v11, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -79422,7 +80526,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_fef
+    if-ge v11, v0, :cond_1060
 
     move-object/from16 v0, p1
 
@@ -79440,7 +80544,7 @@
 
     move/from16 v1, v21
 
-    if-lt v0, v1, :cond_fef
+    if-lt v0, v1, :cond_1060
 
     move-object/from16 v0, p1
 
@@ -79458,7 +80562,7 @@
 
     move/from16 v1, v21
 
-    if-gt v0, v1, :cond_fef
+    if-gt v0, v1, :cond_1060
 
     .line 8256
     move-object/from16 v0, p0
@@ -79469,10 +80573,10 @@
 
     aget-object v12, v20, v11
 
-    goto/16 :goto_fef
+    goto/16 :goto_1060
 
     .line 8258
-    :cond_132f
+    :cond_13a0
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -79485,10 +80589,10 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_fef
+    if-ne v0, v1, :cond_1060
 
     .line 8259
-    if-ltz v11, :cond_fef
+    if-ltz v11, :cond_1060
 
     move-object/from16 v0, p0
 
@@ -79504,7 +80608,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_fef
+    if-ge v11, v0, :cond_1060
 
     move-object/from16 v0, p1
 
@@ -79522,7 +80626,7 @@
 
     move/from16 v1, v21
 
-    if-lt v0, v1, :cond_fef
+    if-lt v0, v1, :cond_1060
 
     move-object/from16 v0, p1
 
@@ -79540,7 +80644,7 @@
 
     move/from16 v1, v21
 
-    if-gt v0, v1, :cond_fef
+    if-gt v0, v1, :cond_1060
 
     .line 8262
     move-object/from16 v0, p0
@@ -79551,10 +80655,10 @@
 
     aget-object v12, v20, v11
 
-    goto/16 :goto_fef
+    goto/16 :goto_1060
 
     .line 8270
-    :cond_137c
+    :cond_13ed
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -79567,9 +80671,9 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_1028
+    if-ne v0, v1, :cond_1099
 
-    if-ltz v11, :cond_1028
+    if-ltz v11, :cond_1099
 
     move-object/from16 v0, p0
 
@@ -79585,7 +80689,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_1028
+    if-ge v11, v0, :cond_1099
 
     .line 8271
     move-object/from16 v0, p0
@@ -79596,10 +80700,10 @@
 
     aget-object v12, v20, v11
 
-    goto/16 :goto_1028
+    goto/16 :goto_1099
 
     .line 8273
-    :cond_13a5
+    :cond_1416
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -79610,13 +80714,13 @@
 
     move-result v20
 
-    if-eqz v20, :cond_1028
+    if-eqz v20, :cond_1099
 
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/view/KeyboardView;->isNeededPhonepadNumberExtraLabel()Z
 
     move-result v20
 
-    if-eqz v20, :cond_1028
+    if-eqz v20, :cond_1099
 
     .line 8274
     move-object/from16 v0, p0
@@ -79631,9 +80735,9 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_13e0
+    if-ne v0, v1, :cond_1451
 
-    if-ltz v11, :cond_13e0
+    if-ltz v11, :cond_1451
 
     move-object/from16 v0, p0
 
@@ -79649,7 +80753,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_13e0
+    if-ge v11, v0, :cond_1451
 
     .line 8275
     move-object/from16 v0, p0
@@ -79660,10 +80764,10 @@
 
     aget-object v12, v20, v11
 
-    goto/16 :goto_1028
+    goto/16 :goto_1099
 
     .line 8276
-    :cond_13e0
+    :cond_1451
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputLanguage:I
@@ -79676,9 +80780,9 @@
 
     move/from16 v1, v21
 
-    if-ne v0, v1, :cond_1028
+    if-ne v0, v1, :cond_1099
 
-    if-ltz v11, :cond_1028
+    if-ltz v11, :cond_1099
 
     move-object/from16 v0, p0
 
@@ -79694,7 +80798,7 @@
 
     move/from16 v0, v20
 
-    if-ge v11, v0, :cond_1028
+    if-ge v11, v0, :cond_1099
 
     .line 8277
     move-object/from16 v0, p0
@@ -79705,7 +80809,7 @@
 
     aget-object v12, v20, v11
 
-    goto/16 :goto_1028
+    goto/16 :goto_1099
 .end method
 
 .method protected getKeyExtraLabelColor(Lcom/diotek/ime/framework/view/Keyboard$Key;)I
