@@ -1,0 +1,2744 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: h82tEHJVC3L4xgku6eAK2oKiL/s=
+
+Name: res/drawable-xhdpi/keyguard_expand_challenge_handle_anim_03.png
+SHA1-Digest: qQC0gSqUZNan10Z/KYPK25FHJSA=
+
+Name: res/layout/keyguard_message_area.xml
+SHA1-Digest: 4YpDlb72h1jq/9MJxJTXk8PFuxE=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_032.png
+SHA1-Digest: 34qrP8GpS7qLMjCAJG/Aullu1Rg=
+
+Name: res/drawable-xhdpi/ic_lockscreen_ime.png
+SHA1-Digest: +LhiTOkA2wy7VWFRq3dzMZqdhWA=
+
+Name: res/raw/blind_unlock.ogg
+SHA1-Digest: rDfEHLeAUSmadhW8m7u33Kg6NSk=
+
+Name: res/drawable-nodpi/finger_print_arrow_027.png
+SHA1-Digest: 38F5hJI7WqSkHeTvLHMcQC9rWWg=
+
+Name: res/drawable-nodpi/keyguard_expand_challenge_handle_anim_05.png
+SHA1-Digest: gO3EtFyw3/oSrBeiy+p+d0bxY3M=
+
+Name: res/drawable-sw800dp-xhdpi/spass_mismatch_04.png
+SHA1-Digest: tj++MFFaY92vuEE30WqitsXkr+4=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_17.png
+SHA1-Digest: aWWvzY5Ah2KHsp4M0r0dhyBNvyQ=
+
+Name: res/layout-sw800dp-xhdpi/sec_dual_clock.xml
+SHA1-Digest: thyY/V6+ZVMrMl2X3TkEI9DqFbo=
+
+Name: res/raw/unlock.ogg
+SHA1-Digest: /XbnOfqNEcvxedy928vJ+iQ09xI=
+
+Name: res/drawable-xhdpi/keyguard_flare_vignetting.png
+SHA1-Digest: KKgqST2mWC0/Nj7/FmUxxkx3tmk=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_018.png
+SHA1-Digest: WWcUlaTc82w7e/qu5XMwj5zbbic=
+
+Name: res/drawable/keyguard_fmm_call_btn.xml
+SHA1-Digest: p6gUVeztAunydsZgcwnbIG+edBc=
+
+Name: res/drawable-xhdpi/gradation_indi_bg.9.png
+SHA1-Digest: i1CdtwXrNKcUDi7CyUWj/ZOaWas=
+
+Name: res/drawable-nodpi/finger_print_arrow_034.png
+SHA1-Digest: eVihqQ3uS2HL99qzydv5kHzrkjA=
+
+Name: res/drawable-xhdpi/keyguard_signature_additional_pin_focus.png
+SHA1-Digest: CfH+Ui5reEM4HHyTDvShHMMJ/bE=
+
+Name: res/drawable-xhdpi/keyguard_expand_challenge_handle_anim_08.png
+SHA1-Digest: p38ZRCNESzSQyqddA/CNxl5gvuU=
+
+Name: res/layout/keyguard_sim_perso_view.xml
+SHA1-Digest: Iqs3MWj33+BEdUDqhpaBIJQfsWo=
+
+Name: res/drawable-sw800dp-xhdpi/fmm_lock_btn_normal.9.png
+SHA1-Digest: Y7v+KRgycYOXJWlAfvtm2Vj6fuM=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_012.png
+SHA1-Digest: xVX/vKYxUbwb1BD9ux9Q+ZUL38Y=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_021.png
+SHA1-Digest: jcXXr+y/lTBW99ZxE3YwknbglD0=
+
+Name: res/drawable/ic_lockscreen_outerring.xml
+SHA1-Digest: 7K9jjKQ3o1vUfo8QxzMDeNor3Rk=
+
+Name: res/drawable-nodpi/keyguard_expand_challenge_handle_anim_01.png
+SHA1-Digest: tCSGaChdNAWQFCIAwah8RVAZexE=
+
+Name: res/drawable-nodpi/spass_mismatch_14.png
+SHA1-Digest: f7sAW5tlT3kqIHmyWuaaL7nyVv8=
+
+Name: res/anim/keyguard_appear_scale.xml
+SHA1-Digest: 7vqRLWG4wI5qwdsLUqIHRu6k58w=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_016.png
+SHA1-Digest: FwPGAfX7u8i3X2v14E1vmJYRJWw=
+
+Name: res/layout/sec_owner_info.xml
+SHA1-Digest: +oV0VqUHMTLxZm/AdZVEPGDOMMk=
+
+Name: res/drawable-nodpi/keyguard_tension_finger_after.png
+SHA1-Digest: Mcb95wOuqOonO5E7cEd9rM9L0LU=
+
+Name: res/drawable-sw800dp-xhdpi/spass_scan_10.png
+SHA1-Digest: SKppPusU00vBdcMUs+neT6eowKU=
+
+Name: res/drawable-xhdpi/btn_code_lock_touched_candy_06.png
+SHA1-Digest: voq0qyBzBVI6Zvz3aodbnZBzHms=
+
+Name: res/drawable-xhdpi/kg_bouncer_bg_white.9.png
+SHA1-Digest: hG9fYzzY+R2tIXl1mRQjZijQ3Nc=
+
+Name: res/layout/keyguard_multi_persona_avatar.xml
+SHA1-Digest: +nCiWNYtmMvbyrYasbe+lq45yTs=
+
+Name: res/drawable-nodpi/finger_print_arrow_024.png
+SHA1-Digest: jN/LX1hA3FjXSOzwYvS+stGJw/o=
+
+Name: res/drawable-nodpi/spass_mismatch_01.png
+SHA1-Digest: /APpC6Leyvatnin0LtBwyr9JvmI=
+
+Name: res/drawable-nodpi/highlight_dot_012.png
+SHA1-Digest: tuIIVjFeBybCWLy6qIKOY3+yc8s=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_01.png
+SHA1-Digest: fh/TWOsLHIwNjCg88PR057zv00g=
+
+Name: res/drawable/keyguard_onehand_right_selector.xml
+SHA1-Digest: YcQyJPxbmhAZBrBt6Hs1i4kg9YI=
+
+Name: res/drawable-nodpi/finger_print_arrow_021.png
+SHA1-Digest: 5qih6dLMF6WzmVygZXrah9Vohw0=
+
+Name: res/drawable-xhdpi/keyguard_flare_long.png
+SHA1-Digest: 7ViRUwsOjGHPWcXigLUE/zlVQEU=
+
+Name: res/drawable/ic_lockscreen_unlock.xml
+SHA1-Digest: 2qSr1MnApdyANIrBk8wFexIB8HE=
+
+Name: res/drawable-nodpi/finger_print_arrow_008.png
+SHA1-Digest: moymiyGCZ+fWvW7oy9F73Uyow3M=
+
+Name: res/layout/keyguard_emergency_carrier_area.xml
+SHA1-Digest: 6aT8hNJvXotcgtrMtTHIXLH1JI4=
+
+Name: res/raw/lens_flare_tap.ogg
+SHA1-Digest: njvLKOCXvazilrgUzRRv9p2a9Zc=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_26.png
+SHA1-Digest: CFzTYwhdcBF/fyoR62pnugJi01U=
+
+Name: res/drawable-nodpi/highlight_dot_002.png
+SHA1-Digest: lcKWl5cv4tX5yOBaGZUOup3RWIM=
+
+Name: res/drawable-nodpi/finger_print_arrow_045.png
+SHA1-Digest: FFDVBDF118qEXof2BRNwOuSJ32Y=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_flare_hoverlight.png
+SHA1-Digest: xzDPrPLhYRifF7W89eDScBzRPac=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_ic_voice_fail.png
+SHA1-Digest: 61DNhmQDaNMJJftVOYnVBRjpL54=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level19.png
+SHA1-Digest: qFVaSMrbYXZZwGzRom9AqkJQFHI=
+
+Name: res/layout-land/keyguard_widget_pager.xml
+SHA1-Digest: /6TVGXgTWiGZHbVoSlqEfEBPv/U=
+
+Name: res/layout/sec_flight_mode.xml
+SHA1-Digest: /lvFQiNWO5xsydzJsvCTniZPjyk=
+
+Name: res/layout/keyguard_camera_shortcut.xml
+SHA1-Digest: 8AqCZhCpyJslQoi3dP1/r3MFo/I=
+
+Name: res/drawable-xhdpi/keyguard_fmm_btn_pressed.9.png
+SHA1-Digest: RZOxu8KunbgOx8yNkyuhmhCZbBo=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_red_pattern.pn
+ g
+SHA1-Digest: 7VSjM2K4wIml8JdPVj79NbU44qk=
+
+Name: res/layout/tw_keyguard_host_view.xml
+SHA1-Digest: Gahc6N9GcfNejkDwowrKDC0rRag=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_08.png
+SHA1-Digest: XVz4eYCc8hArHXnWoX0EyuoEZUA=
+
+Name: res/drawable-nodpi/keyguard_tension_finger.png
+SHA1-Digest: YbB6XKBGssG3BggkxyhkaEw0DFI=
+
+Name: res/layout/keyguard_smartcardpin_view.xml
+SHA1-Digest: dqoBr76zTtK0r7Ixb9u8XYajapU=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_ic_voice.png
+SHA1-Digest: jR5u3FkPcN40+Ftwt+3Fuf9nViM=
+
+Name: res/drawable-nodpi/finger_print_arrow_019.png
+SHA1-Digest: qxv8syP7gxZUCWIAzLfcqrr+cdc=
+
+Name: res/drawable-nodpi/kg_fmm_btn_call.9.png
+SHA1-Digest: K4ezT5PSv1Mnl1VScFGu9VmmT48=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_navigation_home.png
+SHA1-Digest: B/g454ymeoV9ZZs2MvDWIAuYh38=
+
+Name: res/layout/keyguard_carrierlock_password_view.xml
+SHA1-Digest: DC1dM5HXqNbNTktJdcO1m09qojA=
+
+Name: res/drawable-xhdpi/lock_widget_page_light.png
+SHA1-Digest: HzvGhL7unJ4ZH6Iiq5qFpYvk4Gs=
+
+Name: res/drawable-xhdpi/keyguard_guest_core.png
+SHA1-Digest: T7b/jRcKbeI6+f2bR171Ukbsz/s=
+
+Name: res/drawable-nodpi/keyguard_expand_challenge_handle_anim_06.png
+SHA1-Digest: zcsCJuLAP67ntkI5Ga/BR25vLzU=
+
+Name: res/anim/keyguard_tention_animate_finger.xml
+SHA1-Digest: HFFxuRcTVThIGVFnPqD/9jMljKU=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_01.png
+SHA1-Digest: 2Ox9dIom63QEg8ooNjwGmye4NzU=
+
+Name: res/drawable-nodpi/highlight_dot_017.png
+SHA1-Digest: 3G/uFBgwEz/Kvc98k3acbpafDIc=
+
+Name: res/drawable-nodpi/brilliantcut_light_brush.png
+SHA1-Digest: HL6zU/jUswkdXXf+ZAmi/aul3a4=
+
+Name: res/drawable-nodpi/highlight_dot_029.png
+SHA1-Digest: AuYwC6OaYgCLKnld6gUrE0e+RUU=
+
+Name: res/drawable-xhdpi/music_control_btn_next_normal.png
+SHA1-Digest: xlIStBOC8k395d/gui1+F/clKeU=
+
+Name: res/drawable-nodpi/keyguard_carrierlockplus_call_btn_normal.9.pn
+ g
+SHA1-Digest: +mv/gMpN2ZFQHdivY9TZ7uP8Xn8=
+
+Name: res/drawable-nodpi/keyguard_carrierlockplus_emergency_btn_normal
+ .9.png
+SHA1-Digest: dnHwTLL82I7cRWGETRfomj5PAMc=
+
+Name: res/drawable-nodpi/highlight_dot_010.png
+SHA1-Digest: 0nGfPZjgFFjg043bt/Cm75f1bXU=
+
+Name: res/anim/keyguard_appear_guest_bigcircle_translate.xml
+SHA1-Digest: RGIQcFZihMlNgs/qDKhHMEW6nJQ=
+
+Name: res/drawable-xhdpi/keyguard_longlife_wallpaper_black.png
+SHA1-Digest: 2BBgVw0ThB0MT8fDx404O0YwA5s=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_27.png
+SHA1-Digest: YlOpm8vwbYEm+0dz/cmxoUPeKTE=
+
+Name: res/layout/sec_contextual_event_container.xml
+SHA1-Digest: NFI4WE/Ba9sQl/1j0Q27QRp8ECY=
+
+Name: res/layout/keyguard_mass_tension_effect_view.xml
+SHA1-Digest: ikRtDHBxr/0JOrb5tP7pDOR4nvM=
+
+Name: res/drawable-xhdpi/homescreen_menu_noti_bg.9.png
+SHA1-Digest: x8ZHnrclwG/rUBOLq7nJ+lto+QY=
+
+Name: res/drawable-nodpi/keyguard_expand_challenge_handle_anim_12.png
+SHA1-Digest: xVm1TZ+Ttvyybyft8Ac+lNZg4BQ=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_024.png
+SHA1-Digest: 2IEPjOPyo/ln9ggrOQdphj+W4wo=
+
+Name: res/drawable-nodpi/highlight_dot_004.png
+SHA1-Digest: Aak/lZEX46yYR4YBWMz+bs3HVJk=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level7.png
+SHA1-Digest: Z9b6KF8Ht5KMOKsX+Us7pG6fC/U=
+
+Name: res/drawable-nodpi/highlight_dot_015.png
+SHA1-Digest: dsWcZyCunmcDbVMn0aq1JMEUh44=
+
+Name: res/drawable-xhdpi/keyguard_popup_upper_pressed.9.png
+SHA1-Digest: DMwMbVnfb31QoUz/TaMuzjhLqMc=
+
+Name: res/drawable-nodpi/keyguard_expand_challenge_handle_anim_14.png
+SHA1-Digest: x4Ddy4LVdHmvlgN3L1C8lpCS9CA=
+
+Name: res/raw/gravity_effect.ogg
+SHA1-Digest: MHGyyVRQZj1519kSvX1r3tta6B0=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_16.png
+SHA1-Digest: MSGsMTjwPQWHDUVjt8l+6ouvQAk=
+
+Name: res/raw/simple_ripple_up.ogg
+SHA1-Digest: VPe+OfjVV1lbFtroRuWqa+eEDtw=
+
+Name: res/drawable-xhdpi/ic_lockscreen_camera_activated.png
+SHA1-Digest: ub0LieEAI8vNnQiugREvwUnpeNw=
+
+Name: res/layout/keyguard_guest_selector.xml
+SHA1-Digest: hdOJJlDglDHJtbmD67QM/KE12Co=
+
+Name: res/drawable-nodpi/keyguard_expand_challenge_handle_anim_10.png
+SHA1-Digest: TlMsMnFmNhqj7iNEhSSIFUkp29I=
+
+Name: res/drawable-nodpi/safety_ic_standby_time06.png
+SHA1-Digest: zmsGODLwX5joYD/60n2jea5D9aU=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlock_circle_1.png
+SHA1-Digest: lvpgwrukubogumzZPlwIXoAhsuk=
+
+Name: res/drawable-xhdpi/weather_icon_s_02.png
+SHA1-Digest: KEqdQyUk+Pna3Xp2ARayIWE/SMQ=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_27.png
+SHA1-Digest: orsD6+rQ2bKd3aEVf+a5qZQrYy4=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_11.png
+SHA1-Digest: L8hYG2gf3xrLC+Vz2/zXiw2LeX0=
+
+Name: res/drawable-xhdpi/keyguard_flare_light_00040.png
+SHA1-Digest: r0LY2uE2irNplC91b5kuOkJ5YMA=
+
+Name: res/drawable-xhdpi/caustics2.png
+SHA1-Digest: JXEe/IwXiWjjzB7Xdwsrjyo+6Tk=
+
+Name: res/drawable-xhdpi/weather_icon_s_09.png
+SHA1-Digest: 6zV0BPlhD4D7l3DcZTudr75lDBg=
+
+Name: res/drawable/sec_magazine_flight_mode_off_button_selector.xml
+SHA1-Digest: Nn0Y9qCDKO6HuxcalaxM3s9QRlc=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_emergency_carrier_area_unlock.
+ xml
+SHA1-Digest: //9lO1BsOCpIrBccWme/TCkAo8k=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_09.png
+SHA1-Digest: /ogDfP5pmPbK9RBWcOhNRo1tHJw=
+
+Name: res/drawable-nodpi/lock_timer_btn_reset_press.9.png
+SHA1-Digest: s+sKeOXQabCplX0FPPKL2kuW6TE=
+
+Name: res/layout/sec_adaptive_event_container_small.xml
+SHA1-Digest: Sp7WaumhBDWVyn4q9pDw+1g6LSE=
+
+Name: res/drawable-nodpi/keyguard_popup.9.png
+SHA1-Digest: pagQk+CfktdmNpSGh2wbpISvSY8=
+
+Name: res/drawable-nodpi/keyguard_expand_challenge_handle_anim_09.png
+SHA1-Digest: CwGXymgf5MYLRQF/tIt9t6LGMKE=
+
+Name: res/anim/scale_5.xml
+SHA1-Digest: x2Yq6Wi0JUzxPZnET0o0/qll7MM=
+
+Name: res/layout/sec_contextual_clock.xml
+SHA1-Digest: 3byavLky0LHbYXVffys/Q6+Z9Ow=
+
+Name: res/layout/keyguard_fmm_unlock_view.xml
+SHA1-Digest: 7KCMdEn8taILfVpnqIWkoqRQX8s=
+
+Name: res/drawable-nodpi/finger_print_arrow_003.png
+SHA1-Digest: Bv/7kBqpPrm0/BFP/uE1LfCiDOo=
+
+Name: res/drawable/keyguard_delete_drop_rollover_bg.xml
+SHA1-Digest: ig6W4yflu3HCi/RnSEngDyS1a0o=
+
+Name: res/drawable-nodpi/spass_scan_04.png
+SHA1-Digest: NUNh8PYg7BLao4TdmnzTEXY8bP4=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_029.png
+SHA1-Digest: iPMIKND5qm+fGXeNsVxkJVW1dw0=
+
+Name: res/drawable-xhdpi/kg_security_lock_normal.png
+SHA1-Digest: OuW7IsPYc6pMcaWwooLYwsVVEJ8=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_08.png
+SHA1-Digest: 97S95LhxmHQe+xN8fZqTEPItGds=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_green_candy_06
+ .png
+SHA1-Digest: RFR+j98xqrnifvsST2JGSbP6rzI=
+
+Name: res/drawable-xhdpi/music_control_btn_pause_normal.png
+SHA1-Digest: x+JIZ2tWWEhW7mOXJmKkTII0Jnw=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_17.png
+SHA1-Digest: V3M4QdQaO+7HkrnW/ISHDO3+BXo=
+
+Name: res/drawable-nodpi/highlight_dot_008.png
+SHA1-Digest: vDwJhjPJMyAyg0A677zYV8oL/9Q=
+
+Name: res/drawable-nodpi/camera_press.png
+SHA1-Digest: yjiiC4RBlRxTC9ZDVvridCM5F7w=
+
+Name: res/drawable-sw800dp-xhdpi/spass_scan_07.png
+SHA1-Digest: ZISD5r/AtpgVf/fyRDxz5xb4grk=
+
+Name: res/drawable-nodpi/finger_print_arrow_017.png
+SHA1-Digest: 7nlU0Z77r39kmiXCE8cYF/3/pc0=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_18.png
+SHA1-Digest: mFApQlLrpS9dX1KaVmb9n0oiAtU=
+
+Name: res/drawable/keyguard_default_knox_wallpaper.jpg
+SHA1-Digest: +9zoI9PHra/CDEybrkKJdvhSPvQ=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_ic_voice_check.png
+SHA1-Digest: f50b1NTSUptIKsyQHIJNKUzNYqM=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_18.png
+SHA1-Digest: dIyGdpd21/dGjmIhVoVSt4x7Co8=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_004.png
+SHA1-Digest: OQtvS+nw6HAdVvt+2v78EQ1nebM=
+
+Name: res/drawable-sw800dp-xhdpi/fmm_lock_btn_focused.9.png
+SHA1-Digest: EcWewrmTN4+6pF5q/XlFrbLJKnY=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_022.png
+SHA1-Digest: 4kqZ7nVNAcurDgohuiGHHcGnOuM=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_25.png
+SHA1-Digest: 4fcSMPT1aYJDlNEiXvAy4agmdzg=
+
+Name: res/drawable-xhdpi/btn_code_lock_touched_candy_02.png
+SHA1-Digest: +fZPXAemiPHfkhRnPd7pBsPfX9A=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_20.png
+SHA1-Digest: jJtxJD0fUJdmw9rnK9hxbzC5G1M=
+
+Name: res/drawable-xhdpi/caustics.png
+SHA1-Digest: +EAc7aMhiJImZjmnK+0vmC+g+s4=
+
+Name: res/drawable-nodpi/spass_mismatch_13.png
+SHA1-Digest: dPBOuwJRj4bko/TRripkoudY654=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_04.png
+SHA1-Digest: mxr32WupOOeBD1d+fSa0inmM1iY=
+
+Name: res/drawable-xhdpi/weather_icon_s_03.png
+SHA1-Digest: DCHYI2hAq73tWY9FqJEykag8NF4=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_23.png
+SHA1-Digest: GN6sbQ1fV+SI8f+JiU6ynbZYbzA=
+
+Name: res/drawable-nodpi/weather_events_f.png
+SHA1-Digest: zpBmNcBOy4GychalKaja9tgUyQw=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_default_wallpaper.png
+SHA1-Digest: GCdIuRnNC3tiNQ/OtnB2FafnaXk=
+
+Name: res/drawable-xhdpi/kg_widget_delete_drop_rollover_bg.png
+SHA1-Digest: PbhwkA9vTkzYjXqjkOehqnczWgI=
+
+Name: res/layout/keyguard_unlock_view.xml
+SHA1-Digest: hTWMibcepex7Jq6eA9wjg/fa22s=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_30.png
+SHA1-Digest: HAuHe5UXD/zsO//KhQlJze1g+YI=
+
+Name: res/drawable-xhdpi/scrubber_control_focused_holo.png
+SHA1-Digest: ZYRk/af9l4F6dIZUq0Mfaci5bZI=
+
+Name: res/drawable-nodpi/safety_ic_standby_time05.png
+SHA1-Digest: w37f6NQzyH2t5HCJ7Umfu5SkvEw=
+
+Name: res/drawable-nodpi/finger_print_arrow_038.png
+SHA1-Digest: 4kYbFwX/KZwuXraItT/HuHQ7VKM=
+
+Name: res/drawable-xhdpi/ic_lockscreen_glowdot.png
+SHA1-Digest: NInnN8Mrk79kJHJEHtJjH4aaMPw=
+
+Name: res/drawable-xhdpi/unlock_delta_thumb_frame.png
+SHA1-Digest: iP0T9JSeFEoUA4v1+D72/3bP1R8=
+
+Name: res/layout/sec_adaptive_weather_big.xml
+SHA1-Digest: koLqSVR1XqUbeEw4lwOS7NW/0ds=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_flare_particle.png
+SHA1-Digest: 6cXfWWAdPyvZsr2iNpgK/jmEcyY=
+
+Name: res/layout-sw800dp-xhdpi/sec_owner_info.xml
+SHA1-Digest: elthIkfdj41A7kUJjnmssDtFFWQ=
+
+Name: res/drawable-nodpi/lock_help_btn_nor.9.png
+SHA1-Digest: 0XdYJkcgn9x702cg20aHhlFHeQM=
+
+Name: res/layout/keyguard_fmm_widget_view.xml
+SHA1-Digest: elzHkfR/saCs5C7YXL/1HS2sEms=
+
+Name: res/drawable-xhdpi/weather_icon_s_07.png
+SHA1-Digest: Xwb7dx0rEsuEp9lZPSL81heFoK8=
+
+Name: res/drawable-nodpi/emergency_btn_focus.9.png
+SHA1-Digest: aanD07vqRiBrlJnmEnIYLwt5uhQ=
+
+Name: res/layout-sw800dp-land-xhdpi/keyguard_pin_view.xml
+SHA1-Digest: 3URpWhftPSnUL15dmT54LD6lOYM=
+
+Name: res/layout/keyguard_spass_account_view.xml
+SHA1-Digest: T8H4mAn0Y0ssEZgmbugnno2YaAg=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_27.png
+SHA1-Digest: 3TMxx0nLq5zMaoy98e6JGz1sfYM=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_29.png
+SHA1-Digest: sc0UCXiN4GFWg/R8MjIcsx3fppE=
+
+Name: res/layout-sw800dp-xhdpi/sec_my_profile.xml
+SHA1-Digest: 8NiP8uYqbm9dVL4qQcB1NYXZ9Vc=
+
+Name: res/layout/keyguard_emergency_carrier_area_unlock.xml
+SHA1-Digest: ZBOwtb+ZsJd8U2LjpU57gqNfkEo=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_16.png
+SHA1-Digest: f70+AohnfvBdg91JCuelEgPTvaE=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_23.png
+SHA1-Digest: ZuR2BVZzaJe3vhqjC8kENoriqtE=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_ic_voice.png
+SHA1-Digest: Wtd4HOxkyfrT7ZuuDwvIrqsA780=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_20.png
+SHA1-Digest: 01YKE0qCR9hf8gpp9r3RZFRUFZo=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_003.png
+SHA1-Digest: Iw4R9+qTYozdaN52fTSK7zlcmNQ=
+
+Name: res/drawable-sw800dp-xhdpi/spass_scan_03.png
+SHA1-Digest: zl3Rc1hKTCdITmRGvflQ7PqnOz4=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_fmm_unlock_view.xml
+SHA1-Digest: 3OrZ5EXkLR8N/Hg0YCdAn1VYubo=
+
+Name: res/layout-sw800dp-land-xhdpi/keyguard_signature_view.xml
+SHA1-Digest: n4EvQzQdcCpA+uN4LaisngpVseg=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_08.png
+SHA1-Digest: hUpouGlpR27+fZZf8SXTZyMqlSY=
+
+Name: res/drawable-nodpi/spass_scan_09.png
+SHA1-Digest: oEB5C53DA58DGWQeeau+/InUqr0=
+
+Name: res/drawable-sw800dp-xhdpi/spass_scan_05.png
+SHA1-Digest: nu7u9EcSGdbY0dwxx9VR0C6G+oc=
+
+Name: res/drawable-xhdpi/keyguard_longlife_wallpaper.png
+SHA1-Digest: P6DhHyU21i68gzoCsFH1eN8mFto=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_message_area.xml
+SHA1-Digest: TRb3jk2FPDSWJlHk37Oz6JbCdug=
+
+Name: res/drawable-nodpi/spass_mismatch_15.png
+SHA1-Digest: dY4dAfZW4e0YvVkLX9nchfbmlak=
+
+Name: res/drawable-nodpi/guest_press.png
+SHA1-Digest: lb6OwfDZS1KsyuSgOnvZ/WmWryc=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_033.png
+SHA1-Digest: NprKaZfJCLUW1jEtA6Ofg0ljRF4=
+
+Name: res/drawable-nodpi/lock_timer_btn_reset_focus.9.png
+SHA1-Digest: tCDD7STdnWErY9TYU9U4txTHKwE=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_04.png
+SHA1-Digest: +UBnTofgBKG7eKBY1iitnsrlBSg=
+
+Name: res/drawable-xhdpi/keyguard_flare_rainbow.png
+SHA1-Digest: lNsh1GJjkIMKGi4prvT3ZvuoRzg=
+
+Name: res/drawable-xhdpi/clear_shortcut_ic_bg_orange.9.png
+SHA1-Digest: prLqh+KkskckAp8ggcJ/WLcprAw=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_07.png
+SHA1-Digest: NCwmPdP7jyh0wtaJN05faGUwjrA=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_28.png
+SHA1-Digest: GNU8m9KaHhTlIxjY0Is+o7C9n1k=
+
+Name: res/layout-land/keyguard_host_view.xml
+SHA1-Digest: 6CMcgnuaBVYvgdY/BIUHcz9SgGQ=
+
+Name: res/drawable-nodpi/spass_mismatch_08.png
+SHA1-Digest: 1viGLt4y1Qf1cj1nlvpVESStzzo=
+
+Name: res/drawable-nodpi/highlight_dot_028.png
+SHA1-Digest: YlP6R1zoZBN8y/+vS87gxg4Xwgc=
+
+Name: res/drawable-xhdpi/kg_add_widget.png
+SHA1-Digest: GY0rb94/ENtvnVEjt9bNYw4y7PM=
+
+Name: res/drawable-xhdpi/lock_security_sim_pin_ic.png
+SHA1-Digest: mz94uCGwtLQlFcJhp+nDEcadRPs=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_multi_user_avatar.xml
+SHA1-Digest: OrzzbU8Q9G+GYsULqBmDct2iJ6Y=
+
+Name: res/drawable/keyguard_default_wallpaper.png
+SHA1-Digest: 5uGuAPZyIzZkE3ZaFg9DdPfpFLY=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_05.png
+SHA1-Digest: g6+amBNfpGrb2JFSJFTwIYVgNwU=
+
+Name: res/drawable-sw800dp-xhdpi/spass_mismatch_05.png
+SHA1-Digest: FMzRNVw/6SnjrCB+SiEiIe2pV0k=
+
+Name: res/layout/keyguard_carrierlock_unlock_view.xml
+SHA1-Digest: mjStUXWPUW8E4bskZCUxaPpl4qs=
+
+Name: res/drawable-xhdpi/weather_icon_s_17.png
+SHA1-Digest: NSvllEic1nne10Hg0bcy963IYxk=
+
+Name: res/drawable-nodpi/watercolor_tube.png
+SHA1-Digest: n6EQdr0930xGzGgA0xa1eqnfuaI=
+
+Name: res/drawable-sw800dp-xhdpi/spass_scan_08.png
+SHA1-Digest: ntRrODXsR2u+5DbI/tWbiGVv8ms=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level12.png
+SHA1-Digest: xzpk4dbSGNv/joInh3xHMa1T44Y=
+
+Name: res/drawable/sec_magazine_flight_mode_off_button_text_selector.x
+ ml
+SHA1-Digest: 1nk5wDZiErOQfNBNiHU7d/dsOwA=
+
+Name: res/drawable-xhdpi/keyguard_expand_challenge_handle_anim_02.png
+SHA1-Digest: H9kWEah4rsYJ1M7fCD2OxN8TnZc=
+
+Name: res/drawable-nodpi/watercolor_mask3.png
+SHA1-Digest: +DSdKsiiJMBZUVMGXbXP0TI+0yM=
+
+Name: res/drawable-sw800dp-xhdpi/spass_mismatch_15.png
+SHA1-Digest: DVp6D3qL6u2fF2MSn09mHlD9uM4=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_20.png
+SHA1-Digest: NN4P0FQA7n9+WZVMKm8bmLNE51I=
+
+Name: res/drawable-xhdpi/keyguard_onehand_arrow_left.png
+SHA1-Digest: t70ec9YftOGDYjRiObSY/f22H48=
+
+Name: res/drawable-nodpi/unlock_air_switch.png
+SHA1-Digest: zMWKTKerV0qcIeubeRb81b5bUto=
+
+Name: res/drawable-xhdpi/ic_lockscreen_emergencycall_pressed.png
+SHA1-Digest: OvYkCsnpTPiY5OH8UBIqpQnOCBQ=
+
+Name: res/drawable-nodpi/finger_print_arrow_023.png
+SHA1-Digest: 12qlQ6R2dOeVUnXUxi2U5QNEpCE=
+
+Name: res/drawable/lockscreen_music_widget_play.xml
+SHA1-Digest: y3fWrsyIP/9f9n377o+k20qUrrE=
+
+Name: res/drawable-nodpi/homescreen_menu_noti_bg.png
+SHA1-Digest: mvlvlEPi9PxkKK6YCV6NbLIDGiE=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_signature_bg.9.png
+SHA1-Digest: 4yQvDe8iiFenFXAw7ZHJFtrO6T0=
+
+Name: res/drawable-xhdpi/scrubber_control_normal_holo.png
+SHA1-Digest: jOpB9g139ZkUakfznmUqOPHWwaY=
+
+Name: res/drawable-nodpi/kg_fmm_ic_call.png
+SHA1-Digest: 9O3+J8SygTrcogxmexbF649HRTk=
+
+Name: res/anim/keyguard_tention_animate_fadeout.xml
+SHA1-Digest: Lrosz2LiTgvsSwBjJFgdKAji794=
+
+Name: res/layout-sw800dp-xhdpi/sec_travel_info.xml
+SHA1-Digest: KHOncWC1cTQYpXvGZHlnqyE4o1c=
+
+Name: res/drawable-xhdpi/btn_code_lock_touched_candy_05.png
+SHA1-Digest: UJSc30dGWKEe607N4W3/U1TxOOA=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_12.png
+SHA1-Digest: vY7wztyptJFBG3946Co/IG3FdiA=
+
+Name: res/drawable-nodpi/gradation_indi_bg.9.png
+SHA1-Digest: wDPK95f5U9XZxe/NAq4dDIuY04U=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_03.png
+SHA1-Digest: /sMB3jjvcYPc3IrPnLiCcab5yx8=
+
+Name: res/drawable/ic_lockscreen_mum_btn_selector_close.xml
+SHA1-Digest: gz5u2ECxj3VqJDRR8PJ9ssbEkuU=
+
+Name: res/drawable-xhdpi/keyguard_navigation_home.png
+SHA1-Digest: fNP3Po5nXE2R891xC5dXaqk+OV4=
+
+Name: res/drawable-xhdpi/music_control_btn_prev_pressed.png
+SHA1-Digest: QpSMX7aVmhs9sf1jsnUXU0/kGto=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_19.png
+SHA1-Digest: j2PlWSzj+fSwCltb5wui9UbAbZE=
+
+Name: res/drawable-nodpi/carrierlock_unlock_icon.png
+SHA1-Digest: Dh0kUPAveGDJAApaw022wlpdUlQ=
+
+Name: res/drawable-nodpi/music_control_btn_pause_pressed.png
+SHA1-Digest: tw+EuskBOJQ4SHfr72jG8no44xM=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_default_candy_
+ 08.png
+SHA1-Digest: J88Y1g+kVhwS+HfyHipqc8uyfTE=
+
+Name: res/drawable-nodpi/keyguard_popup_upper.9.png
+SHA1-Digest: X0JIfEfMxgVCtgDuFnXkZRNMoKg=
+
+Name: res/raw/particle_drag.ogg
+SHA1-Digest: a0KKn9AWl2ew3n+JJKyYe8mfiGY=
+
+Name: res/drawable-nodpi/highlight_dot_007.png
+SHA1-Digest: KrxzpwpJErzevuEtF/3Si3ZbxCw=
+
+Name: res/layout/keyguard_multi_user_avatar.xml
+SHA1-Digest: /mknjaL8WAu7oE2gnLcKtEroUds=
+
+Name: res/drawable-sw800dp-xhdpi/unlock_delta_thumb_arrow_pressed.png
+SHA1-Digest: MpmBJI3d6UwiPm9+fQFx5VC+OCo=
+
+Name: res/layout-sw800dp-port-xhdpi/keyguard_sim_puk_view.xml
+SHA1-Digest: uPfXdn8mqdcFXWq49tnJ5bckbPQ=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_020.png
+SHA1-Digest: WIUGkTsHUjR9F5IP80CohPfsRX4=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_23.png
+SHA1-Digest: McCdkSKSw8QmZ8jCViKhGVVjCuU=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_default_candy_
+ 06.png
+SHA1-Digest: 2lo9V0caFilr8mE4CoXggkGyoRo=
+
+Name: res/drawable/ic_lockscreen_handle.xml
+SHA1-Digest: sUdyZcHHhpqzn8laX/V6P47H5n4=
+
+Name: res/drawable-nodpi/keyguard_popup_upper_pressed.9.png
+SHA1-Digest: 5JjeibNu08TGQrzQypXjSLLhLjk=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level6.png
+SHA1-Digest: zGZ/wgk2iQjvRuNL0qw2evvlwjY=
+
+Name: res/drawable-xhdpi/weather_icon_s_22.png
+SHA1-Digest: Xmkecz02ECL8grbgvpR/n04Qb74=
+
+Name: res/drawable-xhdpi/weather_events_c.png
+SHA1-Digest: k6mFg1yVgd2bTLeYnpQAVcDRbHk=
+
+Name: res/drawable-xhdpi/keyguard_fmm_ic_call.png
+SHA1-Digest: wm+fwRZKhwsQUr7AgLDmxTsME1g=
+
+Name: res/anim/scale_2.xml
+SHA1-Digest: TmA42wfX3T7Vp7Sa5wcIs7j3nWo=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_026.png
+SHA1-Digest: 0uFTBgud26it5fXIWqVyxxC9edE=
+
+Name: res/drawable-sw800dp-xhdpi/spass_mismatch_01.png
+SHA1-Digest: f4FN6mSRoIWhTd08pK5V+x962/8=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_25.png
+SHA1-Digest: FTyEar+ACeX3OmDhFvVGgJBNS9Q=
+
+Name: res/layout/keyguard_spass_unlock_view.xml
+SHA1-Digest: yNP57jRCrRfsmyhjBO31x+rY1jo=
+
+Name: res/drawable-nodpi/keyguard_blind_light.png
+SHA1-Digest: G3u3Rxhvi6AsyQ9DeL2MFiwcYYE=
+
+Name: res/drawable-xhdpi/keyguard_unlock_circle_circleview_in.png
+SHA1-Digest: lFqP9gXW3bOQiB0vcjIUr3sLK+Y=
+
+Name: res/drawable-nodpi/watercolor_mask2.png
+SHA1-Digest: 6Tc/1C9sZIjXF8Y2Wxe9clLe6R0=
+
+Name: res/layout-sw800dp-port-xhdpi/keyguard_widget_pager.xml
+SHA1-Digest: xC9Tr9C01uIJFAqTIAWwHkn80Wo=
+
+Name: res/layout/keyguard_persona_selector_view.xml
+SHA1-Digest: mOuRF7afiMd4MbX12tsk0w09qWY=
+
+Name: res/anim/scale_4.xml
+SHA1-Digest: twwB5ViGCMNEggn2SSRBXKU2aBg=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level14.png
+SHA1-Digest: xjONaWrlJika0DhfGL+z6SQQVJs=
+
+Name: res/drawable-nodpi/spass_scan_08.png
+SHA1-Digest: mkZvafsA5UE00xdh6DwLt6ADWbA=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_26.png
+SHA1-Digest: 4UdlK0cvzhj7ostiJTC4cZq8ZM4=
+
+Name: res/drawable-sw800dp-xhdpi/unlock_delta_bg.9.png
+SHA1-Digest: PjaIFXEoXMZqg9JgqRWhkpydq0I=
+
+Name: res/drawable-xhdpi/weather_icon_s_21.png
+SHA1-Digest: FUk67d9modrsqWZcSkFD+NiK4eQ=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_green_candy_03
+ .png
+SHA1-Digest: 1a5C2GWco8omDkJpG+RbBDZymbE=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level9.png
+SHA1-Digest: dYMPI7RapBCNQfsACCr17gvcaF8=
+
+Name: res/drawable-xhdpi/ic_lockscreen_unlock_normal.png
+SHA1-Digest: 1X20cek/3jqInflupyESt2wzANA=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_21.png
+SHA1-Digest: VaDGy83SHB5nhc64Kfayz5koVRs=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level3.png
+SHA1-Digest: pJsD89tSYdE/RVvQ5XWw+Ik5T88=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_11.png
+SHA1-Digest: I8IGr1JWsdfd76jXCkPJoF0woXs=
+
+Name: res/drawable-nodpi/highlight_dot_027.png
+SHA1-Digest: AipxTy/FMniy3PC4bBub61s4qjA=
+
+Name: res/drawable-xhdpi/kg_widget_delete_drop_target_bg.9.png
+SHA1-Digest: 5fWkEHBeJTl9OB+16+igPghZbaE=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_arrow.png
+SHA1-Digest: CgkC4eYVQ8VVC0H4Be7DE6q6x9M=
+
+Name: res/raw/brilliantcut_unlock.ogg
+SHA1-Digest: BF2ltyOXccVqE/xpnT1QNsCGxa4=
+
+Name: res/drawable-xhdpi/keyguard_expand_challenge_handle_anim_15.png
+SHA1-Digest: dRMSQnYlvLBMUJD1eqQPSxmWpPA=
+
+Name: res/layout/keyguard_spass_password_view.xml
+SHA1-Digest: BZArbLRXfV2Rft4fANlnhBux2sQ=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level4.png
+SHA1-Digest: QWM6eKyLgaQp8xaVSkq9vC6zvFI=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_005.png
+SHA1-Digest: wsaaUfLJEp+LNt3EwbMlrz2kemQ=
+
+Name: res/drawable-xhdpi/keyguard_flare_hexagon_green.png
+SHA1-Digest: Pg0snE2nwGrq6WO/01/w7nZoMgA=
+
+Name: res/drawable-nodpi/kg_bouncer_bg_white.9.png
+SHA1-Digest: iOdO9fW9KJ8aD0CJETx7/VNDvb4=
+
+Name: res/drawable-nodpi/highlight_dot_032.png
+SHA1-Digest: PCm05b3uoXy1/bX+x4+H3MKPUtE=
+
+Name: res/drawable-nodpi/finger_print_arrow_006.png
+SHA1-Digest: GddL5Iw7se509ja/lZCBjpRjzgs=
+
+Name: res/drawable-nodpi/safety_ic_standby_time08.png
+SHA1-Digest: t94xGKy8JHF+7ViKCDQNX0o3zyE=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlock_circle_circleview_in.
+ png
+SHA1-Digest: doJedpb94NFNmhQfYG3WXKvS7oA=
+
+Name: res/drawable-nodpi/unlock_pattern_fail_div.png
+SHA1-Digest: DAXKephdF+dPR2pnVOCuBJO55NI=
+
+Name: res/layout-sw800dp-port-xhdpi/keyguard_unlock_view.xml
+SHA1-Digest: gWrCcsrsr2ICpPLyshh0/ZUBkSw=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_navigation_normal.png
+SHA1-Digest: ucqXstvM96qI9b9t2vPEDIEkSlA=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level16.png
+SHA1-Digest: 36m4NEjY2gEYmcglx9XdVk+Juz8=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_12.png
+SHA1-Digest: mcBWtnxe1sZkRPRPaCg8IgTBto4=
+
+Name: res/drawable-nodpi/finger_print_arrow_041.png
+SHA1-Digest: atTCFQpfH6HnHTl83MOITJIQjMk=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_16.png
+SHA1-Digest: uFVLt0Ta4lbpaeVGLV45sPcSftw=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_15.png
+SHA1-Digest: jq27n9efPdvjnzUHPX0TaC/q7hw=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_10.png
+SHA1-Digest: y73uc3LUjyFTjxEYJ5KMHyiVjj0=
+
+Name: res/drawable-xhdpi/keyguard_flare_hexagon_orange.png
+SHA1-Digest: udVxlKkMLR8YkNY0FYIvIYD2Wpk=
+
+Name: res/drawable-sw800dp-xhdpi/spass_mismatch_13.png
+SHA1-Digest: FamOH1jQpJ3aM6ljlrY7qzN8QAY=
+
+Name: res/layout/keyguard_pattern_view_onehand.xml
+SHA1-Digest: zGelLOzbs3jv5JOhG9/JxO9YgP4=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_pattern_view.xml
+SHA1-Digest: pQguPTllXoyy4mcwFRkW7PuAQA8=
+
+Name: res/drawable-xhdpi/scrubber_control_pressed_holo.png
+SHA1-Digest: S0Y4IMXLs5w/HouvEIuK8mUzr5A=
+
+Name: res/drawable-xhdpi/keyguard_unlock_circle_1.png
+SHA1-Digest: RzTiScvrNIFwDE3SHi1V1HJOSN4=
+
+Name: res/drawable-sw800dp-xhdpi/spass_mismatch_11.png
+SHA1-Digest: /HZwHA4IIMMixLMXx3z53RCoLnM=
+
+Name: res/layout/keyguard_widget_remove_drop_target.xml
+SHA1-Digest: IPdgmNlEydCK5hDjYsScLOx5LkY=
+
+Name: res/drawable-sw800dp-xhdpi/unlock_delta_thumb_arrow_close_presse
+ d.png
+SHA1-Digest: mLZyddbq48jb3uO/UoL8PoSJtfA=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_10.png
+SHA1-Digest: nPGOSXgO6AEIJX7YYCgGl/QG7gI=
+
+Name: res/drawable-xhdpi/music_control_btn_play_pressed.png
+SHA1-Digest: 4sqAdPtoxCorMnZIVRrjYnZv3Do=
+
+Name: res/layout/keyguard_carrierlockplus_unlock_view.xml
+SHA1-Digest: EQWv4dvWTjAtxLJzvaNq6iODuAk=
+
+Name: res/drawable/scrubber_control_selector_holo.xml
+SHA1-Digest: peYdGKH79y6nJHu/HcgM9+FKiU8=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlock_circle_arrow_1.png
+SHA1-Digest: l6MfYhD98QMRog3ITwGwHBNVuFU=
+
+Name: res/drawable-sw800dp-xhdpi/spass_mismatch_08.png
+SHA1-Digest: 0VKCFgAyZVl+JFZbqWatrjImi3I=
+
+Name: res/drawable-sw800dp-xhdpi/lock_ic_home.png
+SHA1-Digest: NZ1+pBJbEGA/UGkFW3TXK5rZ2yc=
+
+Name: res/drawable-nodpi/kg_widget_delete_drop_target_trashcan.png
+SHA1-Digest: yfb9gGUpAnW9qWw063u1QGcJnrc=
+
+Name: res/drawable-xhdpi/kg_fmm_ic_call.png
+SHA1-Digest: oaFQtpi8AixwxMT+dg9iB3xV+Xk=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_08.png
+SHA1-Digest: lBHLcjQ6DbFYZ5N3aU8O8YxRN0Y=
+
+Name: res/drawable-xhdpi/kg_widget_delete_drop_rollover.png
+SHA1-Digest: MOmQTGFedCJbp7JrYXsFGTu1yv8=
+
+Name: res/drawable-nodpi/spass_mismatch_10.png
+SHA1-Digest: 7P82U9tHBbd6/iOHK+dv61A4Vls=
+
+Name: res/layout/keyguard_presentation.xml
+SHA1-Digest: wOiMOlE5AsOhIA8gZMRwMm6VDsE=
+
+Name: res/drawable-nodpi/highlight_dot_026.png
+SHA1-Digest: mFVmzkANs/vVVRA0Z5InUAczpIE=
+
+Name: res/drawable-xhdpi/ic_lockscreen_unlock_activated.png
+SHA1-Digest: 7kyF7nU1TYzlK86EokvJJZlHPgM=
+
+Name: res/drawable-xhdpi/weather_icon_s_19.png
+SHA1-Digest: OgRwlLOeNlTiRa1102KabAIY780=
+
+Name: res/drawable-nodpi/finger_print_arrow_002.png
+SHA1-Digest: TW1w4QWG91EIbxv2ioGhXDS/APc=
+
+Name: res/drawable-nodpi/finger_print_arrow_005.png
+SHA1-Digest: ZuNqipe7+5e3yCkLhxhT+za1TYQ=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_04.png
+SHA1-Digest: /N9Ud+d94Yr5wKHeNU1pYOWuqZw=
+
+Name: res/drawable-nodpi/spass_scan_06.png
+SHA1-Digest: uwLWOfpOldJJ7uyYmsL5OlIxHmw=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_031.png
+SHA1-Digest: kOKKa+kqeLH99XxIjamm4/cDSq0=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_default_candy_
+ 03.png
+SHA1-Digest: qX+OzvUZca1bBlA8RR4kWEqH434=
+
+Name: res/anim/scale_1.xml
+SHA1-Digest: 7cMt6PVyfOIDqDhrH8n8t5ZmV4I=
+
+Name: res/drawable-xhdpi/scrubber_control_disabled_holo.png
+SHA1-Digest: LI8Ppw6N8XxB06r5D7oznfn8reo=
+
+Name: res/layout/keyguard_magazinecard_holder.xml
+SHA1-Digest: DFutsM7FG+KtcRBNicwh5CACKSM=
+
+Name: res/layout/keyguard_carrierlockplus_widget_view.xml
+SHA1-Digest: cQiNXeg/UJZgOlJlxGRhG6anc6w=
+
+Name: res/drawable-xhdpi/btn_code_lock_touched_candy_08.png
+SHA1-Digest: VzujxvOBalClwUA4EFvAf5ol5kU=
+
+Name: res/drawable-xhdpi/keyguard_expand_challenge_handle_anim_10.png
+SHA1-Digest: 6DP9VjmvAB8yHMA+ZXRhf9uuNuc=
+
+Name: res/layout/keyguard_status_view.xml
+SHA1-Digest: ImJNTA4OQYaVA2kBcJUjf8AJW2I=
+
+Name: res/layout/keyguard_sec_clock_view.xml
+SHA1-Digest: 4BhjazmJPxmSv2wjLf4aUEbEJGs=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_02.png
+SHA1-Digest: sK1gXTHrzE/ZvEKpd68qhyUr1oA=
+
+Name: res/drawable/keyguard_add_widget_button.xml
+SHA1-Digest: K6HWHcxkUYEJrovIE+KwpYRr/oU=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_ic_cmas_sprint.png
+SHA1-Digest: lG+dDOvfya4d5fA8zL2ia/1cCHY=
+
+Name: res/drawable/keyguard_fmm_call_selector.xml
+SHA1-Digest: rU70/1agQCS3QOO7gzaBiLkWj3c=
+
+Name: res/layout/keyguard_sim_puk_view.xml
+SHA1-Digest: jU9McnRrzNA4zP4tCaRGZD6FSzU=
+
+Name: res/drawable/keyguard_carrierlockplus_call_selector.xml
+SHA1-Digest: Wey3ljvA+4xmWkFRLSZ40jmtGfo=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level12.png
+SHA1-Digest: PnAgBhlYuO/RcR3RqcMZylpyG2o=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_26.png
+SHA1-Digest: p1wOiKy5lS1+/Lc1sFnhZAfkiL0=
+
+Name: res/drawable-xhdpi/keyguard_expand_challenge_handle_anim_01.png
+SHA1-Digest: 1zpuinxziNqafw4nS+vEewzR8jk=
+
+Name: res/drawable/ic_persona_picture.png
+SHA1-Digest: /DoQVoOu+HC80grVM9dI6A3BIAs=
+
+Name: res/drawable-nodpi/finger_print_arrow_044.png
+SHA1-Digest: IISopz903xNc+91M66M19J4ZyTU=
+
+Name: res/layout/sec_magazine_flight_mode.xml
+SHA1-Digest: BktbvKDG5bJwENlIfow+DsTudXU=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_07.png
+SHA1-Digest: KkBncELVmMkRQRDV89T+uAN/7tk=
+
+Name: res/drawable-xhdpi/lock_ic_locked.png
+SHA1-Digest: DQZNdBjJTmka+qsR64leZybv0Nc=
+
+Name: res/drawable-sw800dp-xhdpi/unlock_air_icon.png
+SHA1-Digest: QJ+XRoMS2sTkl58cfQj1j25yJgc=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level8.png
+SHA1-Digest: wHoImAH+1wLhVbRbdOKh55MJqag=
+
+Name: res/drawable-xhdpi/kg_widget_delete_drop_target_trashcan.png
+SHA1-Digest: EVZbBEyrQ/rzhb3JIXKd6hICByY=
+
+Name: res/layout/sec_adaptive_weather_small.xml
+SHA1-Digest: 7aDGREI7lnbvC06EU5JHrZpypho=
+
+Name: res/drawable-sw800dp-xhdpi/unlock_pattern_fail_div.png
+SHA1-Digest: Mx0cZhMU78U53FQvbXr1bT+Ok8E=
+
+Name: res/drawable-nodpi/watercolor_noise.png
+SHA1-Digest: iPxCQ5gRyLe5AMV3gC/MA5SHP/g=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level9.png
+SHA1-Digest: gHr2XxU+9d217V0wvh7E54OO+qw=
+
+Name: res/layout/keyguard_face_voice_unlock_view.xml
+SHA1-Digest: lmKvaj+E1MQ8nunNZ3xj3QFd1ok=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_13.png
+SHA1-Digest: 7pcbB58tQr1SMS449pY9rud5tBA=
+
+Name: res/drawable-xhdpi/weather_icon_s_05.png
+SHA1-Digest: Dt4Jih3T14Fdr2iite46MYx9JoY=
+
+Name: res/drawable-xhdpi/kg_fmm_btn_call.9.png
+SHA1-Digest: C175h4udBAzQWXvuG7EWwGxoHWs=
+
+Name: res/drawable/keyguard_carrierlockplus_emergency_selector.xml
+SHA1-Digest: K9hfv7OBerX5/xVFFNWTVII/ic4=
+
+Name: res/layout/keyguard_recovery_view.xml
+SHA1-Digest: ti0vr4qGbGqicKXfdUi9EC0Q5FY=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlock_circle_2.png
+SHA1-Digest: reMIDN4GTxOpcYgSDEC2jrHBcJs=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_default_candy_
+ 09.png
+SHA1-Digest: DzNfFmSFSKxljHBsLD6DkAgJY7Y=
+
+Name: res/drawable-xhdpi/keyguard_none_arrow.png
+SHA1-Digest: 7SKnTnAN9wzaxlIICHi6AQNNEaw=
+
+Name: res/drawable-nodpi/keyguard_carrierlockplus_emergency_btn_presse
+ d.9.png
+SHA1-Digest: ZOC62DoI+svo8ecKXS6B5yVQh8s=
+
+Name: res/drawable-xhdpi/keyguard_navigation_home_current.png
+SHA1-Digest: 9CW2oQuUZEbZbqjX7SiQ+7E5+nQ=
+
+Name: res/drawable-nodpi/highlight_dot_033.png
+SHA1-Digest: LjJAWknKFrvX1FxtiGGEpMRz6/U=
+
+Name: res/layout-sw800dp-port-xhdpi/keyguard_sim_pin_view.xml
+SHA1-Digest: myKfBu01zPNuhy0qMFoyIgV7Zfc=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_017.png
+SHA1-Digest: OOr5bHvbSAmpG0Teon1t+r7VMfM=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_navigation_current.png
+SHA1-Digest: 5Z4Oy+n3oJZbFBzEFKTk/1aFGlk=
+
+Name: res/drawable/ic_lockscreen_camera.xml
+SHA1-Digest: O+GkK5dTi/oaKB4G8oEb4yvXxQc=
+
+Name: res/drawable-xhdpi/btn_code_lock_touched_candy_01.png
+SHA1-Digest: rOo9b8VPLAU1wxEtas3GWFYKn/E=
+
+Name: res/drawable-nodpi/spass_mismatch_05.png
+SHA1-Digest: sNDvvj9KpNWTA5vKcaYwN7/lpjo=
+
+Name: res/raw/watercolor_unlock.ogg
+SHA1-Digest: CxVCBh0xMmMUaxAhD0Wac3yBETQ=
+
+Name: res/drawable-xhdpi/btn_code_lock_touched_candy_04.png
+SHA1-Digest: ej91EH8wG5CwBC97n9An+IXxuyM=
+
+Name: res/drawable-xhdpi/keyguard_default_wallpaper.jpg
+SHA1-Digest: JpglxOJmIJBza4jlDzhYLeH7VnA=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_06.png
+SHA1-Digest: f3MwbCyP+mjBksuTm8UqLbRJtUk=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_sim_puk_view.xml
+SHA1-Digest: O8xCUZpuSO7DhTO+0hrzdy34wMc=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level11.png
+SHA1-Digest: TJkpKPjeTKZ6YuPP+uD86mhSQhc=
+
+Name: res/anim/lock_screen_enter.xml
+SHA1-Digest: itgAxjZUbDYt2suufzZUrF4WNWc=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_navigation_home_current.png
+SHA1-Digest: 69XPSg2K3Z9vpZiQNMX4hfCYDdo=
+
+Name: res/drawable-xhdpi/clear_shortcut_ic_memo_bg_set.xml
+SHA1-Digest: 1gvNlXoUN/IrN1rRCuH8Go9RKLk=
+
+Name: res/layout/keyguard_password_view.xml
+SHA1-Digest: EKHJvCilaSNiT92SARYl1ZhI6Do=
+
+Name: res/drawable-xhdpi/weather_icon_s_18.png
+SHA1-Digest: YdQhZovnrmo6Am7rEmgLiOsMTlA=
+
+Name: res/drawable-xhdpi/keyguard_expand_challenge_handle_anim_06.png
+SHA1-Digest: SF1Hm/1TosO3xNGFkTJIrY7Eufk=
+
+Name: res/drawable-sw800dp-xhdpi/spass_scan_02.png
+SHA1-Digest: 7mRR4E7lNqn6DFuwQ7khFBjF8No=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_10.png
+SHA1-Digest: f6YQvwZ+tFWT1mXMOmRfceKgAoU=
+
+Name: res/drawable-sw800dp-xhdpi/gradation_indi_bg.9.png
+SHA1-Digest: R0ygNflce049+9iaPseXjkLba30=
+
+Name: res/drawable-xhdpi/weather_icon_s_11.png
+SHA1-Digest: OwmwQmresq0G0rdmzHYeVZ3eSGI=
+
+Name: res/drawable-nodpi/finger_print_arrow_030.png
+SHA1-Digest: go0oyNJZGk2+J6gxj8q2mbI5G+4=
+
+Name: res/drawable-xhdpi/keyguard_shortcut_core_background.png
+SHA1-Digest: D953YWaXam1PWYJQLaCnpHB5c3A=
+
+Name: res/drawable-xhdpi/btn_code_lock_touched_candy_07.png
+SHA1-Digest: HKeV6TeCRr3PHLQCKm13oOty3uU=
+
+Name: res/drawable-nodpi/highlight_dot_024.png
+SHA1-Digest: a5vJeqVdaYqw26fUp9xH6wt/lnI=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_default_candy_
+ 02.png
+SHA1-Digest: qOqIkfmgoYtz3kfwCKWNjfs3KcQ=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_05.png
+SHA1-Digest: YgCBbLmqSvEOkcj8FzzZlOvHido=
+
+Name: res/drawable-xhdpi/boundary.png
+SHA1-Digest: iOTPg9/Wrn8YIQXekAW1EkVMiF0=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_01.png
+SHA1-Digest: vAG+G4sUsct2DsI8kUB3kY1ukjc=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level3.png
+SHA1-Digest: 5QwAsFSJmOdlyR4pcsmtjaX5/jc=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_fmm_ic_call.png
+SHA1-Digest: jC2VoroBptO7IE9+TYk/3X5e1Zg=
+
+Name: res/drawable-nodpi/highlight_dot_018.png
+SHA1-Digest: KZL8KW5UjAcXfVAwN9GnWmBtaFY=
+
+Name: res/drawable-nodpi/music_control_btn_next_pressed.png
+SHA1-Digest: k5r5P6aYLbAEI5wDlTRtY/3dyfI=
+
+Name: res/drawable-xhdpi/keyguard_flare_ring.png
+SHA1-Digest: oKRiu75JOiVA0f0fIi4tufD1DWM=
+
+Name: res/drawable/keyguard_onehand_left_selector.xml
+SHA1-Digest: q55+/0V7sYEkQ2gLbUvzAQh21mY=
+
+Name: res/drawable-xhdpi/keyguard_expand_challenge_handle.png
+SHA1-Digest: uFuCZHWmHHxIt9mSIqeK4dxf4Ec=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_19.png
+SHA1-Digest: moZZr7QgLZjHTrLcQc/VCE+BalU=
+
+Name: res/layout-port/spass_keyguard_host_view.xml
+SHA1-Digest: qeGKliAatkTg5m0SzwT2lL4N7Wk=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level0.png
+SHA1-Digest: YuWMZev5+Xz/a1i03gS8azHY8/A=
+
+Name: res/layout/sec_emergency_status_container.xml
+SHA1-Digest: piWbHwkJ3KGLj55+DjX8iQDi0qQ=
+
+Name: res/raw/lens_flare_unlock.ogg
+SHA1-Digest: +t/3iyX1v7x4Wzo9QzXqenciuD0=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_010.png
+SHA1-Digest: yydG0nXPaMjdwulqWrBE6Bsm9GM=
+
+Name: res/drawable-nodpi/highlight_dot_016.png
+SHA1-Digest: Aj4R2rachPkX6Qlcksnql6Ab0LE=
+
+Name: res/drawable-xhdpi/kg_security_lock_pressed.png
+SHA1-Digest: 6YUXLoGY0bffqIJZF4Uh/OMldco=
+
+Name: res/raw/lens_flare_unlock_crater.ogg
+SHA1-Digest: O4r9icYRJ5WCdp1qtMeQIHbdOmw=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_17.png
+SHA1-Digest: i7zAvDvOZhY7IkQOYRng0t2yE0Q=
+
+Name: res/layout/keyguard_selector_view.xml
+SHA1-Digest: nCxX3XGxjeB2S2+0vQnkTGyxe3M=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_03.png
+SHA1-Digest: Uhf2xL/Fmp9100SpLFFPksdEwsI=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_10.png
+SHA1-Digest: G1ABxjvpZz9MzwPVqu4hHcnmQLA=
+
+Name: res/drawable-nodpi/kg_widget_delete_drop_rollover_bg.png
+SHA1-Digest: LdbKcnMGzhLciihgeH950PyybaQ=
+
+Name: res/drawable-xhdpi/kg_multi_user_notification_icon.png
+SHA1-Digest: yenpZFG31Vnuu3rtH36JHCM1D90=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_password_view.xml
+SHA1-Digest: iDDtydrC9S3anW4V68VyOPg9XgM=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_green_pattern.
+ png
+SHA1-Digest: GdeV/jwy/iEvgzKpUNTIx6qY8RU=
+
+Name: res/drawable-xhdpi/keyguard_signature_bg.9.png
+SHA1-Digest: MeoVOROr4JNBJCZ3D1PGVDrJfJg=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_ic_cmas_vzw.png
+SHA1-Digest: AIEsZJUn+48BbJM30N5D9/pKPXc=
+
+Name: res/drawable-xhdpi/lock_ic_alarm.png
+SHA1-Digest: g7CNg0x2aUk4ywHIRb6A+9w8v+c=
+
+Name: res/drawable-xhdpi/lock_help_btn_press.9.png
+SHA1-Digest: HJOFfpQ3d8A6wCEMtvb3eggpBHg=
+
+Name: res/layout/keyguard_signature_view.xml
+SHA1-Digest: NS9C7jvFaTt5o9FiKLiREVYYux4=
+
+Name: res/layout/keyguard_shortcut_item.xml
+SHA1-Digest: pPlSzcHgEa3ZYRh4SY+B/jF3T7g=
+
+Name: res/layout-sw800dp-port-xhdpi/keyguard_password_view.xml
+SHA1-Digest: C04tvFJ8mlR1a/BufcE3K/KT6E0=
+
+Name: res/drawable-nodpi/safety_ic_standby_time04.png
+SHA1-Digest: KXnskDjrtSPz9G8jhNiHQYspVjc=
+
+Name: res/drawable-nodpi/watercolor_mask1.png
+SHA1-Digest: 2Df2iF87Ka7JKwYr85M/iF8gBUo=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_green_candy_08
+ .png
+SHA1-Digest: XgVL/Qq6oDxogjqqVgQ4/ka/IyY=
+
+Name: res/drawable/keyguard_popup_button_background_holo_light.xml
+SHA1-Digest: LlB/O3DAvmrETEzWFfn6EKNwAaM=
+
+Name: res/layout/keyguard_emergency_carrier_area_empty.xml
+SHA1-Digest: KaFUW4GhZDWOZLn6u4/f0nPWHMs=
+
+Name: res/raw/simple_ripple_down.ogg
+SHA1-Digest: oemHZM9BRi+sXetYgb9h7I39VkE=
+
+Name: res/layout/keyguard_circle_effect_view.xml
+SHA1-Digest: iMMTDRx7GSPd08yIDyUNuox+Y1g=
+
+Name: res/drawable-sw800dp-xhdpi/kg_widget_bg_padded.9.png
+SHA1-Digest: 3/aNEVVu1PtvFr7/d8Ud8GLlAx4=
+
+Name: res/drawable-nodpi/carrierlock_call_icon.png
+SHA1-Digest: fIAHssm8rnf2ubOmPKbPO27GMDk=
+
+Name: res/drawable-nodpi/safety_ic_standby_time00.png
+SHA1-Digest: K3qG38Wfu5eobXbPANvE9UUfZEs=
+
+Name: res/drawable-nodpi/lock_timer_btn_reset.9.png
+SHA1-Digest: tOsm2FHZSG8Cbrx1901FF52Q7AM=
+
+Name: res/drawable-xhdpi/ic_lockscreen_emergencycall_normal.png
+SHA1-Digest: Oo2r6Fvaj7Fu3EPiCy9e1iOL4Ng=
+
+Name: res/drawable-nodpi/finger_print_arrow_040.png
+SHA1-Digest: ml4VATMcC007Jdt8zt17wmFhWaU=
+
+Name: res/drawable-nodpi/keyguard_carrierlockplus_call_btn_pressed.9.p
+ ng
+SHA1-Digest: YuWd8NZ0KDPXxomhQIbJyi/fvyk=
+
+Name: res/drawable-sw800dp-xhdpi/unlock_delta_thumb_arrow_close.png
+SHA1-Digest: JU+TPHjYW3QyU1Cu0JCEZYAYLEk=
+
+Name: res/layout/keyguard_glow_pad_container.xml
+SHA1-Digest: O+6Dk6sDQOrkOlyj8hYY+y8HXKY=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_019.png
+SHA1-Digest: bsaVOLTHNM783VVVXZv2fkfTGZ8=
+
+Name: res/drawable-nodpi/unlock_trip_adviser.png
+SHA1-Digest: nBR7ZrvdBXXfiywbzpTU3P2x6i4=
+
+Name: res/drawable/sec_flight_mode_off_button_text_selector.xml
+SHA1-Digest: 70l5bM0tm4TmfNy22hou2NiWqeU=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level6.png
+SHA1-Digest: kVg1pFm3UrBQppCzouxpyVX0rHY=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_02.png
+SHA1-Digest: MlR7Xdicf06epBH7DDf0sjpQEvs=
+
+Name: res/drawable-nodpi/unlock_air_switch_focused.png
+SHA1-Digest: trt5fVjVAFOMlt1gBnUGP8qR6Gs=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_13.png
+SHA1-Digest: 2w63+pSVhV1o3MUVuTrie9+dcO0=
+
+Name: res/drawable-nodpi/unlock_air_switch_pressed.png
+SHA1-Digest: pUpZDBnpJScMW4VUz4ttHQSOShA=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level5.png
+SHA1-Digest: ZOPDXr3ddMq58qJ+Q1cUNiaX7nQ=
+
+Name: res/drawable/ic_action_assist_generic.xml
+SHA1-Digest: qyQOl/w1gvgnClMBvBmjtUGAHkc=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_account_view.xml
+SHA1-Digest: SLBPsWzvaA4fF7ROpD2Wy1XEVwQ=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_bg_frame.png
+SHA1-Digest: R80T9y04K2xfHEJjaiTYXatde4E=
+
+Name: res/drawable-sw800dp-xhdpi/kg_add_widget_pressed.png
+SHA1-Digest: BCyca6lCmwN1x8q5w9zK5e/pbFo=
+
+Name: res/drawable-nodpi/intro_bg.png
+SHA1-Digest: 74K1G+2HLFufA76awTO6ZiE06gE=
+
+Name: res/layout/sec_single_clock.xml
+SHA1-Digest: hGEXG6xMe0Iy9HkaOlTva1NZlFQ=
+
+Name: res/drawable-nodpi/finger_print_arrow_013.png
+SHA1-Digest: ik/wj3HiB49Yx1UiObjXyvKQ8rI=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_12.png
+SHA1-Digest: XdkBuOj1D36GrSNbLA6IMIc7ntE=
+
+Name: res/drawable-xhdpi/ic_lockscreen_soundon_activated.png
+SHA1-Digest: QMPyC39zO4n8ASaQgmLM+4K7gAw=
+
+Name: res/drawable-nodpi/highlight_dot_030.png
+SHA1-Digest: TAkxo8k9MbSCK0BxcqZFGdQVC3c=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_11.png
+SHA1-Digest: ADr/nmEznyYH46Xdp+CR2erH+Lk=
+
+Name: res/anim/keyguard_action_assist_enter.xml
+SHA1-Digest: UyZJ4g8DAfqmpBg50/RfdcqoteI=
+
+Name: res/drawable-nodpi/keyguard_carrierlockplus_unlock_btn_pressed.9
+ .png
+SHA1-Digest: 7Rw4OMwTRIQehAO0wHt7vvYOH7w=
+
+Name: res/drawable-xhdpi/kg_add_widget_disabled.png
+SHA1-Digest: mm6tw5+00DTRRlwQQCy75fBYwm0=
+
+Name: res/raw/particle_unlock.ogg
+SHA1-Digest: CTJST/Jl5/lZ9NfA6+zlYYjNAF0=
+
+Name: res/drawable-sw800dp-xhdpi/homescreen_menu_noti_bg.9.png
+SHA1-Digest: eTkuAFutx5nKMGx8fmNULmPkDrg=
+
+Name: res/drawable-nodpi/finger_print_arrow_047.png
+SHA1-Digest: uxSgsiVdNoVmzOLGrzESMwIUg9U=
+
+Name: res/drawable-nodpi/spass_scan_02.png
+SHA1-Digest: xqeII+v2Osu5b357+/jqFgiTMxs=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_24.png
+SHA1-Digest: NrOsK/wRx+AyrKznTs8O9YzgKDQ=
+
+Name: res/drawable-nodpi/highlight_dot_020.png
+SHA1-Digest: iEava2UU7YQ2rGrM0ksyFksqUT0=
+
+Name: res/drawable-nodpi/music_control_btn_prev_focused.png
+SHA1-Digest: M9BB3H3g8STBfIb314Wgs/oN8oc=
+
+Name: res/layout/keyguard_mass_ripple_effect_view.xml
+SHA1-Digest: g9xzq6yemDJV6Y+59Bm/sh12FrA=
+
+Name: res/drawable-nodpi/finger_print_arrow_004.png
+SHA1-Digest: kyWr8v1FiJ1JPrM7Ou239Us8e1s=
+
+Name: res/drawable-xhdpi/keyguard_expand_challenge_handle_anim_04.png
+SHA1-Digest: 8l6/GYhumnXlPafmlDZBTM2QBeQ=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_14.png
+SHA1-Digest: 9jLEaJJg2yXEmAHnIgxC8IvcpzA=
+
+Name: res/drawable-xhdpi/weather_icon_s_04.png
+SHA1-Digest: pPpODuWBCwedszDbUJqF4uK7kEI=
+
+Name: res/drawable-xhdpi/music_control_btn_prev_normal.png
+SHA1-Digest: JMMqpJHLHfGiju9OjMAk6tUEHNQ=
+
+Name: res/drawable-xhdpi/weather_icon_s_12.png
+SHA1-Digest: hiLLSGiyXBzjOr597itpbcGyx0Y=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_15.png
+SHA1-Digest: d1qEkk02pam6w0tlBn3uKZUqjzg=
+
+Name: res/drawable-nodpi/weather_events_c.png
+SHA1-Digest: hVdqCdl3V1FAq4+BB0yJUMkwJ/Y=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_28.png
+SHA1-Digest: A2coeEDfQM+bF2XGDzp0wDDJQgg=
+
+Name: res/drawable-xhdpi/music_control_btn_next_pressed.png
+SHA1-Digest: dUo7hIxndKIH7nkFx92MnOPW1C0=
+
+Name: res/drawable/keyguard_carrierlockplus_unlock_selector.xml
+SHA1-Digest: PflN6R8g+rP0PkiAYGhhR08zM0Y=
+
+Name: res/layout-sw800dp-land-xhdpi/keyguard_widget_pager.xml
+SHA1-Digest: +xLB3JHF6SXli9FvHzr8/5rXf7I=
+
+Name: res/drawable-sw800dp-xhdpi/fmm_lock_btn_pressed.9.png
+SHA1-Digest: b7dYUvk63Fc0ukTREMGwDXAfQ1w=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_007.png
+SHA1-Digest: 6wM7punCpoDh4mVr7yi0JXZa3mM=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_11.png
+SHA1-Digest: 6GQcn9fQZ+AHb/H+x3LmqzByFdY=
+
+Name: res/raw/watercolor_tap.ogg
+SHA1-Digest: JfSpEemQTqrYSBg3e24f9dsm+2s=
+
+Name: res/drawable-nodpi/finger_print_arrow_028.png
+SHA1-Digest: D2v75C35PJvFJrhqAaYx8rup90k=
+
+Name: res/drawable-nodpi/safety_ic_standby_time03.png
+SHA1-Digest: daRHYL6OUAlKl5cz+YLtaagBNBk=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level14.png
+SHA1-Digest: yiuxFORF2kXOStNCeX7WB9aIKUA=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_24.png
+SHA1-Digest: aQlmv71vbrRrRp0plTY/BNO/6kw=
+
+Name: res/drawable-xhdpi/weather_icon_s_14.png
+SHA1-Digest: 0iJoVpC0Ils7b8vStOsceGrjQPs=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_bg_frame.png
+SHA1-Digest: 3ZPM97HOIH28GpE2tqWiBbM5s9k=
+
+Name: res/layout-sw800dp-port-xhdpi/keyguard_fmm_widget_view.xml
+SHA1-Digest: jlf0FTH7OyyH4LYhMcX4OyK/2bY=
+
+Name: res/drawable-sw800dp-xhdpi/spass_unlock_dot.png
+SHA1-Digest: feiJye/3RHfia46pYnudEglKX8Y=
+
+Name: res/layout-sw800dp-port-xhdpi/keyguard_message_area.xml
+SHA1-Digest: ci5RWQb/7l0k8napQcXlSesrFFI=
+
+Name: res/drawable-nodpi/unlock_delta_bg.9.png
+SHA1-Digest: Y+mR3ISO7tNeD6U0L4zBqpaMAUk=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_green_candy_05
+ .png
+SHA1-Digest: PmnI6dojnEsk48mxvqHvIGkcALQ=
+
+Name: res/drawable-nodpi/guest_swipe.png
+SHA1-Digest: bj3CaEOknqdWSjsK2gRypbuJ/sQ=
+
+Name: res/drawable-nodpi/finger_print_arrow_010.png
+SHA1-Digest: WYS7O0GJEbBHFMQzcKAon4k5ptg=
+
+Name: res/drawable-sw800dp-xhdpi/spass_mismatch_12.png
+SHA1-Digest: 0dVaXauc9H0UyidHdW4NkdzGWRg=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_014.png
+SHA1-Digest: JT9x98JWxKOE8lNcOaeA526GcOE=
+
+Name: res/drawable-xhdpi/keyguard_expand_challenge_handle_anim_14.png
+SHA1-Digest: R4DLZii19TaiTIdua+4RJMIB64s=
+
+Name: res/drawable-xhdpi/keyguard_flare_hexagon_blue.png
+SHA1-Digest: ng9fixoNqh2kIPb/AyYK3asDZbw=
+
+Name: res/drawable-nodpi/finger_print_arrow_020.png
+SHA1-Digest: 7d+bhzzsbjl2cgLYljNXQi83eJs=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_20.png
+SHA1-Digest: 5KQvyFWMTFQ0FVqg7NAZ6G9oqh0=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_07.png
+SHA1-Digest: 5akdw6PPjdfePokZvmoGUDsQeQo=
+
+Name: res/drawable-nodpi/kg_multi_user_notification_icon.png
+SHA1-Digest: YYqWj3lKu7hbhUmv1dyKSV4SFAM=
+
+Name: res/drawable-nodpi/music_control_btn_next_focused.png
+SHA1-Digest: JEAVgqdvjaFzSdSumwiOPl8L5ys=
+
+Name: res/drawable-xhdpi/ic_lockscreen_sim.png
+SHA1-Digest: 3udqOQUpw5jig5PES+iVG/5YWY8=
+
+Name: res/drawable-nodpi/reflectionmap.jpg
+SHA1-Digest: S6K+DQPDwzhE9GNZHEJAnD/HKYk=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_19.png
+SHA1-Digest: i412Xi4abYSsTtwOaM+1w/2YW+c=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_ic_voice_check.png
+SHA1-Digest: t0+Z6m5+Bs8CAd8EF7XSb3xPgfE=
+
+Name: res/drawable-xhdpi/keyguard_popup_under_pressed.9.png
+SHA1-Digest: YvqiKVlMlYh7xg2dKqdhn71NtN0=
+
+Name: res/drawable-xhdpi/keyguard_signature_additional_pin.png
+SHA1-Digest: btOTWB0NVEafWwfLeueP1cnrecg=
+
+Name: res/layout/keyguard_backup_pin_view.xml
+SHA1-Digest: 2S5uHFfQcfGUug2EbqZs3GAnO0o=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level4.png
+SHA1-Digest: oYDzptc4lI9CbTLPp1wEhBWb5Es=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_034.png
+SHA1-Digest: xx9dcr03p/cSlK2p4uGqjOjkpmk=
+
+Name: res/layout-sw800dp-port-xhdpi/keyguard_host_view.xml
+SHA1-Digest: ek2XV379zZwOugEwewQqrDljxqk=
+
+Name: res/drawable-xhdpi/keyguard_popup.9.png
+SHA1-Digest: 6F7ej6I+ILDE6SAGyw5kd9bJqrk=
+
+Name: res/layout-port/keyguard_host_view.xml
+SHA1-Digest: qSF31g0YLZEneJC4tY0CUGDZ6mg=
+
+Name: res/layout-land/tw_keyguard_host_view.xml
+SHA1-Digest: c9Venea9ClmHLJ+9p4oS9irIocQ=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_ic_voice_fail.png
+SHA1-Digest: c7vT0VdztGo6orq2lNnmRTxS3yo=
+
+Name: res/drawable-xhdpi/keyguard_shortcut_big_circle.png
+SHA1-Digest: wMQnMwKSHf5J0MNdHhPEHuwJ1ko=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_25.png
+SHA1-Digest: nN5MdGzU3DqlHtqS9vh63RDU1ug=
+
+Name: res/drawable-nodpi/highlight_dot_011.png
+SHA1-Digest: mbEl72t2ZCV/K7SLPgcsDlxliH8=
+
+Name: res/layout/keyguard_carrierlock_widget_view.xml
+SHA1-Digest: lyRBA1Ea6gpIGRFsr28OHhMg784=
+
+Name: res/drawable-xhdpi/weather_icon_s_06.png
+SHA1-Digest: JY0/6cFKSE0WeffsbXPylaDo2KQ=
+
+Name: res/drawable-xhdpi/kg_security_lock_focused.png
+SHA1-Digest: cEo1nCw79HnH1OoeaPGAu/3f49g=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level10.png
+SHA1-Digest: 2LvE+Zp6yc9zNP6Je39WpcidmXE=
+
+Name: res/drawable-nodpi/spass_unlock_dot.png
+SHA1-Digest: idkxSgRLgXKoKWP+jXZTMdUZ098=
+
+Name: res/drawable-nodpi/carrierlock_emergency_icon.png
+SHA1-Digest: VDLQZjYAA/4B5irXTC+V6ERZUxc=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_default_candy_
+ 04.png
+SHA1-Digest: vmGDAsmJ7c+kLDJFfNB243wvh3k=
+
+Name: res/drawable-xhdpi/ic_action_assist_generic_activated.png
+SHA1-Digest: IVJ3AyJmSXa9gK4nw7ogyIz89D4=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_green_candy_01
+ .png
+SHA1-Digest: ADn1fLkh5GBPOVpBh7bulbHrzMw=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_027.png
+SHA1-Digest: FWtiExHSQgTYXIIYwuc00EEZpAE=
+
+Name: res/drawable-nodpi/keyguard_tension_outer.png
+SHA1-Digest: U0E2w7/+w/IVIpZ3qDEplcikcqg=
+
+Name: res/drawable-nodpi/finger_print_arrow_026.png
+SHA1-Digest: pHKi3netCwhd9p1hshk6U3pK+bc=
+
+Name: res/drawable-sw800dp-xhdpi/kg_add_widget.png
+SHA1-Digest: EQLQe0ZGkBI4lUCBY/2SSrFM1CM=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_spass_password_view.xml
+SHA1-Digest: +9e9NmJgBb+Cptg5SpGWtCF/zBo=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_24.png
+SHA1-Digest: EFXaqbDWlXz5QXWS+iZ2KEzURBo=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_lockscreen_ic_cmas_sprint.pn
+ g
+SHA1-Digest: GaVVY1Nn7UlsM5Kx71F3wgcrdbQ=
+
+Name: res/drawable-nodpi/camera_default.png
+SHA1-Digest: OfEUxxUyJsTUbUh+XYwePP9hTPs=
+
+Name: res/drawable-xhdpi/keyguard_popup_under.9.png
+SHA1-Digest: v+AUIfmSQ8PspHSNkQ97GysRPL8=
+
+Name: res/drawable-sw800dp-xhdpi/spass_mismatch_09.png
+SHA1-Digest: R7n9wDMFHJ/yFOHszb9U4z9IZ28=
+
+Name: res/layout-sw800dp-port-xhdpi/keyguard_pin_view.xml
+SHA1-Digest: 5uYOTRdnmNopdaDB81jt9GUbY5o=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_shortcut_item.xml
+SHA1-Digest: wg9x1l6u6o8bqDR8xUoykmQD7x8=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_flare_hexagon_green.png
+SHA1-Digest: AdOjrJovbTaC+MIyafsjPps2oj4=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_signature_additional_pin.png
+SHA1-Digest: +UslMG0P6gHSgp1vzlQERfEDIsk=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_green_candy_04
+ .png
+SHA1-Digest: ESpMZ7tr4N0+adgNFA4tMIJzGMg=
+
+Name: res/drawable-nodpi/spass_lock_line.png
+SHA1-Digest: 3s8nD31lbgolTEleDPqTFGOr4ow=
+
+Name: res/drawable-nodpi/keyguard_tension_line.png
+SHA1-Digest: Cef+poc9JGj6T7127COZh5e2JoE=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_widget_remove_drop_target.xml
+SHA1-Digest: GF7Tj3QiXSXoJXB08MrNbAiCLJU=
+
+Name: res/drawable-xhdpi/music_control_btn_play_normal.png
+SHA1-Digest: veQkgLJ0ZG1FqVgTh/ueVfTcWZ0=
+
+Name: res/layout/sec_travel_info.xml
+SHA1-Digest: 0RYYVDy1IXH2EgueelUXIz5iVwQ=
+
+Name: res/drawable-sw800dp-xhdpi/spass_unlock_succeed.png
+SHA1-Digest: I8bF3Os0+O59MYINtRkG2e98VYQ=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_21.png
+SHA1-Digest: dfLihgFUPeypojYe9vASZiDBJdQ=
+
+Name: res/drawable-xhdpi/music_control_btn_prev_focused.png
+SHA1-Digest: 3Zv/9RymYKo8TSUKggK8qHtn8fs=
+
+Name: res/drawable/ic_emergency_btn_selector.xml
+SHA1-Digest: q1/l86cM3uceGLKmMusPDYcsBoM=
+
+Name: res/drawable/sec_flight_mode_off_button_selector.xml
+SHA1-Digest: oSS3pXwihZoVEELI3kCywIoZJhk=
+
+Name: res/layout/sec_contextual_clock_flight_mode.xml
+SHA1-Digest: 1WzNWDUeg/wq40wTQL7EAYeNZvU=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_15.png
+SHA1-Digest: 4SuxiV2D4s+GtuEB/TJU15o7AQs=
+
+Name: res/drawable-nodpi/finger_print_arrow_011.png
+SHA1-Digest: mlSFgCMaV4FhpGTyBNpElNEl2ac=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_14.png
+SHA1-Digest: tZDed7QPDDp0gcJ7md616GmEw6A=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_sim_pin_view.xml
+SHA1-Digest: N3v8kyQ++dFMiCwdLD2gmM/BDbc=
+
+Name: res/drawable-nodpi/keyguard_popup_under_pressed.9.png
+SHA1-Digest: GHcr608UkAuk/Jwk/W7z6Tvcemk=
+
+Name: res/drawable-nodpi/stat_sys_voice.png
+SHA1-Digest: WOTuSmtXqv2l2JAn95tURbHsuZs=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_07.png
+SHA1-Digest: GqpjnLGcr5+F7/YrPlVeQ1vMxfE=
+
+Name: res/drawable-nodpi/finger_print_arrow_015.png
+SHA1-Digest: wZ8SYi+b6yBIZnUxRT0B0N5uyw0=
+
+Name: res/drawable-nodpi/keyguard_expand_challenge_handle_anim_15.png
+SHA1-Digest: AmIC9L7PPBxxN6FTj/QgApQVbow=
+
+Name: res/drawable-nodpi/lock_help_btn_press.9.png
+SHA1-Digest: udIWTEd+Slxhh6QsyCRQq9222yI=
+
+Name: res/drawable-sw800dp-xhdpi/spass_mismatch_07.png
+SHA1-Digest: Psw+cP/s33g/EgmXVIpCzyaTO3U=
+
+Name: res/drawable-xhdpi/weather_events_f.png
+SHA1-Digest: nEqlwdGgSIrPxxQ8KMgUp+lAYiM=
+
+Name: res/drawable-nodpi/keyguard_tension_center_dot_after.png
+SHA1-Digest: CGqeM/iwTFnRa9Bz6uRYCfYNq+Y=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_04.png
+SHA1-Digest: 2U8V+4SnKtbgwda05ONTVOdQuG8=
+
+Name: res/layout/sec_missed_event_view.xml
+SHA1-Digest: evdUJEzhyW38ruJ2hTLZalEd2Ss=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_25.png
+SHA1-Digest: ObLgoXQGQy8DCUmxJIZUfF6XymE=
+
+Name: res/drawable/ic_lockscreen_unlock_phantom.xml
+SHA1-Digest: 5BP+9wJrycqe7WFRv8FrWyNOqWU=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_13.png
+SHA1-Digest: 5MSt7HXU7tRuKJW1kzoCs0w42rY=
+
+Name: res/drawable/ic_lockscreen_silent.xml
+SHA1-Digest: UW/6OgpVVMcyf9gZ/9rxe2FWX5A=
+
+Name: res/drawable-xhdpi/keyguard_expand_challenge_handle_anim_07.png
+SHA1-Digest: S9gGczXC1v5Pl3hxLBJF+nuveLo=
+
+Name: res/drawable-nodpi/finger_print_arrow_016.png
+SHA1-Digest: gscQGBYWqoUEwkRmjWfTDKW7ARQ=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_22.png
+SHA1-Digest: Y3gX2caGPYrIqjpQFSRnAhD4FWg=
+
+Name: res/drawable-nodpi/highlight_dot_005.png
+SHA1-Digest: xzNC98yRJVmAM8YBbic3naRuOIY=
+
+Name: res/drawable-sw800dp-xhdpi/stat_sys_voice.png
+SHA1-Digest: FqdIfpEkTqCuxR2G4yBOGCRl8ts=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_30.png
+SHA1-Digest: GsoHvwPP2Aj4xZjBGeJ1j5pP3kU=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_22.png
+SHA1-Digest: k8guCsr0bj+XM9t1f9MD0CaIjSQ=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_green_candy_09
+ .png
+SHA1-Digest: K8tSU9tpjcgFAoo2CCtQxh6V4G8=
+
+Name: res/drawable-nodpi/music_control_btn_pause_normal.png
+SHA1-Digest: Pm9f05EE9SAaF+afPAaqcUBKn1Q=
+
+Name: res/drawable/keyguard_fingerprint_gradation.xml
+SHA1-Digest: PklRMEup/MrDj77ubrEvWFIxb1Y=
+
+Name: res/drawable-nodpi/finger_print_arrow_037.png
+SHA1-Digest: oVBgbxj4Qnz4S7tZaIlU6+P8dPc=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_028.png
+SHA1-Digest: mJavvbpGKhK/J0/YwFFc9NeAVcc=
+
+Name: res/anim/scale_8.xml
+SHA1-Digest: 7w+UiPcciTegvp/ftv7XSqHji0Y=
+
+Name: res/drawable-nodpi/spass_scan_07.png
+SHA1-Digest: +ohr644/OeqhPrZQkqWzBWMApk8=
+
+Name: res/drawable-xhdpi/ic_lockscreen_handle_normal.png
+SHA1-Digest: ev0UJ0ZRibAJRKaFoggoE9w/0Ps=
+
+Name: res/layout/keyguard_host_view.xml
+SHA1-Digest: UFcCdM2Em6ymt6ctWnNHJcIpKcM=
+
+Name: res/drawable-nodpi/finger_print_arrow_012.png
+SHA1-Digest: xB6eDEHbcdLmC7BHenHeaXF8Iac=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_015.png
+SHA1-Digest: J+3Sau3eeu7+e55RqBroF4Ncnm8=
+
+Name: res/drawable-xhdpi/stat_sys_voice.png
+SHA1-Digest: CRR1FYoKIYX3GvXosAKYs8PR9eU=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level8.png
+SHA1-Digest: 7cwX3joYo5mDwMRcwXanGBun/KQ=
+
+Name: res/drawable-xhdpi/keyguard_navigation_current.png
+SHA1-Digest: 93ktvXetnrCrYxsAh5iHkhVHbYY=
+
+Name: res/layout/sec_my_profile.xml
+SHA1-Digest: eA6DFPgfoiDkCkVscIWDpEt0nTo=
+
+Name: res/layout/keyguard_status_area.xml
+SHA1-Digest: L/nyYlQ1/1taQ0sQd95k9h9b67E=
+
+Name: res/drawable-nodpi/kg_widget_delete_drop_rollover.png
+SHA1-Digest: ySdNeX9VRp5bz+GwAlrN77vXNDM=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_09.png
+SHA1-Digest: 9BwlwxenTHQh6V2AMAz62INT1hQ=
+
+Name: res/drawable-xhdpi/spass_lock_icon.png
+SHA1-Digest: 1cYp1s8adVK/t/Y3vTKxKyAm/QE=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_011.png
+SHA1-Digest: KHS0q6BMzXb4PF4zxcmJnnTtGMQ=
+
+Name: res/layout/keyguard_sec_status_view.xml
+SHA1-Digest: BGFzxxIUpGZQ21Ux9NfIlz23cdg=
+
+Name: res/drawable-sw800dp-xhdpi/ic_input_delete.png
+SHA1-Digest: BxC5PPGqbjwyzpujgfLrOC5V5PU=
+
+Name: res/drawable-nodpi/keyguard_expand_challenge_handle_anim_02.png
+SHA1-Digest: spYDxp00nebiOT6nlwB1f2TkEqM=
+
+Name: res/drawable-xhdpi/weather_icon_s_08.png
+SHA1-Digest: 8F1WWHjd0OqTG6IWWNamsYwi60o=
+
+Name: res/drawable-nodpi/music_control_btn_play_normal.png
+SHA1-Digest: NPJpZ9Q/H1J2w9YdQC2/MGIHFY4=
+
+Name: res/layout-ar/keyguard_account_view.xml
+SHA1-Digest: f9MGeB3OM3BuRNJJRfK01Pn62ZA=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_26.png
+SHA1-Digest: qmNiJ68Owe0tj9Wmua+dX5+euzQ=
+
+Name: res/drawable-xhdpi/weather_icon_s_13.png
+SHA1-Digest: txlQlbLQjHb/Qob9p53jezOv6iQ=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_006.png
+SHA1-Digest: Qh5zTyjmCNsM+0iGyeIqQ2Nfm2U=
+
+Name: res/drawable-nodpi/lock_ic_flight_mode.png
+SHA1-Digest: ry79vp+lavbFqTDWqnBL7jMuXw0=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_05.png
+SHA1-Digest: BzuAmoG6R2neL47jY08GwbQszck=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_ic_cmas.png
+SHA1-Digest: B39mCvo99Z8GYpKFBAlfRSKWSJw=
+
+Name: res/drawable-sw800dp-xhdpi/spass_mismatch_14.png
+SHA1-Digest: 4cANYgWe1L4s4ttZcybkfkPR3ck=
+
+Name: res/layout-sw800dp-land-xhdpi/keyguard_host_view.xml
+SHA1-Digest: F7aI+sw+t/Zp/O19JZoKomlEqNM=
+
+Name: AndroidManifest.xml
+SHA1-Digest: xrMFCPewr41FHdV0ulCUusepuUQ=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_emergency_carrier_area.xml
+SHA1-Digest: fKV0hczPm1Qm/IhhCCj+MRwMzqk=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_18.png
+SHA1-Digest: uLgSs3NJmQb6G2+svzD+OGi/+zU=
+
+Name: res/layout/msim_keyguard_carrier_area.xml
+SHA1-Digest: STfJrGXearX1Z6J9+crYgqu/zYI=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level17.png
+SHA1-Digest: UNWbFacvXRZlGjSQP1wKwnfVn48=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_default_candy_
+ 07.png
+SHA1-Digest: 4jC6Wf1wlX5zGRptcb83VQlE4F8=
+
+Name: res/drawable-xhdpi/ic_lockscreen_silent_normal.png
+SHA1-Digest: ZLaZQhZV1QyEpjF4bLpWdERjgAQ=
+
+Name: res/drawable-sw800dp-xhdpi/fingerprint_spass_unlock_succeed.png
+SHA1-Digest: LjoPVhiiBm1D+9KKQ8BxFnCZXIg=
+
+Name: res/drawable-xhdpi/keyguard_navigation_normal.png
+SHA1-Digest: 6U+3GEQBAZnHLQKwvlhX/pJH57Q=
+
+Name: res/drawable/keyguard_expand_challenge_handle.xml
+SHA1-Digest: z5avsISO6oh5fJiZWVoQTKJelUU=
+
+Name: res/anim/scale_6.xml
+SHA1-Digest: HcICJDlR/j1ZwxWbhOqr/vxECrY=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_19.png
+SHA1-Digest: T850Pl+KHdYoeoEMm/LEx3a5TJw=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level16.png
+SHA1-Digest: LilewEoUN0Z5ex7MYY+5OdYeHCg=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_22.png
+SHA1-Digest: lmP+ILYZBN7OUh3ONiEuEUZnZWY=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level0.png
+SHA1-Digest: gi9RPZIwC1FitfMbxRG0rcEZSeQ=
+
+Name: res/drawable/lockscreen_music_widget_prev.xml
+SHA1-Digest: G5H550Eyh4DP9eGLALvMD9XSsqA=
+
+Name: res/drawable/lockscreen_music_widget_next.xml
+SHA1-Digest: qAC8ETYXDtj9Z/Fmt24cJj4i3Gw=
+
+Name: res/drawable-nodpi/finger_print_arrow_009.png
+SHA1-Digest: XhvlmurRSrfh1C49lrSvf64Rqgk=
+
+Name: res/drawable-xhdpi/keyguard_expand_challenge_handle_anim_13.png
+SHA1-Digest: /veOO6BZlEpE06/h6zB6IMOdie8=
+
+Name: res/anim/lock_screen_exit.xml
+SHA1-Digest: zKQNXCBUXgbDyNXGwWGF/+66FTk=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_flare_hexagon_blue.png
+SHA1-Digest: /C1V7jgOsgX2spp1/ZjBfJULomQ=
+
+Name: res/drawable-sw800dp-xhdpi/spass_scan_09.png
+SHA1-Digest: nMsV3u4gQYy8YBncS9Q0b5mDwAU=
+
+Name: res/drawable-nodpi/lock_circle_line_guest.png
+SHA1-Digest: q25H3rT/NTw93grVPVUBWIlBbm4=
+
+Name: res/drawable-nodpi/keyguard_expand_challenge_handle_anim_13.png
+SHA1-Digest: MF2PF3Sj5kZscDnzeNbM/iy5A6Q=
+
+Name: res/drawable-nodpi/finger_print_arrow_014.png
+SHA1-Digest: UTKzNxoONDOXJtD2zNa+4JJCElA=
+
+Name: res/drawable-sw800dp-xhdpi/spass_scan_04.png
+SHA1-Digest: UhKgU2LYJhjdkU3FyXGjhVCdg70=
+
+Name: res/drawable-xhdpi/keyguard_flare_particle.png
+SHA1-Digest: Yp7pNhxFIq3uikMqZmkRQWm4cEs=
+
+Name: res/layout/keyguard_magazinecard_view.xml
+SHA1-Digest: Vi9XLBq2RvkhL03nc3FJ+1Wvh+c=
+
+Name: res/drawable-xhdpi/btn_code_lock_touched_candy_09.png
+SHA1-Digest: iKjgIrVu5tr8M7h5l1IoL6hwreA=
+
+Name: res/drawable-xhdpi/ic_dialog_dialer.png
+SHA1-Digest: ekcBWDcNeJzo5+xVQtyawdEv23E=
+
+Name: res/drawable-xhdpi/weather_icon_s_20.png
+SHA1-Digest: CGXtfmqTk51Q6PcU4MN5pGWWiOk=
+
+Name: res/drawable-xhdpi/music_control_btn_next_focused.png
+SHA1-Digest: HqvBwAeV9zleaS9xvlV3lC2pIOA=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_01.png
+SHA1-Digest: lmk85WpXn/y2KravB+7C90y/5d0=
+
+Name: res/drawable-nodpi/finger_print_arrow_033.png
+SHA1-Digest: pEdjAN0HanzIHkZPD58F0fjaLbQ=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_spass_unlock_view.xml
+SHA1-Digest: VutDIwF5gOEGjoVgT2rCGWisNtw=
+
+Name: res/drawable-nodpi/spass_scan_01.png
+SHA1-Digest: 0LDXdfuLgN6tW6XuBVBr9JO9Svc=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level17.png
+SHA1-Digest: Y8HOCMM/t+iSehwhM/c5O+oZgqw=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_red_candy.png
+SHA1-Digest: 2+BqKrby4rAJMtAX+0wE2blR1xs=
+
+Name: res/drawable-xhdpi/ic_lockscreen_soundon_normal.png
+SHA1-Digest: GyD8mBjVbJCA+GpF/nxn1zdZ5AU=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_013.png
+SHA1-Digest: 0Cf3l5pIsLiw2grTNaMQhbhyr2k=
+
+Name: res/drawable-xhdpi/keyguard_onehand_arrow_right.png
+SHA1-Digest: iTzBXJ9RbHeclilpkrDU74+1oOw=
+
+Name: res/layout/keyguard_transport_control_view.xml
+SHA1-Digest: IzjQTVH2p7vRnbX8psMRcwrKVNM=
+
+Name: res/drawable/keyguard_popup_upper_selector.xml
+SHA1-Digest: dWh2PqoUPxV/6kq5KuFbQO0bX9g=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level2.png
+SHA1-Digest: vnnZ8KubWUXXjfNs8ZFlhGwODfc=
+
+Name: res/drawable-nodpi/kg_widget_delete_drop_target_bg.9.png
+SHA1-Digest: NeUYVc1zLobqTEVO9PzNylQrNPA=
+
+Name: res/drawable-xhdpi/keyguard_unlock_circle_3.png
+SHA1-Digest: 0qEQ85gbCzfMjGtxsfz3ktB34Ac=
+
+Name: res/drawable-nodpi/finger_print_arrow_036.png
+SHA1-Digest: xCGeAjIGLEkbNeIzxuijz0QgBd0=
+
+Name: res/drawable-xhdpi/ic_action_assist_generic_normal.png
+SHA1-Digest: FbyN+WuxXci/MPTU1TX/ZDxih/8=
+
+Name: res/drawable-nodpi/finger_print_arrow_022.png
+SHA1-Digest: 8q+ZAmqwuLNxevT2K4sVDFHgnJQ=
+
+Name: res/drawable-nodpi/spass_mismatch_06.png
+SHA1-Digest: T3y3a5ssT91PmXzvi+K0Bu2ElVE=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_06.png
+SHA1-Digest: PeXaU7rk7l4Plw1AZr37yxBq/vc=
+
+Name: res/drawable-nodpi/finger_print_arrow_029.png
+SHA1-Digest: FRyrlYEyflS8YlK8ps/3tfGqrE8=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_023.png
+SHA1-Digest: mSltgnmnwvFQnDmTHZkFQEh9gzo=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_signature_header_divider.png
+SHA1-Digest: iwtxl0ehZZOTb/gldBEZ9MauNfc=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_24.png
+SHA1-Digest: ddPjW3W6c9+uIjrF2+GN/Wwpdwk=
+
+Name: res/drawable-nodpi/spass_mismatch_07.png
+SHA1-Digest: P1iyR34ePyP3HtzqvYFSUu3FAhY=
+
+Name: res/drawable-xhdpi/keyguard_flare_hoverlight.png
+SHA1-Digest: FiRD1Diturg8eJMqihUIAfWefmA=
+
+Name: res/layout/sec_alarm.xml
+SHA1-Digest: +YzslSSYsTbOGB5+7Hwx4b8FtxQ=
+
+Name: res/drawable-nodpi/keyguard_tension_center_dot.png
+SHA1-Digest: XhSgbhE0GcvtFuMit4D3+sEFLAc=
+
+Name: res/drawable-xhdpi/ic_media_previous.png
+SHA1-Digest: tkYSv8v15m/eX9/nMoaiagn/R18=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_multi_user_selector.xml
+SHA1-Digest: 8WrSkrZM/ZmMjdNAWLbVwdbdWSE=
+
+Name: res/drawable-nodpi/keyguard_expand_challenge_handle_anim_08.png
+SHA1-Digest: tGY3dyNfJIlpKs0T8xdy/AbHGj8=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_06.png
+SHA1-Digest: Hx7unoIF85+9KQjPyz3ISpdcdbI=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_28.png
+SHA1-Digest: dUdTiWTt5UbqDztLZvJFe+w+z3c=
+
+Name: res/drawable-nodpi/spass_unlock_succeed.png
+SHA1-Digest: PBYEBvWM3L8+l/u8HXfAMkeVjzI=
+
+Name: res/drawable-nodpi/highlight_dot_023.png
+SHA1-Digest: cPjzFEux3IeG5Ko26ZVuAZ/+HOg=
+
+Name: res/drawable-xhdpi/music_control_btn_play_focused.png
+SHA1-Digest: Y1OZX1Pfv+Xzl4eHnVWqWEfA9aI=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_27.png
+SHA1-Digest: B04LOXSVr+LErCrG1ub90rIYVsc=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_spass_account_view.xml
+SHA1-Digest: alsw5pUmVoToKjuJG3mARApDyFI=
+
+Name: res/drawable-xhdpi/keyguard_expand_challenge_handle_anim_12.png
+SHA1-Digest: n41q+R2R3aNiqVHhdaVw/77lK60=
+
+Name: res/layout-sw800dp-xhdpi/sec_contextual_event_container.xml
+SHA1-Digest: fwGV3TlVDeiyLh5zOfl09EgH7FY=
+
+Name: res/drawable-xhdpi/ic_lockscreen_silent_activated.png
+SHA1-Digest: Tc7dGOeEn9Jr44dPqCZSnvcEb3I=
+
+Name: res/drawable-xhdpi/music_control_btn_pause_focused.png
+SHA1-Digest: 6u+ooi31isqz6aUc6yg0ylfBvh0=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_09.png
+SHA1-Digest: 7XwicG/STYROcOU1SGVPzCESzBw=
+
+Name: res/drawable-xhdpi/weather_icon_s_01.png
+SHA1-Digest: vzKbM1FsK++BBc+rJADZEu6GC+A=
+
+Name: res/drawable/keyguard_signature_backup_pin_btn.xml
+SHA1-Digest: nQEc6k1qwg1XJgWSWs21KYO7Dm0=
+
+Name: res/drawable-xhdpi/ic_input_delete.png
+SHA1-Digest: KZfkezhrnqW1y7cTlsqh9wPm2i8=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_transport_control_view.xml
+SHA1-Digest: 27hyHlLp2ilMJzPOmsujm6yLjJY=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_signature_additional_pin_foc
+ us.png
+SHA1-Digest: tlpBblsKY4sqnDy0SEcMvtZcweg=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level15.png
+SHA1-Digest: adZFiTQ/7f4GRUy4hyoZsLy4xZY=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_03.png
+SHA1-Digest: EfjEc6jlPkUY+rF0d9ZfTClZsZs=
+
+Name: res/raw/brilliantcut_drag.ogg
+SHA1-Digest: QBk9/57PeUoUPji+vLC4BbLskAE=
+
+Name: res/layout/keyguard_account_view.xml
+SHA1-Digest: HsrwyOD50acLsRQoVV3jRy+jL1k=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_flare_rainbow.png
+SHA1-Digest: eDgZen6rrZzbB/BGN3RFXslXIV8=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_fmm_widget_view.xml
+SHA1-Digest: fAiAtRLzpVDCCHw8qE0CIqFsEJA=
+
+Name: res/drawable/ic_lockscreen_mum_btn_selector.xml
+SHA1-Digest: kkqCVq6RpG8D8nYeDwV2Yo6aykU=
+
+Name: res/drawable-nodpi/finger_print_arrow_035.png
+SHA1-Digest: fkOcfM/JjeKx4OZAAK1zJBYw4Q0=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_03.png
+SHA1-Digest: XeP1iUddUh7BZjYKc30b9DCQfiU=
+
+Name: res/drawable-xhdpi/ic_media_next.png
+SHA1-Digest: /aeHLcSF24/EA2Cj9taB9AxTh/o=
+
+Name: res/anim/keyguard_bouncer_fadeout.xml
+SHA1-Digest: lJrzJOmH/6p4VwZJHh5A0ZOmGMU=
+
+Name: res/drawable-xhdpi/keyguard_fmm_btn_disabled.9.png
+SHA1-Digest: WUd1XCfwpGc5j4bLXv6UPOvQWl0=
+
+Name: res/drawable-nodpi/highlight_dot_034.png
+SHA1-Digest: EyuIJMEKblV2Q0Rh73CFoEaZILg=
+
+Name: res/anim/keyguard_action_assist_exit.xml
+SHA1-Digest: MJC+Gg+3FKRGLCQ3B6r98kF3v9M=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_flare_light_00040.png
+SHA1-Digest: QsVKsD9LsTby4UrHoz0TgwT4IVM=
+
+Name: res/drawable-nodpi/spass_scan_05.png
+SHA1-Digest: XU2QoD/FHUtPhPm5/MQMKAVmbyo=
+
+Name: res/drawable-sw800dp-xhdpi/ic_lockscreen_sim.png
+SHA1-Digest: Ijc/L0aGxQ5CHv/wRGRNKlBMHo8=
+
+Name: res/drawable-xhdpi/weather_icon_s_10.png
+SHA1-Digest: KP8SjI8DePqtza4ThjWYx0IaHXs=
+
+Name: res/drawable-nodpi/finger_print_arrow_046.png
+SHA1-Digest: Qg9YRU79Jnd0q8+JzX2Of76sLZM=
+
+Name: res/drawable-nodpi/keyguard_popup_under.9.png
+SHA1-Digest: d7jmgp5T4xdnXTAiDVYLtYKsQOw=
+
+Name: res/drawable-xhdpi/btn_code_lock_touched_candy_03.png
+SHA1-Digest: ClSIgDESxUyYmzL5pst1fKJDav4=
+
+Name: res/anim/scale_3.xml
+SHA1-Digest: iaxPw6Hsh+e+YsFgojCL7my5w04=
+
+Name: res/drawable-nodpi/spass_scan_03.png
+SHA1-Digest: JEvmfuQku6dK+KhOUi4L5O5AELY=
+
+Name: res/drawable-xhdpi/keyguard_fmm_btn_focused.9.png
+SHA1-Digest: q0LUwVAwVy0clpvUsZy2U+0/Tyc=
+
+Name: res/layout/keyguard_pin_view.xml
+SHA1-Digest: 8PuWyByxX0+9xCQgNfymNpk1QeA=
+
+Name: res/drawable-nodpi/finger_print_arrow_049.png
+SHA1-Digest: /l8Qhp5W7CwCvyTNSSq+o7cTMX8=
+
+Name: res/drawable-nodpi/highlight_dot_022.png
+SHA1-Digest: +HijsD5Vn3XQPYmOrkO/MrE9RWc=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level19.png
+SHA1-Digest: 6IX0i3A3Capl1AAy3JVN7ZqqUKw=
+
+Name: res/layout/sec_dual_clock.xml
+SHA1-Digest: M3aBeI0TQEYg4Ci/324zqxSTPV8=
+
+Name: res/drawable-xhdpi/scrubber_track_holo_light.9.png
+SHA1-Digest: z2bE+07MzFLdBErNHZD+pGCkCMo=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_009.png
+SHA1-Digest: 15fIcV26TJXQZDbzavxB9O7dOqk=
+
+Name: res/drawable-nodpi/finger_print_arrow_025.png
+SHA1-Digest: tYYsy0p3IFmFvqCEi6nPQtTSd0U=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_flare_long.png
+SHA1-Digest: sawjU7xsAwkXKB25goPeakoh7Xo=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_21.png
+SHA1-Digest: pfFHcR9AcXOM2hujHJSF8uS2QCY=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_unlock_view.xml
+SHA1-Digest: Rp9EkIEc7tx2y7K8jFNoM4Lq6Xk=
+
+Name: res/drawable-nodpi/highlight_dot_025.png
+SHA1-Digest: /p5u0dwECOXH2MhQy6CAKQpz+vg=
+
+Name: res/drawable-nodpi/spass_scan_10.png
+SHA1-Digest: qnIBW8bYskajhLAOv9s7+TKbvd8=
+
+Name: res/layout-sw800dp-xhdpi/sec_single_clock.xml
+SHA1-Digest: +8Dr/vm1mEd0hNiATjirQIw6SV4=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_22.png
+SHA1-Digest: SyuSXfmm48Boqf3J3NzpEE0U7jw=
+
+Name: res/drawable-nodpi/emergency_btn_press.9.png
+SHA1-Digest: KAtfur+cY09trKANkBCuQVD5QsQ=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level1.png
+SHA1-Digest: z97+EJxtduTIibi9m9vrTT/3B9I=
+
+Name: res/layout/keyguard_add_widget.xml
+SHA1-Digest: ZuwLgcmYSgL8wjcdnGx5LAKqSIE=
+
+Name: res/drawable-nodpi/spass_mismatch_02.png
+SHA1-Digest: 83Su4PuJ9NckHotsWPJYWC5XEZQ=
+
+Name: res/anim/keyguard_tention_animate_alpha.xml
+SHA1-Digest: TN/xtSwN54BgLleuDWJ2FFAp0zY=
+
+Name: res/drawable-sw800dp-xhdpi/sym_keyboard_return_holo.png
+SHA1-Digest: +XTunrUAysKt9yY/UY3UFAwl6DA=
+
+Name: res/drawable-xhdpi/keyguard_unlock_circle_2.png
+SHA1-Digest: x4Xzj/UWFwQCoxfyfXpJP0ESmJs=
+
+Name: res/drawable/keyguard_expand_challenge_handle_anim.xml
+SHA1-Digest: zwXBJeZgfKbDowSnfRHWv/NsbvA=
+
+Name: res/drawable-nodpi/safety_ic_standby_time02.png
+SHA1-Digest: 11tyo6DkT4dB1AHbvxQ7qZZqYgQ=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level20.png
+SHA1-Digest: bvCir1op9FFJN4IshhXUPVeP+X8=
+
+Name: res/drawable-nodpi/finger_print_arrow_048.png
+SHA1-Digest: IcN5J/t2Do0yihK13AKH93mR/UU=
+
+Name: res/drawable-sw800dp-xhdpi/kg_multi_user_notification_icon.png
+SHA1-Digest: mBORZALF9GqD3Jv2yFIPXRZMzi0=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level15.png
+SHA1-Digest: f1MsgMbEZc5vbH0bGHEGrQnlx2c=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_02.png
+SHA1-Digest: pWcTMSqpjawoMXcF84EMUeR71/g=
+
+Name: res/drawable-nodpi/highlight_dot_003.png
+SHA1-Digest: J4ZCGJOFqVHJ6w3NsrBhSk44ibA=
+
+Name: res/drawable/ic_lockscreen_soundon.xml
+SHA1-Digest: CLdQdi9TvXgLDKyT2OrF7YUOun8=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_green_candy_07
+ .png
+SHA1-Digest: 2YdTgXnZf7NoA8wDXOx57hZpPzs=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_23.png
+SHA1-Digest: 4Z5yaGW/Vtx9I8Uihnku88mZtYA=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level13.png
+SHA1-Digest: wkesFQehSqyVz0YwRQOqsg8w+7Q=
+
+Name: res/drawable-nodpi/highlight_dot_009.png
+SHA1-Digest: wYW4tABxY+KFFUfrSqIB9Ry8BbY=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_flare_ring.png
+SHA1-Digest: Bvi6uSAzj1FRvBuALkvKElm6E8I=
+
+Name: res/layout/msim_keyguard_sim_pin_view.xml
+SHA1-Digest: lrLSyVgIL1DtiimDfhDKKErvXHY=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_signature_view.xml
+SHA1-Digest: WYefPaZ2UwRkGQqbhzDUUjFEREQ=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_lockscreen_ic_cmas.png
+SHA1-Digest: GRayOTr6TeQ+65egNKp0oi5oeJU=
+
+Name: res/drawable/sec_camera_button.xml
+SHA1-Digest: sEvkPNV2xX8NP2bK5qja6mUv+4M=
+
+Name: res/drawable-nodpi/spass_mismatch_11.png
+SHA1-Digest: su8LTav2htxdJOILklCwhjaSnqQ=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_29.png
+SHA1-Digest: IUW/RgpqXqa2MfPUxaDyBi2yaZ8=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level2.png
+SHA1-Digest: ALx3Dqa0YtsPVOBBH8aAVTQDzaA=
+
+Name: res/drawable-xhdpi/clear_shortcut_ic_bg_orange_press.9.png
+SHA1-Digest: R85z1XecJXRfEj6s+vbFocXhSzI=
+
+Name: res/layout-sw800dp-xhdpi/sec_alarm.xml
+SHA1-Digest: JoUKtlQMYa3AX12au08/b8458J8=
+
+Name: res/layout/keyguard_pattern_view.xml
+SHA1-Digest: XP0OBoGBC4JgKF0LQVfZ/c8hW0Q=
+
+Name: res/drawable/keyguard_popup_under_selector.xml
+SHA1-Digest: C2fz3Dp+rHrZjRzOk5t2abt8C1A=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_13.png
+SHA1-Digest: xcnYQ7B8ZV54TT/OgNVHnJQ3mjc=
+
+Name: res/drawable-sw800dp-xhdpi/kg_bouncer_bg_white.9.png
+SHA1-Digest: Ph6KaXjzLbBbE/toI/9OfpuNCF8=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_05.png
+SHA1-Digest: GNDeSgJmafTNpirqd2GOQDrxnss=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_14.png
+SHA1-Digest: GEcSPsEs7dZRgrllsg0nzEeztzE=
+
+Name: res/drawable-sw800dp-xhdpi/unlock_delta_thumb_arrow_close_focuse
+ d.png
+SHA1-Digest: n1vU0t2hEGh4BK4eAwFhnIovd6o=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level5.png
+SHA1-Digest: JT2Qp6UzR923jYRejgDzBFXt4rU=
+
+Name: res/anim/scale_7.xml
+SHA1-Digest: wOdm3/W0IhI6WjuzNgdyCdJayT8=
+
+Name: res/drawable/lockscreen_music_widget_pause.xml
+SHA1-Digest: MkYxYLn3DwiWKO9pSdzjlOVoAkg=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level1.png
+SHA1-Digest: RXMHv326hwpzYTzszw1Tm1a2s5Q=
+
+Name: res/drawable-xhdpi/ic_lockscreen_camera_normal.png
+SHA1-Digest: tzbsRFu4VLLgVJ/CrDxKGJG1RLY=
+
+Name: res/drawable-xhdpi/kg_widget_bg_padded.9.png
+SHA1-Digest: j5aUkccUvH8NL58DpSsPtijeAdA=
+
+Name: res/drawable-nodpi/finger_print_arrow_018.png
+SHA1-Digest: sryHloi2GNM0VsnM5WkJRos1KdY=
+
+Name: res/drawable-sw800dp-xhdpi/spass_scan_01.png
+SHA1-Digest: w1P45cPZkNJpRvb5C2BkSfNxqKU=
+
+Name: res/drawable-xhdpi/lock_help_btn_nor.9.png
+SHA1-Digest: v8YlQLuc0p7Y0VzRfEq93d9bLCQ=
+
+Name: res/drawable-nodpi/spass_mismatch_03.png
+SHA1-Digest: bG0rwTC9xr3CeeisVZxzFQrnCFc=
+
+Name: res/drawable-xhdpi/keyguard_popup_upper.9.png
+SHA1-Digest: sDm1zKBstXKR5UY+YeHbrAVZdoY=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level13.png
+SHA1-Digest: NBpy1SWc9wMHS6a9Im63STFg0/A=
+
+Name: res/anim/keyguard_tention_animate_centerdot_release.xml
+SHA1-Digest: rXCrRP1AB6Hfl5VNINFUzjyZPws=
+
+Name: res/drawable-nodpi/music_control_btn_prev_normal.png
+SHA1-Digest: bcoWhiL26Io28gX72uwGJVICrTw=
+
+Name: res/drawable-sw800dp-xhdpi/spass_mismatch_06.png
+SHA1-Digest: kW5vTPeHDvTdmXGJfPIp4sUmTfM=
+
+Name: res/anim/keyguard_arrow_animation.xml
+SHA1-Digest: kNv64uasuoHxxqEQMc49pjEl37o=
+
+Name: res/drawable-nodpi/unlock_air_icon.png
+SHA1-Digest: dOxfILi6ogYb7jrWeG4vti6K3R0=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_06.png
+SHA1-Digest: D+si9Clqex7ahxEsxL/Jr878ufE=
+
+Name: res/drawable-nodpi/music_control_btn_next_normal.png
+SHA1-Digest: JBypB7Izl2NM+ZMd4yy+S1K1cCU=
+
+Name: res/drawable-nodpi/highlight_dot_031.png
+SHA1-Digest: fQn05V4B0urPSrwIoNIb4dnaM2I=
+
+Name: res/drawable-nodpi/spass_mismatch_04.png
+SHA1-Digest: f4o2ZYKq8D+oIpoPN+pzh9Mvnk4=
+
+Name: res/drawable-xhdpi/keyguard_expand_challenge_handle_anim_05.png
+SHA1-Digest: hJHO72Ot33U0Q5O2TWbkKGgrsL0=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_default_candy_
+ 05.png
+SHA1-Digest: r7pKiKhdCTZvMz2soc9HqmupjWU=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level7.png
+SHA1-Digest: +5RJHOT7C3G0w780Q1GwpPgBQjg=
+
+Name: res/drawable-nodpi/finger_print_arrow_043.png
+SHA1-Digest: HiogYbM+oR2Un9vEYSNSGdlFGW8=
+
+Name: res/drawable-nodpi/music_control_btn_pause_focused.png
+SHA1-Digest: oCmxCCYZv546owYm3cjL42zKQeg=
+
+Name: res/drawable-sw800dp-xhdpi/unlock_trip_adviser.png
+SHA1-Digest: YkasZDqKdFrzj/JDHKKmhkrpjWk=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_002.png
+SHA1-Digest: 6VuZ3RzfZ034jcXEtJXLEciQsPA=
+
+Name: res/drawable-nodpi/keyguard_carrierlockplus_unlock_btn_normal.9.
+ png
+SHA1-Digest: 29KvQg6o0exnoKBkCm3JJB5a+MY=
+
+Name: res/drawable-sw800dp-xhdpi/spass_mismatch_02.png
+SHA1-Digest: leoNSNbBi79KtL32WQ1AUkgT+v4=
+
+Name: res/drawable-nodpi/keyguard_expand_challenge_handle_anim_03.png
+SHA1-Digest: 56YtMBWz/Yo4hSY6epCDfbC49UA=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlock_circle_3.png
+SHA1-Digest: uW7xsVIwh5WT0SB32pKRFMwq9wQ=
+
+Name: res/drawable/lockscreen_emergency_button.xml
+SHA1-Digest: O5xOD+odgo2OT8uju/lJ2y3RHRw=
+
+Name: res/drawable-xhdpi/scrubber_primary_holo.9.png
+SHA1-Digest: S7C6pyGzYR+XswVLF5VX1PJIIwM=
+
+Name: res/drawable-xhdpi/keyguard_fmm_btn_default.9.png
+SHA1-Digest: OHcA0SnOApfmHCMckzFuTPIWVXM=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_default_patter
+ n.png
+SHA1-Digest: J7UioOOTVIRi1o/voyv6bs94MXE=
+
+Name: res/drawable-nodpi/spass_mismatch_12.png
+SHA1-Digest: 1tKXxtyOMQyf2+KgTsmwlgkIj34=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_17.png
+SHA1-Digest: gJt6zX9xXC7/2//WgKeqDPryyiI=
+
+Name: res/drawable-xhdpi/ic_media_play.png
+SHA1-Digest: QmxAqI3TvQhewZRr2Y0dPpGyaoM=
+
+Name: res/layout-sw800dp-port-xhdpi/keyguard_fmm_unlock_view.xml
+SHA1-Digest: 28G+Ucj/qdrAfw7tvdbxCHVtYho=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_28.png
+SHA1-Digest: 0Wj4hdFf4e/PD2d/M0vZWTBG0+E=
+
+Name: res/drawable-xhdpi/keyguard_expand_challenge_handle_anim_11.png
+SHA1-Digest: HtHKm4WVCT2gN0SjOf0W0Jl5XAc=
+
+Name: res/raw/up.ogg
+SHA1-Digest: lub6QrBnKRByGU1MtEinXOkVCr0=
+
+Name: res/drawable-nodpi/finger_print_arrow_032.png
+SHA1-Digest: 2Ie8uHIbiE71onSJxaq++1cA3v0=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_none_lock_12.png
+SHA1-Digest: 8GLBW/H+d9Ruzd91ZQY8WzOjmys=
+
+Name: res/layout-sw800dp-xhdpi/keyguard_pin_view.xml
+SHA1-Digest: nrkZkVCCQvDFGakyiXx4mHoCFhM=
+
+Name: res/raw/blind_touch.ogg
+SHA1-Digest: 41mgZ/MmstkQa778nkdlYQk8ymA=
+
+Name: res/drawable-nodpi/highlight_dot_013.png
+SHA1-Digest: GpTKD3iMPBvw1hc0J9d9slMN5pw=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_lockscreen_ic_cmas_vzw.png
+SHA1-Digest: /uw+GO/EieErtQI70OkBPdkx9yU=
+
+Name: res/drawable/keyguard_delete_drop_rollover.xml
+SHA1-Digest: FRlvRxQ50Ybwh4SI2YgAnTVJhuM=
+
+Name: res/layout/keyguard_glow_pad_view.xml
+SHA1-Digest: LGWKsUl/s8B0EtF3693HaP7r/uk=
+
+Name: res/drawable-sw800dp-xhdpi/spass_mismatch_10.png
+SHA1-Digest: xe+xtI4KBRHncvvsCsKUHNcpSDc=
+
+Name: res/drawable-nodpi/keyguard_expand_challenge_handle_anim_04.png
+SHA1-Digest: LUogPSjsGSNhEJsPcMbYwAAAsxY=
+
+Name: res/raw/particle_tap.ogg
+SHA1-Digest: +KhrVMfWESj7p6Jjz1xp6UjAcj8=
+
+Name: res/drawable-xhdpi/ic_facial_backup.png
+SHA1-Digest: hDQ+hzIUj9cprMtBoy+CMIaQtWQ=
+
+Name: res/drawable-nodpi/music_control_btn_prev_pressed.png
+SHA1-Digest: nl7hjSPb3mrUJdoamZ3DrlzYV04=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_001.png
+SHA1-Digest: 9aI3P4C+bhBwjqmLaFD8aQangpU=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level20.png
+SHA1-Digest: U76xMnzdms91va5qMzG9uRjSFzM=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level11.png
+SHA1-Digest: eFrPA4TycXUVVBRvzsdPp4OcoJA=
+
+Name: res/drawable-nodpi/finger_print_arrow_031.png
+SHA1-Digest: RZV5dPZiObWoE8YAep4wZXeDNC4=
+
+Name: res/drawable-xhdpi/scrubber_secondary_holo.9.png
+SHA1-Digest: STmcud8iGEYBh0GujtzHP2JyVGU=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_flare_vignetting.png
+SHA1-Digest: rHN81DvuBIc3HO8vEx0AY9PPT1k=
+
+Name: res/drawable-sw800dp-xhdpi/unlock_delta_thumb_arrow_focused.png
+SHA1-Digest: LQFveWb1QREkZPMO5q2cVArB9Go=
+
+Name: resources.arsc
+SHA1-Digest: edonRxBp/NBgkos9Y4E4Y+WCQnw=
+
+Name: res/drawable-nodpi/highlight_dot_019.png
+SHA1-Digest: 07b9Gp5hW4d5wTThBUuOkgjdEOM=
+
+Name: res/drawable-xhdpi/ic_alarm_small.png
+SHA1-Digest: cj/tG+BmnVuZn7M9k1vbf05mOXg=
+
+Name: res/drawable-xhdpi/sym_keyboard_return_holo.png
+SHA1-Digest: 2aId2V+KLiNzFg7a/cTt/lZG0wQ=
+
+Name: res/layout/keyguard_help_view.xml
+SHA1-Digest: jaEs4If1yhv0sZgbDcASb7/wuvQ=
+
+Name: res/drawable-xhdpi/keyguard_expand_challenge_handle_anim_09.png
+SHA1-Digest: scTIPKA8Kq38XOQ2aBkF+l7TlyI=
+
+Name: res/drawable/scrubber_progress_horizontal_holo_light.xml
+SHA1-Digest: BjCtgWjBXulSegnRT5iyyc3IJ2M=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_16.png
+SHA1-Digest: VJ2XiXyZxZRmsdt+JrgErioJDko=
+
+Name: res/drawable-xhdpi/keyguard_signature_header_divider.png
+SHA1-Digest: Es/7hCED4tbWErlPaGw5YLk11U8=
+
+Name: res/layout/spass_keyguard_host_view.xml
+SHA1-Digest: fX24ropchl/g6xFYfzC6r5sGsQs=
+
+Name: res/drawable-nodpi/highlight_dot_006.png
+SHA1-Digest: HbXEqGiREj1DuY+vR8mV/E1LGYw=
+
+Name: res/drawable-sw800dp-xhdpi/spass_mismatch_03.png
+SHA1-Digest: RaoT4TkcsyLT2U7Pf6mZaV9isLs=
+
+Name: res/drawable-nodpi/unlock_delta_thumb_frame.png
+SHA1-Digest: ay9lqaPLhuA1a2CvF6Gt//ntAdY=
+
+Name: res/drawable-nodpi/finger_print_arrow_007.png
+SHA1-Digest: sRC2UKkzL92mp5kwalID8CzIuwQ=
+
+Name: res/drawable-nodpi/music_control_btn_play_focused.png
+SHA1-Digest: aRtmO3Yfqbuqi3xX1Jgc0i7GZqY=
+
+Name: res/drawable-xhdpi/ic_lockscreen_handle_pressed.png
+SHA1-Digest: 2PJ6plICeFbKJbQQne3dfRhYlnE=
+
+Name: res/drawable-nodpi/highlight_dot_021.png
+SHA1-Digest: DZfAFt/ZRcYmlwwfzki02NfPgI4=
+
+Name: res/drawable-nodpi/finger_print_arrow_039.png
+SHA1-Digest: GI9/FC2zUz+42EYVlahnG0vPr00=
+
+Name: res/layout/sec_adaptive_event_container_big.xml
+SHA1-Digest: F32YNYs+Y/F2u0n0Ic22W5bG3lY=
+
+Name: res/drawable-xhdpi/weather_icon_s_16.png
+SHA1-Digest: rqCmO8fAdNBfSKE7gUL02QoLmpc=
+
+Name: res/drawable-nodpi/ic_facial_backup.png
+SHA1-Digest: +T7jcqBQwtZDrcJ15vCGi5PFi9w=
+
+Name: res/layout/keyguard_message_area_large.xml
+SHA1-Digest: B3EdZEpElCo0E/ITU7/0J3BDn7M=
+
+Name: res/layout/keyguard_multi_user_selector.xml
+SHA1-Digest: 2xPJbnHRSU8WuRr8jf/BDM8PIJw=
+
+Name: res/drawable-xhdpi/music_control_btn_pause_pressed.png
+SHA1-Digest: enTBmFak3w9OVvFQe0PYitokMGw=
+
+Name: res/drawable-xhdpi/keyguard_unlockscreen_lock_21.png
+SHA1-Digest: uFJxZhCI9FWx8QKLa+7Yk26/zKQ=
+
+Name: res/layout-port/keyguard_widget_pager.xml
+SHA1-Digest: OsPJdYKhVxr3kMiHhnJer0oUWOE=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_14.png
+SHA1-Digest: aDzhD2cltRcDJGkZBFApnMj26rc=
+
+Name: res/drawable-xhdpi/kg_add_widget_pressed.png
+SHA1-Digest: uq7p6pJd77k8opdPypHF4Iv2gyE=
+
+Name: res/drawable-xhdpi/keyguard_unlock_circle_arrow_1.png
+SHA1-Digest: cHtEsSZk1hZ34h/l0/PM3asJtz4=
+
+Name: res/drawable-xhdpi/lock_ic_home.png
+SHA1-Digest: VHWLnKEv6RFnppVrht8xWiBoSes=
+
+Name: res/drawable-nodpi/lock_circle_line_camera.png
+SHA1-Digest: xM/31orwoUyPkrfGMa1T6QNsmlw=
+
+Name: res/drawable-sw800dp-xhdpi/spass_scan_06.png
+SHA1-Digest: 55BdCwpRWbhYC04zTrHWwdTyOtU=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level10.png
+SHA1-Digest: fje1h1kD1CvqRzwj6+9r/4serk8=
+
+Name: res/drawable-nodpi/finger_print_arrow_042.png
+SHA1-Digest: rDByrnVSrRaLzYgJkiYo/7/Atn8=
+
+Name: res/layout/msim_keyguard_sim_puk_view.xml
+SHA1-Digest: G8XATA1AEzFn0i5bKbFQ0Fo/IME=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_18.png
+SHA1-Digest: bUA9kf1VZgTNPDOEJAttsueeXcU=
+
+Name: res/drawable-xhdpi/weather_icon_s_15.png
+SHA1-Digest: gjMPIbCp/6GNrpuJwWob81bZuNk=
+
+Name: res/drawable-nodpi/highlight_dot_014.png
+SHA1-Digest: qcsBvo+VUKyorIy1eJVkC2eT6TU=
+
+Name: res/drawable-nodpi/emergency_btn.9.png
+SHA1-Digest: D4jC2C1KVd9HEIw8wvTg7WOMY2k=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_15.png
+SHA1-Digest: TeMYb5wRDv0Ib0wnCDX2gjBv+cg=
+
+Name: res/raw/down.ogg
+SHA1-Digest: uFLl5UdSBU57UrFV73Ue4yKoKb8=
+
+Name: res/drawable-nodpi/safety_ic_standby_time07.png
+SHA1-Digest: GUa2sxCKTke2nHWAA2BUiwkoDys=
+
+Name: res/layout-sw800dp-port-xhdpi/keyguard_pattern_view.xml
+SHA1-Digest: Vcu475tYGbfWRxMKRcgJSAod+Ho=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_030.png
+SHA1-Digest: 5EOnK8FPdTwUtT2cy+ZSMoFsdVM=
+
+Name: res/drawable-nodpi/keyguard_expand_challenge_handle_anim_11.png
+SHA1-Digest: emDGS3OCBdnsgqjYgqSDwcWyn1E=
+
+Name: res/drawable-xhdpi/keyguard_none_lock_09.png
+SHA1-Digest: ZBkUqhOXAjr3J+lGbbReamNC0wE=
+
+Name: res/drawable-nodpi/highlight_dot_001.png
+SHA1-Digest: 1gv4IopqDSDwJ0oDYSuFHR+bFoI=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_green_candy_02
+ .png
+SHA1-Digest: 2gIWyhpmE1NN7gRSoaeH2UhBJGQ=
+
+Name: res/drawable-xhdpi/indicator_code_lock_point_area_default_candy_
+ 01.png
+SHA1-Digest: OF7VGFJrsZFPa26If9q2FxVn0iI=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_008.png
+SHA1-Digest: n+D2N/WFLSHvSWTp2CkXbqMTky0=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_flare_hexagon_orange.png
+SHA1-Digest: GuLB8RVSmxoshuSg9RHmSkqS1Q4=
+
+Name: res/drawable-nodpi/keyguard_lockscreen_voice_level18.png
+SHA1-Digest: ZvocJ7Nxeh47zxTEKeHTDYZhchc=
+
+Name: res/layout/keyguard_sim_pin_view.xml
+SHA1-Digest: 1hVbF5wLvXhoSFTxdN/8D9THOLk=
+
+Name: res/drawable-nodpi/safety_ic_standby_time01.png
+SHA1-Digest: calPObu7Fc2T3X6zu6h7p3QcVqo=
+
+Name: res/layout/keyguard_face_unlock_view.xml
+SHA1-Digest: yncVIGxedUaTnBbrgEXswSkIIqY=
+
+Name: res/drawable-nodpi/keyguard_expand_challenge_handle_anim_07.png
+SHA1-Digest: bKmoPSHgVyZK6g96bfF1QDclUUw=
+
+Name: res/drawable-sw800dp-xhdpi/keyguard_unlockscreen_lock_02.png
+SHA1-Digest: 9xpJ5teM/rAbqmQJoSR2FCIPpU0=
+
+Name: res/drawable-nodpi/spass_mismatch_09.png
+SHA1-Digest: Twt1CuMPSgTYxanScHYZvgElE14=
+
+Name: res/drawable-sw800dp-xhdpi/lock_ic_alarm.png
+SHA1-Digest: HyfgfK3MbK+Zj2LPQY58PzThL4Y=
+
+Name: res/raw/brilliantcut_tap.ogg
+SHA1-Digest: j/bfUjK/ZgSyj+zR7s2dtusR3GE=
+
+Name: res/drawable-sw800dp-xhdpi/kg_add_widget_disabled.png
+SHA1-Digest: BdI4Kjzjm4AiqFASIdFPbj31Dr8=
+
+Name: res/drawable-xhdpi/keyguard_lockscreen_voice_level18.png
+SHA1-Digest: qEnDYw95ZOcfm99HeNlsXPetzdo=
+
+Name: res/drawable-nodpi/finger_print_arrow_001.png
+SHA1-Digest: UZ0isdnUjO6Ey5gBQGRdvtitB/A=
+
+Name: res/drawable-nodpi/camera_swipe.png
+SHA1-Digest: +PgFMbw09rTVxA1HIaZA95HZI5A=
+
+Name: res/drawable-nodpi/music_control_btn_play_pressed.png
+SHA1-Digest: N3Eil+ehMQbrxAw768lJzvtjd98=
+
+Name: res/drawable-sw800dp-xhdpi/unlock_delta_thumb_arrow.png
+SHA1-Digest: AxO+58xYLzI95zRRRQaFCWFjAzg=
+
+Name: res/drawable-sw800dp-xhdpi/highlight_dot_025.png
+SHA1-Digest: vWChvBnQ7B3K2ADLl6xQTiBJNcA=
+
