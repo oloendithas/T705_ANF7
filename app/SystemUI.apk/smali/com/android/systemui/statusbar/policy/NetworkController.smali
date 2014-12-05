@@ -4763,11 +4763,11 @@
     invoke-interface/range {v0 .. v6}, Lcom/android/systemui/statusbar/policy/NetworkController$SignalCluster;->setNWBoosterIndicators(ZZIIILjava/lang/String;)V
 
     .line 775
-    const-string v0, "STATUSBAR-NetworkController"
+#    const-string v0, "STATUSBAR-NetworkController"
 
-    const-string v1, "refreshSignalCluster - setNWBoosterIndicators(false)"
+#    const-string v1, "refreshSignalCluster - setNWBoosterIndicators(false)"
 
-    invoke-static {v0, v1}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
+#    invoke-static {v0, v1}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_3e
 
@@ -4787,11 +4787,11 @@
     invoke-interface/range {v0 .. v6}, Lcom/android/systemui/statusbar/policy/NetworkController$SignalCluster;->setNWBoosterIndicators(ZZIIILjava/lang/String;)V
 
     .line 781
-    const-string v0, "STATUSBAR-NetworkController"
+#    const-string v0, "STATUSBAR-NetworkController"
 
-    const-string v1, "refreshSignalCluster - setNWBoosterIndicators(false)"
+#    const-string v1, "refreshSignalCluster - setNWBoosterIndicators(false)"
 
-    invoke-static {v0, v1}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
+#    invoke-static {v0, v1}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_56
 .end method
@@ -16153,41 +16153,41 @@
 
     .line 591
     :cond_cd
-    const-string v0, "STATUSBAR-NetworkController"
+#    const-string v0, "STATUSBAR-NetworkController"
 
-    new-instance v2, Ljava/lang/StringBuilder;
+#    new-instance v2, Ljava/lang/StringBuilder;
 
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+#    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v3, "refreshSignalCluster: data="
+#    const-string v3, "refreshSignalCluster: data="
 
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    move-result-object v2
+#    move-result-object v2
 
-    iget v3, p0, Lcom/android/systemui/statusbar/policy/NetworkController;->mDataState:I
+#    iget v3, p0, Lcom/android/systemui/statusbar/policy/NetworkController;->mDataState:I
 
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    move-result-object v2
+#    move-result-object v2
 
-    const-string v3, " bt="
+#    const-string v3, " bt="
 
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    move-result-object v2
+#    move-result-object v2
 
-    iget-boolean v3, p0, Lcom/android/systemui/statusbar/policy/NetworkController;->mBluetoothTethered:Z
+#    iget-boolean v3, p0, Lcom/android/systemui/statusbar/policy/NetworkController;->mBluetoothTethered:Z
 
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+#    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
-    move-result-object v2
+#    move-result-object v2
 
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    move-result-object v2
+#    move-result-object v2
 
-    invoke-static {v0, v2}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
+#    invoke-static {v0, v2}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 592
     iget v0, p0, Lcom/android/systemui/statusbar/policy/NetworkController;->mDataState:I

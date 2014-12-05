@@ -25,7 +25,7 @@
 
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-    .locals 3
+    .registers 6
     .param p1, "context"    # Landroid/content/Context;
     .param p2, "attrs"    # Landroid/util/AttributeSet;
 
@@ -75,7 +75,7 @@
 .end method
 
 .method static synthetic access$000(Lcom/android/systemui/statusbar/phone/IconMerger;)Landroid/view/View;
-    .locals 1
+    .registers 2
     .param p0, "x0"    # Lcom/android/systemui/statusbar/phone/IconMerger;
 
     .prologue
@@ -86,7 +86,7 @@
 .end method
 
 .method static synthetic access$100(Lcom/android/systemui/statusbar/phone/IconMerger;)Landroid/view/View;
-    .locals 1
+    .registers 2
     .param p0, "x0"    # Lcom/android/systemui/statusbar/phone/IconMerger;
 
     .prologue
@@ -97,7 +97,7 @@
 .end method
 
 .method static synthetic access$200(Lcom/android/systemui/statusbar/phone/IconMerger;)I
-    .locals 1
+    .registers 2
     .param p0, "x0"    # Lcom/android/systemui/statusbar/phone/IconMerger;
 
     .prologue
@@ -108,7 +108,7 @@
 .end method
 
 .method static synthetic access$300(Lcom/android/systemui/statusbar/phone/IconMerger;)Landroid/view/View;
-    .locals 1
+    .registers 2
     .param p0, "x0"    # Lcom/android/systemui/statusbar/phone/IconMerger;
 
     .prologue
@@ -119,7 +119,7 @@
 .end method
 
 .method private checkOverflow(I)V
-    .locals 9
+    .registers 11
     .param p1, "width"    # I
 
     .prologue
@@ -130,14 +130,14 @@
     .line 113
     iget-object v7, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mMoreView:Landroid/view/View;
 
-    if-nez v7, :cond_0
+    if-nez v7, :cond_7
 
     .line 149
-    :goto_0
+    :goto_6
     return-void
 
     .line 115
-    :cond_0
+    :cond_7
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v0
@@ -155,8 +155,8 @@
     const/4 v1, 0x0
 
     .local v1, "i":I
-    :goto_1
-    if-ge v1, v0, :cond_2
+    :goto_e
+    if-ge v1, v0, :cond_21
 
     .line 119
     invoke-virtual {p0, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
@@ -169,53 +169,53 @@
 
     const/16 v8, 0x8
 
-    if-eq v7, v8, :cond_1
+    if-eq v7, v8, :cond_1e
 
     add-int/lit8 v5, v5, 0x1
 
     .line 118
-    :cond_1
+    :cond_1e
     add-int/lit8 v1, v1, 0x1
 
-    goto :goto_1
+    goto :goto_e
 
     .line 121
-    :cond_2
+    :cond_21
     iget-object v7, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mMoreView:Landroid/view/View;
 
     invoke-virtual {v7}, Landroid/view/View;->getVisibility()I
 
     move-result v7
 
-    if-nez v7, :cond_5
+    if-nez v7, :cond_7a
 
     move v4, v2
 
     .line 123
     .local v4, "overflowShown":Z
-    :goto_2
-    if-eqz v4, :cond_3
+    :goto_2a
+    if-eqz v4, :cond_34
 
     invoke-virtual {p0}, Lcom/android/systemui/statusbar/phone/IconMerger;->isNeedtoRemoveOneChildren()Z
 
     move-result v7
 
-    if-eqz v7, :cond_3
+    if-eqz v7, :cond_34
 
     add-int/lit8 v5, v5, -0x1
 
     .line 124
-    :cond_3
+    :cond_34
     iget v7, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mIconSize:I
 
     mul-int/2addr v7, v5
 
-    if-le v7, p1, :cond_6
+    if-le v7, p1, :cond_7c
 
     .line 125
     .local v2, "moreRequired":Z
-    :goto_3
-    if-eq v2, v4, :cond_4
+    :goto_39
+    if-eq v2, v4, :cond_43
 
     .line 126
     new-instance v6, Lcom/android/systemui/statusbar/phone/IconMerger$1;
@@ -225,81 +225,81 @@
     invoke-virtual {p0, v6}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     .line 148
-    :cond_4
-    const-string v6, "STATUSBAR-IconMerger"
+    :cond_43
+#    const-string v6, "STATUSBAR-IconMerger"
 
-    new-instance v7, Ljava/lang/StringBuilder;
+#    new-instance v7, Ljava/lang/StringBuilder;
 
-    invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
+#    invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v8, "checkOverflow("
+#    const-string v8, "checkOverflow("
 
-    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    move-result-object v7
+#    move-result-object v7
 
-    invoke-virtual {v7, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#    invoke-virtual {v7, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    move-result-object v7
+#    move-result-object v7
 
-    const-string v8, "), More:"
+#    const-string v8, "), More:"
 
-    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    move-result-object v7
+#    move-result-object v7
 
-    invoke-virtual {v7, v4}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+#    invoke-virtual {v7, v4}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
-    move-result-object v7
+#    move-result-object v7
 
-    const-string v8, ", Req:"
+#    const-string v8, ", Req:"
 
-    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    move-result-object v7
+#    move-result-object v7
 
-    invoke-virtual {v7, v2}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+#    invoke-virtual {v7, v2}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
-    move-result-object v7
+#    move-result-object v7
 
-    const-string v8, " Child:"
+#    const-string v8, " Child:"
 
-    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    move-result-object v7
+#    move-result-object v7
 
-    invoke-virtual {v7, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#    invoke-virtual {v7, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    move-result-object v7
+#    move-result-object v7
 
-    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    move-result-object v7
+#    move-result-object v7
 
-    invoke-static {v6, v7}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
+#    invoke-static {v6, v7}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    goto :goto_0
+    goto :goto_6
 
     .end local v2    # "moreRequired":Z
     .end local v4    # "overflowShown":Z
-    :cond_5
+    :cond_7a
     move v4, v6
 
     .line 121
-    goto :goto_2
+    goto :goto_2a
 
     .restart local v4    # "overflowShown":Z
-    :cond_6
+    :cond_7c
     move v2, v6
 
     .line 124
-    goto :goto_3
+    goto :goto_39
 .end method
 
 
 # virtual methods
 .method public isNeedtoRemoveOneChildren()Z
-    .locals 3
+    .registers 4
 
     .prologue
     const/4 v0, 0x1
@@ -307,18 +307,18 @@
     .line 88
     sget-boolean v1, Lcom/android/systemui/statusbar/Feature;->mShowOperatorLogoIcon:Z
 
-    if-nez v1, :cond_1
+    if-nez v1, :cond_6
 
     .line 94
-    :cond_0
-    :goto_0
+    :cond_5
+    :goto_5
     return v0
 
     .line 91
-    :cond_1
+    :cond_6
     iget-object v1, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mOperatorLogoView:Landroid/view/View;
 
-    if-eqz v1, :cond_2
+    if-eqz v1, :cond_20
 
     iget-object v1, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mOperatorLogoView:Landroid/view/View;
 
@@ -328,29 +328,29 @@
 
     const/16 v2, 0x8
 
-    if-ne v1, v2, :cond_2
+    if-ne v1, v2, :cond_20
 
     invoke-static {}, Lcom/android/systemui/statusbar/BaseStatusBar;->getIsNetworkAvailable()Z
 
     move-result v1
 
-    if-eqz v1, :cond_0
+    if-eqz v1, :cond_5
 
     invoke-static {}, Lcom/android/systemui/statusbar/BaseStatusBar;->isSIMandOperatorMatched()Z
 
     move-result v1
 
-    if-eqz v1, :cond_0
+    if-eqz v1, :cond_5
 
     .line 94
-    :cond_2
+    :cond_20
     const/4 v0, 0x0
 
-    goto :goto_0
+    goto :goto_5
 .end method
 
 .method protected onLayout(ZIIII)V
-    .locals 1
+    .registers 7
     .param p1, "changed"    # Z
     .param p2, "l"    # I
     .param p3, "t"    # I
@@ -371,7 +371,7 @@
 .end method
 
 .method protected onMeasure(II)V
-    .locals 3
+    .registers 6
     .param p1, "widthMeasureSpec"    # I
     .param p2, "heightMeasureSpec"    # I
 
@@ -403,7 +403,7 @@
 .end method
 
 .method public setAttCarrierLabel(Landroid/view/View;)V
-    .locals 0
+    .registers 2
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
@@ -415,7 +415,7 @@
 .end method
 
 .method public setOperatorLogoIndicator(Landroid/view/View;)V
-    .locals 0
+    .registers 2
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
@@ -427,7 +427,7 @@
 .end method
 
 .method public setOverflowIndicator(Landroid/view/View;)V
-    .locals 4
+    .registers 6
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
