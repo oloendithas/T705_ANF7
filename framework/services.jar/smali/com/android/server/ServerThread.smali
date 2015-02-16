@@ -1488,23 +1488,23 @@
     invoke-static {}, Lcom/android/server/am/ActivityManagerService;->setSystemProcess()V
 
     .line 503
-    const-string v7, "SystemServer"
+#    const-string v7, "SystemServer"
 
-    const-string v9, "Entropy Mixer"
+#    const-string v9, "Entropy Mixer"
 
-    invoke-static {v7, v9}, Landroid/util/Slog;->i(Ljava/lang/String;Ljava/lang/String;)I
+#    invoke-static {v7, v9}, Landroid/util/Slog;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 504
-    const-string v7, "entropy"
+#    .line 504
+#    const-string v7, "entropy"
 
-    new-instance v9, Lcom/android/server/EntropyMixer;
+#    new-instance v9, Lcom/android/server/EntropyMixer;
 
-    invoke-direct {v9, v5}, Lcom/android/server/EntropyMixer;-><init>(Landroid/content/Context;)V
+#    invoke-direct {v9, v5}, Lcom/android/server/EntropyMixer;-><init>(Landroid/content/Context;)V
 
 #	disabled
 #    invoke-static {v7, v9}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
-    .line 506
+#    .line 506
     const-string v7, "SystemServer"
 
     const-string v9, "User Service"
